@@ -1,0 +1,18 @@
+div.fig {float:right}
+div.fig img {border:0px}
+.def {background-color:#CCF}
+li img, h3 img {padding-right:5px}
+body {background-color:#CCC}
+.last {width:100%;text-align:right}
+.left {float:left;text-align:center}
+.pad {padding-bottom:20px}
+.main {margin-left:220px;margin-right:10px}
+ul ul {padding-top:10px;padding-bottom:10px}
+.pre {border: 1px solid black;}
+pre {border-top: 1px solid black;}
+dt {font-weight:bold;}
+.toc a:link, .toc a:visited{color:#600;}
+.pic {float:left; text-align:center; width:110px; height:130px; margin:5px; font-weight:bold}
+.pic img {border:0px; width:100px; height:100px}
+.icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color: red;}
+
