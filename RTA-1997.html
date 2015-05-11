@@ -11,39 +11,65 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/rta.png" alt="Rewriting Techniques and Applications" title="Rewriting Techniques and Applications" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/rta.png" alt="Proceedings of the Eighth International Conference on Rewriting Techniques and Applications" title="Proceedings of the Eighth International Conference on Rewriting Techniques and Applications" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/RTA/1997/RTA-1997.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Hubert Comon (editors)<br/>
-	<em>Proceedings of the Eighth International Conference on Rewriting Techniques and Applications</em>.<br/>
-	RTA, 1997.
-</h2>
+<h2>Hubert Comon<br/><em>Proceedings of the Eighth International Conference on Rewriting Techniques and Applications</em><br/>RTA, 1997.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="RTA.html">RTA</a>-1997,
-	title      = "{Proceedings of the Eighth International Conference on Rewriting Techniques and Applications}",
+	<pre>@proceedings{RTA-1997,
 	booktitle  = "{RTA}",
-	year       = "1997",
-	editor     = "Hubert Comon",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "1232",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/rta/1997">conf/rta/1997</a>",
+</span>	editor     = "Hubert Comon",
 <span id="isbn">	isbn       = "3-540-62950-5",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the Eighth International Conference on Rewriting Techniques and Applications}",
+	volume     = "1232",
+	year       = "1997",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="RTA-1997-McCune.html">RTA-1997-McCune</a></dt><dd>Well-Behaved Search and the Robbins Problem (<abbr title="William McCune">WM</abbr>), pp. 1–7.</dd><dt><a href="RTA-1997-Lynch.html">RTA-1997-Lynch</a></dt><dd>Goal-Directed Completion Using SOUR Graphs (<abbr title="Christopher Lynch">CL</abbr>), pp. 8–22.</dd><dt><a href="RTA-1997-Kapur.html">RTA-1997-Kapur</a></dt><dd>Shostak's Congruence Closure as Completion (<abbr title="Deepak Kapur">DK</abbr>), pp. 23–37.</dd><dt><a href="RTA-1997-KuhlerW.html">RTA-1997-KuhlerW</a></dt><dd>Conditional Equational Specifications of Data Types with Partial Operations for Inductive Theorem Proving (<abbr title="Ulrich Kühler">UK</abbr>, <abbr title="Claus-Peter Wirth">CPW</abbr>), pp. 38–52.</dd><dt><a href="RTA-1997-OttoKK.html">RTA-1997-OttoKK</a></dt><dd>Cross-Sections for Finitely Presented Monoids with Decidable Word Problems (<abbr title="Friedrich Otto">FO</abbr>, <abbr title="Masashi Katsura">MK</abbr>, <abbr title="Yuji Kobayashi">YK</abbr>), pp. 53–67.</dd><dt><a href="RTA-1997-Sattler-Klein.html">RTA-1997-Sattler-Klein</a></dt><dd>New Undecidablility Results for Finitely Presented Monoids (<abbr title="Andrea Sattler-Klein">ASK</abbr>), pp. 68–82.</dd><dt><a href="RTA-1997-Otto.html">RTA-1997-Otto</a></dt><dd>On the Property of Preserving Regularity for String-Rewriting Systems (<abbr title="Friedrich Otto">FO</abbr>), pp. 83–97.</dd><dt><a href="RTA-1997-ContejeanMR.html">RTA-1997-ContejeanMR</a></dt><dd>Rewrite Systems for Natural, Integral, and Rational Arithmetic (<abbr title="Evelyne Contejean">EC</abbr>, <abbr title="Claude Marché">CM</abbr>, <abbr title="Landy Rabehasaina">LR</abbr>), pp. 98–112.</dd><dt><a href="RTA-1997-BachmairT.html">RTA-1997-BachmairT</a></dt><dd>D-Bases for Polynomial Ideals over Commutative Noetherian Rings (<abbr title="Leo Bachmair">LB</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 113–127.</dd><dt><a href="RTA-1997-Struth.html">RTA-1997-Struth</a></dt><dd>On the Word Problem for Free Lattices (<abbr title="Georg Struth">GS</abbr>), pp. 128–141.</dd><dt><a href="RTA-1997-KapurS.html">RTA-1997-KapurS</a></dt><dd>A Total, Ground path Ordering for Proving Termination of AC-Rewrite Systems (<abbr title="Deepak Kapur">DK</abbr>, <abbr title="G. Sivakumar">GS</abbr>), pp. 142–156.</dd><dt><a href="RTA-1997-ArtsG.html">RTA-1997-ArtsG</a></dt><dd>Proving Innermost Normalisation Automatically (<abbr title="Thomas Arts">TA</abbr>, <abbr title="Jürgen Giesl">JG</abbr>), pp. 157–171.</dd><dt><a href="RTA-1997-Zantema.html">RTA-1997-Zantema</a></dt><dd>Termination of Context-Sensitive Rewriting (<abbr title="Hans Zantema">HZ</abbr>), pp. 172–186.</dd><dt><a href="RTA-1997-OyamaguchiO.html">RTA-1997-OyamaguchiO</a></dt><dd>A New Parallel Closed Condition for Church-Rossser of Left-Linear Term Rewriting Systems (<abbr title="Michio Oyamaguchi">MO</abbr>, <abbr title="Yoshikatsu Ohta">YO</abbr>), pp. 187–201.</dd><dt><a href="RTA-1997-Dershowitz.html">RTA-1997-Dershowitz</a></dt><dd>Innocuous Constructor-Sharing Combinations (<abbr title="Nachum Dershowitz">ND</abbr>), pp. 202–216.</dd><dt><a href="RTA-1997-Perlo-FreemanP.html">RTA-1997-Perlo-FreemanP</a></dt><dd>Scott's Conjecture is True, Position Sensitive Weights (<abbr title="Samuel M. H. W. Perlo-Freeman">SMHWPF</abbr>, <abbr title="Péter Pröhle">PP</abbr>), pp. 217–227.</dd><dt><a href="RTA-1997-Lafont.html">RTA-1997-Lafont</a></dt><dd>Two-Dimensional Rewriting (<abbr title="Yves Lafont">YL</abbr>), pp. 228–229.</dd><dt><a href="RTA-1997-BechetGR.html">RTA-1997-BechetGR</a></dt><dd>A Complete Axiomatisation for the Inclusion of Series-Parallel Partial Orders (<abbr title="Denis Béchet">DB</abbr>, <abbr title="Philippe de Groote">PdG</abbr>, <abbr title="Christian Retoré">CR</abbr>), pp. 230–240.</dd><dt><a href="RTA-1997-Marcinkowski.html">RTA-1997-Marcinkowski</a></dt><dd>Undecidability of the First Order Theory of One-Step Right Ground Rewriting (<abbr title="Jerzy Marcinkowski">JM</abbr>), pp. 241–253.</dd><dt><a href="RTA-1997-Vorobyov.html">RTA-1997-Vorobyov</a></dt><dd>The First-Order Theory of One Step Rewriting in Linear Noetherian Systems is Undecidable (<abbr title="Sergei G. Vorobyov">SGV</abbr>), pp. 254–268.</dd><dt><a href="RTA-1997-TomasF.html">RTA-1997-TomasF</a></dt><dd>Solving Linear Diophantine Equations Using the Geometric Structure of the Solution Space (<abbr title="Ana Paula Tomás">APT</abbr>, <abbr title="Miguel Filgueiras">MF</abbr>), pp. 269–283.</dd><dt><a href="RTA-1997-Schulz.html">RTA-1997-Schulz</a></dt><dd>A Criterion for Intractability of E-unification with Free Function Symbols and Its Relevance for Combination Algorithms (<abbr title="Klaus U. Schulz">KUS</abbr>), pp. 284–298.</dd><dt><a href="RTA-1997-Statman.html">RTA-1997-Statman</a></dt><dd>Effective Reduction and Conversion Strategies for Combinators (<abbr title="Richard Statman">RS</abbr>), pp. 299–307.</dd><dt><a href="RTA-1997-Oostrom.html">RTA-1997-Oostrom</a></dt><dd>Finite Family Developments (<abbr title="Vincent van Oostrom">VvO</abbr>), pp. 308–322.</dd><dt><a href="RTA-1997-Ringeissen.html">RTA-1997-Ringeissen</a></dt><dd>Prototyping Combination of Unification Algorithms with the ELAN Rule-Based Programming Language (<abbr title="Christophe Ringeissen">CR</abbr>), pp. 323–326.</dd><dt><a href="RTA-1997-Gobel.html">RTA-1997-Gobel</a></dt><dd>The Invariant Package of MAS (<abbr title="Manfred Göbel">MG</abbr>), pp. 327–330.</dd><dt><a href="RTA-1997-GreenHK.html">RTA-1997-GreenHK</a></dt><dd>Opal: A System for Computing Noncommutative Gröbner Bases (<abbr title="Edward L. Green">ELG</abbr>, <abbr title="Lenwood S. Heath">LSH</abbr>, <abbr title="Benjamin J. Keller">BJK</abbr>), pp. 331–334.</dd><dt><a href="RTA-1997-OgataOF.html">RTA-1997-OgataOF</a></dt><dd>TRAM: An Abstract Machine for Order-Sorted Conditioned Term Rewriting Systems (<abbr title="Kazuhiro Ogata">KO</abbr>, <abbr title="Koichi Ohhara">KO</abbr>, <abbr title="Kokichi Futatsugi">KF</abbr>), pp. 335–338.</dd></dl>
+<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="RTA-1997-McCune.html">RTA-1997-McCune</a></dt><dd>Well-Behaved Search and the Robbins Problem (<abbr title="William McCune">WM</abbr>), pp. 1–7.</dd>
+<dt><a href="RTA-1997-Lynch.html">RTA-1997-Lynch</a></dt><dd>Goal-Directed Completion Using SOUR Graphs (<abbr title="Christopher Lynch">CL</abbr>), pp. 8–22.</dd>
+<dt><a href="RTA-1997-Kapur.html">RTA-1997-Kapur</a></dt><dd>Shostak's Congruence Closure as Completion (<abbr title="Deepak Kapur">DK</abbr>), pp. 23–37.</dd>
+<dt><a href="RTA-1997-KuhlerW.html">RTA-1997-KuhlerW</a></dt><dd>Conditional Equational Specifications of Data Types with Partial Operations for Inductive Theorem Proving (<abbr title="Ulrich Kühler">UK</abbr>, <abbr title="Claus-Peter Wirth">CPW</abbr>), pp. 38–52.</dd>
+<dt><a href="RTA-1997-OttoKK.html">RTA-1997-OttoKK</a></dt><dd>Cross-Sections for Finitely Presented Monoids with Decidable Word Problems (<abbr title="Friedrich Otto">FO</abbr>, <abbr title="Masashi Katsura">MK</abbr>, <abbr title="Yuji Kobayashi">YK</abbr>), pp. 53–67.</dd>
+<dt><a href="RTA-1997-Sattler-Klein.html">RTA-1997-Sattler-Klein</a></dt><dd>New Undecidablility Results for Finitely Presented Monoids (<abbr title="Andrea Sattler-Klein">ASK</abbr>), pp. 68–82.</dd>
+<dt><a href="RTA-1997-Otto.html">RTA-1997-Otto</a></dt><dd>On the Property of Preserving Regularity for String-Rewriting Systems (<abbr title="Friedrich Otto">FO</abbr>), pp. 83–97.</dd>
+<dt><a href="RTA-1997-ContejeanMR.html">RTA-1997-ContejeanMR</a></dt><dd>Rewrite Systems for Natural, Integral, and Rational Arithmetic (<abbr title="Evelyne Contejean">EC</abbr>, <abbr title="Claude Marché">CM</abbr>, <abbr title="Landy Rabehasaina">LR</abbr>), pp. 98–112.</dd>
+<dt><a href="RTA-1997-BachmairT.html">RTA-1997-BachmairT</a></dt><dd>D-Bases for Polynomial Ideals over Commutative Noetherian Rings (<abbr title="Leo Bachmair">LB</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 113–127.</dd>
+<dt><a href="RTA-1997-Struth.html">RTA-1997-Struth</a></dt><dd>On the Word Problem for Free Lattices (<abbr title="Georg Struth">GS</abbr>), pp. 128–141.</dd>
+<dt><a href="RTA-1997-KapurS.html">RTA-1997-KapurS</a></dt><dd>A Total, Ground path Ordering for Proving Termination of AC-Rewrite Systems (<abbr title="Deepak Kapur">DK</abbr>, <abbr title="G. Sivakumar">GS</abbr>), pp. 142–156.</dd>
+<dt><a href="RTA-1997-ArtsG.html">RTA-1997-ArtsG</a></dt><dd>Proving Innermost Normalisation Automatically (<abbr title="Thomas Arts">TA</abbr>, <abbr title="Jürgen Giesl">JG</abbr>), pp. 157–171.</dd>
+<dt><a href="RTA-1997-Zantema.html">RTA-1997-Zantema</a></dt><dd>Termination of Context-Sensitive Rewriting (<abbr title="Hans Zantema">HZ</abbr>), pp. 172–186.</dd>
+<dt><a href="RTA-1997-OyamaguchiO.html">RTA-1997-OyamaguchiO</a></dt><dd>A New Parallel Closed Condition for Church-Rossser of Left-Linear Term Rewriting Systems (<abbr title="Michio Oyamaguchi">MO</abbr>, <abbr title="Yoshikatsu Ohta">YO</abbr>), pp. 187–201.</dd>
+<dt><a href="RTA-1997-Dershowitz.html">RTA-1997-Dershowitz</a></dt><dd>Innocuous Constructor-Sharing Combinations (<abbr title="Nachum Dershowitz">ND</abbr>), pp. 202–216.</dd>
+<dt><a href="RTA-1997-Perlo-FreemanP.html">RTA-1997-Perlo-FreemanP</a></dt><dd>Scott's Conjecture is True, Position Sensitive Weights (<abbr title="Samuel M. H. W. Perlo-Freeman">SMHWPF</abbr>, <abbr title="Péter Pröhle">PP</abbr>), pp. 217–227.</dd>
+<dt><a href="RTA-1997-Lafont.html">RTA-1997-Lafont</a></dt><dd>Two-Dimensional Rewriting (<abbr title="Yves Lafont">YL</abbr>), pp. 228–229.</dd>
+<dt><a href="RTA-1997-BechetGR.html">RTA-1997-BechetGR</a></dt><dd>A Complete Axiomatisation for the Inclusion of Series-Parallel Partial Orders (<abbr title="Denis Béchet">DB</abbr>, <abbr title="Philippe de Groote">PdG</abbr>, <abbr title="Christian Retoré">CR</abbr>), pp. 230–240.</dd>
+<dt><a href="RTA-1997-Marcinkowski.html">RTA-1997-Marcinkowski</a></dt><dd>Undecidability of the First Order Theory of One-Step Right Ground Rewriting (<abbr title="Jerzy Marcinkowski">JM</abbr>), pp. 241–253.</dd>
+<dt><a href="RTA-1997-Vorobyov.html">RTA-1997-Vorobyov</a></dt><dd>The First-Order Theory of One Step Rewriting in Linear Noetherian Systems is Undecidable (<abbr title="Sergei G. Vorobyov">SGV</abbr>), pp. 254–268.</dd>
+<dt><a href="RTA-1997-TomasF.html">RTA-1997-TomasF</a></dt><dd>Solving Linear Diophantine Equations Using the Geometric Structure of the Solution Space (<abbr title="Ana Paula Tomás">APT</abbr>, <abbr title="Miguel Filgueiras">MF</abbr>), pp. 269–283.</dd>
+<dt><a href="RTA-1997-Schulz.html">RTA-1997-Schulz</a></dt><dd>A Criterion for Intractability of E-unification with Free Function Symbols and Its Relevance for Combination Algorithms (<abbr title="Klaus U. Schulz">KUS</abbr>), pp. 284–298.</dd>
+<dt><a href="RTA-1997-Statman.html">RTA-1997-Statman</a></dt><dd>Effective Reduction and Conversion Strategies for Combinators (<abbr title="Richard Statman">RS</abbr>), pp. 299–307.</dd>
+<dt><a href="RTA-1997-Oostrom.html">RTA-1997-Oostrom</a></dt><dd>Finite Family Developments (<abbr title="Vincent van Oostrom">VvO</abbr>), pp. 308–322.</dd>
+<dt><a href="RTA-1997-Ringeissen.html">RTA-1997-Ringeissen</a></dt><dd>Prototyping Combination of Unification Algorithms with the ELAN Rule-Based Programming Language (<abbr title="Christophe Ringeissen">CR</abbr>), pp. 323–326.</dd>
+<dt><a href="RTA-1997-Gobel.html">RTA-1997-Gobel</a></dt><dd>The Invariant Package of MAS (<abbr title="Manfred Göbel">MG</abbr>), pp. 327–330.</dd>
+<dt><a href="RTA-1997-GreenHK.html">RTA-1997-GreenHK</a></dt><dd>Opal: A System for Computing Noncommutative Gröbner Bases (<abbr title="Edward L. Green">ELG</abbr>, <abbr title="Lenwood S. Heath">LSH</abbr>, <abbr title="Benjamin J. Keller">BJK</abbr>), pp. 331–334.</dd>
+<dt><a href="RTA-1997-OgataOF.html">RTA-1997-OgataOF</a></dt><dd>TRAM: An Abstract Machine for Order-Sorted Conditioned Term Rewriting Systems (<abbr title="Kazuhiro Ogata">KO</abbr>, <abbr title="Koichi Ohhara">KO</abbr>, <abbr title="Kokichi Futatsugi">KF</abbr>), pp. 335–338.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

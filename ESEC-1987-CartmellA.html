@@ -11,38 +11,38 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esec.png" alt="European Software Engineering Conference" title="European Software Engineering Conference" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esec.png" alt="The Eclipse Two-Tier Database Interface" title="The Eclipse Two-Tier Database Interface" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESEC-FSE/1987/ESEC-1987/ESEC-1987-CartmellA.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	John Cartmell, Albert Alderson<br/>
-	<em>The Eclipse Two-Tier Database Interface</em>.<br/>
-	Proceedings of the First European Software Engineering Conference, 1987.
-</h2>
+<h2>John Cartmell, Albert Alderson<br/><em>The Eclipse Two-Tier Database Interface</em><br/>ESEC, 1987.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@inproceedings{<a href="ESEC-1987.html">ESEC</a>-1987-CartmellA,
+	<pre>@inproceedings{ESEC-1987-CartmellA,
 	author     = "John Cartmell and Albert Alderson",
-	title      = "{The Eclipse Two-Tier Database Interface}",
 	booktitle  = "{<span id="booktitle">Proceedings of the First European Software Engineering Conference</span>}",
-	year       = "1987",
-	editor     = "Howard K. Nichols and Dan Simpson",
-	pages      = "129--137",
-<span id="doi">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0022106">10.1007/BFb0022106</a>",
-</span>	publisher  = "{Springer}",
-<span id="isbn">	isbn       = "3-540-18712-X",
-</span>	volume     = "289",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esec/CartmellA87">conf/esec/CartmellA87</a>",
+</span><span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0022106">10.1007/BFb0022106</a>",
+</span>	editor     = "Howard K. Nichols and Dan Simpson",
+<span class="uri">	ee         = "<a href="http://dx.doi.org/10.1007/BFb0022106">http://dx.doi.org/10.1007/BFb0022106</a>",
+</span><span id="isbn">	isbn       = "3-540-18712-X",
+</span>	pages      = "129--137",
+	publisher  = "{Springer}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{The Eclipse Two-Tier Database Interface}",
+	volume     = "289",
+	year       = "1987",
 }</pre>
 </div>
 <hr/>

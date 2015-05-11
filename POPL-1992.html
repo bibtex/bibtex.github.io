@@ -11,37 +11,67 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/popl.png" alt="Principles of Programming Languages" title="Principles of Programming Languages" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/popl.png" alt="Conference Record of the 19th Annual Symposium on Principles of Programming Languages" title="Conference Record of the 19th Annual Symposium on Principles of Programming Languages" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/POPL/1992/POPL-1992.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Ravi Sethi (editors)<br/>
-	<em>Conference Record of the 19th Annual Symposium on Principles of Programming Languages</em>.<br/>
-	POPL, 1992.
-</h2>
+<h2>Ravi Sethi<br/><em>Conference Record of the 19th Annual Symposium on Principles of Programming Languages</em><br/>POPL, 1992.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="POPL.html">POPL</a>-1992,
-	title      = "{Conference Record of the 19th Annual Symposium on Principles of Programming Languages}",
+	<pre>@proceedings{POPL-1992,
 	booktitle  = "{POPL}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/popl/1992">conf/popl/1992</a>",
+</span>	editor     = "Ravi Sethi",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=143165">http://dl.acm.org/citation.cfm?id=143165</a>",
+</span><span id="isbn">	isbn       = "0-89791-453-8",
+</span>	publisher  = "{ACM Press}",
+	title      = "{Conference Record of the 19th Annual Symposium on Principles of Programming Languages}",
 	year       = "1992",
-	editor     = "Ravi Sethi",
-	publisher  = "{ACM Press}",
-<span id="isbn">	isbn       = "0-89791-453-8",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (31 items)</h3><dl class="toc"><dt><a href="POPL-1992-Wadler.html">POPL-1992-Wadler</a></dt><dd>The Essence of Functional Programming (<abbr title="Philip Wadler">PW</abbr>), pp. 1–14.</dd><dt><a href="POPL-1992-GonthierAL.html">POPL-1992-GonthierAL</a></dt><dd>The Geometry of Optimal Lambda Reduction (<abbr title="Georges Gonthier">GG</abbr>, <abbr title="Martín Abadi">MA</abbr>, <abbr title="Jean-Jacques Lévy">JJL</abbr>), pp. 15–26.</dd><dt><a href="POPL-1992-Filinski.html">POPL-1992-Filinski</a></dt><dd>Linear Continuations (<abbr title="Andrzej Filinski">AF</abbr>), pp. 27–38.</dd><dt><a href="POPL-1992-LangQP.html">POPL-1992-LangQP</a></dt><dd>Garbage Collecting the World (<abbr title="Bernard Lang">BL</abbr>, <abbr title="Christian Queinnec">CQ</abbr>, <abbr title="José M. Piquer">JMP</abbr>), pp. 39–50.</dd><dt><a href="POPL-1992-Edelson.html">POPL-1992-Edelson</a></dt><dd>A Mark-and-Sweep Collector for C++ (<abbr title="Daniel R. Edelson">DRE</abbr>), pp. 51–58.</dd><dt><a href="POPL-1992-BallL.html">POPL-1992-BallL</a></dt><dd>Optimally Profiling and Tracing Programs (<abbr title="Thomas Ball">TB</abbr>, <abbr title="James R. Larus">JRL</abbr>), pp. 59–70.</dd><dt><a href="POPL-1992-NielsonN.html">POPL-1992-NielsonN</a></dt><dd>Bounded Fixed Point Iteration (<abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>), pp. 71–82.</dd><dt><a href="POPL-1992-CousotC.html">POPL-1992-CousotC</a></dt><dd>Inductive Definitions, Semantics and Abstract Interpretation (<abbr title="Patrick Cousot">PC</abbr>, <abbr title="Radhia Cousot">RC</abbr>), pp. 83–94.</dd><dt><a href="POPL-1992-BarbutiCGL.html">POPL-1992-BarbutiCGL</a></dt><dd>Modeling Prolog Control (<abbr title="Roberto Barbuti">RB</abbr>, <abbr title="Michael Codish">MC</abbr>, <abbr title="Roberto Giacobazzi">RG</abbr>, <abbr title="Giorgio Levi">GL</abbr>), pp. 95–104.</dd><dt><a href="POPL-1992-RinardL.html">POPL-1992-RinardL</a></dt><dd>Semantic Foundations of Jade (<abbr title="Martin C. Rinard">MCR</abbr>, <abbr title="Monica S. Lam">MSL</abbr>), pp. 105–118.</dd><dt><a href="POPL-1992-BerryMT.html">POPL-1992-BerryMT</a></dt><dd>A Semantics for ML Concurrency Primitives (<abbr title="Dave Berry">DB</abbr>, <abbr title="Robin Milner">RM</abbr>, <abbr title="David N. Turner">DNT</abbr>), pp. 119–129.</dd><dt><a href="POPL-1992-ChowH.html">POPL-1992-ChowH</a></dt><dd>Compile-Time Analysis of Parallel Programs that Share Memory (<abbr title="Jyh-Herng Chow">JHC</abbr>, <abbr title="Williams Ludwell Harrison III">WLHI</abbr>), pp. 130–141.</dd><dt><a href="POPL-1992-JoungS.html">POPL-1992-JoungS</a></dt><dd>A Comprehensive Study of the Complexity of Multiparty Interaction (<abbr title="Yuh-Jzer Joung">YJJ</abbr>, <abbr title="Scott A. Smolka">SAS</abbr>), pp. 142–153.</dd><dt><a href="POPL-1992-Ohori.html">POPL-1992-Ohori</a></dt><dd>A Compilation Method for ML-Style Polymorphic Record Calculi (<abbr title="Atsushi Ohori">AO</abbr>), pp. 154–165.</dd><dt><a href="POPL-1992-Remy.html">POPL-1992-Remy</a></dt><dd>Typing Record Concatenation for Free (<abbr title="Didier Rémy">DR</abbr>), pp. 166–176.</dd><dt><a href="POPL-1992-Leroy.html">POPL-1992-Leroy</a></dt><dd>Unboxed Objects and Polymorphic Typing (<abbr title="Xavier Leroy">XL</abbr>), pp. 177–188.</dd><dt><a href="POPL-1992-Tofte.html">POPL-1992-Tofte</a></dt><dd>Principal Signatures for Higher-Order Program Modules (<abbr title="Mads Tofte">MT</abbr>), pp. 189–199.</dd><dt><a href="POPL-1992-Cosmo.html">POPL-1992-Cosmo</a></dt><dd>Type Isomorphisms in a Type-Assignment Framework (<abbr title="Roberto Di Cosmo">RDC</abbr>), pp. 200–210.</dd><dt><a href="POPL-1992-Farnum.html">POPL-1992-Farnum</a></dt><dd>Pattern-Based Tree Attribution (<abbr title="Charles Farnum">CF</abbr>), pp. 211–222.</dd><dt><a href="POPL-1992-FarrowMY.html">POPL-1992-FarrowMY</a></dt><dd>Composable Attribute Grammars: Support for Modularity in Translator Design and Implementation (<abbr title="Rodney Farrow">RF</abbr>, <abbr title="Thomas J. Marlowe">TJM</abbr>, <abbr title="Daniel M. Yellin">DMY</abbr>), pp. 223–234.</dd><dt><a href="POPL-1992-BatesL.html">POPL-1992-BatesL</a></dt><dd>Recognizing Substrings of LR(k) Languages in Linear Time (<abbr title="Joseph Bates">JB</abbr>, <abbr title="Alon Lavie">AL</abbr>), pp. 235–245.</dd><dt><a href="POPL-1992-Gupta.html">POPL-1992-Gupta</a></dt><dd>Generalized Dominators and Post-Dominators (<abbr title="Rajiv Gupta">RG</abbr>), pp. 246–257.</dd><dt><a href="POPL-1992-Jorgensen.html">POPL-1992-Jorgensen</a></dt><dd>Generating a Compiler for a Lazy Language by Partial Evaluation (<abbr title="Jesper Jørgensen">JJ</abbr>), pp. 258–268.</dd><dt><a href="POPL-1992-NirkheP.html">POPL-1992-NirkheP</a></dt><dd>Partial Evaluation of High-Level Imperative Programming Languages, with Applications in Hard Real-Time Systems (<abbr title="Vivek Nirkhe">VN</abbr>, <abbr title="William Pugh">WP</abbr>), pp. 269–280.</dd><dt><a href="POPL-1992-Ma.html">POPL-1992-Ma</a></dt><dd>Parametricity as Subtyping (<abbr title="QingMing Ma">QM</abbr>), pp. 281–292.</dd><dt><a href="POPL-1992-LincolnM.html">POPL-1992-LincolnM</a></dt><dd>Algorithmic Aspects of Type Inference with Subtypes (<abbr title="Patrick Lincoln">PL</abbr>, <abbr title="John C. Mitchell">JCM</abbr>), pp. 293–304.</dd><dt><a href="POPL-1992-Pierce.html">POPL-1992-Pierce</a></dt><dd>Bounded Quantification is Undecidable (<abbr title="Benjamin C. Pierce">BCP</abbr>), pp. 305–315.</dd><dt><a href="POPL-1992-BruceM.html">POPL-1992-BruceM</a></dt><dd>PER Models of Subtyping, Recursive Types and Higher-Order Polymorphism (<abbr title="Kim B. Bruce">KBB</abbr>, <abbr title="John C. Mitchell">JCM</abbr>), pp. 316–327.</dd><dt><a href="POPL-1992-CartwrightF.html">POPL-1992-CartwrightF</a></dt><dd>Observable Sequentiality and Full Abstraction (<abbr title="Robert Cartwright">RC</abbr>, <abbr title="Matthias Felleisen">MF</abbr>), pp. 328–342.</dd><dt><a href="POPL-1992-ClarkeGL.html">POPL-1992-ClarkeGL</a></dt><dd>Model Checking and Abstraction (<abbr title="Edmund M. Clarke">EMC</abbr>, <abbr title="Orna Grumberg">OG</abbr>, <abbr title="David E. Long">DEL</abbr>), pp. 342–354.</dd><dt><a href="POPL-1992-JagadeesanP.html">POPL-1992-JagadeesanP</a></dt><dd>Abstract Semantics for a Higher-Order Functional Language with Logic Variables (<abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Keshav Pingali">KP</abbr>), pp. 355–366.</dd></dl>
+<h3>Contents (31 items)</h3><dl class="toc"><dt><a href="POPL-1992-Wadler.html">POPL-1992-Wadler</a></dt><dd>The Essence of Functional Programming (<abbr title="Philip Wadler">PW</abbr>), pp. 1–14.</dd>
+<dt><a href="POPL-1992-GonthierAL.html">POPL-1992-GonthierAL</a></dt><dd>The Geometry of Optimal Lambda Reduction (<abbr title="Georges Gonthier">GG</abbr>, <abbr title="Martín Abadi">MA</abbr>, <abbr title="Jean-Jacques Lévy">JJL</abbr>), pp. 15–26.</dd>
+<dt><a href="POPL-1992-Filinski.html">POPL-1992-Filinski</a></dt><dd>Linear Continuations (<abbr title="Andrzej Filinski">AF</abbr>), pp. 27–38.</dd>
+<dt><a href="POPL-1992-LangQP.html">POPL-1992-LangQP</a></dt><dd>Garbage Collecting the World (<abbr title="Bernard Lang">BL</abbr>, <abbr title="Christian Queinnec">CQ</abbr>, <abbr title="José M. Piquer">JMP</abbr>), pp. 39–50.</dd>
+<dt><a href="POPL-1992-Edelson.html">POPL-1992-Edelson</a></dt><dd>A Mark-and-Sweep Collector for C++ (<abbr title="Daniel R. Edelson">DRE</abbr>), pp. 51–58.</dd>
+<dt><a href="POPL-1992-BallL.html">POPL-1992-BallL</a></dt><dd>Optimally Profiling and Tracing Programs (<abbr title="Thomas Ball">TB</abbr>, <abbr title="James R. Larus">JRL</abbr>), pp. 59–70.</dd>
+<dt><a href="POPL-1992-NielsonN.html">POPL-1992-NielsonN</a></dt><dd>Bounded Fixed Point Iteration (<abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>), pp. 71–82.</dd>
+<dt><a href="POPL-1992-CousotC.html">POPL-1992-CousotC</a></dt><dd>Inductive Definitions, Semantics and Abstract Interpretation (<abbr title="Patrick Cousot">PC</abbr>, <abbr title="Radhia Cousot">RC</abbr>), pp. 83–94.</dd>
+<dt><a href="POPL-1992-BarbutiCGL.html">POPL-1992-BarbutiCGL</a></dt><dd>Modeling Prolog Control (<abbr title="Roberto Barbuti">RB</abbr>, <abbr title="Michael Codish">MC</abbr>, <abbr title="Roberto Giacobazzi">RG</abbr>, <abbr title="Giorgio Levi">GL</abbr>), pp. 95–104.</dd>
+<dt><a href="POPL-1992-RinardL.html">POPL-1992-RinardL</a></dt><dd>Semantic Foundations of Jade (<abbr title="Martin C. Rinard">MCR</abbr>, <abbr title="Monica S. Lam">MSL</abbr>), pp. 105–118.</dd>
+<dt><a href="POPL-1992-BerryMT.html">POPL-1992-BerryMT</a></dt><dd>A Semantics for ML Concurrency Primitives (<abbr title="Dave Berry">DB</abbr>, <abbr title="Robin Milner">RM</abbr>, <abbr title="David N. Turner">DNT</abbr>), pp. 119–129.</dd>
+<dt><a href="POPL-1992-ChowH.html">POPL-1992-ChowH</a></dt><dd>Compile-Time Analysis of Parallel Programs that Share Memory (<abbr title="Jyh-Herng Chow">JHC</abbr>, <abbr title="Williams Ludwell Harrison III">WLHI</abbr>), pp. 130–141.</dd>
+<dt><a href="POPL-1992-JoungS.html">POPL-1992-JoungS</a></dt><dd>A Comprehensive Study of the Complexity of Multiparty Interaction (<abbr title="Yuh-Jzer Joung">YJJ</abbr>, <abbr title="Scott A. Smolka">SAS</abbr>), pp. 142–153.</dd>
+<dt><a href="POPL-1992-Ohori.html">POPL-1992-Ohori</a></dt><dd>A Compilation Method for ML-Style Polymorphic Record Calculi (<abbr title="Atsushi Ohori">AO</abbr>), pp. 154–165.</dd>
+<dt><a href="POPL-1992-Remy.html">POPL-1992-Remy</a></dt><dd>Typing Record Concatenation for Free (<abbr title="Didier Rémy">DR</abbr>), pp. 166–176.</dd>
+<dt><a href="POPL-1992-Leroy.html">POPL-1992-Leroy</a></dt><dd>Unboxed Objects and Polymorphic Typing (<abbr title="Xavier Leroy">XL</abbr>), pp. 177–188.</dd>
+<dt><a href="POPL-1992-Tofte.html">POPL-1992-Tofte</a></dt><dd>Principal Signatures for Higher-Order Program Modules (<abbr title="Mads Tofte">MT</abbr>), pp. 189–199.</dd>
+<dt><a href="POPL-1992-Cosmo.html">POPL-1992-Cosmo</a></dt><dd>Type Isomorphisms in a Type-Assignment Framework (<abbr title="Roberto Di Cosmo">RDC</abbr>), pp. 200–210.</dd>
+<dt><a href="POPL-1992-Farnum.html">POPL-1992-Farnum</a></dt><dd>Pattern-Based Tree Attribution (<abbr title="Charles Farnum">CF</abbr>), pp. 211–222.</dd>
+<dt><a href="POPL-1992-FarrowMY.html">POPL-1992-FarrowMY</a></dt><dd>Composable Attribute Grammars: Support for Modularity in Translator Design and Implementation (<abbr title="Rodney Farrow">RF</abbr>, <abbr title="Thomas J. Marlowe">TJM</abbr>, <abbr title="Daniel M. Yellin">DMY</abbr>), pp. 223–234.</dd>
+<dt><a href="POPL-1992-BatesL.html">POPL-1992-BatesL</a></dt><dd>Recognizing Substrings of LR(k) Languages in Linear Time (<abbr title="Joseph Bates">JB</abbr>, <abbr title="Alon Lavie">AL</abbr>), pp. 235–245.</dd>
+<dt><a href="POPL-1992-Gupta.html">POPL-1992-Gupta</a></dt><dd>Generalized Dominators and Post-Dominators (<abbr title="Rajiv Gupta">RG</abbr>), pp. 246–257.</dd>
+<dt><a href="POPL-1992-Jorgensen.html">POPL-1992-Jorgensen</a></dt><dd>Generating a Compiler for a Lazy Language by Partial Evaluation (<abbr title="Jesper Jørgensen">JJ</abbr>), pp. 258–268.</dd>
+<dt><a href="POPL-1992-NirkheP.html">POPL-1992-NirkheP</a></dt><dd>Partial Evaluation of High-Level Imperative Programming Languages, with Applications in Hard Real-Time Systems (<abbr title="Vivek Nirkhe">VN</abbr>, <abbr title="William Pugh">WP</abbr>), pp. 269–280.</dd>
+<dt><a href="POPL-1992-Ma.html">POPL-1992-Ma</a></dt><dd>Parametricity as Subtyping (<abbr title="QingMing Ma">QM</abbr>), pp. 281–292.</dd>
+<dt><a href="POPL-1992-LincolnM.html">POPL-1992-LincolnM</a></dt><dd>Algorithmic Aspects of Type Inference with Subtypes (<abbr title="Patrick Lincoln">PL</abbr>, <abbr title="John C. Mitchell">JCM</abbr>), pp. 293–304.</dd>
+<dt><a href="POPL-1992-Pierce.html">POPL-1992-Pierce</a></dt><dd>Bounded Quantification is Undecidable (<abbr title="Benjamin C. Pierce">BCP</abbr>), pp. 305–315.</dd>
+<dt><a href="POPL-1992-BruceM.html">POPL-1992-BruceM</a></dt><dd>PER Models of Subtyping, Recursive Types and Higher-Order Polymorphism (<abbr title="Kim B. Bruce">KBB</abbr>, <abbr title="John C. Mitchell">JCM</abbr>), pp. 316–327.</dd>
+<dt><a href="POPL-1992-CartwrightF.html">POPL-1992-CartwrightF</a></dt><dd>Observable Sequentiality and Full Abstraction (<abbr title="Robert Cartwright">RC</abbr>, <abbr title="Matthias Felleisen">MF</abbr>), pp. 328–342.</dd>
+<dt><a href="POPL-1992-ClarkeGL.html">POPL-1992-ClarkeGL</a></dt><dd>Model Checking and Abstraction (<abbr title="Edmund M. Clarke">EMC</abbr>, <abbr title="Orna Grumberg">OG</abbr>, <abbr title="David E. Long">DEL</abbr>), pp. 342–354.</dd>
+<dt><a href="POPL-1992-JagadeesanP.html">POPL-1992-JagadeesanP</a></dt><dd>Abstract Semantics for a Higher-Order Functional Language with Logic Variables (<abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Keshav Pingali">KP</abbr>), pp. 355–366.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

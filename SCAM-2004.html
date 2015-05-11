@@ -11,36 +11,51 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/scam.png" alt="Source Code Analysis and Manipulation" title="Source Code Analysis and Manipulation" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/scam.png" alt="Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation" title="Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SCAM/2004/SCAM-2004.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	<br/>
-	<em>Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation</em>.<br/>
-	SCAM, 2004.
-</h2>
+<h2><br/><em>Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation</em><br/>SCAM, 2004.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="SCAM.html">SCAM</a>-2004,
-	title      = "{Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation}",
+	<pre>@proceedings{SCAM-2004,
 	booktitle  = "{SCAM}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/scam/2004">conf/scam/2004</a>",
+</span><span id="isbn">	isbn       = "0-7695-2144-4",
+</span>	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
+	title      = "{Proceedings of the Fourth International Workshop on Source Code Analysis and Manipulation}",
 	year       = "2004",
-	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
-<span id="isbn">	isbn       = "0-7695-2144-4",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (17 items)</h3><dl class="toc"><dt><a href="SCAM-2004-Rothermel.html">SCAM-2004-Rothermel</a></dt><dd>Using Source-Code Analysis to Help End-User Programmers Create Dependable Software (<abbr title="Gregg Rothermel">GR</abbr>), pp. 3–3.</dd><dt><a href="SCAM-2004-SuWHM.html">SCAM-2004-SuWHM</a></dt><dd>Software De-Pipelining Technique (<abbr title="Bogong Su">BS</abbr>, <abbr title="Jian Wang">JW</abbr>, <abbr title="Erh-Wen Hu">EWH</abbr>, <abbr title="Joseph Manzano">JM</abbr>), pp. 7–16.</dd><dt><a href="SCAM-2004-LakhotiaK.html">SCAM-2004-LakhotiaK</a></dt><dd>Abstracting Stack to Detect Obfuscated Calls in Binaries (<abbr title="Arun Lakhotia">AL</abbr>, <abbr title="Eric Uday Kumar">EUK</abbr>), pp. 17–26.</dd><dt><a href="SCAM-2004-Krinke.html">SCAM-2004-Krinke</a></dt><dd>Context-Sensitivity Matters, But Context Does Not (<abbr title="Jens Krinke">JK</abbr>), pp. 29–35.</dd><dt><a href="SCAM-2004-Gallagher.html">SCAM-2004-Gallagher</a></dt><dd>Some Notes on Interprocedural Program Slicing (<abbr title="Keith Brian Gallagher">KBG</abbr>), pp. 36–42.</dd><dt><a href="SCAM-2004-BinkleyDGHKO.html">SCAM-2004-BinkleyDGHKO</a></dt><dd>Formalizing Executable Dynamic and Forward Slicing (<abbr title="David Binkley">DB</abbr>, <abbr title="Sebastian Danicic">SD</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Ákos Kiss 0001">ÁK</abbr>, <abbr title="Lahcen Ouarbya">LO</abbr>), pp. 43–52.</dd><dt><a href="SCAM-2004-NaumannULF.html">SCAM-2004-NaumannULF</a></dt><dd>Control Flow Reversal for Adjoint Code Generation (<abbr title="Uwe Naumann">UN</abbr>, <abbr title="Jean Utke">JU</abbr>, <abbr title="Andrew Lyons">AL</abbr>, <abbr title="Michael W. Fagan">MWF</abbr>), pp. 55–64.</dd><dt><a href="SCAM-2004-FatiregunHH.html">SCAM-2004-FatiregunHH</a></dt><dd>Evolving Transformation Sequences using Genetic Algorithms (<abbr title="Deji Fatiregun">DF</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Robert M. Hierons">RMH</abbr>), pp. 66–75.</dd><dt><a href="SCAM-2004-XuLZS.html">SCAM-2004-XuLZS</a></dt><dd>Program Restructuring Through Clustering Techniques (<abbr title="Xia Xu">XX</abbr>, <abbr title="Chung-Horng Lung">CHL</abbr>, <abbr title="Marzia Zaman">MZ</abbr>, <abbr title="Anand Srinivasan">AS</abbr>), pp. 75–84.</dd><dt><a href="SCAM-2004-HarmanBSH.html">SCAM-2004-HarmanBSH</a></dt><dd>Amorphous Procedure Extraction (<abbr title="Mark Harman">MH</abbr>, <abbr title="David Binkley">DB</abbr>, <abbr title="Ranjit Singh">RS</abbr>, <abbr title="Robert M. Hierons">RMH</abbr>), pp. 85–94.</dd><dt><a href="SCAM-2004-TourweM.html">SCAM-2004-TourweM</a></dt><dd>Mining Aspectual Views using Formal Concept Analysis (<abbr title="Tom Tourwé">TT</abbr>, <abbr title="Kim Mens">KM</abbr>), pp. 97–106.</dd><dt><a href="SCAM-2004-CeccatoT.html">SCAM-2004-CeccatoT</a></dt><dd>Adding Distribution to Existing Applications by Means of Aspect Oriented Programming (<abbr title="Mariano Ceccato">MC</abbr>, <abbr title="Paolo Tonella">PT</abbr>), pp. 107–116.</dd><dt><a href="SCAM-2004-HouHR.html">SCAM-2004-HouHR</a></dt><dd>Specifying the Law of Demeter and C++ Programming Guidelines with FCL (<abbr title="Daqing Hou">DH</abbr>, <abbr title="H. James Hoover">HJH</abbr>, <abbr title="Piotr Rudnicki">PR</abbr>), pp. 119–127.</dd><dt><a href="SCAM-2004-WahlerSGF.html">SCAM-2004-WahlerSGF</a></dt><dd>Clone Detection in Source Code by Frequent Itemset Techniques (<abbr title="Vera Wahler">VW</abbr>, <abbr title="Dietmar Seipel">DS</abbr>, <abbr title="Jürgen Wolff von Gudenberg">JWvG</abbr>, <abbr title="Gregor Fischer">GF</abbr>), pp. 128–135.</dd><dt><a href="SCAM-2004-BruntinkD.html">SCAM-2004-BruntinkD</a></dt><dd>Predicting Class Testability using Object-Oriented Metrics (<abbr title="Magiel Bruntink">MB</abbr>, <abbr title="Arie van Deursen">AvD</abbr>), pp. 136–145.</dd><dt><a href="SCAM-2004-RoblesG.html">SCAM-2004-RoblesG</a></dt><dd>Executable Source Code and Non-Executable Source Code: Analysis and Relationships (<abbr title="Gregorio Robles">GR</abbr>, <abbr title="Jesús M. González-Barahona">JMGB</abbr>), pp. 149–157.</dd><dt><a href="SCAM-2004-MaruyamaY.html">SCAM-2004-MaruyamaY</a></dt><dd>A CASE Tool Platform Using an XML Representation of Java Source Code (<abbr title="Katsuhisa Maruyama">KM</abbr>, <abbr title="Shinichiro Yamamoto">SY</abbr>), pp. 158–167.</dd></dl>
+<h3>Contents (17 items)</h3><dl class="toc"><dt><a href="SCAM-2004-Rothermel.html">SCAM-2004-Rothermel</a></dt><dd>Using Source-Code Analysis to Help End-User Programmers Create Dependable Software (<abbr title="Gregg Rothermel">GR</abbr>), p. 3.</dd>
+<dt><a href="SCAM-2004-SuWHM.html">SCAM-2004-SuWHM</a></dt><dd>Software De-Pipelining Technique (<abbr title="Bogong Su">BS</abbr>, <abbr title="Jian Wang">JW</abbr>, <abbr title="Erh-Wen Hu">EWH</abbr>, <abbr title="Joseph Manzano">JM</abbr>), pp. 7–16.</dd>
+<dt><a href="SCAM-2004-LakhotiaK.html">SCAM-2004-LakhotiaK</a></dt><dd>Abstracting Stack to Detect Obfuscated Calls in Binaries (<abbr title="Arun Lakhotia">AL</abbr>, <abbr title="Eric Uday Kumar">EUK</abbr>), pp. 17–26.</dd>
+<dt><a href="SCAM-2004-Krinke.html">SCAM-2004-Krinke</a></dt><dd>Context-Sensitivity Matters, But Context Does Not (<abbr title="Jens Krinke">JK</abbr>), pp. 29–35.</dd>
+<dt><a href="SCAM-2004-Gallagher.html">SCAM-2004-Gallagher</a></dt><dd>Some Notes on Interprocedural Program Slicing (<abbr title="Keith Brian Gallagher">KBG</abbr>), pp. 36–42.</dd>
+<dt><a href="SCAM-2004-BinkleyDGHKO.html">SCAM-2004-BinkleyDGHKO</a></dt><dd>Formalizing Executable Dynamic and Forward Slicing (<abbr title="David Binkley">DB</abbr>, <abbr title="Sebastian Danicic">SD</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Ákos Kiss 0001">ÁK0</abbr>, <abbr title="Lahcen Ouarbya">LO</abbr>), pp. 43–52.</dd>
+<dt><a href="SCAM-2004-NaumannULF.html">SCAM-2004-NaumannULF</a></dt><dd>Control Flow Reversal for Adjoint Code Generation (<abbr title="Uwe Naumann">UN</abbr>, <abbr title="Jean Utke">JU</abbr>, <abbr title="Andrew Lyons">AL</abbr>, <abbr title="Michael W. Fagan">MWF</abbr>), pp. 55–64.</dd>
+<dt><a href="SCAM-2004-FatiregunHH.html">SCAM-2004-FatiregunHH</a></dt><dd>Evolving Transformation Sequences using Genetic Algorithms (<abbr title="Deji Fatiregun">DF</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Robert M. Hierons">RMH</abbr>), pp. 66–75.</dd>
+<dt><a href="SCAM-2004-XuLZS.html">SCAM-2004-XuLZS</a></dt><dd>Program Restructuring Through Clustering Techniques (<abbr title="Xia Xu">XX</abbr>, <abbr title="Chung-Horng Lung">CHL</abbr>, <abbr title="Marzia Zaman">MZ</abbr>, <abbr title="Anand Srinivasan">AS</abbr>), pp. 75–84.</dd>
+<dt><a href="SCAM-2004-HarmanBSH.html">SCAM-2004-HarmanBSH</a></dt><dd>Amorphous Procedure Extraction (<abbr title="Mark Harman">MH</abbr>, <abbr title="David Binkley">DB</abbr>, <abbr title="Ranjit Singh">RS</abbr>, <abbr title="Robert M. Hierons">RMH</abbr>), pp. 85–94.</dd>
+<dt><a href="SCAM-2004-TourweM.html">SCAM-2004-TourweM</a></dt><dd>Mining Aspectual Views using Formal Concept Analysis (<abbr title="Tom Tourwé">TT</abbr>, <abbr title="Kim Mens">KM</abbr>), pp. 97–106.</dd>
+<dt><a href="SCAM-2004-CeccatoT.html">SCAM-2004-CeccatoT</a></dt><dd>Adding Distribution to Existing Applications by Means of Aspect Oriented Programming (<abbr title="Mariano Ceccato">MC</abbr>, <abbr title="Paolo Tonella">PT</abbr>), pp. 107–116.</dd>
+<dt><a href="SCAM-2004-HouHR.html">SCAM-2004-HouHR</a></dt><dd>Specifying the Law of Demeter and C++ Programming Guidelines with FCL (<abbr title="Daqing Hou">DH</abbr>, <abbr title="H. James Hoover">HJH</abbr>, <abbr title="Piotr Rudnicki">PR</abbr>), pp. 119–127.</dd>
+<dt><a href="SCAM-2004-WahlerSGF.html">SCAM-2004-WahlerSGF</a></dt><dd>Clone Detection in Source Code by Frequent Itemset Techniques (<abbr title="Vera Wahler">VW</abbr>, <abbr title="Dietmar Seipel">DS</abbr>, <abbr title="Jürgen Wolff von Gudenberg">JWvG</abbr>, <abbr title="Gregor Fischer">GF</abbr>), pp. 128–135.</dd>
+<dt><a href="SCAM-2004-BruntinkD.html">SCAM-2004-BruntinkD</a></dt><dd>Predicting Class Testability using Object-Oriented Metrics (<abbr title="Magiel Bruntink">MB</abbr>, <abbr title="Arie van Deursen">AvD</abbr>), pp. 136–145.</dd>
+<dt><a href="SCAM-2004-RoblesG.html">SCAM-2004-RoblesG</a></dt><dd>Executable Source Code and Non-Executable Source Code: Analysis and Relationships (<abbr title="Gregorio Robles">GR</abbr>, <abbr title="Jesús M. González-Barahona">JMGB</abbr>), pp. 149–157.</dd>
+<dt><a href="SCAM-2004-MaruyamaY.html">SCAM-2004-MaruyamaY</a></dt><dd>A CASE Tool Platform Using an XML Representation of Java Source Code (<abbr title="Katsuhisa Maruyama">KM</abbr>, <abbr title="Shinichiro Yamamoto">SY</abbr>), pp. 158–167.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

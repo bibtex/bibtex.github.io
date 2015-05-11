@@ -11,36 +11,57 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/popl.png" alt="Principles of Programming Languages" title="Principles of Programming Languages" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/popl.png" alt="Conference Record of the Second Symposium on Principles of Programming Languages" title="Conference Record of the Second Symposium on Principles of Programming Languages" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/POPL/1975/POPL-1975.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Robert M. Graham, Michael A. Harrison, John C. Reynolds (editors)<br/>
-	<em>Conference Record of the Second Symposium on Principles of Programming Languages</em>.<br/>
-	POPL, 1975.
-</h2>
+<h2>Robert M. Graham, Michael A. Harrison, John C. Reynolds<br/><em>Conference Record of the Second Symposium on Principles of Programming Languages</em><br/>POPL, 1975.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="POPL.html">POPL</a>-1975,
-	title      = "{Conference Record of the Second Symposium on Principles of Programming Languages}",
+	<pre>@proceedings{POPL-1975,
 	booktitle  = "{POPL}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/popl/1975">conf/popl/1975</a>",
+</span>	editor     = "Robert M. Graham and Michael A. Harrison and John C. Reynolds",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=512976">http://dl.acm.org/citation.cfm?id=512976</a>",
+</span>	publisher  = "{ACM Press}",
+	title      = "{Conference Record of the Second Symposium on Principles of Programming Languages}",
 	year       = "1975",
-	editor     = "Robert M. Graham and Michael A. Harrison and John C. Reynolds",
-	publisher  = "{ACM Press}",
 }</pre>
 </div>
 <hr/>
-<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="POPL-1975-FongKU.html">POPL-1975-FongKU</a></dt><dd>Application of Lattice Algebra to Loop Optimization (<abbr title="Amelia C. Fong">ACF</abbr>, <abbr title="John B. Kam">JBK</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 1–9.</dd><dt><a href="POPL-1975-Kennedy.html">POPL-1975-Kennedy</a></dt><dd>Node Listings Applied to Data Flow Analysis (<abbr title="Ken Kennedy">KK</abbr>), pp. 10–21.</dd><dt><a href="POPL-1975-GrahamW.html">POPL-1975-GrahamW</a></dt><dd>A Fast and Usually Linear Algorithm for Global Flow Analysis (<abbr title="Susan L. Graham">SLG</abbr>, <abbr title="Mark N. Wegman">MNW</abbr>), pp. 22–34.</dd><dt><a href="POPL-1975-Schwartz.html">POPL-1975-Schwartz</a></dt><dd>Automatic Data Structure Choice in a Language of Very High Level (<abbr title="Jacob T. Schwartz">JTS</abbr>), pp. 36–40.</dd><dt><a href="POPL-1975-Ligler.html">POPL-1975-Ligler</a></dt><dd>A Mathematical Approach to Language Design (<abbr title="George T. Ligler">GTL</abbr>), pp. 41–53.</dd><dt><a href="POPL-1975-Gerhart.html">POPL-1975-Gerhart</a></dt><dd>Correctness-Preserving Program Transformations (<abbr title="Susan L. Gerhart">SLG</abbr>), pp. 54–66.</dd><dt><a href="POPL-1975-GreifH.html">POPL-1975-GreifH</a></dt><dd>Actor Semantics of Planner-73 (<abbr title="Irene Greif">IG</abbr>, <abbr title="Carl Hewitt">CH</abbr>), pp. 67–77.</dd><dt><a href="POPL-1975-Lipton.html">POPL-1975-Lipton</a></dt><dd>Reduction: A New Method of Proving Properties of Systems of Processes (<abbr title="Richard J. Lipton">RJL</abbr>), pp. 78–86.</dd><dt><a href="POPL-1975-Cohen.html">POPL-1975-Cohen</a></dt><dd>A Semantic Model for Parallel Systems with Scheduling (<abbr title="Ellis S. Cohen">ESC</abbr>), pp. 87–94.</dd><dt><a href="POPL-1975-LauerC.html">POPL-1975-LauerC</a></dt><dd>A Description of Path Expressions by Petri Nets (<abbr title="Peter E. Lauer">PEL</abbr>, <abbr title="Roy H. Campbell">RHC</abbr>), pp. 95–105.</dd><dt><a href="POPL-1975-JonesM.html">POPL-1975-JonesM</a></dt><dd>Even Simple Programs are Hard to Analyze (<abbr title="Neil D. Jones">NDJ</abbr>, <abbr title="Steven S. Muchnick">SSM</abbr>), pp. 106–118.</dd><dt><a href="POPL-1975-JazayeriOR.html">POPL-1975-JazayeriOR</a></dt><dd>On the Complexity of the Circularity Test for Attribute Grammars (<abbr title="Mehdi Jazayeri">MJ</abbr>, <abbr title="William F. Ogden">WFO</abbr>, <abbr title="William C. Rounds">WCR</abbr>), pp. 119–129.</dd><dt><a href="POPL-1975-HuntSU.html">POPL-1975-HuntSU</a></dt><dd>On the Complexity of LR(k) Testing (<abbr title="Harry B. Hunt III">HBHI</abbr>, <abbr title="Thomas G. Szymanski">TGS</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 130–136.</dd><dt><a href="POPL-1975-Naur.html">POPL-1975-Naur</a></dt><dd>Programming Languages, Natural Languages, and Mathematics (<abbr title="Peter Naur">PN</abbr>), pp. 137–148.</dd><dt><a href="POPL-1975-Solomon.html">POPL-1975-Solomon</a></dt><dd>Modes, Values, and Expressions (<abbr title="Marvin H. Solomon">MHS</abbr>), pp. 149–159.</dd><dt><a href="POPL-1975-CookO.html">POPL-1975-CookO</a></dt><dd>An Assertion Language for Data Structures (<abbr title="Stephen A. Cook">SAC</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 160–166.</dd><dt><a href="POPL-1975-Stewart.html">POPL-1975-Stewart</a></dt><dd>An Algebraic Model for String Patterns (<abbr title="Glenn F. Stewart">GFS</abbr>), pp. 167–184.</dd><dt><a href="POPL-1975-Lester.html">POPL-1975-Lester</a></dt><dd>Program Schemas with Concurrency: Execution Time and Hangups (<abbr title="Bruce P. Lester">BPL</abbr>), pp. 185–193.</dd><dt><a href="POPL-1975-Symes.html">POPL-1975-Symes</a></dt><dd>New Control Structures to Aid Gotolessness (<abbr title="D. M. Symes">DMS</abbr>), pp. 194–203.</dd><dt><a href="POPL-1975-Goodenough.html">POPL-1975-Goodenough</a></dt><dd>Structured Exception Handling (<abbr title="John B. Goodenough">JBG</abbr>), pp. 204–224.</dd><dt><a href="POPL-1975-HallHT.html">POPL-1975-HallHT</a></dt><dd>An Algebra of Relations for Machine Computation (<abbr title="Patrick A. V. Hall">PAVH</abbr>, <abbr title="Peter Hitchcock">PH</abbr>, <abbr title="Stephen Todd">ST</abbr>), pp. 225–232.</dd><dt><a href="POPL-1975-Mikelsons.html">POPL-1975-Mikelsons</a></dt><dd>Computer Assisted Application Definition (<abbr title="Martin Mikelsons">MM</abbr>), pp. 233–242.</dd></dl>
+<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="POPL-1975-FongKU.html">POPL-1975-FongKU</a></dt><dd>Application of Lattice Algebra to Loop Optimization (<abbr title="Amelia C. Fong">ACF</abbr>, <abbr title="John B. Kam">JBK</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 1–9.</dd>
+<dt><a href="POPL-1975-Kennedy.html">POPL-1975-Kennedy</a></dt><dd>Node Listings Applied to Data Flow Analysis (<abbr title="Ken Kennedy">KK</abbr>), pp. 10–21.</dd>
+<dt><a href="POPL-1975-GrahamW.html">POPL-1975-GrahamW</a></dt><dd>A Fast and Usually Linear Algorithm for Global Flow Analysis (<abbr title="Susan L. Graham">SLG</abbr>, <abbr title="Mark N. Wegman">MNW</abbr>), pp. 22–34.</dd>
+<dt><a href="POPL-1975-Schwartz.html">POPL-1975-Schwartz</a></dt><dd>Automatic Data Structure Choice in a Language of Very High Level (<abbr title="Jacob T. Schwartz">JTS</abbr>), pp. 36–40.</dd>
+<dt><a href="POPL-1975-Ligler.html">POPL-1975-Ligler</a></dt><dd>A Mathematical Approach to Language Design (<abbr title="George T. Ligler">GTL</abbr>), pp. 41–53.</dd>
+<dt><a href="POPL-1975-Gerhart.html">POPL-1975-Gerhart</a></dt><dd>Correctness-Preserving Program Transformations (<abbr title="Susan L. Gerhart">SLG</abbr>), pp. 54–66.</dd>
+<dt><a href="POPL-1975-GreifH.html">POPL-1975-GreifH</a></dt><dd>Actor Semantics of Planner-73 (<abbr title="Irene Greif">IG</abbr>, <abbr title="Carl Hewitt">CH</abbr>), pp. 67–77.</dd>
+<dt><a href="POPL-1975-Lipton.html">POPL-1975-Lipton</a></dt><dd>Reduction: A New Method of Proving Properties of Systems of Processes (<abbr title="Richard J. Lipton">RJL</abbr>), pp. 78–86.</dd>
+<dt><a href="POPL-1975-Cohen.html">POPL-1975-Cohen</a></dt><dd>A Semantic Model for Parallel Systems with Scheduling (<abbr title="Ellis S. Cohen">ESC</abbr>), pp. 87–94.</dd>
+<dt><a href="POPL-1975-LauerC.html">POPL-1975-LauerC</a></dt><dd>A Description of Path Expressions by Petri Nets (<abbr title="Peter E. Lauer">PEL</abbr>, <abbr title="Roy H. Campbell">RHC</abbr>), pp. 95–105.</dd>
+<dt><a href="POPL-1975-JonesM.html">POPL-1975-JonesM</a></dt><dd>Even Simple Programs are Hard to Analyze (<abbr title="Neil D. Jones">NDJ</abbr>, <abbr title="Steven S. Muchnick">SSM</abbr>), pp. 106–118.</dd>
+<dt><a href="POPL-1975-JazayeriOR.html">POPL-1975-JazayeriOR</a></dt><dd>On the Complexity of the Circularity Test for Attribute Grammars (<abbr title="Mehdi Jazayeri">MJ</abbr>, <abbr title="William F. Ogden">WFO</abbr>, <abbr title="William C. Rounds">WCR</abbr>), pp. 119–129.</dd>
+<dt><a href="POPL-1975-HuntSU.html">POPL-1975-HuntSU</a></dt><dd>On the Complexity of LR(k) Testing (<abbr title="Harry B. Hunt III">HBHI</abbr>, <abbr title="Thomas G. Szymanski">TGS</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 130–136.</dd>
+<dt><a href="POPL-1975-Naur.html">POPL-1975-Naur</a></dt><dd>Programming Languages, Natural Languages, and Mathematics (<abbr title="Peter Naur">PN</abbr>), pp. 137–148.</dd>
+<dt><a href="POPL-1975-Solomon.html">POPL-1975-Solomon</a></dt><dd>Modes, Values, and Expressions (<abbr title="Marvin H. Solomon">MHS</abbr>), pp. 149–159.</dd>
+<dt><a href="POPL-1975-CookO.html">POPL-1975-CookO</a></dt><dd>An Assertion Language for Data Structures (<abbr title="Stephen A. Cook">SAC</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 160–166.</dd>
+<dt><a href="POPL-1975-Stewart.html">POPL-1975-Stewart</a></dt><dd>An Algebraic Model for String Patterns (<abbr title="Glenn F. Stewart">GFS</abbr>), pp. 167–184.</dd>
+<dt><a href="POPL-1975-Lester.html">POPL-1975-Lester</a></dt><dd>Program Schemas with Concurrency: Execution Time and Hangups (<abbr title="Bruce P. Lester">BPL</abbr>), pp. 185–193.</dd>
+<dt><a href="POPL-1975-Symes.html">POPL-1975-Symes</a></dt><dd>New Control Structures to Aid Gotolessness (<abbr title="D. M. Symes">DMS</abbr>), pp. 194–203.</dd>
+<dt><a href="POPL-1975-Goodenough.html">POPL-1975-Goodenough</a></dt><dd>Structured Exception Handling (<abbr title="John B. Goodenough">JBG</abbr>), pp. 204–224.</dd>
+<dt><a href="POPL-1975-HallHT.html">POPL-1975-HallHT</a></dt><dd>An Algebra of Relations for Machine Computation (<abbr title="Patrick A. V. Hall">PAVH</abbr>, <abbr title="Peter Hitchcock">PH</abbr>, <abbr title="Stephen Todd">ST</abbr>), pp. 225–232.</dd>
+<dt><a href="POPL-1975-Mikelsons.html">POPL-1975-Mikelsons</a></dt><dd>Computer Assisted Application Definition (<abbr title="Martin Mikelsons">MM</abbr>), pp. 233–242.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

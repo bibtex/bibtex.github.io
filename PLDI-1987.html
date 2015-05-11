@@ -11,37 +11,66 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/pldi.png" alt="Programming Language Design and Implementation" title="Programming Language Design and Implementation" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/pldi.png" alt="Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques" title="Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/PLDI/1987/PLDI-1987.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Richard L. Wexelblat (editors)<br/>
-	<em>Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques</em>.<br/>
-	PLDI, 1987.
-</h2>
+<h2>Richard L. Wexelblat<br/><em>Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques</em><br/>PLDI, 1987.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="PLDI.html">PLDI</a>-1987,
-	title      = "{Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques}",
+	<pre>@proceedings{PLDI-1987,
 	booktitle  = "{PLDI}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/pldi/1987">conf/pldi/1987</a>",
+</span>	editor     = "Richard L. Wexelblat",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=29650">http://dl.acm.org/citation.cfm?id=29650</a>",
+</span><span id="isbn">	isbn       = "0-89791-235-7",
+</span>	publisher  = "{ACM}",
+	title      = "{Proceedings of the Eighth Symposium on Interpreters and Interpretive Techniques}",
 	year       = "1987",
-	editor     = "Richard L. Wexelblat",
-	publisher  = "{ACM}",
-<span id="isbn">	isbn       = "0-89791-235-7",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (30 items)</h3><dl class="toc"><dt><a href="PLDI-1987-May.html">PLDI-1987-May</a></dt><dd>Mimic: a fast system/370 simulator (<abbr title="Cathy May">CM</abbr>), pp. 1–13.</dd><dt><a href="PLDI-1987-HuguetLT.html">PLDI-1987-HuguetLT</a></dt><dd>A block-and-actions generator as an alternative to a simulator for collecting architecture measurements (<abbr title="Miquel Huguet">MH</abbr>, <abbr title="Tomás Lang">TL</abbr>, <abbr title="Yuval Tamir">YT</abbr>), pp. 14–25.</dd><dt><a href="PLDI-1987-ShebsK.html">PLDI-1987-ShebsK</a></dt><dd>Automatic design and implementation of language data types (<abbr title="Stan Shebs">SS</abbr>, <abbr title="Robert R. Kessler">RRK</abbr>), pp. 26–37.</dd><dt><a href="PLDI-1987-KarinthiW.html">PLDI-1987-KarinthiW</a></dt><dd>Incremental re-execution of programs (<abbr title="Raghu Karinthi">RK</abbr>, <abbr title="Mark Weiser">MW</abbr>), pp. 38–44.</dd><dt><a href="PLDI-1987-NotkinG.html">PLDI-1987-NotkinG</a></dt><dd>Enhancement through extension: the extension interpreter (<abbr title="David Notkin">DN</abbr>, <abbr title="William G. Griswold">WGG</abbr>), pp. 45–55.</dd><dt><a href="PLDI-1987-SutorJ.html">PLDI-1987-SutorJ</a></dt><dd>The type inference and coercion facilities in the scratchpad II interpreter (<abbr title="Robert S. Sutor">RSS</abbr>, <abbr title="Richard D. Jenks">RDJ</abbr>), pp. 56–63.</dd><dt><a href="PLDI-1987-Robison.html">PLDI-1987-Robison</a></dt><dd>The Illinois functional programming interpreter (<abbr title="Arch D. Robison">ADR</abbr>), pp. 64–73.</dd><dt><a href="PLDI-1987-Waters.html">PLDI-1987-Waters</a></dt><dd>Efficient interpretation of synchronizable series expressions (<abbr title="Richard C. Waters">RCW</abbr>), pp. 74–85.</dd><dt><a href="PLDI-1987-FaustiniW.html">PLDI-1987-FaustiniW</a></dt><dd>An eductive interpreter for Lucid (<abbr title="Antony A. Faustini">AAF</abbr>, <abbr title="William W. Wadge">WWW</abbr>), pp. 86–91.</dd><dt><a href="PLDI-1987-BahlkeMS.html">PLDI-1987-BahlkeMS</a></dt><dd>A generator for language-specific debugging systems (<abbr title="Rolf Bahlke">RB</abbr>, <abbr title="Bernhard Moritz">BM</abbr>, <abbr title="Gregor Snelting">GS</abbr>), pp. 92–101.</dd><dt><a href="PLDI-1987-SkedzielewskiYO.html">PLDI-1987-SkedzielewskiYO</a></dt><dd>DI: an interactive debugging interpreter for applicative languages (<abbr title="Stephen K. Skedzielewski">SKS</abbr>, <abbr title="Robert Kim Yates">RKY</abbr>, <abbr title="R. R. Oldehoeft">RRO</abbr>), pp. 102–112.</dd><dt><a href="PLDI-1987-ChaseH.html">PLDI-1987-ChaseH</a></dt><dd>Selective interpretation as a technique for debugging computationally intensive programs (<abbr title="Benjamin B. Chase">BBC</abbr>, <abbr title="Robert T. Hood">RTH</abbr>), pp. 113–124.</dd><dt><a href="PLDI-1987-Krall.html">PLDI-1987-Krall</a></dt><dd>Implementation of a high-speed Prolog interpreter (<abbr title="Andreas Krall">AK</abbr>), pp. 125–131.</dd><dt><a href="PLDI-1987-Barklund.html">PLDI-1987-Barklund</a></dt><dd>Efficient interpretation of Prolog programs (<abbr title="Jonas Barklund">JB</abbr>), pp. 132–137.</dd><dt><a href="PLDI-1987-OBagyG.html">PLDI-1987-OBagyG</a></dt><dd>A recursive interpreter for the Icon programming language (<abbr title="Janalee O'Bagy">JO</abbr>, <abbr title="Ralph E. Griswold">REG</abbr>), pp. 138–149.</dd><dt><a href="PLDI-1987-Pittman.html">PLDI-1987-Pittman</a></dt><dd>Two-level hybrid interpreter/native code execution for combined space-time program efficiency (<abbr title="Thomas Pittman">TP</abbr>), pp. 150–152.</dd><dt><a href="PLDI-1987-KoskimiesP.html">PLDI-1987-KoskimiesP</a></dt><dd>TOOLS: a unifying approach to object-oriented language interpretation (<abbr title="Kai Koskimies">KK</abbr>, <abbr title="Jukka Paakki">JP</abbr>), pp. 153–164.</dd><dt><a href="PLDI-1987-Johnson.html">PLDI-1987-Johnson</a></dt><dd>GL-a denotational testbed with continuations and partial continuations as first-class objects (<abbr title="Gregory F. Johnson">GFJ</abbr>), pp. 165–176.</dd><dt><a href="PLDI-1987-OffuttK.html">PLDI-1987-OffuttK</a></dt><dd>A Fortran 77 interpreter for mutation analysis (<abbr title="A. Jefferson Offutt">AJO</abbr>, <abbr title="K. N. King">KNK</abbr>), pp. 177–188.</dd><dt><a href="PLDI-1987-DavidsonG.html">PLDI-1987-DavidsonG</a></dt><dd>Cint: a RISC interpreter for the C programming language (<abbr title="Jack W. Davidson">JWD</abbr>, <abbr title="Joseph V. Gresh">JVG</abbr>), pp. 189–198.</dd><dt><a href="PLDI-1987-CordyG.html">PLDI-1987-CordyG</a></dt><dd>Design of an interpretive environment for Turing (<abbr title="James R. Cordy">JRC</abbr>, <abbr title="T. C. Nicholas Graham">TCNG</abbr>), pp. 199–204.</dd><dt><a href="PLDI-1987-HarrES.html">PLDI-1987-HarrES</a></dt><dd>Interpreting ABF - a language for document construction (<abbr title="Henry Harr">HH</abbr>, <abbr title="Martha W. Evens">MWE</abbr>, <abbr title="James Sprowl">JS</abbr>), pp. 205–213.</dd><dt><a href="PLDI-1987-Boehm.html">PLDI-1987-Boehm</a></dt><dd>Constructive real interpretation of numerical programs (<abbr title="Hans-Juergen Boehm">HJB</abbr>), pp. 214–221.</dd><dt><a href="PLDI-1987-Clark.html">PLDI-1987-Clark</a></dt><dd>The JADE interpreter: a RISC interpreter for syntax directed editing (<abbr title="Christopher F. Clark">CFC</abbr>), pp. 222–228.</dd><dt><a href="PLDI-1987-Moss.html">PLDI-1987-Moss</a></dt><dd>Managing stack frames in Smalltalk (<abbr title="J. Eliot B. Moss">JEBM</abbr>), pp. 229–240.</dd><dt><a href="PLDI-1987-Danvy.html">PLDI-1987-Danvy</a></dt><dd>Memory allocation and higher-order functions (<abbr title="Olivier Danvy">OD</abbr>), pp. 241–252.</dd><dt><a href="PLDI-1987-LangD.html">PLDI-1987-LangD</a></dt><dd>Incremental incrementally compacting garbage collection (<abbr title="Bernard Lang">BL</abbr>, <abbr title="Francis Dupont">FD</abbr>), pp. 253–263.</dd><dt><a href="PLDI-1987-EckartL.html">PLDI-1987-EckartL</a></dt><dd>Distributed garbage collection (<abbr title="J. Dana Eckart">JDE</abbr>, <abbr title="Richard J. LeBlanc">RJL</abbr>), pp. 264–273.</dd><dt><a href="PLDI-1987-GelernterJL.html">PLDI-1987-GelernterJL</a></dt><dd>Parallelism, persistence and meta-cleanliness in the symmetric Lisp interpreter (<abbr title="David Gelernter">DG</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>, <abbr title="Thomas London">TL</abbr>), pp. 274–282.</dd><dt><a href="PLDI-1987-KearnsF.html">PLDI-1987-KearnsF</a></dt><dd>CCAL: An interpreted language for experimentation in concurrent control (<abbr title="Phil Kearns">PK</abbr>, <abbr title="Chris Cipriani">CC</abbr>, <abbr title="Mitzi Freeman">MF</abbr>), pp. 283–291.</dd></dl>
+<h3>Contents (30 items)</h3><dl class="toc"><dt><a href="PLDI-1987-May.html">PLDI-1987-May</a></dt><dd>Mimic: a fast system/370 simulator (<abbr title="Cathy May">CM</abbr>), pp. 1–13.</dd>
+<dt><a href="PLDI-1987-HuguetLT.html">PLDI-1987-HuguetLT</a></dt><dd>A block-and-actions generator as an alternative to a simulator for collecting architecture measurements (<abbr title="Miquel Huguet">MH</abbr>, <abbr title="Tomás Lang">TL</abbr>, <abbr title="Yuval Tamir">YT</abbr>), pp. 14–25.</dd>
+<dt><a href="PLDI-1987-ShebsK.html">PLDI-1987-ShebsK</a></dt><dd>Automatic design and implementation of language data types (<abbr title="Stan Shebs">SS</abbr>, <abbr title="Robert R. Kessler">RRK</abbr>), pp. 26–37.</dd>
+<dt><a href="PLDI-1987-KarinthiW.html">PLDI-1987-KarinthiW</a></dt><dd>Incremental re-execution of programs (<abbr title="Raghu Karinthi">RK</abbr>, <abbr title="Mark Weiser">MW</abbr>), pp. 38–44.</dd>
+<dt><a href="PLDI-1987-NotkinG.html">PLDI-1987-NotkinG</a></dt><dd>Enhancement through extension: the extension interpreter (<abbr title="David Notkin">DN</abbr>, <abbr title="William G. Griswold">WGG</abbr>), pp. 45–55.</dd>
+<dt><a href="PLDI-1987-SutorJ.html">PLDI-1987-SutorJ</a></dt><dd>The type inference and coercion facilities in the scratchpad II interpreter (<abbr title="Robert S. Sutor">RSS</abbr>, <abbr title="Richard D. Jenks">RDJ</abbr>), pp. 56–63.</dd>
+<dt><a href="PLDI-1987-Robison.html">PLDI-1987-Robison</a></dt><dd>The Illinois functional programming interpreter (<abbr title="Arch D. Robison">ADR</abbr>), pp. 64–73.</dd>
+<dt><a href="PLDI-1987-Waters.html">PLDI-1987-Waters</a></dt><dd>Efficient interpretation of synchronizable series expressions (<abbr title="Richard C. Waters">RCW</abbr>), pp. 74–85.</dd>
+<dt><a href="PLDI-1987-FaustiniW.html">PLDI-1987-FaustiniW</a></dt><dd>An eductive interpreter for Lucid (<abbr title="Antony A. Faustini">AAF</abbr>, <abbr title="William W. Wadge">WWW</abbr>), pp. 86–91.</dd>
+<dt><a href="PLDI-1987-BahlkeMS.html">PLDI-1987-BahlkeMS</a></dt><dd>A generator for language-specific debugging systems (<abbr title="Rolf Bahlke">RB</abbr>, <abbr title="Bernhard Moritz">BM</abbr>, <abbr title="Gregor Snelting">GS</abbr>), pp. 92–101.</dd>
+<dt><a href="PLDI-1987-SkedzielewskiYO.html">PLDI-1987-SkedzielewskiYO</a></dt><dd>DI: an interactive debugging interpreter for applicative languages (<abbr title="Stephen K. Skedzielewski">SKS</abbr>, <abbr title="Robert Kim Yates">RKY</abbr>, <abbr title="R. R. Oldehoeft">RRO</abbr>), pp. 102–112.</dd>
+<dt><a href="PLDI-1987-ChaseH.html">PLDI-1987-ChaseH</a></dt><dd>Selective interpretation as a technique for debugging computationally intensive programs (<abbr title="Benjamin B. Chase">BBC</abbr>, <abbr title="Robert T. Hood">RTH</abbr>), pp. 113–124.</dd>
+<dt><a href="PLDI-1987-Krall.html">PLDI-1987-Krall</a></dt><dd>Implementation of a high-speed Prolog interpreter (<abbr title="Andreas Krall">AK</abbr>), pp. 125–131.</dd>
+<dt><a href="PLDI-1987-Barklund.html">PLDI-1987-Barklund</a></dt><dd>Efficient interpretation of Prolog programs (<abbr title="Jonas Barklund">JB</abbr>), pp. 132–137.</dd>
+<dt><a href="PLDI-1987-OBagyG.html">PLDI-1987-OBagyG</a></dt><dd>A recursive interpreter for the Icon programming language (<abbr title="Janalee O'Bagy">JO</abbr>, <abbr title="Ralph E. Griswold">REG</abbr>), pp. 138–149.</dd>
+<dt><a href="PLDI-1987-Pittman.html">PLDI-1987-Pittman</a></dt><dd>Two-level hybrid interpreter/native code execution for combined space-time program efficiency (<abbr title="Thomas Pittman">TP</abbr>), pp. 150–152.</dd>
+<dt><a href="PLDI-1987-KoskimiesP.html">PLDI-1987-KoskimiesP</a></dt><dd>TOOLS: a unifying approach to object-oriented language interpretation (<abbr title="Kai Koskimies">KK</abbr>, <abbr title="Jukka Paakki">JP</abbr>), pp. 153–164.</dd>
+<dt><a href="PLDI-1987-Johnson.html">PLDI-1987-Johnson</a></dt><dd>GL-a denotational testbed with continuations and partial continuations as first-class objects (<abbr title="Gregory F. Johnson">GFJ</abbr>), pp. 165–176.</dd>
+<dt><a href="PLDI-1987-OffuttK.html">PLDI-1987-OffuttK</a></dt><dd>A Fortran 77 interpreter for mutation analysis (<abbr title="A. Jefferson Offutt">AJO</abbr>, <abbr title="K. N. King">KNK</abbr>), pp. 177–188.</dd>
+<dt><a href="PLDI-1987-DavidsonG.html">PLDI-1987-DavidsonG</a></dt><dd>Cint: a RISC interpreter for the C programming language (<abbr title="Jack W. Davidson">JWD</abbr>, <abbr title="Joseph V. Gresh">JVG</abbr>), pp. 189–198.</dd>
+<dt><a href="PLDI-1987-CordyG.html">PLDI-1987-CordyG</a></dt><dd>Design of an interpretive environment for Turing (<abbr title="James R. Cordy">JRC</abbr>, <abbr title="T. C. Nicholas Graham">TCNG</abbr>), pp. 199–204.</dd>
+<dt><a href="PLDI-1987-HarrES.html">PLDI-1987-HarrES</a></dt><dd>Interpreting ABF - a language for document construction (<abbr title="Henry Harr">HH</abbr>, <abbr title="Martha W. Evens">MWE</abbr>, <abbr title="James Sprowl">JS</abbr>), pp. 205–213.</dd>
+<dt><a href="PLDI-1987-Boehm.html">PLDI-1987-Boehm</a></dt><dd>Constructive real interpretation of numerical programs (<abbr title="Hans-Juergen Boehm">HJB</abbr>), pp. 214–221.</dd>
+<dt><a href="PLDI-1987-Clark.html">PLDI-1987-Clark</a></dt><dd>The JADE interpreter: a RISC interpreter for syntax directed editing (<abbr title="Christopher F. Clark">CFC</abbr>), pp. 222–228.</dd>
+<dt><a href="PLDI-1987-Moss.html">PLDI-1987-Moss</a></dt><dd>Managing stack frames in Smalltalk (<abbr title="J. Eliot B. Moss">JEBM</abbr>), pp. 229–240.</dd>
+<dt><a href="PLDI-1987-Danvy.html">PLDI-1987-Danvy</a></dt><dd>Memory allocation and higher-order functions (<abbr title="Olivier Danvy">OD</abbr>), pp. 241–252.</dd>
+<dt><a href="PLDI-1987-LangD.html">PLDI-1987-LangD</a></dt><dd>Incremental incrementally compacting garbage collection (<abbr title="Bernard Lang">BL</abbr>, <abbr title="Francis Dupont">FD</abbr>), pp. 253–263.</dd>
+<dt><a href="PLDI-1987-EckartL.html">PLDI-1987-EckartL</a></dt><dd>Distributed garbage collection (<abbr title="J. Dana Eckart">JDE</abbr>, <abbr title="Richard J. LeBlanc">RJL</abbr>), pp. 264–273.</dd>
+<dt><a href="PLDI-1987-GelernterJL.html">PLDI-1987-GelernterJL</a></dt><dd>Parallelism, persistence and meta-cleanliness in the symmetric Lisp interpreter (<abbr title="David Gelernter">DG</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>, <abbr title="Thomas London">TL</abbr>), pp. 274–282.</dd>
+<dt><a href="PLDI-1987-KearnsF.html">PLDI-1987-KearnsF</a></dt><dd>CCAL: An interpreted language for experimentation in concurrent control (<abbr title="Phil Kearns">PK</abbr>, <abbr title="Chris Cipriani">CC</abbr>, <abbr title="Mitzi Freeman">MF</abbr>), pp. 283–291.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

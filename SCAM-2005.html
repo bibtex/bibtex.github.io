@@ -11,36 +11,57 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/scam.png" alt="Source Code Analysis and Manipulation" title="Source Code Analysis and Manipulation" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/scam.png" alt="Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation" title="Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SCAM/2005/SCAM-2005.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	<br/>
-	<em>Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation</em>.<br/>
-	SCAM, 2005.
-</h2>
+<h2><br/><em>Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation</em><br/>SCAM, 2005.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="SCAM.html">SCAM</a>-2005,
-	title      = "{Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation}",
+	<pre>@proceedings{SCAM-2005,
 	booktitle  = "{SCAM}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/scam/2005">conf/scam/2005</a>",
+</span><span id="isbn">	isbn       = "0-7695-2292-0",
+</span>	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
+	title      = "{Proceedings of the Fifth International Workshop on Source Code Analysis and Manipulation}",
 	year       = "2005",
-	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
-<span id="isbn">	isbn       = "0-7695-2292-0",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (23 items)</h3><dl class="toc"><dt><a href="SCAM-2005-X05d.html">SCAM-2005-X05d</a></dt><dd>Reviewers (—).</dd><dt><a href="SCAM-2005-X05a.html">SCAM-2005-X05a</a></dt><dd>Copyright (—).</dd><dt><a href="SCAM-2005-X05c.html">SCAM-2005-X05c</a></dt><dd>Program Committee (—).</dd><dt><a href="SCAM-2005-X05b.html">SCAM-2005-X05b</a></dt><dd>Message from the Chairs (—).</dd><dt><a href="SCAM-2005-X.html">SCAM-2005-X</a></dt><dd>Title Page (—).</dd><dt><a href="SCAM-2005-BinkleyH.html">SCAM-2005-BinkleyH</a></dt><dd>Forward slices are smaller than backward slices (<abbr title="David Binkley">DB</abbr>, <abbr title="Mark Harman">MH</abbr>), pp. 15–24.</dd><dt><a href="SCAM-2005-HongLS.html">SCAM-2005-HongLS</a></dt><dd>Abstract Slicing: A New Approach to Program Slicing Based on Abstract Interpretation and Model Checking (<abbr title="Hyoung Seok Hong">HSH</abbr>, <abbr title="Insup Lee">IL</abbr>, <abbr title="Oleg Sokolsky">OS</abbr>), pp. 25–34.</dd><dt><a href="SCAM-2005-SzegediG.html">SCAM-2005-SzegediG</a></dt><dd>Dynamic Slicing of Java Bytecode Programs (<abbr title="Attila Szegedi">AS</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>), pp. 35–44.</dd><dt><a href="SCAM-2005-BinkleyDGHKK.html">SCAM-2005-BinkleyDGHKK</a></dt><dd>Minimal Slicing and the Relationships Between Forms of Slicing (<abbr title="David Binkley">DB</abbr>, <abbr title="Sebastian Danicic">SD</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Ákos Kiss 0001">ÁK</abbr>, <abbr title="Bogdan Korel">BK</abbr>), pp. 45–56.</dd><dt><a href="SCAM-2005-Breu.html">SCAM-2005-Breu</a></dt><dd>Extending Dynamic Aspect Mining with Static Information (<abbr title="Silvia Breu">SB</abbr>), pp. 57–65.</dd><dt><a href="SCAM-2005-FluriGP.html">SCAM-2005-FluriGP</a></dt><dd>Fine-Grained Analysis of Change Couplings (<abbr title="Beat Fluri">BF</abbr>, <abbr title="Harald C. Gall">HCG</abbr>, <abbr title="Martin Pinzger">MP</abbr>), pp. 66–74.</dd><dt><a href="SCAM-2005-Singer.html">SCAM-2005-Singer</a></dt><dd>Concept Assignment as a Debugging Technique for Code Generators (<abbr title="Jeremy Singer">JS</abbr>), pp. 75–86.</dd><dt><a href="SCAM-2005-ZhangBCD.html">SCAM-2005-ZhangBCD</a></dt><dd>Implementation and Verification of Implicit-Invocation Systems Using Source Transformation (<abbr title="Hongyu Zhang">HZ</abbr>, <abbr title="Jeremy S. Bradbury">JSB</abbr>, <abbr title="James R. Cordy">JRC</abbr>, <abbr title="Jürgen Dingel">JD</abbr>), pp. 87–96.</dd><dt><a href="SCAM-2005-SchordanQ.html">SCAM-2005-SchordanQ</a></dt><dd>Specifying Transformation Sequences as Computation on Program Fragments with an Abstract Attribute Grammar (<abbr title="Markus Schordan">MS</abbr>, <abbr title="Daniel J. Quinlan">DJQ</abbr>), pp. 97–106.</dd><dt><a href="SCAM-2005-BermudoKH.html">SCAM-2005-BermudoKH</a></dt><dd>Control Flow Graph Reconstruction for Assembly Language Programs with Delayed Instructions (<abbr title="Nerina Bermudo">NB</abbr>, <abbr title="Andreas Krall">AK</abbr>, <abbr title="R. Nigel Horspool">RNH</abbr>), pp. 107–118.</dd><dt><a href="SCAM-2005-ShiN.html">SCAM-2005-ShiN</a></dt><dd>Static Analysis for Computing Escapability and Mutability for Java Components (<abbr title="Aiwu Shi">AS</abbr>, <abbr title="Gleb Naumovich">GN</abbr>), pp. 119–128.</dd><dt><a href="SCAM-2005-JonesK.html">SCAM-2005-JonesK</a></dt><dd>A Fast Analysis for Thread-Local Garbage Collection with Dynamic Class Loading (<abbr title="Richard E. Jones">REJ</abbr>, <abbr title="Andy C. King">ACK</abbr>), pp. 129–138.</dd><dt><a href="SCAM-2005-BussEYW.html">SCAM-2005-BussEYW</a></dt><dd>Pointer Analysis for Source-to-Source Transformations (<abbr title="Marcio Buss">MB</abbr>, <abbr title="Stephen A. Edwards">SAE</abbr>, <abbr title="Bin Yao">BY</abbr>, <abbr title="Dan G. Waddington">DGW</abbr>), pp. 139–150.</dd><dt><a href="SCAM-2005-EnglishBCL.html">SCAM-2005-EnglishBCL</a></dt><dd>Measuring the Impact of Friends on the Internal Attributes of Software Systems (<abbr title="Michael English">ME</abbr>, <abbr title="Jim Buckley">JB</abbr>, <abbr title="Tony Cahill">TC</abbr>, <abbr title="Kristian Lynch">KL</abbr>), pp. 151–160.</dd><dt><a href="SCAM-2005-CounsellST.html">SCAM-2005-CounsellST</a></dt><dd>Object-oriented cohesion as a surrogate of software comprehension: an empirical study (<abbr title="Steve Counsell">SC</abbr>, <abbr title="Stephen Swift">SS</abbr>, <abbr title="Allan Tucker">AT</abbr>), pp. 161–172.</dd><dt><a href="SCAM-2005-XuD.html">SCAM-2005-XuD</a></dt><dd>Transforming Embedded Java Code into Custom Tags (<abbr title="Shannon Xu">SX</abbr>, <abbr title="Thomas R. Dean">TRD</abbr>), pp. 173–182.</dd><dt><a href="SCAM-2005-PowerH.html">SCAM-2005-PowerH</a></dt><dd>Declassification: Transforming Java Programs to Remove Intermediate Classes (<abbr title="Bernadette Power">BP</abbr>, <abbr title="Geoff W. Hamilton">GWH</abbr>), pp. 183–192.</dd><dt><a href="SCAM-2005-Anderson.html">SCAM-2005-Anderson</a></dt><dd>The Performance Penalty of XML for Program Intermediate Representations (<abbr title="Paul Anderson">PA</abbr>), pp. 193–202.</dd></dl>
+<h3>Contents (23 items)</h3><dl class="toc"><dt><a href="SCAM-2005-X.html">SCAM-2005-X</a></dt><dd>Title Page.</dd>
+<dt><a href="SCAM-2005-X05a.html">SCAM-2005-X05a</a></dt><dd>Copyright.</dd>
+<dt><a href="SCAM-2005-X05b.html">SCAM-2005-X05b</a></dt><dd>Message from the Chairs.</dd>
+<dt><a href="SCAM-2005-X05c.html">SCAM-2005-X05c</a></dt><dd>Program Committee.</dd>
+<dt><a href="SCAM-2005-X05d.html">SCAM-2005-X05d</a></dt><dd>Reviewers.</dd>
+<dt><a href="SCAM-2005-BinkleyH.html">SCAM-2005-BinkleyH</a></dt><dd>Forward slices are smaller than backward slices (<abbr title="David Binkley">DB</abbr>, <abbr title="Mark Harman">MH</abbr>), pp. 15–24.</dd>
+<dt><a href="SCAM-2005-HongLS.html">SCAM-2005-HongLS</a></dt><dd>Abstract Slicing: A New Approach to Program Slicing Based on Abstract Interpretation and Model Checking (<abbr title="Hyoung Seok Hong">HSH</abbr>, <abbr title="Insup Lee">IL</abbr>, <abbr title="Oleg Sokolsky">OS</abbr>), pp. 25–34.</dd>
+<dt><a href="SCAM-2005-SzegediG.html">SCAM-2005-SzegediG</a></dt><dd>Dynamic Slicing of Java Bytecode Programs (<abbr title="Attila Szegedi">AS</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>), pp. 35–44.</dd>
+<dt><a href="SCAM-2005-BinkleyDGHKK.html">SCAM-2005-BinkleyDGHKK</a></dt><dd>Minimal Slicing and the Relationships Between Forms of Slicing (<abbr title="David Binkley">DB</abbr>, <abbr title="Sebastian Danicic">SD</abbr>, <abbr title="Tibor Gyimóthy">TG</abbr>, <abbr title="Mark Harman">MH</abbr>, <abbr title="Ákos Kiss 0001">ÁK0</abbr>, <abbr title="Bogdan Korel">BK</abbr>), pp. 45–56.</dd>
+<dt><a href="SCAM-2005-Breu.html">SCAM-2005-Breu</a></dt><dd>Extending Dynamic Aspect Mining with Static Information (<abbr title="Silvia Breu">SB</abbr>), pp. 57–65.</dd>
+<dt><a href="SCAM-2005-FluriGP.html">SCAM-2005-FluriGP</a></dt><dd>Fine-Grained Analysis of Change Couplings (<abbr title="Beat Fluri">BF</abbr>, <abbr title="Harald Gall">HG</abbr>, <abbr title="Martin Pinzger">MP</abbr>), pp. 66–74.</dd>
+<dt><a href="SCAM-2005-Singer.html">SCAM-2005-Singer</a></dt><dd>Concept Assignment as a Debugging Technique for Code Generators (<abbr title="Jeremy Singer">JS</abbr>), pp. 75–86.</dd>
+<dt><a href="SCAM-2005-ZhangBCD.html">SCAM-2005-ZhangBCD</a></dt><dd>Implementation and Verification of Implicit-Invocation Systems Using Source Transformation (<abbr title="Hongyu Zhang">HZ</abbr>, <abbr title="Jeremy S. Bradbury">JSB</abbr>, <abbr title="James R. Cordy">JRC</abbr>, <abbr title="Jürgen Dingel">JD</abbr>), pp. 87–96.</dd>
+<dt><a href="SCAM-2005-SchordanQ.html">SCAM-2005-SchordanQ</a></dt><dd>Specifying Transformation Sequences as Computation on Program Fragments with an Abstract Attribute Grammar (<abbr title="Markus Schordan">MS</abbr>, <abbr title="Daniel J. Quinlan">DJQ</abbr>), pp. 97–106.</dd>
+<dt><a href="SCAM-2005-BermudoKH.html">SCAM-2005-BermudoKH</a></dt><dd>Control Flow Graph Reconstruction for Assembly Language Programs with Delayed Instructions (<abbr title="Nerina Bermudo">NB</abbr>, <abbr title="Andreas Krall">AK</abbr>, <abbr title="R. Nigel Horspool">RNH</abbr>), pp. 107–118.</dd>
+<dt><a href="SCAM-2005-ShiN.html">SCAM-2005-ShiN</a></dt><dd>Static Analysis for Computing Escapability and Mutability for Java Components (<abbr title="Aiwu Shi">AS</abbr>, <abbr title="Gleb Naumovich">GN</abbr>), pp. 119–128.</dd>
+<dt><a href="SCAM-2005-JonesK.html">SCAM-2005-JonesK</a></dt><dd>A Fast Analysis for Thread-Local Garbage Collection with Dynamic Class Loading (<abbr title="Richard E. Jones">REJ</abbr>, <abbr title="Andy C. King">ACK</abbr>), pp. 129–138.</dd>
+<dt><a href="SCAM-2005-BussEYW.html">SCAM-2005-BussEYW</a></dt><dd>Pointer Analysis for Source-to-Source Transformations (<abbr title="Marcio Buss">MB</abbr>, <abbr title="Stephen A. Edwards">SAE</abbr>, <abbr title="Bin Yao">BY</abbr>, <abbr title="Dan G. Waddington">DGW</abbr>), pp. 139–150.</dd>
+<dt><a href="SCAM-2005-EnglishBCL.html">SCAM-2005-EnglishBCL</a></dt><dd>Measuring the Impact of Friends on the Internal Attributes of Software Systems (<abbr title="Michael English">ME</abbr>, <abbr title="Jim Buckley">JB</abbr>, <abbr title="Tony Cahill">TC</abbr>, <abbr title="Kristian Lynch">KL</abbr>), pp. 151–160.</dd>
+<dt><a href="SCAM-2005-CounsellST.html">SCAM-2005-CounsellST</a></dt><dd>Object-oriented cohesion as a surrogate of software comprehension: an empirical study (<abbr title="Steve Counsell">SC</abbr>, <abbr title="Stephen Swift">SS</abbr>, <abbr title="Allan Tucker">AT</abbr>), pp. 161–172.</dd>
+<dt><a href="SCAM-2005-XuD.html">SCAM-2005-XuD</a></dt><dd>Transforming Embedded Java Code into Custom Tags (<abbr title="Shannon Xu">SX</abbr>, <abbr title="Thomas R. Dean">TRD</abbr>), pp. 173–182.</dd>
+<dt><a href="SCAM-2005-PowerH.html">SCAM-2005-PowerH</a></dt><dd>Declassification: Transforming Java Programs to Remove Intermediate Classes (<abbr title="Bernadette Power">BP</abbr>, <abbr title="Geoff W. Hamilton">GWH</abbr>), pp. 183–192.</dd>
+<dt><a href="SCAM-2005-Anderson.html">SCAM-2005-Anderson</a></dt><dd>The Performance Penalty of XML for Program Intermediate Representations (<abbr title="Paul Anderson">PA</abbr>), pp. 193–202.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

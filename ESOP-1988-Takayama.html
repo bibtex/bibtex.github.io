@@ -11,38 +11,38 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="QPC: QJ-based Proof Compiler - Simple Examples and Analysis" title="QPC: QJ-based Proof Compiler - Simple Examples and Analysis" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/1988/ESOP-1988/ESOP-1988-Takayama.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Yukihide Takayama<br/>
-	<em>QPC: QJ-based Proof Compiler - Simple Examples and Analysis</em>.<br/>
-	Proceedings of the Second European Symposium on Programming, 1988.
-</h2>
+<h2>Yukihide Takayama<br/><em>QPC: QJ-based Proof Compiler - Simple Examples and Analysis</em><br/>ESOP, 1988.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@inproceedings{<a href="ESOP-1988.html">ESOP</a>-1988-Takayama,
+	<pre>@inproceedings{ESOP-1988-Takayama,
 	author     = "Yukihide Takayama",
-	title      = "{QPC: QJ-based Proof Compiler - Simple Examples and Analysis}",
 	booktitle  = "{<span id="booktitle">Proceedings of the Second European Symposium on Programming</span>}",
-	year       = "1988",
-	editor     = "Harald Ganzinger",
-	pages      = "49--63",
-<span id="doi">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-19027-9_4">10.1007/3-540-19027-9_4</a>",
-</span>	publisher  = "{Springer}",
-<span id="isbn">	isbn       = "3-540-19027-9",
-</span>	volume     = "300",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/Takayama88">conf/esop/Takayama88</a>",
+</span><span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-19027-9_4">10.1007/3-540-19027-9_4</a>",
+</span>	editor     = "Harald Ganzinger",
+<span class="uri">	ee         = "<a href="http://dx.doi.org/10.1007/3-540-19027-9_4">http://dx.doi.org/10.1007/3-540-19027-9_4</a>",
+</span><span id="isbn">	isbn       = "3-540-19027-9",
+</span>	pages      = "49--63",
+	publisher  = "{Springer}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{QPC: QJ-based Proof Compiler - Simple Examples and Analysis}",
+	volume     = "300",
+	year       = "1988",
 }</pre>
 </div>
 <hr/>

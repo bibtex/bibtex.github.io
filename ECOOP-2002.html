@@ -11,39 +11,63 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/ecoop.png" alt="European Conference on Object-Oriented Programming" title="European Conference on Object-Oriented Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/ecoop.png" alt="Proceedings of the 16th European Conference on Object-Oriented Programming" title="Proceedings of the 16th European Conference on Object-Oriented Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ECOOP/2002/ECOOP-2002.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Boris Magnusson (editors)<br/>
-	<em>Proceedings of the 16th European Conference on Object-Oriented Programming</em>.<br/>
-	ECOOP, 2002.
-</h2>
+<h2>Boris Magnusson<br/><em>Proceedings of the 16th European Conference on Object-Oriented Programming</em><br/>ECOOP, 2002.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ECOOP.html">ECOOP</a>-2002,
-	title      = "{Proceedings of the 16th European Conference on Object-Oriented Programming}",
+	<pre>@proceedings{ECOOP-2002,
 	booktitle  = "{ECOOP}",
-	year       = "2002",
-	editor     = "Boris Magnusson",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "2374",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/ecoop/2002">conf/ecoop/2002</a>",
+</span>	editor     = "Boris Magnusson",
 <span id="isbn">	isbn       = "3-540-43759-2",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 16th European Conference on Object-Oriented Programming}",
+	volume     = "2374",
+	year       = "2002",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (26 items)</h3><dl class="toc"><dt><a href="ECOOP-2002-MeseguerT.html">ECOOP-2002-MeseguerT</a></dt><dd>Semantic Models for Distributed Object Reflection (<abbr title="José Meseguer">JM</abbr>, <abbr title="Carolyn L. Talcott">CLT</abbr>), pp. 1–36.</dd><dt><a href="ECOOP-2002-KienzleG.html">ECOOP-2002-KienzleG</a></dt><dd>AOP: Does It Make Sense? The Case of Concurrency and Failures (<abbr title="Jörg Kienzle">JK</abbr>, <abbr title="Rachid Guerraoui">RG</abbr>), pp. 37–61.</dd><dt><a href="ECOOP-2002-IchisugiT.html">ECOOP-2002-IchisugiT</a></dt><dd>Difference-Based Modules: A Class-Independent Module Mechanism (<abbr title="Yuuji Ichisugi">YI</abbr>, <abbr title="Akira Tanaka">AT</abbr>), pp. 62–88.</dd><dt><a href="ECOOP-2002-Ostermann.html">ECOOP-2002-Ostermann</a></dt><dd>Dynamically Composable Collaborations with Delegation Layers (<abbr title="Klaus Ostermann">KO</abbr>), pp. 89–110.</dd><dt><a href="ECOOP-2002-BaconFG.html">ECOOP-2002-BaconFG</a></dt><dd>Space- and Time-Efficient Implementation of the Java Object Model (<abbr title="David F. Bacon">DFB</abbr>, <abbr title="Stephen J. Fink">SJF</abbr>, <abbr title="David Grove">DG</abbr>), pp. 111–132.</dd><dt><a href="ECOOP-2002-HovemeyerPS.html">ECOOP-2002-HovemeyerPS</a></dt><dd>Atomic Instructions in Java (<abbr title="David Hovemeyer">DH</abbr>, <abbr title="William Pugh">WP</abbr>, <abbr title="Jaime Spacco">JS</abbr>), pp. 133–154.</dd><dt><a href="ECOOP-2002-CzajkowskiDN.html">ECOOP-2002-CzajkowskiDN</a></dt><dd>Code Sharing among Virtual Machines (<abbr title="Grzegorz Czajkowski">GC</abbr>, <abbr title="Laurent Daynès">LD</abbr>, <abbr title="Nathaniel Nystrom">NN</abbr>), pp. 155–177.</dd><dt><a href="ECOOP-2002-TilevichS.html">ECOOP-2002-TilevichS</a></dt><dd>J-Orchestra: Automatic Java Application Partitioning (<abbr title="Eli Tilevich">ET</abbr>, <abbr title="Yannis Smaragdakis">YS</abbr>), pp. 178–204.</dd><dt><a href="ECOOP-2002-RedmondC.html">ECOOP-2002-RedmondC</a></dt><dd>Supporting Unanticipated Dynamic Adaptation of Application Behaviour (<abbr title="Barry Redmond">BR</abbr>, <abbr title="Vinny Cahill">VC</abbr>), pp. 205–230.</dd><dt><a href="ECOOP-2002-CheonL.html">ECOOP-2002-CheonL</a></dt><dd>A Simple and Practical Approach to Unit Testing: The JML and JUnit Way (<abbr title="Yoonsik Cheon">YC</abbr>, <abbr title="Gary T. Leavens">GTL</abbr>), pp. 231–255.</dd><dt><a href="ECOOP-2002-Szyperski.html">ECOOP-2002-Szyperski</a></dt><dd>Objectively: Components versus Web Services (<abbr title="Clemens A. Szyperski">CAS</abbr>), pp. 256–256.</dd><dt><a href="ECOOP-2002-RinatS.html">ECOOP-2002-RinatS</a></dt><dd>Modular Internet Programming with Cells (<abbr title="Ran Rinat">RR</abbr>, <abbr title="Scott F. Smith">SFS</abbr>), pp. 257–280.</dd><dt><a href="ECOOP-2002-BryceRP.html">ECOOP-2002-BryceRP</a></dt><dd>Lana: An Approach to Programming Autonomous Systems (<abbr title="Ciarán Bryce">CB</abbr>, <abbr title="Chrislain Razafimahefa">CR</abbr>, <abbr title="Michel Pawlak">MP</abbr>), pp. 281–308.</dd><dt><a href="ECOOP-2002-FiegeMMB.html">ECOOP-2002-FiegeMMB</a></dt><dd>Engineering Event-Based Systems with Scopes (<abbr title="Ludger Fiege">LF</abbr>, <abbr title="Mira Mezini">MM</abbr>, <abbr title="Gero Mühl">GM</abbr>, <abbr title="Alejandro P. Buchmann">APB</abbr>), pp. 309–333.</dd><dt><a href="ECOOP-2002-AldrichCN.html">ECOOP-2002-AldrichCN</a></dt><dd>Architectural Reasoning in ArchJava (<abbr title="Jonathan Aldrich">JA</abbr>, <abbr title="Craig Chambers">CC</abbr>, <abbr title="David Notkin">DN</abbr>), pp. 334–367.</dd><dt><a href="ECOOP-2002-NobleB.html">ECOOP-2002-NobleB</a></dt><dd>Patterns as Signs (<abbr title="James Noble">JN</abbr>, <abbr title="Robert Biddle">RB</abbr>), pp. 368–391.</dd><dt><a href="ECOOP-2002-NeumannZ.html">ECOOP-2002-NeumannZ</a></dt><dd>Pattern-Based Design and Implementation of an XML and RDF Parser and Interpreter: A Case Study (<abbr title="Gustaf Neumann">GN</abbr>, <abbr title="Uwe Zdun">UZ</abbr>), pp. 392–414.</dd><dt><a href="ECOOP-2002-BentonCF.html">ECOOP-2002-BentonCF</a></dt><dd>Modern Concurrency Abstractions for C<sup>#</sup> (<abbr title="Nick Benton">NB</abbr>, <abbr title="Luca Cardelli">LC</abbr>, <abbr title="Cédric Fournet">CF</abbr>), pp. 415–440.</dd><dt><a href="ECOOP-2002-IgarashiV.html">ECOOP-2002-IgarashiV</a></dt><dd>On Variance-Based Subtyping for Parametric Types (<abbr title="Atsushi Igarashi">AI</abbr>, <abbr title="Mirko Viroli">MV</abbr>), pp. 441–469.</dd><dt><a href="ECOOP-2002-Zenger.html">ECOOP-2002-Zenger</a></dt><dd>Type-Safe Prototype-Based Component Evolution (<abbr title="Matthias Zenger">MZ</abbr>), pp. 470–497.</dd><dt><a href="ECOOP-2002-ArnoldR.html">ECOOP-2002-ArnoldR</a></dt><dd>Thin Guards: A Simple and Effective Technique for Reducing the Penalty of Dynamic Class Loading (<abbr title="Matthew Arnold">MA</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>), pp. 498–524.</dd><dt><a href="ECOOP-2002-GlewP.html">ECOOP-2002-GlewP</a></dt><dd>Type-Safe Method Inlining (<abbr title="Neal Glew">NG</abbr>, <abbr title="Jens Palsberg">JP</abbr>), pp. 525–544.</dd><dt><a href="ECOOP-2002-Filman.html">ECOOP-2002-Filman</a></dt><dd>Polychotomic Encoding: A Better Quasi-Optimal Bit-Vector Encoding of Tree Hierarchies (<abbr title="Robert E. Filman">REF</abbr>), pp. 545–561.</dd><dt><a href="ECOOP-2002-SneltingT.html">ECOOP-2002-SneltingT</a></dt><dd>Semantics-Based Composition of Class Hierarchies (<abbr title="Gregor Snelting">GS</abbr>, <abbr title="Frank Tip">FT</abbr>), pp. 562–584.</dd><dt><a href="ECOOP-2002-AlagicK.html">ECOOP-2002-AlagicK</a></dt><dd>Behavioral Compatibility of Self-Typed Theories (<abbr title="Suad Alagic">SA</abbr>, <abbr title="Svetlana Kouznetsova">SK</abbr>), pp. 585–608.</dd><dt><a href="ECOOP-2002-AnconaLZ.html">ECOOP-2002-AnconaLZ</a></dt><dd>A Formal Framework for Java Separate Compilation (<abbr title="Davide Ancona">DA</abbr>, <abbr title="Giovanni Lagorio">GL</abbr>, <abbr title="Elena Zucca">EZ</abbr>), pp. 609–636.</dd></dl>
+<h3>Contents (26 items)</h3><dl class="toc"><dt><a href="ECOOP-2002-MeseguerT.html">ECOOP-2002-MeseguerT</a></dt><dd>Semantic Models for Distributed Object Reflection (<abbr title="José Meseguer">JM</abbr>, <abbr title="Carolyn L. Talcott">CLT</abbr>), pp. 1–36.</dd>
+<dt><a href="ECOOP-2002-KienzleG.html">ECOOP-2002-KienzleG</a></dt><dd>AOP: Does It Make Sense? The Case of Concurrency and Failures (<abbr title="Jörg Kienzle">JK</abbr>, <abbr title="Rachid Guerraoui">RG</abbr>), pp. 37–61.</dd>
+<dt><a href="ECOOP-2002-IchisugiT.html">ECOOP-2002-IchisugiT</a></dt><dd>Difference-Based Modules: A Class-Independent Module Mechanism (<abbr title="Yuuji Ichisugi">YI</abbr>, <abbr title="Akira Tanaka">AT</abbr>), pp. 62–88.</dd>
+<dt><a href="ECOOP-2002-Ostermann.html">ECOOP-2002-Ostermann</a></dt><dd>Dynamically Composable Collaborations with Delegation Layers (<abbr title="Klaus Ostermann">KO</abbr>), pp. 89–110.</dd>
+<dt><a href="ECOOP-2002-BaconFG.html">ECOOP-2002-BaconFG</a></dt><dd>Space- and Time-Efficient Implementation of the Java Object Model (<abbr title="David F. Bacon">DFB</abbr>, <abbr title="Stephen J. Fink">SJF</abbr>, <abbr title="David Grove">DG</abbr>), pp. 111–132.</dd>
+<dt><a href="ECOOP-2002-HovemeyerPS.html">ECOOP-2002-HovemeyerPS</a></dt><dd>Atomic Instructions in Java (<abbr title="David Hovemeyer">DH</abbr>, <abbr title="William Pugh">WP</abbr>, <abbr title="Jaime Spacco">JS</abbr>), pp. 133–154.</dd>
+<dt><a href="ECOOP-2002-CzajkowskiDN.html">ECOOP-2002-CzajkowskiDN</a></dt><dd>Code Sharing among Virtual Machines (<abbr title="Grzegorz Czajkowski">GC</abbr>, <abbr title="Laurent Daynès">LD</abbr>, <abbr title="Nathaniel Nystrom">NN</abbr>), pp. 155–177.</dd>
+<dt><a href="ECOOP-2002-TilevichS.html">ECOOP-2002-TilevichS</a></dt><dd>J-Orchestra: Automatic Java Application Partitioning (<abbr title="Eli Tilevich">ET</abbr>, <abbr title="Yannis Smaragdakis">YS</abbr>), pp. 178–204.</dd>
+<dt><a href="ECOOP-2002-RedmondC.html">ECOOP-2002-RedmondC</a></dt><dd>Supporting Unanticipated Dynamic Adaptation of Application Behaviour (<abbr title="Barry Redmond">BR</abbr>, <abbr title="Vinny Cahill">VC</abbr>), pp. 205–230.</dd>
+<dt><a href="ECOOP-2002-CheonL.html">ECOOP-2002-CheonL</a></dt><dd>A Simple and Practical Approach to Unit Testing: The JML and JUnit Way (<abbr title="Yoonsik Cheon">YC</abbr>, <abbr title="Gary T. Leavens">GTL</abbr>), pp. 231–255.</dd>
+<dt><a href="ECOOP-2002-Szyperski.html">ECOOP-2002-Szyperski</a></dt><dd>Objectively: Components versus Web Services (<abbr title="Clemens A. Szyperski">CAS</abbr>), p. 256.</dd>
+<dt><a href="ECOOP-2002-RinatS.html">ECOOP-2002-RinatS</a></dt><dd>Modular Internet Programming with Cells (<abbr title="Ran Rinat">RR</abbr>, <abbr title="Scott F. Smith">SFS</abbr>), pp. 257–280.</dd>
+<dt><a href="ECOOP-2002-BryceRP.html">ECOOP-2002-BryceRP</a></dt><dd>Lana: An Approach to Programming Autonomous Systems (<abbr title="Ciarán Bryce">CB</abbr>, <abbr title="Chrislain Razafimahefa">CR</abbr>, <abbr title="Michel Pawlak">MP</abbr>), pp. 281–308.</dd>
+<dt><a href="ECOOP-2002-FiegeMMB.html">ECOOP-2002-FiegeMMB</a></dt><dd>Engineering Event-Based Systems with Scopes (<abbr title="Ludger Fiege">LF</abbr>, <abbr title="Mira Mezini">MM</abbr>, <abbr title="Gero Mühl">GM</abbr>, <abbr title="Alejandro P. Buchmann">APB</abbr>), pp. 309–333.</dd>
+<dt><a href="ECOOP-2002-AldrichCN.html">ECOOP-2002-AldrichCN</a></dt><dd>Architectural Reasoning in ArchJava (<abbr title="Jonathan Aldrich">JA</abbr>, <abbr title="Craig Chambers">CC</abbr>, <abbr title="David Notkin">DN</abbr>), pp. 334–367.</dd>
+<dt><a href="ECOOP-2002-NobleB.html">ECOOP-2002-NobleB</a></dt><dd>Patterns as Signs (<abbr title="James Noble">JN</abbr>, <abbr title="Robert Biddle">RB</abbr>), pp. 368–391.</dd>
+<dt><a href="ECOOP-2002-NeumannZ.html">ECOOP-2002-NeumannZ</a></dt><dd>Pattern-Based Design and Implementation of an XML and RDF Parser and Interpreter: A Case Study (<abbr title="Gustaf Neumann">GN</abbr>, <abbr title="Uwe Zdun">UZ</abbr>), pp. 392–414.</dd>
+<dt><a href="ECOOP-2002-BentonCF.html">ECOOP-2002-BentonCF</a></dt><dd>Modern Concurrency Abstractions for C<sup>#</sup> (<abbr title="Nick Benton">NB</abbr>, <abbr title="Luca Cardelli">LC</abbr>, <abbr title="Cédric Fournet">CF</abbr>), pp. 415–440.</dd>
+<dt><a href="ECOOP-2002-IgarashiV.html">ECOOP-2002-IgarashiV</a></dt><dd>On Variance-Based Subtyping for Parametric Types (<abbr title="Atsushi Igarashi">AI</abbr>, <abbr title="Mirko Viroli">MV</abbr>), pp. 441–469.</dd>
+<dt><a href="ECOOP-2002-Zenger.html">ECOOP-2002-Zenger</a></dt><dd>Type-Safe Prototype-Based Component Evolution (<abbr title="Matthias Zenger">MZ</abbr>), pp. 470–497.</dd>
+<dt><a href="ECOOP-2002-ArnoldR.html">ECOOP-2002-ArnoldR</a></dt><dd>Thin Guards: A Simple and Effective Technique for Reducing the Penalty of Dynamic Class Loading (<abbr title="Matthew Arnold">MA</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>), pp. 498–524.</dd>
+<dt><a href="ECOOP-2002-GlewP.html">ECOOP-2002-GlewP</a></dt><dd>Type-Safe Method Inlining (<abbr title="Neal Glew">NG</abbr>, <abbr title="Jens Palsberg">JP</abbr>), pp. 525–544.</dd>
+<dt><a href="ECOOP-2002-Filman.html">ECOOP-2002-Filman</a></dt><dd>Polychotomic Encoding: A Better Quasi-Optimal Bit-Vector Encoding of Tree Hierarchies (<abbr title="Robert E. Filman">REF</abbr>), pp. 545–561.</dd>
+<dt><a href="ECOOP-2002-SneltingT.html">ECOOP-2002-SneltingT</a></dt><dd>Semantics-Based Composition of Class Hierarchies (<abbr title="Gregor Snelting">GS</abbr>, <abbr title="Frank Tip">FT</abbr>), pp. 562–584.</dd>
+<dt><a href="ECOOP-2002-AlagicK.html">ECOOP-2002-AlagicK</a></dt><dd>Behavioral Compatibility of Self-Typed Theories (<abbr title="Suad Alagic">SA</abbr>, <abbr title="Svetlana Kouznetsova">SK</abbr>), pp. 585–608.</dd>
+<dt><a href="ECOOP-2002-AnconaLZ.html">ECOOP-2002-AnconaLZ</a></dt><dd>A Formal Framework for Java Separate Compilation (<abbr title="Davide Ancona">DA</abbr>, <abbr title="Giovanni Lagorio">GL</abbr>, <abbr title="Elena Zucca">EZ</abbr>), pp. 609–636.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

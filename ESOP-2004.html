@@ -11,39 +11,65 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="Proceedings of the 13th European Symposium on Programming" title="Proceedings of the 13th European Symposium on Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/2004/ESOP-2004.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	David A. Schmidt (editors)<br/>
-	<em>Proceedings of the 13th European Symposium on Programming</em>.<br/>
-	ESOP, 2004.
-</h2>
+<h2>David A. Schmidt<br/><em>Proceedings of the 13th European Symposium on Programming</em><br/>ESOP, 2004.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ESOP.html">ESOP</a>-2004,
-	title      = "{Proceedings of the 13th European Symposium on Programming}",
+	<pre>@proceedings{ESOP-2004,
 	booktitle  = "{ESOP}",
-	year       = "2004",
-	editor     = "David A. Schmidt",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "2986",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/2004">conf/esop/2004</a>",
+</span>	editor     = "David A. Schmidt",
 <span id="isbn">	isbn       = "3-540-21313-9",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 13th European Symposium on Programming}",
+	volume     = "2986",
+	year       = "2004",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="ESOP-2004-OHearn.html">ESOP-2004-OHearn</a></dt><dd>Resources, Concurrency, and Local Reasoning (Abstract) (<abbr title="Peter W. O'Hearn">PWO</abbr>), pp. 1–2.</dd><dt><a href="ESOP-2004-Mine.html">ESOP-2004-Mine</a></dt><dd>Relational Abstract Domains for the Detection of Floating-Point Run-Time Errors (<abbr title="Antoine Miné">AM</abbr>), pp. 3–17.</dd><dt><a href="ESOP-2004-RanzatoT.html">ESOP-2004-RanzatoT</a></dt><dd>Strong Preservation as Completeness in Abstract Interpretation (<abbr title="Francesco Ranzato">FR</abbr>, <abbr title="Francesco Tapparo">FT</abbr>), pp. 18–32.</dd><dt><a href="ESOP-2004-Feret.html">ESOP-2004-Feret</a></dt><dd>Static Analysis of Digital Filters (<abbr title="Jérôme Feret">JF</abbr>), pp. 33–48.</dd><dt><a href="ESOP-2004-DuckPSS.html">ESOP-2004-DuckPSS</a></dt><dd>Sound and Decidable Type Inference for Functional Dependencies (<abbr title="Gregory J. Duck">GJD</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>, <abbr title="Peter J. Stuckey">PJS</abbr>, <abbr title="Martin Sulzmann">MS</abbr>), pp. 49–63.</dd><dt><a href="ESOP-2004-HirschowitzLW.html">ESOP-2004-HirschowitzLW</a></dt><dd>Call-by-Value Mixin Modules: Reduction Semantics, Side Effects, Types (<abbr title="Tom Hirschowitz">TH</abbr>, <abbr title="Xavier Leroy">XL</abbr>, <abbr title="J. B. Wells">JBW</abbr>), pp. 64–78.</dd><dt><a href="ESOP-2004-CalcagnoMT.html">ESOP-2004-CalcagnoMT</a></dt><dd>ML-Like Inference for Classifiers (<abbr title="Cristiano Calcagno">CC</abbr>, <abbr title="Eugenio Moggi">EM</abbr>, <abbr title="Walid Taha">WT</abbr>), pp. 79–93.</dd><dt><a href="ESOP-2004-CarlssonB.html">ESOP-2004-CarlssonB</a></dt><dd>From Constraints to Finite Automata to Filtering Algorithms (<abbr title="Mats Carlsson">MC</abbr>, <abbr title="Nicolas Beldiceanu">NB</abbr>), pp. 94–108.</dd><dt><a href="ESOP-2004-EspanaE.html">ESOP-2004-EspanaE</a></dt><dd>A Memoizing Semantics for Functional Logic Languages (<abbr title="Salvador España">SE</abbr>, <abbr title="Vicent Estruch">VE</abbr>), pp. 109–123.</dd><dt><a href="ESOP-2004-GustafssonS.html">ESOP-2004-GustafssonS</a></dt><dd>Adaptive Pattern Matching on Binary Data (<abbr title="Per Gustafsson">PG</abbr>, <abbr title="Konstantinos F. Sagonas">KFS</abbr>), pp. 124–139.</dd><dt><a href="ESOP-2004-BugliesiFM.html">ESOP-2004-BugliesiFM</a></dt><dd>Compositional Analysis of Authentication Protocols (<abbr title="Michele Bugliesi">MB</abbr>, <abbr title="Riccardo Focardi">RF</abbr>, <abbr title="Matteo Maffei">MM</abbr>), pp. 140–154.</dd><dt><a href="ESOP-2004-PhillipsYE.html">ESOP-2004-PhillipsYE</a></dt><dd>A Distributed Abstract Machine for Boxed Ambient Calculi (<abbr title="Andrew Phillips">AP</abbr>, <abbr title="Nobuko Yoshida">NY</abbr>, <abbr title="Susan Eisenbach">SE</abbr>), pp. 155–170.</dd><dt><a href="ESOP-2004-LhoussaineS.html">ESOP-2004-LhoussaineS</a></dt><dd>A Dependently Typed Ambient Calculus (<abbr title="Cédric Lhoussaine">CL</abbr>, <abbr title="Vladimiro Sassone">VS</abbr>), pp. 171–187.</dd><dt><a href="ESOP-2004-LeviB.html">ESOP-2004-LeviB</a></dt><dd>A Control Flow Analysis for Safe and Boxed Ambients (<abbr title="Francesca Levi">FL</abbr>, <abbr title="Chiara Bodei">CB</abbr>), pp. 188–203.</dd><dt><a href="ESOP-2004-EnnalsSM.html">ESOP-2004-EnnalsSM</a></dt><dd>Linear Types for Packet Processing (<abbr title="Robert Ennals">RE</abbr>, <abbr title="Richard Sharp">RS</abbr>, <abbr title="Alan Mycroft">AM</abbr>), pp. 204–218.</dd><dt><a href="ESOP-2004-JiaW.html">ESOP-2004-JiaW</a></dt><dd>Modal Proofs as Distributed Programs (Extended Abstract) (<abbr title="Limin Jia">LJ</abbr>, <abbr title="David Walker">DW</abbr>), pp. 219–233.</dd><dt><a href="ESOP-2004-Boudol.html">ESOP-2004-Boudol</a></dt><dd>ULM: A Core Programming Model for Global Computing: (Extended Abstract) (<abbr title="Gérard Boudol">GB</abbr>), pp. 234–248.</dd><dt><a href="ESOP-2004-VitekJWH.html">ESOP-2004-VitekJWH</a></dt><dd>A Semantic Framework for Designer Transactions (<abbr title="Jan Vitek">JV</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>, <abbr title="Adam Welc">AW</abbr>, <abbr title="Antony L. Hosking">ALH</abbr>), pp. 249–263.</dd><dt><a href="ESOP-2004-Ghica.html">ESOP-2004-Ghica</a></dt><dd>Semantical Analysis of Specification Logic, 3: An Operational Approach (<abbr title="Dan R. Ghica">DRG</abbr>), pp. 264–278.</dd><dt><a href="ESOP-2004-Thielecke.html">ESOP-2004-Thielecke</a></dt><dd>Answer Type Polymorphism in Call-by-Name Continuation Passing (<abbr title="Hayo Thielecke">HT</abbr>), pp. 279–293.</dd><dt><a href="ESOP-2004-CarlierPWK.html">ESOP-2004-CarlierPWK</a></dt><dd>System E: Expansion Variables for Flexible Typing with Linear and Non-linear Types and Intersection Types (<abbr title="Sébastien Carlier">SC</abbr>, <abbr title="Jeff Polakow">JP</abbr>, <abbr title="J. B. Wells">JBW</abbr>, <abbr title="A. J. Kfoury">AJK</abbr>), pp. 294–309.</dd><dt><a href="ESOP-2004-Hansen.html">ESOP-2004-Hansen</a></dt><dd>A Hardest Attacker for Leaking References (<abbr title="René Rydhof Hansen">RRH</abbr>), pp. 310–324.</dd><dt><a href="ESOP-2004-GuttmanTCHRS.html">ESOP-2004-GuttmanTCHRS</a></dt><dd>Trust Management in Strand Spaces: A Rely-Guarantee Method (<abbr title="Joshua D. Guttman">JDG</abbr>, <abbr title="F. Javier Thayer">FJT</abbr>, <abbr title="Jay A. Carlson">JAC</abbr>, <abbr title="Jonathan C. Herzog">JCH</abbr>, <abbr title="John D. Ramsdell">JDR</abbr>, <abbr title="Brian T. Sniffen">BTS</abbr>), pp. 325–339.</dd><dt><a href="ESOP-2004-AbadiBF.html">ESOP-2004-AbadiBF</a></dt><dd>Just Fast Keying in the Pi Calculus (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Bruno Blanchet">BB</abbr>, <abbr title="Cédric Fournet">CF</abbr>), pp. 340–354.</dd><dt><a href="ESOP-2004-Shmatikov.html">ESOP-2004-Shmatikov</a></dt><dd>Decidable Analysis of Cryptographic Protocols with Products and Modular Exponentiation (<abbr title="Vitaly Shmatikov">VS</abbr>), pp. 355–369.</dd><dt><a href="ESOP-2004-FilliatreL.html">ESOP-2004-FilliatreL</a></dt><dd>Functors for Proofs and Programs (<abbr title="Jean-Christophe Filliâtre">JCF</abbr>, <abbr title="Pierre Letouzey">PL</abbr>), pp. 370–384.</dd><dt><a href="ESOP-2004-CacheraJPR.html">ESOP-2004-CacheraJPR</a></dt><dd>Extracting a Data Flow Analyser in Constructive Logic (<abbr title="David Cachera">DC</abbr>, <abbr title="Thomas P. Jensen">TPJ</abbr>, <abbr title="David Pichardie">DP</abbr>, <abbr title="Vlad Rusu">VR</abbr>), pp. 385–400.</dd><dt><a href="ESOP-2004-Rensink.html">ESOP-2004-Rensink</a></dt><dd>Canonical Graph Shapes (<abbr title="Arend Rensink">AR</abbr>), pp. 401–415.</dd></dl>
+<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="ESOP-2004-OHearn.html">ESOP-2004-OHearn</a></dt><dd>Resources, Concurrency, and Local Reasoning (Abstract) (<abbr title="Peter W. O'Hearn">PWO</abbr>), pp. 1–2.</dd>
+<dt><a href="ESOP-2004-Mine.html">ESOP-2004-Mine</a></dt><dd>Relational Abstract Domains for the Detection of Floating-Point Run-Time Errors (<abbr title="Antoine Miné">AM</abbr>), pp. 3–17.</dd>
+<dt><a href="ESOP-2004-RanzatoT.html">ESOP-2004-RanzatoT</a></dt><dd>Strong Preservation as Completeness in Abstract Interpretation (<abbr title="Francesco Ranzato">FR</abbr>, <abbr title="Francesco Tapparo">FT</abbr>), pp. 18–32.</dd>
+<dt><a href="ESOP-2004-Feret.html">ESOP-2004-Feret</a></dt><dd>Static Analysis of Digital Filters (<abbr title="Jérôme Feret">JF</abbr>), pp. 33–48.</dd>
+<dt><a href="ESOP-2004-DuckPSS.html">ESOP-2004-DuckPSS</a></dt><dd>Sound and Decidable Type Inference for Functional Dependencies (<abbr title="Gregory J. Duck">GJD</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>, <abbr title="Peter J. Stuckey">PJS</abbr>, <abbr title="Martin Sulzmann">MS</abbr>), pp. 49–63.</dd>
+<dt><a href="ESOP-2004-HirschowitzLW.html">ESOP-2004-HirschowitzLW</a></dt><dd>Call-by-Value Mixin Modules: Reduction Semantics, Side Effects, Types (<abbr title="Tom Hirschowitz">TH</abbr>, <abbr title="Xavier Leroy">XL</abbr>, <abbr title="J. B. Wells">JBW</abbr>), pp. 64–78.</dd>
+<dt><a href="ESOP-2004-CalcagnoMT.html">ESOP-2004-CalcagnoMT</a></dt><dd>ML-Like Inference for Classifiers (<abbr title="Cristiano Calcagno">CC</abbr>, <abbr title="Eugenio Moggi">EM</abbr>, <abbr title="Walid Taha">WT</abbr>), pp. 79–93.</dd>
+<dt><a href="ESOP-2004-CarlssonB.html">ESOP-2004-CarlssonB</a></dt><dd>From Constraints to Finite Automata to Filtering Algorithms (<abbr title="Mats Carlsson">MC</abbr>, <abbr title="Nicolas Beldiceanu">NB</abbr>), pp. 94–108.</dd>
+<dt><a href="ESOP-2004-EspanaE.html">ESOP-2004-EspanaE</a></dt><dd>A Memoizing Semantics for Functional Logic Languages (<abbr title="Salvador España">SE</abbr>, <abbr title="Vicent Estruch">VE</abbr>), pp. 109–123.</dd>
+<dt><a href="ESOP-2004-GustafssonS.html">ESOP-2004-GustafssonS</a></dt><dd>Adaptive Pattern Matching on Binary Data (<abbr title="Per Gustafsson">PG</abbr>, <abbr title="Konstantinos F. Sagonas">KFS</abbr>), pp. 124–139.</dd>
+<dt><a href="ESOP-2004-BugliesiFM.html">ESOP-2004-BugliesiFM</a></dt><dd>Compositional Analysis of Authentication Protocols (<abbr title="Michele Bugliesi">MB</abbr>, <abbr title="Riccardo Focardi">RF</abbr>, <abbr title="Matteo Maffei">MM</abbr>), pp. 140–154.</dd>
+<dt><a href="ESOP-2004-PhillipsYE.html">ESOP-2004-PhillipsYE</a></dt><dd>A Distributed Abstract Machine for Boxed Ambient Calculi (<abbr title="Andrew Phillips">AP</abbr>, <abbr title="Nobuko Yoshida">NY</abbr>, <abbr title="Susan Eisenbach">SE</abbr>), pp. 155–170.</dd>
+<dt><a href="ESOP-2004-LhoussaineS.html">ESOP-2004-LhoussaineS</a></dt><dd>A Dependently Typed Ambient Calculus (<abbr title="Cédric Lhoussaine">CL</abbr>, <abbr title="Vladimiro Sassone">VS</abbr>), pp. 171–187.</dd>
+<dt><a href="ESOP-2004-LeviB.html">ESOP-2004-LeviB</a></dt><dd>A Control Flow Analysis for Safe and Boxed Ambients (<abbr title="Francesca Levi">FL</abbr>, <abbr title="Chiara Bodei">CB</abbr>), pp. 188–203.</dd>
+<dt><a href="ESOP-2004-EnnalsSM.html">ESOP-2004-EnnalsSM</a></dt><dd>Linear Types for Packet Processing (<abbr title="Robert Ennals">RE</abbr>, <abbr title="Richard Sharp">RS</abbr>, <abbr title="Alan Mycroft">AM</abbr>), pp. 204–218.</dd>
+<dt><a href="ESOP-2004-JiaW.html">ESOP-2004-JiaW</a></dt><dd>Modal Proofs as Distributed Programs (Extended Abstract) (<abbr title="Limin Jia">LJ</abbr>, <abbr title="David Walker">DW</abbr>), pp. 219–233.</dd>
+<dt><a href="ESOP-2004-Boudol.html">ESOP-2004-Boudol</a></dt><dd>ULM: A Core Programming Model for Global Computing: (Extended Abstract) (<abbr title="Gérard Boudol">GB</abbr>), pp. 234–248.</dd>
+<dt><a href="ESOP-2004-VitekJWH.html">ESOP-2004-VitekJWH</a></dt><dd>A Semantic Framework for Designer Transactions (<abbr title="Jan Vitek">JV</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>, <abbr title="Adam Welc">AW</abbr>, <abbr title="Antony L. Hosking">ALH</abbr>), pp. 249–263.</dd>
+<dt><a href="ESOP-2004-Ghica.html">ESOP-2004-Ghica</a></dt><dd>Semantical Analysis of Specification Logic, 3: An Operational Approach (<abbr title="Dan R. Ghica">DRG</abbr>), pp. 264–278.</dd>
+<dt><a href="ESOP-2004-Thielecke.html">ESOP-2004-Thielecke</a></dt><dd>Answer Type Polymorphism in Call-by-Name Continuation Passing (<abbr title="Hayo Thielecke">HT</abbr>), pp. 279–293.</dd>
+<dt><a href="ESOP-2004-CarlierPWK.html">ESOP-2004-CarlierPWK</a></dt><dd>System E: Expansion Variables for Flexible Typing with Linear and Non-linear Types and Intersection Types (<abbr title="Sébastien Carlier">SC</abbr>, <abbr title="Jeff Polakow">JP</abbr>, <abbr title="J. B. Wells">JBW</abbr>, <abbr title="A. J. Kfoury">AJK</abbr>), pp. 294–309.</dd>
+<dt><a href="ESOP-2004-Hansen.html">ESOP-2004-Hansen</a></dt><dd>A Hardest Attacker for Leaking References (<abbr title="René Rydhof Hansen">RRH</abbr>), pp. 310–324.</dd>
+<dt><a href="ESOP-2004-GuttmanTCHRS.html">ESOP-2004-GuttmanTCHRS</a></dt><dd>Trust Management in Strand Spaces: A Rely-Guarantee Method (<abbr title="Joshua D. Guttman">JDG</abbr>, <abbr title="F. Javier Thayer">FJT</abbr>, <abbr title="Jay A. Carlson">JAC</abbr>, <abbr title="Jonathan C. Herzog">JCH</abbr>, <abbr title="John D. Ramsdell">JDR</abbr>, <abbr title="Brian T. Sniffen">BTS</abbr>), pp. 325–339.</dd>
+<dt><a href="ESOP-2004-AbadiBF.html">ESOP-2004-AbadiBF</a></dt><dd>Just Fast Keying in the Pi Calculus (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Bruno Blanchet">BB</abbr>, <abbr title="Cédric Fournet">CF</abbr>), pp. 340–354.</dd>
+<dt><a href="ESOP-2004-Shmatikov.html">ESOP-2004-Shmatikov</a></dt><dd>Decidable Analysis of Cryptographic Protocols with Products and Modular Exponentiation (<abbr title="Vitaly Shmatikov">VS</abbr>), pp. 355–369.</dd>
+<dt><a href="ESOP-2004-FilliatreL.html">ESOP-2004-FilliatreL</a></dt><dd>Functors for Proofs and Programs (<abbr title="Jean-Christophe Filliâtre">JCF</abbr>, <abbr title="Pierre Letouzey">PL</abbr>), pp. 370–384.</dd>
+<dt><a href="ESOP-2004-CacheraJPR.html">ESOP-2004-CacheraJPR</a></dt><dd>Extracting a Data Flow Analyser in Constructive Logic (<abbr title="David Cachera">DC</abbr>, <abbr title="Thomas P. Jensen">TPJ</abbr>, <abbr title="David Pichardie">DP</abbr>, <abbr title="Vlad Rusu">VR</abbr>), pp. 385–400.</dd>
+<dt><a href="ESOP-2004-Rensink.html">ESOP-2004-Rensink</a></dt><dd>Canonical Graph Shapes (<abbr title="Arend Rensink">AR</abbr>), pp. 401–415.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

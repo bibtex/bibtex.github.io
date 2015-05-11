@@ -11,37 +11,64 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/popl.png" alt="Principles of Programming Languages" title="Principles of Programming Languages" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/popl.png" alt="Conference Record of the Tenth Annual Symposium on Principles of Programming Languages" title="Conference Record of the Tenth Annual Symposium on Principles of Programming Languages" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/POPL/1983/POPL-1983.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	John R. Wright, Larry Landweber, Alan J. Demers, Tim Teitelbaum (editors)<br/>
-	<em>Conference Record of the Tenth Annual Symposium on Principles of Programming Languages</em>.<br/>
-	POPL, 1983.
-</h2>
+<h2>John R. Wright, Larry Landweber, Alan J. Demers, Tim Teitelbaum<br/><em>Conference Record of the Tenth Annual Symposium on Principles of Programming Languages</em><br/>POPL, 1983.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="POPL.html">POPL</a>-1983,
-	title      = "{Conference Record of the Tenth Annual Symposium on Principles of Programming Languages}",
+	<pre>@proceedings{POPL-1983,
 	booktitle  = "{POPL}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/popl/1983">conf/popl/1983</a>",
+</span>	editor     = "John R. Wright and Larry Landweber and Alan J. Demers and Tim Teitelbaum",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=567067">http://dl.acm.org/citation.cfm?id=567067</a>",
+</span><span id="isbn">	isbn       = "0-89791-090-7",
+</span>	publisher  = "{ACM Press}",
+	title      = "{Conference Record of the Tenth Annual Symposium on Principles of Programming Languages}",
 	year       = "1983",
-	editor     = "John R. Wright and Larry Landweber and Alan J. Demers and Tim Teitelbaum",
-	publisher  = "{ACM Press}",
-<span id="isbn">	isbn       = "0-89791-090-7",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="POPL-1983-Pratt.html">POPL-1983-Pratt</a></dt><dd>Five Paradigm Shifts in Language Design and their Realization in Viron, a Dataflow Programming Environment (<abbr title="Vaughan R. Pratt">VRP</abbr>), pp. 1–9.</dd><dt><a href="POPL-1983-BonarS.html">POPL-1983-BonarS</a></dt><dd>Uncovering Principles of Novice Programming (<abbr title="Jeffrey Bonar">JB</abbr>, <abbr title="Elliot Soloway">ES</abbr>), pp. 10–13.</dd><dt><a href="POPL-1983-Johnson.html">POPL-1983-Johnson</a></dt><dd>Code Generation for Silicon (<abbr title="Stephen C. Johnson">SCJ</abbr>), pp. 14–19.</dd><dt><a href="POPL-1983-BackMR.html">POPL-1983-BackMR</a></dt><dd>Derivation of Efficient DAG Marking Algorithms (<abbr title="Ralph-Johan Back">RJB</abbr>, <abbr title="Heikki Mannila">HM</abbr>, <abbr title="Kari-Jouko Räihä">KJR</abbr>), pp. 20–27.</dd><dt><a href="POPL-1983-Lamport.html">POPL-1983-Lamport</a></dt><dd>Reasoning About Nonatomic Operations (<abbr title="Leslie Lamport">LL</abbr>), pp. 28–37.</dd><dt><a href="POPL-1983-Nelson.html">POPL-1983-Nelson</a></dt><dd>Verifying Reachability Invariants of Linked Structures (<abbr title="Greg Nelson">GN</abbr>), pp. 38–47.</dd><dt><a href="POPL-1983-NagleJ.html">POPL-1983-NagleJ</a></dt><dd>Practical Program Verification: Automatic Program Proving for Real-Time Embedded Software (<abbr title="John Nagle">JN</abbr>, <abbr title="Scott Johnson">SJ</abbr>), pp. 48–58.</dd><dt><a href="POPL-1983-DemersD.html">POPL-1983-DemersD</a></dt><dd>Making Variables Abstract: An Equational Theory for Russell (<abbr title="Alan J. Demers">AJD</abbr>, <abbr title="James E. Donahue">JED</abbr>), pp. 59–72.</dd><dt><a href="POPL-1983-Paige.html">POPL-1983-Paige</a></dt><dd>Transformational Programming - Applications to Algorithms and Systems (<abbr title="Robert Paige">RP</abbr>), pp. 73–87.</dd><dt><a href="POPL-1983-Leivant.html">POPL-1983-Leivant</a></dt><dd>Polymorphic Type Inference (<abbr title="Daniel Leivant">DL</abbr>), pp. 88–98.</dd><dt><a href="POPL-1983-Lescanne.html">POPL-1983-Lescanne</a></dt><dd>Computer Experiments with the Reve Term Rewriting System Generator (<abbr title="Pierre Lescanne">PL</abbr>), pp. 99–108.</dd><dt><a href="POPL-1983-Kieburtz.html">POPL-1983-Kieburtz</a></dt><dd>Precise Typing of Abstract Data Type Specifications (<abbr title="Richard B. Kieburtz">RBK</abbr>), pp. 109–116.</dd><dt><a href="POPL-1983-ClarkeES.html">POPL-1983-ClarkeES</a></dt><dd>Automatic Verification of Finite State Concurrent Systems Using Temporal Logic Specifications: A Practical Approach (<abbr title="Edmund M. Clarke">EMC</abbr>, <abbr title="E. Allen Emerson">EAE</abbr>, <abbr title="A. Prasad Sistla">APS</abbr>), pp. 117–126.</dd><dt><a href="POPL-1983-EmersonH.html">POPL-1983-EmersonH</a></dt><dd>``Sometimes'' and ``Not Never'' Revisited: On Branching Versus Linear Time (<abbr title="E. Allen Emerson">EAE</abbr>, <abbr title="Joseph Y. Halpern">JYH</abbr>), pp. 127–140.</dd><dt><a href="POPL-1983-MannaP.html">POPL-1983-MannaP</a></dt><dd>How to Cook a Temporal Proof System for Your Pet Language (<abbr title="Zohar Manna">ZM</abbr>, <abbr title="Amir Pnueli">AP</abbr>), pp. 141–154.</dd><dt><a href="POPL-1983-Leivant83a.html">POPL-1983-Leivant83a</a></dt><dd>Structural Semantics for Polymorphic Data Types (<abbr title="Daniel Leivant">DL</abbr>), pp. 155–166.</dd><dt><a href="POPL-1983-Ryder.html">POPL-1983-Ryder</a></dt><dd>Incremental Data Flow Analysis (<abbr title="Barbara G. Ryder">BGR</abbr>), pp. 167–176.</dd><dt><a href="POPL-1983-AllenKPW.html">POPL-1983-AllenKPW</a></dt><dd>Conversion of Control Dependence to Data Dependence (<abbr title="John R. Allen">JRA</abbr>, <abbr title="Ken Kennedy">KK</abbr>, <abbr title="Carrie Porterfield">CP</abbr>, <abbr title="Joe D. Warren">JDW</abbr>), pp. 177–189.</dd><dt><a href="POPL-1983-Wand.html">POPL-1983-Wand</a></dt><dd>Loops in Combinator-Based Compilers (<abbr title="Mitchell Wand">MW</abbr>), pp. 190–196.</dd><dt><a href="POPL-1983-CunyS.html">POPL-1983-CunyS</a></dt><dd>Compilation of Data-Driven Programs for Synchronous Execution (<abbr title="Janice E. Cuny">JEC</abbr>, <abbr title="Lawrence Snyder">LS</abbr>), pp. 197–202.</dd><dt><a href="POPL-1983-Wegman.html">POPL-1983-Wegman</a></dt><dd>Summarizing Graphs by Regular Expressions (<abbr title="Mark N. Wegman">MNW</abbr>), pp. 203–216.</dd><dt><a href="POPL-1983-FerranteO.html">POPL-1983-FerranteO</a></dt><dd>A Program Form Based on Data Dependency in Predicate Regions (<abbr title="Jeanne Ferrante">JF</abbr>, <abbr title="Karl J. Ottenstein">KJO</abbr>), pp. 217–236.</dd><dt><a href="POPL-1983-LampsonS.html">POPL-1983-LampsonS</a></dt><dd>Practical Use of a Polymorphic Applicative Language (<abbr title="Butler W. Lampson">BWL</abbr>, <abbr title="Eric E. Schmidt">EES</abbr>), pp. 237–255.</dd><dt><a href="POPL-1983-Wegner.html">POPL-1983-Wegner</a></dt><dd>On the Unification of Data and Program Abstraction in Ada (<abbr title="Peter Wegner">PW</abbr>), pp. 256–264.</dd><dt><a href="POPL-1983-Meertens.html">POPL-1983-Meertens</a></dt><dd>Incremental Polymorphic Type Checking in B (<abbr title="Lambert G. L. T. Meertens">LGLTM</abbr>), pp. 265–275.</dd><dt><a href="POPL-1983-Strom.html">POPL-1983-Strom</a></dt><dd>Mechanisms for Compile-Time Enforcement of Security (<abbr title="Robert E. Strom">RES</abbr>), pp. 276–284.</dd><dt><a href="POPL-1983-KristensenMMN.html">POPL-1983-KristensenMMN</a></dt><dd>Abstraction Mechanisms in the Beta Programming Language (<abbr title="Bent Bruun Kristensen">BBK</abbr>, <abbr title="Ole Lehrmann Madsen">OLM</abbr>, <abbr title="Birger Møller-Pedersen">BMP</abbr>, <abbr title="Kristen Nygaard">KN</abbr>), pp. 285–298.</dd><dt><a href="POPL-1983-Minsky.html">POPL-1983-Minsky</a></dt><dd>Locality in Software Systems (<abbr title="Naftaly H. Minsky">NHM</abbr>), pp. 299–312.</dd></dl>
+<h3>Contents (28 items)</h3><dl class="toc"><dt><a href="POPL-1983-Pratt.html">POPL-1983-Pratt</a></dt><dd>Five Paradigm Shifts in Language Design and their Realization in Viron, a Dataflow Programming Environment (<abbr title="Vaughan R. Pratt">VRP</abbr>), pp. 1–9.</dd>
+<dt><a href="POPL-1983-BonarS.html">POPL-1983-BonarS</a></dt><dd>Uncovering Principles of Novice Programming (<abbr title="Jeffrey Bonar">JB</abbr>, <abbr title="Elliot Soloway">ES</abbr>), pp. 10–13.</dd>
+<dt><a href="POPL-1983-Johnson.html">POPL-1983-Johnson</a></dt><dd>Code Generation for Silicon (<abbr title="Stephen C. Johnson">SCJ</abbr>), pp. 14–19.</dd>
+<dt><a href="POPL-1983-BackMR.html">POPL-1983-BackMR</a></dt><dd>Derivation of Efficient DAG Marking Algorithms (<abbr title="Ralph-Johan Back">RJB</abbr>, <abbr title="Heikki Mannila">HM</abbr>, <abbr title="Kari-Jouko Räihä">KJR</abbr>), pp. 20–27.</dd>
+<dt><a href="POPL-1983-Lamport.html">POPL-1983-Lamport</a></dt><dd>Reasoning About Nonatomic Operations (<abbr title="Leslie Lamport">LL</abbr>), pp. 28–37.</dd>
+<dt><a href="POPL-1983-Nelson.html">POPL-1983-Nelson</a></dt><dd>Verifying Reachability Invariants of Linked Structures (<abbr title="Greg Nelson">GN</abbr>), pp. 38–47.</dd>
+<dt><a href="POPL-1983-NagleJ.html">POPL-1983-NagleJ</a></dt><dd>Practical Program Verification: Automatic Program Proving for Real-Time Embedded Software (<abbr title="John Nagle">JN</abbr>, <abbr title="Scott Johnson">SJ</abbr>), pp. 48–58.</dd>
+<dt><a href="POPL-1983-DemersD.html">POPL-1983-DemersD</a></dt><dd>Making Variables Abstract: An Equational Theory for Russell (<abbr title="Alan J. Demers">AJD</abbr>, <abbr title="James E. Donahue">JED</abbr>), pp. 59–72.</dd>
+<dt><a href="POPL-1983-Paige.html">POPL-1983-Paige</a></dt><dd>Transformational Programming - Applications to Algorithms and Systems (<abbr title="Robert Paige">RP</abbr>), pp. 73–87.</dd>
+<dt><a href="POPL-1983-Leivant.html">POPL-1983-Leivant</a></dt><dd>Polymorphic Type Inference (<abbr title="Daniel Leivant">DL</abbr>), pp. 88–98.</dd>
+<dt><a href="POPL-1983-Lescanne.html">POPL-1983-Lescanne</a></dt><dd>Computer Experiments with the Reve Term Rewriting System Generator (<abbr title="Pierre Lescanne">PL</abbr>), pp. 99–108.</dd>
+<dt><a href="POPL-1983-Kieburtz.html">POPL-1983-Kieburtz</a></dt><dd>Precise Typing of Abstract Data Type Specifications (<abbr title="Richard B. Kieburtz">RBK</abbr>), pp. 109–116.</dd>
+<dt><a href="POPL-1983-ClarkeES.html">POPL-1983-ClarkeES</a></dt><dd>Automatic Verification of Finite State Concurrent Systems Using Temporal Logic Specifications: A Practical Approach (<abbr title="Edmund M. Clarke">EMC</abbr>, <abbr title="E. Allen Emerson">EAE</abbr>, <abbr title="A. Prasad Sistla">APS</abbr>), pp. 117–126.</dd>
+<dt><a href="POPL-1983-EmersonH.html">POPL-1983-EmersonH</a></dt><dd>``Sometimes'' and ``Not Never'' Revisited: On Branching Versus Linear Time (<abbr title="E. Allen Emerson">EAE</abbr>, <abbr title="Joseph Y. Halpern">JYH</abbr>), pp. 127–140.</dd>
+<dt><a href="POPL-1983-MannaP.html">POPL-1983-MannaP</a></dt><dd>How to Cook a Temporal Proof System for Your Pet Language (<abbr title="Zohar Manna">ZM</abbr>, <abbr title="Amir Pnueli">AP</abbr>), pp. 141–154.</dd>
+<dt><a href="POPL-1983-Leivant83a.html">POPL-1983-Leivant83a</a></dt><dd>Structural Semantics for Polymorphic Data Types (<abbr title="Daniel Leivant">DL</abbr>), pp. 155–166.</dd>
+<dt><a href="POPL-1983-Ryder.html">POPL-1983-Ryder</a></dt><dd>Incremental Data Flow Analysis (<abbr title="Barbara G. Ryder">BGR</abbr>), pp. 167–176.</dd>
+<dt><a href="POPL-1983-AllenKPW.html">POPL-1983-AllenKPW</a></dt><dd>Conversion of Control Dependence to Data Dependence (<abbr title="John R. Allen">JRA</abbr>, <abbr title="Ken Kennedy">KK</abbr>, <abbr title="Carrie Porterfield">CP</abbr>, <abbr title="Joe D. Warren">JDW</abbr>), pp. 177–189.</dd>
+<dt><a href="POPL-1983-Wand.html">POPL-1983-Wand</a></dt><dd>Loops in Combinator-Based Compilers (<abbr title="Mitchell Wand">MW</abbr>), pp. 190–196.</dd>
+<dt><a href="POPL-1983-CunyS.html">POPL-1983-CunyS</a></dt><dd>Compilation of Data-Driven Programs for Synchronous Execution (<abbr title="Janice E. Cuny">JEC</abbr>, <abbr title="Lawrence Snyder">LS</abbr>), pp. 197–202.</dd>
+<dt><a href="POPL-1983-Wegman.html">POPL-1983-Wegman</a></dt><dd>Summarizing Graphs by Regular Expressions (<abbr title="Mark N. Wegman">MNW</abbr>), pp. 203–216.</dd>
+<dt><a href="POPL-1983-FerranteO.html">POPL-1983-FerranteO</a></dt><dd>A Program Form Based on Data Dependency in Predicate Regions (<abbr title="Jeanne Ferrante">JF</abbr>, <abbr title="Karl J. Ottenstein">KJO</abbr>), pp. 217–236.</dd>
+<dt><a href="POPL-1983-LampsonS.html">POPL-1983-LampsonS</a></dt><dd>Practical Use of a Polymorphic Applicative Language (<abbr title="Butler W. Lampson">BWL</abbr>, <abbr title="Eric E. Schmidt">EES</abbr>), pp. 237–255.</dd>
+<dt><a href="POPL-1983-Wegner.html">POPL-1983-Wegner</a></dt><dd>On the Unification of Data and Program Abstraction in Ada (<abbr title="Peter Wegner">PW</abbr>), pp. 256–264.</dd>
+<dt><a href="POPL-1983-Meertens.html">POPL-1983-Meertens</a></dt><dd>Incremental Polymorphic Type Checking in B (<abbr title="Lambert G. L. T. Meertens">LGLTM</abbr>), pp. 265–275.</dd>
+<dt><a href="POPL-1983-Strom.html">POPL-1983-Strom</a></dt><dd>Mechanisms for Compile-Time Enforcement of Security (<abbr title="Robert E. Strom">RES</abbr>), pp. 276–284.</dd>
+<dt><a href="POPL-1983-KristensenMMN.html">POPL-1983-KristensenMMN</a></dt><dd>Abstraction Mechanisms in the Beta Programming Language (<abbr title="Bent Bruun Kristensen">BBK</abbr>, <abbr title="Ole Lehrmann Madsen">OLM</abbr>, <abbr title="Birger Møller-Pedersen">BMP</abbr>, <abbr title="Kristen Nygaard">KN</abbr>), pp. 285–298.</dd>
+<dt><a href="POPL-1983-Minsky.html">POPL-1983-Minsky</a></dt><dd>Locality in Software Systems (<abbr title="Naftaly H. Minsky">NHM</abbr>), pp. 299–312.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

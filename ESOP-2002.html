@@ -11,39 +11,59 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="Proceedings of the 11th European Symposium on Programming" title="Proceedings of the 11th European Symposium on Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/2002/ESOP-2002.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Daniel Le Métayer (editors)<br/>
-	<em>Proceedings of the 11th European Symposium on Programming</em>.<br/>
-	ESOP, 2002.
-</h2>
+<h2>Daniel Le Métayer<br/><em>Proceedings of the 11th European Symposium on Programming</em><br/>ESOP, 2002.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ESOP.html">ESOP</a>-2002,
-	title      = "{Proceedings of the 11th European Symposium on Programming}",
+	<pre>@proceedings{ESOP-2002,
 	booktitle  = "{ESOP}",
-	year       = "2002",
-	editor     = "Daniel Le Métayer",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "2305",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/2002">conf/esop/2002</a>",
+</span>	editor     = "Daniel Le Métayer",
 <span id="isbn">	isbn       = "3-540-43363-5",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 11th European Symposium on Programming}",
+	volume     = "2305",
+	year       = "2002",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="ESOP-2002-Morrisett.html">ESOP-2002-Morrisett</a></dt><dd>Type Checking Systems Code (<abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 1–5.</dd><dt><a href="ESOP-2002-HirschowitzL.html">ESOP-2002-HirschowitzL</a></dt><dd>Mixin Modules in a Call-by-Value Setting (<abbr title="Tom Hirschowitz">TH</abbr>, <abbr title="Xavier Leroy">XL</abbr>), pp. 6–20.</dd><dt><a href="ESOP-2002-Grossman.html">ESOP-2002-Grossman</a></dt><dd>Existential Types for Imperative Languages (<abbr title="Dan Grossman">DG</abbr>), pp. 21–35.</dd><dt><a href="ESOP-2002-AspinallH.html">ESOP-2002-AspinallH</a></dt><dd>Another Type System for In-Place Update (<abbr title="David Aspinall">DA</abbr>, <abbr title="Martin Hofmann 0001">MH</abbr>), pp. 36–52.</dd><dt><a href="ESOP-2002-BistarelliMR.html">ESOP-2002-BistarelliMR</a></dt><dd>Soft Concurrent Constraint Programming (<abbr title="Stefano Bistarelli">SB</abbr>, <abbr title="Ugo Montanari">UM</abbr>, <abbr title="Francesca Rossi">FR</abbr>), pp. 53–67.</dd><dt><a href="ESOP-2002-McGuireKH.html">ESOP-2002-McGuireKH</a></dt><dd>Programming Languages for Compressing Graphics (<abbr title="Morgan McGuire">MM</abbr>, <abbr title="Shriram Krishnamurthi">SK</abbr>, <abbr title="John F. Hughes">JFH</abbr>), pp. 68–82.</dd><dt><a href="ESOP-2002-HuIT.html">ESOP-2002-HuIT</a></dt><dd>An Accumulative Parallel Skeleton for All (<abbr title="Zhenjiang Hu">ZH</abbr>, <abbr title="Hideya Iwasaki">HI</abbr>, <abbr title="Masato Takeichi">MT</abbr>), pp. 83–97.</dd><dt><a href="ESOP-2002-Weirich.html">ESOP-2002-Weirich</a></dt><dd>Higher-Order Intensional Type Analysis (<abbr title="Stephanie Weirich">SW</abbr>), pp. 98–114.</dd><dt><a href="ESOP-2002-WellsH.html">ESOP-2002-WellsH</a></dt><dd>Branching Types (<abbr title="Joe B. Wells">JBW</abbr>, <abbr title="Christian Haack">CH</abbr>), pp. 115–132.</dd><dt><a href="ESOP-2002-Laird.html">ESOP-2002-Laird</a></dt><dd>Exceptions, Continuations and Macro-expressiveness (<abbr title="James Laird">JL</abbr>), pp. 133–146.</dd><dt><a href="ESOP-2002-Glew.html">ESOP-2002-Glew</a></dt><dd>A Theory of Second-Order Trees (<abbr title="Neal Glew">NG</abbr>), pp. 147–161.</dd><dt><a href="ESOP-2002-Horwitz.html">ESOP-2002-Horwitz</a></dt><dd>Tool Support for Improving Test Coverage (<abbr title="Susan Horwitz">SH</abbr>), pp. 162–177.</dd><dt><a href="ESOP-2002-Kandemir.html">ESOP-2002-Kandemir</a></dt><dd>Data Space Oriented Tiling (<abbr title="Mahmut T. Kandemir">MTK</abbr>), pp. 178–193.</dd><dt><a href="ESOP-2002-Martel.html">ESOP-2002-Martel</a></dt><dd>Propagation of Roundoff Errors in Finite Precision Computations: A Semantics Approach (<abbr title="Matthieu Martel">MM</abbr>), pp. 194–208.</dd><dt><a href="ESOP-2002-GoubaultMP.html">ESOP-2002-GoubaultMP</a></dt><dd>Asserting the Precision of Floating-Point Computations: A Simple Abstract Interpreter (<abbr title="Eric Goubault">EG</abbr>, <abbr title="Matthieu Martel">MM</abbr>, <abbr title="Sylvie Putot">SP</abbr>), pp. 209–212.</dd><dt><a href="ESOP-2002-WandW.html">ESOP-2002-WandW</a></dt><dd>A Modular, Extensible Proof Method for Small-Step Flow Analyses (<abbr title="Mitchell Wand">MW</abbr>, <abbr title="Galen B. Williamson">GBW</abbr>), pp. 213–227.</dd><dt><a href="ESOP-2002-Thiemann.html">ESOP-2002-Thiemann</a></dt><dd>A Prototype Dependency Calculus (<abbr title="Peter Thiemann">PT</abbr>), pp. 228–242.</dd><dt><a href="ESOP-2002-NielsonNS.html">ESOP-2002-NielsonNS</a></dt><dd>Automatic Complexity Analysis (<abbr title="Flemming Nielson">FN</abbr>, <abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 243–261.</dd><dt><a href="ESOP-2002-FlanaganFQ.html">ESOP-2002-FlanaganFQ</a></dt><dd>Thread-Modular Verification for Shared-Memory Programs (<abbr title="Cormac Flanagan">CF</abbr>, <abbr title="Stephen N. Freund">SNF</abbr>, <abbr title="Shaz Qadeer">SQ</abbr>), pp. 262–277.</dd><dt><a href="ESOP-2002-WansbroughNSS.html">ESOP-2002-WansbroughNSS</a></dt><dd>Timing UDP: Mechanized Semantics for Sockets, Threads, and Failures (<abbr title="Keith Wansbrough">KW</abbr>, <abbr title="Michael Norrish">MN</abbr>, <abbr title="Peter Sewell">PS</abbr>, <abbr title="Andrei Serjantov">AS</abbr>), pp. 278–294.</dd><dt><a href="ESOP-2002-CharatonikGT.html">ESOP-2002-CharatonikGT</a></dt><dd>Finite-Control Mobile Ambients (<abbr title="Witold Charatonik">WC</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>, <abbr title="Jean-Marc Talbot">JMT</abbr>), pp. 295–313.</dd><dt><a href="ESOP-2002-Feret.html">ESOP-2002-Feret</a></dt><dd>Dependency Analysis of Mobile Systems (<abbr title="Jérôme Feret">JF</abbr>), pp. 314–330.</dd></dl>
+<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="ESOP-2002-Morrisett.html">ESOP-2002-Morrisett</a></dt><dd>Type Checking Systems Code (<abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 1–5.</dd>
+<dt><a href="ESOP-2002-HirschowitzL.html">ESOP-2002-HirschowitzL</a></dt><dd>Mixin Modules in a Call-by-Value Setting (<abbr title="Tom Hirschowitz">TH</abbr>, <abbr title="Xavier Leroy">XL</abbr>), pp. 6–20.</dd>
+<dt><a href="ESOP-2002-Grossman.html">ESOP-2002-Grossman</a></dt><dd>Existential Types for Imperative Languages (<abbr title="Dan Grossman">DG</abbr>), pp. 21–35.</dd>
+<dt><a href="ESOP-2002-AspinallH.html">ESOP-2002-AspinallH</a></dt><dd>Another Type System for In-Place Update (<abbr title="David Aspinall">DA</abbr>, <abbr title="Martin Hofmann 0001">MH0</abbr>), pp. 36–52.</dd>
+<dt><a href="ESOP-2002-BistarelliMR.html">ESOP-2002-BistarelliMR</a></dt><dd>Soft Concurrent Constraint Programming (<abbr title="Stefano Bistarelli">SB</abbr>, <abbr title="Ugo Montanari">UM</abbr>, <abbr title="Francesca Rossi">FR</abbr>), pp. 53–67.</dd>
+<dt><a href="ESOP-2002-McGuireKH.html">ESOP-2002-McGuireKH</a></dt><dd>Programming Languages for Compressing Graphics (<abbr title="Morgan McGuire">MM</abbr>, <abbr title="Shriram Krishnamurthi">SK</abbr>, <abbr title="John F. Hughes">JFH</abbr>), pp. 68–82.</dd>
+<dt><a href="ESOP-2002-HuIT.html">ESOP-2002-HuIT</a></dt><dd>An Accumulative Parallel Skeleton for All (<abbr title="Zhenjiang Hu">ZH</abbr>, <abbr title="Hideya Iwasaki">HI</abbr>, <abbr title="Masato Takeichi">MT</abbr>), pp. 83–97.</dd>
+<dt><a href="ESOP-2002-Weirich.html">ESOP-2002-Weirich</a></dt><dd>Higher-Order Intensional Type Analysis (<abbr title="Stephanie Weirich">SW</abbr>), pp. 98–114.</dd>
+<dt><a href="ESOP-2002-WellsH.html">ESOP-2002-WellsH</a></dt><dd>Branching Types (<abbr title="Joe B. Wells">JBW</abbr>, <abbr title="Christian Haack">CH</abbr>), pp. 115–132.</dd>
+<dt><a href="ESOP-2002-Laird.html">ESOP-2002-Laird</a></dt><dd>Exceptions, Continuations and Macro-expressiveness (<abbr title="James Laird">JL</abbr>), pp. 133–146.</dd>
+<dt><a href="ESOP-2002-Glew.html">ESOP-2002-Glew</a></dt><dd>A Theory of Second-Order Trees (<abbr title="Neal Glew">NG</abbr>), pp. 147–161.</dd>
+<dt><a href="ESOP-2002-Horwitz.html">ESOP-2002-Horwitz</a></dt><dd>Tool Support for Improving Test Coverage (<abbr title="Susan Horwitz">SH</abbr>), pp. 162–177.</dd>
+<dt><a href="ESOP-2002-Kandemir.html">ESOP-2002-Kandemir</a></dt><dd>Data Space Oriented Tiling (<abbr title="Mahmut T. Kandemir">MTK</abbr>), pp. 178–193.</dd>
+<dt><a href="ESOP-2002-Martel.html">ESOP-2002-Martel</a></dt><dd>Propagation of Roundoff Errors in Finite Precision Computations: A Semantics Approach (<abbr title="Matthieu Martel">MM</abbr>), pp. 194–208.</dd>
+<dt><a href="ESOP-2002-GoubaultMP.html">ESOP-2002-GoubaultMP</a></dt><dd>Asserting the Precision of Floating-Point Computations: A Simple Abstract Interpreter (<abbr title="Eric Goubault">EG</abbr>, <abbr title="Matthieu Martel">MM</abbr>, <abbr title="Sylvie Putot">SP</abbr>), pp. 209–212.</dd>
+<dt><a href="ESOP-2002-WandW.html">ESOP-2002-WandW</a></dt><dd>A Modular, Extensible Proof Method for Small-Step Flow Analyses (<abbr title="Mitchell Wand">MW</abbr>, <abbr title="Galen B. Williamson">GBW</abbr>), pp. 213–227.</dd>
+<dt><a href="ESOP-2002-Thiemann.html">ESOP-2002-Thiemann</a></dt><dd>A Prototype Dependency Calculus (<abbr title="Peter Thiemann">PT</abbr>), pp. 228–242.</dd>
+<dt><a href="ESOP-2002-NielsonNS.html">ESOP-2002-NielsonNS</a></dt><dd>Automatic Complexity Analysis (<abbr title="Flemming Nielson">FN</abbr>, <abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 243–261.</dd>
+<dt><a href="ESOP-2002-FlanaganFQ.html">ESOP-2002-FlanaganFQ</a></dt><dd>Thread-Modular Verification for Shared-Memory Programs (<abbr title="Cormac Flanagan">CF</abbr>, <abbr title="Stephen N. Freund">SNF</abbr>, <abbr title="Shaz Qadeer">SQ</abbr>), pp. 262–277.</dd>
+<dt><a href="ESOP-2002-WansbroughNSS.html">ESOP-2002-WansbroughNSS</a></dt><dd>Timing UDP: Mechanized Semantics for Sockets, Threads, and Failures (<abbr title="Keith Wansbrough">KW</abbr>, <abbr title="Michael Norrish">MN</abbr>, <abbr title="Peter Sewell">PS</abbr>, <abbr title="Andrei Serjantov">AS</abbr>), pp. 278–294.</dd>
+<dt><a href="ESOP-2002-CharatonikGT.html">ESOP-2002-CharatonikGT</a></dt><dd>Finite-Control Mobile Ambients (<abbr title="Witold Charatonik">WC</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>, <abbr title="Jean-Marc Talbot">JMT</abbr>), pp. 295–313.</dd>
+<dt><a href="ESOP-2002-Feret.html">ESOP-2002-Feret</a></dt><dd>Dependency Analysis of Mobile Systems (<abbr title="Jérôme Feret">JF</abbr>), pp. 314–330.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

@@ -11,36 +11,54 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/scam.png" alt="Source Code Analysis and Manipulation" title="Source Code Analysis and Manipulation" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/scam.png" alt="Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation" title="Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SCAM/2009/SCAM-2009.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	<br/>
-	<em>Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation</em>.<br/>
-	SCAM, 2009.
-</h2>
+<h2><br/><em>Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation</em><br/>SCAM, 2009.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="SCAM.html">SCAM</a>-2009,
-	title      = "{Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation}",
+	<pre>@proceedings{SCAM-2009,
 	booktitle  = "{SCAM}",
-	year       = "2009",
-<span id="isbn">	isbn       = "978-0-7695-3793-1",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/scam/2009">conf/scam/2009</a>",
+</span><span id="isbn">	isbn       = "978-0-7695-3793-1",
 </span>	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
+	title      = "{Proceedings of the Ninth International Working Conference on Source Code Analysis and Manipulation}",
+	year       = "2009",
 }</pre>
 </div>
 <hr/>
-<h3>Contents (20 items)</h3><dl class="toc"><dt><a href="SCAM-2009-LangeM.html">SCAM-2009-LangeM</a></dt><dd>thr2csp: Toward Transforming Threads into Communicating Sequential Processes (<abbr title="Robert Charles Lange">RCL</abbr>, <abbr title="Spiros Mancoridis">SM</abbr>), pp. 3–12.</dd><dt><a href="SCAM-2009-Giffhorn.html">SCAM-2009-Giffhorn</a></dt><dd>Chopping Concurrent Programs (<abbr title="Dennis Giffhorn">DG</abbr>), pp. 13–22.</dd><dt><a href="SCAM-2009-Ward.html">SCAM-2009-Ward</a></dt><dd>Properties of Slicing Definitions (<abbr title="Martin P. Ward">MPW</abbr>), pp. 23–32.</dd><dt><a href="SCAM-2009-QianZX.html">SCAM-2009-QianZX</a></dt><dd>Improving Side-Effect Analysis with Lazy Access Path Resolving (<abbr title="Ju Qian">JQ</abbr>, <abbr title="Yuming Zhou">YZ</abbr>, <abbr title="Baowen Xu">BX</abbr>), pp. 35–44.</dd><dt><a href="SCAM-2009-GutzmannKLL.html">SCAM-2009-GutzmannKLL</a></dt><dd>Towards Comparing and Combining Points-to Analyses (<abbr title="Tobias Gutzmann">TG</abbr>, <abbr title="Antonina Khairova">AK</abbr>, <abbr title="Jonas Lundberg">JL</abbr>, <abbr title="Welf Löwe">WL</abbr>), pp. 45–54.</dd><dt><a href="SCAM-2009-AlvesV.html">SCAM-2009-AlvesV</a></dt><dd>Static Estimation of Test Coverage (<abbr title="Tiago L. Alves">TLA</abbr>, <abbr title="Joost Visser">JV</abbr>), pp. 55–64.</dd><dt><a href="SCAM-2009-TiarksKF.html">SCAM-2009-TiarksKF</a></dt><dd>An Assessment of Type-3 Clones as Detected by State-of-the-Art Tools (<abbr title="Rebecca Tiarks">RT</abbr>, <abbr title="Rainer Koschke">RK</abbr>, <abbr title="Raimar Falke">RF</abbr>), pp. 67–76.</dd><dt><a href="SCAM-2009-Gode.html">SCAM-2009-Gode</a></dt><dd>Evolution of Type-1 Clones (<abbr title="Nils Göde">NG</abbr>), pp. 77–86.</dd><dt><a href="SCAM-2009-BinkleyH.html">SCAM-2009-BinkleyH</a></dt><dd>Identifying 'Linchpin Vertices' That Cause Large Dependence Clusters (<abbr title="David Binkley">DB</abbr>, <abbr title="Mark Harman">MH</abbr>), pp. 89–98.</dd><dt><a href="SCAM-2009-SpaccoW.html">SCAM-2009-SpaccoW</a></dt><dd>Lightweight Techniques for Tracking Unique Program Statements (<abbr title="Jaime Spacco">JS</abbr>, <abbr title="Chadd C. Williams">CCW</abbr>), pp. 99–108.</dd><dt><a href="SCAM-2009-Prause.html">SCAM-2009-Prause</a></dt><dd>Maintaining Fine-Grained Code Metadata Regardless of Moving, Copying and Merging (<abbr title="Christian Prause">CP</abbr>), pp. 109–118.</dd><dt><a href="SCAM-2009-GutzmannS.html">SCAM-2009-GutzmannS</a></dt><dd>Backporting Java 5 Code (<abbr title="Tobias Gutzmann">TG</abbr>, <abbr title="Tamara Steijger">TS</abbr>), pp. 121–122.</dd><dt><a href="SCAM-2009-CanetCM.html">SCAM-2009-CanetCM</a></dt><dd>A Value Analysis for C Programs (<abbr title="Géraud Canet">GC</abbr>, <abbr title="Pascal Cuoq">PC</abbr>, <abbr title="Benjamin Monate">BM</abbr>), pp. 123–124.</dd><dt><a href="SCAM-2009-Ward09a.html">SCAM-2009-Ward09a</a></dt><dd>The FermaT Maintenance Environment Tool Demonstration (<abbr title="Martin P. Ward">MPW</abbr>), pp. 125–126.</dd><dt><a href="SCAM-2009-HamiltonD.html">SCAM-2009-HamiltonD</a></dt><dd>An Evaluation of Current Java Bytecode Decompilers (<abbr title="James Hamilton">JH</abbr>, <abbr title="Sebastian Danicic">SD</abbr>), pp. 129–136.</dd><dt><a href="SCAM-2009-AchenbachO.html">SCAM-2009-AchenbachO</a></dt><dd>Engineering Abstractions in Model Checking and Testing (<abbr title="Michael Achenbach">MA</abbr>, <abbr title="Klaus Ostermann">KO</abbr>), pp. 137–146.</dd><dt><a href="SCAM-2009-DavidH.html">SCAM-2009-DavidH</a></dt><dd>Concepts as Syntactic Sugar (<abbr title="Valentin David">VD</abbr>, <abbr title="Magne Haveraaen">MH</abbr>), pp. 147–156.</dd><dt><a href="SCAM-2009-AlikacemS.html">SCAM-2009-AlikacemS</a></dt><dd>A Metric Extraction Framework Based on a High-Level Description Language (<abbr title="El Hachemi Alikacem">EHA</abbr>, <abbr title="Houari A. Sahraoui">HAS</abbr>), pp. 159–167.</dd><dt><a href="SCAM-2009-KlintSV.html">SCAM-2009-KlintSV</a></dt><dd>RASCAL: A Domain Specific Language for Source Code Analysis and Manipulation (<abbr title="Paul Klint">PK</abbr>, <abbr title="Tijs van der Storm">TvdS</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 168–177.</dd><dt><a href="SCAM-2009-LammelZ.html">SCAM-2009-LammelZ</a></dt><dd>Recovering Grammar Relationships for the Java Language Specification (<abbr title="Ralf Lämmel">RL</abbr>, <abbr title="Vadim Zaytsev">VZ</abbr>), pp. 178–186.</dd></dl>
+<h3>Contents (20 items)</h3><dl class="toc"><dt><a href="SCAM-2009-LangeM.html">SCAM-2009-LangeM</a></dt><dd>thr2csp: Toward Transforming Threads into Communicating Sequential Processes (<abbr title="Robert Charles Lange">RCL</abbr>, <abbr title="Spiros Mancoridis">SM</abbr>), pp. 3–12.</dd>
+<dt><a href="SCAM-2009-Giffhorn.html">SCAM-2009-Giffhorn</a></dt><dd>Chopping Concurrent Programs (<abbr title="Dennis Giffhorn">DG</abbr>), pp. 13–22.</dd>
+<dt><a href="SCAM-2009-Ward.html">SCAM-2009-Ward</a></dt><dd>Properties of Slicing Definitions (<abbr title="Martin P. Ward">MPW</abbr>), pp. 23–32.</dd>
+<dt><a href="SCAM-2009-QianZX.html">SCAM-2009-QianZX</a></dt><dd>Improving Side-Effect Analysis with Lazy Access Path Resolving (<abbr title="Ju Qian">JQ</abbr>, <abbr title="Yuming Zhou">YZ</abbr>, <abbr title="Baowen Xu">BX</abbr>), pp. 35–44.</dd>
+<dt><a href="SCAM-2009-GutzmannKLL.html">SCAM-2009-GutzmannKLL</a></dt><dd>Towards Comparing and Combining Points-to Analyses (<abbr title="Tobias Gutzmann">TG</abbr>, <abbr title="Antonina Khairova">AK</abbr>, <abbr title="Jonas Lundberg">JL</abbr>, <abbr title="Welf Löwe">WL</abbr>), pp. 45–54.</dd>
+<dt><a href="SCAM-2009-AlvesV.html">SCAM-2009-AlvesV</a></dt><dd>Static Estimation of Test Coverage (<abbr title="Tiago L. Alves">TLA</abbr>, <abbr title="Joost Visser">JV</abbr>), pp. 55–64.</dd>
+<dt><a href="SCAM-2009-TiarksKF.html">SCAM-2009-TiarksKF</a></dt><dd>An Assessment of Type-3 Clones as Detected by State-of-the-Art Tools (<abbr title="Rebecca Tiarks">RT</abbr>, <abbr title="Rainer Koschke">RK</abbr>, <abbr title="Raimar Falke">RF</abbr>), pp. 67–76.</dd>
+<dt><a href="SCAM-2009-Gode.html">SCAM-2009-Gode</a></dt><dd>Evolution of Type-1 Clones (<abbr title="Nils Göde">NG</abbr>), pp. 77–86.</dd>
+<dt><a href="SCAM-2009-BinkleyH.html">SCAM-2009-BinkleyH</a></dt><dd>Identifying 'Linchpin Vertices' That Cause Large Dependence Clusters (<abbr title="David Binkley">DB</abbr>, <abbr title="Mark Harman">MH</abbr>), pp. 89–98.</dd>
+<dt><a href="SCAM-2009-SpaccoW.html">SCAM-2009-SpaccoW</a></dt><dd>Lightweight Techniques for Tracking Unique Program Statements (<abbr title="Jaime Spacco">JS</abbr>, <abbr title="Chadd C. Williams">CCW</abbr>), pp. 99–108.</dd>
+<dt><a href="SCAM-2009-Prause.html">SCAM-2009-Prause</a></dt><dd>Maintaining Fine-Grained Code Metadata Regardless of Moving, Copying and Merging (<abbr title="Christian Prause">CP</abbr>), pp. 109–118.</dd>
+<dt><a href="SCAM-2009-GutzmannS.html">SCAM-2009-GutzmannS</a></dt><dd>Backporting Java 5 Code (<abbr title="Tobias Gutzmann">TG</abbr>, <abbr title="Tamara Steijger">TS</abbr>), pp. 121–122.</dd>
+<dt><a href="SCAM-2009-CanetCM.html">SCAM-2009-CanetCM</a></dt><dd>A Value Analysis for C Programs (<abbr title="Géraud Canet">GC</abbr>, <abbr title="Pascal Cuoq">PC</abbr>, <abbr title="Benjamin Monate">BM</abbr>), pp. 123–124.</dd>
+<dt><a href="SCAM-2009-Ward09a.html">SCAM-2009-Ward09a</a></dt><dd>The FermaT Maintenance Environment Tool Demonstration (<abbr title="Martin P. Ward">MPW</abbr>), pp. 125–126.</dd>
+<dt><a href="SCAM-2009-HamiltonD.html">SCAM-2009-HamiltonD</a></dt><dd>An Evaluation of Current Java Bytecode Decompilers (<abbr title="James Hamilton">JH</abbr>, <abbr title="Sebastian Danicic">SD</abbr>), pp. 129–136.</dd>
+<dt><a href="SCAM-2009-AchenbachO.html">SCAM-2009-AchenbachO</a></dt><dd>Engineering Abstractions in Model Checking and Testing (<abbr title="Michael Achenbach">MA</abbr>, <abbr title="Klaus Ostermann">KO</abbr>), pp. 137–146.</dd>
+<dt><a href="SCAM-2009-DavidH.html">SCAM-2009-DavidH</a></dt><dd>Concepts as Syntactic Sugar (<abbr title="Valentin David">VD</abbr>, <abbr title="Magne Haveraaen">MH</abbr>), pp. 147–156.</dd>
+<dt><a href="SCAM-2009-AlikacemS.html">SCAM-2009-AlikacemS</a></dt><dd>A Metric Extraction Framework Based on a High-Level Description Language (<abbr title="El Hachemi Alikacem">EHA</abbr>, <abbr title="Houari A. Sahraoui">HAS</abbr>), pp. 159–167.</dd>
+<dt><a href="SCAM-2009-KlintSV.html">SCAM-2009-KlintSV</a></dt><dd>RASCAL: A Domain Specific Language for Source Code Analysis and Manipulation (<abbr title="Paul Klint">PK</abbr>, <abbr title="Tijs van der Storm">TvdS</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 168–177.</dd>
+<dt><a href="SCAM-2009-LammelZ.html">SCAM-2009-LammelZ</a></dt><dd>Recovering Grammar Relationships for the Java Language Specification (<abbr title="Ralf Lämmel">RL</abbr>, <abbr title="Vadim Zaytsev">VZ</abbr>), pp. 178–186.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

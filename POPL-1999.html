@@ -11,37 +11,61 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/popl.png" alt="Principles of Programming Languages" title="Principles of Programming Languages" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/popl.png" alt="Proceedings of the 26th Symposium on Principles of Programming Languages" title="Proceedings of the 26th Symposium on Principles of Programming Languages" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/POPL/1999/POPL-1999.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Andrew W. Appel, Alex Aiken (editors)<br/>
-	<em>Proceedings of the 26th Symposium on Principles of Programming Languages</em>.<br/>
-	POPL, 1999.
-</h2>
+<h2>Andrew W. Appel, Alex Aiken<br/><em>Proceedings of the 26th Symposium on Principles of Programming Languages</em><br/>POPL, 1999.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="POPL.html">POPL</a>-1999,
-	title      = "{Proceedings of the 26th Symposium on Principles of Programming Languages}",
+	<pre>@proceedings{POPL-1999,
 	booktitle  = "{POPL}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/popl/1999">conf/popl/1999</a>",
+</span>	editor     = "Andrew W. Appel and Alex Aiken",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=292540">http://dl.acm.org/citation.cfm?id=292540</a>",
+</span><span id="isbn">	isbn       = "1-58113-095-3",
+</span>	publisher  = "{ACM}",
+	title      = "{Proceedings of the 26th Symposium on Principles of Programming Languages}",
 	year       = "1999",
-	editor     = "Andrew W. Appel and Alex Aiken",
-	publisher  = "{ACM}",
-<span id="isbn">	isbn       = "1-58113-095-3",
-</span>}</pre>
+}</pre>
 </div>
 <hr/>
-<h3>Contents (25 items)</h3><dl class="toc"><dt><a href="POPL-1999-EidorffHMNST.html">POPL-1999-EidorffHMNST</a></dt><dd>AnnoDomini: From Type Theory to Year 2000 Conversion Tool (<abbr title="Peter Harry Eidorff">PHE</abbr>, <abbr title="Fritz Henglein">FH</abbr>, <abbr title="Christian Mossin">CM</abbr>, <abbr title="Henning Niss">HN</abbr>, <abbr title="Morten Heine Sørensen">MHS</abbr>, <abbr title="Mads Tofte">MT</abbr>), pp. 1–14.</dd><dt><a href="POPL-1999-WansbroughJ.html">POPL-1999-WansbroughJ</a></dt><dd>Once Upon a Polymorphic Type (<abbr title="Keith Wansbrough">KW</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>), pp. 15–28.</dd><dt><a href="POPL-1999-Kobayashi.html">POPL-1999-Kobayashi</a></dt><dd>Quasi-Linear Types (<abbr title="Naoki Kobayashi 0001">NK</abbr>), pp. 29–42.</dd><dt><a href="POPL-1999-MoranS.html">POPL-1999-MoranS</a></dt><dd>Improvement in a Lazy Context: An Operational Theory for Call-by-Need (<abbr title="Andrew Moran">AM</abbr>, <abbr title="David Sands">DS</abbr>), pp. 43–56.</dd><dt><a href="POPL-1999-Yelland.html">POPL-1999-Yelland</a></dt><dd>A Compositional Account of the Java Virtual Machine (<abbr title="Phillip M. Yelland">PMY</abbr>), pp. 57–69.</dd><dt><a href="POPL-1999-OCallahn.html">POPL-1999-OCallahn</a></dt><dd>A Simple, Comprehensive Type System for Java Bytecode Subroutines (<abbr title="Robert O'Callahn">RO</abbr>), pp. 70–78.</dd><dt><a href="POPL-1999-CardelliG.html">POPL-1999-CardelliG</a></dt><dd>Types for Mobile Ambients (<abbr title="Luca Cardelli">LC</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>), pp. 79–92.</dd><dt><a href="POPL-1999-RielyH.html">POPL-1999-RielyH</a></dt><dd>Trust and Partial Typing in Open Systems of Mobile Agents (<abbr title="James Riely">JR</abbr>, <abbr title="Matthew Hennessy">MH</abbr>), pp. 93–104.</dd><dt><a href="POPL-1999-SagivRW.html">POPL-1999-SagivRW</a></dt><dd>Parametric Shape Analysis via 3-Valued Logic (<abbr title="Shmuel Sagiv">SS</abbr>, <abbr title="Thomas W. Reps">TWR</abbr>, <abbr title="Reinhard Wilhelm">RW</abbr>), pp. 105–118.</dd><dt><a href="POPL-1999-RamalingamFT.html">POPL-1999-RamalingamFT</a></dt><dd>Aggregate Structure Identification and Its Application to Program Analysis (<abbr title="G. Ramalingam">GR</abbr>, <abbr title="John Field">JF</abbr>, <abbr title="Frank Tip">FT</abbr>), pp. 119–132.</dd><dt><a href="POPL-1999-ChatterjeeRL.html">POPL-1999-ChatterjeeRL</a></dt><dd>Relevant Context Inference (<abbr title="Ramkrishna Chatterjee">RC</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>, <abbr title="William Landi">WL</abbr>), pp. 133–146.</dd><dt><a href="POPL-1999-AbadiBHR.html">POPL-1999-AbadiBHR</a></dt><dd>A Core Calculus of Dependency (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Anindya Banerjee">AB</abbr>, <abbr title="Nevin Heintze">NH</abbr>, <abbr title="Jon G. Riecke">JGR</abbr>), pp. 147–160.</dd><dt><a href="POPL-1999-KfouryW.html">POPL-1999-KfouryW</a></dt><dd>Principality and Decidable Type Inference for Finite-Rank Intersection Types (<abbr title="A. J. Kfoury">AJK</abbr>, <abbr title="J. B. Wells">JBW</abbr>), pp. 161–174.</dd><dt><a href="POPL-1999-Filinski.html">POPL-1999-Filinski</a></dt><dd>Representing Layered Monads (<abbr title="Andrzej Filinski">AF</abbr>), pp. 175–188.</dd><dt><a href="POPL-1999-GuptaJP.html">POPL-1999-GuptaJP</a></dt><dd>Stochastic Processes as Concurrent Constraint Programs (<abbr title="Vineet Gupta">VG</abbr>, <abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Prakash Panangaden">PP</abbr>), pp. 189–202.</dd><dt><a href="POPL-1999-WaddellD.html">POPL-1999-WaddellD</a></dt><dd>Extending the Scope of Syntactic Abstraction (<abbr title="Oscar Waddell">OW</abbr>, <abbr title="R. Kent Dybvig">RKD</abbr>), pp. 203–215.</dd><dt><a href="POPL-1999-XiP.html">POPL-1999-XiP</a></dt><dd>Dependent Types in Practical Programming (<abbr title="Hongwei Xi">HX</abbr>, <abbr title="Frank Pfenning">FP</abbr>), pp. 214–227.</dd><dt><a href="POPL-1999-Myers.html">POPL-1999-Myers</a></dt><dd>JFlow: Practical Mostly-Static Information Flow Control (<abbr title="Andrew C. Myers">ACM</abbr>), pp. 228–241.</dd><dt><a href="POPL-1999-Ertl.html">POPL-1999-Ertl</a></dt><dd>Optimal Code Selection in DAGs (<abbr title="M. Anton Ertl">MAE</abbr>), pp. 242–249.</dd><dt><a href="POPL-1999-GlewM.html">POPL-1999-GlewM</a></dt><dd>Type-Safe Linking and Modular Assembly Language (<abbr title="Neal Glew">NG</abbr>, <abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 250–261.</dd><dt><a href="POPL-1999-CraryWM.html">POPL-1999-CraryWM</a></dt><dd>Typed Memory Management in a Calculus of Capabilities (<abbr title="Karl Crary">KC</abbr>, <abbr title="David Walker">DW</abbr>, <abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 262–275.</dd><dt><a href="POPL-1999-PessauxL.html">POPL-1999-PessauxL</a></dt><dd>Type-Based Analysis of Uncaught Exceptions (<abbr title="François Pessaux">FP</abbr>, <abbr title="Xavier Leroy">XL</abbr>), pp. 276–290.</dd><dt><a href="POPL-1999-WandS.html">POPL-1999-WandS</a></dt><dd>Constraint Systems for Useless Variable Elimination (<abbr title="Mitchell Wand">MW</abbr>, <abbr title="Igor Siveroni">IS</abbr>), pp. 291–302.</dd><dt><a href="POPL-1999-Ruckert.html">POPL-1999-Ruckert</a></dt><dd>Continuous Grammars (<abbr title="Martin Ruckert">MR</abbr>), pp. 303–310.</dd><dt><a href="POPL-1999-CollbergT.html">POPL-1999-CollbergT</a></dt><dd>Software Watermarking: Models and Dynamic Embeddings (<abbr title="Christian S. Collberg">CSC</abbr>, <abbr title="Clark D. Thomborson">CDT</abbr>), pp. 311–324.</dd></dl>
+<h3>Contents (25 items)</h3><dl class="toc"><dt><a href="POPL-1999-EidorffHMNST.html">POPL-1999-EidorffHMNST</a></dt><dd>AnnoDomini: From Type Theory to Year 2000 Conversion Tool (<abbr title="Peter Harry Eidorff">PHE</abbr>, <abbr title="Fritz Henglein">FH</abbr>, <abbr title="Christian Mossin">CM</abbr>, <abbr title="Henning Niss">HN</abbr>, <abbr title="Morten Heine Sørensen">MHS</abbr>, <abbr title="Mads Tofte">MT</abbr>), pp. 1–14.</dd>
+<dt><a href="POPL-1999-WansbroughJ.html">POPL-1999-WansbroughJ</a></dt><dd>Once Upon a Polymorphic Type (<abbr title="Keith Wansbrough">KW</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>), pp. 15–28.</dd>
+<dt><a href="POPL-1999-Kobayashi.html">POPL-1999-Kobayashi</a></dt><dd>Quasi-Linear Types (<abbr title="Naoki Kobayashi 0001">NK0</abbr>), pp. 29–42.</dd>
+<dt><a href="POPL-1999-MoranS.html">POPL-1999-MoranS</a></dt><dd>Improvement in a Lazy Context: An Operational Theory for Call-by-Need (<abbr title="Andrew Moran">AM</abbr>, <abbr title="David Sands">DS</abbr>), pp. 43–56.</dd>
+<dt><a href="POPL-1999-Yelland.html">POPL-1999-Yelland</a></dt><dd>A Compositional Account of the Java Virtual Machine (<abbr title="Phillip M. Yelland">PMY</abbr>), pp. 57–69.</dd>
+<dt><a href="POPL-1999-OCallahn.html">POPL-1999-OCallahn</a></dt><dd>A Simple, Comprehensive Type System for Java Bytecode Subroutines (<abbr title="Robert O'Callahn">RO</abbr>), pp. 70–78.</dd>
+<dt><a href="POPL-1999-CardelliG.html">POPL-1999-CardelliG</a></dt><dd>Types for Mobile Ambients (<abbr title="Luca Cardelli">LC</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>), pp. 79–92.</dd>
+<dt><a href="POPL-1999-RielyH.html">POPL-1999-RielyH</a></dt><dd>Trust and Partial Typing in Open Systems of Mobile Agents (<abbr title="James Riely">JR</abbr>, <abbr title="Matthew Hennessy">MH</abbr>), pp. 93–104.</dd>
+<dt><a href="POPL-1999-SagivRW.html">POPL-1999-SagivRW</a></dt><dd>Parametric Shape Analysis via 3-Valued Logic (<abbr title="Shmuel Sagiv">SS</abbr>, <abbr title="Thomas W. Reps">TWR</abbr>, <abbr title="Reinhard Wilhelm">RW</abbr>), pp. 105–118.</dd>
+<dt><a href="POPL-1999-RamalingamFT.html">POPL-1999-RamalingamFT</a></dt><dd>Aggregate Structure Identification and Its Application to Program Analysis (<abbr title="G. Ramalingam">GR</abbr>, <abbr title="John Field">JF</abbr>, <abbr title="Frank Tip">FT</abbr>), pp. 119–132.</dd>
+<dt><a href="POPL-1999-ChatterjeeRL.html">POPL-1999-ChatterjeeRL</a></dt><dd>Relevant Context Inference (<abbr title="Ramkrishna Chatterjee">RC</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>, <abbr title="William Landi">WL</abbr>), pp. 133–146.</dd>
+<dt><a href="POPL-1999-AbadiBHR.html">POPL-1999-AbadiBHR</a></dt><dd>A Core Calculus of Dependency (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Anindya Banerjee">AB</abbr>, <abbr title="Nevin Heintze">NH</abbr>, <abbr title="Jon G. Riecke">JGR</abbr>), pp. 147–160.</dd>
+<dt><a href="POPL-1999-KfouryW.html">POPL-1999-KfouryW</a></dt><dd>Principality and Decidable Type Inference for Finite-Rank Intersection Types (<abbr title="A. J. Kfoury">AJK</abbr>, <abbr title="J. B. Wells">JBW</abbr>), pp. 161–174.</dd>
+<dt><a href="POPL-1999-Filinski.html">POPL-1999-Filinski</a></dt><dd>Representing Layered Monads (<abbr title="Andrzej Filinski">AF</abbr>), pp. 175–188.</dd>
+<dt><a href="POPL-1999-GuptaJP.html">POPL-1999-GuptaJP</a></dt><dd>Stochastic Processes as Concurrent Constraint Programs (<abbr title="Vineet Gupta">VG</abbr>, <abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Prakash Panangaden">PP</abbr>), pp. 189–202.</dd>
+<dt><a href="POPL-1999-WaddellD.html">POPL-1999-WaddellD</a></dt><dd>Extending the Scope of Syntactic Abstraction (<abbr title="Oscar Waddell">OW</abbr>, <abbr title="R. Kent Dybvig">RKD</abbr>), pp. 203–215.</dd>
+<dt><a href="POPL-1999-XiP.html">POPL-1999-XiP</a></dt><dd>Dependent Types in Practical Programming (<abbr title="Hongwei Xi">HX</abbr>, <abbr title="Frank Pfenning">FP</abbr>), pp. 214–227.</dd>
+<dt><a href="POPL-1999-Myers.html">POPL-1999-Myers</a></dt><dd>JFlow: Practical Mostly-Static Information Flow Control (<abbr title="Andrew C. Myers">ACM</abbr>), pp. 228–241.</dd>
+<dt><a href="POPL-1999-Ertl.html">POPL-1999-Ertl</a></dt><dd>Optimal Code Selection in DAGs (<abbr title="M. Anton Ertl">MAE</abbr>), pp. 242–249.</dd>
+<dt><a href="POPL-1999-GlewM.html">POPL-1999-GlewM</a></dt><dd>Type-Safe Linking and Modular Assembly Language (<abbr title="Neal Glew">NG</abbr>, <abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 250–261.</dd>
+<dt><a href="POPL-1999-CraryWM.html">POPL-1999-CraryWM</a></dt><dd>Typed Memory Management in a Calculus of Capabilities (<abbr title="Karl Crary">KC</abbr>, <abbr title="David Walker">DW</abbr>, <abbr title="J. Gregory Morrisett">JGM</abbr>), pp. 262–275.</dd>
+<dt><a href="POPL-1999-PessauxL.html">POPL-1999-PessauxL</a></dt><dd>Type-Based Analysis of Uncaught Exceptions (<abbr title="François Pessaux">FP</abbr>, <abbr title="Xavier Leroy">XL</abbr>), pp. 276–290.</dd>
+<dt><a href="POPL-1999-WandS.html">POPL-1999-WandS</a></dt><dd>Constraint Systems for Useless Variable Elimination (<abbr title="Mitchell Wand">MW</abbr>, <abbr title="Igor Siveroni">IS</abbr>), pp. 291–302.</dd>
+<dt><a href="POPL-1999-Ruckert.html">POPL-1999-Ruckert</a></dt><dd>Continuous Grammars (<abbr title="Martin Ruckert">MR</abbr>), pp. 303–310.</dd>
+<dt><a href="POPL-1999-CollbergT.html">POPL-1999-CollbergT</a></dt><dd>Software Watermarking: Models and Dynamic Embeddings (<abbr title="Christian S. Collberg">CSC</abbr>, <abbr title="Clark D. Thomborson">CDT</abbr>), pp. 311–324.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

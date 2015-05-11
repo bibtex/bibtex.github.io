@@ -11,39 +11,60 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="Proceedings of the 15th European Symposium on Programming" title="Proceedings of the 15th European Symposium on Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/2006/ESOP-2006.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Peter Sestoft (editors)<br/>
-	<em>Proceedings of the 15th European Symposium on Programming</em>.<br/>
-	ESOP, 2006.
-</h2>
+<h2>Peter Sestoft<br/><em>Proceedings of the 15th European Symposium on Programming</em><br/>ESOP, 2006.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ESOP.html">ESOP</a>-2006,
-	title      = "{Proceedings of the 15th European Symposium on Programming}",
+	<pre>@proceedings{ESOP-2006,
 	booktitle  = "{ESOP}",
-	year       = "2006",
-	editor     = "Peter Sestoft",
-	volume     = "3924",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/2006">conf/esop/2006</a>",
+</span>	editor     = "Peter Sestoft",
 <span id="isbn">	isbn       = "3-540-33095-X",
-</span>	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	publisher  = "{Springer}",
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 15th European Symposium on Programming}",
+	volume     = "3924",
+	year       = "2006",
 }</pre>
 </div>
 <hr/>
-<h3>Contents (23 items)</h3><dl class="toc"><dt><a href="ESOP-2006-DrossopoulouCN.html">ESOP-2006-DrossopoulouCN</a></dt><dd>Types for Hierarchic Shapes (<abbr title="Sophia Drossopoulou">SD</abbr>, <abbr title="David G. Clarke">DGC</abbr>, <abbr title="James Noble">JN</abbr>), pp. 1–6.</dd><dt><a href="ESOP-2006-FluetMA.html">ESOP-2006-FluetMA</a></dt><dd>Linear Regions Are All You Need (<abbr title="Matthew Fluet">MF</abbr>, <abbr title="Greg Morrisett">GM</abbr>, <abbr title="Amal J. Ahmed">AJA</abbr>), pp. 7–21.</dd><dt><a href="ESOP-2006-HofmannJ.html">ESOP-2006-HofmannJ</a></dt><dd>Type-Based Amortised Heap-Space Analysis (<abbr title="Martin Hofmann 0001">MH</abbr>, <abbr title="Steffen Jost">SJ</abbr>), pp. 22–37.</dd><dt><a href="ESOP-2006-Rudiak-GouldMJ.html">ESOP-2006-Rudiak-GouldMJ</a></dt><dd>Haskell Is Not Not ML (<abbr title="Ben Rudiak-Gould">BRG</abbr>, <abbr title="Alan Mycroft">AM</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>), pp. 38–53.</dd><dt><a href="ESOP-2006-Leroy.html">ESOP-2006-Leroy</a></dt><dd>Coinductive Big-Step Operational Semantics (<abbr title="Xavier Leroy">XL</abbr>), pp. 54–68.</dd><dt><a href="ESOP-2006-Ahmed.html">ESOP-2006-Ahmed</a></dt><dd>Step-Indexed Syntactic Logical Relations for Recursive and Quantified Types (<abbr title="Amal J. Ahmed">AJA</abbr>), pp. 69–83.</dd><dt><a href="ESOP-2006-SummersB.html">ESOP-2006-SummersB</a></dt><dd>Approaches to Polymorphism in Classical Sequent Calculus (<abbr title="Alexander J. Summers">AJS</abbr>, <abbr title="Steffen van Bakel">SvB</abbr>), pp. 84–99.</dd><dt><a href="ESOP-2006-JayK.html">ESOP-2006-JayK</a></dt><dd>Pure Pattern Calculus (<abbr title="C. Barry Jay">CBJ</abbr>, <abbr title="Delia Kesner">DK</abbr>), pp. 100–114.</dd><dt><a href="ESOP-2006-LeinoM.html">ESOP-2006-LeinoM</a></dt><dd>A Verification Methodology for Model Fields (<abbr title="K. Rustan M. Leino">KRML</abbr>, <abbr title="Peter Müller 0001">PM</abbr>), pp. 115–130.</dd><dt><a href="ESOP-2006-JiaW.html">ESOP-2006-JiaW</a></dt><dd>ILC: A Foundation for Automated Reasoning About Pointer Programs (<abbr title="Limin Jia">LJ</abbr>, <abbr title="David Walker">DW</abbr>), pp. 131–145.</dd><dt><a href="ESOP-2006-KoutavasW.html">ESOP-2006-KoutavasW</a></dt><dd>Bisimulations for Untyped Imperative Objects (<abbr title="Vasileios Koutavas">VK</abbr>, <abbr title="Mitchell Wand">MW</abbr>), pp. 146–161.</dd><dt><a href="ESOP-2006-YuI.html">ESOP-2006-YuI</a></dt><dd>A Typed Assembly Language for Confidentiality (<abbr title="Dachuan Yu">DY</abbr>, <abbr title="Nayeem Islam">NI</abbr>), pp. 162–179.</dd><dt><a href="ESOP-2006-BrobergS.html">ESOP-2006-BrobergS</a></dt><dd>Flow Locks: Towards a Core Calculus for Dynamic Flow Policies (<abbr title="Niklas Broberg">NB</abbr>, <abbr title="David Sands">DS</abbr>), pp. 180–196.</dd><dt><a href="ESOP-2006-CarpinetiL.html">ESOP-2006-CarpinetiL</a></dt><dd>A Basic Contract Language for Web Services (<abbr title="Samuele Carpineti">SC</abbr>, <abbr title="Cosimo Laneve">CL</abbr>), pp. 197–213.</dd><dt><a href="ESOP-2006-SecoC.html">ESOP-2006-SecoC</a></dt><dd>Types for Dynamic Reconfiguration (<abbr title="João Costa Seco">JCS</abbr>, <abbr title="Luís Caires">LC</abbr>), pp. 214–229.</dd><dt><a href="ESOP-2006-CodishLSS.html">ESOP-2006-CodishLSS</a></dt><dd>Size-Change Termination Analysis in <i>k</i>-Bits (<abbr title="Michael Codish">MC</abbr>, <abbr title="Vitaly Lagoon">VL</abbr>, <abbr title="Peter Schachte">PS</abbr>, <abbr title="Peter J. Stuckey">PJS</abbr>), pp. 230–245.</dd><dt><a href="ESOP-2006-LalLPL.html">ESOP-2006-LalLPL</a></dt><dd>Path Optimization in Programs and Its Application to Debugging (<abbr title="Akash Lal">AL</abbr>, <abbr title="Junghee Lim">JL</abbr>, <abbr title="Marina Polishchuk">MP</abbr>, <abbr title="Ben Liblit">BL</abbr>), pp. 246–263.</dd><dt><a href="ESOP-2006-ChinMMP.html">ESOP-2006-ChinMMP</a></dt><dd>Inference of User-Defined Type Qualifiers and Qualifier Rules (<abbr title="Brian Chin">BC</abbr>, <abbr title="Shane Markstrum">SM</abbr>, <abbr title="Todd D. Millstein">TDM</abbr>, <abbr title="Jens Palsberg">JP</abbr>), pp. 264–278.</dd><dt><a href="ESOP-2006-GulwaniT.html">ESOP-2006-GulwaniT</a></dt><dd>Assertion Checking over Combined Abstraction of Linear Arithmetic and Uninterpreted Functions (<abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 279–293.</dd><dt><a href="ESOP-2006-CooperK.html">ESOP-2006-CooperK</a></dt><dd>Embedding Dynamic Dataflow in a Call-by-Value Language (<abbr title="Gregory H. Cooper">GHC</abbr>, <abbr title="Shriram Krishnamurthi">SK</abbr>), pp. 294–308.</dd><dt><a href="ESOP-2006-FurrF.html">ESOP-2006-FurrF</a></dt><dd>Polymorphic Type Inference for the JNI (<abbr title="Michael Furr">MF</abbr>, <abbr title="Jeffrey S. Foster">JSF</abbr>), pp. 309–324.</dd><dt><a href="ESOP-2006-Fruja.html">ESOP-2006-Fruja</a></dt><dd>Type Safety of Generics for the .NET Common Language Runtime (<abbr title="Nicu G. Fruja">NGF</abbr>), pp. 325–341.</dd><dt><a href="ESOP-2006-Pierce.html">ESOP-2006-Pierce</a></dt><dd>The Weird World of Bi-directional Programming (<abbr title="Benjamin C. Pierce">BCP</abbr>), pp. 342–342.</dd></dl>
+<h3>Contents (23 items)</h3><dl class="toc"><dt><a href="ESOP-2006-DrossopoulouCN.html">ESOP-2006-DrossopoulouCN</a></dt><dd>Types for Hierarchic Shapes (<abbr title="Sophia Drossopoulou">SD</abbr>, <abbr title="David G. Clarke">DGC</abbr>, <abbr title="James Noble">JN</abbr>), pp. 1–6.</dd>
+<dt><a href="ESOP-2006-FluetMA.html">ESOP-2006-FluetMA</a></dt><dd>Linear Regions Are All You Need (<abbr title="Matthew Fluet">MF</abbr>, <abbr title="Greg Morrisett">GM</abbr>, <abbr title="Amal J. Ahmed">AJA</abbr>), pp. 7–21.</dd>
+<dt><a href="ESOP-2006-HofmannJ.html">ESOP-2006-HofmannJ</a></dt><dd>Type-Based Amortised Heap-Space Analysis (<abbr title="Martin Hofmann 0001">MH0</abbr>, <abbr title="Steffen Jost">SJ</abbr>), pp. 22–37.</dd>
+<dt><a href="ESOP-2006-Rudiak-GouldMJ.html">ESOP-2006-Rudiak-GouldMJ</a></dt><dd>Haskell Is Not Not ML (<abbr title="Ben Rudiak-Gould">BRG</abbr>, <abbr title="Alan Mycroft">AM</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>), pp. 38–53.</dd>
+<dt><a href="ESOP-2006-Leroy.html">ESOP-2006-Leroy</a></dt><dd>Coinductive Big-Step Operational Semantics (<abbr title="Xavier Leroy">XL</abbr>), pp. 54–68.</dd>
+<dt><a href="ESOP-2006-Ahmed.html">ESOP-2006-Ahmed</a></dt><dd>Step-Indexed Syntactic Logical Relations for Recursive and Quantified Types (<abbr title="Amal J. Ahmed">AJA</abbr>), pp. 69–83.</dd>
+<dt><a href="ESOP-2006-SummersB.html">ESOP-2006-SummersB</a></dt><dd>Approaches to Polymorphism in Classical Sequent Calculus (<abbr title="Alexander J. Summers">AJS</abbr>, <abbr title="Steffen van Bakel">SvB</abbr>), pp. 84–99.</dd>
+<dt><a href="ESOP-2006-JayK.html">ESOP-2006-JayK</a></dt><dd>Pure Pattern Calculus (<abbr title="C. Barry Jay">CBJ</abbr>, <abbr title="Delia Kesner">DK</abbr>), pp. 100–114.</dd>
+<dt><a href="ESOP-2006-LeinoM.html">ESOP-2006-LeinoM</a></dt><dd>A Verification Methodology for Model Fields (<abbr title="K. Rustan M. Leino">KRML</abbr>, <abbr title="Peter Müller">PM</abbr>), pp. 115–130.</dd>
+<dt><a href="ESOP-2006-JiaW.html">ESOP-2006-JiaW</a></dt><dd>ILC: A Foundation for Automated Reasoning About Pointer Programs (<abbr title="Limin Jia">LJ</abbr>, <abbr title="David Walker">DW</abbr>), pp. 131–145.</dd>
+<dt><a href="ESOP-2006-KoutavasW.html">ESOP-2006-KoutavasW</a></dt><dd>Bisimulations for Untyped Imperative Objects (<abbr title="Vasileios Koutavas">VK</abbr>, <abbr title="Mitchell Wand">MW</abbr>), pp. 146–161.</dd>
+<dt><a href="ESOP-2006-YuI.html">ESOP-2006-YuI</a></dt><dd>A Typed Assembly Language for Confidentiality (<abbr title="Dachuan Yu">DY</abbr>, <abbr title="Nayeem Islam">NI</abbr>), pp. 162–179.</dd>
+<dt><a href="ESOP-2006-BrobergS.html">ESOP-2006-BrobergS</a></dt><dd>Flow Locks: Towards a Core Calculus for Dynamic Flow Policies (<abbr title="Niklas Broberg">NB</abbr>, <abbr title="David Sands">DS</abbr>), pp. 180–196.</dd>
+<dt><a href="ESOP-2006-CarpinetiL.html">ESOP-2006-CarpinetiL</a></dt><dd>A Basic Contract Language for Web Services (<abbr title="Samuele Carpineti">SC</abbr>, <abbr title="Cosimo Laneve">CL</abbr>), pp. 197–213.</dd>
+<dt><a href="ESOP-2006-SecoC.html">ESOP-2006-SecoC</a></dt><dd>Types for Dynamic Reconfiguration (<abbr title="João Costa Seco">JCS</abbr>, <abbr title="Luís Caires">LC</abbr>), pp. 214–229.</dd>
+<dt><a href="ESOP-2006-CodishLSS.html">ESOP-2006-CodishLSS</a></dt><dd>Size-Change Termination Analysis in <i>k</i>-Bits (<abbr title="Michael Codish">MC</abbr>, <abbr title="Vitaly Lagoon">VL</abbr>, <abbr title="Peter Schachte">PS</abbr>, <abbr title="Peter J. Stuckey">PJS</abbr>), pp. 230–245.</dd>
+<dt><a href="ESOP-2006-LalLPL.html">ESOP-2006-LalLPL</a></dt><dd>Path Optimization in Programs and Its Application to Debugging (<abbr title="Akash Lal">AL</abbr>, <abbr title="Junghee Lim">JL</abbr>, <abbr title="Marina Polishchuk">MP</abbr>, <abbr title="Ben Liblit">BL</abbr>), pp. 246–263.</dd>
+<dt><a href="ESOP-2006-ChinMMP.html">ESOP-2006-ChinMMP</a></dt><dd>Inference of User-Defined Type Qualifiers and Qualifier Rules (<abbr title="Brian Chin">BC</abbr>, <abbr title="Shane Markstrum">SM</abbr>, <abbr title="Todd D. Millstein">TDM</abbr>, <abbr title="Jens Palsberg">JP</abbr>), pp. 264–278.</dd>
+<dt><a href="ESOP-2006-GulwaniT.html">ESOP-2006-GulwaniT</a></dt><dd>Assertion Checking over Combined Abstraction of Linear Arithmetic and Uninterpreted Functions (<abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 279–293.</dd>
+<dt><a href="ESOP-2006-CooperK.html">ESOP-2006-CooperK</a></dt><dd>Embedding Dynamic Dataflow in a Call-by-Value Language (<abbr title="Gregory H. Cooper">GHC</abbr>, <abbr title="Shriram Krishnamurthi">SK</abbr>), pp. 294–308.</dd>
+<dt><a href="ESOP-2006-FurrF.html">ESOP-2006-FurrF</a></dt><dd>Polymorphic Type Inference for the JNI (<abbr title="Michael Furr">MF</abbr>, <abbr title="Jeffrey S. Foster">JSF</abbr>), pp. 309–324.</dd>
+<dt><a href="ESOP-2006-Fruja.html">ESOP-2006-Fruja</a></dt><dd>Type Safety of Generics for the .NET Common Language Runtime (<abbr title="Nicu G. Fruja">NGF</abbr>), pp. 325–341.</dd>
+<dt><a href="ESOP-2006-Pierce.html">ESOP-2006-Pierce</a></dt><dd>The Weird World of Bi-directional Programming (<abbr title="Benjamin C. Pierce">BCP</abbr>), p. 342.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

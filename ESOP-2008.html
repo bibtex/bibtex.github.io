@@ -11,39 +11,66 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="Proceedings of the 17th European Symposium on Programming" title="Proceedings of the 17th European Symposium on Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/2008/ESOP-2008.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Sophia Drossopoulou (editors)<br/>
-	<em>Proceedings of the 17th European Symposium on Programming</em>.<br/>
-	ESOP, 2008.
-</h2>
+<h2>Sophia Drossopoulou<br/><em>Proceedings of the 17th European Symposium on Programming</em><br/>ESOP, 2008.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ESOP.html">ESOP</a>-2008,
-	title      = "{Proceedings of the 17th European Symposium on Programming}",
+	<pre>@proceedings{ESOP-2008,
 	booktitle  = "{ESOP}",
-	year       = "2008",
-	editor     = "Sophia Drossopoulou",
-	volume     = "4960",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/2008">conf/esop/2008</a>",
+</span>	editor     = "Sophia Drossopoulou",
 <span id="isbn">	isbn       = "978-3-540-78738-9",
-</span>	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	publisher  = "{Springer}",
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 17th European Symposium on Programming}",
+	volume     = "4960",
+	year       = "2008",
 }</pre>
 </div>
 <hr/>
-<h3>Contents (29 items)</h3><dl class="toc"><dt><a href="ESOP-2008-Owens.html">ESOP-2008-Owens</a></dt><dd>A Sound Semantics for OCamllight (<abbr title="Scott Owens">SO</abbr>), pp. 1–15.</dd><dt><a href="ESOP-2008-MatthewsA.html">ESOP-2008-MatthewsA</a></dt><dd>Parametric Polymorphism through Run-Time Sealing or, Theorems for Low, Low Prices! (<abbr title="Jacob Matthews">JM</abbr>, <abbr title="Amal Ahmed">AA</abbr>), pp. 16–31.</dd><dt><a href="ESOP-2008-Cheney.html">ESOP-2008-Cheney</a></dt><dd>Regular Expression Subtyping for XML Query and Update Languages (<abbr title="James Cheney">JC</abbr>), pp. 32–47.</dd><dt><a href="ESOP-2008-HermanW.html">ESOP-2008-HermanW</a></dt><dd>A Theory of Hygienic Macros (<abbr title="David Herman">DH</abbr>, <abbr title="Mitchell Wand">MW</abbr>), pp. 48–62.</dd><dt><a href="ESOP-2008-BouissouM.html">ESOP-2008-BouissouM</a></dt><dd>A Hybrid Denotational Semantics for Hybrid Systems (<abbr title="Olivier Bouissou">OB</abbr>, <abbr title="Matthieu Martel">MM</abbr>), pp. 63–77.</dd><dt><a href="ESOP-2008-GiustoG.html">ESOP-2008-GiustoG</a></dt><dd>Full Abstraction for Linda (<abbr title="Cinzia Di Giusto">CDG</abbr>, <abbr title="Maurizio Gabbrielli">MG</abbr>), pp. 78–92.</dd><dt><a href="ESOP-2008-PoswolskyS.html">ESOP-2008-PoswolskyS</a></dt><dd>Practical Programming with Higher-Order Encodings and Dependent Types (<abbr title="Adam Poswolsky">AP</abbr>, <abbr title="Carsten Schürmann">CS</abbr>), pp. 93–107.</dd><dt><a href="ESOP-2008-MandelM.html">ESOP-2008-MandelM</a></dt><dd>Programming in JoCaml (Tool Demonstration) (<abbr title="Louis Mandel">LM</abbr>, <abbr title="Luc Maranget">LM</abbr>), pp. 108–111.</dd><dt><a href="ESOP-2008-MartinFS.html">ESOP-2008-MartinFS</a></dt><dd>Playing with TOY: Constraints and Domain Cooperation (<abbr title="Sonia Estévez Martín">SEM</abbr>, <abbr title="Antonio J. Fernández">AJF</abbr>, <abbr title="Fernando Sáenz-Pérez">FSP</abbr>), pp. 112–115.</dd><dt><a href="ESOP-2008-Boudol.html">ESOP-2008-Boudol</a></dt><dd>Typing Safe Deallocation (<abbr title="Gérard Boudol">GB</abbr>), pp. 116–130.</dd><dt><a href="ESOP-2008-NielsenNN.html">ESOP-2008-NielsenNN</a></dt><dd>Iterative Specialisation of Horn Clauses (<abbr title="Christoffer Rosenkilde Nielsen">CRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>, <abbr title="Hanne Riis Nielson">HRN</abbr>), pp. 131–145.</dd><dt><a href="ESOP-2008-Coquand.html">ESOP-2008-Coquand</a></dt><dd>Constructive Mathematics and Functional Programming (Abstract) (<abbr title="Thierry Coquand">TC</abbr>), pp. 146–147.</dd><dt><a href="ESOP-2008-ChawdharyCGSY.html">ESOP-2008-ChawdharyCGSY</a></dt><dd>Ranking Abstractions (<abbr title="Aziem Chawdhary">AC</abbr>, <abbr title="Byron Cook">BC</abbr>, <abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Mooly Sagiv">MS</abbr>, <abbr title="Hongseok Yang">HY</abbr>), pp. 148–162.</dd><dt><a href="ESOP-2008-Allamigeon.html">ESOP-2008-Allamigeon</a></dt><dd>Non-disjunctive Numerical Domain for Array Predicate Abstraction (<abbr title="Xavier Allamigeon">XA</abbr>), pp. 163–177.</dd><dt><a href="ESOP-2008-Muller-OlmS.html">ESOP-2008-Muller-OlmS</a></dt><dd>Upper Adjoints for Fast Inter-procedural Variable Equalities (<abbr title="Markus Müller-Olm">MMO</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 178–192.</dd><dt><a href="ESOP-2008-GulwaniM.html">ESOP-2008-GulwaniM</a></dt><dd>Cover Algorithms and Their Combination (<abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Madan Musuvathi">MM</abbr>), pp. 193–207.</dd><dt><a href="ESOP-2008-CirilloJPR.html">ESOP-2008-CirilloJPR</a></dt><dd>Tapido: Trust and Authorization Via Provenance and Integrity in Distributed Objects (Extended Abstract) (<abbr title="Andrew Cirillo">AC</abbr>, <abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Corin Pitcher">CP</abbr>, <abbr title="James Riely">JR</abbr>), pp. 208–223.</dd><dt><a href="ESOP-2008-KanekoK.html">ESOP-2008-KanekoK</a></dt><dd>Linear Declassification (<abbr title="Yûta Kaneko">YK</abbr>, <abbr title="Naoki Kobayashi 0001">NK</abbr>), pp. 224–238.</dd><dt><a href="ESOP-2008-HuntS.html">ESOP-2008-HuntS</a></dt><dd>Just Forget It - The Semantics and Enforcement of Information Erasure (<abbr title="Sebastian Hunt">SH</abbr>, <abbr title="David Sands">DS</abbr>), pp. 239–253.</dd><dt><a href="ESOP-2008-BuscemiM.html">ESOP-2008-BuscemiM</a></dt><dd>Open Bisimulation for the Concurrent Constraint Pi-Calculus (<abbr title="Maria Grazia Buscemi">MGB</abbr>, <abbr title="Ugo Montanari">UM</abbr>), pp. 254–268.</dd><dt><a href="ESOP-2008-VieiraCS.html">ESOP-2008-VieiraCS</a></dt><dd>The Conversation Calculus: A Model of Service-Oriented Computation (<abbr title="Hugo Torres Vieira">HTV</abbr>, <abbr title="Luís Caires">LC</abbr>, <abbr title="João Costa Seco">JCS</abbr>), pp. 269–283.</dd><dt><a href="ESOP-2008-TerauchiM.html">ESOP-2008-TerauchiM</a></dt><dd>Inferring Channel Buffer Bounds Via Linear Programming (<abbr title="Tachio Terauchi">TT</abbr>, <abbr title="Adam Megacz">AM</abbr>), pp. 284–298.</dd><dt><a href="ESOP-2008-Ong.html">ESOP-2008-Ong</a></dt><dd>Verification of Higher-Order Computation: A Game-Semantic Approach (<abbr title="C.-H. Luke Ong">CHLO</abbr>), pp. 299–306.</dd><dt><a href="ESOP-2008-LeinoM.html">ESOP-2008-LeinoM</a></dt><dd>Verification of Equivalent-Results Methods (<abbr title="K. Rustan M. Leino">KRML</abbr>, <abbr title="Peter Müller 0001">PM</abbr>), pp. 307–321.</dd><dt><a href="ESOP-2008-ConchonF.html">ESOP-2008-ConchonF</a></dt><dd>Semi-persistent Data Structures (<abbr title="Sylvain Conchon">SC</abbr>, <abbr title="Jean-Christophe Filliâtre">JCF</abbr>), pp. 322–336.</dd><dt><a href="ESOP-2008-PetersenBNM.html">ESOP-2008-PetersenBNM</a></dt><dd>A Realizability Model for Impredicative Hoare Type Theory (<abbr title="Rasmus Lerchedahl Petersen">RLP</abbr>, <abbr title="Lars Birkedal">LB</abbr>, <abbr title="Aleksandar Nanevski">AN</abbr>, <abbr title="Greg Morrisett">GM</abbr>), pp. 337–352.</dd><dt><a href="ESOP-2008-HoborAN.html">ESOP-2008-HoborAN</a></dt><dd>Oracle Semantics for Concurrent Separation Logic (<abbr title="Aquinas Hobor">AH</abbr>, <abbr title="Andrew W. Appel">AWA</abbr>, <abbr title="Francesco Zappa Nardelli">FZN</abbr>), pp. 353–367.</dd><dt><a href="ESOP-2008-BartheK.html">ESOP-2008-BartheK</a></dt><dd>Certificate Translation in Abstract Interpretation (<abbr title="Gilles Barthe">GB</abbr>, <abbr title="César Kunz">CK</abbr>), pp. 368–382.</dd><dt><a href="ESOP-2008-FournetGN.html">ESOP-2008-FournetGN</a></dt><dd>A Formal Implementation of Value Commitment (<abbr title="Cédric Fournet">CF</abbr>, <abbr title="Nataliya Guts">NG</abbr>, <abbr title="Francesco Zappa Nardelli">FZN</abbr>), pp. 383–397.</dd></dl>
+<h3>Contents (29 items)</h3><dl class="toc"><dt><a href="ESOP-2008-Owens.html">ESOP-2008-Owens</a></dt><dd>A Sound Semantics for OCamllight (<abbr title="Scott Owens">SO</abbr>), pp. 1–15.</dd>
+<dt><a href="ESOP-2008-MatthewsA.html">ESOP-2008-MatthewsA</a></dt><dd>Parametric Polymorphism through Run-Time Sealing or, Theorems for Low, Low Prices! (<abbr title="Jacob Matthews">JM</abbr>, <abbr title="Amal Ahmed">AA</abbr>), pp. 16–31.</dd>
+<dt><a href="ESOP-2008-Cheney.html">ESOP-2008-Cheney</a></dt><dd>Regular Expression Subtyping for XML Query and Update Languages (<abbr title="James Cheney">JC</abbr>), pp. 32–47.</dd>
+<dt><a href="ESOP-2008-HermanW.html">ESOP-2008-HermanW</a></dt><dd>A Theory of Hygienic Macros (<abbr title="David Herman">DH</abbr>, <abbr title="Mitchell Wand">MW</abbr>), pp. 48–62.</dd>
+<dt><a href="ESOP-2008-BouissouM.html">ESOP-2008-BouissouM</a></dt><dd>A Hybrid Denotational Semantics for Hybrid Systems (<abbr title="Olivier Bouissou">OB</abbr>, <abbr title="Matthieu Martel">MM</abbr>), pp. 63–77.</dd>
+<dt><a href="ESOP-2008-GiustoG.html">ESOP-2008-GiustoG</a></dt><dd>Full Abstraction for Linda (<abbr title="Cinzia Di Giusto">CDG</abbr>, <abbr title="Maurizio Gabbrielli">MG</abbr>), pp. 78–92.</dd>
+<dt><a href="ESOP-2008-PoswolskyS.html">ESOP-2008-PoswolskyS</a></dt><dd>Practical Programming with Higher-Order Encodings and Dependent Types (<abbr title="Adam Poswolsky">AP</abbr>, <abbr title="Carsten Schürmann">CS</abbr>), pp. 93–107.</dd>
+<dt><a href="ESOP-2008-MandelM.html">ESOP-2008-MandelM</a></dt><dd>Programming in JoCaml (Tool Demonstration) (<abbr title="Louis Mandel">LM</abbr>, <abbr title="Luc Maranget">LM</abbr>), pp. 108–111.</dd>
+<dt><a href="ESOP-2008-MartinFS.html">ESOP-2008-MartinFS</a></dt><dd>Playing with TOY: Constraints and Domain Cooperation (<abbr title="Sonia Estévez Martín">SEM</abbr>, <abbr title="Antonio J. Fernández">AJF</abbr>, <abbr title="Fernando Sáenz-Pérez">FSP</abbr>), pp. 112–115.</dd>
+<dt><a href="ESOP-2008-Boudol.html">ESOP-2008-Boudol</a></dt><dd>Typing Safe Deallocation (<abbr title="Gérard Boudol">GB</abbr>), pp. 116–130.</dd>
+<dt><a href="ESOP-2008-NielsenNN.html">ESOP-2008-NielsenNN</a></dt><dd>Iterative Specialisation of Horn Clauses (<abbr title="Christoffer Rosenkilde Nielsen">CRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>, <abbr title="Hanne Riis Nielson">HRN</abbr>), pp. 131–145.</dd>
+<dt><a href="ESOP-2008-Coquand.html">ESOP-2008-Coquand</a></dt><dd>Constructive Mathematics and Functional Programming (Abstract) (<abbr title="Thierry Coquand">TC</abbr>), pp. 146–147.</dd>
+<dt><a href="ESOP-2008-ChawdharyCGSY.html">ESOP-2008-ChawdharyCGSY</a></dt><dd>Ranking Abstractions (<abbr title="Aziem Chawdhary">AC</abbr>, <abbr title="Byron Cook">BC</abbr>, <abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Mooly Sagiv">MS</abbr>, <abbr title="Hongseok Yang">HY</abbr>), pp. 148–162.</dd>
+<dt><a href="ESOP-2008-Allamigeon.html">ESOP-2008-Allamigeon</a></dt><dd>Non-disjunctive Numerical Domain for Array Predicate Abstraction (<abbr title="Xavier Allamigeon">XA</abbr>), pp. 163–177.</dd>
+<dt><a href="ESOP-2008-Muller-OlmS.html">ESOP-2008-Muller-OlmS</a></dt><dd>Upper Adjoints for Fast Inter-procedural Variable Equalities (<abbr title="Markus Müller-Olm">MMO</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 178–192.</dd>
+<dt><a href="ESOP-2008-GulwaniM.html">ESOP-2008-GulwaniM</a></dt><dd>Cover Algorithms and Their Combination (<abbr title="Sumit Gulwani">SG</abbr>, <abbr title="Madan Musuvathi">MM</abbr>), pp. 193–207.</dd>
+<dt><a href="ESOP-2008-CirilloJPR.html">ESOP-2008-CirilloJPR</a></dt><dd>Tapido: Trust and Authorization Via Provenance and Integrity in Distributed Objects (Extended Abstract) (<abbr title="Andrew Cirillo">AC</abbr>, <abbr title="Radha Jagadeesan">RJ</abbr>, <abbr title="Corin Pitcher">CP</abbr>, <abbr title="James Riely">JR</abbr>), pp. 208–223.</dd>
+<dt><a href="ESOP-2008-KanekoK.html">ESOP-2008-KanekoK</a></dt><dd>Linear Declassification (<abbr title="Yûta Kaneko">YK</abbr>, <abbr title="Naoki Kobayashi 0001">NK0</abbr>), pp. 224–238.</dd>
+<dt><a href="ESOP-2008-HuntS.html">ESOP-2008-HuntS</a></dt><dd>Just Forget It - The Semantics and Enforcement of Information Erasure (<abbr title="Sebastian Hunt">SH</abbr>, <abbr title="David Sands">DS</abbr>), pp. 239–253.</dd>
+<dt><a href="ESOP-2008-BuscemiM.html">ESOP-2008-BuscemiM</a></dt><dd>Open Bisimulation for the Concurrent Constraint Pi-Calculus (<abbr title="Maria Grazia Buscemi">MGB</abbr>, <abbr title="Ugo Montanari">UM</abbr>), pp. 254–268.</dd>
+<dt><a href="ESOP-2008-VieiraCS.html">ESOP-2008-VieiraCS</a></dt><dd>The Conversation Calculus: A Model of Service-Oriented Computation (<abbr title="Hugo Torres Vieira">HTV</abbr>, <abbr title="Luís Caires">LC</abbr>, <abbr title="João Costa Seco">JCS</abbr>), pp. 269–283.</dd>
+<dt><a href="ESOP-2008-TerauchiM.html">ESOP-2008-TerauchiM</a></dt><dd>Inferring Channel Buffer Bounds Via Linear Programming (<abbr title="Tachio Terauchi">TT</abbr>, <abbr title="Adam Megacz">AM</abbr>), pp. 284–298.</dd>
+<dt><a href="ESOP-2008-Ong.html">ESOP-2008-Ong</a></dt><dd>Verification of Higher-Order Computation: A Game-Semantic Approach (<abbr title="C.-H. Luke Ong">CHLO</abbr>), pp. 299–306.</dd>
+<dt><a href="ESOP-2008-LeinoM.html">ESOP-2008-LeinoM</a></dt><dd>Verification of Equivalent-Results Methods (<abbr title="K. Rustan M. Leino">KRML</abbr>, <abbr title="Peter Müller">PM</abbr>), pp. 307–321.</dd>
+<dt><a href="ESOP-2008-ConchonF.html">ESOP-2008-ConchonF</a></dt><dd>Semi-persistent Data Structures (<abbr title="Sylvain Conchon">SC</abbr>, <abbr title="Jean-Christophe Filliâtre">JCF</abbr>), pp. 322–336.</dd>
+<dt><a href="ESOP-2008-PetersenBNM.html">ESOP-2008-PetersenBNM</a></dt><dd>A Realizability Model for Impredicative Hoare Type Theory (<abbr title="Rasmus Lerchedahl Petersen">RLP</abbr>, <abbr title="Lars Birkedal">LB</abbr>, <abbr title="Aleksandar Nanevski">AN</abbr>, <abbr title="Greg Morrisett">GM</abbr>), pp. 337–352.</dd>
+<dt><a href="ESOP-2008-HoborAN.html">ESOP-2008-HoborAN</a></dt><dd>Oracle Semantics for Concurrent Separation Logic (<abbr title="Aquinas Hobor">AH</abbr>, <abbr title="Andrew W. Appel">AWA</abbr>, <abbr title="Francesco Zappa Nardelli">FZN</abbr>), pp. 353–367.</dd>
+<dt><a href="ESOP-2008-BartheK.html">ESOP-2008-BartheK</a></dt><dd>Certificate Translation in Abstract Interpretation (<abbr title="Gilles Barthe">GB</abbr>, <abbr title="César Kunz">CK</abbr>), pp. 368–382.</dd>
+<dt><a href="ESOP-2008-FournetGN.html">ESOP-2008-FournetGN</a></dt><dd>A Formal Implementation of Value Commitment (<abbr title="Cédric Fournet">CF</abbr>, <abbr title="Nataliya Guts">NG</abbr>, <abbr title="Francesco Zappa Nardelli">FZN</abbr>), pp. 383–397.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

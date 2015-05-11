@@ -11,40 +11,61 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/sle.png" alt="Software Language Engineering" title="Software Language Engineering" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/sle.png" alt="Revised Selected Papers of the Fourth International Conference on Software Language Engineering" title="Revised Selected Papers of the Fourth International Conference on Software Language Engineering" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SLE/2011/SLE-2011.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Anthony M. Sloane, Uwe Aßmann (editors)<br/>
-	<em>Revised Selected Papers of the Fourth International Conference on Software Language Engineering</em>.<br/>
-	SLE, 2012.
-</h2>
+<h2>Anthony M. Sloane, Uwe Aßmann<br/><em>Revised Selected Papers of the Fourth International Conference on Software Language Engineering</em><br/>SLE, 2012.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="SLE.html">SLE</a>-2011,
-	title      = "{Revised Selected Papers of the Fourth International Conference on Software Language Engineering}",
+	<pre>@proceedings{SLE-2011,
 	booktitle  = "{SLE}",
-	year       = "2012",
-	editor     = "Anthony M. Sloane and Uwe Aßmann",
-	volume     = "6940",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/sle/2011">conf/sle/2011</a>",
+</span><span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-28830-2">10.1007/978-3-642-28830-2</a>",
+</span>	editor     = "Anthony M. Sloane and Uwe Aßmann",
+<span class="uri">	ee         = "<a href="http://dx.doi.org/10.1007/978-3-642-28830-2">http://dx.doi.org/10.1007/978-3-642-28830-2</a>",
+</span><span id="isbn">	isbn       = "978-3-642-28829-6",
+</span>	publisher  = "{Springer}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-<span id="isbn">	isbn       = "978-3-642-28829-6",
-</span><span id="doi">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-28830-2">10.1007/978-3-642-28830-2</a>",
-</span>}</pre>
+	title      = "{Revised Selected Papers of the Fourth International Conference on Software Language Engineering}",
+	volume     = "6940",
+	year       = "2012",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="SLE-2011-KlintLP.html">SLE-2011-KlintLP</a></dt><dd>Towards a One-Stop-Shop for Analysis, Transformation and Visualization of Software (<abbr title="Paul Klint">PK</abbr>, <abbr title="Bert Lisser">BL</abbr>, <abbr title="Atze van der Ploeg">AvdP</abbr>), pp. 1–18.</dd><dt><a href="SLE-2011-SeibelHNG.html">SLE-2011-SeibelHNG</a></dt><dd>A Dedicated Language for Context Composition and Execution of True Black-Box Model Transformations (<abbr title="Andreas Seibel">AS</abbr>, <abbr title="Regina Hebig">RH</abbr>, <abbr title="Stefan Neumann">SN</abbr>, <abbr title="Holger Giese">HG</abbr>), pp. 19–39.</dd><dt><a href="SLE-2011-JongeV.html">SLE-2011-JongeV</a></dt><dd>An Algorithm for Layout Preservation in Refactoring Transformations (<abbr title="Maartje de Jonge">MdJ</abbr>, <abbr title="Eelco Visser">EV</abbr>), pp. 40–59.</dd><dt><a href="SLE-2011-TairasC.html">SLE-2011-TairasC</a></dt><dd>Cloning in DSLs: Experiments with OCL (<abbr title="Robert Tairas">RT</abbr>, <abbr title="Jordi Cabot">JC</abbr>), pp. 60–76.</dd><dt><a href="SLE-2011-JoncheereS.html">SLE-2011-JoncheereS</a></dt><dd>Uniform Modularization of Workflow Concerns Using Unify (<abbr title="Niels Joncheere">NJ</abbr>, <abbr title="Ragnhild Van Der Straeten">RVDS</abbr>), pp. 77–96.</dd><dt><a href="SLE-2011-SuttonS.html">SLE-2011-SuttonS</a></dt><dd>Design of Concept Libraries for C++ (<abbr title="Andrew Sutton">AS</abbr>, <abbr title="Bjarne Stroustrup">BS</abbr>), pp. 97–118.</dd><dt><a href="SLE-2011-NishimoriK.html">SLE-2011-NishimoriK</a></dt><dd>Join Token-Based Event Handling: A Comprehensive Framework for Game Programming (<abbr title="Taketoshi Nishimori">TN</abbr>, <abbr title="Yasushi Kuno">YK</abbr>), pp. 119–138.</dd><dt><a href="SLE-2011-TombelleVR.html">SLE-2011-TombelleVR</a></dt><dd>Reusing Pattern Solutions in Modeling: A Generic Approach Based on a Role Language (<abbr title="Christophe Tombelle">CT</abbr>, <abbr title="Gilles Vanwormhoudt">GV</abbr>, <abbr title="Emmanuel Renaux">ER</abbr>), pp. 139–159.</dd><dt><a href="SLE-2011-PaulheimOPP.html">SLE-2011-PaulheimOPP</a></dt><dd>An Architecture for Information Exchange Based on Reference Models (<abbr title="Heiko Paulheim">HP</abbr>, <abbr title="Daniel Oberle">DO</abbr>, <abbr title="Roland Plendl">RP</abbr>, <abbr title="Florian Probst">FP</abbr>), pp. 160–179.</dd><dt><a href="SLE-2011-KlingJWBC.html">SLE-2011-KlingJWBC</a></dt><dd>MoScript: A DSL for Querying and Manipulating Model Repositories (<abbr title="Wolfgang Kling">WK</abbr>, <abbr title="Frédéric Jouault">FJ</abbr>, <abbr title="Dennis Wagelaar">DW</abbr>, <abbr title="Marco Brambilla">MB</abbr>, <abbr title="Jordi Cabot">JC</abbr>), pp. 180–200.</dd><dt><a href="SLE-2011-VermolenWV.html">SLE-2011-VermolenWV</a></dt><dd>Reconstructing Complex Metamodel Evolution (<abbr title="Sander Vermolen">SV</abbr>, <abbr title="Guido Wachsmuth">GW</abbr>, <abbr title="Eelco Visser">EV</abbr>), pp. 201–221.</dd><dt><a href="SLE-2011-Czarnecki.html">SLE-2011-Czarnecki</a></dt><dd>Designing Variability Modeling Languages (<abbr title="Krzysztof Czarnecki">KC</abbr>), pp. 222–222.</dd><dt><a href="SLE-2011-StappersWRAN.html">SLE-2011-StappersWRAN</a></dt><dd>Formalizing a Domain Specific Language Using SOS: An Industrial Case Study (<abbr title="Frank P. M. Stappers">FPMS</abbr>, <abbr title="Sven Weber">SW</abbr>, <abbr title="Michel A. Reniers">MAR</abbr>, <abbr title="Suzana Andova">SA</abbr>, <abbr title="Istvan Nagy">IN</abbr>), pp. 223–242.</dd><dt><a href="SLE-2011-ErwigW.html">SLE-2011-ErwigW</a></dt><dd>Semantics First! - Rethinking the Language Design Process (<abbr title="Martin Erwig">ME</abbr>, <abbr title="Eric Walkingshaw">EW</abbr>), pp. 243–262.</dd><dt><a href="SLE-2011-KaminskiW.html">SLE-2011-KaminskiW</a></dt><dd>Integrating Attribute Grammar and Functional Programming Language Features (<abbr title="Ted Kaminski">TK</abbr>, <abbr title="Eric Van Wyk">EVW</abbr>), pp. 263–282.</dd><dt><a href="SLE-2011-BastenV.html">SLE-2011-BastenV</a></dt><dd>Parse Forest Diagnostics with Dr. Ambiguity (<abbr title="Hendrikus J. S. Basten">HJSB</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 283–302.</dd><dt><a href="SLE-2011-BastenKV.html">SLE-2011-BastenKV</a></dt><dd>Ambiguity Detection: Scaling to Scannerless (<abbr title="Hendrikus J. S. Basten">HJSB</abbr>, <abbr title="Paul Klint">PK</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 303–323.</dd><dt><a href="SLE-2011-FischerLZ.html">SLE-2011-FischerLZ</a></dt><dd>Comparison of Context-Free Grammars Based on Parsing Generated Test Data (<abbr title="Bernd Fischer 0002">BF</abbr>, <abbr title="Ralf Lämmel">RL</abbr>, <abbr title="Vadim Zaytsev">VZ</abbr>), pp. 324–343.</dd><dt><a href="SLE-2011-HillsKV.html">SLE-2011-HillsKV</a></dt><dd>RLSRunner: Linking Rascal with K for Program Analysis (<abbr title="Mark Hills 0001">MH</abbr>, <abbr title="Paul Klint">PK</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 344–353.</dd><dt><a href="SLE-2011-NilssonH.html">SLE-2011-NilssonH</a></dt><dd>Metacompiling OWL Ontologies (<abbr title="Anders Nilsson">AN</abbr>, <abbr title="Görel Hedin">GH</abbr>), pp. 354–366.</dd><dt><a href="SLE-2011-Wider.html">SLE-2011-Wider</a></dt><dd>Towards Combinators for Bidirectional Model Transformations in Scala (<abbr title="Arif Wider">AW</abbr>), pp. 367–377.</dd><dt><a href="SLE-2011-Wojciechowski.html">SLE-2011-Wojciechowski</a></dt><dd>Typed First-Class Communication Channels and Mobility for Concurrent Scripting Languages (<abbr title="Pawel T. Wojciechowski">PTW</abbr>), pp. 378–387.</dd></dl>
+<h3>Contents (22 items)</h3><dl class="toc"><dt><a href="SLE-2011-KlintLP.html">SLE-2011-KlintLP</a></dt><dd>Towards a One-Stop-Shop for Analysis, Transformation and Visualization of Software (<abbr title="Paul Klint">PK</abbr>, <abbr title="Bert Lisser">BL</abbr>, <abbr title="Atze van der Ploeg">AvdP</abbr>), pp. 1–18.</dd>
+<dt><a href="SLE-2011-SeibelHNG.html">SLE-2011-SeibelHNG</a></dt><dd>A Dedicated Language for Context Composition and Execution of True Black-Box Model Transformations (<abbr title="Andreas Seibel">AS</abbr>, <abbr title="Regina Hebig">RH</abbr>, <abbr title="Stefan Neumann">SN</abbr>, <abbr title="Holger Giese">HG</abbr>), pp. 19–39.</dd>
+<dt><a href="SLE-2011-JongeV.html">SLE-2011-JongeV</a></dt><dd>An Algorithm for Layout Preservation in Refactoring Transformations (<abbr title="Maartje de Jonge">MdJ</abbr>, <abbr title="Eelco Visser">EV</abbr>), pp. 40–59.</dd>
+<dt><a href="SLE-2011-TairasC.html">SLE-2011-TairasC</a></dt><dd>Cloning in DSLs: Experiments with OCL (<abbr title="Robert Tairas">RT</abbr>, <abbr title="Jordi Cabot">JC</abbr>), pp. 60–76.</dd>
+<dt><a href="SLE-2011-JoncheereS.html">SLE-2011-JoncheereS</a></dt><dd>Uniform Modularization of Workflow Concerns Using Unify (<abbr title="Niels Joncheere">NJ</abbr>, <abbr title="Ragnhild Van Der Straeten">RVDS</abbr>), pp. 77–96.</dd>
+<dt><a href="SLE-2011-SuttonS.html">SLE-2011-SuttonS</a></dt><dd>Design of Concept Libraries for C++ (<abbr title="Andrew Sutton">AS</abbr>, <abbr title="Bjarne Stroustrup">BS</abbr>), pp. 97–118.</dd>
+<dt><a href="SLE-2011-NishimoriK.html">SLE-2011-NishimoriK</a></dt><dd>Join Token-Based Event Handling: A Comprehensive Framework for Game Programming (<abbr title="Taketoshi Nishimori">TN</abbr>, <abbr title="Yasushi Kuno">YK</abbr>), pp. 119–138.</dd>
+<dt><a href="SLE-2011-TombelleVR.html">SLE-2011-TombelleVR</a></dt><dd>Reusing Pattern Solutions in Modeling: A Generic Approach Based on a Role Language (<abbr title="Christophe Tombelle">CT</abbr>, <abbr title="Gilles Vanwormhoudt">GV</abbr>, <abbr title="Emmanuel Renaux">ER</abbr>), pp. 139–159.</dd>
+<dt><a href="SLE-2011-PaulheimOPP.html">SLE-2011-PaulheimOPP</a></dt><dd>An Architecture for Information Exchange Based on Reference Models (<abbr title="Heiko Paulheim">HP</abbr>, <abbr title="Daniel Oberle">DO</abbr>, <abbr title="Roland Plendl">RP</abbr>, <abbr title="Florian Probst">FP</abbr>), pp. 160–179.</dd>
+<dt><a href="SLE-2011-KlingJWBC.html">SLE-2011-KlingJWBC</a></dt><dd>MoScript: A DSL for Querying and Manipulating Model Repositories (<abbr title="Wolfgang Kling">WK</abbr>, <abbr title="Frédéric Jouault">FJ</abbr>, <abbr title="Dennis Wagelaar">DW</abbr>, <abbr title="Marco Brambilla">MB</abbr>, <abbr title="Jordi Cabot">JC</abbr>), pp. 180–200.</dd>
+<dt><a href="SLE-2011-VermolenWV.html">SLE-2011-VermolenWV</a></dt><dd>Reconstructing Complex Metamodel Evolution (<abbr title="Sander Vermolen">SV</abbr>, <abbr title="Guido Wachsmuth">GW</abbr>, <abbr title="Eelco Visser">EV</abbr>), pp. 201–221.</dd>
+<dt><a href="SLE-2011-Czarnecki.html">SLE-2011-Czarnecki</a></dt><dd>Designing Variability Modeling Languages (<abbr title="Krzysztof Czarnecki">KC</abbr>), p. 222.</dd>
+<dt><a href="SLE-2011-StappersWRAN.html">SLE-2011-StappersWRAN</a></dt><dd>Formalizing a Domain Specific Language Using SOS: An Industrial Case Study (<abbr title="Frank P. M. Stappers">FPMS</abbr>, <abbr title="Sven Weber">SW</abbr>, <abbr title="Michel A. Reniers">MAR</abbr>, <abbr title="Suzana Andova">SA</abbr>, <abbr title="Istvan Nagy">IN</abbr>), pp. 223–242.</dd>
+<dt><a href="SLE-2011-ErwigW.html">SLE-2011-ErwigW</a></dt><dd>Semantics First! - Rethinking the Language Design Process (<abbr title="Martin Erwig">ME</abbr>, <abbr title="Eric Walkingshaw">EW</abbr>), pp. 243–262.</dd>
+<dt><a href="SLE-2011-KaminskiW.html">SLE-2011-KaminskiW</a></dt><dd>Integrating Attribute Grammar and Functional Programming Language Features (<abbr title="Ted Kaminski">TK</abbr>, <abbr title="Eric Van Wyk">EVW</abbr>), pp. 263–282.</dd>
+<dt><a href="SLE-2011-BastenV.html">SLE-2011-BastenV</a></dt><dd>Parse Forest Diagnostics with Dr. Ambiguity (<abbr title="Hendrikus J. S. Basten">HJSB</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 283–302.</dd>
+<dt><a href="SLE-2011-BastenKV.html">SLE-2011-BastenKV</a></dt><dd>Ambiguity Detection: Scaling to Scannerless (<abbr title="Hendrikus J. S. Basten">HJSB</abbr>, <abbr title="Paul Klint">PK</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 303–323.</dd>
+<dt><a href="SLE-2011-FischerLZ.html">SLE-2011-FischerLZ</a></dt><dd>Comparison of Context-Free Grammars Based on Parsing Generated Test Data (<abbr title="Bernd Fischer 0002">BF0</abbr>, <abbr title="Ralf Lämmel">RL</abbr>, <abbr title="Vadim Zaytsev">VZ</abbr>), pp. 324–343.</dd>
+<dt><a href="SLE-2011-HillsKV.html">SLE-2011-HillsKV</a></dt><dd>RLSRunner: Linking Rascal with K for Program Analysis (<abbr title="Mark Hills">MH</abbr>, <abbr title="Paul Klint">PK</abbr>, <abbr title="Jurgen J. Vinju">JJV</abbr>), pp. 344–353.</dd>
+<dt><a href="SLE-2011-NilssonH.html">SLE-2011-NilssonH</a></dt><dd>Metacompiling OWL Ontologies (<abbr title="Anders Nilsson">AN</abbr>, <abbr title="Görel Hedin">GH</abbr>), pp. 354–366.</dd>
+<dt><a href="SLE-2011-Wider.html">SLE-2011-Wider</a></dt><dd>Towards Combinators for Bidirectional Model Transformations in Scala (<abbr title="Arif Wider">AW</abbr>), pp. 367–377.</dd>
+<dt><a href="SLE-2011-Wojciechowski.html">SLE-2011-Wojciechowski</a></dt><dd>Typed First-Class Communication Channels and Mobility for Concurrent Scripting Languages (<abbr title="Pawel T. Wojciechowski">PTW</abbr>), pp. 378–387.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

@@ -11,39 +11,67 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/rta.png" alt="Rewriting Techniques and Applications" title="Rewriting Techniques and Applications" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/rta.png" alt="Proceedings of the 18th International Conference on Term Rewriting and Applications" title="Proceedings of the 18th International Conference on Term Rewriting and Applications" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/RTA/2007/RTA-2007.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Franz Baader (editors)<br/>
-	<em>Proceedings of the 18th International Conference on Term Rewriting and Applications</em>.<br/>
-	RTA, 2007.
-</h2>
+<h2>Franz Baader<br/><em>Proceedings of the 18th International Conference on Term Rewriting and Applications</em><br/>RTA, 2007.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="RTA.html">RTA</a>-2007,
-	title      = "{Proceedings of the 18th International Conference on Term Rewriting and Applications}",
+	<pre>@proceedings{RTA-2007,
 	booktitle  = "{RTA}",
-	year       = "2007",
-	editor     = "Franz Baader",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "4533",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/rta/2007">conf/rta/2007</a>",
+</span>	editor     = "Franz Baader",
 <span id="isbn">	isbn       = "978-3-540-73447-5",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the 18th International Conference on Term Rewriting and Applications}",
+	volume     = "4533",
+	year       = "2007",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (30 items)</h3><dl class="toc"><dt><a href="RTA-2007-Leroy.html">RTA-2007-Leroy</a></dt><dd>Formal Verification of an Optimizing Compiler (<abbr title="Xavier Leroy">XL</abbr>), pp. 1–1.</dd><dt><a href="RTA-2007-NieuwenhuisORR.html">RTA-2007-NieuwenhuisORR</a></dt><dd>Challenges in Satisfiability Modulo Theories (<abbr title="Robert Nieuwenhuis">RN</abbr>, <abbr title="Albert Oliveras">AO</abbr>, <abbr title="Enric Rodríguez-Carbonell">ERC</abbr>, <abbr title="Albert Rubio">AR</abbr>), pp. 2–18.</dd><dt><a href="RTA-2007-Pfenning.html">RTA-2007-Pfenning</a></dt><dd>On a Logical Foundation for Explicit Substitutions (<abbr title="Frank Pfenning">FP</abbr>), pp. 19–19.</dd><dt><a href="RTA-2007-AnantharamanNR.html">RTA-2007-AnantharamanNR</a></dt><dd>Intruders with Caps (<abbr title="Siva Anantharaman">SA</abbr>, <abbr title="Paliath Narendran">PN</abbr>, <abbr title="Michaël Rusinowitch">MR</abbr>), pp. 20–35.</dd><dt><a href="RTA-2007-BallandBKMR.html">RTA-2007-BallandBKMR</a></dt><dd>Tom: Piggybacking Rewriting on Java (<abbr title="Emilie Balland">EB</abbr>, <abbr title="Paul Brauner">PB</abbr>, <abbr title="Radu Kopetz">RK</abbr>, <abbr title="Pierre-Etienne Moreau">PEM</abbr>, <abbr title="Antoine Reilles">AR</abbr>), pp. 36–47.</dd><dt><a href="RTA-2007-BoichutGJR.html">RTA-2007-BoichutGJR</a></dt><dd>Rewriting Approximations for Fast Prototyping of Static Analyzers (<abbr title="Yohan Boichut">YB</abbr>, <abbr title="Thomas Genet">TG</abbr>, <abbr title="Thomas P. Jensen">TPJ</abbr>, <abbr title="Luka Le Roux">LLR</abbr>), pp. 48–62.</dd><dt><a href="RTA-2007-TourE.html">RTA-2007-TourE</a></dt><dd>Determining Unify-Stable Presentations (<abbr title="Thierry Boy de la Tour">TBdlT</abbr>, <abbr title="Mnacho Echenim">ME</abbr>), pp. 63–77.</dd><dt><a href="RTA-2007-CirsteaF.html">RTA-2007-CirsteaF</a></dt><dd>Confluence of Pattern-Based Calculi (<abbr title="Horatiu Cirstea">HC</abbr>, <abbr title="Germain Faure">GF</abbr>), pp. 78–92.</dd><dt><a href="RTA-2007-DowekH.html">RTA-2007-DowekH</a></dt><dd>A Simple Proof That Super-Consistency Implies Cut Elimination (<abbr title="Gilles Dowek">GD</abbr>, <abbr title="Olivier Hermant">OH</abbr>), pp. 93–106.</dd><dt><a href="RTA-2007-DurandS.html">RTA-2007-DurandS</a></dt><dd>Bottom-Up Rewriting Is Inverse Recognizability Preserving (<abbr title="Irène Durand">ID</abbr>, <abbr title="Géraud Sénizergues">GS</abbr>), pp. 107–121.</dd><dt><a href="RTA-2007-DuvalEP.html">RTA-2007-DuvalEP</a></dt><dd>Adjunction for Garbage Collection with Application to Graph Rewriting (<abbr title="Dominique Duval">DD</abbr>, <abbr title="Rachid Echahed">RE</abbr>, <abbr title="Frédéric Prost">FP</abbr>), pp. 122–136.</dd><dt><a href="RTA-2007-EchahedP.html">RTA-2007-EchahedP</a></dt><dd>Non Strict Confluent Rewrite Systems for Data-Structures with Pointers (<abbr title="Rachid Echahed">RE</abbr>, <abbr title="Nicolas Peltier">NP</abbr>), pp. 137–152.</dd><dt><a href="RTA-2007-EscobarM.html">RTA-2007-EscobarM</a></dt><dd>Symbolic Model Checking of Infinite-State Systems Using Narrowing (<abbr title="Santiago Escobar">SE</abbr>, <abbr title="José Meseguer">JM</abbr>), pp. 153–168.</dd><dt><a href="RTA-2007-Santo.html">RTA-2007-Santo</a></dt><dd>Delayed Substitutions (<abbr title="José Espírito Santo">JES</abbr>), pp. 169–183.</dd><dt><a href="RTA-2007-GodoyH.html">RTA-2007-GodoyH</a></dt><dd>Innermost-Reachability and Innermost-Joinability Are Decidable for Shallow Term Rewrite Systems (<abbr title="Guillem Godoy">GG</abbr>, <abbr title="Eduard Huntingford">EH</abbr>), pp. 184–199.</dd><dt><a href="RTA-2007-GodoyHT.html">RTA-2007-GodoyHT</a></dt><dd>Termination of Rewriting with Right-Flat Rules (<abbr title="Guillem Godoy">GG</abbr>, <abbr title="Eduard Huntingford">EH</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 200–213.</dd><dt><a href="RTA-2007-HaemmerleF.html">RTA-2007-HaemmerleF</a></dt><dd>Abstract Critical Pairs and Confluence of Arbitrary Binary Relations (<abbr title="Rémy Haemmerlé">RH</abbr>, <abbr title="François Fages">FF</abbr>), pp. 214–228.</dd><dt><a href="RTA-2007-HendrixM.html">RTA-2007-HendrixM</a></dt><dd>On the Completeness of Context-Sensitive Order-Sorted Specifications (<abbr title="Joe Hendrix">JH</abbr>, <abbr title="José Meseguer">JM</abbr>), pp. 229–245.</dd><dt><a href="RTA-2007-HillsR.html">RTA-2007-HillsR</a></dt><dd>KOOL: An Application of Rewriting Logic to Language Prototyping and Analysis (<abbr title="Mark Hills 0001">MH</abbr>, <abbr title="Grigore Rosu">GR</abbr>), pp. 246–256.</dd><dt><a href="RTA-2007-Kikuchi.html">RTA-2007-Kikuchi</a></dt><dd>Simple Proofs of Characterizing Strong Normalization for Explicit Substitution Calculi (<abbr title="Kentaro Kikuchi">KK</abbr>), pp. 257–272.</dd><dt><a href="RTA-2007-KorpM.html">RTA-2007-KorpM</a></dt><dd>Proving Termination of Rewrite Systems Using Bounds (<abbr title="Martin Korp">MK</abbr>, <abbr title="Aart Middeldorp">AM</abbr>), pp. 273–287.</dd><dt><a href="RTA-2007-KutsiaLV.html">RTA-2007-KutsiaLV</a></dt><dd>Sequence Unification Through Currying (<abbr title="Temur Kutsia">TK</abbr>, <abbr title="Jordi Levy">JL</abbr>, <abbr title="Mateu Villaret">MV</abbr>), pp. 288–302.</dd><dt><a href="RTA-2007-MarcheZ.html">RTA-2007-MarcheZ</a></dt><dd>The Termination Competition (<abbr title="Claude Marché">CM</abbr>, <abbr title="Hans Zantema">HZ</abbr>), pp. 303–313.</dd><dt><a href="RTA-2007-Oostrom.html">RTA-2007-Oostrom</a></dt><dd>Random Descent (<abbr title="Vincent van Oostrom">VvO</abbr>), pp. 314–328.</dd><dt><a href="RTA-2007-Schmidt-Schauss.html">RTA-2007-Schmidt-Schauss</a></dt><dd>Correctness of Copy in Calculi with Letrec (<abbr title="Manfred Schmidt-Schauß">MSS</abbr>), pp. 329–343.</dd><dt><a href="RTA-2007-Strassburger.html">RTA-2007-Strassburger</a></dt><dd>A Characterization of Medial as Rewriting Rule (<abbr title="Lutz Straßburger">LS</abbr>), pp. 344–358.</dd><dt><a href="RTA-2007-Tatsuta.html">RTA-2007-Tatsuta</a></dt><dd>The Maximum Length of Mu-Reduction in Lambda Mu-Calculus (<abbr title="Makoto Tatsuta">MT</abbr>), pp. 359–373.</dd><dt><a href="RTA-2007-Vaux.html">RTA-2007-Vaux</a></dt><dd>On Linear Combinations of <i>lambda</i> -Terms (<abbr title="Lionel Vaux">LV</abbr>), pp. 374–388.</dd><dt><a href="RTA-2007-ZanklM.html">RTA-2007-ZanklM</a></dt><dd>Satisfying KBO Constraints (<abbr title="Harald Zankl">HZ</abbr>, <abbr title="Aart Middeldorp">AM</abbr>), pp. 389–403.</dd><dt><a href="RTA-2007-ZantemaW.html">RTA-2007-ZantemaW</a></dt><dd>Termination by Quasi-periodic Interpretations (<abbr title="Hans Zantema">HZ</abbr>, <abbr title="Johannes Waldmann">JW</abbr>), pp. 404–418.</dd></dl>
+<h3>Contents (30 items)</h3><dl class="toc"><dt><a href="RTA-2007-Leroy.html">RTA-2007-Leroy</a></dt><dd>Formal Verification of an Optimizing Compiler (<abbr title="Xavier Leroy">XL</abbr>), p. 1.</dd>
+<dt><a href="RTA-2007-NieuwenhuisORR.html">RTA-2007-NieuwenhuisORR</a></dt><dd>Challenges in Satisfiability Modulo Theories (<abbr title="Robert Nieuwenhuis">RN</abbr>, <abbr title="Albert Oliveras">AO</abbr>, <abbr title="Enric Rodríguez-Carbonell">ERC</abbr>, <abbr title="Albert Rubio">AR</abbr>), pp. 2–18.</dd>
+<dt><a href="RTA-2007-Pfenning.html">RTA-2007-Pfenning</a></dt><dd>On a Logical Foundation for Explicit Substitutions (<abbr title="Frank Pfenning">FP</abbr>), p. 19.</dd>
+<dt><a href="RTA-2007-AnantharamanNR.html">RTA-2007-AnantharamanNR</a></dt><dd>Intruders with Caps (<abbr title="Siva Anantharaman">SA</abbr>, <abbr title="Paliath Narendran">PN</abbr>, <abbr title="Michaël Rusinowitch">MR</abbr>), pp. 20–35.</dd>
+<dt><a href="RTA-2007-BallandBKMR.html">RTA-2007-BallandBKMR</a></dt><dd>Tom: Piggybacking Rewriting on Java (<abbr title="Emilie Balland">EB</abbr>, <abbr title="Paul Brauner">PB</abbr>, <abbr title="Radu Kopetz">RK</abbr>, <abbr title="Pierre-Etienne Moreau">PEM</abbr>, <abbr title="Antoine Reilles">AR</abbr>), pp. 36–47.</dd>
+<dt><a href="RTA-2007-BoichutGJR.html">RTA-2007-BoichutGJR</a></dt><dd>Rewriting Approximations for Fast Prototyping of Static Analyzers (<abbr title="Yohan Boichut">YB</abbr>, <abbr title="Thomas Genet">TG</abbr>, <abbr title="Thomas P. Jensen">TPJ</abbr>, <abbr title="Luka Le Roux">LLR</abbr>), pp. 48–62.</dd>
+<dt><a href="RTA-2007-TourE.html">RTA-2007-TourE</a></dt><dd>Determining Unify-Stable Presentations (<abbr title="Thierry Boy de la Tour">TBdlT</abbr>, <abbr title="Mnacho Echenim">ME</abbr>), pp. 63–77.</dd>
+<dt><a href="RTA-2007-CirsteaF.html">RTA-2007-CirsteaF</a></dt><dd>Confluence of Pattern-Based Calculi (<abbr title="Horatiu Cirstea">HC</abbr>, <abbr title="Germain Faure">GF</abbr>), pp. 78–92.</dd>
+<dt><a href="RTA-2007-DowekH.html">RTA-2007-DowekH</a></dt><dd>A Simple Proof That Super-Consistency Implies Cut Elimination (<abbr title="Gilles Dowek">GD</abbr>, <abbr title="Olivier Hermant">OH</abbr>), pp. 93–106.</dd>
+<dt><a href="RTA-2007-DurandS.html">RTA-2007-DurandS</a></dt><dd>Bottom-Up Rewriting Is Inverse Recognizability Preserving (<abbr title="Irène Durand">ID</abbr>, <abbr title="Géraud Sénizergues">GS</abbr>), pp. 107–121.</dd>
+<dt><a href="RTA-2007-DuvalEP.html">RTA-2007-DuvalEP</a></dt><dd>Adjunction for Garbage Collection with Application to Graph Rewriting (<abbr title="Dominique Duval">DD</abbr>, <abbr title="Rachid Echahed">RE</abbr>, <abbr title="Frédéric Prost">FP</abbr>), pp. 122–136.</dd>
+<dt><a href="RTA-2007-EchahedP.html">RTA-2007-EchahedP</a></dt><dd>Non Strict Confluent Rewrite Systems for Data-Structures with Pointers (<abbr title="Rachid Echahed">RE</abbr>, <abbr title="Nicolas Peltier">NP</abbr>), pp. 137–152.</dd>
+<dt><a href="RTA-2007-EscobarM.html">RTA-2007-EscobarM</a></dt><dd>Symbolic Model Checking of Infinite-State Systems Using Narrowing (<abbr title="Santiago Escobar">SE</abbr>, <abbr title="José Meseguer">JM</abbr>), pp. 153–168.</dd>
+<dt><a href="RTA-2007-Santo.html">RTA-2007-Santo</a></dt><dd>Delayed Substitutions (<abbr title="José Espírito Santo">JES</abbr>), pp. 169–183.</dd>
+<dt><a href="RTA-2007-GodoyH.html">RTA-2007-GodoyH</a></dt><dd>Innermost-Reachability and Innermost-Joinability Are Decidable for Shallow Term Rewrite Systems (<abbr title="Guillem Godoy">GG</abbr>, <abbr title="Eduard Huntingford">EH</abbr>), pp. 184–199.</dd>
+<dt><a href="RTA-2007-GodoyHT.html">RTA-2007-GodoyHT</a></dt><dd>Termination of Rewriting with Right-Flat Rules (<abbr title="Guillem Godoy">GG</abbr>, <abbr title="Eduard Huntingford">EH</abbr>, <abbr title="Ashish Tiwari">AT</abbr>), pp. 200–213.</dd>
+<dt><a href="RTA-2007-HaemmerleF.html">RTA-2007-HaemmerleF</a></dt><dd>Abstract Critical Pairs and Confluence of Arbitrary Binary Relations (<abbr title="Rémy Haemmerlé">RH</abbr>, <abbr title="François Fages">FF</abbr>), pp. 214–228.</dd>
+<dt><a href="RTA-2007-HendrixM.html">RTA-2007-HendrixM</a></dt><dd>On the Completeness of Context-Sensitive Order-Sorted Specifications (<abbr title="Joe Hendrix">JH</abbr>, <abbr title="José Meseguer">JM</abbr>), pp. 229–245.</dd>
+<dt><a href="RTA-2007-HillsR.html">RTA-2007-HillsR</a></dt><dd>KOOL: An Application of Rewriting Logic to Language Prototyping and Analysis (<abbr title="Mark Hills">MH</abbr>, <abbr title="Grigore Rosu">GR</abbr>), pp. 246–256.</dd>
+<dt><a href="RTA-2007-Kikuchi.html">RTA-2007-Kikuchi</a></dt><dd>Simple Proofs of Characterizing Strong Normalization for Explicit Substitution Calculi (<abbr title="Kentaro Kikuchi">KK</abbr>), pp. 257–272.</dd>
+<dt><a href="RTA-2007-KorpM.html">RTA-2007-KorpM</a></dt><dd>Proving Termination of Rewrite Systems Using Bounds (<abbr title="Martin Korp">MK</abbr>, <abbr title="Aart Middeldorp">AM</abbr>), pp. 273–287.</dd>
+<dt><a href="RTA-2007-KutsiaLV.html">RTA-2007-KutsiaLV</a></dt><dd>Sequence Unification Through Currying (<abbr title="Temur Kutsia">TK</abbr>, <abbr title="Jordi Levy">JL</abbr>, <abbr title="Mateu Villaret">MV</abbr>), pp. 288–302.</dd>
+<dt><a href="RTA-2007-MarcheZ.html">RTA-2007-MarcheZ</a></dt><dd>The Termination Competition (<abbr title="Claude Marché">CM</abbr>, <abbr title="Hans Zantema">HZ</abbr>), pp. 303–313.</dd>
+<dt><a href="RTA-2007-Oostrom.html">RTA-2007-Oostrom</a></dt><dd>Random Descent (<abbr title="Vincent van Oostrom">VvO</abbr>), pp. 314–328.</dd>
+<dt><a href="RTA-2007-Schmidt-Schauss.html">RTA-2007-Schmidt-Schauss</a></dt><dd>Correctness of Copy in Calculi with Letrec (<abbr title="Manfred Schmidt-Schauß">MSS</abbr>), pp. 329–343.</dd>
+<dt><a href="RTA-2007-Strassburger.html">RTA-2007-Strassburger</a></dt><dd>A Characterization of Medial as Rewriting Rule (<abbr title="Lutz Straßburger">LS</abbr>), pp. 344–358.</dd>
+<dt><a href="RTA-2007-Tatsuta.html">RTA-2007-Tatsuta</a></dt><dd>The Maximum Length of Mu-Reduction in Lambda Mu-Calculus (<abbr title="Makoto Tatsuta">MT</abbr>), pp. 359–373.</dd>
+<dt><a href="RTA-2007-Vaux.html">RTA-2007-Vaux</a></dt><dd>On Linear Combinations of <i>lambda</i> -Terms (<abbr title="Lionel Vaux">LV</abbr>), pp. 374–388.</dd>
+<dt><a href="RTA-2007-ZanklM.html">RTA-2007-ZanklM</a></dt><dd>Satisfying KBO Constraints (<abbr title="Harald Zankl">HZ</abbr>, <abbr title="Aart Middeldorp">AM</abbr>), pp. 389–403.</dd>
+<dt><a href="RTA-2007-ZantemaW.html">RTA-2007-ZantemaW</a></dt><dd>Termination by Quasi-periodic Interpretations (<abbr title="Hans Zantema">HZ</abbr>, <abbr title="Johannes Waldmann">JW</abbr>), pp. 404–418.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

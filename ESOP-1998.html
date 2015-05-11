@@ -11,39 +11,55 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esop.png" alt="European Symposium on Programming" title="European Symposium on Programming" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esop.png" alt="Proceedings of the Seventh European Symposium on Programming" title="Proceedings of the Seventh European Symposium on Programming" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESOP/1998/ESOP-1998.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Chris Hankin (editors)<br/>
-	<em>Proceedings of the Seventh European Symposium on Programming</em>.<br/>
-	ESOP, 1998.
-</h2>
+<h2>Chris Hankin<br/><em>Proceedings of the Seventh European Symposium on Programming</em><br/>ESOP, 1998.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="ESOP.html">ESOP</a>-1998,
-	title      = "{Proceedings of the Seventh European Symposium on Programming}",
+	<pre>@proceedings{ESOP-1998,
 	booktitle  = "{ESOP}",
-	year       = "1998",
-	editor     = "Chris Hankin",
-	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
-	volume     = "1381",
-	publisher  = "{Springer}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esop/1998">conf/esop/1998</a>",
+</span>	editor     = "Chris Hankin",
 <span id="isbn">	isbn       = "3-540-64302-8",
-</span>}</pre>
+</span>	publisher  = "{Springer}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Proceedings of the Seventh European Symposium on Programming}",
+	volume     = "1381",
+	year       = "1998",
+}</pre>
 </div>
 <hr/>
-<h3>Contents (18 items)</h3><dl class="toc"><dt><a href="ESOP-1998-Smolka.html">ESOP-1998-Smolka</a></dt><dd>Concurrent Constraint Programming Based on Functional Programming (Extended Abstract) (<abbr title="Gert Smolka">GS</abbr>), pp. 1–11.</dd><dt><a href="ESOP-1998-AbadiG.html">ESOP-1998-AbadiG</a></dt><dd>A Bisimulation Method for Cryptographic Protocols (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>), pp. 12–26.</dd><dt><a href="ESOP-1998-BruynoogheLS.html">ESOP-1998-BruynoogheLS</a></dt><dd>A Polyvariant Binding-Time Analysis for Off-line Partial Deduction (<abbr title="Maurice Bruynooghe">MB</abbr>, <abbr title="Michael Leuschel">ML</abbr>, <abbr title="Konstantinos F. Sagonas">KFS</abbr>), pp. 27–41.</dd><dt><a href="ESOP-1998-CairesM.html">ESOP-1998-CairesM</a></dt><dd>Verifiable and Executable Logic Specifications of Concurrent Objects in L<sub>pi</sub> (<abbr title="Luís Caires">LC</abbr>, <abbr title="Luís Monteiro">LM</abbr>), pp. 42–56.</dd><dt><a href="ESOP-1998-ChatterjeeRL.html">ESOP-1998-ChatterjeeRL</a></dt><dd>Complexity of Concrete Type-Inference in the Presence of Exceptions (<abbr title="Ramkrishna Chatterjee">RC</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>, <abbr title="William Landi">WL</abbr>), pp. 57–74.</dd><dt><a href="ESOP-1998-ChinKL.html">ESOP-1998-ChinKL</a></dt><dd>Synchronisation Analysis to Stop Tulping (<abbr title="Wei-Ngan Chin">WNC</abbr>, <abbr title="Siau-Cheng Khoo">SCK</abbr>, <abbr title="Tat-Wee Lee">TWL</abbr>), pp. 75–89.</dd><dt><a href="ESOP-1998-FechtS.html">ESOP-1998-FechtS</a></dt><dd>Propagating Differences: An Efficient New Fixpoint Algorithm for Distributive Constraint Systems (<abbr title="Christian Fecht">CF</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 90–104.</dd><dt><a href="ESOP-1998-HenselHJT.html">ESOP-1998-HenselHJT</a></dt><dd>Reasonong about Classess in Object-Oriented Languages: Logical Models and Tools (<abbr title="Ulrich Hensel">UH</abbr>, <abbr title="Marieke Huisman">MH</abbr>, <abbr title="Bart Jacobs">BJ</abbr>, <abbr title="Hendrik Tews">HT</abbr>), pp. 105–121.</dd><dt><a href="ESOP-1998-HondaVK.html">ESOP-1998-HondaVK</a></dt><dd>Language Primitives and Type Discipline for Structured Communication-Based Programming (<abbr title="Kohei Honda">KH</abbr>, <abbr title="Vasco Thudichum Vasconcelos">VTV</abbr>, <abbr title="Makoto Kubo">MK</abbr>), pp. 122–138.</dd><dt><a href="ESOP-1998-JayS.html">ESOP-1998-JayS</a></dt><dd>The Functional Imperative: Shape! (<abbr title="C. Barry Jay">CBJ</abbr>, <abbr title="Paul Steckler">PS</abbr>), pp. 139–153.</dd><dt><a href="ESOP-1998-KnoopRS.html">ESOP-1998-KnoopRS</a></dt><dd>Code Motion and Code Placement: Just Synonyms? (<abbr title="Jens Knoop">JK</abbr>, <abbr title="Oliver Rüthing">OR</abbr>, <abbr title="Bernhard Steffen">BS</abbr>), pp. 154–169.</dd><dt><a href="ESOP-1998-Leino.html">ESOP-1998-Leino</a></dt><dd>Recursive Object Types in a Logic of Object-Oriented Programs (<abbr title="K. Rustan M. Leino">KRML</abbr>), pp. 170–184.</dd><dt><a href="ESOP-1998-MaraninchiR.html">ESOP-1998-MaraninchiR</a></dt><dd>Mode-Automata: About Modes and States for Reactive Systems (<abbr title="Florence Maraninchi">FM</abbr>, <abbr title="Yann Rémond">YR</abbr>), pp. 185–199.</dd><dt><a href="ESOP-1998-Remy.html">ESOP-1998-Remy</a></dt><dd>From Classes to Objects via Subtyping (<abbr title="Didier Rémy">DR</abbr>), pp. 200–220.</dd><dt><a href="ESOP-1998-RossS.html">ESOP-1998-RossS</a></dt><dd>Building a Bridge between Pointer Aliases and Program Dependences (<abbr title="John L. Ross">JLR</abbr>, <abbr title="Shmuel Sagiv">SS</abbr>), pp. 221–235.</dd><dt><a href="ESOP-1998-Ruggieri.html">ESOP-1998-Ruggieri</a></dt><dd>A Complete Declarative Debugger of Missing Answers (<abbr title="Salvatore Ruggieri">SR</abbr>), pp. 236–251.</dd><dt><a href="ESOP-1998-Scherlis.html">ESOP-1998-Scherlis</a></dt><dd>Systematic Change of Data Representation: Program Manipulations and a Case Study (<abbr title="William L. Scherlis">WLS</abbr>), pp. 252–266.</dd><dt><a href="ESOP-1998-Thiemann.html">ESOP-1998-Thiemann</a></dt><dd>A Generic Framework for Specialization (Abridged Version) (<abbr title="Peter Thiemann">PT</abbr>), pp. 267–281.</dd></dl>
+<h3>Contents (18 items)</h3><dl class="toc"><dt><a href="ESOP-1998-Smolka.html">ESOP-1998-Smolka</a></dt><dd>Concurrent Constraint Programming Based on Functional Programming (Extended Abstract) (<abbr title="Gert Smolka">GS</abbr>), pp. 1–11.</dd>
+<dt><a href="ESOP-1998-AbadiG.html">ESOP-1998-AbadiG</a></dt><dd>A Bisimulation Method for Cryptographic Protocols (<abbr title="Martín Abadi">MA</abbr>, <abbr title="Andrew D. Gordon">ADG</abbr>), pp. 12–26.</dd>
+<dt><a href="ESOP-1998-BruynoogheLS.html">ESOP-1998-BruynoogheLS</a></dt><dd>A Polyvariant Binding-Time Analysis for Off-line Partial Deduction (<abbr title="Maurice Bruynooghe">MB</abbr>, <abbr title="Michael Leuschel">ML</abbr>, <abbr title="Konstantinos F. Sagonas">KFS</abbr>), pp. 27–41.</dd>
+<dt><a href="ESOP-1998-CairesM.html">ESOP-1998-CairesM</a></dt><dd>Verifiable and Executable Logic Specifications of Concurrent Objects in L<sub>pi</sub> (<abbr title="Luís Caires">LC</abbr>, <abbr title="Luís Monteiro">LM</abbr>), pp. 42–56.</dd>
+<dt><a href="ESOP-1998-ChatterjeeRL.html">ESOP-1998-ChatterjeeRL</a></dt><dd>Complexity of Concrete Type-Inference in the Presence of Exceptions (<abbr title="Ramkrishna Chatterjee">RC</abbr>, <abbr title="Barbara G. Ryder">BGR</abbr>, <abbr title="William Landi">WL</abbr>), pp. 57–74.</dd>
+<dt><a href="ESOP-1998-ChinKL.html">ESOP-1998-ChinKL</a></dt><dd>Synchronisation Analysis to Stop Tulping (<abbr title="Wei-Ngan Chin">WNC</abbr>, <abbr title="Siau-Cheng Khoo">SCK</abbr>, <abbr title="Tat-Wee Lee">TWL</abbr>), pp. 75–89.</dd>
+<dt><a href="ESOP-1998-FechtS.html">ESOP-1998-FechtS</a></dt><dd>Propagating Differences: An Efficient New Fixpoint Algorithm for Distributive Constraint Systems (<abbr title="Christian Fecht">CF</abbr>, <abbr title="Helmut Seidl">HS</abbr>), pp. 90–104.</dd>
+<dt><a href="ESOP-1998-HenselHJT.html">ESOP-1998-HenselHJT</a></dt><dd>Reasonong about Classess in Object-Oriented Languages: Logical Models and Tools (<abbr title="Ulrich Hensel">UH</abbr>, <abbr title="Marieke Huisman">MH</abbr>, <abbr title="Bart Jacobs">BJ</abbr>, <abbr title="Hendrik Tews">HT</abbr>), pp. 105–121.</dd>
+<dt><a href="ESOP-1998-HondaVK.html">ESOP-1998-HondaVK</a></dt><dd>Language Primitives and Type Discipline for Structured Communication-Based Programming (<abbr title="Kohei Honda">KH</abbr>, <abbr title="Vasco Thudichum Vasconcelos">VTV</abbr>, <abbr title="Makoto Kubo">MK</abbr>), pp. 122–138.</dd>
+<dt><a href="ESOP-1998-JayS.html">ESOP-1998-JayS</a></dt><dd>The Functional Imperative: Shape! (<abbr title="C. Barry Jay">CBJ</abbr>, <abbr title="Paul Steckler">PS</abbr>), pp. 139–153.</dd>
+<dt><a href="ESOP-1998-KnoopRS.html">ESOP-1998-KnoopRS</a></dt><dd>Code Motion and Code Placement: Just Synonyms? (<abbr title="Jens Knoop">JK</abbr>, <abbr title="Oliver Rüthing">OR</abbr>, <abbr title="Bernhard Steffen">BS</abbr>), pp. 154–169.</dd>
+<dt><a href="ESOP-1998-Leino.html">ESOP-1998-Leino</a></dt><dd>Recursive Object Types in a Logic of Object-Oriented Programs (<abbr title="K. Rustan M. Leino">KRML</abbr>), pp. 170–184.</dd>
+<dt><a href="ESOP-1998-MaraninchiR.html">ESOP-1998-MaraninchiR</a></dt><dd>Mode-Automata: About Modes and States for Reactive Systems (<abbr title="Florence Maraninchi">FM</abbr>, <abbr title="Yann Rémond">YR</abbr>), pp. 185–199.</dd>
+<dt><a href="ESOP-1998-Remy.html">ESOP-1998-Remy</a></dt><dd>From Classes to Objects via Subtyping (<abbr title="Didier Rémy">DR</abbr>), pp. 200–220.</dd>
+<dt><a href="ESOP-1998-RossS.html">ESOP-1998-RossS</a></dt><dd>Building a Bridge between Pointer Aliases and Program Dependences (<abbr title="John L. Ross">JLR</abbr>, <abbr title="Shmuel Sagiv">SS</abbr>), pp. 221–235.</dd>
+<dt><a href="ESOP-1998-Ruggieri.html">ESOP-1998-Ruggieri</a></dt><dd>A Complete Declarative Debugger of Missing Answers (<abbr title="Salvatore Ruggieri">SR</abbr>), pp. 236–251.</dd>
+<dt><a href="ESOP-1998-Scherlis.html">ESOP-1998-Scherlis</a></dt><dd>Systematic Change of Data Representation: Program Manipulations and a Case Study (<abbr title="William L. Scherlis">WLS</abbr>), pp. 252–266.</dd>
+<dt><a href="ESOP-1998-Thiemann.html">ESOP-1998-Thiemann</a></dt><dd>A Generic Framework for Specialization (Abridged Version) (<abbr title="Peter Thiemann">PT</abbr>), pp. 267–281.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">

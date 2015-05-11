@@ -11,38 +11,38 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/esec.png" alt="European Software Engineering Conference" title="European Software Engineering Conference" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/esec.png" alt="Requirements Engineering: An Integrated View of Representation, Process, and Domain" title="Requirements Engineering: An Integrated View of Representation, Process, and Domain" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/ESEC-FSE/1993/ESEC-1993/ESEC-1993-JarkePJBAHWRPSSJMTVCS.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Matthias Jarke, Klaus Pohl, Stephan Jacobs, Janis A. Bubenko Jr, Petia Assenova, Peter Holm, Benkt Wangler, Colette Rolland, Véronique Plihon, Jean-Roch Schmitt, Alistair G. Sutcliffe, Sara Jones, Neil A. M. Maiden, David Till, Yannis Vassiliou, Panos Constantopoulos, George Spanoudakis<br/>
-	<em>Requirements Engineering: An Integrated View of Representation, Process, and Domain</em>.<br/>
-	Proceedings of the Fourth European Software Engineering Conference, 1993.
-</h2>
+<h2>Matthias Jarke, Klaus Pohl, Stephan Jacobs, Janis A. Bubenko Jr, Petia Assenova, Peter Holm, Benkt Wangler, Colette Rolland, Véronique Plihon, Jean-Roch Schmitt, Alistair G. Sutcliffe, Sara Jones, Neil A. M. Maiden, David Till, Yannis Vassiliou, Panos Constantopoulos, George Spanoudakis<br/><em>Requirements Engineering: An Integrated View of Representation, Process, and Domain</em><br/>ESEC, 1993.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@inproceedings{<a href="ESEC-1993.html">ESEC</a>-1993-JarkePJBAHWRPSSJMTVCS,
+	<pre>@inproceedings{ESEC-1993-JarkePJBAHWRPSSJMTVCS,
 	author     = "Matthias Jarke and Klaus Pohl and Stephan Jacobs and Janis A. Bubenko Jr and Petia Assenova and Peter Holm and Benkt Wangler and Colette Rolland and Véronique Plihon and Jean-Roch Schmitt and Alistair G. Sutcliffe and Sara Jones and Neil A. M. Maiden and David Till and Yannis Vassiliou and Panos Constantopoulos and George Spanoudakis",
-	title      = "{Requirements Engineering: An Integrated View of Representation, Process, and Domain}",
 	booktitle  = "{<span id="booktitle">Proceedings of the Fourth European Software Engineering Conference</span>}",
-	year       = "1993",
-	editor     = "Ian Sommerville and Manfred Paul",
-	pages      = "100--114",
-<span id="doi">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-57209-0_8">10.1007/3-540-57209-0_8</a>",
-</span>	publisher  = "{Springer}",
-<span id="isbn">	isbn       = "3-540-57209-0",
-</span>	volume     = "717",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/esec/JarkePJBAHWRPSSJMTVCS93">conf/esec/JarkePJBAHWRPSSJMTVCS93</a>",
+</span><span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-57209-0_8">10.1007/3-540-57209-0_8</a>",
+</span>	editor     = "Ian Sommerville and Manfred Paul",
+<span class="uri">	ee         = "<a href="http://dx.doi.org/10.1007/3-540-57209-0_8">http://dx.doi.org/10.1007/3-540-57209-0_8</a>",
+</span><span id="isbn">	isbn       = "3-540-57209-0",
+</span>	pages      = "100--114",
+	publisher  = "{Springer}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
+	title      = "{Requirements Engineering: An Integrated View of Representation, Process, and Domain}",
+	volume     = "717",
+	year       = "1993",
 }</pre>
 </div>
 <hr/>

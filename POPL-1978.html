@@ -11,36 +11,62 @@
 <body>
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
-	<a href="index.html"><img src="stuff/popl.png" alt="Principles of Programming Languages" title="Principles of Programming Languages" class="pad"/></a><br/>
-	<!-- (a link to edit)<br/> -->
+	<a href="index.html"><img src="stuff/popl.png" alt="Conference Record of the Fifth Annual Symposium on Principles of Programming Languages" title="Conference Record of the Fifth Annual Symposium on Principles of Programming Languages" class="pad"/></a><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/POPL/1978/POPL-1978.json">EDIT</a></div></br/>
+
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
-	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" class="pad" /></a><br/>
-	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml10.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
-	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css21.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
+	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
+	<a href="http://validator.w3.org/check/referer" title="XHTML 1.0 W3C Rec"><img src="stuff/xhtml.png" alt="XHTML 1.0 W3C Rec" /></a><br/>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS 2.1 W3C CanRec"><img src="stuff/css.png" alt="CSS 2.1 W3C CanRec" class="pad" /></a><br/>
 	<div>[<a href="mailto:vadim@grammarware.net">Complain!</a>]</div>
+
 </div>
 <div class="main">
-<h2>
-	Alfred V. Aho, Stephen N. Zilles, Thomas G. Szymanski (editors)<br/>
-	<em>Conference Record of the Fifth Annual Symposium on Principles of Programming Languages</em>.<br/>
-	POPL, 1978.
-</h2>
+<h2>Alfred V. Aho, Stephen N. Zilles, Thomas G. Szymanski<br/><em>Conference Record of the Fifth Annual Symposium on Principles of Programming Languages</em><br/>POPL, 1978.</h2>
 <div class="pre">
 	<form>
 		<input type="checkbox" checked="true" onClick=""/> Full names
-		<input type="checkbox" checked="true" onClick="(this.checked)?$('#doi').show():$('#doi').hide();"/> DOI
+		<input type="checkbox" checked="true" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 		<input type="checkbox" checked="true" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form>
-	<pre>@proceedings{<a href="POPL.html">POPL</a>-1978,
-	title      = "{Conference Record of the Fifth Annual Symposium on Principles of Programming Languages}",
+	<pre>@proceedings{POPL-1978,
 	booktitle  = "{POPL}",
+	dblpkey    = "<a href="http://dblp.uni-trier.de/rec/html/conf/popl/1978">conf/popl/1978</a>",
+</span>	editor     = "Alfred V. Aho and Stephen N. Zilles and Thomas G. Szymanski",
+<span class="uri">	ee         = "<a href="http://dl.acm.org/citation.cfm?id=512760">http://dl.acm.org/citation.cfm?id=512760</a>",
+</span>	publisher  = "{ACM Press}",
+	title      = "{Conference Record of the Fifth Annual Symposium on Principles of Programming Languages}",
 	year       = "1978",
-	editor     = "Alfred V. Aho and Stephen N. Zilles and Thomas G. Szymanski",
-	publisher  = "{ACM Press}",
 }</pre>
 </div>
 <hr/>
-<h3>Contents (27 items)</h3><dl class="toc"><dt><a href="POPL-1978-GuibasW.html">POPL-1978-GuibasW</a></dt><dd>Compilation and Delayed Evaluation in APL (<abbr title="Leonidas J. Guibas">LJG</abbr>, <abbr title="Douglas K. Wyatt">DKW</abbr>), pp. 1–8.</dd><dt><a href="POPL-1978-Ingalls.html">POPL-1978-Ingalls</a></dt><dd>The Smalltalk-76 Programming System (<abbr title="Daniel Ingalls">DI</abbr>), pp. 9–16.</dd><dt><a href="POPL-1978-AshcroftW.html">POPL-1978-AshcroftW</a></dt><dd>Clauses: Scope Structures and Defined Functions in Lucid (<abbr title="Edward A. Ashcroft">EAA</abbr>, <abbr title="William W. Wadge">WWW</abbr>), pp. 17–22.</dd><dt><a href="POPL-1978-DemersDS.html">POPL-1978-DemersDS</a></dt><dd>Data Types as Values: Polymorphism, Type-Checking, Encapsulation (<abbr title="Alan J. Demers">AJD</abbr>, <abbr title="James E. Donahue">JED</abbr>, <abbr title="Glenn Skinner">GS</abbr>), pp. 23–30.</dd><dt><a href="POPL-1978-Solomon.html">POPL-1978-Solomon</a></dt><dd>Type Definitions with Parameters (<abbr title="Marvin H. Solomon">MHS</abbr>), pp. 31–38.</dd><dt><a href="POPL-1978-Reynolds.html">POPL-1978-Reynolds</a></dt><dd>Syntactic Control of Interference (<abbr title="John C. Reynolds">JCR</abbr>), pp. 39–46.</dd><dt><a href="POPL-1978-Rosen.html">POPL-1978-Rosen</a></dt><dd>Monoids for Rapid Data Flow Analysis (<abbr title="Barry K. Rosen">BKR</abbr>), pp. 47–59.</dd><dt><a href="POPL-1978-KaplanU.html">POPL-1978-KaplanU</a></dt><dd>A General Scheme for the Automatic Inference of Variable Types (<abbr title="Marc A. Kaplan">MAK</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 60–75.</dd><dt><a href="POPL-1978-Reif.html">POPL-1978-Reif</a></dt><dd>Symbolic Programming Analysis in Almost Linear Time (<abbr title="John H. Reif">JHR</abbr>), pp. 76–83.</dd><dt><a href="POPL-1978-CousotH.html">POPL-1978-CousotH</a></dt><dd>Automatic Discovery of Linear Restraints Among Variables of a Program (<abbr title="Patrick Cousot">PC</abbr>, <abbr title="Nicolas Halbwachs">NH</abbr>), pp. 84–96.</dd><dt><a href="POPL-1978-Johnson.html">POPL-1978-Johnson</a></dt><dd>A Portable Compiler: Theory and Practice (<abbr title="Stephen C. Johnson">SCJ</abbr>), pp. 97–104.</dd><dt><a href="POPL-1978-German.html">POPL-1978-German</a></dt><dd>Automating Proofs of the Absence of Common Runtime Errors (<abbr title="Steven M. German">SMG</abbr>), pp. 105–118.</dd><dt><a href="POPL-1978-GordonMMNW.html">POPL-1978-GordonMMNW</a></dt><dd>A Metalanguage for Interactive Proof in LCF (<abbr title="Michael J. C. Gordon">MJCG</abbr>, <abbr title="Robin Milner">RM</abbr>, <abbr title="L. Morris">LM</abbr>, <abbr title="Malcolm C. Newey">MCN</abbr>, <abbr title="Christopher P. Wadsworth">CPW</abbr>), pp. 119–130.</dd><dt><a href="POPL-1978-CartwrightO.html">POPL-1978-CartwrightO</a></dt><dd>Unrestricted Procedure Calls in Hoare's Logic (<abbr title="Robert Cartwright">RC</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 131–140.</dd><dt><a href="POPL-1978-NelsonO.html">POPL-1978-NelsonO</a></dt><dd>A Simplifier Based on Efficient Decision Algorithms (<abbr title="Charles G. Nelson">CGN</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 141–150.</dd><dt><a href="POPL-1978-Oppen.html">POPL-1978-Oppen</a></dt><dd>Reasoning about Recursively Defined Data Structures (<abbr title="Derek C. Oppen">DCO</abbr>), pp. 151–157.</dd><dt><a href="POPL-1978-DowneySS.html">POPL-1978-DowneySS</a></dt><dd>Off-Line and On-Line Algorithms for Deducing Equalities (<abbr title="Peter J. Downey">PJD</abbr>, <abbr title="Hanan Samet">HS</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 158–170.</dd><dt><a href="POPL-1978-Mizell.html">POPL-1978-Mizell</a></dt><dd>Verification and Design Aspects of ``True'' Concurrency (<abbr title="David W. Mizell">DWM</abbr>), pp. 171–175.</dd><dt><a href="POPL-1978-Culik.html">POPL-1978-Culik</a></dt><dd>Almost Control-Free (Indeterministic) Parallel Computation on Permit Schemes (<abbr title="Karel Culík">KC</abbr>), pp. 176–184.</dd><dt><a href="POPL-1978-OgdenRR.html">POPL-1978-OgdenRR</a></dt><dd>Complexity of Expressions Allowing Concurrency (<abbr title="William F. Ogden">WFO</abbr>, <abbr title="William E. Riddle">WER</abbr>, <abbr title="William C. Rounds">WCR</abbr>), pp. 185–194.</dd><dt><a href="POPL-1978-Haraldsson.html">POPL-1978-Haraldsson</a></dt><dd>A Partial Evaluator, Its Use for Compiling Iterative Statements in Lisp (<abbr title="Anders Haraldsson">AH</abbr>), pp. 195–202.</dd><dt><a href="POPL-1978-HarelP.html">POPL-1978-HarelP</a></dt><dd>Nondeterminism in Logics of Programs (<abbr title="David Harel">DH</abbr>, <abbr title="Vaughan R. Pratt">VRP</abbr>), pp. 203–213.</dd><dt><a href="POPL-1978-Kosinki.html">POPL-1978-Kosinki</a></dt><dd>A Straightforward Denotational Semantics for Non-Determinant Data Flow Programs (<abbr title="Paul R. Kosinki">PRK</abbr>), pp. 214–221.</dd><dt><a href="POPL-1978-PrabhalaS.html">POPL-1978-PrabhalaS</a></dt><dd>Efficient Computation of Expressions with Common Subexpressions (<abbr title="Bhaskaram Prabhala">BP</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 222–230.</dd><dt><a href="POPL-1978-GlanvilleG.html">POPL-1978-GlanvilleG</a></dt><dd>A New Method for Compiler Code Generation (<abbr title="R. Steven Glanville">RSG</abbr>, <abbr title="Susan L. Graham">SLG</abbr>), pp. 231–240.</dd><dt><a href="POPL-1978-PennelloD.html">POPL-1978-PennelloD</a></dt><dd>A Forward Move Algorithm for LR Error Recovery (<abbr title="Thomas J. Pennello">TJP</abbr>, <abbr title="Frank DeRemer">FD</abbr>), pp. 241–254.</dd><dt><a href="POPL-1978-JoshiLY.html">POPL-1978-JoshiLY</a></dt><dd>Local Constraints in the Syntax and Semantics of Programming Languages (<abbr title="Aravind K. Joshi">AKJ</abbr>, <abbr title="Leon S. Levy">LSL</abbr>, <abbr title="Kang Yueh">KY</abbr>), pp. 255–264.</dd></dl>
+<h3>Contents (27 items)</h3><dl class="toc"><dt><a href="POPL-1978-GuibasW.html">POPL-1978-GuibasW</a></dt><dd>Compilation and Delayed Evaluation in APL (<abbr title="Leonidas J. Guibas">LJG</abbr>, <abbr title="Douglas K. Wyatt">DKW</abbr>), pp. 1–8.</dd>
+<dt><a href="POPL-1978-Ingalls.html">POPL-1978-Ingalls</a></dt><dd>The Smalltalk-76 Programming System (<abbr title="Daniel Ingalls">DI</abbr>), pp. 9–16.</dd>
+<dt><a href="POPL-1978-AshcroftW.html">POPL-1978-AshcroftW</a></dt><dd>Clauses: Scope Structures and Defined Functions in Lucid (<abbr title="Edward A. Ashcroft">EAA</abbr>, <abbr title="William W. Wadge">WWW</abbr>), pp. 17–22.</dd>
+<dt><a href="POPL-1978-DemersDS.html">POPL-1978-DemersDS</a></dt><dd>Data Types as Values: Polymorphism, Type-Checking, Encapsulation (<abbr title="Alan J. Demers">AJD</abbr>, <abbr title="James E. Donahue">JED</abbr>, <abbr title="Glenn Skinner">GS</abbr>), pp. 23–30.</dd>
+<dt><a href="POPL-1978-Solomon.html">POPL-1978-Solomon</a></dt><dd>Type Definitions with Parameters (<abbr title="Marvin H. Solomon">MHS</abbr>), pp. 31–38.</dd>
+<dt><a href="POPL-1978-Reynolds.html">POPL-1978-Reynolds</a></dt><dd>Syntactic Control of Interference (<abbr title="John C. Reynolds">JCR</abbr>), pp. 39–46.</dd>
+<dt><a href="POPL-1978-Rosen.html">POPL-1978-Rosen</a></dt><dd>Monoids for Rapid Data Flow Analysis (<abbr title="Barry K. Rosen">BKR</abbr>), pp. 47–59.</dd>
+<dt><a href="POPL-1978-KaplanU.html">POPL-1978-KaplanU</a></dt><dd>A General Scheme for the Automatic Inference of Variable Types (<abbr title="Marc A. Kaplan">MAK</abbr>, <abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 60–75.</dd>
+<dt><a href="POPL-1978-Reif.html">POPL-1978-Reif</a></dt><dd>Symbolic Programming Analysis in Almost Linear Time (<abbr title="John H. Reif">JHR</abbr>), pp. 76–83.</dd>
+<dt><a href="POPL-1978-CousotH.html">POPL-1978-CousotH</a></dt><dd>Automatic Discovery of Linear Restraints Among Variables of a Program (<abbr title="Patrick Cousot">PC</abbr>, <abbr title="Nicolas Halbwachs">NH</abbr>), pp. 84–96.</dd>
+<dt><a href="POPL-1978-Johnson.html">POPL-1978-Johnson</a></dt><dd>A Portable Compiler: Theory and Practice (<abbr title="Stephen C. Johnson">SCJ</abbr>), pp. 97–104.</dd>
+<dt><a href="POPL-1978-German.html">POPL-1978-German</a></dt><dd>Automating Proofs of the Absence of Common Runtime Errors (<abbr title="Steven M. German">SMG</abbr>), pp. 105–118.</dd>
+<dt><a href="POPL-1978-GordonMMNW.html">POPL-1978-GordonMMNW</a></dt><dd>A Metalanguage for Interactive Proof in LCF (<abbr title="Michael J. C. Gordon">MJCG</abbr>, <abbr title="Robin Milner">RM</abbr>, <abbr title="L. Morris">LM</abbr>, <abbr title="Malcolm C. Newey">MCN</abbr>, <abbr title="Christopher P. Wadsworth">CPW</abbr>), pp. 119–130.</dd>
+<dt><a href="POPL-1978-CartwrightO.html">POPL-1978-CartwrightO</a></dt><dd>Unrestricted Procedure Calls in Hoare's Logic (<abbr title="Robert Cartwright">RC</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 131–140.</dd>
+<dt><a href="POPL-1978-NelsonO.html">POPL-1978-NelsonO</a></dt><dd>A Simplifier Based on Efficient Decision Algorithms (<abbr title="Charles G. Nelson">CGN</abbr>, <abbr title="Derek C. Oppen">DCO</abbr>), pp. 141–150.</dd>
+<dt><a href="POPL-1978-Oppen.html">POPL-1978-Oppen</a></dt><dd>Reasoning about Recursively Defined Data Structures (<abbr title="Derek C. Oppen">DCO</abbr>), pp. 151–157.</dd>
+<dt><a href="POPL-1978-DowneySS.html">POPL-1978-DowneySS</a></dt><dd>Off-Line and On-Line Algorithms for Deducing Equalities (<abbr title="Peter J. Downey">PJD</abbr>, <abbr title="Hanan Samet">HS</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 158–170.</dd>
+<dt><a href="POPL-1978-Mizell.html">POPL-1978-Mizell</a></dt><dd>Verification and Design Aspects of ``True'' Concurrency (<abbr title="David W. Mizell">DWM</abbr>), pp. 171–175.</dd>
+<dt><a href="POPL-1978-Culik.html">POPL-1978-Culik</a></dt><dd>Almost Control-Free (Indeterministic) Parallel Computation on Permit Schemes (<abbr title="Karel Culík">KC</abbr>), pp. 176–184.</dd>
+<dt><a href="POPL-1978-OgdenRR.html">POPL-1978-OgdenRR</a></dt><dd>Complexity of Expressions Allowing Concurrency (<abbr title="William F. Ogden">WFO</abbr>, <abbr title="William E. Riddle">WER</abbr>, <abbr title="William C. Rounds">WCR</abbr>), pp. 185–194.</dd>
+<dt><a href="POPL-1978-Haraldsson.html">POPL-1978-Haraldsson</a></dt><dd>A Partial Evaluator, Its Use for Compiling Iterative Statements in Lisp (<abbr title="Anders Haraldsson">AH</abbr>), pp. 195–202.</dd>
+<dt><a href="POPL-1978-HarelP.html">POPL-1978-HarelP</a></dt><dd>Nondeterminism in Logics of Programs (<abbr title="David Harel">DH</abbr>, <abbr title="Vaughan R. Pratt">VRP</abbr>), pp. 203–213.</dd>
+<dt><a href="POPL-1978-Kosinki.html">POPL-1978-Kosinki</a></dt><dd>A Straightforward Denotational Semantics for Non-Determinant Data Flow Programs (<abbr title="Paul R. Kosinki">PRK</abbr>), pp. 214–221.</dd>
+<dt><a href="POPL-1978-PrabhalaS.html">POPL-1978-PrabhalaS</a></dt><dd>Efficient Computation of Expressions with Common Subexpressions (<abbr title="Bhaskaram Prabhala">BP</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 222–230.</dd>
+<dt><a href="POPL-1978-GlanvilleG.html">POPL-1978-GlanvilleG</a></dt><dd>A New Method for Compiler Code Generation (<abbr title="R. Steven Glanville">RSG</abbr>, <abbr title="Susan L. Graham">SLG</abbr>), pp. 231–240.</dd>
+<dt><a href="POPL-1978-PennelloD.html">POPL-1978-PennelloD</a></dt><dd>A Forward Move Algorithm for LR Error Recovery (<abbr title="Thomas J. Pennello">TJP</abbr>, <abbr title="Frank DeRemer">FD</abbr>), pp. 241–254.</dd>
+<dt><a href="POPL-1978-JoshiLY.html">POPL-1978-JoshiLY</a></dt><dd>Local Constraints in the Syntax and Semantics of Programming Languages (<abbr title="Aravind K. Joshi">AKJ</abbr>, <abbr title="Leon S. Levy">LSL</abbr>, <abbr title="Kang Yueh">KY</abbr>), pp. 255–264.</dd></dl>
 
 <div style="clear:both"/><hr />
 <div class="last">
