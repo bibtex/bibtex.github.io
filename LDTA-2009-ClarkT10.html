@@ -11,7 +11,7 @@
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ldta.png" alt="Formalizing Homogeneous Language Embeddings" title="Formalizing Homogeneous Language Embeddings" class="pad"/></a><br/>
-	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/LDTA/2009/LDTA-2009/LDTA-2009-ClarkT10.json">EDIT</a></div><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SLE/2009/LDTA-2009/LDTA-2009-ClarkT10.json">EDIT</a></div><br/>
 
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -28,14 +28,14 @@
 <a href="http://dx.doi.org/10.1016/j.entcs.2010.08.033">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Notes in Theoretical Computer Science':'ENTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{LDTA-2009-ClarkT10,
 	author     = "Tony Clark and Laurence Tratt",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1016/j.entcs.2010.08.033">10.1016/j.entcs.2010.08.033</a>",
 </span><span class="uri">	ee         = "<a href="http://dx.doi.org/10.1016/j.entcs.2010.08.033">http://dx.doi.org/10.1016/j.entcs.2010.08.033</a>",
-</span>	journal    = "Electr. Notes Theor. Comput. Sci.",
+</span>	journal    = "{<span id="journal">Electronic Notes in Theoretical Computer Science</span>}",
 	number     = 7,
 	pages      = "75-88",
 	title      = "{Formalizing Homogeneous Language Embeddings}",

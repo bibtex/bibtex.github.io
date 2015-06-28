@@ -11,7 +11,7 @@
 <div class="left">
 	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ldta.png" alt="Programming errors in traversal programs over structured data" title="Programming errors in traversal programs over structured data" class="pad"/></a><br/>
-	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/LDTA/2009/LDTA-2009-SI/LDTA-2009-SI-LammelTK13.json">EDIT</a></div><br/>
+	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/SLE/2009/LDTA-2009-SI/LDTA-2009-SI-LammelTK13.json">EDIT</a></div><br/>
 
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -28,14 +28,14 @@
 <a href="http://dx.doi.org/10.1016/j.scico.2011.11.006">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Science of Computer Programming':'SCP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{LDTA-2009-SI-LammelTK13,
 	author     = "Ralf Lämmel and Simon J. Thompson and Markus Kaiser",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1016/j.scico.2011.11.006">10.1016/j.scico.2011.11.006</a>",
 </span><span class="uri">	ee         = "<a href="http://dx.doi.org/10.1016/j.scico.2011.11.006">http://dx.doi.org/10.1016/j.scico.2011.11.006</a>",
-</span>	journal    = "Sci. Comput. Program.",
+</span>	journal    = "{<span id="journal">Science of Computer Programming</span>}",
 	number     = 10,
 	pages      = "1770-1808",
 	title      = "{Programming errors in traversal programs over structured data}",
