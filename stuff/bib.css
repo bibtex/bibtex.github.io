@@ -20,4 +20,5 @@ dt {font-weight:bold}
 ul.tag {list-style:none}
 ul.tag li:before {content:"‣ "}
 .ttl {font-variant:small-caps; color:red}
+.mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px}
 .icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red}
