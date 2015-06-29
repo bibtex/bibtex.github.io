@@ -17,4 +17,7 @@ dt {font-weight:bold}
 .toc a:link, .toc a:visited {color:#600}
 .pic {float:left; text-align:center; width:110px; height:130px; margin:5px; font-weight:bold}
 .pic img {border:0px; width:100px; height:100px}
+ul.tag {list-style:none}
+ul.tag li:before {content:"‣ "}
+.ttl {font-variant:small-caps; color:red}
 .icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red}
