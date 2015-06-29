@@ -4,7 +4,7 @@ div.fig img {border:0px}
 li img, h3 img {padding-right:5px}
 body {background-color:#CCC}
 .last {width:100%; text-align:right}
-.left {float:left; text-align:center}
+.left {float:left; text-align:center; padding-bottom:10px}
 .pad {padding-bottom:20px}
 .main {margin-left:220px; margin-right:10px}
 ul ul {padding-top:10px; padding-bottom:10px}
