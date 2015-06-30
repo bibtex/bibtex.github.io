@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/flops.png" alt="Proceedings of the Seventh International Symposium on Functional and Logic Programming" title="Proceedings of the Seventh International Symposium on Functional and Logic Programming" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/FLOPS/2004/FLOPS-2004.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Seventh+International+Symposium+on+Functional+and+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{FLOPS-2004,
@@ -35,7 +34,7 @@
 	editor     = "Yukiyoshi Kameyama and Peter J. Stuckey",
 <span id="isbn">	isbn       = "3-540-21402-X",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Seventh International Symposium on Functional and Logic Programming}",
 	volume     = 2998,
 	year       = 2004,
@@ -60,7 +59,7 @@
 <dt><a href="FLOPS-2004-Hirschowitz04.html">FLOPS-2004-Hirschowitz04</a></dt><dd>Rigid Mixin Modules (<abbr title="Tom Hirschowitz">TH</abbr>), pp. 214–228.</dd>
 <dt><a href="FLOPS-2004-Hasegawa04.html">FLOPS-2004-Hasegawa04</a></dt><dd>Semantics of Linear Continuation-Passing in Call-by-Name (<abbr title="Masahito Hasegawa">MH</abbr>), pp. 229–243.</dd>
 <dt><a href="FLOPS-2004-Kikuchi04.html">FLOPS-2004-Kikuchi04</a></dt><dd>A Direct Proof of Strong Normalization for an Extended Herbelin?s Calculus (<abbr title="Kentaro Kikuchi">KK</abbr>), pp. 244–259.</dd>
-<dt><a href="FLOPS-2004-AltenkirchU04.html">FLOPS-2004-AltenkirchU04</a></dt><dd>Normalization by Evaluation for lambda-2 (<abbr title="Thorsten Altenkirch">TA</abbr>, <abbr title="Tarmo Uustalu">TU</abbr>), pp. 260–275.</dd>
+<dt><a href="FLOPS-2004-AltenkirchU04.html">FLOPS-2004-AltenkirchU04</a></dt><dd>Normalization by Evaluation for λ→2 (<abbr title="Thorsten Altenkirch">TA</abbr>, <abbr title="Tarmo Uustalu">TU</abbr>), pp. 260–275.</dd>
 <dt><a href="FLOPS-2004-Kahl04.html">FLOPS-2004-Kahl04</a></dt><dd>Basic Pattern Matching Calculi: a Fresh View on Matching Failure (<abbr title="Wolfram Kahl">WK</abbr>), pp. 276–290.</dd>
 <dt><a href="FLOPS-2004-GluckK04.html">FLOPS-2004-GluckK04</a></dt><dd>Derivation of Deterministic Inverse Programs Based on LR Parsing (<abbr title="Robert Glück">RG</abbr>, <abbr title="Masahiko Kawabe">MK</abbr>), pp. 291–306.</dd></dl>
 </div>

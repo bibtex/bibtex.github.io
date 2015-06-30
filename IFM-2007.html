@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ifm.png" alt="Proceedings of the Sixth International Conference on Integrated Formal Methods" title="Proceedings of the Sixth International Conference on Integrated Formal Methods" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/IFM/2007/IFM-2007.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Sixth+International+Conference+on+Integrated+Formal+Methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IFM-2007,
@@ -35,7 +34,7 @@
 	editor     = "Jim Davies and Jeremy Gibbons",
 <span id="isbn">	isbn       = "978-3-540-73209-9",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Sixth International Conference on Integrated Formal Methods}",
 	volume     = 4591,
 	year       = 2007,

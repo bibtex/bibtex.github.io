@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/lopstr.png" alt="Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation" title="Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/LOPSTR/2013/LOPSTR-2013.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Revised+Selected+Papers+of+the+23rd+International+Symposium+on+Logic-Based+Program+Synthesis+and+Transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-14125-1">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-2013,
@@ -36,7 +35,7 @@
 </span>	editor     = "Gopal Gupta and Ricardo Peña",
 <span id="isbn">	isbn       = "['978-3-319-14124-4', '978-3-319-14125-1']",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation}",
 	volume     = 8901,
 	year       = 2013,

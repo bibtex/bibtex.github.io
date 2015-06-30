@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ifm.png" alt="Proceedings of the Fourth International Conference on Integrated Formal Methods" title="Proceedings of the Fourth International Conference on Integrated Formal Methods" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/IFM/2004/IFM-2004.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+International+Conference+on+Integrated+Formal+Methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IFM-2004,
@@ -35,7 +34,7 @@
 	editor     = "Eerke A. Boiten and John Derrick and Graeme Smith",
 <span id="isbn">	isbn       = "3-540-21377-5",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Fourth International Conference on Integrated Formal Methods}",
 	volume     = 2999,
 	year       = 2004,

@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/lopstr.png" alt="Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation" title="Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/LOPSTR/2001/LOPSTR-2001.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Selected+Papers+of+the+11th+International+Workshop+on+Logic+Based+Program+Synthesis+and+Transformation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-2001,
@@ -35,7 +34,7 @@
 	editor     = "Alberto Pettorossi",
 <span id="isbn">	isbn       = "3-540-43915-3",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation}",
 	volume     = 2372,
 	year       = 2001,

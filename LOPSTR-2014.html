@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/lopstr.png" alt="Revised Selected Papers of the 24th International Symposium on Logic-Based Program Synthesis and Transformation" title="Revised Selected Papers of the 24th International Symposium on Logic-Based Program Synthesis and Transformation" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/LOPSTR/2014/LOPSTR-2014.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Revised+Selected+Papers+of+the+24th+International+Symposium+on+Logic-Based+Program+Synthesis+and+Transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-17822-6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-2014,
@@ -36,7 +35,7 @@
 </span>	editor     = "Maurizio Proietti and Hirohisa Seki",
 <span id="isbn">	isbn       = "978-3-319-17821-9",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Revised Selected Papers of the 24th International Symposium on Logic-Based Program Synthesis and Transformation}",
 	volume     = 8981,
 	year       = 2014,

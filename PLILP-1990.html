@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ppdp.png" alt="Proceedings of the Second International Workshop on Programming Language Implementation and Logic Programming" title="Proceedings of the Second International Workshop on Programming Language Implementation and Logic Programming" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/PPDP/1990/PLILP-1990.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Second+International+Workshop+on+Programming+Language+Implementation+and+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PLILP-1990,
@@ -35,7 +34,7 @@
 	editor     = "Pierre Deransart and Jan Maluszynski",
 <span id="isbn">	isbn       = "3-540-53010-X",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Second International Workshop on Programming Language Implementation and Logic Programming}",
 	volume     = 456,
 	year       = 1990,

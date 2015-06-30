@@ -9,7 +9,6 @@
 </head>
 <body>
 <div class="left">
-	<!-- (a link to bibSLEIGH)<br/> -->
 	<a href="index.html"><img src="stuff/ifm.png" alt="Proceedings of the 10th International Conference on Integrated Formal Methods" title="Proceedings of the 10th International Conference on Integrated Formal Methods" class="pad"/></a><br/>
 	<div class="pad"><a href="https://github.com/slebok/bibsleigh/edit/master/IFM/2013/IFM-2013.json">EDIT</a></div><br/>
 
@@ -27,7 +26,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+10th+International+Conference+on+Integrated+Formal+Methods%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-38613-8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IFM-2013,
@@ -36,7 +35,7 @@
 </span>	editor     = "Einar Broch Johnsen and Luigia Petre",
 <span id="isbn">	isbn       = "['978-3-642-38612-1', '978-3-642-38613-8']",
 </span>	publisher  = "{Springer}",
-	series     = "{Lecture Notes in Computer Science}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the 10th International Conference on Integrated Formal Methods}",
 	volume     = 7940,
 	year       = 2013,
