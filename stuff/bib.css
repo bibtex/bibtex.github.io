@@ -11,7 +11,9 @@ ul ul {padding-top:10px; padding-bottom:10px}
 .pre {border:1px solid black; margin-right:150px}
 .tagbox {border:1px solid black; float:right; width:250px; text-align:center; padding:10px}
 .tagbox hr {border:1px dashed black}
-.tagbox strong {color:green; font-size:200%;}
+.tagbox strong {color:green; font-size:200%}
+.tagbox em {color:green}
+.tagbox img {width:1em}
 .rbox {border:1px solid black; float:right; width:130px; text-align:center}
 .rbox * {padding:5px}
 .rbox hr {padding:0px; border:1px dashed black; margin-bottom:0px}
