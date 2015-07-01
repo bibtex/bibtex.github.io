@@ -1,12 +1,22 @@
+.picx {float:left; background: #212121; width:150px; margin: 10px;
+		height:150px; position: relative;}
+.picx img {border:0px; width:150px; height:150px;}
+.picx h2 {position: absolute; top:90px; left:5px; color:#ECEFF1; font-weight:bold;
+text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+font-family: "Impact"; font-size: 200%}
+.picx:hover img {opacity: 0.7;}
+
+.sm img {margin:5px}
+
 div.fig {float:right}
 div.fig img {border:0px}
 .def {background-color:#CCF}
 li img, h3 img {padding-right:5px}
-body {background-color:#CCC}
+body {background-color:#CFD8DC; margin:0px; color:#263238; font-family: "Exo 2", sans-serif}
 .last {width:100%; text-align:right}
-.left {float:left; text-align:center; padding-bottom:10px}
+.left {float:left; text-align:center; height:100%;position:fixed;top:0;background:#90A4AE;}
 .pad {padding-bottom:20px}
-.main {margin-left:220px; margin-right:10px}
+.main {margin-left:160px; margin-right:10px}
 ul ul {padding-top:10px; padding-bottom:10px}
 .pre {border:1px solid black; margin-right:150px}
 .tagbox {border:1px solid black; float:right; width:250px; text-align:center; padding:10px}
@@ -24,7 +34,7 @@ dt {font-weight:bold}
 .pic img {border:0px; width:100px; height:100px}
 ul.tag {list-style:none}
 ul.tag li:before {content:"‣ "}
-span.tag a:link, span.tag a:visited {background:forestgreen; color:white; margin:10px; text-decoration:none}
+span.tag a:link, span.tag a:visited {background:#388E3C; color:white; margin:10px; text-decoration:none}
 .ttl {font-variant:small-caps; color:red}
 .mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px}
 .icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red}
