@@ -32,8 +32,8 @@ dt {font-weight:bold}
 .toc a:link, .toc a:visited {color:#600}
 .pic {float:left; text-align:center; width:110px; height:130px; margin:5px; font-weight:bold}
 .pic img {border:0px; width:100px; height:100px}
-ul.tag {list-style:none}
-ul.tag li:before {content:"‣ "}
+ul.tri {list-style:none}
+ul.tri li:before {content:"‣ "}
 span.tag a:link, span.tag a:visited {background:#388E3C; color:white; margin:10px; text-decoration:none}
 .ttl {font-variant:small-caps; color:red}
 .mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px}
