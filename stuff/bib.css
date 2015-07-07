@@ -13,7 +13,7 @@ div.fig img {border:0px}
 .def {background-color:#CCF}
 li img, h3 img {padding-right:5px}
 body {background-color:#CFD8DC; margin:0px; color:#263238; font-family: "Exo 2", sans-serif}
-.last {width:100%; text-align:right}
+.last {margin-left:160px; text-align:right}
 .left {float:left; text-align:center; height:100%;position:fixed;top:0;background:#90A4AE;}
 .pad {padding-bottom:20px}
 .main {margin-left:160px; margin-right:10px}
