@@ -11,6 +11,8 @@
 text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 font-family: "Impact"; font-size: 200%}
 .pic:hover img {opacity: 0.7;}
+.pagevis {height: 5px; background: white; float:left; top:5px; position: relative; left:5px;}
+.toc dd{float:left;}
 
 .sm img {margin:5px}
 
@@ -34,7 +36,7 @@ ul ul {padding-top:10px; padding-bottom:10px}
 .rbox * {padding:5px}
 .rbox hr {padding:0px; border:1px dashed black; margin-bottom:0px}
 pre {border-top:1px solid black}
-dt {font-weight:bold}
+dt {font-weight:bold; clear:left}
 .toc a:link, .toc a:visited {color:#600}
 ul.tri {list-style:none}
 ul.tri li:before {content:"‣ "}
