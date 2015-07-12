@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Selected+Papers+of+the+11th+International+Workshop+on+Logic+Based+Program+Synthesis+and+Transformation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-2001,
 	booktitle  = "{LOPSTR}",
 	editor     = "Alberto Pettorossi",
 <span id="isbn">	isbn       = "3-540-43915-3",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation}",
 	volume     = 2372,

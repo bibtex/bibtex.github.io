@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Object-Oriented+Modeling+Languages:+State+of+the+Art+and+Open+Research+Questions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'The Unified Modeling Language — Technical Aspects and Applications':'UML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-1997-Frank,
 	author     = "Ulrich Frank",
-	booktitle  = "{The Unified Modeling Language — Technical Aspects and Applications}",
+	booktitle  = "{<span id="booktitle">The Unified Modeling Language — Technical Aspects and Applications</span>}",
 	pages      = "14--31",
+	publisher  = "{Physica-Verlag}",
 	title      = "{Object-Oriented Modeling Languages: State of the Art and Open Research Questions}",
 	year       = 1997,
 }</pre>

@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2103746.2103763">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Workshop on Partial Evaluation and Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2012-Lopez-FraguasMR,
 	author     = "Francisco Javier López-Fraguas and Enrique Martin-Martin and Juan Rodríguez-Hortalá",
-	booktitle  = "{Proceedings of the 17th Workshop on Partial Evaluation and Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 17th Workshop on Partial Evaluation and Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2103746.2103763">10.1145/2103746.2103763</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2103746.2103763">http://doi.acm.org/10.1145/2103746.2103763</a>",
 </span>	pages      = "83--92",
+	publisher  = "{ACM}",
 	title      = "{Well-typed narrowing with extra variables in functional-logic programming}",
 	year       = 2012,
 }</pre>

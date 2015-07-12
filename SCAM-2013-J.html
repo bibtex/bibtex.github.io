@@ -36,12 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Section+on+Source+Code+Analysis+and+Manipulation+(SCAM+2013)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Science of Computer Programming':'SCP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SCAM-2013-J,
 	editor     = "Bram Adams and Juergen Rilling",
+	journal    = "{<span id="journal">Science of Computer Programming</span>}",
 	title      = "{Special Section on Source Code Analysis and Manipulation (SCAM 2013)}",
+	volume     = 105,
 	year       = 2015,
 }</pre>
 </div>

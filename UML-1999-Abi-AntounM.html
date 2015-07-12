@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Enabling+the+Refinement+of+a+Software+Architecture+into+a+Design%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-46852-8_3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on the Unified Modeling Language: Beyond the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on the Unified Modeling Language: Beyond the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-1999-Abi-AntounM,
@@ -45,7 +45,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-46852-8_3">10.1007/3-540-46852-8_3</a>",
 </span>	editor     = "Robert B. France and Bernhard Rumpe",
 	pages      = "17--31",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Enabling the Refinement of a Software Architecture into a Design}",
 	volume     = 1723,

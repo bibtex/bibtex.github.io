@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Replacement+Operation+for+CCP+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/10720327_13">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1999-BertolinoEP,
 	author     = "Marco Bertolino and Sandro Etalle and Catuscia Palamidessi",
-	booktitle  = "{Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/10720327_13">10.1007/10720327_13</a>",
 </span>	pages      = "216--233",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The Replacement Operation for CCP Programs}",
+	volume     = 1817,
 	year       = 1999,
 }</pre>
 </div>

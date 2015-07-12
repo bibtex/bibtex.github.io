@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Making+Tuple+Spaces+Safe+for+Heterogeneous+Distributed+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-MinskyMU,
 	author     = "Naftaly H. Minsky and Yaron Minsky and Victoria Ungureanu",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "218--226",
+	publisher  = "{ACM}",
 	title      = "{Making Tuple Spaces Safe for Heterogeneous Distributed Systems}",
 	year       = 2000,
 }</pre>

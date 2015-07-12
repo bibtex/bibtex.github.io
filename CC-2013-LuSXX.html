@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Incremental+Points-to+Analysis+with+CFL-Reachability%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-37051-9_4">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2013-LuSXX,
 	author     = "Yi Lu and Lei Shang and Xinwei Xie and Jingling Xue",
-	booktitle  = "{Proceedings of the 22nd International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 22nd International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-37051-9_4">10.1007/978-3-642-37051-9_4</a>",
 </span>	pages      = "61--81",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{An Incremental Points-to Analysis with CFL-Reachability}",
+	volume     = 7791,
 	year       = 2013,
 }</pre>
 </div>

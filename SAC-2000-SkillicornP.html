@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Building+Programs+in+the+Network+of+Tasks+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-SkillicornP,
 	author     = "David B. Skillicorn and Susanna Pelagatti",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "248--254",
+	publisher  = "{ACM}",
 	title      = "{Building Programs in the Network of Tasks Model}",
 	year       = 2000,
 }</pre>

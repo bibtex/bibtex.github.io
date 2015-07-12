@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Computational Complexity and Constraint Logic Programming Languages" title="Computational Complexity and Constraint Logic Programming Languages" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Computational Complexity and Constraint Logic Programming Languages" title="Computational Complexity and Constraint Logic Programming Languages" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Jim Cox, Ken McAloon, Carol Tretkoff<br/><em>Computational Complexity and Constraint Logic Programming Languages</em><br/>SLP, 1990.</h2>
+<h2>Jim Cox, Ken McAloon, Carol Tretkoff<br/><em>Computational Complexity and Constraint Logic Programming Languages</em><br/>LP, 1990.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1990.html">NACLP 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/CoxMT90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Computational+Complexity+and+Constraint+Logic+Programming+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1990-CoxMT,
 	author     = "Jim Cox and Ken McAloon and Carol Tretkoff",
-	booktitle  = "{Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "401--415",
+	publisher  = "{MIT Press}",
 	title      = "{Computational Complexity and Constraint Logic Programming Languages}",
 	year       = 1990,
 }</pre>

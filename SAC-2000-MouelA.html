@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Distribution+over+Mobile+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-MouelA,
 	author     = "Frederic Le Mouel and Françoise André",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "568--569",
+	publisher  = "{ACM}",
 	title      = "{Distribution over Mobile Environments}",
 	year       = 2000,
 }</pre>

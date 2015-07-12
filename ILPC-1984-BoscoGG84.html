@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications" title="A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications" title="A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Pier Giorgio Bosco, G. Giandonato, Elio Giovannetti<br/><em>A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications</em><br/>ICLP, 1984.</h2>
+<h2>Pier Giorgio Bosco, G. Giandonato, Elio Giovannetti<br/><em>A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="ILPC-1984.html">ILPC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/BoscoGG84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Prolog+System+for+the+Verification+of+Concurrent+Processes+Against+Temporal+Logic+Specifications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Logic Programming Conference':'ILPC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPC-1984-BoscoGG84,
 	author     = "Pier Giorgio Bosco and G. Giandonato and Elio Giovannetti",
-	booktitle  = "{Proceedings of the Second International Logic Programming Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Logic Programming Conference</span>}",
 	pages      = "219--229",
+	publisher  = "{Uppsala University}",
 	title      = "{A Prolog System for the Verification of Concurrent Processes Against Temporal Logic Specifications}",
 	year       = 1984,
 }</pre>

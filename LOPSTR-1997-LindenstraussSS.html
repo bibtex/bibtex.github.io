@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Unfolding+the+Mystery+of+Mergesort%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-49674-2_11">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Workshop on Logic Programming Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1997-LindenstraussSS,
 	author     = "Naomi Lindenstrauss and Yehoshua Sagiv and Alexander Serebrenik",
-	booktitle  = "{Proceedings of the Seventh International Workshop on Logic Programming Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Workshop on Logic Programming Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-49674-2_11">10.1007/3-540-49674-2_11</a>",
 </span>	pages      = "206--225",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Unfolding the Mystery of Mergesort}",
+	volume     = 1463,
 	year       = 1997,
 }</pre>
 </div>

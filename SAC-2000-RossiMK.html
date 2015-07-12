@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Adaptive+Evolutionary+Algorithm+for+the+Satisfiability+Problem%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-RossiMK,
 	author     = "Claudio Rossi and Elena Marchiori and Joost N. Kok",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "463--469",
+	publisher  = "{ACM}",
 	title      = "{An Adaptive Evolutionary Algorithm for the Satisfiability Problem}",
 	year       = 2000,
 }</pre>

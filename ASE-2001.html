@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+16th+IEEE+International+Conference+on+Automated+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ASE-2001,
 	booktitle  = "{ASE}",
 <span id="isbn">	isbn       = "0-7695-1426-X",
-</span>	publisher  = "{IEEE Computer Society}",
+</span>	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Proceedings of the 16th IEEE International Conference on Automated Software Engineering}",
 	year       = 2001,
 }</pre>

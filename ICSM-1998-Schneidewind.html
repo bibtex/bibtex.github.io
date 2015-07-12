@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Methods+for+Assessing+COTS+Reliability,+Maintainability,+and+Availability%22">Scholar</a><hr/><a href="http://dlib.computer.org/conferen/icsm/8779/pdf/87790224.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-1998-Schneidewind,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://dlib.computer.org/conferen/icsm/8779/pdf/87790224.pdf">http://dlib.computer.org/conferen/icsm/8779/pdf/87790224.pdf</a>",
 </span>	pages      = "224--None",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Methods for Assessing COTS Reliability, Maintainability, and Availability}",
 	year       = 1998,
 }</pre>

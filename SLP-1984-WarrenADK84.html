@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Executing Distributed Prolog Programs on a Broadcast Network" title="Executing Distributed Prolog Programs on a Broadcast Network" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Executing Distributed Prolog Programs on a Broadcast Network" title="Executing Distributed Prolog Programs on a Broadcast Network" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>David Scott Warren, Mustaque Ahamad, Saumya K. Debray, Laxmikant V. Kalé<br/><em>Executing Distributed Prolog Programs on a Broadcast Network</em><br/>SLP, 1984.</h2>
+<h2>David Scott Warren, Mustaque Ahamad, Saumya K. Debray, Laxmikant V. Kalé<br/><em>Executing Distributed Prolog Programs on a Broadcast Network</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="SLP-1984.html">SLP 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/WarrenADK84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Executing+Distributed+Prolog+Programs+on+a+Broadcast+Network%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1984-WarrenADK84,
 	author     = "David Scott Warren and Mustaque Ahamad and Saumya K. Debray and Laxmikant V. Kalé",
-	booktitle  = "{Proceedings of the First International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Symposium on Logic Programming</span>}",
 	pages      = "12--21",
+	publisher  = "{IEEE-CS}",
 	title      = "{Executing Distributed Prolog Programs on a Broadcast Network}",
 	year       = 1984,
 }</pre>

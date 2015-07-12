@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Equational Logic Programming Actions, and Change" title="Equational Logic Programming Actions, and Change" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Equational Logic Programming Actions, and Change" title="Equational Logic Programming Actions, and Change" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Gerd Große, Steffen Hölldobler, Josef Schneeberger, Ute Cornelia Sigmund, Michael Thielscher<br/><em>Equational Logic Programming Actions, and Change</em><br/>ICLP, 1992.</h2>
+<h2>Gerd Große, Steffen Hölldobler, Josef Schneeberger, Ute Cornelia Sigmund, Michael Thielscher<br/><em>Equational Logic Programming Actions, and Change</em><br/>LP, 1992.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1992.html">JICSLP 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/GrosseHSST92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Equational+Logic+Programming+Actions,+and+Change%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992':'JICSLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSLP-1992-GrosseHSST,
 	author     = "Gerd Große and Steffen Hölldobler and Josef Schneeberger and Ute Cornelia Sigmund and Michael Thielscher",
-	booktitle  = "{Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992</span>}",
 	pages      = "177--191",
+	publisher  = "{MIT Press}",
 	title      = "{Equational Logic Programming Actions, and Change}",
 	year       = 1992,
 }</pre>

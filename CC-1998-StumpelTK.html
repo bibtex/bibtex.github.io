@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22VLIW+Compilation+Techniques+for+Superscalar+Architectures%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0026435">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-1998-StumpelTK,
 	author     = "Esther Stümpel and Michael Thies and Uwe Kastens",
-	booktitle  = "{Proceedings of the Seventh International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0026435">10.1007/BFb0026435</a>",
 </span>	pages      = "234--248",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{VLIW Compilation Techniques for Superscalar Architectures}",
+	volume     = 1383,
 	year       = 1998,
 }</pre>
 </div>

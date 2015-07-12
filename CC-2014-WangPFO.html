@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploitation+of+GPUs+for+the+Parallelisation+of+Probably+Parallel+Legacy+Code%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-54807-9_9">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2014-WangPFO,
 	author     = "Zheng Wang and Daniel Christopher Powell and Björn Franke and Michael F. P. O'Boyle",
-	booktitle  = "{Proceedings of the 23rd International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 23rd International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-54807-9_9">10.1007/978-3-642-54807-9_9</a>",
 </span>	pages      = "154--173",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Exploitation of GPUs for the Parallelisation of Probably Parallel Legacy Code}",
+	volume     = 8409,
 	year       = 2014,
 }</pre>
 </div>

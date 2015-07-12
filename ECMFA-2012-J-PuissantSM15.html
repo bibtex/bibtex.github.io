@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Resolving+model+inconsistencies+using+automated+regression+planning%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/s10270-013-0317-9">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ECMFA-2012-J-PuissantSM15,
 	author     = "Jorge Pinna Puissant and Ragnhild Van Der Straeten and Tom Mens",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/s10270-013-0317-9">10.1007/s10270-013-0317-9</a>",
-</span>	journal    = "{Software and System Modeling}",
+</span>	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	pages      = "461--481",
 	title      = "{Resolving model inconsistencies using automated regression planning}",

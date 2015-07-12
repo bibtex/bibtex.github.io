@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Using Symmetry for the Derivation of Logic Programs" title="Using Symmetry for the Derivation of Logic Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Using Symmetry for the Derivation of Logic Programs" title="Using Symmetry for the Derivation of Logic Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Anna-Lena Johansson<br/><em>Using Symmetry for the Derivation of Logic Programs</em><br/>ICLP, 1984.</h2>
+<h2>Anna-Lena Johansson<br/><em>Using Symmetry for the Derivation of Logic Programs</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="ILPC-1984.html">ILPC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Johansson84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+Symmetry+for+the+Derivation+of+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Logic Programming Conference':'ILPC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPC-1984-Johansson84,
 	author     = "Anna-Lena Johansson",
-	booktitle  = "{Proceedings of the Second International Logic Programming Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Logic Programming Conference</span>}",
 	pages      = "243--251",
+	publisher  = "{Uppsala University}",
 	title      = "{Using Symmetry for the Derivation of Logic Programs}",
 	year       = 1984,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="A Declarative Alternative to “Assert” in Logic Programming" title="A Declarative Alternative to “Assert” in Logic Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Declarative Alternative to “Assert” in Logic Programming" title="A Declarative Alternative to “Assert” in Logic Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Scott Dietzen, Frank Pfenning<br/><em>A Declarative Alternative to “Assert” in Logic Programming</em><br/>SLP, 1991.</h2>
+<h2>Scott Dietzen, Frank Pfenning<br/><em>A Declarative Alternative to “Assert” in Logic Programming</em><br/>LP, 1991.</h2>
 <div class="rbox">
 <strong><a href="ISLP-1991.html">ISLP 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/DietzenP91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Declarative+Alternative+to+“Assert”+in+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISLP-1991-DietzenP,
 	author     = "Scott Dietzen and Frank Pfenning",
-	booktitle  = "{Proceedings of the Eighth International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Symposium on Logic Programming</span>}",
 	pages      = "372--386",
+	publisher  = "{MIT Press}",
 	title      = "{A Declarative Alternative to “Assert” in Logic Programming}",
 	year       = 1991,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Combinatory Logic Programming: Computing in Relation Calculi" title="Combinatory Logic Programming: Computing in Relation Calculi" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Combinatory Logic Programming: Computing in Relation Calculi" title="Combinatory Logic Programming: Computing in Relation Calculi" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Paul Broome, James Lipton<br/><em>Combinatory Logic Programming: Computing in Relation Calculi</em><br/>SLP, 1994.</h2>
+<h2>Paul Broome, James Lipton<br/><em>Combinatory Logic Programming: Computing in Relation Calculi</em><br/>LP, 1994.</h2>
 <div class="rbox">
 <strong><a href="ILPS-1994.html">ILPS 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/BroomeL94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Combinatory+Logic+Programming:+Computing+in+Relation+Calculi%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1994-BroomeL,
 	author     = "Paul Broome and James Lipton",
-	booktitle  = "{Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994</span>}",
 	pages      = "269--285",
+	publisher  = "{MIT Press}",
 	title      = "{Combinatory Logic Programming: Computing in Relation Calculi}",
 	year       = 1994,
 }</pre>

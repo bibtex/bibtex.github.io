@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/115865.115892">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1991-Hansen,
 	author     = "Torben Amtoft Hansen",
-	booktitle  = "{Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/115865.115892">10.1145/115865.115892</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/115865.115892">http://doi.acm.org/10.1145/115865.115892</a>",
 </span>	pages      = "243--254",
+	publisher  = "{ACM}",
 	title      = "{Properties of Unfolding-based Meta-level Systems}",
 	year       = 1991,
 }</pre>

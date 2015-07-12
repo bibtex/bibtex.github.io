@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+25th+European+Conference+on+Object-Oriented+Programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-22655-7">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ECOOP-2011,
@@ -44,7 +44,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-22655-7">10.1007/978-3-642-22655-7</a>",
 </span>	editor     = "Mira Mezini",
 <span id="isbn">	isbn       = "978-3-642-22654-0",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the 25th European Conference on Object-Oriented Programming}",
 	volume     = 6813,

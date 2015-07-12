@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Extension+of+Type-Based+Approach+to+Generation+of+Stream-Processing+Programs+by+Automatic+Insertion+of+Buffering+Primitives%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11680093_7">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 15th International Symposium on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2005-SuenagaKY,
 	author     = "Kohei Suenaga and Naoki Kobayashi and Akinori Yonezawa",
-	booktitle  = "{Revised Selected Papers of the 15th International Symposium on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 15th International Symposium on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11680093_7">10.1007/11680093_7</a>",
 </span>	pages      = "98--114",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Extension of Type-Based Approach to Generation of Stream-Processing Programs by Automatic Insertion of Buffering Primitives}",
+	volume     = 3901,
 	year       = 2005,
 }</pre>
 </div>

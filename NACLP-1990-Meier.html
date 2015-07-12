@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Compilation of Compound Terms in Prolog" title="Compilation of Compound Terms in Prolog" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Compilation of Compound Terms in Prolog" title="Compilation of Compound Terms in Prolog" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Micha Meier<br/><em>Compilation of Compound Terms in Prolog</em><br/>SLP, 1990.</h2>
+<h2>Micha Meier<br/><em>Compilation of Compound Terms in Prolog</em><br/>LP, 1990.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1990.html">NACLP 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Meier90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Compilation+of+Compound+Terms+in+Prolog%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1990-Meier,
 	author     = "Micha Meier",
-	booktitle  = "{Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "63--79",
+	publisher  = "{MIT Press}",
 	title      = "{Compilation of Compound Terms in Prolog}",
 	year       = 1990,
 }</pre>

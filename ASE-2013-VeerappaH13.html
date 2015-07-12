@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Assessing+the+maturity+of+requirements+through+argumentation:+A+good+enough+approach%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2013.6693131">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2013-VeerappaH13,
 	author     = "Varsha Veerappa and Rachel Harrison",
-	booktitle  = "{Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2013.6693131">10.1109/ASE.2013.6693131</a>",
 </span>	pages      = "670--675",
+	publisher  = "{IEEE}",
 	title      = "{Assessing the maturity of requirements through argumentation: A good enough approach}",
 	year       = 2013,
 }</pre>

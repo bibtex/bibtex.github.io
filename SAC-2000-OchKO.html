@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrating+Heterogeneous+Data+Sources+Using+the+COIL+Mediator+Definition+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-OchKO,
 	author     = "Christian Och and Roger King and Richard Osborne",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "991--1000",
+	publisher  = "{ACM}",
 	title      = "{Integrating Heterogeneous Data Sources Using the COIL Mediator Definition Language}",
 	year       = 2000,
 }</pre>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22WWW-Based+Cooperative+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-RoselliCLPS,
 	author     = "Teresa Roselli and C. Catanese and Stefania Loverro and Mary Victoria Pragnell and G. Sammitto",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "1014--1020",
+	publisher  = "{ACM}",
 	title      = "{WWW-Based Cooperative Learning}",
 	year       = 2000,
 }</pre>

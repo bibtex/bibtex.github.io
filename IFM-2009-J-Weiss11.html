@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Predicate+abstraction+in+a+program+logic+calculus%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1016/j.scico.2010.06.008">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Science of Computer Programming':'SCP');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#journal').text(this.checked?'Science of Computer Programming':'SCP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{IFM-2009-J-Weiss11,
@@ -45,6 +45,7 @@
 </span>	journal    = "{<span id="journal">Science of Computer Programming</span>}",
 	number     = 10,
 	pages      = "861--876",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Predicate abstraction in a program logic calculus}",
 	volume     = 76,
 	year       = 2011,

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Solving+Very+Large+Crew+Scheduling+Problems+to+Optimality%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-YunesMS,
 	author     = "Tallys H. Yunes and Arnaldo Vieira Moura and Cid C. de Souza",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "446--451",
+	publisher  = "{ACM}",
 	title      = "{Solving Very Large Crew Scheduling Problems to Optimality}",
 	year       = 2000,
 }</pre>

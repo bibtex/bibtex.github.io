@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Third+European+Symposium+on+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ESOP-1990,
 	booktitle  = "{ESOP}",
 	editor     = "Neil D. Jones",
 <span id="isbn">	isbn       = "3-540-52592-0",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Third European Symposium on Programming}",
 	volume     = 432,
@@ -68,7 +68,7 @@
 <dt><a href="ESOP-1990-JourdanP.html">ESOP-1990-JourdanP</a></dt><dd>Techniques for Improving Grammar Flow Analysis (<abbr title="Martin Jourdan">MJ</abbr>, <abbr title="Didier Parigot">DP</abbr>), pp. 240–255.</dd>
 <dt><a href="ESOP-1990-Kennaway.html">ESOP-1990-Kennaway</a> <span class="tag"><a href="tag/ambiguity.html" title="ambiguity">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/lazy%20evaluation.html" title="lazy evaluation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/pattern%20matching.html" title="pattern matching">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/term%20rewriting.html" title="term rewriting">&nbsp;T&nbsp;</a></span></dt><dd>The Specificity Rule for Lazy Pattern-Matching in Ambiguous Term Rewrite Systems (<abbr title="Richard Kennaway">RK</abbr>), pp. 256–270.</dd>
 <dt><a href="ESOP-1990-KuchenLMR.html">ESOP-1990-KuchenLMR</a> <span class="tag"><a href="tag/functional.html" title="functional">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/graph.html" title="graph">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/implementation.html" title="implementation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/logic.html" title="logic">&nbsp;T&nbsp;</a></span></dt><dd>Graph-based Implementation of a Functional Logic Langugage (<abbr title="Herbert Kuchen">HK</abbr>, <abbr title="Rita Loogen">RL</abbr>, <abbr title="Juan José Moreno-Navarro">JJMN</abbr>, <abbr title="Mario Rodríguez-Artalejo">MRA</abbr>), pp. 271–290.</dd>
-<dt><a href="ESOP-1990-NielsonN.html">ESOP-1990-NielsonN</a> <span class="tag"><a href="tag/exclamation.html" title="exclamation">&nbsp;T&nbsp;</a></span></dt><dd>Eureka Definitions for Free! or Disagreement Points for Fold/Unford Transformations (<abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>), pp. 291–305.</dd>
+<dt><a href="ESOP-1990-NielsonN.html">ESOP-1990-NielsonN</a> <span class="tag"><a href="tag/exclamation.html" title="exclamation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/for%20free.html" title="for free">&nbsp;T&nbsp;</a></span></dt><dd>Eureka Definitions for Free! or Disagreement Points for Fold/Unford Transformations (<abbr title="Hanne Riis Nielson">HRN</abbr>, <abbr title="Flemming Nielson">FN</abbr>), pp. 291–305.</dd>
 <dt><a href="ESOP-1990-ProiettiP.html">ESOP-1990-ProiettiP</a> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">&nbsp;T&nbsp;</a></span></dt><dd>Synthesis of Eureka Predicates for Developing Logic Programs (<abbr title="Maurizio Proietti">MP</abbr>, <abbr title="Alberto Pettorossi">AP</abbr>), pp. 306–325.</dd>
 <dt><a href="ESOP-1990-Reps.html">ESOP-1990-Reps</a></dt><dd>Algebraic Properties of Program Integration (<abbr title="Thomas W. Reps">TWR</abbr>), pp. 326–340.</dd>
 <dt><a href="ESOP-1990-Romanenko.html">ESOP-1990-Romanenko</a></dt><dd>Arity Raiser and its Use in Program Specialization (<abbr title="Sergei A. Romanenko">SAR</abbr>), pp. 341–360.</dd>

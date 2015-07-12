@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Combined+Static+and+Dynamic+Assertion-Based+Debugging+of+Constraint+Logic+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/10720327_16">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1999-PueblaBH,
 	author     = "Germán Puebla and Francisco Bueno and Manuel V. Hermenegildo",
-	booktitle  = "{Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Selected Papers of the Ninth International Workshop on Logic Programming Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/10720327_16">10.1007/10720327_16</a>",
 </span>	pages      = "273--292",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Combined Static and Dynamic Assertion-Based Debugging of Constraint Logic Programs}",
+	volume     = 1817,
 	year       = 1999,
 }</pre>
 </div>

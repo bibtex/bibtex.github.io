@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Suspension+Analysis+for+Concurrent+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1991-CodishFM,
 	author     = "Michael Codish and Moreno Falaschi and Kim Marriott",
-	booktitle  = "{Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991</span>}",
 	pages      = "331--345",
+	publisher  = "{MIT Press}",
 	title      = "{Suspension Analysis for Concurrent Logic Programs}",
 	year       = 1991,
 }</pre>

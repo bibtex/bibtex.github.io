@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1621607.1621628">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2009-RadermacherCGT09,
 	author     = "Ansgar Radermacher and Arnaud Cuccuru and Sébastien Gérard and François Terrier",
-	booktitle  = "{Proceedings of the Eighth International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1621607.1621628">10.1145/1621607.1621628</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1621607.1621628">http://doi.acm.org/10.1145/1621607.1621628</a>",
 </span>	pages      = "127--136",
+	publisher  = "{ACM}",
 	title      = "{Generating execution infrastructures for component-oriented specifications with a model driven toolchain: a case study for MARTE's GCM and real-time annotations}",
 	year       = 2009,
 }</pre>

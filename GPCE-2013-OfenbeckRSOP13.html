@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2517208.2517228">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Generative Programming: Concepts & Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2013-OfenbeckRSOP13,
 	author     = "Georg Ofenbeck and Tiark Rompf and Alen Stojanov and Martin Odersky and Markus Püschel",
-	booktitle  = "{Proceedings of the 12th International Conference on Generative Programming: Concepts & Experiences}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 12th International Conference on Generative Programming: Concepts & Experiences</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2517208.2517228">10.1145/2517208.2517228</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2517208.2517228">http://doi.acm.org/10.1145/2517208.2517228</a>",
 </span>	pages      = "125--134",
+	publisher  = "{ACM}",
 	title      = "{Spiral in scala: towards the systematic construction of generators for performance libraries}",
 	year       = 2013,
 }</pre>

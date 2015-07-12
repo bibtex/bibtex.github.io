@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22The+PAPAGENO+Parallel-Parser+Generator%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-54807-9_11">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2014-BarenghiCMPP,
 	author     = "Alessandro Barenghi and Stefano Crespi-Reghizzi and Dino Mandrioli and Federica Panella and Matteo Pradella",
-	booktitle  = "{Proceedings of the 23rd International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 23rd International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-54807-9_11">10.1007/978-3-642-54807-9_11</a>",
 </span>	pages      = "192--196",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The PAPAGENO Parallel-Parser Generator}",
+	volume     = 8409,
 	year       = 2014,
 }</pre>
 </div>

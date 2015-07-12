@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Categorial+Model+Construction+for+Proving+Syntactic+Properties%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Fuji International Symposium on Functional and Logic Programming':'FLOPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-1998-Sakurai,
 	author     = "Takafumi Sakurai",
-	booktitle  = "{Fuji International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Fuji International Symposium on Functional and Logic Programming</span>}",
 	pages      = "187--206",
 	title      = "{Categorial Model Construction for Proving Syntactic Properties}",
 	year       = 1998,

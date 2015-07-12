@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Evaluation+of+Object-Oriented+Modelling+Languages:+A+Comparison+Between+OML+and+UML%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'The Unified Modeling Language — Technical Aspects and Applications':'UML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-1997-Prasse,
 	author     = "Michael Prasse",
-	booktitle  = "{The Unified Modeling Language — Technical Aspects and Applications}",
+	booktitle  = "{<span id="booktitle">The Unified Modeling Language — Technical Aspects and Applications</span>}",
 	pages      = "58--75",
+	publisher  = "{Physica-Verlag}",
 	title      = "{Evaluation of Object-Oriented Modelling Languages: A Comparison Between OML and UML}",
 	year       = 1997,
 }</pre>

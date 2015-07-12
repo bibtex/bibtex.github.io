@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+Rationale+for+Software+Maintenance%22">Scholar</a><hr/><a href="http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260433.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2001-BurgeB01,
 	author     = "Janet E. Burge and David C. Brown",
-	booktitle  = "{Proceedings of the 16th IEEE International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 16th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260433.pdf">http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260433.pdf</a>",
 </span>	pages      = "433",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Design Rationale for Software Maintenance}",
 	year       = 2001,
 }</pre>

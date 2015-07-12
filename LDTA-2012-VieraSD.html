@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2427048.2427053">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Workshop on Language Descriptions, Tools and Applications':'LDTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LDTA-2012-VieraSD,
 	author     = "Marcos Viera and S. Doaitse Swierstra and Atze Dijkstra",
-	booktitle  = "{Proceedings of the 12th Workshop on Language Descriptions, Tools and Applications}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 12th Workshop on Language Descriptions, Tools and Applications</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2427048.2427053">10.1145/2427048.2427053</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2427048.2427053">http://doi.acm.org/10.1145/2427048.2427053</a>",
 </span>	pages      = "5",
+	publisher  = "{ACM}",
 	title      = "{Grammar fragments fly first-class}",
 	year       = 2012,
 }</pre>

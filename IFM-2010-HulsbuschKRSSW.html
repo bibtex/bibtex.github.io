@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Showing+Full+Semantics+Preservation+in+Model+Transformation+—+A+Comparison+of+Techniques%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-16265-7_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Integrated Formal Methods':'IFM');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-2010-HulsbuschKRSSW,
 	author     = "Mathias Hülsbusch and Barbara König and Arend Rensink and Maria Semenyak and Christian Soltenborn and Heike Wehrheim",
-	booktitle  = "{Proceedings of the Eighth International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Conference on Integrated Formal Methods</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-16265-7_14">10.1007/978-3-642-16265-7_14</a>",
 </span>	pages      = "183--198",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Showing Full Semantics Preservation in Model Transformation — A Comparison of Techniques}",
+	volume     = 6396,
 	year       = 2010,
 }</pre>
 </div>

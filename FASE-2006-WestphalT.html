@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Good,+the+Bad+and+the+Ugly:+Well-Formedness+of+Live+Sequence+Charts%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11693017_18">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-2006-WestphalT,
 	author     = "Bernd Westphal and Tobe Toben",
-	booktitle  = "{Proceedings of the Ninth International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11693017_18">10.1007/11693017_18</a>",
 </span>	pages      = "230--246",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The Good, the Bad and the Ugly: Well-Formedness of Live Sequence Charts}",
+	volume     = 3922,
 	year       = 2006,
 }</pre>
 </div>

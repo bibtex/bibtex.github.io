@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+First+International+Workshop+on+Programming+Language+Implementation+and+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PLILP-1988,
 	booktitle  = "{PLILP}",
 	editor     = "Pierre Deransart and Bernard Lorho and Jan Maluszynski",
 <span id="isbn">	isbn       = "3-540-50820-1",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the First International Workshop on Programming Language Implementation and Logic Programming}",
 	volume     = 348,

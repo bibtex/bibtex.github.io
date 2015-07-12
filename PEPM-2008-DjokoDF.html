@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1328408.1328429">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Symposium on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2008-DjokoDF,
 	author     = "Simplice Djoko Djoko and Rémi Douence and Pascal Fradet",
-	booktitle  = "{Proceedings of the 13th Symposium on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 13th Symposium on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1328408.1328429">10.1145/1328408.1328429</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1328408.1328429">http://doi.acm.org/10.1145/1328408.1328429</a>",
 </span>	pages      = "135--145",
+	publisher  = "{ACM}",
 	title      = "{Aspects preserving properties}",
 	year       = 2008,
 }</pre>

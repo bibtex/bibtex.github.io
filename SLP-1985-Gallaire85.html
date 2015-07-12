@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Logic Programming: Further Developments" title="Logic Programming: Further Developments" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Logic Programming: Further Developments" title="Logic Programming: Further Developments" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Hervé Gallaire<br/><em>Logic Programming: Further Developments</em><br/>SLP, 1985.</h2>
+<h2>Hervé Gallaire<br/><em>Logic Programming: Further Developments</em><br/>LP, 1985.</h2>
 <div class="rbox">
 <strong><a href="SLP-1985.html">SLP 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Gallaire85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Logic+Programming:+Further+Developments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1985-Gallaire85,
 	author     = "Hervé Gallaire",
-	booktitle  = "{Proceedings of the Second Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Symposium on Logic Programming</span>}",
 	pages      = "88--96",
+	publisher  = "{IEEE-CS}",
 	title      = "{Logic Programming: Further Developments}",
 	year       = 1985,
 }</pre>

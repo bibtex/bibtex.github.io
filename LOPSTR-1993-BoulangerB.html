@@ -36,13 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Abstract+Interpretation+for+Goal+Replacement%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation':'LOPSTR');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1993-BoulangerB,
 	author     = "Dmitri Boulanger and Maurice Bruynooghe",
-	booktitle  = "{Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation</span>}",
 	pages      = "210--228",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{Workshops in Computing}",
 	title      = "{Using Abstract Interpretation for Goal Replacement}",
 	year       = 1993,
 }</pre>

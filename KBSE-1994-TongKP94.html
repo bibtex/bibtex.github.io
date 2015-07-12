@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Flexible+Rule-Chaining+Engine+for+Process-Based+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1994-TongKP94,
 	author     = "Andrew Z. Tong and Gail E. Kaiser and Steven S. Popovich",
-	booktitle  = "{Proceedings of the Ninth Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "79--88",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{A Flexible Rule-Chaining Engine for Process-Based Software Engineering}",
 	year       = 1994,
 }</pre>

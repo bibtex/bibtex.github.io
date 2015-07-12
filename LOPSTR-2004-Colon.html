@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Schema-Guided+Synthesis+of+Imperative+Programs+by+Constraint+Solving%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11506676_11">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 14th International Symposium on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2004-Colon,
 	author     = "Michael Colón",
-	booktitle  = "{Revised Selected Papers of the 14th International Symposium on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 14th International Symposium on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11506676_11">10.1007/11506676_11</a>",
 </span>	pages      = "166--181",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Schema-Guided Synthesis of Imperative Programs by Constraint Solving}",
+	volume     = 3573,
 	year       = 2004,
 }</pre>
 </div>

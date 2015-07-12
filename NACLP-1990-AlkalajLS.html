@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="FCP Sequential Abstract Machine Characteristics for the Systems Development Workload" title="FCP Sequential Abstract Machine Characteristics for the Systems Development Workload" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="FCP Sequential Abstract Machine Characteristics for the Systems Development Workload" title="FCP Sequential Abstract Machine Characteristics for the Systems Development Workload" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Leon Alkalaj, Tomás Lang, Ehud Y. Shapiro<br/><em>FCP Sequential Abstract Machine Characteristics for the Systems Development Workload</em><br/>SLP, 1990.</h2>
+<h2>Leon Alkalaj, Tomás Lang, Ehud Y. Shapiro<br/><em>FCP Sequential Abstract Machine Characteristics for the Systems Development Workload</em><br/>LP, 1990.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1990.html">NACLP 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/AlkalajLS90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22FCP+Sequential+Abstract+Machine+Characteristics+for+the+Systems+Development+Workload%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1990-AlkalajLS,
 	author     = "Leon Alkalaj and Tomás Lang and Ehud Y. Shapiro",
-	booktitle  = "{Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "321--339",
+	publisher  = "{MIT Press}",
 	title      = "{FCP Sequential Abstract Machine Characteristics for the Systems Development Workload}",
 	year       = 1990,
 }</pre>

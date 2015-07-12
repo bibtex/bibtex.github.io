@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+analytics+for+incident+management+of+online+services:+An+experience+report%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2013.6693105">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2013-LouLDFZX13,
 	author     = "Jian-Guang Lou and Qingwei Lin and Rui Ding and Qiang Fu and Dongmei Zhang and Tao Xie",
-	booktitle  = "{Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2013.6693105">10.1109/ASE.2013.6693105</a>",
 </span>	pages      = "475--485",
+	publisher  = "{IEEE}",
 	title      = "{Software analytics for incident management of online services: An experience report}",
 	year       = 2013,
 }</pre>

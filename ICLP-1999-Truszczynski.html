@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Computing Large and Small Stable Models" title="Computing Large and Small Stable Models" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Computing Large and Small Stable Models" title="Computing Large and Small Stable Models" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Miroslaw Truszczynski<br/><em>Computing Large and Small Stable Models</em><br/>ICLP, 1999.</h2>
+<h2>Miroslaw Truszczynski<br/><em>Computing Large and Small Stable Models</em><br/>LP, 1999.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1999.html">ICLP 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Truszczynski99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Computing+Large+and+Small+Stable+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1999-Truszczynski,
 	author     = "Miroslaw Truszczynski",
-	booktitle  = "{Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999}",
+	booktitle  = "{<span id="booktitle">Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999</span>}",
 	pages      = "169--183",
+	publisher  = "{MIT Press}",
 	title      = "{Computing Large and Small Stable Models}",
 	year       = 1999,
 }</pre>

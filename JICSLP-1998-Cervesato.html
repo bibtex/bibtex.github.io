@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Proof-Theoretic Foundation of Compilation in Logic Programming" title="Proof-Theoretic Foundation of Compilation in Logic Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Proof-Theoretic Foundation of Compilation in Logic Programming" title="Proof-Theoretic Foundation of Compilation in Logic Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Iliano Cervesato<br/><em>Proof-Theoretic Foundation of Compilation in Logic Programming</em><br/>ICLP, 1998.</h2>
+<h2>Iliano Cervesato<br/><em>Proof-Theoretic Foundation of Compilation in Logic Programming</em><br/>LP, 1998.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1998.html">JICSLP 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Cervesato98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proof-Theoretic+Foundation+of+Compilation+in+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 1998 Joint International Conference and Symposium on Logic Programming, Manchester, UK, June 15-19, 1998':'JICSLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSLP-1998-Cervesato,
 	author     = "Iliano Cervesato",
-	booktitle  = "{Proceedings of the 1998 Joint International Conference and Symposium on Logic Programming, Manchester, UK, June 15-19, 1998}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 1998 Joint International Conference and Symposium on Logic Programming, Manchester, UK, June 15-19, 1998</span>}",
 	pages      = "115--129",
+	publisher  = "{MIT Press}",
 	title      = "{Proof-Theoretic Foundation of Compilation in Logic Programming}",
 	year       = 1998,
 }</pre>

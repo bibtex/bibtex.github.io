@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Model+Interchange+Testing:+A+Process+and+a+Case+Study%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-31491-9_6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMFA-2012-ElaasarL12,
@@ -44,7 +44,10 @@
 	booktitle  = "{ECMFA}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-31491-9_6">10.1007/978-3-642-31491-9_6</a>",
 </span>	pages      = "49--61",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Model Interchange Testing: A Process and a Case Study}",
+	volume     = 7349,
 	year       = 2012,
 }</pre>
 </div>

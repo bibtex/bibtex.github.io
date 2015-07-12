@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Synthesis of a Family of Recursive Sorting Procedures" title="Synthesis of a Family of Recursive Sorting Procedures" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Synthesis of a Family of Recursive Sorting Procedures" title="Synthesis of a Family of Recursive Sorting Procedures" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Kung-Kiu Lau, Steven David Prestwich<br/><em>Synthesis of a Family of Recursive Sorting Procedures</em><br/>SLP, 1991.</h2>
+<h2>Kung-Kiu Lau, Steven David Prestwich<br/><em>Synthesis of a Family of Recursive Sorting Procedures</em><br/>LP, 1991.</h2>
 <div class="rbox">
 <strong><a href="ISLP-1991.html">ISLP 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/LauP91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Synthesis+of+a+Family+of+Recursive+Sorting+Procedures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISLP-1991-LauP,
 	author     = "Kung-Kiu Lau and Steven David Prestwich",
-	booktitle  = "{Proceedings of the Eighth International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Symposium on Logic Programming</span>}",
 	pages      = "641--658",
+	publisher  = "{MIT Press}",
 	title      = "{Synthesis of a Family of Recursive Sorting Procedures}",
 	year       = 1991,
 }</pre>

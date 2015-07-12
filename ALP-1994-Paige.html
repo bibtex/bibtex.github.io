@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Viewing+A+program+Transformation+System+At+Work%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-58431-5_3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Algebraic and Logic Programming':'ALP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ALP-1994-Paige,
 	author     = "Robert Paige",
-	booktitle  = "{Proceedings of the Fourth International Conference on Algebraic and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Algebraic and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-58431-5_3">10.1007/3-540-58431-5_3</a>",
 </span>	pages      = "5",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Viewing A program Transformation System At Work}",
+	volume     = 850,
 	year       = 1994,
 }</pre>
 </div>

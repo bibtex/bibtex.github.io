@@ -36,13 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22A+General+Technique+for+Automatically+Generating+Efficient+Programs+Through+the+Use+of+Proof+Planning+(Abstract)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation':'LOPSTR');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1993-MaddenHGB,
 	author     = "Peter Madden and Jane Hesketh and Ian Green and Alan Bundy",
-	booktitle  = "{Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation</span>}",
 	pages      = "64--66",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{Workshops in Computing}",
 	title      = "{A General Technique for Automatically Generating Efficient Programs Through the Use of Proof Planning (Abstract)}",
 	year       = 1993,
 }</pre>

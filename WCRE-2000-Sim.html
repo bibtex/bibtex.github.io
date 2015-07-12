@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Next+Generation+Data+Interchange:+Tool-to-Tool+Application+Program+Interfaces%22">Scholar</a><hr/><a href="http://computer.org/proceedings/wcre/0881/08810278abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-2000-Sim,
 	author     = "Susan Elliott Sim",
-	booktitle  = "{Proceedings of the Seventh Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh Working Conference on Reverse Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/wcre/0881/08810278abs.htm">http://computer.org/proceedings/wcre/0881/08810278abs.htm</a>",
 </span>	pages      = "278--280",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Next Generation Data Interchange: Tool-to-Tool Application Program Interfaces}",
 	year       = 2000,
 }</pre>

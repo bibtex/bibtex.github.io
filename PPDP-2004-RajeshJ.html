@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1013963.1013988">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2004-RajeshJ,
 	author     = "J. Rajesh and D. Janakiram",
-	booktitle  = "{Proceedings of the Sixth International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1013963.1013988">10.1145/1013963.1013988</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1013963.1013988">http://doi.acm.org/10.1145/1013963.1013988</a>",
 </span>	pages      = "227--237",
+	publisher  = "{ACM}",
 	title      = "{JIAD: a tool to infer design patterns in refactoring}",
 	year       = 2004,
 }</pre>

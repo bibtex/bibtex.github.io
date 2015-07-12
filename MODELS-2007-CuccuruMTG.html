@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Enhancing+UML+Extensions+with+Operational+Semantics%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-75209-7_19">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Model Driven Engineering Languages and Systems':'MoDELS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Model Driven Engineering Languages and Systems':'MoDELS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{MODELS-2007-CuccuruMTG,
@@ -46,7 +46,7 @@
 </span>	editor     = "Gregor Engels and Bill Opdyke and Douglas C. Schmidt and Frank Weil",
 <span id="isbn">	isbn       = "978-3-540-75208-0",
 </span>	pages      = "271--285",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Enhancing UML Extensions with Operational Semantics}",
 	volume     = 4735,

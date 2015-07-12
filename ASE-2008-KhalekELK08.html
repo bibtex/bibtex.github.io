@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Query-Aware+Test+Generation+Using+a+Relational+Constraint+Solver%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2008.34">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2008-KhalekELK08,
 	author     = "Shadi Abdul Khalek and Bassem Elkarablieh and Yai O. Laleye and Sarfraz Khurshid",
-	booktitle  = "{Proceedings of the 23rd IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 23rd IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2008.34">10.1109/ASE.2008.34</a>",
 </span>	pages      = "238--247",
+	publisher  = "{IEEE}",
 	title      = "{Query-Aware Test Generation Using a Relational Constraint Solver}",
 	year       = 2008,
 }</pre>

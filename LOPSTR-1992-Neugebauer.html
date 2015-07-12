@@ -36,13 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22The+LOPS+Approach:+A+Transformational+Point+of+View+(Extended+Abstract)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Workshop on Logic Program Synthesis and Transformation':'LOPSTR');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1992-Neugebauer,
 	author     = "Gerd Neugebauer",
-	booktitle  = "{Proceedings of the Second International Workshop on Logic Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Workshop on Logic Program Synthesis and Transformation</span>}",
 	pages      = "80--81",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{Workshops in Computing}",
 	title      = "{The LOPS Approach: A Transformational Point of View (Extended Abstract)}",
 	year       = 1992,
 }</pre>

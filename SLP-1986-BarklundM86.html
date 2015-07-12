@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Garbage Cut for Garbage Collection of Iterative Prolog Programs" title="Garbage Cut for Garbage Collection of Iterative Prolog Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Garbage Cut for Garbage Collection of Iterative Prolog Programs" title="Garbage Cut for Garbage Collection of Iterative Prolog Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Jonas Barklund, Håkan Millroth<br/><em>Garbage Cut for Garbage Collection of Iterative Prolog Programs</em><br/>SLP, 1986.</h2>
+<h2>Jonas Barklund, Håkan Millroth<br/><em>Garbage Cut for Garbage Collection of Iterative Prolog Programs</em><br/>LP, 1986.</h2>
 <div class="rbox">
 <strong><a href="SLP-1986.html">SLP 1986</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/BarklundM86">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Garbage+Cut+for+Garbage+Collection+of+Iterative+Prolog+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1986-BarklundM86,
 	author     = "Jonas Barklund and Håkan Millroth",
-	booktitle  = "{Proceedings of the Third Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third Symposium on Logic Programming</span>}",
 	pages      = "276--283",
+	publisher  = "{IEEE-CS}",
 	title      = "{Garbage Cut for Garbage Collection of Iterative Prolog Programs}",
 	year       = 1986,
 }</pre>

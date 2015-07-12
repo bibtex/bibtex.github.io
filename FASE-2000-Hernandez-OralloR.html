@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+as+Learning:+Quality+Factors+and+Life-Cycle+Revised%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-46428-X_11">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-2000-Hernandez-OralloR,
 	author     = "José Hernández-Orallo and M. José Ramírez-Quintana",
-	booktitle  = "{Proceedings of the Third International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-46428-X_11">10.1007/3-540-46428-X_11</a>",
 </span>	pages      = "147--162",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Software as Learning: Quality Factors and Life-Cycle Revised}",
+	volume     = 1783,
 	year       = 2000,
 }</pre>
 </div>

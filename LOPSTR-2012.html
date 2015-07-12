@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Revised+Selected+Papers+of+the+22nd+International+Symposium+on+Logic-Based+Program+Synthesis+and+Transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-38197-3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-2012,
@@ -44,7 +44,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-38197-3">10.1007/978-3-642-38197-3</a>",
 </span>	editor     = "Elvira Albert",
 <span id="isbn">	isbn       = "['978-3-642-38196-6', '978-3-642-38197-3']",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Revised Selected Papers of the 22nd International Symposium on Logic-Based Program Synthesis and Transformation}",
 	volume     = 7844,

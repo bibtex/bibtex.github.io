@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+fine-grained+analysis+of+the+support+provided+by+UML+class+diagrams+and+ER+diagrams+during+data+model+maintenance%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/s10270-012-0312-6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{MODELS-2011-J-BavotaGOLTGC15,
 	author     = "Gabriele Bavota and Carmine Gravino and Rocco Oliveto and Andrea De Lucia and Genoveffa Tortora and Marcela Genero and José A. Cruz-Lemus",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/s10270-012-0312-6">10.1007/s10270-012-0312-6</a>",
-</span>	journal    = "{Software and System Modeling}",
+</span>	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	pages      = "287--306",
 	title      = "{A fine-grained analysis of the support provided by UML class diagrams and ER diagrams during data model maintenance}",

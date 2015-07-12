@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Active+Services+for+Federated+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Vargas-SolarCG,
 	author     = "Genoveva Vargas-Solar and Christine Collet and Helena Grazziotin-Ribeiro",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "356--360",
+	publisher  = "{ACM}",
 	title      = "{Active Services for Federated Databases}",
 	year       = 2000,
 }</pre>

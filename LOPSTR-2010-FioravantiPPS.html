@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Program+Specialization+for+Verifying+Infinite+State+Systems:+An+Experimental+Evaluation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-20551-4_11">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 20th International Symposium on Logic-Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2010-FioravantiPPS,
 	author     = "Fabio Fioravanti and Alberto Pettorossi and Maurizio Proietti and Valerio Senni",
-	booktitle  = "{Revised Selected Papers of the 20th International Symposium on Logic-Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 20th International Symposium on Logic-Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-20551-4_11">10.1007/978-3-642-20551-4_11</a>",
 </span>	pages      = "164--183",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Program Specialization for Verifying Infinite State Systems: An Experimental Evaluation}",
+	volume     = 6564,
 	year       = 2010,
 }</pre>
 </div>

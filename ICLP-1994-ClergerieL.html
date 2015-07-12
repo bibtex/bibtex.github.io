@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="LPDA: Another look at Tabulation in Logic Programming" title="LPDA: Another look at Tabulation in Logic Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="LPDA: Another look at Tabulation in Logic Programming" title="LPDA: Another look at Tabulation in Logic Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Eric Villemonte de la Clergerie, Bernard Lang<br/><em>LPDA: Another look at Tabulation in Logic Programming</em><br/>ICLP, 1994.</h2>
+<h2>Eric Villemonte de la Clergerie, Bernard Lang<br/><em>LPDA: Another look at Tabulation in Logic Programming</em><br/>LP, 1994.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1994.html">ICLP 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/ClergerieL94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22LPDA:+Another+look+at+Tabulation+in+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 11th International Conference on Logic Programming, Santa Marherita Ligure, Italy, June 13-18, 1994':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1994-ClergerieL,
 	author     = "Eric Villemonte de la Clergerie and Bernard Lang",
-	booktitle  = "{Logic Programming, Proceedings of the 11th International Conference on Logic Programming, Santa Marherita Ligure, Italy, June 13-18, 1994}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 11th International Conference on Logic Programming, Santa Marherita Ligure, Italy, June 13-18, 1994</span>}",
 	pages      = "470--486",
+	publisher  = "{MIT Press}",
 	title      = "{LPDA: Another look at Tabulation in Logic Programming}",
 	year       = 1994,
 }</pre>

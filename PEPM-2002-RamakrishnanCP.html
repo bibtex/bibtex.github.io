@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/503032.503042">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2002-RamakrishnanCP,
 	author     = "Naren Ramakrishnan and Robert Capra and Manuel A. Pérez-Quiñones",
-	booktitle  = "{Proceedings of the Eighth Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/503032.503042">10.1145/503032.503042</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/503032.503042">http://doi.acm.org/10.1145/503032.503042</a>",
 </span>	pages      = "119--130",
+	publisher  = "{ACM}",
 	title      = "{Mixed-initiative interaction = mixed computation}",
 	year       = 2002,
 }</pre>

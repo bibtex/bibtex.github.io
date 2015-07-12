@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Predicate+Abstraction+in+a+Program+Logic+Calculus%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-00255-7_10">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Integrated Formal Methods':'IFM');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-2009-Weiss,
 	author     = "Benjamin Weiß 0001",
-	booktitle  = "{Proceedings of the Seventh International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Integrated Formal Methods</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-00255-7_10">10.1007/978-3-642-00255-7_10</a>",
 </span>	pages      = "136--150",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Predicate Abstraction in a Program Logic Calculus}",
+	volume     = 5423,
 	year       = 2009,
 }</pre>
 </div>

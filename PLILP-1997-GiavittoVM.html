@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantics+and+Compilation+of+Recursive+Sequential+Streams+in+8½%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0033846">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Symposium on Programming Languages: Implementations, Logics and Programs':'PLILP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLILP-1997-GiavittoVM,
 	author     = "Jean-Louis Giavitto and Dominique De Vito and Olivier Michel",
-	booktitle  = "{Proceedings of the Ninth International Symposium on Programming Languages: Implementations, Logics and Programs}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Symposium on Programming Languages: Implementations, Logics and Programs</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0033846">10.1007/BFb0033846</a>",
 </span>	pages      = "207--223",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Semantics and Compilation of Recursive Sequential Streams in 8½}",
+	volume     = 1292,
 	year       = 1997,
 }</pre>
 </div>

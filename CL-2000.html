@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+First+International+Conference+on+Computational+Logic%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{CL-2000,
 	booktitle  = "{CL}",
 	editor     = "John W. Lloyd and Verónica Dahl and Ulrich Furbach and Manfred Kerber and Kung-Kiu Lau and Catuscia Palamidessi and Luís Moniz Pereira and Yehoshua Sagiv and Peter J. Stuckey",
 <span id="isbn">	isbn       = "3-540-67797-6",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the First International Conference on Computational Logic}",
 	volume     = 1861,
@@ -51,7 +51,7 @@
 }</pre>
 </div>
 <hr/>
-<h3>Contents (91 items)</h3><dl class="toc"><dt><a href="CL-2000-Robinson.html">CL-2000-Robinson</a> <span class="tag"><a href="tag/logic.html" title="logic">&nbsp;T&nbsp;</a></span></dt><dd>Computational Logic: Memories of the Past and Challenges for the Future (<abbr title="John Alan Robinson">JAR</abbr>), pp. 1–24.</dd>
+<h3>Event page: <a href="http://www.doc.ic.ac.uk/cl2000/">http://www.doc.ic.ac.uk/cl2000/</a></h3><h3>Contents (91 items)</h3><dl class="toc"><dt><a href="CL-2000-Robinson.html">CL-2000-Robinson</a> <span class="tag"><a href="tag/logic.html" title="logic">&nbsp;T&nbsp;</a></span></dt><dd>Computational Logic: Memories of the Past and Challenges for the Future (<abbr title="John Alan Robinson">JAR</abbr>), pp. 1–24.</dd>
 <dt><a href="CL-2000-Page.html">CL-2000-Page</a> <span class="tag"><a href="tag/named.html" title="named">&nbsp;T&nbsp;</a></span></dt><dd>ILP: Just Do It (<abbr title="David Page">DP</abbr>), pp. 25–40.</dd>
 <dt><a href="CL-2000-Fitting.html">CL-2000-Fitting</a> <span class="tag"><a href="tag/database.html" title="database">&nbsp;T&nbsp;</a></span></dt><dd>Databases and Higher Types (<abbr title="Melvin Fitting">MF</abbr>), pp. 41–52.</dd>
 <dt><a href="CL-2000-Apt.html">CL-2000-Apt</a> <span class="tag"><a href="tag/logic.html" title="logic">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/semantics.html" title="semantics">&nbsp;T&nbsp;</a></span></dt><dd>A Denotational Semantics for First-Order Logic (<abbr title="Krzysztof R. Apt">KRA</abbr>), pp. 53–69.</dd>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22PERs+from+Projections+for+Binding-Time+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1994-Davis,
 	author     = "Kei Davis",
-	booktitle  = "{Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)</span>}",
 	pages      = "53--60",
+	publisher  = "{University of Melbourne, Australia, Department of Computer Science}",
 	title      = "{PERs from Projections for Binding-Time Analysis}",
 	year       = 1994,
 }</pre>

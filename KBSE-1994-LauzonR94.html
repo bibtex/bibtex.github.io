@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Task+Oriented+and+Similarity-Based+Retrieval%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1994-LauzonR94,
 	author     = "David Lauzon and Thomas Rose",
-	booktitle  = "{Proceedings of the Ninth Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "98--107",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Task Oriented and Similarity-Based Retrieval}",
 	year       = 1994,
 }</pre>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Combining+Logic+Programs+and+Monadic+Second+Order+Logics+by+Program+Transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45013-0_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2002-FioravantiPP,
 	author     = "Fabio Fioravanti and Alberto Pettorossi and Maurizio Proietti",
-	booktitle  = "{Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45013-0_14">10.1007/3-540-45013-0_14</a>",
 </span>	pages      = "160--181",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Combining Logic Programs and Monadic Second Order Logics by Program Transformation}",
+	volume     = 2664,
 	year       = 2002,
 }</pre>
 </div>

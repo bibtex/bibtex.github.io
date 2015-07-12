@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages" title="A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages" title="A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Yasuo Hidaka, Hanpei Koike, Jun'ichi Tatemura, Hidehiko Tanaka<br/><em>A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages</em><br/>SLP, 1991.</h2>
+<h2>Yasuo Hidaka, Hanpei Koike, Jun'ichi Tatemura, Hidehiko Tanaka<br/><em>A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages</em><br/>LP, 1991.</h2>
 <div class="rbox">
 <strong><a href="ISLP-1991.html">ISLP 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/HidakaKTT91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Static+Load+Partitioning+Method+based+on+Execution+Profile+for+Committed+Choice+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISLP-1991-HidakaKTT,
 	author     = "Yasuo Hidaka and Hanpei Koike and Jun'ichi Tatemura and Hidehiko Tanaka",
-	booktitle  = "{Proceedings of the Eighth International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Symposium on Logic Programming</span>}",
 	pages      = "470--484",
+	publisher  = "{MIT Press}",
 	title      = "{A Static Load Partitioning Method based on Execution Profile for Committed Choice Languages}",
 	year       = 1991,
 }</pre>

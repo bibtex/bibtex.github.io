@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Exhaustive-Search+Method+Using+Layered+Streams+Obtained+Through+a+Meta-Interpreter+for+Chain+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-48958-4_22">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Logic Programming Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1998-Rosenblueth,
 	author     = "David A. Rosenblueth",
-	booktitle  = "{Proceedings of the Eighth International Workshop on Logic Programming Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Logic Programming Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-48958-4_22">10.1007/3-540-48958-4_22</a>",
 </span>	pages      = "322--324",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{An Exhaustive-Search Method Using Layered Streams Obtained Through a Meta-Interpreter for Chain Programs}",
+	volume     = 1559,
 	year       = 1998,
 }</pre>
 </div>

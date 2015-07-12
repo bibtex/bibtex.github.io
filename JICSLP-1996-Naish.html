@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Declarative View of Modes" title="A Declarative View of Modes" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Declarative View of Modes" title="A Declarative View of Modes" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Lee Naish<br/><em>A Declarative View of Modes</em><br/>ICLP, 1996.</h2>
+<h2>Lee Naish<br/><em>A Declarative View of Modes</em><br/>LP, 1996.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1996.html">JICSLP 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Naish96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Declarative+View+of+Modes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programing, Proceedings of the 1996 Joint International Conference and Syposium on Logic Programming, Bonn, Germany, September 2-6, 1996':'JICSLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSLP-1996-Naish,
 	author     = "Lee Naish",
-	booktitle  = "{Logic Programing, Proceedings of the 1996 Joint International Conference and Syposium on Logic Programming, Bonn, Germany, September 2-6, 1996}",
+	booktitle  = "{<span id="booktitle">Logic Programing, Proceedings of the 1996 Joint International Conference and Syposium on Logic Programming, Bonn, Germany, September 2-6, 1996</span>}",
 	pages      = "185--199",
+	publisher  = "{MIT Press}",
 	title      = "{A Declarative View of Modes}",
 	year       = 1996,
 }</pre>

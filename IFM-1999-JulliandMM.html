@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Modular+Verification+of+Dynamic+Properties+for+Reactive+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Integrated Formal Methods':'IFM');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-1999-JulliandMM,
 	author     = "Jacques Julliand and Pierre-Alain Masson and Hassan Mountassir",
-	booktitle  = "{Proceedings of the First International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Conference on Integrated Formal Methods</span>}",
 	pages      = "89--108",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	title      = "{Modular Verification of Dynamic Properties for Reactive Systems}",
 	year       = 1999,
 }</pre>

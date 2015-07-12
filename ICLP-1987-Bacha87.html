@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Meta-Level Programming: A Compiled Approach" title="Meta-Level Programming: A Compiled Approach" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Meta-Level Programming: A Compiled Approach" title="Meta-Level Programming: A Compiled Approach" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Hamid Bacha<br/><em>Meta-Level Programming: A Compiled Approach</em><br/>ICLP, 1987.</h2>
+<h2>Hamid Bacha<br/><em>Meta-Level Programming: A Compiled Approach</em><br/>LP, 1987.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1987.html">ICLP 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Bacha87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Meta-Level+Programming:+A+Compiled+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1987-Bacha87,
 	author     = "Hamid Bacha",
-	booktitle  = "{Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "394--410",
+	publisher  = "{MIT Press}",
 	title      = "{Meta-Level Programming: A Compiled Approach}",
 	year       = 1987,
 }</pre>

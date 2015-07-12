@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Semi-automatic+generation+of+metamodels+from+model+sketches%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2013.6693130">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2013-WuestSG13,
 	author     = "Dustin Wüest and Norbert Seyff and Martin Glinz",
-	booktitle  = "{Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2013.6693130">10.1109/ASE.2013.6693130</a>",
 </span>	pages      = "664--669",
+	publisher  = "{IEEE}",
 	title      = "{Semi-automatic generation of metamodels from model sketches}",
 	year       = 2013,
 }</pre>

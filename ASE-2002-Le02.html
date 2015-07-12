@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Process+Support+for+Tools+Interoperability%22">Scholar</a><hr/><a href="http://csdl.computer.org/comp/proceedings/ase/2002/1736/00/17360314.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2002-Le02,
 	author     = "Anh-Tuyet Le",
-	booktitle  = "{Proceedings of the 17th IEEE International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 17th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://csdl.computer.org/comp/proceedings/ase/2002/1736/00/17360314.pdf">http://csdl.computer.org/comp/proceedings/ase/2002/1736/00/17360314.pdf</a>",
 </span>	pages      = "314",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Process Support for Tools Interoperability}",
 	year       = 2002,
 }</pre>

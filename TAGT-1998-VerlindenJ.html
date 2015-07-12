@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+NLC+and+ESM:+Local+Action+Systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-46464-8_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Selected Papers of the Sixth International Workshop on Theory and Application of Graph Transformations':'TAGT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Selected Papers of the Sixth International Workshop on Theory and Application of Graph Transformations':'TAGT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TAGT-1998-VerlindenJ,
@@ -46,7 +46,7 @@
 </span>	editor     = "Hartmut Ehrig and Gregor Engels and Hans-Jörg Kreowski and Grzegorz Rozenberg",
 <span id="isbn">	isbn       = "3-540-67203-6",
 </span>	pages      = "194--214",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Framework for NLC and ESM: Local Action Systems}",
 	volume     = 1764,

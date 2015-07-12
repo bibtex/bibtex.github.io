@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Ideal+Models+for+Pointwise+Relational+and+State-Free+Imperative+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2001-Naumann,
 	author     = "David A. Naumann",
-	booktitle  = "{Proceedings of the Third International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Principles and Practice of Declarative Programming</span>}",
 	pages      = "4--15",
+	publisher  = "{ACM}",
 	title      = "{Ideal Models for Pointwise Relational and State-Free Imperative Programming}",
 	year       = 2001,
 }</pre>

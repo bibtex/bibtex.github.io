@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Abstractions+of+Uniform+Proofs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-61735-3_15">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Algebraic and Logic Programming':'ALP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ALP-1996-Volpe,
 	author     = "Paolo Volpe",
-	booktitle  = "{Proceedings of the Fifth International Conference on Algebraic and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth International Conference on Algebraic and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-61735-3_15">10.1007/3-540-61735-3_15</a>",
 </span>	pages      = "224--237",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Abstractions of Uniform Proofs}",
+	volume     = 1139,
 	year       = 1996,
 }</pre>
 </div>

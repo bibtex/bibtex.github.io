@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22SPECIF-X:+A+Tool+for+CASE%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-1987-LissandreV,
@@ -45,7 +45,7 @@
 	editor     = "Howard K. Nichols and Dan Simpson",
 <span id="isbn">	isbn       = "3-540-18712-X",
 </span>	pages      = "279--287",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{SPECIF-X: A Tool for CASE}",
 	volume     = 289,

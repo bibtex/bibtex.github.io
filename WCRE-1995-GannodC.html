@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Strongest+Postcondition+Semantics+as+the+Formal+Basis+for+Reverse+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1995-GannodC,
 	author     = "Gerald C. Gannod and Betty H. C. Cheng",
-	booktitle  = "{Proceedings of the Second Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Working Conference on Reverse Engineering</span>}",
 	pages      = "0--None",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Strongest Postcondition Semantics as the Formal Basis for Reverse Engineering}",
 	year       = 1995,
 }</pre>

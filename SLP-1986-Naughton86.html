@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Redundancy in Function-Free Recursive Rules" title="Redundancy in Function-Free Recursive Rules" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Redundancy in Function-Free Recursive Rules" title="Redundancy in Function-Free Recursive Rules" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Jeffrey F. Naughton<br/><em>Redundancy in Function-Free Recursive Rules</em><br/>SLP, 1986.</h2>
+<h2>Jeffrey F. Naughton<br/><em>Redundancy in Function-Free Recursive Rules</em><br/>LP, 1986.</h2>
 <div class="rbox">
 <strong><a href="SLP-1986.html">SLP 1986</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Naughton86">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Redundancy+in+Function-Free+Recursive+Rules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1986-Naughton86,
 	author     = "Jeffrey F. Naughton",
-	booktitle  = "{Proceedings of the Third Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third Symposium on Logic Programming</span>}",
 	pages      = "236--245",
+	publisher  = "{IEEE-CS}",
 	title      = "{Redundancy in Function-Free Recursive Rules}",
 	year       = 1986,
 }</pre>

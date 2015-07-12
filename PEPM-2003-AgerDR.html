@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/777388.777390">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2003-AgerDR,
 	author     = "Mads Sig Ager and Olivier Danvy and Henning Korsholm Rohde",
-	booktitle  = "{Proceedings of the Ninth Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/777388.777390">10.1145/777388.777390</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/777388.777390">http://doi.acm.org/10.1145/777388.777390</a>",
 </span>	pages      = "3--9",
+	publisher  = "{ACM}",
 	title      = "{Fast partial evaluation of pattern matching in strings}",
 	year       = 2003,
 }</pre>

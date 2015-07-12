@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Challenges+and+Oppurtunities+Visual+Programming+Languages+Bring+to+Programming+Language+Research%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0026431">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-1998-Burnett,
 	author     = "Margaret M. Burnett",
-	booktitle  = "{Proceedings of the Seventh International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0026431">10.1007/BFb0026431</a>",
 </span>	pages      = "188",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Challenges and Oppurtunities Visual Programming Languages Bring to Programming Language Research}",
+	volume     = 1383,
 	year       = 1998,
 }</pre>
 </div>

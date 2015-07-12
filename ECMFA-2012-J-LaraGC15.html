@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Model-driven+engineering+with+domain-specific+meta-modelling+languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/s10270-013-0367-z">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ECMFA-2012-J-LaraGC15,
 	author     = "Juan de Lara and Esther Guerra and Jesús Sánchez Cuadrado",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/s10270-013-0367-z">10.1007/s10270-013-0367-z</a>",
-</span>	journal    = "{Software and System Modeling}",
+</span>	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	pages      = "429--459",
 	title      = "{Model-driven engineering with domain-specific meta-modelling languages}",

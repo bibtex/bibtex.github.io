@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Validating+the+FIPA+Standards+Through+a+Real-World+Application%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Nunez-SuarezOB,
 	author     = "Jorge Núñez-Suárez and Donie O'Sullivan and Henri Brouchoud",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "557--562",
+	publisher  = "{ACM}",
 	title      = "{Validating the FIPA Standards Through a Real-World Application}",
 	year       = 2000,
 }</pre>

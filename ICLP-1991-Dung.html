@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Negations+as+Hypotheses:+An+Abductive+Foundation+for+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1991-Dung,
 	author     = "Phan Minh Dung",
-	booktitle  = "{Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991</span>}",
 	note       = "long version: JLP 22(2): 151-171 (1995)",
 	pages      = "3--17",
+	publisher  = "{MIT Press}",
 	title      = "{Negations as Hypotheses: An Abductive Foundation for Logic Programming}",
 	year       = 1991,
 }</pre>

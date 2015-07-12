@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Crushinator:+A+framework+towards+game-independent+testing%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2013.6693143">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2013-SchaeferDS13,
 	author     = "Christopher Schaefer and Hyunsook Do and Brian M. Slator",
-	booktitle  = "{Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2013.6693143">10.1109/ASE.2013.6693143</a>",
 </span>	pages      = "726--729",
+	publisher  = "{IEEE}",
 	title      = "{Crushinator: A framework towards game-independent testing}",
 	year       = 2013,
 }</pre>

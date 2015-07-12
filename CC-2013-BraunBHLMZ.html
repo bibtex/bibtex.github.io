@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Simple+and+Efficient+Construction+of+Static+Single+Assignment+Form%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-37051-9_6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2013-BraunBHLMZ,
 	author     = "Matthias Braun and Sebastian Buchwald and Sebastian Hack and Roland Leißa and Christoph Mallon and Andreas Zwinkau",
-	booktitle  = "{Proceedings of the 22nd International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 22nd International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-37051-9_6">10.1007/978-3-642-37051-9_6</a>",
 </span>	pages      = "102--122",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Simple and Efficient Construction of Static Single Assignment Form}",
+	volume     = 7791,
 	year       = 2013,
 }</pre>
 </div>

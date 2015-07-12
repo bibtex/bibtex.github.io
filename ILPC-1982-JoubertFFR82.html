@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Medical Decision Aid: Logic Bases of the System SPHINX" title="Medical Decision Aid: Logic Bases of the System SPHINX" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Medical Decision Aid: Logic Bases of the System SPHINX" title="Medical Decision Aid: Logic Bases of the System SPHINX" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Michel Joubert, Marius Fieschi, Dominique Fieschi, M. Roux<br/><em>Medical Decision Aid: Logic Bases of the System SPHINX</em><br/>ICLP, 1982.</h2>
+<h2>Michel Joubert, Marius Fieschi, Dominique Fieschi, M. Roux<br/><em>Medical Decision Aid: Logic Bases of the System SPHINX</em><br/>LP, 1982.</h2>
 <div class="rbox">
 <strong><a href="ILPC-1982.html">ILPC 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/JoubertFFR82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Medical+Decision+Aid:+Logic+Bases+of+the+System+SPHINX%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Logic Programming Conference':'ILPC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPC-1982-JoubertFFR82,
 	author     = "Michel Joubert and Marius Fieschi and Dominique Fieschi and M. Roux",
-	booktitle  = "{Proceedings of the First International Logic Programming Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Logic Programming Conference</span>}",
 	pages      = "210--214",
+	publisher  = "{ADDP-GIA}",
 	title      = "{Medical Decision Aid: Logic Bases of the System SPHINX}",
 	year       = 1982,
 }</pre>

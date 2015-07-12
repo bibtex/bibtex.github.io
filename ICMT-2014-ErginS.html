@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Language+for+Graph-Based+Model+Transformation+Design+Patterns%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-08789-4_7">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Theory and Practice of Model Transformations':'ICMT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Theory and Practice of Model Transformations':'ICMT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICMT-2014-ErginS,
@@ -46,7 +46,7 @@
 </span>	editor     = "Davide Di Ruscio and Dániel Varró",
 <span id="isbn">	isbn       = "978-3-319-08788-7",
 </span>	pages      = "91--105",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Towards a Language for Graph-Based Model Transformation Design Patterns}",
 	volume     = 8568,

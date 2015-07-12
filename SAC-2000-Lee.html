@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Effects+of+Communication+Characteristics+on+Task+Mapping+Quality+on+a+2-D+Mesh+with+Wormhole+Routing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Lee,
 	author     = "S.-Y. Lee",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "633--640",
+	publisher  = "{ACM}",
 	title      = "{Effects of Communication Characteristics on Task Mapping Quality on a 2-D Mesh with Wormhole Routing}",
 	year       = 2000,
 }</pre>

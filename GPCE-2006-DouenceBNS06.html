@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1173706.1173718">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2006-DouenceBNS06,
 	author     = "Rémi Douence and Didier Le Botlan and Jacques Noyé and Mario Südholt",
-	booktitle  = "{Proceedings of the Fifth International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1173706.1173718">10.1145/1173706.1173718</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1173706.1173718">http://doi.acm.org/10.1145/1173706.1173718</a>",
 </span>	pages      = "79--88",
+	publisher  = "{ACM}",
 	title      = "{Concurrent aspects}",
 	year       = 2006,
 }</pre>

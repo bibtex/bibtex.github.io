@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Extracting+General+Recursive+Program+Schemes+in+Nuprl's+Type+Theory%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45607-4_13">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2001-Caldwell,
 	author     = "James L. Caldwell",
-	booktitle  = "{Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Selected Papers of the 11th International Workshop on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45607-4_13">10.1007/3-540-45607-4_13</a>",
 </span>	pages      = "233--244",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Extracting General Recursive Program Schemes in Nuprl's Type Theory}",
+	volume     = 2372,
 	year       = 2001,
 }</pre>
 </div>

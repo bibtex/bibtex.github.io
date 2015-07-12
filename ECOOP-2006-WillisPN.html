@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Object+Querying+for+Java%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11785477_3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2006-WillisPN,
@@ -46,7 +46,7 @@
 </span>	editor     = "Dave Thomas",
 <span id="isbn">	isbn       = "3-540-35726-2",
 </span>	pages      = "28--49",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Efficient Object Querying for Java}",
 	volume     = 4067,

@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1101908.1101972">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2005-FredrikssonTC05,
 	author     = "Johan Fredriksson and Massimo Tivoli and Ivica Crnkovic",
-	booktitle  = "{Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1101908.1101972">10.1145/1101908.1101972</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1101908.1101972">http://doi.acm.org/10.1145/1101908.1101972</a>",
 </span>	pages      = "368--371",
+	publisher  = "{ACM}",
 	title      = "{A component-based development framework for supporting functional and non-functional analysis in control system design}",
 	year       = 2005,
 }</pre>

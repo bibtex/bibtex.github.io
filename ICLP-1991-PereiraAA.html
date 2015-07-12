@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Nonmonotonic+Reasoning+with+Well+Founded+Semantics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1991-PereiraAA,
 	author     = "Luís Moniz Pereira and Joaquim Nunes Aparício and José Júlio Alferes",
-	booktitle  = "{Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991</span>}",
 	pages      = "475--489",
+	publisher  = "{MIT Press}",
 	title      = "{Nonmonotonic Reasoning with Well Founded Semantics}",
 	year       = 1991,
 }</pre>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+the+Usage+of+Dynamic+Object+Aggregations+as+a+Foundation+for+Composition%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-NeumannZ,
 	author     = "Gustaf Neumann and Uwe Zdun",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "818--820",
+	publisher  = "{ACM}",
 	title      = "{Towards the Usage of Dynamic Object Aggregations as a Foundation for Composition}",
 	year       = 2000,
 }</pre>

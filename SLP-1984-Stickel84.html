@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="A Prolog Technology Theorem Prover" title="A Prolog Technology Theorem Prover" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Prolog Technology Theorem Prover" title="A Prolog Technology Theorem Prover" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Mark E. Stickel<br/><em>A Prolog Technology Theorem Prover</em><br/>SLP, 1984.</h2>
+<h2>Mark E. Stickel<br/><em>A Prolog Technology Theorem Prover</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="SLP-1984.html">SLP 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Stickel84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Prolog+Technology+Theorem+Prover%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1984-Stickel84,
 	author     = "Mark E. Stickel",
-	booktitle  = "{Proceedings of the First International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Symposium on Logic Programming</span>}",
 	pages      = "211--217",
+	publisher  = "{IEEE-CS}",
 	title      = "{A Prolog Technology Theorem Prover}",
 	year       = 1984,
 }</pre>

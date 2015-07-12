@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Recovering+Abstract+Data+Types+and+Object+Instances+from+a+Conventional+Procedural+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1995-YehHR,
 	author     = "Alexander S. Yeh and David R. Harris and Howard B. Reubenstein",
-	booktitle  = "{Proceedings of the Second Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Working Conference on Reverse Engineering</span>}",
 	pages      = "227--236",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Recovering Abstract Data Types and Object Instances from a Conventional Procedural Language}",
 	year       = 1995,
 }</pre>

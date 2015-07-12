@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Evolution+of+the+DARWIN+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-WaltonFK,
 	author     = "Joan D. Walton and Robert E. Filman and David J. Korsmeyer",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "971--977",
+	publisher  = "{ACM}",
 	title      = "{The Evolution of the DARWIN System}",
 	year       = 2000,
 }</pre>

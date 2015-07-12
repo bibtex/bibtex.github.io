@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Hans de Bruijn, Johannes C. van Vliet<br/><em>Scenario-Based Generation and Evaluation of Software Architectures</em><br/>GPCE, 2001.</h2>
+<h2>Hans de Bruijn, Hans van Vliet<br/><em>Scenario-Based Generation and Evaluation of Software Architectures</em><br/>GPCE, 2001.</h2>
 <div class="rbox">
 <strong><a href="GCSE-2001.html">GCSE 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/gcse/BruijnV01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Scenario-Based+Generation+and+Evaluation+of+Software+Architectures%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-44800-4_12">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Generative and Component-Based Software Engineering':'GCSE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GCSE-2001-BruijnV01,
-	author     = "Hans de Bruijn and Johannes C. van Vliet",
-	booktitle  = "{Proceedings of the Third International Conference on Generative and Component-Based Software Engineering}",
+	author     = "Hans de Bruijn and Hans van Vliet",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Generative and Component-Based Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-44800-4_12">10.1007/3-540-44800-4_12</a>",
 </span>	pages      = "128--139",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Scenario-Based Generation and Evaluation of Software Architectures}",
+	volume     = 2186,
 	year       = 2001,
 }</pre>
 </div>

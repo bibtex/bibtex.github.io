@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22EventJava:+An+Extension+of+Java+for+Event+Correlation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-03013-0_26">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2009-EugsterJ,
@@ -46,7 +46,7 @@
 </span>	editor     = "Sophia Drossopoulou",
 <span id="isbn">	isbn       = "978-3-642-03012-3",
 </span>	pages      = "570--594",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{EventJava: An Extension of Java for Event Correlation}",
 	volume     = 5653,

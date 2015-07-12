@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="SAME — A Structured Analysis Tool and its Implementation in Prolog" title="SAME — A Structured Analysis Tool and its Implementation in Prolog" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="SAME — A Structured Analysis Tool and its Implementation in Prolog" title="SAME — A Structured Analysis Tool and its Implementation in Prolog" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Thomas W. G. Docker<br/><em>SAME — A Structured Analysis Tool and its Implementation in Prolog</em><br/>ICLP, 1988.</h2>
+<h2>Thomas W. G. Docker<br/><em>SAME — A Structured Analysis Tool and its Implementation in Prolog</em><br/>LP, 1988.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1988.html">JICSLP 1988</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Docker88">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SAME+—+A+Structured+Analysis+Tool+and+its+Implementation+in+Prolog%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes':'ICLP/SPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSCP-1988-Docker88,
 	author     = "Thomas W. G. Docker",
-	booktitle  = "{Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes</span>}",
 	pages      = "82--95",
+	publisher  = "{MIT Press}",
 	title      = "{SAME — A Structured Analysis Tool and its Implementation in Prolog}",
 	year       = 1988,
 }</pre>

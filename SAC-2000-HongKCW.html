@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Mining+Fuzzy+Rules+from+Quantitative+Data+Based+on+the+AprioriTid+Algorithm%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-HongKCW,
 	author     = "Tzung-Pei Hong and Chan-Sheng Kuo and Sheng-Chai Chi and Shyue-Liang Wang",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "534--536",
+	publisher  = "{ACM}",
 	title      = "{Mining Fuzzy Rules from Quantitative Data Based on the AprioriTid Algorithm}",
 	year       = 2000,
 }</pre>

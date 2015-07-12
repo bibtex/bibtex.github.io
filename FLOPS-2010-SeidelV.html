@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatically+Generating+Counterexamples+to+Naive+Free+Theorems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-12251-4_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Symposium on Functional and Logic Programming':'FLOPS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-2010-SeidelV,
 	author     = "Daniel Seidel and Janis Voigtländer",
-	booktitle  = "{Proceedings of the 10th International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th International Symposium on Functional and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-12251-4_14">10.1007/978-3-642-12251-4_14</a>",
 </span>	pages      = "175--190",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Automatically Generating Counterexamples to Naive Free Theorems}",
+	volume     = 6009,
 	year       = 2010,
 }</pre>
 </div>

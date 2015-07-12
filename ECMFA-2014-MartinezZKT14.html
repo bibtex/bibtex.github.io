@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Identifying+and+Visualising+Commonality+and+Variability+in+Model+Variants%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-09195-2_8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMFA-2014-MartinezZKT14,
@@ -44,7 +44,10 @@
 	booktitle  = "{ECMFA}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-319-09195-2_8">10.1007/978-3-319-09195-2_8</a>",
 </span>	pages      = "117--131",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Identifying and Visualising Commonality and Variability in Model Variants}",
+	volume     = 8569,
 	year       = 2014,
 }</pre>
 </div>

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Two-Stage+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Fuji International Symposium on Functional and Logic Programming':'FLOPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-1998-LedererD,
 	author     = "Edgar F. A. Lederer and Romeo A. Dumitrescu",
-	booktitle  = "{Fuji International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Fuji International Symposium on Functional and Logic Programming</span>}",
 	pages      = "296--313",
 	title      = "{Two-Stage Programming}",
 	year       = 1998,

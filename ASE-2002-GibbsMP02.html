@@ -37,14 +37,15 @@
 <a href="http://dx.doi.org/10.1109/ASE.2002.1115014">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2002-GibbsMP02,
 	author     = "Tanton H. Gibbs and Brian A. Malloy and James F. Power",
-	booktitle  = "{Proceedings of the 17th IEEE International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 17th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2002.1115014">10.1109/ASE.2002.1115014</a>",
 </span>	pages      = "205--None",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Automated Validation of Class Invariants in C++ Applications}",
 	year       = 2002,
 }</pre>

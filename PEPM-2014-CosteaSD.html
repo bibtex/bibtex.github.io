@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2543728.2543743">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Workshop on Partial Evaluation and Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2014-CosteaSD,
 	author     = "Andreea Costea and Asankhaya Sharma and Cristina David",
-	booktitle  = "{Proceedings of the 19th Workshop on Partial Evaluation and Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 19th Workshop on Partial Evaluation and Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2543728.2543743">10.1145/2543728.2543743</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2543728.2543743">http://doi.acm.org/10.1145/2543728.2543743</a>",
 </span>	pages      = "189--194",
+	publisher  = "{ACM}",
 	title      = "{HIPimm: verifying granular immutability guarantees}",
 	year       = 2014,
 }</pre>

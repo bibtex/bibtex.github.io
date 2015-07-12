@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1101908.1101925">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2005-HoffmanY05,
 	author     = "Daniel Hoffman and Kevin Yoo",
-	booktitle  = "{Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1101908.1101925">10.1145/1101908.1101925</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1101908.1101925">http://doi.acm.org/10.1145/1101908.1101925</a>",
 </span>	pages      = "96--103",
+	publisher  = "{ACM}",
 	title      = "{Blowtorch: a framework for firewall test automation}",
 	year       = 2005,
 }</pre>

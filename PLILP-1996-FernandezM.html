@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22From+Term+Rewriting+to+Generalised+Interaction+Nets%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-61756-6_94">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Symposium on Programming Languages: Implementations, Logics and Programs':'PLILP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLILP-1996-FernandezM,
 	author     = "Maribel Fernández and Ian Mackie",
-	booktitle  = "{Proceedings of the Eighth International Symposium on Programming Languages: Implementations, Logics and Programs}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Symposium on Programming Languages: Implementations, Logics and Programs</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-61756-6_94">10.1007/3-540-61756-6_94</a>",
 </span>	pages      = "319--333",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{From Term Rewriting to Generalised Interaction Nets}",
+	volume     = 1140,
 	year       = 1996,
 }</pre>
 </div>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Overall design of SIMPOS" title="Overall design of SIMPOS" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Overall design of SIMPOS" title="Overall design of SIMPOS" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Shigeyuki Takagi, Toshio Yokoi, Shunichi Uchida, Toshiaki Kurokawa, Takashi Hattori, Takashi Chikayama, Kô Sakai, Junichiro Tsuji<br/><em>Overall design of SIMPOS</em><br/>ICLP, 1984.</h2>
+<h2>Shigeyuki Takagi, Toshio Yokoi, Shunichi Uchida, Toshiaki Kurokawa, Takashi Hattori, Takashi Chikayama, Kô Sakai, Junichiro Tsuji<br/><em>Overall design of SIMPOS</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="ILPC-1984.html">ILPC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/TakagiYUKHCST84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Overall+design+of+SIMPOS%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Logic Programming Conference':'ILPC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPC-1984-TakagiYUKHCST84,
 	author     = "Shigeyuki Takagi and Toshio Yokoi and Shunichi Uchida and Toshiaki Kurokawa and Takashi Hattori and Takashi Chikayama and Kô Sakai and Junichiro Tsuji",
-	booktitle  = "{Proceedings of the Second International Logic Programming Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Logic Programming Conference</span>}",
 	pages      = "1--12",
+	publisher  = "{Uppsala University}",
 	title      = "{Overall design of SIMPOS}",
 	year       = 1984,
 }</pre>

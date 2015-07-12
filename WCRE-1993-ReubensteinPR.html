@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Separating+Parsing+and+Analysis+in+Reverse+Engineering+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1993-ReubensteinPR,
 	author     = "Howard B. Reubenstein and Richard L. Piazza and Susan N. Roberts",
-	booktitle  = "{Proceedings of Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of Working Conference on Reverse Engineering</span>}",
 	pages      = "117--125",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Separating Parsing and Analysis in Reverse Engineering Tools}",
 	year       = 1993,
 }</pre>

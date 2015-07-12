@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Third+International+Workshop+on+Logic+Program+Synthesis+and+Transformation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LOPSTR-1993,
 	booktitle  = "{LOPSTR}",
 	editor     = "Yves Deville",
 <span id="isbn">	isbn       = "['3-540-19864-4', '0-387-19864-4']",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{Workshops in Computing}",
 	title      = "{Proceedings of the Third International Workshop on Logic Program Synthesis and Transformation}",
 	year       = 1993,

@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2047862.2047891">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2011-ErdwegKRKOV11,
 	author     = "Sebastian Erdweg and Lennart C. L. Kats and Tillmann Rendel and Christian Kästner and Klaus Ostermann and Eelco Visser",
-	booktitle  = "{Proceedings of the 10th International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2047862.2047891">10.1145/2047862.2047891</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2047862.2047891">http://doi.acm.org/10.1145/2047862.2047891</a>",
 </span>	pages      = "167--176",
+	publisher  = "{ACM}",
 	title      = "{Growing a language environment with editor libraries}",
 	year       = 2011,
 }</pre>

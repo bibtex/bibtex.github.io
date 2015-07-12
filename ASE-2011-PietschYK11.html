@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+realistic+test+models+for+model+processing+tools%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2011.6100140">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2011-PietschYK11,
 	author     = "Pit Pietsch and Hamed Shariat Yazdi and Udo Kelter",
-	booktitle  = "{Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2011.6100140">10.1109/ASE.2011.6100140</a>",
 </span>	pages      = "620--623",
+	publisher  = "{IEEE}",
 	title      = "{Generating realistic test models for model processing tools}",
 	year       = 2011,
 }</pre>

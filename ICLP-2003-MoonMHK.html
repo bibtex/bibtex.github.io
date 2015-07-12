@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation" title="Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation" title="Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Yoo-Jin Moon, Kyongho Min, Youngho Hwang, PanKoo Kim<br/><em>Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation</em><br/>ICLP, 2003.</h2>
+<h2>Yoo-Jin Moon, Kyongho Min, Youngho Hwang, PanKoo Kim<br/><em>Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation</em><br/>LP, 2003.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2003.html">ICLP 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/MoonMHK03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Integration+of+Semantic+Networks+for+Corpus-Based+Word+Sense+Disambiguation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-24599-5_38">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 19th International Conference, ICLP 2003, Mumbai, India, December 9-13, 2003, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2003-MoonMHK,
 	author     = "Yoo-Jin Moon and Kyongho Min and Youngho Hwang and PanKoo Kim",
-	booktitle  = "{Logic Programming, 19th International Conference, ICLP 2003, Mumbai, India, December 9-13, 2003, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 19th International Conference, ICLP 2003, Mumbai, India, December 9-13, 2003, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-24599-5_38">10.1007/978-3-540-24599-5_38</a>",
 </span>	pages      = "492--493",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Integration of Semantic Networks for Corpus-Based Word Sense Disambiguation}",
+	volume     = 2916,
 	year       = 2003,
 }</pre>
 </div>

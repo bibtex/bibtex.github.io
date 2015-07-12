@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Modeling+of+Time+and+Document+Aging+for+Request+Prediction+—+One+Step+Further%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-HaffnerREM,
 	author     = "Ernst Georg Haffner and Uwe Roth and Thomas Engel and Christoph Meinel",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "984--990",
+	publisher  = "{ACM}",
 	title      = "{Modeling of Time and Document Aging for Request Prediction — One Step Further}",
 	year       = 2000,
 }</pre>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Parallel+C+++for+the+Java+Virtual+Machine%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-DenehyJ,
 	author     = "Timothy E. Denehy and Chang-Hyun Jo",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "843--848",
+	publisher  = "{ACM}",
 	title      = "{Parallel C++ for the Java Virtual Machine}",
 	year       = 2000,
 }</pre>

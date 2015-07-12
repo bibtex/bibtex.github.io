@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Termination of Logic Programs Using Various Dynamic Selection Rules" title="Termination of Logic Programs Using Various Dynamic Selection Rules" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Termination of Logic Programs Using Various Dynamic Selection Rules" title="Termination of Logic Programs Using Various Dynamic Selection Rules" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Jan-Georg Smaus<br/><em>Termination of Logic Programs Using Various Dynamic Selection Rules</em><br/>ICLP, 2004.</h2>
+<h2>Jan-Georg Smaus<br/><em>Termination of Logic Programs Using Various Dynamic Selection Rules</em><br/>LP, 2004.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2004.html">ICLP 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Smaus04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Termination+of+Logic+Programs+Using+Various+Dynamic+Selection+Rules%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-27775-0_4">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 20th International Conference, ICLP 2004, Saint-Malo, France, September 6-10, 2004, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2004-Smaus,
 	author     = "Jan-Georg Smaus",
-	booktitle  = "{Logic Programming, 20th International Conference, ICLP 2004, Saint-Malo, France, September 6-10, 2004, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 20th International Conference, ICLP 2004, Saint-Malo, France, September 6-10, 2004, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-27775-0_4">10.1007/978-3-540-27775-0_4</a>",
 </span>	pages      = "43--57",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Termination of Logic Programs Using Various Dynamic Selection Rules}",
+	volume     = 3132,
 	year       = 2004,
 }</pre>
 </div>

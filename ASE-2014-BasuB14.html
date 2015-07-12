@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2642937.2643016">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2014-BasuB14,
 	author     = "Samik Basu and Tevfik Bultan",
-	booktitle  = "{Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2642937.2643016">10.1145/2642937.2643016</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2642937.2643016">http://doi.acm.org/10.1145/2642937.2643016</a>",
 </span>	pages      = "743--754",
+	publisher  = "{ACM}",
 	title      = "{Automatic verification of interactions in asynchronous systems with unbounded buffers}",
 	year       = 2014,
 }</pre>

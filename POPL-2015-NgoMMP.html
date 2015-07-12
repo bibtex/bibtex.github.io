@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2676726.2676978">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 42nd Symposium on Principles of Programming Languages':'POPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{POPL-2015-NgoMMP,
 	author     = "Minh Ngo and Fabio Massacci and Dimiter Milushev and Frank Piessens",
-	booktitle  = "{Proceedings of the 42nd Symposium on Principles of Programming Languages}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 42nd Symposium on Principles of Programming Languages</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2676726.2676978">10.1145/2676726.2676978</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2676726.2676978">http://doi.acm.org/10.1145/2676726.2676978</a>",
 </span>	pages      = "43--54",
+	publisher  = "{ACM}",
 	title      = "{Runtime Enforcement of Security Policies on Black Box Reactive Programs}",
 	year       = 2015,
 }</pre>

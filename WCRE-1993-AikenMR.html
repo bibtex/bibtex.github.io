@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Reverse+Engineering+DoD+Legacy+Information+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1993-AikenMR,
 	author     = "Peter H. Aiken and Alice H. Muntz and Russ Richards",
-	booktitle  = "{Proceedings of Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of Working Conference on Reverse Engineering</span>}",
 	pages      = "180--191",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{A Framework for Reverse Engineering DoD Legacy Information Systems}",
 	year       = 1993,
 }</pre>

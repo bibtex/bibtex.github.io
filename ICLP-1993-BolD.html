@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="The Underlying Search for Magic Templates and Tabulation" title="The Underlying Search for Magic Templates and Tabulation" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="The Underlying Search for Magic Templates and Tabulation" title="The Underlying Search for Magic Templates and Tabulation" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Roland N. Bol, Lars Degerstedt<br/><em>The Underlying Search for Magic Templates and Tabulation</em><br/>ICLP, 1993.</h2>
+<h2>Roland N. Bol, Lars Degerstedt<br/><em>The Underlying Search for Magic Templates and Tabulation</em><br/>LP, 1993.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1993.html">ICLP 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/BolD93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Underlying+Search+for+Magic+Templates+and+Tabulation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1993-BolD,
 	author     = "Roland N. Bol and Lars Degerstedt",
-	booktitle  = "{Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993</span>}",
 	pages      = "793--811",
+	publisher  = "{MIT Press}",
 	title      = "{The Underlying Search for Magic Templates and Tabulation}",
 	year       = 1993,
 }</pre>

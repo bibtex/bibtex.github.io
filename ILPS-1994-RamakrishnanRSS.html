@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Efficient Incremental Evaluation of Queries with Aggregation" title="Efficient Incremental Evaluation of Queries with Aggregation" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Efficient Incremental Evaluation of Queries with Aggregation" title="Efficient Incremental Evaluation of Queries with Aggregation" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Raghu Ramakrishnan, Kenneth A. Ross, Divesh Srivastava, S. Sudarshan<br/><em>Efficient Incremental Evaluation of Queries with Aggregation</em><br/>SLP, 1994.</h2>
+<h2>Raghu Ramakrishnan, Kenneth A. Ross, Divesh Srivastava, S. Sudarshan<br/><em>Efficient Incremental Evaluation of Queries with Aggregation</em><br/>LP, 1994.</h2>
 <div class="rbox">
 <strong><a href="ILPS-1994.html">ILPS 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/RamakrishnanRSS94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Incremental+Evaluation+of+Queries+with+Aggregation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1994-RamakrishnanRSS,
 	author     = "Raghu Ramakrishnan and Kenneth A. Ross and Divesh Srivastava and S. Sudarshan",
-	booktitle  = "{Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994</span>}",
 	pages      = "204--218",
+	publisher  = "{MIT Press}",
 	title      = "{Efficient Incremental Evaluation of Queries with Aggregation}",
 	year       = 1994,
 }</pre>

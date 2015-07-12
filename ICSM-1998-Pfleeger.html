@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Making+Change:+The+Other+Components+of+Software+Maintenance%22">Scholar</a><hr/><a href="http://dlib.computer.org/conferen/icsm/8779/pdf/87790002.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-1998-Pfleeger,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://dlib.computer.org/conferen/icsm/8779/pdf/87790002.pdf">http://dlib.computer.org/conferen/icsm/8779/pdf/87790002.pdf</a>",
 </span>	pages      = "2--None",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Making Change: The Other Components of Software Maintenance}",
 	year       = 1998,
 }</pre>

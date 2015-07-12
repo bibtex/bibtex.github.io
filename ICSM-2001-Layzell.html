@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Addressing+the+Software+Evolution+Crisis+Through+a+Service-Oriented+View+of+Software:+A+Roadmap+for+Software+Engineering+and+Maintenance+Research%22">Scholar</a><hr/><a href="http://computer.org/proceedings/icsm/1189/11890005.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-2001-Layzell,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/icsm/1189/11890005.pdf">http://computer.org/proceedings/icsm/1189/11890005.pdf</a>",
 </span>	pages      = "5",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Addressing the Software Evolution Crisis Through a Service-Oriented View of Software: A Roadmap for Software Engineering and Maintenance Research}",
 	year       = 2001,
 }</pre>

@@ -36,13 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Automatic+Transfomation+Strategy+for+Avoiding+Unnecessary+Variables+in+Logic+Programs+(Extended+Abstract)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Workshop on Logic Program Synthesis and Transformation':'LOPSTR');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1991-ProiettiP,
 	author     = "Maurizio Proietti and Alberto Pettorossi",
-	booktitle  = "{Proceedings of the First International Workshop on Logic Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Workshop on Logic Program Synthesis and Transformation</span>}",
 	pages      = "126--128",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{Workshops in Computing}",
 	title      = "{An Automatic Transfomation Strategy for Avoiding Unnecessary Variables in Logic Programs (Extended Abstract)}",
 	year       = 1991,
 }</pre>

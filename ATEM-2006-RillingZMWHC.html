@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Unified+Ontology-Based+Process+Model+for+Software+Maintenance+and+Comprehension%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-69489-2_8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Workshop on Metamodels, Schemas, Grammars and Ontologies':'Reports and Revised Selected Papers of Workshops and Symposia at MoDELS 2006');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ATEM-2006-RillingZMWHC,
 	author     = "Juergen Rilling and Yonggang Zhang and Wen Jun Meng and René Witte and Volker Haarslev and Philippe Charland",
-	booktitle  = "{Proceedings of the Third International Workshop on Metamodels, Schemas, Grammars and Ontologies}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Workshop on Metamodels, Schemas, Grammars and Ontologies</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-69489-2_8">10.1007/978-3-540-69489-2_8</a>",
 </span>	pages      = "56--65",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Unified Ontology-Based Process Model for Software Maintenance and Comprehension}",
+	volume     = 4364,
 	year       = 2006,
 }</pre>
 </div>

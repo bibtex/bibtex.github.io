@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Performances+of+Aurora+on+NUMA+Machines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1991-Mudambi,
 	author     = "Shyam Mudambi",
-	booktitle  = "{Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991</span>}",
 	pages      = "793--806",
+	publisher  = "{MIT Press}",
 	title      = "{Performances of Aurora on NUMA Machines}",
 	year       = 1991,
 }</pre>

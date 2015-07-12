@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Granularity+of+Constraint-Based+Analysis+for+Java%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2001-ChangJ,
 	author     = "Byeong-Mo Chang and Jang-Wu Jo",
-	booktitle  = "{Proceedings of the Third International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Principles and Practice of Declarative Programming</span>}",
 	pages      = "94--102",
+	publisher  = "{ACM}",
 	title      = "{Granularity of Constraint-Based Analysis for Java}",
 	year       = 2001,
 }</pre>

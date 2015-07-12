@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22The+GOLD+Definition+Language+(GDL):+An+Object+Oriented+Formal+Specification+Language+for+Multidimensional+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-TrujilloPG,
 	author     = "Juan Trujillo and Manuel Palomar and Jaime Gómez",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "346--350",
+	publisher  = "{ACM}",
 	title      = "{The GOLD Definition Language (GDL): An Object Oriented Formal Specification Language for Multidimensional Databases}",
 	year       = 2000,
 }</pre>

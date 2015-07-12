@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="A Theory of Modules for Logic Programming" title="A Theory of Modules for Logic Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Theory of Modules for Logic Programming" title="A Theory of Modules for Logic Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,20 +30,21 @@
 
 </div>
 <div class="main">
-<h2>Dale Miller<br/><em>A Theory of Modules for Logic Programming</em><br/>SLP, 1986.</h2>
+<h2>Dale Miller<br/><em>A Theory of Modules for Logic Programming</em><br/>LP, 1986.</h2>
 <div class="rbox">
 <strong><a href="SLP-1986.html">SLP 1986</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Miller86">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Theory+of+Modules+for+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1986-Miller86,
 	author     = "Dale Miller",
-	booktitle  = "{Proceedings of the Third Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third Symposium on Logic Programming</span>}",
 	note       = "long version: JLP 6(1&2): 79-108",
 	pages      = "106--114",
+	publisher  = "{IEEE-CS}",
 	title      = "{A Theory of Modules for Logic Programming}",
 	year       = 1986,
 }</pre>

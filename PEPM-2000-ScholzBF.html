@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/328690.328704">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2000-ScholzBF,
 	author     = "Bernhard Scholz and Johann Blieberger and Thomas Fahringer",
-	booktitle  = "{Proceedings of the Seventh Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/328690.328704">10.1145/328690.328704</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/328690.328704">http://doi.acm.org/10.1145/328690.328704</a>",
 </span>	pages      = "104--113",
+	publisher  = "{ACM}",
 	title      = "{Symbolic Pointer Analysis for Detecting Memory Leaks}",
 	year       = 2000,
 }</pre>

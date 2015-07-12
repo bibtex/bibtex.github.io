@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1111542.1111555">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2006-WangCK,
 	author     = "Meng Wang and Kung Chen and Siau-Cheng Khoo",
-	booktitle  = "{Proceedings of the 11th Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 11th Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1111542.1111555">10.1145/1111542.1111555</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1111542.1111555">http://doi.acm.org/10.1145/1111542.1111555</a>",
 </span>	pages      = "78--87",
+	publisher  = "{ACM}",
 	title      = "{Type-directed weaving of aspects for higher-order functional languages}",
 	year       = 2006,
 }</pre>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Multi-Modal+Logic+Programming+using+Equational+and+Order-Sorted+Logic%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-53162-9_30">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Algebraic and Logic Programming':'ALP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ALP-1990-DebartEL,
 	author     = "Françoise Debart and Patrice Enjalbert and Madeleine Lescot",
-	booktitle  = "{Proceedings of the Second International Conference on Algebraic and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Conference on Algebraic and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-53162-9_30">10.1007/3-540-53162-9_30</a>",
 </span>	pages      = "55--69",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Multi-Modal Logic Programming using Equational and Order-Sorted Logic}",
+	volume     = 463,
 	year       = 1990,
 }</pre>
 </div>

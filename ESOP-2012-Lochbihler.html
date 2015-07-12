@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Java+and+the+Java+Memory+Model+—+A+Unified,+Machine-Checked+Formalisation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-28869-2_25">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESOP-2012-Lochbihler,
@@ -46,7 +46,7 @@
 </span>	editor     = "Helmut Seidl",
 <span id="isbn">	isbn       = "978-3-642-28868-5",
 </span>	pages      = "497--517",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Java and the Java Memory Model — A Unified, Machine-Checked Formalisation}",
 	volume     = 7211,

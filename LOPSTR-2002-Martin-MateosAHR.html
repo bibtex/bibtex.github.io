@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Verification+in+ACL2+of+a+Generic+Framework+to+Synthesize+SAT-Provers%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45013-0_15">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2002-Martin-MateosAHR,
 	author     = "Francisco-Jesús Martín-Mateos and José-Antonio Alonso and María-José Hidalgo and José-Luis Ruiz-Reina",
-	booktitle  = "{Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45013-0_15">10.1007/3-540-45013-0_15</a>",
 </span>	pages      = "182--198",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Verification in ACL2 of a Generic Framework to Synthesize SAT-Provers}",
+	volume     = 2664,
 	year       = 2002,
 }</pre>
 </div>

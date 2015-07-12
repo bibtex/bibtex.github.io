@@ -36,16 +36,19 @@
 <a href="https://scholar.google.com/scholar?q=%22Precedences+in+Specifications+and+Implementations+of+Programming+Languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-54444-5_98">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Symposium on Programming Language Implementation and Logic Programming':'PLILP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLILP-1991-Aasa,
 	author     = "Annika Aasa",
-	booktitle  = "{Proceedings of the Third International Symposium on Programming Language Implementation and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Symposium on Programming Language Implementation and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-54444-5_98">10.1007/3-540-54444-5_98</a>",
 </span>	note       = "long version: TCS 142(1): 3-26 (1995)",
 	pages      = "183--194",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Precedences in Specifications and Implementations of Programming Languages}",
+	volume     = 528,
 	year       = 1991,
 }</pre>
 </div>

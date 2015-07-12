@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22POOL:+A+Persistent+Object-Oriented+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-HarrisonN,
 	author     = "Chris J. Harrison and Majid Naeem",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "764--766",
+	publisher  = "{ACM}",
 	title      = "{POOL: A Persistent Object-Oriented Language}",
 	year       = 2000,
 }</pre>

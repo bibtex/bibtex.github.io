@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Object+Model+Construction+for+Inheritance+in+C+++and+Its+Applications+to+Program+Analysis%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-28652-0_8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2012-YangBMIGSSS,
 	author     = "Jing Yang and Gogul Balakrishnan and Naoto Maeda and Franjo Ivancic and Aarti Gupta and Nishant Sinha and Sriram Sankaranarayanan and Naveen Sharma",
-	booktitle  = "{Proceedings of the 21st International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 21st International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-28652-0_8">10.1007/978-3-642-28652-0_8</a>",
 </span>	pages      = "144--164",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Object Model Construction for Inheritance in C++ and Its Applications to Program Analysis}",
+	volume     = 7210,
 	year       = 2012,
 }</pre>
 </div>

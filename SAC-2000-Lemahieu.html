@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Context-Based+Navigation+Paradigm+for+Accessing+Web+Data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Lemahieu,
 	author     = "Wilfried Lemahieu",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "948--955",
+	publisher  = "{ACM}",
 	title      = "{A Context-Based Navigation Paradigm for Accessing Web Data}",
 	year       = 2000,
 }</pre>

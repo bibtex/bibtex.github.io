@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22F3MCNN:+A+Fuzzy+Minimum+Mean+Maximum+Clustering+Neural+Network%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-WuL,
 	author     = "Langtsan G. Wu and Huizhu Lu",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "10--14",
+	publisher  = "{ACM}",
 	title      = "{F3MCNN: A Fuzzy Minimum Mean Maximum Clustering Neural Network}",
 	year       = 2000,
 }</pre>

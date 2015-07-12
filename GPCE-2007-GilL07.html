@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1289971.1289976">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2007-GilL07,
 	author     = "Joseph Gil and Keren Lenz",
-	booktitle  = "{Proceedings of the Sixth International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1289971.1289976">10.1145/1289971.1289976</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1289971.1289976">http://doi.acm.org/10.1145/1289971.1289976</a>",
 </span>	pages      = "13--24",
+	publisher  = "{ACM}",
 	title      = "{Simple and safe SQL queries with c++ templates}",
 	year       = 2007,
 }</pre>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Avoiding+Non-Termination+when+Learning+Logical+Programs:+A+Case+Study+with+FOIL+and+FOCL%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-58792-6_12">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Workshops on Logic Programming Synthesis and Transformation, and Meta-Programming in Logic':'LOPSTR/META');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-1994-SemeraroEMBP,
 	author     = "Giovanni Semeraro and Floriana Esposito and Donato Malerba and Clifford Brunk and Michael J. Pazzani",
-	booktitle  = "{Proceedings of the Fourth International Workshops on Logic Programming Synthesis and Transformation, and Meta-Programming in Logic}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Workshops on Logic Programming Synthesis and Transformation, and Meta-Programming in Logic</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-58792-6_12">10.1007/3-540-58792-6_12</a>",
 </span>	pages      = "183--198",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Avoiding Non-Termination when Learning Logical Programs: A Case Study with FOIL and FOCL}",
+	volume     = 883,
 	year       = 1994,
 }</pre>
 </div>

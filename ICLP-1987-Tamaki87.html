@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages" title="Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages" title="Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Hisao Tamaki<br/><em>Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages</em><br/>ICLP, 1987.</h2>
+<h2>Hisao Tamaki<br/><em>Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages</em><br/>LP, 1987.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1987.html">ICLP 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Tamaki87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Stream-Based+Compilation+of+Ground+I/O+PROLOG+into+Committed-Choice+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1987-Tamaki87,
 	author     = "Hisao Tamaki",
-	booktitle  = "{Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "376--393",
+	publisher  = "{MIT Press}",
 	title      = "{Stream-Based Compilation of Ground I/O PROLOG into Committed-Choice Languages}",
 	year       = 1987,
 }</pre>

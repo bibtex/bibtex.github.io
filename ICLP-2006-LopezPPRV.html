@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Declarative Framework for Security: Secure Concurrent Constraint Programming" title="A Declarative Framework for Security: Secure Concurrent Constraint Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Declarative Framework for Security: Secure Concurrent Constraint Programming" title="A Declarative Framework for Security: Secure Concurrent Constraint Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Hugo A. López, Catuscia Palamidessi, Jorge Andrés Pérez, Camilo Rueda, Frank D. Valencia<br/><em>A Declarative Framework for Security: Secure Concurrent Constraint Programming</em><br/>ICLP, 2006.</h2>
+<h2>Hugo A. López, Catuscia Palamidessi, Jorge Andrés Pérez, Camilo Rueda, Frank D. Valencia<br/><em>A Declarative Framework for Security: Secure Concurrent Constraint Programming</em><br/>LP, 2006.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2006.html">ICLP 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/LopezPPRV06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Declarative+Framework+for+Security:+Secure+Concurrent+Constraint+Programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11799573_43">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2006-LopezPPRV,
 	author     = "Hugo A. López and Catuscia Palamidessi and Jorge Andrés Pérez and Camilo Rueda and Frank D. Valencia",
-	booktitle  = "{Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11799573_43">10.1007/11799573_43</a>",
 </span>	pages      = "449--450",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Declarative Framework for Security: Secure Concurrent Constraint Programming}",
+	volume     = 4079,
 	year       = 2006,
 }</pre>
 </div>

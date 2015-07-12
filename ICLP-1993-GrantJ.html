@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Prolog Toolkit for control System Models" title="A Prolog Toolkit for control System Models" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Prolog Toolkit for control System Models" title="A Prolog Toolkit for control System Models" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Phil W. Grant, C. P. Jobling<br/><em>A Prolog Toolkit for control System Models</em><br/>ICLP, 1993.</h2>
+<h2>Phil W. Grant, C. P. Jobling<br/><em>A Prolog Toolkit for control System Models</em><br/>LP, 1993.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1993.html">ICLP 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/GrantJ93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Prolog+Toolkit+for+control+System+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1993-GrantJ,
 	author     = "Phil W. Grant and C. P. Jobling",
-	booktitle  = "{Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 10th International Conference on Logic Programming, Budapest, Hungary, June 21-25, 1993</span>}",
 	pages      = "839--840",
+	publisher  = "{MIT Press}",
 	title      = "{A Prolog Toolkit for control System Models}",
 	year       = 1993,
 }</pre>

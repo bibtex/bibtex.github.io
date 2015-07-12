@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+12th+International+Conference+on+Automated+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ASE-1997,
 	booktitle  = "{ASE}",
-	publisher  = "{IEEE Computer Society}",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Proceedings of the 12th International Conference on Automated Software Engineering}",
 	year       = 1997,
 }</pre>
@@ -59,7 +59,7 @@
 <dt><a href="ASE-1997-GirardKS97.html">ASE-1997-GirardKS97</a> <span class="tag"><a href="tag/data%20type.html" title="data type">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/detection.html" title="detection">&nbsp;T&nbsp;</a></span></dt><dd>A Metric-based Approach to Detect Abstract Data Types and State Encapsulations (<abbr title="Jean-Francois Girard">JFG</abbr>, <abbr title="Rainer Koschke">RK</abbr>, <abbr title="Georg Schied">GS</abbr>), pp. 82–89.</dd>
 <dt><a href="ASE-1997-CohenF97.html">ASE-1997-CohenF97</a> <span class="tag"><a href="tag/abstraction.html" title="abstraction">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/automation.html" title="automation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/database.html" title="database">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/re-engineering.html" title="re-engineering">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">&nbsp;T&nbsp;</a></span></dt><dd>Automatic High-Quality Reengineering of Database Programs by Temporal Abstraction (<abbr title="Yossi Cohen">YC</abbr>, <abbr title="Yishai A. Feldman">YAF</abbr>), pp. 90–97.</dd>
 <dt><a href="ASE-1997-SwardH97.html">ASE-1997-SwardH97</a> <span class="tag"><a href="tag/imperative.html" title="imperative">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/legacy.html" title="legacy">&nbsp;T&nbsp;</a></span></dt><dd>Extracting Objects from Legacy Imperative Code (<abbr title="R. R. Sward">RRS</abbr>, <abbr title="Thomas C. Hartrum">TCH</abbr>), p. 98–?.</dd>
-<dt><a href="ASE-1997-DimitrakosM97.html">ASE-1997-DimitrakosM97</a></dt><dd>Notes on Refinement, Interpolation and Uniformity (<abbr title="Theodosis Dimitrakos">TD</abbr>, <abbr title="T. S. E. Maibaum">TSEM</abbr>), pp. 108–116.</dd>
+<dt><a href="ASE-1997-DimitrakosM97.html">ASE-1997-DimitrakosM97</a></dt><dd>Notes on Refinement, Interpolation and Uniformity (<abbr title="Theodosis Dimitrakos">TD</abbr>, <abbr title="Thomas Stephen Edward Maibaum">TSEM</abbr>), pp. 108–116.</dd>
 <dt><a href="ASE-1997-PautlerWQ97.html">ASE-1997-PautlerWQ97</a> <span class="tag"><a href="tag/specification.html" title="specification">&nbsp;T&nbsp;</a></span></dt><dd>Exploiting Domain-Specific Knowledge to Refine Simulation Specifications (<abbr title="David Pautler">DP</abbr>, <abbr title="Steven Woods">SW</abbr>, <abbr title="Alex Quilici">AQ</abbr>), p. 117–?.</dd>
 <dt><a href="ASE-1997-Welty97.html">ASE-1997-Welty97</a> <span class="tag"><a href="tag/abstract%20syntax%20tree.html" title="abstract syntax tree">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/syntax.html" title="syntax">&nbsp;T&nbsp;</a></span></dt><dd>Augmenting Abstract Syntax Trees for Program Understanding (<abbr title="Christopher A. Welty">CAW</abbr>), pp. 126–133.</dd>
 <dt><a href="ASE-1997-Ameur97.html">ASE-1997-Ameur97</a> <span class="tag"><a href="tag/program%20analysis.html" title="program analysis">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">&nbsp;T&nbsp;</a></span></dt><dd>A Contribution to Program Comprehension by Program Analysis: Application to Numerical Programs (<abbr title="Yamine Aït Ameur">YAA</abbr>), pp. 134–142.</dd>

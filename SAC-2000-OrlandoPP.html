@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Coordinating+HPF+Programs+to+Mix+Task+and+Data+Parallelism%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-OrlandoPP,
 	author     = "Salvatore Orlando and Paolo Palmerini and Raffaele Perego",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "240--247",
+	publisher  = "{ACM}",
 	title      = "{Coordinating HPF Programs to Mix Task and Data Parallelism}",
 	year       = 2000,
 }</pre>

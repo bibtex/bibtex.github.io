@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2047862.2047869">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2011-NevesTSAKB11,
 	author     = "Laís Neves and Leopoldo Teixeira and Demóstenes Sena and Vander Alves and Uirá Kulesza and Paulo Borba",
-	booktitle  = "{Proceedings of the 10th International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2047862.2047869">10.1145/2047862.2047869</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2047862.2047869">http://doi.acm.org/10.1145/2047862.2047869</a>",
 </span>	pages      = "33--42",
+	publisher  = "{ACM}",
 	title      = "{Investigating the safe evolution of software product lines}",
 	year       = 2011,
 }</pre>

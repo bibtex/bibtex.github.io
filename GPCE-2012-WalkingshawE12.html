@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2371401.2371421">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2012-WalkingshawE12,
 	author     = "Eric Walkingshaw and Martin Erwig",
-	booktitle  = "{Proceedings of the 11th International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 11th International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2371401.2371421">10.1145/2371401.2371421</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2371401.2371421">http://doi.acm.org/10.1145/2371401.2371421</a>",
 </span>	pages      = "132--140",
+	publisher  = "{ACM}",
 	title      = "{A calculus for modeling and implementing variation}",
 	year       = 2012,
 }</pre>

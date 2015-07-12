@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Web+Access+to+Environmental+Databases:+a+Database+Query+and+Presentation+System+for+the+UK+Environmental+Change+Network%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-RennieLW,
 	author     = "S. C. Rennie and A. M. J. Lane and M. Wilson",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "894--897",
+	publisher  = "{ACM}",
 	title      = "{Web Access to Environmental Databases: a Database Query and Presentation System for the UK Environmental Change Network}",
 	year       = 2000,
 }</pre>

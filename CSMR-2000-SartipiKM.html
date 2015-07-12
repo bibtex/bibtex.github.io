@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Architectural+Design+Recovery+using+Data+Mining+Techniques%22">Scholar</a><hr/><a href="http://www.computer.org/proceedings/csmr/0546/05460129abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Conference on Software Maintenance and Reengineering':'CSMR');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSMR-2000-SartipiKM,
 	author     = "Kamran Sartipi and Kostas Kontogiannis and Farhad Mavaddat",
-	booktitle  = "{Proceedings of the Fourth Conference on Software Maintenance and Reengineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Conference on Software Maintenance and Reengineering</span>}",
 <span class="uri">	ee         = "<a href="http://www.computer.org/proceedings/csmr/0546/05460129abs.htm">http://www.computer.org/proceedings/csmr/0546/05460129abs.htm</a>",
 </span>	pages      = "129--140",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Architectural Design Recovery using Data Mining Techniques}",
 	year       = 2000,
 }</pre>

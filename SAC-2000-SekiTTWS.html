@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Network+Integrated+Supervisory+Control+for+Power+Systems+Based+on+Distributed+Objects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-SekiTTWS,
 	author     = "Tomomichi Seki and Takehiko Tsuchiya and Tatsuji Tanaka and Hadime Watanabe and Toshibumi Seki",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "620--626",
+	publisher  = "{ACM}",
 	title      = "{Network Integrated Supervisory Control for Power Systems Based on Distributed Objects}",
 	year       = 2000,
 }</pre>

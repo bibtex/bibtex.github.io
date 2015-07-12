@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2371401.2371416">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2012-BagheriS12,
 	author     = "Hamid Bagheri and Kevin J. Sullivan",
-	booktitle  = "{Proceedings of the 11th International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 11th International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2371401.2371416">10.1145/2371401.2371416</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2371401.2371416">http://doi.acm.org/10.1145/2371401.2371416</a>",
 </span>	pages      = "93--102",
+	publisher  = "{ACM}",
 	title      = "{Pol: specification-driven synthesis of architectural code frameworks for platform-based applications}",
 	year       = 2012,
 }</pre>

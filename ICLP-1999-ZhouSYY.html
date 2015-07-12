@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Linear Tabling Mechanism" title="A Linear Tabling Mechanism" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Linear Tabling Mechanism" title="A Linear Tabling Mechanism" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Neng-Fa Zhou, Yi-Dong Shen, Li-Yan Yuan, Jia-Huai You<br/><em>A Linear Tabling Mechanism</em><br/>ICLP, 1999.</h2>
+<h2>Neng-Fa Zhou, Yi-Dong Shen, Li-Yan Yuan, Jia-Huai You<br/><em>A Linear Tabling Mechanism</em><br/>LP, 1999.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1999.html">ICLP 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/ZhouSYY99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Linear+Tabling+Mechanism%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1999-ZhouSYY,
 	author     = "Neng-Fa Zhou and Yi-Dong Shen and Li-Yan Yuan and Jia-Huai You",
-	booktitle  = "{Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999}",
+	booktitle  = "{<span id="booktitle">Logic Programming: The 1999 International Conference, Las Cruces, New Mexico, USA, November 29 — December 4, 1999</span>}",
 	pages      = "618",
+	publisher  = "{MIT Press}",
 	title      = "{A Linear Tabling Mechanism}",
 	year       = 1999,
 }</pre>

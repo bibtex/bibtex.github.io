@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Postponing+Redex+Contractions+in+Equational+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Fuji International Symposium on Functional and Logic Programming':'FLOPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-1998-Nedjah,
 	author     = "Nadia Nedjah",
-	booktitle  = "{Fuji International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Fuji International Symposium on Functional and Logic Programming</span>}",
 	pages      = "40--60",
 	title      = "{Postponing Redex Contractions in Equational Programs}",
 	year       = 1998,

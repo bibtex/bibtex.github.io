@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="HIFUNLOG : Logic Programming with Higher-order Relational Functions" title="HIFUNLOG : Logic Programming with Higher-order Relational Functions" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="HIFUNLOG : Logic Programming with Higher-order Relational Functions" title="HIFUNLOG : Logic Programming with Higher-order Relational Functions" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Yeh-Heng Sheng<br/><em>HIFUNLOG : Logic Programming with Higher-order Relational Functions</em><br/>ICLP, 1990.</h2>
+<h2>Yeh-Heng Sheng<br/><em>HIFUNLOG : Logic Programming with Higher-order Relational Functions</em><br/>LP, 1990.</h2>
 <div class="rbox">
 <strong><a href="CLP-1990.html">CLP 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Sheng90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22HIFUNLOG+:+Logic+Programming+with+Higher-order+Relational+Functions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Seventh International Conference, Jerusalem, Israel, June 18-20, 1990':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CLP-1990-Sheng90,
 	author     = "Yeh-Heng Sheng",
-	booktitle  = "{Logic Programming, Proceedings of the Seventh International Conference, Jerusalem, Israel, June 18-20, 1990}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Seventh International Conference, Jerusalem, Israel, June 18-20, 1990</span>}",
 	pages      = "529--545",
+	publisher  = "{MIT Press}",
 	title      = "{HIFUNLOG : Logic Programming with Higher-order Relational Functions}",
 	year       = 1990,
 }</pre>

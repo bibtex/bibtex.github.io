@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Partial+Evaluation+and+Non-inference+for+Object+Calculi%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/10705424_4">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Fuji International Symposium on Functional and Logic Programming':'FLOPS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-1999-BartheS,
 	author     = "Gilles Barthe and Bernard P. Serpette",
-	booktitle  = "{Proceedings of the Fourth Fuji International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Fuji International Symposium on Functional and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/10705424_4">10.1007/10705424_4</a>",
 </span>	pages      = "53--67",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Partial Evaluation and Non-inference for Object Calculi}",
+	volume     = 1722,
 	year       = 1999,
 }</pre>
 </div>

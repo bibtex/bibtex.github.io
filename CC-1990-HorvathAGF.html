@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Multilingual+Natural+Language+Understanding+Interface+(Extended+Abstract)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-53669-8_88">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Workshop on Compiler Compilers':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-1990-HorvathAGF,
 	author     = "Tamás Horváth and Zoltán Alexin and Tibor Gyimóthy and Károly Fábricz",
-	booktitle  = "{Proceedings of the Third International Workshop on Compiler Compilers}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Workshop on Compiler Compilers</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-53669-8_88">10.1007/3-540-53669-8_88</a>",
 </span>	pages      = "217--218",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Towards a Multilingual Natural Language Understanding Interface (Extended Abstract)}",
+	volume     = 477,
 	year       = 1990,
 }</pre>
 </div>

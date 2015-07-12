@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+International+Conference+on+Fundamental+Approaches+to+Software+Engineering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-78743-3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{FASE-2008,
@@ -44,7 +44,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-78743-3">10.1007/978-3-540-78743-3</a>",
 </span>	editor     = "José Luiz Fiadeiro and Paola Inverardi",
 <span id="isbn">	isbn       = "978-3-540-78742-6",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the 11th International Conference on Fundamental Approaches to Software Engineering}",
 	volume     = 4961,

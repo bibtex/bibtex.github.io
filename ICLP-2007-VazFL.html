@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Spatial-Yap: A Logic-Based Geographic Information System" title="Spatial-Yap: A Logic-Based Geographic Information System" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Spatial-Yap: A Logic-Based Geographic Information System" title="Spatial-Yap: A Logic-Based Geographic Information System" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>David Vaz, Michel Ferreira, Ricardo Lopes<br/><em>Spatial-Yap: A Logic-Based Geographic Information System</em><br/>ICLP, 2007.</h2>
+<h2>David Vaz, Michel Ferreira, Ricardo Lopes<br/><em>Spatial-Yap: A Logic-Based Geographic Information System</em><br/>LP, 2007.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2007.html">ICLP 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/VazFL07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Spatial-Yap:+A+Logic-Based+Geographic+Information+System%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-74610-2_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 23rd International Conference, ICLP 2007, Porto, Portugal, September 8-13, 2007, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2007-VazFL,
 	author     = "David Vaz and Michel Ferreira and Ricardo Lopes",
-	booktitle  = "{Logic Programming, 23rd International Conference, ICLP 2007, Porto, Portugal, September 8-13, 2007, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 23rd International Conference, ICLP 2007, Porto, Portugal, September 8-13, 2007, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-74610-2_14">10.1007/978-3-540-74610-2_14</a>",
 </span>	pages      = "195--208",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Spatial-Yap: A Logic-Based Geographic Information System}",
+	volume     = 4670,
 	year       = 2007,
 }</pre>
 </div>

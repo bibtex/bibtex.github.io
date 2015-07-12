@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2426890.2426909">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Workshop on Partial Evaluation and Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2013-OliveiraL,
 	author     = "Bruno C. d. S. Oliveira and Andres Löh",
-	booktitle  = "{Proceedings of the 18th Workshop on Partial Evaluation and Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 18th Workshop on Partial Evaluation and Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2426890.2426909">10.1145/2426890.2426909</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2426890.2426909">http://doi.acm.org/10.1145/2426890.2426909</a>",
 </span>	pages      = "87--96",
+	publisher  = "{ACM}",
 	title      = "{Abstract syntax graphs for domain specific languages}",
 	year       = 2013,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Quty: A Concurrent Language Based on Logic and Function" title="Quty: A Concurrent Language Based on Logic and Function" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Quty: A Concurrent Language Based on Logic and Function" title="Quty: A Concurrent Language Based on Logic and Function" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Masahiko Sato<br/><em>Quty: A Concurrent Language Based on Logic and Function</em><br/>ICLP, 1987.</h2>
+<h2>Masahiko Sato<br/><em>Quty: A Concurrent Language Based on Logic and Function</em><br/>LP, 1987.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1987.html">ICLP 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Sato87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Quty:+A+Concurrent+Language+Based+on+Logic+and+Function%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1987-Sato87,
 	author     = "Masahiko Sato",
-	booktitle  = "{Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "1034--1056",
+	publisher  = "{MIT Press}",
 	title      = "{Quty: A Concurrent Language Based on Logic and Function}",
 	year       = 1987,
 }</pre>

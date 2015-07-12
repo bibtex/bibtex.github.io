@@ -36,20 +36,24 @@
 <a href="https://scholar.google.com/scholar?q=%22EasyCheck+—+Test+Data+for+Free%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-78969-7_23">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Symposium on Functional and Logic Programming':'FLOPS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-2008-ChristiansenF,
 	author     = "Jan Christiansen and Sebastian Fischer",
-	booktitle  = "{Proceedings of the Ninth International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Symposium on Functional and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-78969-7_23">10.1007/978-3-540-78969-7_23</a>",
 </span>	pages      = "322--336",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{EasyCheck — Test Data for Free}",
+	volume     = 4989,
 	year       = 2008,
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li><a href="tag/testing.html">testing</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li><a href="tag/for%20free.html">for free</a></li>
+<li><a href="tag/testing.html">testing</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

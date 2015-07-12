@@ -37,7 +37,7 @@
 <a href="http://dx.doi.org/10.1145/267895.267901">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth European Software Engineering Conference / Fifth Symposium on Foundations of Software Engineering':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth European Software Engineering Conference / Fifth Symposium on Foundations of Software Engineering':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-1997-Uhl,
@@ -48,7 +48,7 @@
 <span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/267895.267901">http://doi.acm.org/10.1145/267895.267901</a>",
 </span><span id="isbn">	isbn       = "3-540-63531-9",
 </span>	pages      = "51",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{What we Expect from Software Engineers in the Industry (Abstract)}",
 	volume     = 1301,

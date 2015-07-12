@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Constraint Answer Set Programming Systems" title="Constraint Answer Set Programming Systems" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Constraint Answer Set Programming Systems" title="Constraint Answer Set Programming Systems" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Christian Drescher<br/><em>Constraint Answer Set Programming Systems</em><br/>ICLP, 2010.</h2>
+<h2>Christian Drescher<br/><em>Constraint Answer Set Programming Systems</em><br/>LP, 2010.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2010.html">ICLP 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Drescher10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Constraint+Answer+Set+Programming+Systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2010.255">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Technical Communications of the 26th International Conference on Logic Programming, ICLP 2010, July 16-19, 2010, Edinburgh, Scotland, UK':'ICLP');$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2010-Drescher10,
 	author     = "Christian Drescher",
-	booktitle  = "{Technical Communications of the 26th International Conference on Logic Programming, ICLP 2010, July 16-19, 2010, Edinburgh, Scotland, UK}",
+	booktitle  = "{<span id="booktitle">Technical Communications of the 26th International Conference on Logic Programming, ICLP 2010, July 16-19, 2010, Edinburgh, Scotland, UK</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2010.255">10.4230/LIPIcs.ICLP.2010.255</a>",
 </span>	pages      = "255--264",
+	publisher  = "{Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik}",
+	series     = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title      = "{Constraint Answer Set Programming Systems}",
+	volume     = 7,
 	year       = 2010,
 }</pre>
 </div>

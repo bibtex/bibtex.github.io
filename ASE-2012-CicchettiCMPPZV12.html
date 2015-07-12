@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2351676.2351748">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2012-CicchettiCMPPZV12,
 	author     = "Antonio Cicchetti and Federico Ciccozzi and Silvia Mazzini and Stefano Puri and Marco Panunzio and Alessandro Zovi and Tullio Vardanega",
-	booktitle  = "{Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2351676.2351748">10.1145/2351676.2351748</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2351676.2351748">http://doi.acm.org/10.1145/2351676.2351748</a>",
 </span>	pages      = "362--365",
+	publisher  = "{ACM}",
 	title      = "{CHESS: a model-driven engineering tool environment for aiding the development of complex industrial systems}",
 	year       = 2012,
 }</pre>

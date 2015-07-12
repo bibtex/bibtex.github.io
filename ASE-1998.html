@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+13th+IEEE+Conference+on+Automated+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ASE-1998,
 	booktitle  = "{ASE}",
-	publisher  = "{IEEE Computer Society}",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Proceedings of the 13th IEEE Conference on Automated Software Engineering}",
 	year       = 1998,
 }</pre>
@@ -78,7 +78,7 @@
 <dt><a href="ASE-1998-ErdemJM98.html">ASE-1998-ErdemJM98</a></dt><dd>Task Oriented Software Understanding (<abbr title="Ali Erdem">AE</abbr>, <abbr title="W. Lewis Johnson">WLJ</abbr>, <abbr title="Stacy Marsella">SM</abbr>), pp. 230–239.</dd>
 <dt><a href="ASE-1998-BaalenRLP98.html">ASE-1998-BaalenRLP98</a></dt><dd>Explaining Synthesized Software (<abbr title="Jeffrey Van Baalen">JVB</abbr>, <abbr title="Peter Robinson">PR</abbr>, <abbr title="Michael R. Lowry">MRL</abbr>, <abbr title="Thomas Pressburger">TP</abbr>), pp. 240–248.</dd>
 <dt><a href="ASE-1998-TemplerJ98.html">ASE-1998-TemplerJ98</a> <span class="tag"><a href="tag/automation.html" title="automation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/c.html" title="c">&nbsp;T&nbsp;</a></span></dt><dd>A Configurable Automatic Instrumentation Tool for ANSI C (<abbr title="Kevin Templer">KT</abbr>, <abbr title="Clinton L. Jeffery">CLJ</abbr>), p. 249–?.</dd>
-<dt><a href="ASE-1998-HaebererM98.html">ASE-1998-HaebererM98</a> <span class="tag"><a href="tag/architecture.html" title="architecture">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/development.html" title="development">&nbsp;T&nbsp;</a></span></dt><dd>The Very Idea of Software Development Environments: A Conceptual Architecture for the ARTS Environment Paradigm (<abbr title="Armando Martin Haeberer">AMH</abbr>, <abbr title="T. S. E. Maibaum">TSEM</abbr>), pp. 260–271.</dd>
+<dt><a href="ASE-1998-HaebererM98.html">ASE-1998-HaebererM98</a> <span class="tag"><a href="tag/architecture.html" title="architecture">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/development.html" title="development">&nbsp;T&nbsp;</a></span></dt><dd>The Very Idea of Software Development Environments: A Conceptual Architecture for the ARTS Environment Paradigm (<abbr title="Armando Martin Haeberer">AMH</abbr>, <abbr title="Thomas Stephen Edward Maibaum">TSEM</abbr>), pp. 260–271.</dd>
 <dt><a href="ASE-1998-BlaineGLSW98.html">ASE-1998-BlaineGLSW98</a></dt><dd>Planware — Domain-Specific Synthesis of High-Performance Schedulers (<abbr title="Lee Blaine">LB</abbr>, <abbr title="Limei Gilham">LG</abbr>, <abbr title="Junbo Liu">JL</abbr>, <abbr title="Douglas R. Smith">DRS</abbr>, <abbr title="Stephen J. Westfold">SJW</abbr>), p. 270–?.</dd>
 <dt><a href="ASE-1998-MillerM98.html">ASE-1998-MillerM98</a></dt><dd>ASSISTing Exit Decisions in Software Inspection (<abbr title="James Miller">JM</abbr>, <abbr title="Fraser MacDonald">FM</abbr>), pp. 281–284.</dd>
 <dt><a href="ASE-1998-TraceyCMM98.html">ASE-1998-TraceyCMM98</a> <span class="tag"><a href="tag/automation.html" title="automation">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/framework.html" title="framework">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/generative.html" title="generative">&nbsp;T&nbsp;</a></span> <span class="tag"><a href="tag/testing.html" title="testing">&nbsp;T&nbsp;</a></span></dt><dd>An Automated Framework for Structural Test-Data Generation (<abbr title="Nigel Tracey">NT</abbr>, <abbr title="John A. Clark">JAC</abbr>, <abbr title="Keith Mander">KM</abbr>, <abbr title="John A. McDermid">JAM</abbr>), pp. 285–288.</dd>

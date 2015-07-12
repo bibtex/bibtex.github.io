@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection" title="Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection" title="Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Paul Tarau<br/><em>Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection</em><br/>ICLP, 2012.</h2>
+<h2>Paul Tarau<br/><em>Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection</em><br/>LP, 2012.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2012.html">ICLP 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Tarau12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Deriving+a+Fast+Inverse+of+the+Generalized+Cantor+N-tupling+Bijection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2012.312">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'ICLP (Technical Communications)':'ICLP');$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2012-Tarau,
 	author     = "Paul Tarau",
-	booktitle  = "{ICLP (Technical Communications)}",
+	booktitle  = "{<span id="booktitle">ICLP (Technical Communications)</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2012.312">10.4230/LIPIcs.ICLP.2012.312</a>",
 </span>	pages      = "312--322",
+	publisher  = "{Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik}",
+	series     = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title      = "{Deriving a Fast Inverse of the Generalized Cantor N-tupling Bijection}",
+	volume     = 17,
 	year       = 2012,
 }</pre>
 </div>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Construction+of+User+Interfaces+and+the+Object+Paradigm%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-47891-4_12">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-1987-Coutaz,
@@ -46,7 +46,7 @@
 </span>	editor     = "Jean Bézivin and Jean-Marie Hullot and Pierre Cointe and Henry Lieberman",
 <span id="isbn">	isbn       = "3-540-18353-1",
 </span>	pages      = "121--130",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The Construction of User Interfaces and the Object Paradigm}",
 	volume     = 276,

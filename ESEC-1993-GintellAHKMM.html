@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Scrutiny:+A+Collaborative+Inspection+and+Review+System%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-57209-0_24">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-1993-GintellAHKMM,
@@ -46,7 +46,7 @@
 </span>	editor     = "Ian Sommerville and Manfred Paul",
 <span id="isbn">	isbn       = "3-540-57209-0",
 </span>	pages      = "344--360",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Scrutiny: A Collaborative Inspection and Review System}",
 	volume     = 717,

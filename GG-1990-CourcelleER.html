@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Context-free+Handle-rewriting+Hypergraph+Grammars%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0017394">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Workshop on Graph-Grammars and Their Application to Computer Science':'Graph-Grammars and Their Application to Computer Science');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Workshop on Graph-Grammars and Their Application to Computer Science':'Graph-Grammars and Their Application to Computer Science');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GG-1990-CourcelleER,
@@ -46,7 +46,7 @@
 </span>	editor     = "Hartmut Ehrig and Hans-Jörg Kreowski and Grzegorz Rozenberg",
 <span id="isbn">	isbn       = "3-540-54478-X",
 </span>	pages      = "253--268",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Context-free Handle-rewriting Hypergraph Grammars}",
 	volume     = 532,

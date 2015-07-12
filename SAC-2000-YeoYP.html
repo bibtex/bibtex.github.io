@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Asynchronous+Protocol+for+Release+Consistent+Distributed+Shared+Memory+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-YeoYP,
 	author     = "Jae-Heung Yeo and Heon Young Yeom and Taesoon Park",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "716--721",
+	publisher  = "{ACM}",
 	title      = "{An Asynchronous Protocol for Release Consistent Distributed Shared Memory Systems}",
 	year       = 2000,
 }</pre>

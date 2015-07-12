@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Displaying+Dependence+Graphs:+A+Hierarchical+Approach%22">Scholar</a><hr/><a href="http://computer.org/proceedings/wcre/1303/13030261abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-2001-Balmas,
 	author     = "Francoise Balmas",
-	booktitle  = "{Proceedings of the Eighth Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth Working Conference on Reverse Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/wcre/1303/13030261abs.htm">http://computer.org/proceedings/wcre/1303/13030261abs.htm</a>",
 </span>	pages      = "261--270",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Displaying Dependence Graphs: A Hierarchical Approach}",
 	year       = 2001,
 }</pre>

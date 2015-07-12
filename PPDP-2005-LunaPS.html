@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1069774.1069791">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2005-LunaPS,
 	author     = "Daniel Luna and Mikael Pettersson and Konstantinos F. Sagonas",
-	booktitle  = "{Proceedings of the Seventh International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1069774.1069791">10.1145/1069774.1069791</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1069774.1069791">http://doi.acm.org/10.1145/1069774.1069791</a>",
 </span>	pages      = "176--186",
+	publisher  = "{ACM}",
 	title      = "{Efficiently compiling a functional language on AMD64: the HiPE experience}",
 	year       = 2005,
 }</pre>

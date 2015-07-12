@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Reducing+the+Impact+of+Software+Prefetching+on+Register+Pressure%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-ShrewsburyN,
 	author     = "David W. Shrewsbury and Cindy Norris",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "767--773",
+	publisher  = "{ACM}",
 	title      = "{Reducing the Impact of Software Prefetching on Register Pressure}",
 	year       = 2000,
 }</pre>

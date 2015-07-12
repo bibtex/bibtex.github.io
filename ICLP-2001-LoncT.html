@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Fixed-Parameter Complexity of Semantics for Logic Programs" title="Fixed-Parameter Complexity of Semantics for Logic Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Fixed-Parameter Complexity of Semantics for Logic Programs" title="Fixed-Parameter Complexity of Semantics for Logic Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Zbigniew Lonc, Miroslaw Truszczynski<br/><em>Fixed-Parameter Complexity of Semantics for Logic Programs</em><br/>ICLP, 2001.</h2>
+<h2>Zbigniew Lonc, Miroslaw Truszczynski<br/><em>Fixed-Parameter Complexity of Semantics for Logic Programs</em><br/>LP, 2001.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2001.html">ICLP 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/LoncT01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Fixed-Parameter+Complexity+of+Semantics+for+Logic+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45635-X_21">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2001-LoncT,
 	author     = "Zbigniew Lonc and Miroslaw Truszczynski",
-	booktitle  = "{Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45635-X_21">10.1007/3-540-45635-X_21</a>",
 </span>	pages      = "197--211",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Fixed-Parameter Complexity of Semantics for Logic Programs}",
+	volume     = 2237,
 	year       = 2001,
 }</pre>
 </div>

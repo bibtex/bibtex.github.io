@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1929501.1929517">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th Workshop on Partial Evaluation and Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2011-Rinard,
 	author     = "Martin C. Rinard",
-	booktitle  = "{Proceedings of the 16th Workshop on Partial Evaluation and Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 16th Workshop on Partial Evaluation and Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1929501.1929517">10.1145/1929501.1929517</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1929501.1929517">http://doi.acm.org/10.1145/1929501.1929517</a>",
 </span>	pages      = "79--80",
+	publisher  = "{ACM}",
 	title      = "{Probabilistic accuracy bounds for perforated programs: a new foundation for program analysis and transformation}",
 	year       = 2011,
 }</pre>

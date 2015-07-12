@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lightweight+string+reasoning+in+model+finding%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/s10270-013-0332-x">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ECMFA-2012-J-ButtnerC15,
 	author     = "Fabian Büttner and Jordi Cabot",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/s10270-013-0332-x">10.1007/s10270-013-0332-x</a>",
-</span>	journal    = "{Software and System Modeling}",
+</span>	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	pages      = "413--427",
 	title      = "{Lightweight string reasoning in model finding}",

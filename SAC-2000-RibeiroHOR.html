@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Parallel+Algorithm+for+the+Routing+Problem:+An+Implementation+in+The+Parallel+Computer+IBM-SP2%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-RibeiroHOR,
 	author     = "C. M. Ribeiro and F. Hernandes and F. C. J. de Oliveira and J. F. Ferreira Ribeiro",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "649--654",
+	publisher  = "{ACM}",
 	title      = "{A Parallel Algorithm for the Routing Problem: An Implementation in The Parallel Computer IBM-SP2}",
 	year       = 2000,
 }</pre>

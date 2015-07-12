@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Implementation+of+Narrowing+Strategies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2001-AntoyHMS,
 	author     = "Sergio Antoy and Michael Hanus and Bart Massey and Frank Steiner",
-	booktitle  = "{Proceedings of the Third International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Principles and Practice of Declarative Programming</span>}",
 	pages      = "207--217",
+	publisher  = "{ACM}",
 	title      = "{An Implementation of Narrowing Strategies}",
 	year       = 2001,
 }</pre>

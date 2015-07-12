@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1449913.1449927">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2008-JarviMPFS08,
 	author     = "Jaakko Järvi and Mat Marcus and Sean Parent and John Freeman and Jacob N. Smith",
-	booktitle  = "{Proceedings of the Seventh International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1449913.1449927">10.1145/1449913.1449927</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1449913.1449927">http://doi.acm.org/10.1145/1449913.1449927</a>",
 </span>	pages      = "89--98",
+	publisher  = "{ACM}",
 	title      = "{Property models: from incidental algorithms to reusable components}",
 	year       = 2008,
 }</pre>

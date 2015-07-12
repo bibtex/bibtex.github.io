@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Simple+Rewriting+Semantics+for+Realistic+Imperative+Programs+and+its+Application+to+Program+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Partial Evaluation and Semantics-Based Program Manipulation (TR YALEU/DCS/RR-909)':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1992-Field,
 	author     = "John Field",
-	booktitle  = "{Proceedings of the Second Workshop on Partial Evaluation and Semantics-Based Program Manipulation (TR YALEU/DCS/RR-909)}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Workshop on Partial Evaluation and Semantics-Based Program Manipulation (TR YALEU/DCS/RR-909)</span>}",
 	pages      = "98--107",
+	publisher  = "{Yale University}",
 	title      = "{A Simple Rewriting Semantics for Realistic Imperative Programs and its Application to Program Analysis}",
 	year       = 1992,
 }</pre>

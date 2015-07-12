@@ -36,14 +36,17 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+precision+of+abstract+interpretations%22">Scholar</a><hr/><a href="ftp://ftp.cs.man.ac.uk/pub/TR/UMCS-00-6-1-dipierro.ps.Z">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Extended Abstracts of the 10th International Workshop on Logic-based Program Synthesis and Transformation':'LOPSTR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2000-TR-PierroW,
 	author     = "Alessandra Di Pierro and Herbert Wiklicky",
-	booktitle  = "{Extended Abstracts of the 10th International Workshop on Logic-based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Extended Abstracts of the 10th International Workshop on Logic-based Program Synthesis and Transformation</span>}",
 <span class="uri">	ee         = "<a href="ftp://ftp.cs.man.ac.uk/pub/TR/UMCS-00-6-1-dipierro.ps.Z">ftp://ftp.cs.man.ac.uk/pub/TR/UMCS-00-6-1-dipierro.ps.Z</a>",
-</span>	title      = "{On the precision of abstract interpretations}",
+</span>	publisher  = "{Department of Computer Science, University of Manchester}",
+	series     = "{Technical Report}",
+	title      = "{On the precision of abstract interpretations}",
+	volume     = "UMCS-00-6-1",
 	year       = 2000,
 }</pre>
 </div>

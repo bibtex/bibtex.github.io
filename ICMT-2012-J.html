@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+section+on+model+transformation+—+ICMT+2012%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICMT-2012-J,
 	editor     = "Zhenjiang Hu and Juan de Lara",
-	journal    = "{Software and System Modeling}",
+	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 2,
 	title      = "{Special section on model transformation — ICMT 2012}",
 	volume     = 14,

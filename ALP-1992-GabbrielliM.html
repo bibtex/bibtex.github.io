@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Fixpoint+Semantics+for+Partial+Computed+Answer+Substitutions+and+Call+Patterns%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0013821">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Algebraic and Logic Programming':'ALP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ALP-1992-GabbrielliM,
 	author     = "Maurizio Gabbrielli and Maria Chiara Meo",
-	booktitle  = "{Proceedings of the Third International Conference on Algebraic and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Algebraic and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0013821">10.1007/BFb0013821</a>",
 </span>	pages      = "84--99",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Fixpoint Semantics for Partial Computed Answer Substitutions and Call Patterns}",
+	volume     = 632,
 	year       = 1992,
 }</pre>
 </div>

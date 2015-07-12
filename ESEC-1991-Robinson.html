@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22CASE+Support+for+Large+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-1991-Robinson,
@@ -45,7 +45,7 @@
 	editor     = "Axel van Lamsweerde and Alfonso Fugetta",
 <span id="isbn">	isbn       = "3-540-54742-8",
 </span>	pages      = "504--508",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{CASE Support for Large Systems}",
 	volume     = 550,

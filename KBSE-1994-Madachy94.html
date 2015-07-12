@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge-Based+Risk+Assessment+and+Cost+Estimation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1994-Madachy94,
 	author     = "Raymond J. Madachy",
-	booktitle  = "{Proceedings of the Ninth Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "172--178",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Knowledge-Based Risk Assessment and Cost Estimation}",
 	year       = 1994,
 }</pre>

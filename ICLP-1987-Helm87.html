@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Inductive and Deductive Control of Logic Programs" title="Inductive and Deductive Control of Logic Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Inductive and Deductive Control of Logic Programs" title="Inductive and Deductive Control of Logic Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Richard Helm<br/><em>Inductive and Deductive Control of Logic Programs</em><br/>ICLP, 1987.</h2>
+<h2>Richard Helm<br/><em>Inductive and Deductive Control of Logic Programs</em><br/>LP, 1987.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1987.html">ICLP 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Helm87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Inductive+and+Deductive+Control+of+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1987-Helm87,
 	author     = "Richard Helm",
-	booktitle  = "{Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "488--512",
+	publisher  = "{MIT Press}",
 	title      = "{Inductive and Deductive Control of Logic Programs}",
 	year       = 1987,
 }</pre>

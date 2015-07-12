@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+First+International+Conference+on+Integrated+Formal+Methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IFM-1999,
 	booktitle  = "{IFM}",
 	editor     = "Keijiro Araki and Andy Galloway and Kenji Taguchi",
 <span id="isbn">	isbn       = "1-85233-107-0",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	title      = "{Proceedings of the First International Conference on Integrated Formal Methods}",
 	year       = 1999,
 }</pre>

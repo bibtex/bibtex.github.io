@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/800229.806965">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 1979 SIGPLAN Symposium on Compiler Construction':'SCC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SCC-1979-MiltonKR,
 	author     = "D. R. Milton and L. W. Kirchhoff and B. R. Rowland",
-	booktitle  = "{Proceedings of the 1979 SIGPLAN Symposium on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 1979 SIGPLAN Symposium on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/800229.806965">10.1145/800229.806965</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/800229.806965">http://doi.acm.org/10.1145/800229.806965</a>",
 </span>	pages      = "152--157",
+	publisher  = "{ACM}",
 	title      = "{An all(1) compiler generator}",
 	year       = 1979,
 }</pre>

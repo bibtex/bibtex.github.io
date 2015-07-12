@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22FCG:+A+Code+Generator+for+Lazy+Functional+Languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-55984-1_26">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-1992-LangendoenH,
 	author     = "Koen Langendoen and Pieter H. Hartel",
-	booktitle  = "{Proceedings of the Fourth International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-55984-1_26">10.1007/3-540-55984-1_26</a>",
 </span>	pages      = "278--296",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{FCG: A Code Generator for Lazy Functional Languages}",
+	volume     = 641,
 	year       = 1992,
 }</pre>
 </div>

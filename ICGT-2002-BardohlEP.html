@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Transforming+Specification+Architectures+by+GenGED%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45832-8_5">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Graph Transformations':'ICGT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Graph Transformations':'ICGT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICGT-2002-BardohlEP,
@@ -46,7 +46,7 @@
 </span>	editor     = "Andrea Corradini and Hartmut Ehrig and Hans-Jörg Kreowski and Grzegorz Rozenberg",
 <span id="isbn">	isbn       = "3-540-44310-X",
 </span>	pages      = "30--44",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Transforming Specification Architectures by GenGED}",
 	volume     = 2505,

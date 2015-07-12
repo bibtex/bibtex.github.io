@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Database Transactions in LDL" title="Database Transactions in LDL" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Database Transactions in LDL" title="Database Transactions in LDL" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Ravi Krishnamurthy, Shamim A. Naqvi, Carlo Zaniolo<br/><em>Database Transactions in LDL</em><br/>SLP, 1989.</h2>
+<h2>Ravi Krishnamurthy, Shamim A. Naqvi, Carlo Zaniolo<br/><em>Database Transactions in LDL</em><br/>LP, 1989.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1989.html">NACLP 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/KrishnamurthyNZ89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Database+Transactions+in+LDL%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1989-KrishnamurthyNZ,
 	author     = "Ravi Krishnamurthy and Shamim A. Naqvi and Carlo Zaniolo",
-	booktitle  = "{Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "795--815",
+	publisher  = "{MIT Press}",
 	title      = "{Database Transactions in LDL}",
 	year       = 1989,
 }</pre>

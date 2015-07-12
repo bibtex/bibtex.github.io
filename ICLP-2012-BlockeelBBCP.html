@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Modeling Machine Learning and Data Mining Problems with FO(·)" title="Modeling Machine Learning and Data Mining Problems with FO(·)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Modeling Machine Learning and Data Mining Problems with FO(·)" title="Modeling Machine Learning and Data Mining Problems with FO(·)" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Hendrik Blockeel, Bart Bogaerts, Maurice Bruynooghe, Broes de Cat, Stef De Pooter, Marc Denecker, Anthony Labarre, Jan Ramon, Sicco Verwer<br/><em>Modeling Machine Learning and Data Mining Problems with FO(·)</em><br/>ICLP, 2012.</h2>
+<h2>Hendrik Blockeel, Bart Bogaerts, Maurice Bruynooghe, Broes de Cat, Stef De Pooter, Marc Denecker, Anthony Labarre, Jan Ramon, Sicco Verwer<br/><em>Modeling Machine Learning and Data Mining Problems with FO(·)</em><br/>LP, 2012.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2012.html">ICLP 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/BlockeelBBCP12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Modeling+Machine+Learning+and+Data+Mining+Problems+with+FO(·)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2012.14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'ICLP (Technical Communications)':'ICLP');$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2012-BlockeelBBCP,
 	author     = "Hendrik Blockeel and Bart Bogaerts and Maurice Bruynooghe and Broes de Cat and Stef De Pooter and Marc Denecker and Anthony Labarre and Jan Ramon and Sicco Verwer",
-	booktitle  = "{ICLP (Technical Communications)}",
+	booktitle  = "{<span id="booktitle">ICLP (Technical Communications)</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.4230/LIPIcs.ICLP.2012.14">10.4230/LIPIcs.ICLP.2012.14</a>",
 </span>	pages      = "14--25",
+	publisher  = "{Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik}",
+	series     = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title      = "{Modeling Machine Learning and Data Mining Problems with FO(·)}",
+	volume     = 17,
 	year       = 2012,
 }</pre>
 </div>

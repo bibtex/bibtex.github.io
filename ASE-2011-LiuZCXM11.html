@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Finding+the+merits+and+drawbacks+of+software+resources+from+comments%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2011.6100091">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2011-LiuZCXM11,
 	author     = "Changsheng Liu and Yanzhen Zou and Sibo Cai and Bing Xie and Hong Mei",
-	booktitle  = "{Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2011.6100091">10.1109/ASE.2011.6100091</a>",
 </span>	pages      = "432--435",
+	publisher  = "{IEEE}",
 	title      = "{Finding the merits and drawbacks of software resources from comments}",
 	year       = 2011,
 }</pre>

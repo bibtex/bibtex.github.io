@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Solving the Multiplication Constraint in Several Approximation Spaces" title="Solving the Multiplication Constraint in Several Approximation Spaces" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Solving the Multiplication Constraint in Several Approximation Spaces" title="Solving the Multiplication Constraint in Several Approximation Spaces" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Alain Colmerauer<br/><em>Solving the Multiplication Constraint in Several Approximation Spaces</em><br/>ICLP, 2001.</h2>
+<h2>Alain Colmerauer<br/><em>Solving the Multiplication Constraint in Several Approximation Spaces</em><br/>LP, 2001.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2001.html">ICLP 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Colmerauer01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Solving+the+Multiplication+Constraint+in+Several+Approximation+Spaces%22">Scholar</a><hr/><a href="http://link.springer.de/link/service/series/0558/bibs/2237/22370001.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2001-Colmerauer,
 	author     = "Alain Colmerauer",
-	booktitle  = "{Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 17th International Conference, ICLP 2001, Paphos, Cyprus, November 26 — December 1, 2001, Proceedings</span>}",
 <span class="uri">	ee         = "<a href="http://link.springer.de/link/service/series/0558/bibs/2237/22370001.htm">http://link.springer.de/link/service/series/0558/bibs/2237/22370001.htm</a>",
 </span>	pages      = "1",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Solving the Multiplication Constraint in Several Approximation Spaces}",
+	volume     = 2237,
 	year       = 2001,
 }</pre>
 </div>

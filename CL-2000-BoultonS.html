@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions" title="Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions" title="Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Richard J. Boulton, Konrad Slind<br/><em>Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions</em><br/>ICLP, 2000.</h2>
+<h2>Richard J. Boulton, Konrad Slind<br/><em>Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions</em><br/>LP, 2000.</h2>
 <div class="rbox">
 <strong><a href="CL-2000.html">CL 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/cl/BoultonS00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Derivation+and+Application+of+Induction+Schemes+for+Mutually+Recursive+Functions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-44957-4_42">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings':'CL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CL-2000-BoultonS,
 	author     = "Richard J. Boulton and Konrad Slind",
-	booktitle  = "{Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings}",
+	booktitle  = "{<span id="booktitle">Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-44957-4_42">10.1007/3-540-44957-4_42</a>",
 </span>	pages      = "629--643",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Automatic Derivation and Application of Induction Schemes for Mutually Recursive Functions}",
+	volume     = 1861,
 	year       = 2000,
 }</pre>
 </div>

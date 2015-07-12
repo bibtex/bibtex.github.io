@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Identifying+Profitable+Specialization+in+Object-Oriented+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1994-DeanCG,
 	author     = "Jeffrey Dean and Craig Chambers and David Grove",
-	booktitle  = "{Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)</span>}",
 	pages      = "85--96",
+	publisher  = "{University of Melbourne, Australia, Department of Computer Science}",
 	title      = "{Identifying Profitable Specialization in Object-Oriented Languages}",
 	year       = 1994,
 }</pre>

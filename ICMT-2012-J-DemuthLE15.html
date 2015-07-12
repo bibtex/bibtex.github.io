@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Constraint-driven+modeling+through+transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/s10270-013-0363-3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICMT-2012-J-DemuthLE15,
 	author     = "Andreas Demuth and Roberto Erick Lopez-Herrejon and Alexander Egyed",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/s10270-013-0363-3">10.1007/s10270-013-0363-3</a>",
-</span>	journal    = "{Software and System Modeling}",
+</span>	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 2,
 	pages      = "573--596",
 	title      = "{Constraint-driven modeling through transformation}",

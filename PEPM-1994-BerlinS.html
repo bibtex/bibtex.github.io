@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Partial+Evaluation+for+Scientific+Computing:+The+Supercomputer+Toolkit+Experience%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1994-BerlinS,
 	author     = "Andrew A. Berlin and Rajeev J. Surati",
-	booktitle  = "{Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical Report 94/9)</span>}",
 	pages      = "133--141",
+	publisher  = "{University of Melbourne, Australia, Department of Computer Science}",
 	title      = "{Partial Evaluation for Scientific Computing: The Supercomputer Toolkit Experience}",
 	year       = 1994,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Towards a Programming Environment for Large Prolog Programs" title="Towards a Programming Environment for Large Prolog Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Towards a Programming Environment for Large Prolog Programs" title="Towards a Programming Environment for Large Prolog Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Jan Chomicki, Naftaly H. Minsky<br/><em>Towards a Programming Environment for Large Prolog Programs</em><br/>SLP, 1985.</h2>
+<h2>Jan Chomicki, Naftaly H. Minsky<br/><em>Towards a Programming Environment for Large Prolog Programs</em><br/>LP, 1985.</h2>
 <div class="rbox">
 <strong><a href="SLP-1985.html">SLP 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/ChomickiM85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Programming+Environment+for+Large+Prolog+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1985-ChomickiM85,
 	author     = "Jan Chomicki and Naftaly H. Minsky",
-	booktitle  = "{Proceedings of the Second Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Symposium on Logic Programming</span>}",
 	pages      = "230--241",
+	publisher  = "{IEEE-CS}",
 	title      = "{Towards a Programming Environment for Large Prolog Programs}",
 	year       = 1985,
 }</pre>

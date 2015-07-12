@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Empirical Semantics for Defeasible Databases" title="Empirical Semantics for Defeasible Databases" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Empirical Semantics for Defeasible Databases" title="Empirical Semantics for Defeasible Databases" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Judea Pearl<br/><em>Empirical Semantics for Defeasible Databases</em><br/>ICLP, 1992.</h2>
+<h2>Judea Pearl<br/><em>Empirical Semantics for Defeasible Databases</em><br/>LP, 1992.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1992.html">JICSLP 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Pearl92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Empirical+Semantics+for+Defeasible+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992':'JICSLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSLP-1992-Pearl,
 	author     = "Judea Pearl",
-	booktitle  = "{Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992</span>}",
 	pages      = "18--20",
+	publisher  = "{MIT Press}",
 	title      = "{Empirical Semantics for Defeasible Databases}",
 	year       = 1992,
 }</pre>

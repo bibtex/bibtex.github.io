@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method" title="Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method" title="Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>C. K. Chiu, J. H. M. Lee<br/><em>Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method</em><br/>ICLP, 1995.</h2>
+<h2>C. K. Chiu, J. H. M. Lee<br/><em>Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method</em><br/>LP, 1995.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1995.html">ICLP 1995</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/ChiuL95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Interval+Linear+Constraint+Solving+Using+the+Preconditioned+Interval+Gauss-Seidel+Method%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 12th International Conference on Logic Programming, Tokyo, Japan, June 13-16, 1995':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1995-ChiuL,
 	author     = "C. K. Chiu and J. H. M. Lee",
-	booktitle  = "{Logic Programming, Proceedings of the 12th International Conference on Logic Programming, Tokyo, Japan, June 13-16, 1995}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 12th International Conference on Logic Programming, Tokyo, Japan, June 13-16, 1995</span>}",
 	pages      = "17--31",
+	publisher  = "{MIT Press}",
 	title      = "{Interval Linear Constraint Solving Using the Preconditioned Interval Gauss-Seidel Method}",
 	year       = 1995,
 }</pre>

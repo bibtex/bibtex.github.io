@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Broadcasting+Under+Network+Ignorance+Scenario%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-ChenAZ,
 	author     = "Xiangchuan Chen and Hong An and Shirong Zheng",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "615--619",
+	publisher  = "{ACM}",
 	title      = "{Broadcasting Under Network Ignorance Scenario}",
 	year       = 2000,
 }</pre>

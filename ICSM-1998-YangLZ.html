@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Tackling+the+Abstraction+Problem+for+Reverse+Engineering+in+a+System+Re-engineering+Approach%22">Scholar</a><hr/><a href="http://computer.org/proceedings/icsm/8779/87790284abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-1998-YangLZ,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/icsm/8779/87790284abs.htm">http://computer.org/proceedings/icsm/8779/87790284abs.htm</a>",
 </span>	pages      = "284--293",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Tackling the Abstraction Problem for Reverse Engineering in a System Re-engineering Approach}",
 	year       = 1998,
 }</pre>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22State-Sensitive+Points-to+Analysis+for+the+Dynamic+Behavior+of+JavaScript+Objects%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-662-44202-9_1">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2014-WeiR,
@@ -46,7 +46,7 @@
 </span>	editor     = "Richard Jones",
 <span id="isbn">	isbn       = "978-3-662-44201-2",
 </span>	pages      = "1--26",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{State-Sensitive Points-to Analysis for the Dynamic Behavior of JavaScript Objects}",
 	volume     = 8586,

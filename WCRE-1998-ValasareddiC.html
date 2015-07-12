@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Graph-Based+Object+Identification+Process+for+Procedural+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1998-ValasareddiC,
 	author     = "Ramachenga R. Valasareddi and Doris L. Carver",
-	booktitle  = "{Proceedings of the Fifth Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth Working Conference on Reverse Engineering</span>}",
 	pages      = "50--58",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{A Graph-Based Object Identification Process for Procedural Programs}",
 	year       = 1998,
 }</pre>

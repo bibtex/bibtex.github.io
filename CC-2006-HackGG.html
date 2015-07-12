@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Register+Allocation+for+Programs+in+SSA-Form%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11688839_20">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-2006-HackGG,
 	author     = "Sebastian Hack and Daniel Grund and Gerhard Goos",
-	booktitle  = "{Proceedings of the 15th International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 15th International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11688839_20">10.1007/11688839_20</a>",
 </span>	pages      = "247--262",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Register Allocation for Programs in SSA-Form}",
+	volume     = 3923,
 	year       = 2006,
 }</pre>
 </div>

@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Mandrake:+A+Tool+for+Reverse-Engineering+IBM+Assembly+Code%22">Scholar</a><hr/><a href="http://computer.org/proceedings/wcre/7674/76740057abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1996-MorrisF,
 	author     = "Paul H. Morris and Robert E. Filman",
-	booktitle  = "{Proceedings of the Third Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third Working Conference on Reverse Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/wcre/7674/76740057abs.htm">http://computer.org/proceedings/wcre/7674/76740057abs.htm</a>",
 </span>	pages      = "57--66",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Mandrake: A Tool for Reverse-Engineering IBM Assembly Code}",
 	year       = 1996,
 }</pre>

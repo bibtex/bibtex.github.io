@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22SDS+Internet+Banking%22">Scholar</a><hr/><a href="http://computer.org/proceedings/icsm/1189/11890104.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-2001-Goeschl,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/icsm/1189/11890104.pdf">http://computer.org/proceedings/icsm/1189/11890104.pdf</a>",
 </span>	pages      = "104",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{SDS Internet Banking}",
 	year       = 2001,
 }</pre>

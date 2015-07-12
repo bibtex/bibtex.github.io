@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Distributed+Query+Optimization+Using+PERF+Joins%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-HaratyF,
 	author     = "Ramzi A. Haraty and Roula C. Fany",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "284--288",
+	publisher  = "{ACM}",
 	title      = "{Distributed Query Optimization Using PERF Joins}",
 	year       = 2000,
 }</pre>

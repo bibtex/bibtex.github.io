@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Model+Driven+Animation+of+SCR+Specifications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-36578-8_21">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-2003-GargantiniR,
 	author     = "Angelo Gargantini and Elvinia Riccobene",
-	booktitle  = "{Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-36578-8_21">10.1007/3-540-36578-8_21</a>",
 </span>	pages      = "294--309",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Automatic Model Driven Animation of SCR Specifications}",
+	volume     = 2621,
 	year       = 2003,
 }</pre>
 </div>

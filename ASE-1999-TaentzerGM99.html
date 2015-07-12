@@ -30,20 +30,21 @@
 
 </div>
 <div class="main">
-<h2>Gabriele Taentzer, Michael Goedicke, Torsten Meyer<br/><em>Dynamic Accommodation of Change: Automated Architecture Configuration of Distributed Systems</em><br/>ASE, 1999.</h2>
+<h2>Gabriele Täntzer, Michael Goedicke, Torsten Meyer<br/><em>Dynamic Accommodation of Change: Automated Architecture Configuration of Distributed Systems</em><br/>ASE, 1999.</h2>
 <div class="rbox">
 <strong><a href="ASE-1999.html">ASE 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kbse/TaentzerGM99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+Accommodation+of+Change:+Automated+Architecture+Configuration+of+Distributed+Systems%22">Scholar</a><hr/><a href="http://computer.org/proceedings/ase/0415/04150287abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-1999-TaentzerGM99,
-	author     = "Gabriele Taentzer and Michael Goedicke and Torsten Meyer",
-	booktitle  = "{Proceedings of the 14th IEEE International Conference on Automated Software Engineering}",
+	author     = "Gabriele Täntzer and Michael Goedicke and Torsten Meyer",
+	booktitle  = "{<span id="booktitle">Proceedings of the 14th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/ase/0415/04150287abs.htm">http://computer.org/proceedings/ase/0415/04150287abs.htm</a>",
 </span>	pages      = "287--290",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Dynamic Accommodation of Change: Automated Architecture Configuration of Distributed Systems}",
 	year       = 1999,
 }</pre>

@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Identifying+the+Starting+Impact+Set+of+a+Maintenance+Request:+A+Case+Study%22">Scholar</a><hr/><a href="http://www.computer.org/proceedings/csmr/0546/05460227abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Conference on Software Maintenance and Reengineering':'CSMR');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSMR-2000-AntoniolCCL,
 	author     = "Giuliano Antoniol and Gerardo Canfora and Gerardo Casazza and Andrea De Lucia",
-	booktitle  = "{Proceedings of the Fourth Conference on Software Maintenance and Reengineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Conference on Software Maintenance and Reengineering</span>}",
 <span class="uri">	ee         = "<a href="http://www.computer.org/proceedings/csmr/0546/05460227abs.htm">http://www.computer.org/proceedings/csmr/0546/05460227abs.htm</a>",
 </span>	pages      = "227--230",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Identifying the Starting Impact Set of a Maintenance Request: A Case Study}",
 	year       = 2000,
 }</pre>

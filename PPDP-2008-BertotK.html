@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1389449.1389461">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2008-BertotK,
 	author     = "Yves Bertot and Vladimir Komendantsky",
-	booktitle  = "{Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1389449.1389461">10.1145/1389449.1389461</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1389449.1389461">http://doi.acm.org/10.1145/1389449.1389461</a>",
 </span>	pages      = "89--96",
+	publisher  = "{ACM}",
 	title      = "{Fixed point semantics and partial recursion in Coq}",
 	year       = 2008,
 }</pre>

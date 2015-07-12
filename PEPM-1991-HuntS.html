@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/115865.115881">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1991-HuntS,
 	author     = "Sebastian Hunt and David Sands",
-	booktitle  = "{Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/115865.115881">10.1145/115865.115881</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/115865.115881">http://doi.acm.org/10.1145/115865.115881</a>",
 </span>	pages      = "154--165",
+	publisher  = "{ACM}",
 	title      = "{Binding Time Analysis: A New PERspective}",
 	year       = 1991,
 }</pre>

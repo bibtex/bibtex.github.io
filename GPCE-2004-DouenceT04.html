@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Pointcut+Language+for+Control-Flow%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-30175-2_6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Generative Programming and Component Engineering':'GPCE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2004-DouenceT04,
 	author     = "Rémi Douence and Luc Teboul",
-	booktitle  = "{Proceedings of the Third International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-30175-2_6">10.1007/978-3-540-30175-2_6</a>",
 </span>	pages      = "95--114",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Pointcut Language for Control-Flow}",
+	volume     = 3286,
 	year       = 2004,
 }</pre>
 </div>

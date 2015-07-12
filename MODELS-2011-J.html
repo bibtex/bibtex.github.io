@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+issue+on+MODELS+2011%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{MODELS-2011-J,
 	editor     = "Jon Whittle and Tony Clark",
-	journal    = "{Software and System Modeling}",
+	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	title      = "{Special issue on MODELS 2011}",
 	volume     = 14,

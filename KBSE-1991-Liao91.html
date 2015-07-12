@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Requirement+Directed+Automatic+Instrumentation+Generation+for+Program+Monitoring+and+Measuring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1991-Liao91,
 	author     = "Yingsha Liao",
-	booktitle  = "{Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "144--150",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Requirement Directed Automatic Instrumentation Generation for Program Monitoring and Measuring}",
 	year       = 1991,
 }</pre>

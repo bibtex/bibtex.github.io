@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Transforming+denotational+semantics+into+practical+attribute+grammars%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-10250-7_18">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Semantics-Directed Compiler Generation':'SDCG');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SDCG-1980-Ganzinger,
 	author     = "Harald Ganzinger",
-	booktitle  = "{Semantics-Directed Compiler Generation}",
+	booktitle  = "{<span id="booktitle">Semantics-Directed Compiler Generation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-10250-7_18">10.1007/3-540-10250-7_18</a>",
 </span>	pages      = "1--69",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Transforming denotational semantics into practical attribute grammars}",
+	volume     = 94,
 	year       = 1980,
 }</pre>
 </div>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22The+KeY+System:+Integrating+Object-Oriented+Design+and+Formal+Methods%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45923-5_23">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-2002-AhrendtBBGHHMMS,
 	author     = "Wolfgang Ahrendt and Thomas Baar and Bernhard Beckert and Martin Giese and Elmar Habermalz and Reiner Hähnle and Wolfram Menzel and Wojciech Mostowski and Peter H. Schmitt",
-	booktitle  = "{Proceedings of the Fifth International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45923-5_23">10.1007/3-540-45923-5_23</a>",
 </span>	pages      = "327--330",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The KeY System: Integrating Object-Oriented Design and Formal Methods}",
+	volume     = 2306,
 	year       = 2002,
 }</pre>
 </div>

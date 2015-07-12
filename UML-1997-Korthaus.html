@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+UML+for+Business+Object+Based+Systems+Modeling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'The Unified Modeling Language — Technical Aspects and Applications':'UML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-1997-Korthaus,
 	author     = "Axel Korthaus",
-	booktitle  = "{The Unified Modeling Language — Technical Aspects and Applications}",
+	booktitle  = "{<span id="booktitle">The Unified Modeling Language — Technical Aspects and Applications</span>}",
 	pages      = "220--237",
+	publisher  = "{Physica-Verlag}",
 	title      = "{Using UML for Business Object Based Systems Modeling}",
 	year       = 1997,
 }</pre>

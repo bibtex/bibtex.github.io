@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1173706.1173748">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2006-FahndrichCL06,
 	author     = "Manuel Fähndrich and Michael Carbin and James R. Larus",
-	booktitle  = "{Proceedings of the Fifth International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1173706.1173748">10.1145/1173706.1173748</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1173706.1173748">http://doi.acm.org/10.1145/1173706.1173748</a>",
 </span>	pages      = "275--284",
+	publisher  = "{ACM}",
 	title      = "{Reflective program generation with patterns}",
 	year       = 2006,
 }</pre>

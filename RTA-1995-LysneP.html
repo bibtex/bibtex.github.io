@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Termination+Ordering+for+Higher+Order+Rewrite+System%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-59200-8_45">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{RTA-1995-LysneP,
@@ -46,7 +46,7 @@
 </span>	editor     = "Jieh Hsiang",
 <span id="isbn">	isbn       = "3-540-59200-8",
 </span>	pages      = "26--40",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Termination Ordering for Higher Order Rewrite System}",
 	volume     = 914,

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Combining+Shostak+Theories%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45610-4_1">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{RTA-2002-ShankarR,
@@ -46,7 +46,7 @@
 </span>	editor     = "Sophie Tison",
 <span id="isbn">	isbn       = "3-540-43916-1",
 </span>	pages      = "1--18",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Combining Shostak Theories}",
 	volume     = 2378,

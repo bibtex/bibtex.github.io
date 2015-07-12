@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Documentation Generator for (C)LP Systems" title="A Documentation Generator for (C)LP Systems" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Documentation Generator for (C)LP Systems" title="A Documentation Generator for (C)LP Systems" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Manuel V. Hermenegildo<br/><em>A Documentation Generator for (C)LP Systems</em><br/>ICLP, 2000.</h2>
+<h2>Manuel V. Hermenegildo<br/><em>A Documentation Generator for (C)LP Systems</em><br/>LP, 2000.</h2>
 <div class="rbox">
 <strong><a href="CL-2000.html">CL 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/cl/Hermenegildo00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Documentation+Generator+for+(C)LP+Systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-44957-4_90">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings':'CL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CL-2000-Hermenegildo,
 	author     = "Manuel V. Hermenegildo",
-	booktitle  = "{Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings}",
+	booktitle  = "{<span id="booktitle">Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-44957-4_90">10.1007/3-540-44957-4_90</a>",
 </span>	pages      = "1345--1361",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Documentation Generator for (C)LP Systems}",
+	volume     = 1861,
 	year       = 2000,
 }</pre>
 </div>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Floating+Point+to+Fixed+Point+Conversion+of+C+Code%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-49051-7_16">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Compiler Construction':'CC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CC-1999-CilioC,
 	author     = "Andrea G. M. Cilio and Henk Corporaal",
-	booktitle  = "{Proceedings of the Eighth International Conference on Compiler Construction}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Conference on Compiler Construction</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-49051-7_16">10.1007/978-3-540-49051-7_16</a>",
 </span>	pages      = "229--243",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Floating Point to Fixed Point Conversion of C Code}",
+	volume     = 1575,
 	year       = 1999,
 }</pre>
 </div>

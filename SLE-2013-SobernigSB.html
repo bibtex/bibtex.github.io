@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Developing+a+Domain-Specific+Language+for+Scheduling+in+the+European+Energy+Sector%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-02654-1_2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Language Engineering':'SLE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Language Engineering':'SLE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLE-2013-SobernigSB,
@@ -46,7 +46,7 @@
 </span>	editor     = "Martin Erwig and Richard F. Paige and Eric Van Wyk",
 <span id="isbn">	isbn       = "978-3-319-02653-4",
 </span>	pages      = "19--35",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Developing a Domain-Specific Language for Scheduling in the European Energy Sector}",
 	volume     = 8225,

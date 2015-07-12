@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Constraint+Solver+Synthesis+Using+Tabled+Resolution+for+Constraint+Logic+Programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45013-0_3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2002-AbdennadherR,
 	author     = "Slim Abdennadher and Christophe Rigotti",
-	booktitle  = "{Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 12th International Workshop on Logic Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-45013-0_3">10.1007/3-540-45013-0_3</a>",
 </span>	pages      = "32--47",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Constraint Solver Synthesis Using Tabled Resolution for Constraint Logic Programming}",
+	volume     = 2664,
 	year       = 2002,
 }</pre>
 </div>

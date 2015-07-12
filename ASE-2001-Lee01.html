@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Conversion+from+a+Requirements+Document+to+an+Executable+Formal+Specification%22">Scholar</a><hr/><a href="http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260437.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2001-Lee01,
 	author     = "Beum-Seuk Lee",
-	booktitle  = "{Proceedings of the 16th IEEE International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 16th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260437.pdf">http://csdl.computer.org/comp/proceedings/ase/2001/1426/00/14260437.pdf</a>",
 </span>	pages      = "437",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Automated Conversion from a Requirements Document to an Executable Formal Specification}",
 	year       = 2001,
 }</pre>

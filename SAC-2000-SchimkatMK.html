@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Lightweight,+Message-Oriented+Application+Server+for+the+WWW%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-SchimkatMK,
 	author     = "Ralf-Dieter Schimkat and Stefan Müller and Wolfgang Küchlin",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "934--941",
+	publisher  = "{ACM}",
 	title      = "{A Lightweight, Message-Oriented Application Server for the WWW}",
 	year       = 2000,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Open World Reasoning in Datalog" title="Open World Reasoning in Datalog" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Open World Reasoning in Datalog" title="Open World Reasoning in Datalog" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Gergely Lukácsy, Zsolt Nagy<br/><em>Open World Reasoning in Datalog</em><br/>ICLP, 2005.</h2>
+<h2>Gergely Lukácsy, Zsolt Nagy<br/><em>Open World Reasoning in Datalog</em><br/>LP, 2005.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2005.html">ICLP 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/LukacsyN05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Open+World+Reasoning+in+Datalog%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11562931_40">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 21st International Conference, ICLP 2005, Sitges, Spain, October 2-5, 2005, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2005-LukacsyN,
 	author     = "Gergely Lukácsy and Zsolt Nagy",
-	booktitle  = "{Logic Programming, 21st International Conference, ICLP 2005, Sitges, Spain, October 2-5, 2005, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 21st International Conference, ICLP 2005, Sitges, Spain, October 2-5, 2005, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11562931_40">10.1007/11562931_40</a>",
 </span>	pages      = "427--428",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Open World Reasoning in Datalog}",
+	volume     = 3668,
 	year       = 2005,
 }</pre>
 </div>

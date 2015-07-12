@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Studying+the+Coordination+Process+in+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-ToffolonD,
 	author     = "Claudine Toffolon and Salem Dakhli",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "851--857",
+	publisher  = "{ACM}",
 	title      = "{A Framework for Studying the Coordination Process in Software Engineering}",
 	year       = 2000,
 }</pre>

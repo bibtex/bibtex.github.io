@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2351676.2351685">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2012-ThungLLJRD12,
 	author     = "Ferdian Thung and Lucia and David Lo and Lingxiao Jiang and Foyzur Rahman and Premkumar T. Devanbu",
-	booktitle  = "{Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2351676.2351685">10.1145/2351676.2351685</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2351676.2351685">http://doi.acm.org/10.1145/2351676.2351685</a>",
 </span>	pages      = "50--59",
+	publisher  = "{ACM}",
 	title      = "{To what extent could we detect field defects? an empirical study of false negatives in static bug finding tools}",
 	year       = 2012,
 }</pre>

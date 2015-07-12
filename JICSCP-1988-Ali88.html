@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="OR-Parallel Execution of Prolog on BC-Machine" title="OR-Parallel Execution of Prolog on BC-Machine" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="OR-Parallel Execution of Prolog on BC-Machine" title="OR-Parallel Execution of Prolog on BC-Machine" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Khayri A. M. Ali<br/><em>OR-Parallel Execution of Prolog on BC-Machine</em><br/>ICLP, 1988.</h2>
+<h2>Khayri A. M. Ali<br/><em>OR-Parallel Execution of Prolog on BC-Machine</em><br/>LP, 1988.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1988.html">JICSLP 1988</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Ali88">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22OR-Parallel+Execution+of+Prolog+on+BC-Machine%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes':'ICLP/SPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSCP-1988-Ali88,
 	author     = "Khayri A. M. Ali",
-	booktitle  = "{Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes</span>}",
 	pages      = "1531--1545",
+	publisher  = "{MIT Press}",
 	title      = "{OR-Parallel Execution of Prolog on BC-Machine}",
 	year       = 1988,
 }</pre>

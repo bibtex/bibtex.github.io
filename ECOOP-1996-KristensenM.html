@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Activities:+Abstractions+for+Collective+Behavior%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0053074">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-1996-KristensenM,
@@ -46,7 +46,7 @@
 </span>	editor     = "Pierre Cointe",
 <span id="isbn">	isbn       = "3-540-61439-7",
 </span>	pages      = "472--501",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Activities: Abstractions for Collective Behavior}",
 	volume     = 1098,

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Concurrent Logic Programming: Asynchronism and Language Comparison" title="Concurrent Logic Programming: Asynchronism and Language Comparison" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Concurrent Logic Programming: Asynchronism and Language Comparison" title="Concurrent Logic Programming: Asynchronism and Language Comparison" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Frank S. de Boer, Catuscia Palamidessi<br/><em>Concurrent Logic Programming: Asynchronism and Language Comparison</em><br/>SLP, 1990.</h2>
+<h2>Frank S. de Boer, Catuscia Palamidessi<br/><em>Concurrent Logic Programming: Asynchronism and Language Comparison</em><br/>LP, 1990.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1990.html">NACLP 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/BoerP90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Concurrent+Logic+Programming:+Asynchronism+and+Language+Comparison%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1990-BoerP,
 	author     = "Frank S. de Boer and Catuscia Palamidessi",
-	booktitle  = "{Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "175--194",
+	publisher  = "{MIT Press}",
 	title      = "{Concurrent Logic Programming: Asynchronism and Language Comparison}",
 	year       = 1990,
 }</pre>

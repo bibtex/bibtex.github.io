@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming" title="A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming" title="A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Bern Martens, Danny De Schreye<br/><em>A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming</em><br/>ICLP, 1992.</h2>
+<h2>Bern Martens, Danny De Schreye<br/><em>A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming</em><br/>LP, 1992.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1992.html">JICSLP 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/MartensS92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Perfect+Herbrand+Semantics+for+Untyped+Vanilla+Meta-Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992':'JICSLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSLP-1992-MartensS,
 	author     = "Bern Martens and Danny De Schreye",
-	booktitle  = "{Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Joint International Conference and Symposium on Logic Programming, JICSLP 1992, Washington, DC, USA, November 1992</span>}",
 	pages      = "511--525",
+	publisher  = "{MIT Press}",
 	title      = "{A Perfect Herbrand Semantics for Untyped Vanilla Meta-Programming}",
 	year       = 1992,
 }</pre>

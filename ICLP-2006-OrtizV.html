@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Natural Language Processing Using Lexical and Logical Combinators" title="Natural Language Processing Using Lexical and Logical Combinators" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Natural Language Processing Using Lexical and Logical Combinators" title="Natural Language Processing Using Lexical and Logical Combinators" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Juan Fernández Ortiz, Jørgen Villadsen<br/><em>Natural Language Processing Using Lexical and Logical Combinators</em><br/>ICLP, 2006.</h2>
+<h2>Juan Fernández Ortiz, Jørgen Villadsen<br/><em>Natural Language Processing Using Lexical and Logical Combinators</em><br/>LP, 2006.</h2>
 <div class="rbox">
 <strong><a href="ICLP-2006.html">ICLP 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/OrtizV06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Natural+Language+Processing+Using+Lexical+and+Logical+Combinators%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11799573_41">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings':'ICLP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-2006-OrtizV,
 	author     = "Juan Fernández Ortiz and Jørgen Villadsen",
-	booktitle  = "{Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings}",
+	booktitle  = "{<span id="booktitle">Logic Programming, 22nd International Conference, ICLP 2006, Seattle, WA, USA, August 17-20, 2006, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11799573_41">10.1007/11799573_41</a>",
 </span>	pages      = "444--446",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Natural Language Processing Using Lexical and Logical Combinators}",
+	volume     = 4079,
 	year       = 2006,
 }</pre>
 </div>

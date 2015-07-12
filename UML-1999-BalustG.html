@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+UML+for+Software+Process+Modelling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on the Unified Modeling Language: Beyond the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on the Unified Modeling Language: Beyond the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-1999-BalustG,
@@ -44,7 +44,7 @@
 	booktitle  = "{<span id="booktitle">Proceedings of the Second International Conference on the Unified Modeling Language: Beyond the Standard</span>}",
 	editor     = "Robert B. France and Bernhard Rumpe",
 	pages      = "292--307",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Using UML for Software Process Modelling}",
 	volume     = 1723,

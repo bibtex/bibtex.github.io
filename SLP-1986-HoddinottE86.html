@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="PROLOG: Subsumption of Equality Axioms by the Homogeneous Form" title="PROLOG: Subsumption of Equality Axioms by the Homogeneous Form" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="PROLOG: Subsumption of Equality Axioms by the Homogeneous Form" title="PROLOG: Subsumption of Equality Axioms by the Homogeneous Form" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,20 +30,21 @@
 
 </div>
 <div class="main">
-<h2>P. Hoddinott, E. W. Elcock<br/><em>PROLOG: Subsumption of Equality Axioms by the Homogeneous Form</em><br/>SLP, 1986.</h2>
+<h2>P. Hoddinott, E. W. Elcock<br/><em>PROLOG: Subsumption of Equality Axioms by the Homogeneous Form</em><br/>LP, 1986.</h2>
 <div class="rbox">
 <strong><a href="SLP-1986.html">SLP 1986</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/HoddinottE86">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22PROLOG:+Subsumption+of+Equality+Axioms+by+the+Homogeneous+Form%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1986-HoddinottE86,
 	author     = "P. Hoddinott and E. W. Elcock",
-	booktitle  = "{Proceedings of the Third Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Third Symposium on Logic Programming</span>}",
 	note       = "long version: JLP 6(1&2): 45-56",
 	pages      = "115--126",
+	publisher  = "{IEEE-CS}",
 	title      = "{PROLOG: Subsumption of Equality Axioms by the Homogeneous Form}",
 	year       = 1986,
 }</pre>

@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Conditional+Term+Graph+Rewriting%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0027008">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Joint Conference on Algebraic and Logic Programming':'ALP/HOA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ALP-1997-Ohlebusch,
 	author     = "Enno Ohlebusch",
-	booktitle  = "{Proceedings of the Sixth International Joint Conference on Algebraic and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Joint Conference on Algebraic and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0027008">10.1007/BFb0027008</a>",
 </span>	pages      = "144--158",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Conditional Term Graph Rewriting}",
+	volume     = 1298,
 	year       = 1997,
 }</pre>
 </div>

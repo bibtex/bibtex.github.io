@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Stream AND-Parallel Execution Algorithm with Backtracking" title="A Stream AND-Parallel Execution Algorithm with Backtracking" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Stream AND-Parallel Execution Algorithm with Backtracking" title="A Stream AND-Parallel Execution Algorithm with Backtracking" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Zoltan Somogyi, Kotagiri Ramamohanarao, Jayen Vaghani<br/><em>A Stream AND-Parallel Execution Algorithm with Backtracking</em><br/>ICLP, 1988.</h2>
+<h2>Zoltan Somogyi, Kotagiri Ramamohanarao, Jayen Vaghani<br/><em>A Stream AND-Parallel Execution Algorithm with Backtracking</em><br/>LP, 1988.</h2>
 <div class="rbox">
 <strong><a href="JICSLP-1988.html">JICSLP 1988</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/SomogyiRV88">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Stream+AND-Parallel+Execution+Algorithm+with+Backtracking%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes':'ICLP/SPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{JICSCP-1988-SomogyiRV88,
 	author     = "Zoltan Somogyi and Kotagiri Ramamohanarao and Jayen Vaghani",
-	booktitle  = "{Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth Joint International Conference and Symposium on Logic Programming, 2 Volumes</span>}",
 	pages      = "1142--1159",
+	publisher  = "{MIT Press}",
 	title      = "{A Stream AND-Parallel Execution Algorithm with Backtracking}",
 	year       = 1988,
 }</pre>

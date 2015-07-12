@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Genetic+Local+Search+Algorithm+for+Random+Binary+Constraint+Satisfaction+Problems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-MarchioriS,
 	author     = "Elena Marchiori and Adri G. Steenbeek",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "458--462",
+	publisher  = "{ACM}",
 	title      = "{A Genetic Local Search Algorithm for Random Binary Constraint Satisfaction Problems}",
 	year       = 2000,
 }</pre>

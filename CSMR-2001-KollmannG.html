@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Capturing+Dynamic+Program+Behaviour+with+UML+Collaboration+Diagrams%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth European Conference on Software Maintenance and Reengineering':'CSMR');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSMR-2001-KollmannG,
 	author     = "Ralf Kollmann and Martin Gogolla",
-	booktitle  = "{Proceedings of the Fifth European Conference on Software Maintenance and Reengineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fifth European Conference on Software Maintenance and Reengineering</span>}",
 	pages      = "58--67",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Capturing Dynamic Program Behaviour with UML Collaboration Diagrams}",
 	year       = 2001,
 }</pre>

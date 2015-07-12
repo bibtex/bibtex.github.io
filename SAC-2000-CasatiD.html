@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Supporting+Workflow+Cooperation+Within+and+Across+Organizations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-CasatiD,
 	author     = "Fabio Casati and Angela Discenza",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "196--202",
+	publisher  = "{ACM}",
 	title      = "{Supporting Workflow Cooperation Within and Across Organizations}",
 	year       = 2000,
 }</pre>

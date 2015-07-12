@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1868281.1868293">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Workshop on Language Descriptions, Tools and Applications':'LDTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LDTA-2010-BrandMSH,
 	author     = "Mark van den Brand and A. P. van der Meer and Alexander Serebrenik and Albert T. Hofkamp",
-	booktitle  = "{Proceedings of the 10th Workshop on Language Descriptions, Tools and Applications}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th Workshop on Language Descriptions, Tools and Applications</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1868281.1868293">10.1145/1868281.1868293</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1868281.1868293">http://doi.acm.org/10.1145/1868281.1868293</a>",
 </span>	pages      = "12",
+	publisher  = "{ACM}",
 	title      = "{Formally specified type checkers for domain specific languages: experience report}",
 	year       = 2010,
 }</pre>

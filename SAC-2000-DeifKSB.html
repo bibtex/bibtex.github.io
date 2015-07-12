@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Optical+Hierarchical+Fully+Shuffled+Tree%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-DeifKSB,
 	author     = "Safia H. Deif and Omar H. Karam and Samir I. Shaheen and Abd El-Moneim Y. Bilal",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "667--676",
+	publisher  = "{ACM}",
 	title      = "{Optical Hierarchical Fully Shuffled Tree}",
 	year       = 2000,
 }</pre>

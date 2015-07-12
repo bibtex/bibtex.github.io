@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="On the Integration of Logic Programming and Functional Programming" title="On the Integration of Logic Programming and Functional Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="On the Integration of Logic Programming and Functional Programming" title="On the Integration of Logic Programming and Functional Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Roberto Barbuti, Marco Bellia, Giorgio Levi, Maurizio Martelli<br/><em>On the Integration of Logic Programming and Functional Programming</em><br/>SLP, 1984.</h2>
+<h2>Roberto Barbuti, Marco Bellia, Giorgio Levi, Maurizio Martelli<br/><em>On the Integration of Logic Programming and Functional Programming</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="SLP-1984.html">SLP 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/BarbutiBLM84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On+the+Integration+of+Logic+Programming+and+Functional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1984-BarbutiBLM84,
 	author     = "Roberto Barbuti and Marco Bellia and Giorgio Levi and Maurizio Martelli",
-	booktitle  = "{Proceedings of the First International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Symposium on Logic Programming</span>}",
 	pages      = "160--166",
+	publisher  = "{IEEE-CS}",
 	title      = "{On the Integration of Logic Programming and Functional Programming}",
 	year       = 1984,
 }</pre>

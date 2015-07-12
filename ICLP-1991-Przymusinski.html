@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Well-Founded+Completions+of+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1991-Przymusinski,
 	author     = "Teodor C. Przymusinski",
-	booktitle  = "{Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Eigth International Conference, Paris, France, June 24-28, 1991</span>}",
 	pages      = "726--741",
+	publisher  = "{MIT Press}",
 	title      = "{Well-Founded Completions of Logic Programs}",
 	year       = 1991,
 }</pre>

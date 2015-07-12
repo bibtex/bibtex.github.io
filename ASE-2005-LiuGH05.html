@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1101908.1101960">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2005-LiuGH05,
 	author     = "Na Liu and John C. Grundy and John G. Hosking",
-	booktitle  = "{Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 20th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1101908.1101960">10.1145/1101908.1101960</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1101908.1101960">http://doi.acm.org/10.1145/1101908.1101960</a>",
 </span>	pages      = "321--324",
+	publisher  = "{ACM}",
 	title      = "{A visual language and environment for composing web services}",
 	year       = 2005,
 }</pre>

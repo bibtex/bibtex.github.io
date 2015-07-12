@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Process+Algebra+for+Event-Driven+Runtime+Verification:+A+Case+Study+of+Wireless+Network+Management%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-30729-4_2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Integrated Formal Methods':'IFM');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-2012-CalderS,
 	author     = "Muffy Calder and Michele Sevegnani",
-	booktitle  = "{Proceedings of the Ninth International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Conference on Integrated Formal Methods</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-30729-4_2">10.1007/978-3-642-30729-4_2</a>",
 </span>	pages      = "21--23",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Process Algebra for Event-Driven Runtime Verification: A Case Study of Wireless Network Management}",
+	volume     = 7321,
 	year       = 2012,
 }</pre>
 </div>

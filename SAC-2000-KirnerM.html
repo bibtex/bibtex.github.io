@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Development+of+an+Information+Visualization+Tool+Using+Virtual+Reality%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-KirnerM,
 	author     = "Tereza G. Kirner and Valéria Farinazzo Martins Salvador",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "604--606",
+	publisher  = "{ACM}",
 	title      = "{Development of an Information Visualization Tool Using Virtual Reality}",
 	year       = 2000,
 }</pre>

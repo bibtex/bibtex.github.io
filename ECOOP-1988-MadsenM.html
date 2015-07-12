@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22What+Object-Oriented+Programming+May+Be+—+and+What+It+Does+Not+Have+To+Be%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45910-3_1">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-1988-MadsenM,
@@ -46,7 +46,7 @@
 </span>	editor     = "Stein Gjessing and Kristen Nygaard",
 <span id="isbn">	isbn       = "3-540-50053-7",
 </span>	pages      = "1--20",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{What Object-Oriented Programming May Be — and What It Does Not Have To Be}",
 	volume     = 322,

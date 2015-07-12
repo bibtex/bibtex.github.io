@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22New+Experiments+with+a+Constraint-Based+Approach+to+Program+Plan+Matching%22">Scholar</a><hr/><a href="http://computer.org/proceedings/wcre/8162/81620114abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Working Conference on Reverse Engineering':'WCRE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WCRE-1997-QuiliciWZ,
 	author     = "Alex Quilici and Steven Woods and Yongjun Zhang",
-	booktitle  = "{Proceedings of the Fourth Working Conference on Reverse Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Fourth Working Conference on Reverse Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/wcre/8162/81620114abs.htm">http://computer.org/proceedings/wcre/8162/81620114abs.htm</a>",
 </span>	pages      = "114--123",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{New Experiments with a Constraint-Based Approach to Program Plan Matching}",
 	year       = 1997,
 }</pre>

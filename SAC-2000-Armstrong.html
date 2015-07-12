@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Increasing+the+Reliability+of+Email+Services%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Armstrong,
 	author     = "Joe L. Armstrong",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "627--632",
+	publisher  = "{ACM}",
 	title      = "{Increasing the Reliability of Email Services}",
 	year       = 2000,
 }</pre>

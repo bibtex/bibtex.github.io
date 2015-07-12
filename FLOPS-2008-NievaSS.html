@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Formalizing+a+Constraint+Deductive+Database+Language+Based+on+Hereditary+Harrop+Formulas+with+Negation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-78969-7_21">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Symposium on Functional and Logic Programming':'FLOPS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FLOPS-2008-NievaSS,
 	author     = "Susana Nieva and Jaime Sánchez-Hernández and Fernando Sáenz-Pérez",
-	booktitle  = "{Proceedings of the Ninth International Symposium on Functional and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Symposium on Functional and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-78969-7_21">10.1007/978-3-540-78969-7_21</a>",
 </span>	pages      = "289--304",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Formalizing a Constraint Deductive Database Language Based on Hereditary Harrop Formulas with Negation}",
+	volume     = 4989,
 	year       = 2008,
 }</pre>
 </div>

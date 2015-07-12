@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Synthesizing+Software+Architecture+Descriptions+from+Message+Sequence+Chart+Specifications%22">Scholar</a><hr/><a href="http://computer.org/proceedings/ase/8750/87500192abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th IEEE Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-1998-LeueMR98,
 	author     = "Stefan Leue and L. Mehrmann and Mohammad Rezai",
-	booktitle  = "{Proceedings of the 13th IEEE Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 13th IEEE Conference on Automated Software Engineering</span>}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/ase/8750/87500192abs.htm">http://computer.org/proceedings/ase/8750/87500192abs.htm</a>",
 </span>	pages      = "192--195",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Synthesizing Software Architecture Descriptions from Message Sequence Chart Specifications}",
 	year       = 1998,
 }</pre>

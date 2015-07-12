@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Logic Programming cum Applicative Programming" title="Logic Programming cum Applicative Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Logic Programming cum Applicative Programming" title="Logic Programming cum Applicative Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Nachum Dershowitz, David A. Plaisted<br/><em>Logic Programming cum Applicative Programming</em><br/>SLP, 1985.</h2>
+<h2>Nachum Dershowitz, David A. Plaisted<br/><em>Logic Programming cum Applicative Programming</em><br/>LP, 1985.</h2>
 <div class="rbox">
 <strong><a href="SLP-1985.html">SLP 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/DershowitzP85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Logic+Programming+cum+Applicative+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1985-DershowitzP85,
 	author     = "Nachum Dershowitz and David A. Plaisted",
-	booktitle  = "{Proceedings of the Second Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Symposium on Logic Programming</span>}",
 	pages      = "54--66",
+	publisher  = "{IEEE-CS}",
 	title      = "{Logic Programming cum Applicative Programming}",
 	year       = 1985,
 }</pre>

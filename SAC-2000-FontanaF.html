@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22User+Adaptive+Models+Based+on+Similarity%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-FontanaF,
 	author     = "Francesca Arcelli Fontana and Ferrante Formato",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "501--504",
+	publisher  = "{ACM}",
 	title      = "{User Adaptive Models Based on Similarity}",
 	year       = 2000,
 }</pre>

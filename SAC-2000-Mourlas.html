@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Creating+and+Playing+Distributed+Multimedia+Information+Systems+with+QoS+Requirements%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-Mourlas,
 	author     = "Costas Mourlas",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "598--600",
+	publisher  = "{ACM}",
 	title      = "{A Framework for Creating and Playing Distributed Multimedia Information Systems with QoS Requirements}",
 	year       = 2000,
 }</pre>

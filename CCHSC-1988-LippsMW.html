@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22OPTRAN+—+A+Language/System+for+the+Specification+of+Program+Transformations:+System+Overview+and+Experiences%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-51364-7_4">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation':'CCHSC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CCHSC-1988-LippsMW,
 	author     = "Peter Lipps and Ulrich Möncke and Reinhard Wilhelm",
-	booktitle  = "{Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-51364-7_4">10.1007/3-540-51364-7_4</a>",
 </span>	pages      = "52--65",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{OPTRAN — A Language/System for the Specification of Program Transformations: System Overview and Experiences}",
+	volume     = 371,
 	year       = 1988,
 }</pre>
 </div>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22WCML:+Paving+the+Way+for+Reuse+in+Object-Oriented+Web+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-GaedkeSG,
 	author     = "Martin Gaedke and Christian Segor and Hans-Werner Gellersen",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "748--755",
+	publisher  = "{ACM}",
 	title      = "{WCML: Paving the Way for Reuse in Object-Oriented Web Engineering}",
 	year       = 2000,
 }</pre>

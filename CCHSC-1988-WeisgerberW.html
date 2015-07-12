@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Two+Tree+Pattern+Matchers+for+Code+Selection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-51364-7_17">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation':'CCHSC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CCHSC-1988-WeisgerberW,
 	author     = "Beatrix Weisgerber and Reinhard Wilhelm",
-	booktitle  = "{Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Workshop on Compiler Compilers and High Speed Compilation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-51364-7_17">10.1007/3-540-51364-7_17</a>",
 </span>	pages      = "215--229",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Two Tree Pattern Matchers for Code Selection}",
+	volume     = 371,
 	year       = 1988,
 }</pre>
 </div>

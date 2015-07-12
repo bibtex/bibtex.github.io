@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Parameterized+Unfold/Fold+Transformation+Framework+for+Definite+Logic+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/10704567_24">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Principles and Practice of Declarative Programming':'PPDP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-1999-RoychoudhuryKRR,
 	author     = "Abhik Roychoudhury and K. Narayan Kumar and C. R. Ramakrishnan and I. V. Ramakrishnan",
-	booktitle  = "{Proceedings of the First International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/10704567_24">10.1007/10704567_24</a>",
 </span>	pages      = "396--413",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Parameterized Unfold/Fold Transformation Framework for Definite Logic Programs}",
+	volume     = 1702,
 	year       = 1999,
 }</pre>
 </div>

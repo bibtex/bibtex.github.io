@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Generation+of+RDBMS+Based+Applications+from+Object+Oriented+Design+Schemes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-MustoPP,
 	author     = "Annamaria Musto and Giuseppe Polese and A. Pannella",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "398--402",
+	publisher  = "{ACM}",
 	title      = "{Automatic Generation of RDBMS Based Applications from Object Oriented Design Schemes}",
 	year       = 2000,
 }</pre>

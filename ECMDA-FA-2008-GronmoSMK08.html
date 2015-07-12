@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Semantics-Based+Aspect+Language+for+Interactions+with+the+Arbitrary+Events+Symbol%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-69100-6_18">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMDA-FA-2008-GronmoSMK08,
@@ -44,7 +44,10 @@
 	booktitle  = "{ECMDA-FA}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-69100-6_18">10.1007/978-3-540-69100-6_18</a>",
 </span>	pages      = "262--277",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A Semantics-Based Aspect Language for Interactions with the Arbitrary Events Symbol}",
+	volume     = 5095,
 	year       = 2008,
 }</pre>
 </div>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Joint+Language+and+Domain+Engineering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-13595-8_25">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMFA-2010-WalterPSE10,
@@ -44,7 +44,10 @@
 	booktitle  = "{ECMFA}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-13595-8_25">10.1007/978-3-642-13595-8_25</a>",
 </span>	pages      = "321--336",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Joint Language and Domain Engineering}",
+	volume     = 6138,
 	year       = 2010,
 }</pre>
 </div>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="On the Treatment of Cuts in Prolog Source-Level Tools" title="On the Treatment of Cuts in Prolog Source-Level Tools" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="On the Treatment of Cuts in Prolog Source-Level Tools" title="On the Treatment of Cuts in Prolog Source-Level Tools" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Richard A. O'Keefe<br/><em>On the Treatment of Cuts in Prolog Source-Level Tools</em><br/>SLP, 1985.</h2>
+<h2>Richard A. O'Keefe<br/><em>On the Treatment of Cuts in Prolog Source-Level Tools</em><br/>LP, 1985.</h2>
 <div class="rbox">
 <strong><a href="SLP-1985.html">SLP 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/OKeefe85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On+the+Treatment+of+Cuts+in+Prolog+Source-Level+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1985-OKeefe85,
 	author     = "Richard A. O'Keefe",
-	booktitle  = "{Proceedings of the Second Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second Symposium on Logic Programming</span>}",
 	pages      = "68--72",
+	publisher  = "{IEEE-CS}",
 	title      = "{On the Treatment of Cuts in Prolog Source-Level Tools}",
 	year       = 1985,
 }</pre>

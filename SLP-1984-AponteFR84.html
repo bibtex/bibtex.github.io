@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Editing First-Order Proofs: Programmed Rules vs Derived Rules" title="Editing First-Order Proofs: Programmed Rules vs Derived Rules" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Editing First-Order Proofs: Programmed Rules vs Derived Rules" title="Editing First-Order Proofs: Programmed Rules vs Derived Rules" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Maria-Virginia Aponte, José Alberto Fernández, Philippe Roussel<br/><em>Editing First-Order Proofs: Programmed Rules vs Derived Rules</em><br/>SLP, 1984.</h2>
+<h2>Maria-Virginia Aponte, José Alberto Fernández, Philippe Roussel<br/><em>Editing First-Order Proofs: Programmed Rules vs Derived Rules</em><br/>LP, 1984.</h2>
 <div class="rbox">
 <strong><a href="SLP-1984.html">SLP 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/AponteFR84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Editing+First-Order+Proofs:+Programmed+Rules+vs+Derived+Rules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLP-1984-AponteFR84,
 	author     = "Maria-Virginia Aponte and José Alberto Fernández and Philippe Roussel",
-	booktitle  = "{Proceedings of the First International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Symposium on Logic Programming</span>}",
 	pages      = "92--98",
+	publisher  = "{IEEE-CS}",
 	title      = "{Editing First-Order Proofs: Programmed Rules vs Derived Rules}",
 	year       = 1984,
 }</pre>

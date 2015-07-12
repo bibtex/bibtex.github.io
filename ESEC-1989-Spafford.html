@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Internet+Worm+Incident%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-1989-Spafford,
@@ -45,7 +45,7 @@
 	editor     = "Carlo Ghezzi and John A. McDermid",
 <span id="isbn">	isbn       = "3-540-51635-2",
 </span>	pages      = "446--468",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{The Internet Worm Incident}",
 	volume     = 387,

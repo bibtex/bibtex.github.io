@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1014007.1014017">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-2004-SmaragdakisHZ,
 	author     = "Yannis Smaragdakis and Shan Shan Huang and David Zook",
-	booktitle  = "{Proceedings of the 10th Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1014007.1014017">10.1145/1014007.1014017</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1014007.1014017">http://doi.acm.org/10.1145/1014007.1014017</a>",
 </span>	pages      = "92--100",
+	publisher  = "{ACM}",
 	title      = "{Program generators and the tools to make them}",
 	year       = 2004,
 }</pre>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Object-Oriented+Programming:+Regaining+the+Excitement%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-48743-3_24">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-1999-Black,
@@ -46,7 +46,7 @@
 </span>	editor     = "Rachid Guerraoui",
 <span id="isbn">	isbn       = "3-540-66156-5",
 </span>	pages      = "519--528",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Object-Oriented Programming: Regaining the Excitement}",
 	volume     = 1628,

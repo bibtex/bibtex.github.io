@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1389449.1389457">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2008-PlasmeijerJKA,
 	author     = "Rinus Plasmeijer and Jan Martin Jansen and Pieter W. M. Koopman and Peter Achten",
-	booktitle  = "{Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1389449.1389457">10.1145/1389449.1389457</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1389449.1389457">http://doi.acm.org/10.1145/1389449.1389457</a>",
 </span>	pages      = "56--66",
+	publisher  = "{ACM}",
 	title      = "{Declarative Ajax and client side evaluation of workflows using iTasks}",
 	year       = 2008,
 }</pre>

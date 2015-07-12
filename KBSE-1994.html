@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Ninth+Knowledge-Based+Software+Engineering+Conference%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{KBSE-1994,
 	booktitle  = "{KBSE}",
 	editor     = "Douglas R. Smith and Richard Jullig",
-	publisher  = "{IEEE Computer Society}",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Proceedings of the Ninth Knowledge-Based Software Engineering Conference}",
 	year       = 1994,
 }</pre>

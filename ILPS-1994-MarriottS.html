@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Approximating Interaction between Linear Arithmetic Constraints" title="Approximating Interaction between Linear Arithmetic Constraints" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Approximating Interaction between Linear Arithmetic Constraints" title="Approximating Interaction between Linear Arithmetic Constraints" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Kim Marriott, Peter J. Stuckey<br/><em>Approximating Interaction between Linear Arithmetic Constraints</em><br/>SLP, 1994.</h2>
+<h2>Kim Marriott, Peter J. Stuckey<br/><em>Approximating Interaction between Linear Arithmetic Constraints</em><br/>LP, 1994.</h2>
 <div class="rbox">
 <strong><a href="ILPS-1994.html">ILPS 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/MarriottS94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Approximating+Interaction+between+Linear+Arithmetic+Constraints%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1994-MarriottS,
 	author     = "Kim Marriott and Peter J. Stuckey",
-	booktitle  = "{Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994</span>}",
 	pages      = "571--585",
+	publisher  = "{MIT Press}",
 	title      = "{Approximating Interaction between Linear Arithmetic Constraints}",
 	year       = 1994,
 }</pre>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Flow-Directed+Closure+Conversion+for+Typed+Languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-46425-5_4">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESOP-2000-CejtinJW,
@@ -46,7 +46,7 @@
 </span>	editor     = "Gert Smolka",
 <span id="isbn">	isbn       = "3-540-67262-1",
 </span>	pages      = "56--71",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Flow-Directed Closure Conversion for Typed Languages}",
 	volume     = 1782,

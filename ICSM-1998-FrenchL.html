@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Study+of+Communication+and+Cooperation+in+Distributed+Software+Project+Teams%22">Scholar</a><hr/><a href="http://computer.org/proceedings/icsm/8779/87790146abs.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICSM-1998-FrenchL,
@@ -44,6 +44,7 @@
 	booktitle  = "{ICSM}",
 <span class="uri">	ee         = "<a href="http://computer.org/proceedings/icsm/8779/87790146abs.htm">http://computer.org/proceedings/icsm/8779/87790146abs.htm</a>",
 </span>	pages      = "146--None",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{A Study of Communication and Cooperation in Distributed Software Project Teams}",
 	year       = 1998,
 }</pre>

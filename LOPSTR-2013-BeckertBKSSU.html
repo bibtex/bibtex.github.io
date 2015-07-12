@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Information+Flow+in+Object-Oriented+Software%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-14125-1_2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation':'LOPSTR');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LOPSTR-2013-BeckertBKSSU,
 	author     = "Bernhard Beckert and Daniel Bruns and Vladimir Klebanov and Christoph Scheben and Peter H. Schmitt and Mattias Ulbrich",
-	booktitle  = "{Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation}",
+	booktitle  = "{<span id="booktitle">Revised Selected Papers of the 23rd International Symposium on Logic-Based Program Synthesis and Transformation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-319-14125-1_2">10.1007/978-3-319-14125-1_2</a>",
 </span>	pages      = "19--37",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Information Flow in Object-Oriented Software}",
+	volume     = 8901,
 	year       = 2013,
 }</pre>
 </div>

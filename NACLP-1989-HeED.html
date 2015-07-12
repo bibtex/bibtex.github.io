@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="An Expert System which Intelligently Accesses an External Database" title="An Expert System which Intelligently Accesses an External Database" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="An Expert System which Intelligently Accesses an External Database" title="An Expert System which Intelligently Accesses an External Database" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Xiaoping He, George W. Ernst, Fred Discenzo<br/><em>An Expert System which Intelligently Accesses an External Database</em><br/>SLP, 1989.</h2>
+<h2>Xiaoping He, George W. Ernst, Fred Discenzo<br/><em>An Expert System which Intelligently Accesses an External Database</em><br/>LP, 1989.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1989.html">NACLP 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/HeED89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Expert+System+which+Intelligently+Accesses+an+External+Database%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1989-HeED,
 	author     = "Xiaoping He and George W. Ernst and Fred Discenzo",
-	booktitle  = "{Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "209--223",
+	publisher  = "{MIT Press}",
 	title      = "{An Expert System which Intelligently Accesses an External Database}",
 	year       = 1989,
 }</pre>

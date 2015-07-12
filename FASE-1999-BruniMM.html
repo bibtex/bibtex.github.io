@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Executable+Tile+Specifications+for+Process+Calculi%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-49020-3_5">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-1999-BruniMM,
 	author     = "Roberto Bruni and José Meseguer and Ugo Montanari",
-	booktitle  = "{Proceedings of the Second International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-540-49020-3_5">10.1007/978-3-540-49020-3_5</a>",
 </span>	pages      = "60--76",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Executable Tile Specifications for Process Calculi}",
+	volume     = 1577,
 	year       = 1999,
 }</pre>
 </div>

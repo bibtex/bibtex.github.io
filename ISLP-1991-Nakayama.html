@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="Program Transformation under the Principle of Proof as Program" title="Program Transformation under the Principle of Proof as Program" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Program Transformation under the Principle of Proof as Program" title="Program Transformation under the Principle of Proof as Program" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Hideaki Nakayama<br/><em>Program Transformation under the Principle of Proof as Program</em><br/>SLP, 1991.</h2>
+<h2>Hideaki Nakayama<br/><em>Program Transformation under the Principle of Proof as Program</em><br/>LP, 1991.</h2>
 <div class="rbox">
 <strong><a href="ISLP-1991.html">ISLP 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/Nakayama91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Program+Transformation+under+the+Principle+of+Proof+as+Program%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISLP-1991-Nakayama,
 	author     = "Hideaki Nakayama",
-	booktitle  = "{Proceedings of the Eighth International Symposium on Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Eighth International Symposium on Logic Programming</span>}",
 	pages      = "626--640",
+	publisher  = "{MIT Press}",
 	title      = "{Program Transformation under the Principle of Proof as Program}",
 	year       = 1991,
 }</pre>

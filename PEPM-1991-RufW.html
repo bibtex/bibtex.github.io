@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/115865.115902">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1991-RufW,
 	author     = "Erik Ruf and Daniel Weise",
-	booktitle  = "{Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First Workshop on Partial Evaluation and Semantics-Based Program Manipulation</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/115865.115902">10.1145/115865.115902</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/115865.115902">http://doi.acm.org/10.1145/115865.115902</a>",
 </span>	pages      = "321--333",
+	publisher  = "{ACM}",
 	title      = "{Using Types to Avoid Redundant Specialization}",
 	year       = 1991,
 }</pre>

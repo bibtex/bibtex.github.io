@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Adaptive+Intelligent+Hypermedia+using+XML%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-BonfigliCS,
 	author     = "Maria Elena Bonfigli and Giorgio Casadei and Paola Salomoni",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "922--926",
+	publisher  = "{ACM}",
 	title      = "{Adaptive Intelligent Hypermedia using XML}",
 	year       = 2000,
 }</pre>

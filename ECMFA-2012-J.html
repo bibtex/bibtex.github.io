@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Issue+on+Modelling+Foundations+and+Applications+—+ECMFA+2012%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Software and System Modeling':'SoSyM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ECMFA-2012-J,
 	editor     = "Antonio Vallecillo and Juha-Pekka Tolvanen",
-	journal    = "{Software and System Modeling}",
+	journal    = "{<span id="journal">Software and System Modeling</span>}",
 	number     = 1,
 	title      = "{Special Issue on Modelling Foundations and Applications — ECMFA 2012}",
 	volume     = 14,

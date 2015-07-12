@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Contract-Based+Data+Structure+Repair+Using+Alloy%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-14107-2_27">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2010-ZaeemK,
@@ -46,7 +46,7 @@
 </span>	editor     = "Theo D'Hondt",
 <span id="isbn">	isbn       = "978-3-642-14106-5",
 </span>	pages      = "577--598",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Contract-Based Data Structure Repair Using Alloy}",
 	volume     = 6183,

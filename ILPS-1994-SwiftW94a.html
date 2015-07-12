@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="An Abstract Machine for SLG Resolution: Definite Programs" title="An Abstract Machine for SLG Resolution: Definite Programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="An Abstract Machine for SLG Resolution: Definite Programs" title="An Abstract Machine for SLG Resolution: Definite Programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Terrance Swift, David Scott Warren<br/><em>An Abstract Machine for SLG Resolution: Definite Programs</em><br/>SLP, 1994.</h2>
+<h2>Terrance Swift, David Scott Warren<br/><em>An Abstract Machine for SLG Resolution: Definite Programs</em><br/>LP, 1994.</h2>
 <div class="rbox">
 <strong><a href="ILPS-1994.html">ILPS 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/SwiftW94a">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Abstract+Machine+for+SLG+Resolution:+Definite+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1994-SwiftW94a,
 	author     = "Terrance Swift and David Scott Warren",
-	booktitle  = "{Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the 1994 International Symposium, Ithaca, New York, USA, November 13-17, 1994</span>}",
 	pages      = "633--652",
+	publisher  = "{MIT Press}",
 	title      = "{An Abstract Machine for SLG Resolution: Definite Programs}",
 	year       = 1994,
 }</pre>

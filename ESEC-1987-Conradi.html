@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Experience+with+Fortran+Verifier.+A+Tool+for+Documentation+and+Error+Diagnosis+of+Fortran-77+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0022119">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First European Software Engineering Conference':'ESEC');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-1987-Conradi,
@@ -46,7 +46,7 @@
 </span>	editor     = "Howard K. Nichols and Dan Simpson",
 <span id="isbn">	isbn       = "3-540-18712-X",
 </span>	pages      = "263--275",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Experience with Fortran Verifier. A Tool for Documentation and Error Diagnosis of Fortran-77 Programs}",
 	volume     = 289,

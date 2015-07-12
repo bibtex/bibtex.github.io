@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Specification of an Active Database System Application Using Dynamic Relation Nets" title="Specification of an Active Database System Application Using Dynamic Relation Nets" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Specification of an Active Database System Application Using Dynamic Relation Nets" title="Specification of an Active Database System Application Using Dynamic Relation Nets" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,21 +30,24 @@
 
 </div>
 <div class="main">
-<h2>Laurent Allain, Pascal Yim<br/><em>Specification of an Active Database System Application Using Dynamic Relation Nets</em><br/>ICLP, 2000.</h2>
+<h2>Laurent Allain, Pascal Yim<br/><em>Specification of an Active Database System Application Using Dynamic Relation Nets</em><br/>LP, 2000.</h2>
 <div class="rbox">
 <strong><a href="CL-2000.html">CL 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/cl/AllainY00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Specification+of+an+Active+Database+System+Application+Using+Dynamic+Relation+Nets%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-44957-4_80">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings':'CL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CL-2000-AllainY,
 	author     = "Laurent Allain and Pascal Yim",
-	booktitle  = "{Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings}",
+	booktitle  = "{<span id="booktitle">Computational Logic — CL 2000, First International Conference, London, UK, 24-28 July, 2000, Proceedings</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-44957-4_80">10.1007/3-540-44957-4_80</a>",
 </span>	pages      = "1197--1209",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Specification of an Active Database System Application Using Dynamic Relation Nets}",
+	volume     = 1861,
 	year       = 2000,
 }</pre>
 </div>

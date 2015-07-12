@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Controlling+Transmission+Order+of+Inline+Objects+for+Effective+Web+Page+Publishing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-NakanoHSN,
 	author     = "Tadashi Nakano and Kaname Harumoto and Shinji Shimojo and Shojiro Nishio",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "942--947",
+	publisher  = "{ACM}",
 	title      = "{Controlling Transmission Order of Inline Objects for Effective Web Page Publishing}",
 	year       = 2000,
 }</pre>

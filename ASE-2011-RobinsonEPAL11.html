@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Scaling+up+automated+test+generation:+Automatically+generating+maintainable+regression+unit+tests+for+programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2011.6100059">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2011-RobinsonEPAL11,
 	author     = "Brian Robinson and Michael D. Ernst and Jeff H. Perkins and Vinay Augustine and Nuo Li",
-	booktitle  = "{Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2011.6100059">10.1109/ASE.2011.6100059</a>",
 </span>	pages      = "23--32",
+	publisher  = "{IEEE}",
 	title      = "{Scaling up automated test generation: Automatically generating maintainable regression unit tests for programs}",
 	year       = 2011,
 }</pre>

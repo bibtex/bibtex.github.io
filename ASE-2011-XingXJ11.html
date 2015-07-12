@@ -36,14 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22CloneDifferentiator:+Analyzing+clones+by+differentiation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ASE.2011.6100129">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2011-XingXJ11,
 	author     = "Zhenchang Xing and Yinxing Xue and Stan Jarzabek",
-	booktitle  = "{Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 26th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2011.6100129">10.1109/ASE.2011.6100129</a>",
 </span>	pages      = "576--579",
+	publisher  = "{IEEE}",
 	title      = "{CloneDifferentiator: Analyzing clones by differentiation}",
 	year       = 2011,
 }</pre>

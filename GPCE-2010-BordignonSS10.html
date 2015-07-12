@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/1868294.1868318">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Generative Programming and Component Engineering':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2010-BordignonSS10,
 	author     = "Mirko Bordignon and Ulrik Pagh Schultz and Kasper Støy",
-	booktitle  = "{Proceedings of the Ninth International Conference on Generative Programming and Component Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Ninth International Conference on Generative Programming and Component Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/1868294.1868318">10.1145/1868294.1868318</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/1868294.1868318">http://doi.acm.org/10.1145/1868294.1868318</a>",
 </span>	pages      = "157--166",
+	publisher  = "{ACM}",
 	title      = "{Model-based kinematics generation for modular mechatronic toolkits}",
 	year       = 2010,
 }</pre>

@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Multithreaded+Distributed+MPEGI-Video+Delivery+in+the+Internet+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (2)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-JungKM,
 	author     = "Gwang S. Jung and Kyung W. Kang and Qutaibah M. Malluhi",
-	booktitle  = "{SAC (2)}",
+	booktitle  = "{<span id="booktitle">SAC (2)</span>}",
 	pages      = "592--597",
+	publisher  = "{ACM}",
 	title      = "{Multithreaded Distributed MPEGI-Video Delivery in the Internet Environment}",
 	year       = 2000,
 }</pre>

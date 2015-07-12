@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/slp.png" alt="On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns" title="On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns" title="On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>V. S. Madan, C.-J. Peng, Gurindar S. Sohi<br/><em>On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns</em><br/>SLP, 1989.</h2>
+<h2>V. S. Madan, C.-J. Peng, Gurindar S. Sohi<br/><em>On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns</em><br/>LP, 1989.</h2>
 <div class="rbox">
 <strong><a href="NACLP-1989.html">NACLP 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/MadanPS89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On+the+Adequacy+of+Direct+Mapped+Caches+for+Lisp+and+Prolog+Data+Reference+Patterns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes':'NACLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{NACLP-1989-MadanPS,
 	author     = "V. S. Madan and C.-J. Peng and Gurindar S. Sohi",
-	booktitle  = "{Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth North American Conference on Logic Programming, 2 Volumes</span>}",
 	pages      = "888--906",
+	publisher  = "{MIT Press}",
 	title      = "{On the Adequacy of Direct Mapped Caches for Lisp and Prolog Data Reference Patterns}",
 	year       = 1989,
 }</pre>

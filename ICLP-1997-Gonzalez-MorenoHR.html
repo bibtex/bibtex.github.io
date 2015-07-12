@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="A Higher Order Rewriting Logic for Functional Logic Programming" title="A Higher Order Rewriting Logic for Functional Logic Programming" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="A Higher Order Rewriting Logic for Functional Logic Programming" title="A Higher Order Rewriting Logic for Functional Logic Programming" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Juan Carlos González Moreno, Maria Teresa Hortalá-González, Mario Rodríguez-Artalejo<br/><em>A Higher Order Rewriting Logic for Functional Logic Programming</em><br/>ICLP, 1997.</h2>
+<h2>Juan Carlos González Moreno, Maria Teresa Hortalá-González, Mario Rodríguez-Artalejo<br/><em>A Higher Order Rewriting Logic for Functional Logic Programming</em><br/>LP, 1997.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1997.html">ICLP 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/Gonzalez-MorenoHR97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Higher+Order+Rewriting+Logic+for+Functional+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1997-Gonzalez-MorenoHR,
 	author     = "Juan Carlos González Moreno and Maria Teresa Hortalá-González and Mario Rodríguez-Artalejo",
-	booktitle  = "{Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997</span>}",
 	pages      = "153--167",
+	publisher  = "{MIT Press}",
 	title      = "{A Higher Order Rewriting Logic for Functional Logic Programming}",
 	year       = 1997,
 }</pre>

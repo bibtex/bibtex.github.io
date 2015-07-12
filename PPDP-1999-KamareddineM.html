@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Formalised+Proofs+of+Termination+of+Recursive+Functions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/10704567_2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Principles and Practice of Declarative Programming':'PPDP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-1999-KamareddineM,
 	author     = "Fairouz Kamareddine and François Monin",
-	booktitle  = "{Proceedings of the First International Conference on Principles and Practice of Declarative Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the First International Conference on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/10704567_2">10.1007/10704567_2</a>",
 </span>	pages      = "29--46",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{On Formalised Proofs of Termination of Recursive Functions}",
+	volume     = 1702,
 	year       = 1999,
 }</pre>
 </div>

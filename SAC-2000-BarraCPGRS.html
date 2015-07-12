@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Teach++:+A+Cooperative+Distance+Learning+and+Teaching+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-BarraCPGRS,
 	author     = "Maria Barra and Giuseppe Cattaneo and Umberto Ferraro Petrillo and Vincenzo Garofalo and Claudia Rossi and Vittorio Scarano",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "124--130",
+	publisher  = "{ACM}",
 	title      = "{Teach++: A Cooperative Distance Learning and Teaching Environment}",
 	year       = 2000,
 }</pre>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Well-Definedness+of+Streams+by+Termination%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-02348-4_12">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Rewriting Techniques and Applications':'RTA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{RTA-2009-Zantema,
@@ -46,7 +46,7 @@
 </span>	editor     = "Ralf Treinen",
 <span id="isbn">	isbn       = "978-3-642-02347-7",
 </span>	pages      = "164--178",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Well-Definedness of Streams by Termination}",
 	volume     = 5595,

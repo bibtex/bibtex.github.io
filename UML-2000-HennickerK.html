@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+UML-based+Methodology+for+Hypermedia+Design%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-40011-7_30">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on the Unified Modeling Language: Advancing the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on the Unified Modeling Language: Advancing the Standard':'UML');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{UML-2000-HennickerK,
@@ -45,7 +45,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-40011-7_30">10.1007/3-540-40011-7_30</a>",
 </span>	editor     = "Andy Evans and Stuart Kent and Bran Selic",
 	pages      = "410--424",
-	publisher  = "{Springer}",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{A UML-based Methodology for Hypermedia Design}",
 	volume     = 1939,

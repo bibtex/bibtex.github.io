@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Sleepers:+A+Versatile+High-Level+Control+Mechanism%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-58402-1_22">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Symposium on Programming Language Implementation and Logic Programming':'PLILP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLILP-1994-CodognetCLQ,
 	author     = "Christian Codognet and Philippe Codognet and Vincenzo Loia and Michel Quaggetto",
-	booktitle  = "{Proceedings of the Sixth International Symposium on Programming Language Implementation and Logic Programming}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Symposium on Programming Language Implementation and Logic Programming</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-58402-1_22">10.1007/3-540-58402-1_22</a>",
 </span>	pages      = "308--323",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Sleepers: A Versatile High-Level Control Mechanism}",
+	volume     = 844,
 	year       = 1994,
 }</pre>
 </div>

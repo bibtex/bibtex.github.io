@@ -37,14 +37,15 @@
 <a href="http://dx.doi.org/10.1109/ASE.2003.1240318">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th IEEE International Conference on Automated Software Engineering':'ASE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2003-ArevaloDN03,
 	author     = "Gabriela Arévalo and Stéphane Ducasse and Oscar Nierstrasz",
-	booktitle  = "{Proceedings of the 18th IEEE International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 18th IEEE International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1109/ASE.2003.1240318">10.1109/ASE.2003.1240318</a>",
 </span>	pages      = "267--270",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{XRay Views: Understanding the Internals of Classes}",
 	year       = 2003,
 }</pre>

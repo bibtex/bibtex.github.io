@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploiting+Parallelism+in+Tabled+Evaluations%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0026817">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLILP-1995-FreireHSW,
@@ -44,7 +44,10 @@
 	booktitle  = "{Proceedings of the Seventh International Symposium on Programming Languages: Implementations, Logics and Programs}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/BFb0026817">10.1007/BFb0026817</a>",
 </span>	pages      = "115--132",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Exploiting Parallelism in Tabled Evaluations}",
+	volume     = 982,
 	year       = 1995,
 }</pre>
 </div>

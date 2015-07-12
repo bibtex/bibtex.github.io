@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Behavioral+Conformance+Verification+in+an+Integrated+Approach+Using+UML+and+B%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-40911-4_21">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Integrated Formal Methods':'IFM');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-2000-MeyerS,
 	author     = "Eric Meyer and Thomas Santen",
-	booktitle  = "{Proceedings of the Second International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Second International Conference on Integrated Formal Methods</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-40911-4_21">10.1007/3-540-40911-4_21</a>",
 </span>	pages      = "358--379",
+	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Behavioral Conformance Verification in an Integrated Approach Using UML and B}",
+	volume     = 1945,
 	year       = 2000,
 }</pre>
 </div>

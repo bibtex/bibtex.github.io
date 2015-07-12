@@ -37,15 +37,16 @@
 <a href="http://dx.doi.org/10.1145/2642937.2642978">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering':'ASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASE-2014-MatinnejadNBB14,
 	author     = "Reza Matinnejad and Shiva Nejati and Lionel C. Briand and Thomas Bruckmann",
-	booktitle  = "{Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1145/2642937.2642978">10.1145/2642937.2642978</a>",
 </span><span class="uri">	ee         = "<a href="http://doi.acm.org/10.1145/2642937.2642978">http://doi.acm.org/10.1145/2642937.2642978</a>",
 </span>	pages      = "163--174",
+	publisher  = "{ACM}",
 	title      = "{MiL testing of highly configurable continuous controllers: scalable search using surrogate models}",
 	year       = 2014,
 }</pre>

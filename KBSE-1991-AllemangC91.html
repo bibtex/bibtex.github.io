@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Functional+Representation+and+Program+Debugging%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1991-AllemangC91,
 	author     = "Dean Allemang and B. Chandrasekaran",
-	booktitle  = "{Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth Annual Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "136--143",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{Functional Representation and Program Debugging}",
 	year       = 1991,
 }</pre>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/iclp.png" alt="Live-Structure Analysis for Logic Programming Languages with Declarations" title="Live-Structure Analysis for Logic Programming Languages with Declarations" class="pad"/></a>
+	<a href="index.html"><img src="stuff/lp.png" alt="Live-Structure Analysis for Logic Programming Languages with Declarations" title="Live-Structure Analysis for Logic Programming Languages with Declarations" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,19 +30,20 @@
 
 </div>
 <div class="main">
-<h2>Maurice Bruynooghe, Gerda Janssens, Andreas Kågedal<br/><em>Live-Structure Analysis for Logic Programming Languages with Declarations</em><br/>ICLP, 1997.</h2>
+<h2>Maurice Bruynooghe, Gerda Janssens, Andreas Kågedal<br/><em>Live-Structure Analysis for Logic Programming Languages with Declarations</em><br/>LP, 1997.</h2>
 <div class="rbox">
 <strong><a href="ICLP-1997.html">ICLP 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/BruynoogheJK97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Live-Structure+Analysis+for+Logic+Programming+Languages+with+Declarations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICLP-1997-BruynoogheJK,
 	author     = "Maurice Bruynooghe and Gerda Janssens and Andreas Kågedal",
-	booktitle  = "{Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997}",
+	booktitle  = "{<span id="booktitle">Logic Programming, Proceedings of the Fourteenth International Conference on Logic Programming, Leuven, Belgium, July 8-11, 1997</span>}",
 	pages      = "33--47",
+	publisher  = "{MIT Press}",
 	title      = "{Live-Structure Analysis for Logic Programming Languages with Declarations}",
 	year       = 1997,
 }</pre>

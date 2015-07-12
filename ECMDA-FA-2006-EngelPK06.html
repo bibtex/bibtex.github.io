@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+a+Model+Merging+Language+for+Reconciling+Model+Versions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11787044_12">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMDA-FA-2006-EngelPK06,
@@ -44,7 +44,10 @@
 	booktitle  = "{ECMDA-FA}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/11787044_12">10.1007/11787044_12</a>",
 </span>	pages      = "143--157",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Using a Model Merging Language for Reconciling Model Versions}",
+	volume     = 4066,
 	year       = 2006,
 }</pre>
 </div>

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Eighth+International+Conference+on+Compiler+Construction%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/b72146">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{CC-1999,
@@ -44,7 +44,7 @@
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/b72146">10.1007/b72146</a>",
 </span>	editor     = "Stefan Jähnichen",
 <span id="isbn">	isbn       = "3-540-65717-7",
-</span>	publisher  = "{Springer}",
+</span>	publisher  = "{<span id="publisher">Springer-Verlag</span>}",
 	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Proceedings of the Eighth International Conference on Compiler Construction}",
 	volume     = 1575,

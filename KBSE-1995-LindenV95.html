@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Interface+Between+Different+Software+Development+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Knowledge-Based Software Engineering Conference':'KBSE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KBSE-1995-LindenV95,
 	author     = "Greger Lindén and A. Inkeri Verkamo",
-	booktitle  = "{Proceedings of the 10th Knowledge-Based Software Engineering Conference}",
+	booktitle  = "{<span id="booktitle">Proceedings of the 10th Knowledge-Based Software Engineering Conference</span>}",
 	pages      = "79--87",
+	publisher  = "{<span id="publisher">IEEE Computer Society</span>}",
 	title      = "{An Interface Between Different Software Development Environments}",
 	year       = 1995,
 }</pre>

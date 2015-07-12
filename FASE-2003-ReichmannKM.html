@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Overall+System+Design+Approach+Doing+Object-Oriented+Modeling+to+Code-Generation+for+Embedded+Electronic+Systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-36578-8_5">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FASE-2003-ReichmannKM,
 	author     = "Clemens Reichmann and Markus Kühl and Klaus D. Müller-Glaser",
-	booktitle  = "{Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Sixth International Conference on Fundamental Approaches to Software Engineering</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/3-540-36578-8_5">10.1007/3-540-36578-8_5</a>",
 </span>	pages      = "52--66",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{An Overall System Design Approach Doing Object-Oriented Modeling to Code-Generation for Embedded Electronic Systems}",
+	volume     = 2621,
 	year       = 2003,
 }</pre>
 </div>

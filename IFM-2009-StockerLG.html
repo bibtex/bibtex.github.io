@@ -36,15 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Parallel+Processes+with+Real-Time+and+Data:+The+ATLANTIF+Intermediate+Format%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-00255-7_7">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Integrated Formal Methods':'IFM');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer International Publishing':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IFM-2009-StockerLG,
 	author     = "Jan Stöcker and Frédéric Lang and Hubert Garavel",
-	booktitle  = "{Proceedings of the Seventh International Conference on Integrated Formal Methods}",
+	booktitle  = "{<span id="booktitle">Proceedings of the Seventh International Conference on Integrated Formal Methods</span>}",
 <span class="uri">	doi        = "<a href="http://dx.doi.org/10.1007/978-3-642-00255-7_7">10.1007/978-3-642-00255-7_7</a>",
 </span>	pages      = "88--102",
+	publisher  = "{<span id="publisher">Springer International Publishing</span>}",
+	series     = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title      = "{Parallel Processes with Real-Time and Data: The ATLANTIF Intermediate Format}",
+	volume     = 5423,
 	year       = 2009,
 }</pre>
 </div>

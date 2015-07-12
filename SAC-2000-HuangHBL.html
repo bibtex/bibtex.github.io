@@ -36,13 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Genome-wide+Polymerase+Chain+Reaction+Primer+Design%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'SAC (1)':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2000-HuangHBL,
 	author     = "Hai-Hui Huang and G. E. Hedrick and Robert Burnap and Haobo Liu",
-	booktitle  = "{SAC (1)}",
+	booktitle  = "{<span id="booktitle">SAC (1)</span>}",
 	pages      = "65--74",
+	publisher  = "{ACM}",
 	title      = "{Genome-wide Polymerase Chain Reaction Primer Design}",
 	year       = 2000,
 }</pre>
