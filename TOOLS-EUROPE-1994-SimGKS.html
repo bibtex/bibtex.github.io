@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Specification+of+a+Seamless+O-O+Programming+Interface+for+CAD+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1994-SimGKS,
-	author     = "Mattie Sim and W. Gerhardt and Peter Kist and N. Simon",
-	booktitle     = "{Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Mattie Sim and W. Gerhardt and Peter Kist and N. Simon",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "135--145",
 	publisher     = "{Prentice Hall}",
 	title         = "{The Specification of a Seamless O-O Programming Interface for CAD Tools}",

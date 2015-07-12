@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Object-Oriented+Specification+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1992-Lano,
-	author     = "Kevin Lano",
-	booktitle     = "{Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Kevin Lano",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "403",
 	publisher     = "{Prentice Hall}",
 	title         = "{Object-Oriented Specification Techniques}",

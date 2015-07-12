@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Operational+Metadata+System+for+C++%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1992-PauwWJ,
-	author     = "Peter-Alexander Pauw and Ronald Werring and Angelique Jansen",
-	booktitle     = "{Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Peter-Alexander Pauw and Ronald Werring and Angelique Jansen",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "215--223",
 	publisher     = "{Prentice Hall}",
 	title         = "{An Operational Metadata System for C++}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Deriving+a+Conceptual+Model:+a+Business+Forms+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Pacific');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-PACIFIC-1993-Jentzsch,
-	author     = "Ric Jentzsch",
-	booktitle     = "{Proceedings of the 12th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Ric Jentzsch",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "7--19",
 	publisher     = "{Prentice Hall}",
 	title         = "{Deriving a Conceptual Model: a Business Forms Approach}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Testing+Inheritance+Hierarchies+in+the+ClassBench+Framework%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/TOOLS.1998.750038">IEEE CS</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Pacific');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-PACIFIC-1998-McDonaldS,
-	author     = "Jason McDonald and Paul A. Strooper",
-	booktitle     = "{Proceedings of the 28th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Jason McDonald and Paul A. Strooper",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "229--None",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Testing Inheritance Hierarchies in the ClassBench Framework}",

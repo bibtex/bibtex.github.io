@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1109/TOOLS.2000.10012">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-2000-MoniqueG,
-	author     = "S. Monique and D. Guido",
-	booktitle     = "{Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "S. Monique and D. Guido",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/TOOLS.2000.10012">10.1109/TOOLS.2000.10012</a>",
 </span>	pages         = "458--459",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

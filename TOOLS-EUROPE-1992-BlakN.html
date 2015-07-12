@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22OO+Methods+and+Tools+for+Embedded+Applications,+The+Mjolner+BETA+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1992-BlakN,
-	author     = "Lars Blak and Jørgen Nørgaard",
-	booktitle     = "{Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Lars Blak and Jørgen Nørgaard",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "359--367",
 	publisher     = "{Prentice Hall}",
 	title         = "{OO Methods and Tools for Embedded Applications, The Mjolner BETA System}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Embedding+of+Rule-based+Expert+System+Capabilities+in+Object-Oriented+Applications+by+Using+or+Simulating+Active+Behaviour%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1994-RuperezJA,
-	author     = "Ray Fernández Ruperez and Craig Jones and José Ramón Zubizarreta Aizpuru",
-	booktitle     = "{Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Ray Fernández Ruperez and Craig Jones and José Ramón Zubizarreta Aizpuru",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "315--327",
 	publisher     = "{Prentice Hall}",
 	title         = "{Embedding of Rule-based Expert System Capabilities in Object-Oriented Applications by Using or Simulating Active Behaviour}",

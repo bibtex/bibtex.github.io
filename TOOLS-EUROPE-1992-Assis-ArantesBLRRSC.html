@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Application+of+the+Object+Paradigm+in+Satellite+Checkout+and+Payload+Operations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1992-Assis-ArantesBLRRSC,
-	author     = "Patrick Assis-Arantes and Eric Bernard and Guy Leonis and Thierry Racaud and John Reynolds and Rowena Smillie and Nathalie Carn",
-	booktitle     = "{Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Patrick Assis-Arantes and Eric Bernard and Guy Leonis and Thierry Racaud and John Reynolds and Rowena Smillie and Nathalie Carn",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "311--323",
 	publisher     = "{Prentice Hall}",
 	title         = "{Application of the Object Paradigm in Satellite Checkout and Payload Operations}",

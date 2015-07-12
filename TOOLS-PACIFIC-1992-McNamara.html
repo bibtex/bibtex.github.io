@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Objects+in+Context:+the+Use+of+Scope+in+Object-Oriented+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Pacific');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-PACIFIC-1992-McNamara,
-	author     = "Alan R. McNamara",
-	booktitle     = "{Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Alan R. McNamara",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "205--211",
 	publisher     = "{Prentice Hall}",
 	title         = "{Objects in Context: the Use of Scope in Object-Oriented Development}",

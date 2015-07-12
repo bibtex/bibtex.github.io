@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Theoretical+Basis+of+Object-Oriented+Methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1992-Mitchell,
-	author     = "John Mitchell",
-	booktitle     = "{Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "John Mitchell",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "272",
 	publisher     = "{Prentice Hall}",
 	title         = "{Theoretical Basis of Object-Oriented Methods}",

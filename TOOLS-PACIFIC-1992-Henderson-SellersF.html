@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22OLMS+—+An+Object+Library+Management+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Pacific');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-PACIFIC-1992-Henderson-SellersF,
-	author     = "Brian Henderson-Sellers and Colin Freeman",
-	booktitle     = "{Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Brian Henderson-Sellers and Colin Freeman",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "175--180",
 	publisher     = "{Prentice Hall}",
 	title         = "{OLMS — An Object Library Management System}",

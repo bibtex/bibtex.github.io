@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Overview+and+Progress+Report+of+the+ESSE+Project:+Supporting+Object-Oriented+Database+Schema+Analysis+and+Evolution%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1993-CattaneoCLZ,
-	author     = "Fabiano Cattaneo and Alberto Coen-Porisini and Luigi Lavazza and Roberto Zicari",
-	booktitle     = "{Proceedings of the 10th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Fabiano Cattaneo and Alberto Coen-Porisini and Luigi Lavazza and Roberto Zicari",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "63--74",
 	publisher     = "{Prentice Hall}",
 	title         = "{Overview and Progress Report of the ESSE Project: Supporting Object-Oriented Database Schema Analysis and Evolution}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Interconnecting+Objects+via+Contracts%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/TOOLS.2001.911771">IEEE CS</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 38th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-2001-FiadeiroA,
-	author     = "José Luiz Fiadeiro and Luis Filipe Andrade",
-	booktitle     = "{Proceedings of the 38th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "José Luiz Fiadeiro and Luis Filipe Andrade",
+	booktitle     = "{<span id="booktitle">Proceedings of the 38th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "182--183",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Interconnecting Objects via Contracts}",

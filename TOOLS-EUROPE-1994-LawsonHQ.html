@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Potential+For+Reverse+Type+Inheritance+in+Eiffel%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-1994-LawsonHQ,
-	author     = "Ted Lawson and Christine Hollinshead and Munib Qutaishat",
-	booktitle     = "{Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Ted Lawson and Christine Hollinshead and Munib Qutaishat",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "349--357",
 	publisher     = "{Prentice Hall}",
 	title         = "{The Potential For Reverse Type Inheritance in Eiffel}",

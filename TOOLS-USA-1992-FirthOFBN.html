@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+a+software+development+environment+using+object-oriented+technology%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1992-FirthOFBN,
-	author     = "M. A. Firth and M. H. O'Docherty and Robert E. Fields and S. K. Bechofer and T. C. Nash",
-	booktitle     = "{Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "M. A. Firth and M. H. O'Docherty and Robert E. Fields and S. K. Bechofer and T. C. Nash",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "41--49",
 	publisher     = "{Prentice Hall}",
 	title         = "{Improving a software development environment using object-oriented technology}",

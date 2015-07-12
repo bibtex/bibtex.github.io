@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MERCY-High+Level+Control+for+Declarative+User+Interface+Specification%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1991-StaryM,
-	author     = "Christian Stary and Klaudius J. Messner",
-	booktitle     = "{Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Christian Stary and Klaudius J. Messner",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "281--290",
 	publisher     = "{Prentice Hall}",
 	title         = "{MERCY-High Level Control for Declarative User Interface Specification}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+Visualisations+with+Ownership+Trees%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/TOOLS.2000.891370">IEEE CS</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 37th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Pacific');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-PACIFIC-2000-HillNP,
-	author     = "Trent Hill and James Noble and John Potter",
-	booktitle     = "{Proceedings of the 37th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Trent Hill and James Noble and John Potter",
+	booktitle     = "{<span id="booktitle">Proceedings of the 37th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "202--213",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Scalable Visualisations with Ownership Trees}",

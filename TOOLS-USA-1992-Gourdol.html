@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Object-Oriented+Design+for+User+Interfaces%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1992-Gourdol,
-	author     = "Arno P. J. Gourdol",
-	booktitle     = "{Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Arno P. J. Gourdol",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "267",
 	publisher     = "{Prentice Hall}",
 	title         = "{Object-Oriented Design for User Interfaces}",

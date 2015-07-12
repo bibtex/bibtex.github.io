@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Role-Based+Database+Designing+for+Managing+Complex+Objects+and+Their+Relationships+on+the+Web%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/TOOLS.2000.885920">IEEE CS</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 36th International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Asia');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-ASIA-2000-ZhangFZ,
-	author     = "Yong Zhang and Jianhua Feng and Lizhu Zhou",
-	booktitle     = "{Proceedings of the 36th International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Yong Zhang and Jianhua Feng and Lizhu Zhou",
+	booktitle     = "{<span id="booktitle">Proceedings of the 36th International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "212--219",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Role-Based Database Designing for Managing Complex Objects and Their Relationships on the Web}",

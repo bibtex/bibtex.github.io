@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparative+Case+Study+in+SDL+and+UML%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/TOOLS.2000.848756">IEEE CS</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS Europe');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-EUROPE-2000-LeblancO,
-	author     = "Philippe Leblanc and Ileana Ober",
-	booktitle     = "{Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "Philippe Leblanc and Ileana Ober",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "120--131",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Comparative Case Study in SDL and UML}",

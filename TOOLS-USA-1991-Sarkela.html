@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Smalltalk/V+An+Introduction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems':'TOOLS USA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TOOLS-USA-1991-Sarkela,
-	author     = "John Sarkela",
-	booktitle     = "{Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems}",
+	author        = "John Sarkela",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Technology of Object-Oriented Languages and Systems</span>}",
 	pages         = "433--434",
 	publisher     = "{Prentice Hall}",
 	title         = "{Smalltalk/V An Introduction}",
