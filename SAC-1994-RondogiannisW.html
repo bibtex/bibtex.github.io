@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/326619.326803">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-1994-RondogiannisW,
 	author        = "<a href="person/Panos_Rondogiannis.html">Panos Rondogiannis</a> and <a href="person/William_W_Wadge.html">William W. Wadge</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/326619.326803">10.1145/326619.326803</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/326619.326803">http://doi.acm.org/10.1145/326619.326803</a>",
 </span>	pages         = "431--435",
@@ -53,6 +53,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li><a href="tag/data%20flow.html">data flow</a></li>
+<li><a href="tag/hardware.html">hardware</a></li>
 <li><a href="tag/higher-order.html">higher-order</a></li>
 <li><a href="tag/implementation.html">implementation</a></li></ul><hr/>
 </div>

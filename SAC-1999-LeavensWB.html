@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/298151.298433">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-1999-LeavensWB,
 	author        = "<a href="person/Gary_T_Leavens.html">Gary T. Leavens</a> and <a href="person/Tim_Wahls.html">Tim Wahls</a> and <a href="person/Albert_L_Baker.html">Albert L. Baker</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/298151.298433">10.1145/298151.298433</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/298151.298433">http://doi.acm.org/10.1145/298151.298433</a>",
 </span>	pages         = "526--532",
@@ -53,6 +53,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li><a href="tag/data%20flow.html">data flow</a></li>
+<li><a href="tag/diagrams.html">diagrams</a></li>
 <li><a href="tag/semantics.html">semantics</a></li>
 <li><a href="tag/specification.html">specification</a></li></ul><hr/>
 </div>

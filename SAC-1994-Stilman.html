@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/326619.326748">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-1994-Stilman,
 	author        = "<a href="person/Boris_Stilman.html">Boris Stilman</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/326619.326748">10.1145/326619.326748</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/326619.326748">http://doi.acm.org/10.1145/326619.326748</a>",
 </span>	pages         = "281--285",
@@ -52,7 +52,7 @@
 }</pre>
 </div>
 <hr/>
-
+<h3>Tags:</h3><ul class="tri"><li><a href="tag/geometry.html">geometry</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

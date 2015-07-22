@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/298151.298384">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-1999-DunningR,
 	author        = "<a href="person/Larry_A_Dunning.html">Larry A. Dunning</a> and <a href="person/Sub_Ramakrishnan.html">Sub Ramakrishnan</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/298151.298384">10.1145/298151.298384</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/298151.298384">http://doi.acm.org/10.1145/298151.298384</a>",
 </span>	pages         = "358--364",
@@ -52,7 +52,8 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li><a href="tag/optimisation.html">optimisation</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li><a href="tag/estimation.html">estimation</a></li>
+<li><a href="tag/optimisation.html">optimisation</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

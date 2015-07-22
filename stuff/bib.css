@@ -4,10 +4,13 @@
 .minibar div {height: 70px; position: relative; float:left; margin-right:2px;}
 .minibar div abbr {position: absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
 .minibar>img, .minibar>a>img {margin:2px;}
+.txt {float:left; background-color: #90A4AE; width:310px; margin: 10px;
+	height:140px; position: relative; border: solid #90A4AE 5px; overflow: hidden}
+.txt * {margin: 0;}
 .pic {float:left; background: #212121; width:150px; margin: 10px;
 	height:150px; position: relative;}
 .pic img {border:0px; width:150px; height:150px;}
-.pic h2 {position: absolute; top:90px; left:5px; color:#ECEFF1; font-weight:bold;
+.pic h2{position: absolute; top:90px; left:5px; color:#ECEFF1; font-weight:bold;
 text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 font-family: "Impact"; font-size: 200%}
 .pic:hover img {opacity: 0.7;}

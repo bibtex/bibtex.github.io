@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/315891.315941">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-1995-BowmanD,
 	author        = "<a href="person/Howard_Bowman.html">Howard Bowman</a> and <a href="person/John_Derrick.html">John Derrick</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/315891.315941">10.1145/315891.315941</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/315891.315941">http://doi.acm.org/10.1145/315891.315941</a>",
 </span>	pages         = "147--151",
