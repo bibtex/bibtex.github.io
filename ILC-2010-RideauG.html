@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1869643.1869648">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Lisp Conference':'ILC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILC-2010-RideauG,
 	author        = "<a href="person/Francois-Rene_Rideau.html">Francois-René Rideau</a> and <a href="person/Robert_P_Goldman.html">Robert P. Goldman</a>",
-	booktitle     = "{ILC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Lisp Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1869643.1869648">10.1145/1869643.1869648</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1869643.1869648">http://doi.acm.org/10.1145/1869643.1869648</a>",
 </span>	pages         = "29--42",

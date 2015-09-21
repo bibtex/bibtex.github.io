@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Order-of-evaluation+Analysis+for+Destructive+Updates+in+Strict+Functional+Languages+with+Flat+Aggregates%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1993-SastryCA,
 	author        = "<a href="person/A_V_S_Sastry.html">A. V. S. Sastry</a> and <a href="person/William_D_Clinger.html">William D. Clinger</a> and <a href="person/Zena_M_Ariola.html">Zena M. Ariola</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "266--275",
 	publisher     = "{ACM Press}",
 	title         = "{Order-of-evaluation Analysis for Destructive Updates in Strict Functional Languages with Flat Aggregates}",

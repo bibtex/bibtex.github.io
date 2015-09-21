@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Safe+Polymorphic+Type+Inference+for+Scheme:+Translating+Scheme+to+ML%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-HengleinR,
 	author        = "<a href="person/Fritz_Henglein.html">Fritz Henglein</a> and <a href="person/Jakob_Rehof.html">Jakob Rehof</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "192--203",
 	publisher     = "{ACM Press}",
 	title         = "{Safe Polymorphic Type Inference for Scheme: Translating Scheme to ML}",

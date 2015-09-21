@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Relation+between+Functional+and+Data+Parallel+Programming+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1993-HammarlundL,
 	author        = "<a href="person/P_Hammarlund.html">P. Hammarlund</a> and <a href="person/Bjoern_Lisper.html">Björn Lisper</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "210--222",
 	publisher     = "{ACM Press}",
 	title         = "{On the Relation between Functional and Data Parallel Programming Languages}",

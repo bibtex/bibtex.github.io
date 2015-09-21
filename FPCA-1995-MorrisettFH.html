@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Abstract+Models+of+Memory+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-MorrisettFH,
 	author        = "<a href="person/J_Gregory_Morrisett.html">J. Gregory Morrisett</a> and <a href="person/Matthias_Felleisen.html">Matthias Felleisen</a> and <a href="person/Robert_Harper.html">Robert Harper</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "66--77",
 	publisher     = "{ACM Press}",
 	title         = "{Abstract Models of Memory Management}",

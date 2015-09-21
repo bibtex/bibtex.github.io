@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/99370.99382">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1989-BjernerH,
 	author        = "<a href="person/Bror_Bjerner.html">Bror Bjerner</a> and <a href="person/S_Holmstroem.html">S. Holmström</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth Conference on Functional Programming Languages and Computer Architecture</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/99370.99382">10.1145/99370.99382</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/99370.99382">http://doi.acm.org/10.1145/99370.99382</a>",
 </span>	pages         = "157--165",

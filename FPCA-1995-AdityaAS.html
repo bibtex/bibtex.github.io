@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantics+of+Barriers+in+a+Non-Strict,+Implicitly-Parallel+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-AdityaAS,
 	author        = "<a href="person/Shail_Aditya.html">Shail Aditya</a> and <a href="person/Arvind.html">Arvind</a> and <a href="person/Joseph_E_Stoy.html">Joseph E. Stoy</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "204--215",
 	publisher     = "{ACM Press}",
 	title         = "{Semantics of Barriers in a Non-Strict, Implicitly-Parallel Language}",

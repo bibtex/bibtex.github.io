@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Deriving+Imperative+Code+from+Functional+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-QuintonRW,
 	author        = "<a href="person/Patrice_Quinton.html">Patrice Quinton</a> and <a href="person/Sanjay_V_Rajopadhye.html">Sanjay V. Rajopadhye</a> and <a href="person/Doran_Wilde.html">Doran Wilde</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "36--44",
 	publisher     = "{ACM Press}",
 	title         = "{Deriving Imperative Code from Functional Programs}",

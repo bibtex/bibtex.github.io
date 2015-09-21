@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Functional+Side+of+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-Marchiori,
 	author        = "<a href="person/Massimo_Marchiori.html">Massimo Marchiori</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "55--65",
 	publisher     = "{ACM Press}",
 	title         = "{The Functional Side of Logic Programming}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Lambdas+in+the+Liftshaft+—+Functional+Programming+and+an+Embedded+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-WallaceR,
 	author        = "<a href="person/Malcolm_Wallace.html">Malcolm Wallace</a> and <a href="person/Colin_Runciman.html">Colin Runciman</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "249--258",
 	publisher     = "{ACM Press}",
 	title         = "{Lambdas in the Liftshaft — Functional Programming and an Embedded Architecture}",

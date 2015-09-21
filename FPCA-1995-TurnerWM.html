@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Once+Upon+a+Type%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1995-TurnerWM,
 	author        = "<a href="person/David_N_Turner.html">David N. Turner</a> and <a href="person/Philip_Wadler.html">Philip Wadler</a> and <a href="person/Christian_Mossin.html">Christian Mossin</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Conference Record of the Seventh SIGPLAN-SIGARCH-WG2.8 Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "1--11",
 	publisher     = "{ACM Press}",
 	title         = "{Once Upon a Type}",

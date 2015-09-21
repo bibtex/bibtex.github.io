@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Refinement+Calculus%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Symposium on Vienna Development Method: Formal Software Development. Volume 2: Tutorials':'VDM Europe (2)');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VDME-1991-2-Woodcock91a,
 	author        = "<a href="person/Jim_Woodcock.html">Jim Woodcock</a>",
-	booktitle     = "{VDM Europe (2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Symposium on Vienna Development Method: Formal Software Development. Volume 2: Tutorials</span>}",
 	pages         = "80--95",
 	publisher     = "{<span id="publisher">Springer-Verlag</span>}",
 	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",

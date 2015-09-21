@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Benchmarking+Implementations+of+Lazy+Functional+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1993-HartelL,
 	author        = "<a href="person/Pieter_H_Hartel.html">Pieter H. Hartel</a> and <a href="person/Koen_Langendoen.html">Koen Langendoen</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "341--349",
 	publisher     = "{ACM Press}",
 	title         = "{Benchmarking Implementations of Lazy Functional Languages}",
@@ -49,7 +49,8 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li><a href="tag/functional.html">functional</a></li>
+<h3>Tags:</h3><ul class="tri"><li><a href="tag/benchmark.html">benchmark</a></li>
+<li><a href="tag/functional.html">functional</a></li>
 <li><a href="tag/implementation.html">implementation</a></li>
 <li><a href="tag/lazy%20evaluation.html">lazy evaluation</a></li>
 <li><a href="tag/metric.html">metric</a></li></ul><hr/>

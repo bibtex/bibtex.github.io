@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Real-Time+Deques,+Multihead+Thring+Machines,+and+Purely+Functional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture':'FPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FPCA-1993-ChuangG,
 	author        = "<a href="person/Tyng-Ruey_Chuang.html">Tyng-Ruey Chuang</a> and <a href="person/Benjamin_Goldberg.html">Benjamin Goldberg</a>",
-	booktitle     = "{FPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Conference on Functional Programming Languages and Computer Architecture</span>}",
 	pages         = "289--298",
 	publisher     = "{ACM Press}",
 	title         = "{Real-Time Deques, Multihead Thring Machines, and Purely Functional Programming}",

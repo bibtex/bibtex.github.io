@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1622123.1622146">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Lisp Conference':'ILC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILC-2007-HiraishiYY,
 	author        = "<a href="person/Tasuku_Hiraishi.html">Tasuku Hiraishi</a> and <a href="person/Masahiro_Yasugi.html">Masahiro Yasugi</a> and <a href="person/Taiichi_Yuasa.html">Taiichi Yuasa</a>",
-	booktitle     = "{ILC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Lisp Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1622123.1622146">10.1145/1622123.1622146</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1622123.1622146">http://doi.acm.org/10.1145/1622123.1622146</a>",
 </span>	pages         = "20",
