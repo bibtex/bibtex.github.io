@@ -22,7 +22,7 @@ font-family: "Impact"; font-size: 200%}
 .pic:hover img {opacity: 0.7;}
 .pagevis {height: 5px; background: white; float:left; top:5px; position: relative; left:5px;}
 .toc dd{float:left;}
-.toc dt img{width: 20px; margin-right: 5px}
+.toc dt img, .main dl dd img{width: 20px; margin-right: 5px}
 .sm img {margin:5px}
 div.fig {float:right}
 div.fig img {border:0px}
