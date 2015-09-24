@@ -10,7 +10,7 @@
 .lespic {float:left; background: #212121; width:65px; margin: 10px;
 	height:65px; position: relative;}
 .lespic img {border:0px; width:65px; height:65px;}
-.pic {float:left; background: #212121; width:150px; margin: 10px;
+.pic {float:left; width:150px; margin: 10px;
 	height:150px; position: relative;}
 .pic img {border:0px; width:150px; height:150px;}
 .lespic h2{top:10px; left:5px; visibility: hidden}
@@ -19,7 +19,7 @@
 .pic h2, .lespic h2{position: absolute; color:#ECEFF1; font-weight:bold;
 text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 font-family: "Impact"; font-size: 200%}
-.pic:hover img {opacity: 0.7;}
+.pic:hover img {opacity: 0.5;}
 .pagevis {height: 5px; background: white; float:left; top:5px; position: relative; left:5px;}
 .toc dd{float:left;}
 .toc dt img, .main dl dd img{width: 20px; margin-right: 5px}
