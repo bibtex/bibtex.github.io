@@ -42,14 +42,16 @@ ul ul {padding-top:10px; padding-bottom:10px}
 .tbox em {color:green}
 .tbox code {font-weight:bold; font-family: "Exo 2", sans-serif; font-size: 125%}
 .tbox img {width:1em}
-.rbox {border:1px solid black; float:right; width:130px; text-align:center}
+.rbox {border:1px solid black; float:right; min-width:130px; text-align:center}
 .rbox * {padding:5px}
+.rbox span {padding:0px}
 pre {border-top:1px solid black}
 dt {font-weight:bold; clear:left}
 .toc a:link, .toc a:visited {color:#600}
 ul.tri {list-style:none}
 ul.tri li:before {content:"‣ "}
-.tag a:link, .tag a:visited {color:#388E3C; margin:10px; text-decoration:none}
+.tag a:link, .tag a:visited {color:#388E3C; font-weight:bold; text-decoration:none}
+dt .tag{margin:10px;}
 .ttl {font-variant:small-caps; color:red}
 .mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px}
 .icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red}
