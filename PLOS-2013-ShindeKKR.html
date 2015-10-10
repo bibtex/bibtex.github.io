@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2525528.2525532">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'PLOS@SOSP':'PLOS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLOS-2013-ShindeKKR,
 	author        = "<a href="person/Pravin_Shinde.html">Pravin Shinde</a> and <a href="person/Antoine_Kaufmann.html">Antoine Kaufmann</a> and <a href="person/Kornilios_Kourtis.html">Kornilios Kourtis</a> and <a href="person/Timothy_Roscoe.html">Timothy Roscoe</a>",
-	booktitle     = "{PLOS@SOSP}",
+	booktitle     = "{<span id="booktitle">PLOS@SOSP</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2525528.2525532">10.1145/2525528.2525532</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2525528.2525532">http://doi.acm.org/10.1145/2525528.2525532</a>",
 </span>	pages         = "6",

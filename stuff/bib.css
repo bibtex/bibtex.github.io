@@ -4,6 +4,7 @@
 .minibar div {height: 70px; position: relative; float:left; margin-right:2px;}
 .minibar div abbr {position: absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
 .minibar>img, .minibar>a>img {margin:2px;}
+.wider>a>img {margin-right:40px;}
 .txt {float:left; background-color: #90A4AE; width:310px; margin: 10px;
 	height:140px; position: relative; border: solid #90A4AE 5px; overflow: hidden}
 .txt * {margin: 0;}
