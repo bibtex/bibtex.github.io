@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Building+A+Smarter+Planet+With+University+Collaboration:+Empowering+People+Through+Information+Integration%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-Cheng,
 	author        = "<a href="person/Josephine_M_Cheng.html">Josephine M. Cheng</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "2",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Building A Smarter Planet With University Collaboration: Empowering People Through Information Integration}",

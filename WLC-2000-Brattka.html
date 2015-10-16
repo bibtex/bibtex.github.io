@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Emperor’s+New+Recursiveness:+The+Epigraph+of+the+Exponential+Function+in+Two+Models+of+Computability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-Brattka,
 	author        = "<a href="person/Vasco_Brattka.html">Vasco Brattka</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "63--72",
 	publisher     = "{World Scientific}",
 	title         = "{The Emperor’s New Recursiveness: The Epigraph of the Exponential Function in Two Models of Computability}",

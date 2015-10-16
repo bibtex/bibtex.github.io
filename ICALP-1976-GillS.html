@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ink,+Dirty-Tape+Turing+Machines,+and+Quasicomplexity+Measures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-GillS,
 	author        = "<a href="person/John_Gill.html">John Gill</a> and <a href="person/Istvan_Simon.html">István Simon</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "285--306",
 	title         = "{Ink, Dirty-Tape Turing Machines, and Quasicomplexity Measures}",
 	year          = 1976,

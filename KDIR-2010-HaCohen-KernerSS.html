@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Identification+of+Biblical+Quotations+in+Hebrew-Aramaic+Documents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-HaCohen-KernerSS,
 	author        = "Yaakov HaCohen-Kerner and Nadav Schweitzer and Yaakov Shoham",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "320--325",
 	publisher     = "{SciTePress}",
 	title         = "{Automatic Identification of Biblical Quotations in Hebrew-Aramaic Documents}",

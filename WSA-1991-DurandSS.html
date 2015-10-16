@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Partial+Evaluation+of+an+Intermediate+Language+for+Equational+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Static Analysis at JTASPEFL in Bordeaux':'JTASPEFL/WSA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WSA-1991-DurandSS,
 	author        = "<a href="person/Irene_Durand.html">Irène Durand</a> and <a href="person/David_Sherman.html">David Sherman</a> and <a href="person/Robert_Strandh.html">Robert Strandh</a>",
-	booktitle     = "{JTASPEFT/WSA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Workshop on Static Analysis at JTASPEFL in Bordeaux</span>}",
 	pages         = "98--106",
 	publisher     = "{Atelier Irisa, IRISA, Campus de Beaulieu}",
 	series        = "{Series Bigre}",

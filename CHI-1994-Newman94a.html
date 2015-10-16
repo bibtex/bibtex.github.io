@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Preliminary+Analysis+of+the+Products+of+HCI+Research,+Using+Pro+Forma+Abstracts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-1994-Newman94a,
 	author        = "William Newman",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 	pages         = "278--284",
 	publisher     = "{ACM}",
 	title         = "{A Preliminary Analysis of the Products of HCI Research, Using Pro Forma Abstracts}",

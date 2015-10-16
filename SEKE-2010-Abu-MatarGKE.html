@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Feature+Modeling+for+Service+Variability+Management+in+Service-Oriented+Architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-Abu-MatarGKE,
 	author        = "<a href="person/Mohammad_Abu-Matar.html">Mohammad Abu-Matar</a> and <a href="person/Hassan_Gomaa.html">Hassan Gomaa</a> and <a href="person/Minseong_Kim.html">Minseong Kim</a> and <a href="person/Ahmed_M_Elkhodary.html">Ahmed M. Elkhodary</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "468--473",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Feature Modeling for Service Variability Management in Service-Oriented Architectures}",

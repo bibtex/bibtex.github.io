@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Associative+program+retrieval+using+partially-ordered+behavioral+abstractions+of+a+program%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-SuzukiT,
 	author        = "<a href="person/Hideaki_Suzuki.html">Hideaki Suzuki</a> and <a href="person/Naohisa_Takahashi.html">Naohisa Takahashi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "395--404",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Associative program retrieval using partially-ordered behavioral abstractions of a program}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Class+Hierarchy+Management+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-Hassanein,
 	author        = "<a href="person/Ehab_Hassanein.html">Ehab Hassanein</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "38--44",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Class Hierarchy Management System}",

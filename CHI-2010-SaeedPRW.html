@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1753326.1753406">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2010-SaeedPRW,
 	author        = "Saqib Saeed and Volkmar Pipek and Markus Rohde and <a href="person/Volker_Wulf.html">Volker Wulf</a>",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1753326.1753406">10.1145/1753326.1753406</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1753326.1753406">http://doi.acm.org/10.1145/1753326.1753406</a>",
 </span>	pages         = "537--546",

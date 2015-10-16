@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/358818.358821">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1979-CanonFHHMR80,
 	author        = "<a href="person/M_D_Canon.html">M. D. Canon</a> and <a href="person/D_H_Fritz.html">D. H. Fritz</a> and <a href="person/John_H_Howard.html">John H. Howard</a> and <a href="person/T_D_Howell.html">T. D. Howell</a> and <a href="person/Michael_F_Mitoma.html">Michael F. Mitoma</a> and <a href="person/Juan_Rodriguez-Rossel.html">Juan Rodriguez-Rossel</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/358818.358821">10.1145/358818.358821</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/358818.358821">http://doi.acm.org/10.1145/358818.358821</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 2,
 	pages         = "71--80",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{A Virtual Machine Emulator for Performance Evaluation}",
 	volume        = 23,
 	year          = 1980,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22LSA-based+Semantic+Representation+of+Action+Games%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-KermanidisA,
 	author        = "Katia Lida Kermanidis and Kostas Anagnostou",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "218--223",
 	publisher     = "{SciTePress}",
 	title         = "{LSA-based Semantic Representation of Action Games}",

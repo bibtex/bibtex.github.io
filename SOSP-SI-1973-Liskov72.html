@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/361268.361272">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1973-Liskov72,
 	author        = "<a href="person/Barbara_Liskov.html">Barbara Liskov</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/361268.361272">10.1145/361268.361272</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/361268.361272">http://doi.acm.org/10.1145/361268.361272</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 3,
 	pages         = "144--149",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{The Design of the Venus Operating System}",
 	volume        = 15,
 	year          = 1972,

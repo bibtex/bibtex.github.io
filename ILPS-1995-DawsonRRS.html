@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimizing+Clause+Resolution:+Beyond+Unification+Factoring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-DawsonRRS,
 	author        = "<a href="person/Steven_Dawson.html">Steven Dawson</a> and <a href="person/C_R_Ramakrishnan.html">C. R. Ramakrishnan</a> and <a href="person/I_V_Ramakrishnan.html">I. V. Ramakrishnan</a> and <a href="person/Terrance_Swift.html">Terrance Swift</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "194--208",
 	publisher     = "{MIT Press}",
 	title         = "{Optimizing Clause Resolution: Beyond Unification Factoring}",

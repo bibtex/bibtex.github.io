@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrating+Random+Testing+with+Constraints+for+Improved+Efficiency+and+Diversity%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-CheonCLC,
 	author        = "<a href="person/Yoonsik_Cheon.html">Yoonsik Cheon</a> and <a href="person/Antonio_Cortes.html">Antonio Cortes</a> and <a href="person/Gary_T_Leavens.html">Gary T. Leavens</a> and <a href="person/Martine_Ceberio.html">Martine Ceberio</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "861--866",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Integrating Random Testing with Constraints for Improved Efficiency and Diversity}",

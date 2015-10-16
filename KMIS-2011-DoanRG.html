@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Reference+Model+for+Knowledge+Retention+within+Small+and+Medium-sized+Enterprises%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-DoanRG,
 	author        = "Quang Minh Doan and Camille Rosenthal-Sabroux and Michel Grundstein",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "306--311",
 	publisher     = "{SciTePress}",
 	title         = "{A Reference Model for Knowledge Retention within Small and Medium-sized Enterprises}",

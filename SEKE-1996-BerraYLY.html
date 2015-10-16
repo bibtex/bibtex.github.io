@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Version+Management+in+Structured+Document+Retrieval+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-BerraYLY,
 	author        = "<a href="person/P_Bruce_Berra.html">P. Bruce Berra</a> and <a href="person/Seong-Joon_Yoo.html">Seong-Joon Yoo</a> and <a href="person/Yong_Kyu_Lee.html">Yong Kyu Lee</a> and <a href="person/Kyoungro_Yoon.html">Kyoungro Yoon</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "537--544",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Version Management in Structured Document Retrieval Systems}",

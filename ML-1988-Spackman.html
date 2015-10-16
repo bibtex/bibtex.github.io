@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+Categorical+Decision+Criteria+in+Biomedical+Domains%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1988-Spackman,
 	author        = "Kent A. Spackman",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Workshop on Machine Learning</span>}",
 	pages         = "36--46",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Learning Categorical Decision Criteria in Biomedical Domains}",

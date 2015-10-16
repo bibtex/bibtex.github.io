@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MultiLabel+Classification+on+Tree-+and+DAG-Structured+Hierarchies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-BiK,
 	author        = "Wei Bi and James T. Kwok",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "17--24",
 	publisher     = "{Omnipress}",
 	title         = "{MultiLabel Classification on Tree- and DAG-Structured Hierarchies}",

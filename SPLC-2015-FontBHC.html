@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2791060.2793678">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Software Product Line Conference':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2015-FontBHC,
 	author        = "Jaime Font and Manuel Ballarín and <a href="person/Oystein_Haugen.html">Øystein Haugen</a> and Carlos Cetina",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Software Product Line Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2791060.2793678">10.1145/2791060.2793678</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2791060.2793678">http://doi.acm.org/10.1145/2791060.2793678</a>",
 </span>	pages         = "411--418",

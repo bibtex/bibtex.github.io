@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Second+Workshop+on+the+Analysis+of+Model+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{AMT-2013,
@@ -44,7 +44,7 @@
 	booktitle     = "{AMT}",
 	editor        = "<a href="person/Benoit_Baudry.html">Benoit Baudry</a> and <a href="person/Juergen_Dingel.html">Jürgen Dingel</a> and Levi Lúcio and <a href="person/Hans_Vangheluwe.html">Hans Vangheluwe</a>",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Proceedings of the Second Workshop on the Analysis of Model Transformations}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1077/">http://ceur-ws.org/Vol-1077/</a>",
 </span>	urn           = "urn:nbn:de:0074-1077-8",

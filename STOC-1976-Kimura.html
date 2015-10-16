@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800113.803636">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1976-Kimura,
 	author        = "Takayuki Kimura",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800113.803636">10.1145/800113.803636</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800113.803636">http://doi.acm.org/10.1145/800113.803636</a>",
 </span>	pages         = "92--100",
@@ -54,8 +54,7 @@
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/algebra.html">#algebra</a></li>
 <li class="tag"><a href="tag/communication.html">#communication</a></li>
-<li class="tag"><a href="tag/process.html">#process</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/process.html">#process</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

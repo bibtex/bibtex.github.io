@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+the+Performance+of+Inconsistent+Knowledge+Bases+via+Combined+Optimization+Method%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1991-MaW,
 	author        = "Yong Ma and David C. Wilkins",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Machine Learning</span>}",
 	pages         = "23--27",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Improving the Performance of Inconsistent Knowledge Bases via Combined Optimization Method}",

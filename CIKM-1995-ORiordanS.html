@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221569">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-ORiordanS,
 	author        = "Adrian O'Riordan and <a href="person/Humphrey_Sorensen.html">Humphrey Sorensen</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P205.pdf",
 	cite          = "['journals/cacm/BelkinC92', 'conf/sigir/Belew89', '...', '...', 'journals/cacm/EtzioniW94', '...', '...', 'conf/trec/Harman94', 'conf/sigir/Kwok89', '...', '...', 'journals/cacm/Maes94', '...', 'conf/sigir/Paice94', '...', 'journals/cacm/SaltonFW83', 'books/mg/SaltonG83', 'journals/tois/TurtleC91', 'conf/icde/YanG94']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221569">10.1145/221270.221569</a>",

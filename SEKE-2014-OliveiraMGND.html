@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Extensible+Framework+to+Implement+Test+Oracle+for+Non-Testable+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-OliveiraMGND,
 	author        = "<a href="person/Rafael_A_P_Oliveira.html">Rafael A. P. Oliveira</a> and <a href="person/Atif_M_Memon.html">Atif M. Memon</a> and <a href="person/Victor_N_Gil.html">Victor N. Gil</a> and <a href="person/Fatima_L_S_Nunes.html">Fátima L. S. Nunes</a> and <a href="person/Marcio_Eduardo_Delamaro.html">Márcio Eduardo Delamaro</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "199--204",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Extensible Framework to Implement Test Oracle for Non-Testable Programs}",

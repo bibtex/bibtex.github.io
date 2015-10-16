@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1031607.1031612">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2004-ChengRPRH,
 	author        = "<a href="person/Li-Te_Cheng.html">Li-Te Cheng</a> and Steven L. Rohall and <a href="person/John_F_Patterson.html">John F. Patterson</a> and Steven I. Ross and Susanne Hupfer",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1031607.1031612">10.1145/1031607.1031612</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1031607.1031612">http://doi.acm.org/10.1145/1031607.1031612</a>",
 </span>	pages         = "25--28",

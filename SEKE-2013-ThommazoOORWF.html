@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+traceability+links+through+neural+networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-ThommazoOORWF,
 	author        = "<a href="person/Andre_Di_Thommazo.html">André Di Thommazo</a> and <a href="person/Thiago_Ribeiro_de_Oliveira.html">Thiago Ribeiro de Oliveira</a> and <a href="person/Guilherme_Olivatto.html">Guilherme Olivatto</a> and <a href="person/Rafael_Rovina.html">Rafael Rovina</a> and <a href="person/Vera_Werneck.html">Vera Werneck</a> and <a href="person/Sandra_Fabbri.html">Sandra Fabbri</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "36--41",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Detecting traceability links through neural networks}",

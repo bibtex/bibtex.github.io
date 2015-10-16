@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Mining+Architectural+Patterns+Using+Association+Rules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-MaffortVBHAM,
 	author        = "<a href="person/Cristiano_Amaral_Maffort.html">Cristiano Amaral Maffort</a> and <a href="person/Marco_Tulio_Valente.html">Marco Tulio Valente</a> and <a href="person/Roberto_da_Silva_Bigonha.html">Roberto da Silva Bigonha</a> and <a href="person/Andre_Hora.html">Andre Hora</a> and <a href="person/Nicolas_Anquetil.html">Nicolas Anquetil</a> and <a href="person/Jonata_Menezes.html">Jonata Menezes</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "375--380",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Mining Architectural Patterns Using Association Rules}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Model+Interpretation+for+Executable+Observation+Specifications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-FunkPC,
 	author        = "<a href="person/Mathias_Funk.html">Mathias Funk</a> and <a href="person/Piet_van_der_Putten.html">Piet van der Putten</a> and <a href="person/Henk_Corporaal.html">Henk Corporaal</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "785--790",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Model Interpretation for Executable Observation Specifications}",

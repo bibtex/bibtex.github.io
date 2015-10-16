@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22OOMSE+—+An+Object+Oriented+Markov+Chain+Specification+and+Evaluation+Framework%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-SongLN,
 	author        = "<a href="person/Hertong_Song.html">Hertong Song</a> and <a href="person/Chokchai_Leangsuksun.html">Chokchai Leangsuksun</a> and <a href="person/Raja_Nassar.html">Raja Nassar</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "229--234",
 	title         = "{OOMSE — An Object Oriented Markov Chain Specification and Evaluation Framework}",
 	year          = 2005,

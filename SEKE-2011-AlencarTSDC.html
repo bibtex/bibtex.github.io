@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Maximizing+the+Financial+Benefits+Yielded+by+IT+Projects+While+Ensuring+their+Strategic+Fit%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-AlencarTSDC,
 	author        = "<a href="person/Antonio_Juarez_Alencar.html">Antonio Juarez Alencar</a> and <a href="person/Gustavo_Taveira.html">Gustavo Taveira</a> and <a href="person/Eber_Assis_Schmitz.html">Eber Assis Schmitz</a> and <a href="person/Angelica_Fonseca_da_Silva_Dias.html">Angelica Fonseca da Silva Dias</a> and <a href="person/Alexandre_L_Correa.html">Alexandre L. Correa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "288--295",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Maximizing the Financial Benefits Yielded by IT Projects While Ensuring their Strategic Fit}",

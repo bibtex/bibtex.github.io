@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dedicated+Support+for+Experience+Sharing+in+Distributed+Software+Projects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-AverbakhKKS,
 	author        = "<a href="person/Anna_Averbakh.html">Anna Averbakh</a> and <a href="person/Eric_Knauss.html">Eric Knauss</a> and <a href="person/Stephan_Kiesling.html">Stephan Kiesling</a> and <a href="person/Kurt_Schneider.html">Kurt Schneider</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "355--360",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Dedicated Support for Experience Sharing in Distributed Software Projects}",

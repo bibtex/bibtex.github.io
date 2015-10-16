@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Cluster+Selection+Techniques+of+Regression+Testing+by+Slice+Filtering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-DuanCZQY,
 	author        = "<a href="person/Yongwei_Duan.html">Yongwei Duan</a> and <a href="person/Zhenyu_Chen.html">Zhenyu Chen</a> and <a href="person/Zhihong_Zhao.html">Zhihong Zhao</a> and <a href="person/Ju_Qian.html">Ju Qian</a> and <a href="person/Zhongjun_Yang.html">Zhongjun Yang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "253--258",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Improving Cluster Selection Techniques of Regression Testing by Slice Filtering}",

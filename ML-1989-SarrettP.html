@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22One-Sided+Algorithms+for+Integrating+Empirical+and+Explanation-Based+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-SarrettP,
 	author        = "Wendy Sarrett and <a href="person/Michael_J_Pazzani.html">Michael J. Pazzani</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "26--28",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{One-Sided Algorithms for Integrating Empirical and Explanation-Based Learning}",

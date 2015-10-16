@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/360051.360074">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1975-LampsonS76,
 	author        = "<a href="person/Butler_W_Lampson.html">Butler W. Lampson</a> and <a href="person/Howard_E_Sturgis.html">Howard E. Sturgis</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/360051.360074">10.1145/360051.360074</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/360051.360074">http://doi.acm.org/10.1145/360051.360074</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 5,
 	pages         = "251--265",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Reflections on an Operating System Design}",
 	volume        = 19,
 	year          = 1976,

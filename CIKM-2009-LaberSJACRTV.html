@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1645953.1646204">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2009-LaberSJACRTV,
 	author        = "<a href="person/Eduardo_Sany_Laber.html">Eduardo Sany Laber</a> and Críston Pereira de Souza and Iam Vita Jabour and Evelin Carvalho Freire de Amorim and Eduardo Teixeira Cardoso and Raúl P. Rentería and Lúcio Cunha Tinoco and Caio Dias Valentim",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1645953.1646204">10.1145/1645953.1646204</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1645953.1646204">http://doi.acm.org/10.1145/1645953.1646204</a>",
 </span>	pages         = "1685--1688",

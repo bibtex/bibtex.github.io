@@ -36,11 +36,11 @@
 <a href="https://scholar.google.com/scholar?q=%22SAC+OOPS+2006+J%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Journal of Object Technology':'JOT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SAC-OOPS-J-2006,
-	journal       = "{Journal of Object Technology}",
+	journal       = "{<span id="journal">Journal of Object Technology</span>}",
 	number        = 2,
 	title         = "{SAC OOPS 2006 J}",
 	volume        = 6,

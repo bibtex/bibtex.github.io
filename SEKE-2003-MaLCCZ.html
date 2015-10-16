@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Graph-Oriented+Approach+to+the+Description+and+Implementation+of+Distributed+and+Dynamic+Software+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-MaLCCZ,
 	author        = "<a href="person/Xiaoxing_Ma.html">Xiaoxing Ma</a> and <a href="person/Jian_Lue.html">Jian Lü</a> and <a href="person/Jiannong_Cao.html">Jiannong Cao</a> and <a href="person/Alvin_T_S_Chan.html">Alvin T. S. Chan</a> and <a href="person/Kang_Zhang.html">Kang Zhang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "518--525",
 	title         = "{A Graph-Oriented Approach to the Description and Implementation of Distributed and Dynamic Software Architecture}",
 	year          = 2003,

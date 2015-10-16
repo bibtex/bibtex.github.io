@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Extending+the+Well-Founded+and+Valid+Semantics+for+Aggregation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-SudarshanSRB,
 	author        = "<a href="person/S_Sudarshan.html">S. Sudarshan</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a> and <a href="person/Raghu_Ramakrishnan.html">Raghu Ramakrishnan</a> and <a href="person/Catriel_Beeri.html">Catriel Beeri</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "590--608",
 	publisher     = "{MIT Press}",
 	title         = "{Extending the Well-Founded and Valid Semantics for Aggregation}",

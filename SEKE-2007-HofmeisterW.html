@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Designing+a+Platform-Independent+Use-Case+for+a+Composite+Application+using+a+Reference+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-HofmeisterW,
 	author        = "<a href="person/Helge_Hofmeister.html">Helge Hofmeister</a> and <a href="person/Guido_Wirtz.html">Guido Wirtz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "227--231",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Designing a Platform-Independent Use-Case for a Composite Application using a Reference Architecture}",

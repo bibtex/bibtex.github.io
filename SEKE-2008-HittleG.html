@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Fault+Injection+Testing+of+User-space+File+Systems+Using+Traditional+and+Aspect-based+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-HittleG,
 	author        = "<a href="person/Jonathan_Hittle.html">Jonathan Hittle</a> and <a href="person/Sudipto_Ghosh.html">Sudipto Ghosh</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "873--876",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Fault Injection Testing of User-space File Systems Using Traditional and Aspect-based Techniques}",

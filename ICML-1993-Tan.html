@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Multi-Agent+Reinforcement+Learning:+Independent+versus+Cooperative+Agents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1993-Tan,
 	author        = "<a href="person/Ming_Tan.html">Ming Tan</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Machine Learning</span>}",
 	pages         = "330--337",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Multi-Agent Reinforcement Learning: Independent versus Cooperative Agents}",

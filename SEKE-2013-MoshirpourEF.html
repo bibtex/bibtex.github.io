@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Construction+of+System+Domain+Knowledge+Using+an+Ontology-Based+Approach+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-MoshirpourEF,
 	author        = "<a href="person/Mohammad_Moshirpour.html">Mohammad Moshirpour</a> and <a href="person/Armin_Eberlein.html">Armin Eberlein</a> and <a href="person/Behrouz_H_Far.html">Behrouz H. Far</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "63--66",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Automated Construction of System Domain Knowledge Using an Ontology-Based Approach (S)}",

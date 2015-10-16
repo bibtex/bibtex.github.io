@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Architectural+Elements+Recovery+and+Quality+Evaluation+to+Assist+in+Reference+Architectures+Specification%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-VasconcelosW,
 	author        = "<a href="person/Aline_Pires_Vieira_de_Vasconcelos.html">Aline Pires Vieira de Vasconcelos</a> and <a href="person/Claudia_Maria_Lima_Werner.html">Cláudia Maria Lima Werner</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "494--499",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Architectural Elements Recovery and Quality Evaluation to Assist in Reference Architectures Specification}",

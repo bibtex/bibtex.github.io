@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1958824.1958848">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2011-ChiLPZMMZMLG,
 	author        = "Chang Yan Chi and Qinying Liao and Yingxin Pan and Shiwan Zhao and Tara Matthews and Thomas P. Moran and Michelle X. Zhou and <a href="person/David_R_Millen.html">David R. Millen</a> and Ching-Yung Lin and Ido Guy",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1958824.1958848">10.1145/1958824.1958848</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1958824.1958848">http://doi.acm.org/10.1145/1958824.1958848</a>",
 </span>	pages         = "159--166",

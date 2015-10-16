@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Changing+Provider+in+an+Outsourced+Information+System+Project+—+Good+Practices+for+Knowledge+Transfer%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-Grim-YefsahRT,
 	author        = "Malika Grim-Yefsah and Camille Rosenthal-Sabroux and Virginie Thion-Goasdoué",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "318--321",
 	publisher     = "{SciTePress}",
 	title         = "{Changing Provider in an Outsourced Information System Project — Good Practices for Knowledge Transfer}",

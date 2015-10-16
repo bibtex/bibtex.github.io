@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2145204.2145324">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2012-BenjaminBBGF,
 	author        = "Alison Benjamin and Jeremy P. Birnholtz and <a href="person/Ronald_Baecker.html">Ronald Baecker</a> and Diane Gromala and Andrea Furlan",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2145204.2145324">10.1145/2145204.2145324</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2145204.2145324">http://doi.acm.org/10.1145/2145204.2145324</a>",
 </span>	pages         = "799--808",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Data+Storage+Mechanism+for+Peer-to-Peer+Based+Decentralised+Workflow+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-YanYR,
 	author        = "<a href="person/Jun_Yan.html">Jun Yan</a> and <a href="person/Yun_Yang.html">Yun Yang</a> and <a href="person/Gitesh_K_Raikundalia.html">Gitesh K. Raikundalia</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "354--358",
 	title         = "{A Data Storage Mechanism for Peer-to-Peer Based Decentralised Workflow Systems}",
 	year          = 2003,

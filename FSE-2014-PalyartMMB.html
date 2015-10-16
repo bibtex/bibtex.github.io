@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2635868.2666609">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd Symposium on the Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2014-PalyartMMB,
 	author        = "<a href="person/Marc_Palyart.html">Marc Palyart</a> and <a href="person/Gail_C_Murphy.html">Gail C. Murphy</a> and <a href="person/Emerson_R_Murphy-Hill.html">Emerson R. Murphy-Hill</a> and <a href="person/Xavier_Blanc.html">Xavier Blanc</a>",
-	booktitle     = "{FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2635868.2666609">10.1145/2635868.2666609</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2635868.2666609">http://doi.acm.org/10.1145/2635868.2666609</a>",
 </span>	pages         = "837--840",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1357054.1357200">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2008-BiehlBBTIC,
 	author        = "Jacob T. Biehl and William T. Baker and <a href="person/Brian_P_Bailey.html">Brian P. Bailey</a> and Desney S. Tan and Kori M. Inkpen and <a href="person/Mary_Czerwinski.html">Mary Czerwinski</a>",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1357054.1357200">10.1145/1357054.1357200</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1357054.1357200">http://doi.acm.org/10.1145/1357054.1357200</a>",
 </span>	pages         = "939--948",

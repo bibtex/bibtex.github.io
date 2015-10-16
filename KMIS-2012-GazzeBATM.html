@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integration+of+External+Data+in+Document+Workflows+via+Web+Services%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-GazzeBATM,
 	author        = "Davide Gazzè and <a href="person/Alessio_Bechini.html">Alessio Bechini</a> and Marco Avvenuti and Maurizio Tesconi and Andrea Marchetti",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "346--351",
 	publisher     = "{SciTePress}",
 	title         = "{Integration of External Data in Document Workflows via Web Services}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dealing+with+software+design+issues+using+an+Agent-Oriented+methodology%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-PeriniS,
 	author        = "<a href="person/Anna_Perini.html">Anna Perini</a> and <a href="person/Angelo_Susi.html">Angelo Susi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "224--231",
 	title         = "{Dealing with software design issues using an Agent-Oriented methodology}",
 	year          = 2003,

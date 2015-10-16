@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/266714.266880">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1997-BozkayaYO,
 	author        = "Tolga Bozkaya and <a href="person/Nasser_Yazdani.html">Nasser Yazdani</a> and <a href="person/Z_Meral_Oezsoyoglu.html">Z. Meral Özsoyoglu</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth ACM International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1997/P128.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/266714.266880">10.1145/266714.266880</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/266714.266880">http://doi.acm.org/10.1145/266714.266880</a>",

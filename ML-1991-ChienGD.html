@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Becoming+Decreasingly+Reactive:+Learning+to+Deliberate+Minimally%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1991-ChienGD,
 	author        = "Steve A. Chien and Melinda T. Gervasio and <a href="person/Gerald_DeJong.html">Gerald DeJong</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Machine Learning</span>}",
 	pages         = "288--292",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{On Becoming Decreasingly Reactive: Learning to Deliberate Minimally}",

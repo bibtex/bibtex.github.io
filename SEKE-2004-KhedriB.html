@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Requirements+Scenarios+Based+System-Testing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-KhedriB,
 	author        = "<a href="person/Ridha_Khedri.html">Ridha Khédri</a> and <a href="person/Imen_Bourguiba.html">Imen Bourguiba</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "252--257",
 	title         = "{Requirements Scenarios Based System-Testing}",
 	year          = 2004,

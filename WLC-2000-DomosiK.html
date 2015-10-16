@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Improvement+of+Iteration+Lemmata+for+Context-free+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-DomosiK,
 	author        = "<a href="person/Pal_Doemoesi.html">Pál Dömösi</a> and Manfred Kudlek",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "185--191",
 	publisher     = "{World Scientific}",
 	title         = "{An Improvement of Iteration Lemmata for Context-free Languages}",

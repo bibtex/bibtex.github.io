@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Why+EBL+Produces+Overly-Specific+Knowledge:+A+Critique+of+the+PRODIGY+Approaches%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-EtzioniM,
 	author        = "Oren Etzioni and <a href="person/Steven_Minton.html">Steven Minton</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "137--143",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Why EBL Produces Overly-Specific Knowledge: A Critique of the PRODIGY Approaches}",

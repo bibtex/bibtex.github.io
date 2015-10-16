@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+architecture+based+on+multi-agent+system+and+data+mining+for+recommending+research+papers+and+researchers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-CazellaA,
 	author        = "<a href="person/Silvio_Cesar_Cazella.html">Sílvio César Cazella</a> and <a href="person/Luis_Otavio_Campos_Alvares.html">Luis Otávio Campos Alvares</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "67--72",
 	title         = "{An architecture based on multi-agent system and data mining for recommending research papers and researchers}",
 	year          = 2006,

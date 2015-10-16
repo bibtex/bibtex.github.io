@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Information+Sharing+Method+for+Skilled+Management+Operations+based+on+Bayesian+Network+Inference%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-KataokaTKH,
 	author        = "Takayuki Kataoka and Kazumoto Tanaka and Masakazu Kanezashi and <a href="person/Makoto_Hasegawa.html">Makoto Hasegawa</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "257--260",
 	publisher     = "{SciTePress}",
 	title         = "{An Information Sharing Method for Skilled Management Operations based on Bayesian Network Inference}",

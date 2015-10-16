@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Combining+Statistical+Learning+with+a+Knowledge-Based+Approach+—+A+Case+Study+in+Intensive+Care+Monitoring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1999-MorikBJ,
 	author        = "Katharina Morik and Peter Brockhausen and Thorsten Joachims",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Machine Learning</span>}",
 	pages         = "268--277",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Combining Statistical Learning with a Knowledge-Based Approach — A Case Study in Intensive Care Monitoring}",

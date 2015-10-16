@@ -33,18 +33,18 @@
 <h2>Jan Hernbäck, Ingemar Lindqvist<br/><em>A <a href="word/framework.html">Framework</a> for <a href="word/use.html">Use</a> and <a href="word/classif.html">Classification</a> of <a href="word/case.html">CASE</a> <a href="word/tool.html">Tools</a> in <a href="word/system.html">Systems</a> <a href="word/analysi.html">Analysis</a> and a <a href="word/strategi.html">Strategy</a> for <a href="word/implement.html">Implementation</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/HernbackL89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Use+and+Classification+of+CASE+Tools+in+Systems+Analysis+and+a+Strategy+for+Implementation%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper5.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Use+and+Classification+of+CASE+Tools+in+Systems+Analysis+and+a+Strategy+for+Implementation%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper5.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-HernbackL,
 	author        = "<a href="person/Jan_Hernbaeck.html">Jan Hernbäck</a> and <a href="person/Ingemar_Lindqvist.html">Ingemar Lindqvist</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper5.pdf">http://ceur-ws.org/Vol-961/paper5.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{A Framework for Use and Classification of CASE Tools in Systems Analysis and a Strategy for Implementation}",
 	volume        = 961,
 	year          = 1989,

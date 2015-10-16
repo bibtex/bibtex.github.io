@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Satisfying+user+Expectations+in+Ontology-driven+Compositional+Systems+—+A+Case+Study+in+Fish+Population+Modeling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-GillespieSC,
 	author        = "Mitchell G. Gillespie and Deborah A. Stacey and Stephen S. Crawford",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "133--143",
 	publisher     = "{SciTePress}",
 	title         = "{Satisfying user Expectations in Ontology-driven Compositional Systems — A Case Study in Fish Population Modeling}",

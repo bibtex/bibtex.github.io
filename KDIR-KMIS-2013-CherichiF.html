@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Relevant+Information+Discovery+in+Microblogs+—+Combining+Post’s+Features+and+Author’s+Features+to+Improve+Search+Results%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Knowledge Discovery and Information Retrieval and the Fifth International Conference on Knowledge Management and Information Sharing':'KDIR/KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-KMIS-2013-CherichiF,
 	author        = "Soumaya Cherichi and Rim Faiz",
-	booktitle     = "{KDIR/KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Knowledge Discovery and Information Retrieval and the Fifth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "128--135",
 	publisher     = "{SciTePress}",
 	title         = "{Relevant Information Discovery in Microblogs — Combining Post’s Features and Author’s Features to Improve Search Results}",

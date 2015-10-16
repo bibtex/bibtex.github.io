@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Agent-based+Centralized+e-Marketplace+in+a+Virtual+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-SeidelGFBM,
 	author        = "<a href="person/Ingo_Seidel.html">Ingo Seidel</a> and <a href="person/Markus_Gaertner.html">Markus Gärtner</a> and <a href="person/Josef_Froschauer.html">Josef Froschauer</a> and <a href="person/Helmut_Berger.html">Helmut Berger</a> and <a href="person/Dieter_Merkl.html">Dieter Merkl</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "218--221",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Agent-based Centralized e-Marketplace in a Virtual Environment}",

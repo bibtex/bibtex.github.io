@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Nonparametric+Approach+to+Noisy+and+Costly+Optimization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-AndersonMC,
 	author        = "Brigham S. Anderson and Andrew W. Moore and David Cohn",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "17--24",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A Nonparametric Approach to Noisy and Costly Optimization}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Knowledge-based+Approach+for+Automating+a+Design+Method+for+Concurrent+and+Real-Time+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-MillsG,
 	author        = "<a href="person/Kevin_L_Mills.html">Kevin L. Mills</a> and <a href="person/Hassan_Gomaa.html">Hassan Gomaa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "529--536",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Knowledge-based Approach for Automating a Design Method for Concurrent and Real-Time Systems}",

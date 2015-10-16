@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Rapid+Prototyping+of+User+Interfaces+in+the+KIWIS+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-StaesTV,
 	author        = "<a href="person/Francois_Staes.html">François Staes</a> and <a href="person/Laura_Tarantino.html">Laura Tarantino</a> and <a href="person/Dirk_Venneir.html">Dirk Venneir</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "355--359",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Rapid Prototyping of User Interfaces in the KIWIS System}",

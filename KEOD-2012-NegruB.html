@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Persona+Modeling+Process+—+From+Microdata-based+Templates+to+Specific+Web+Ontologies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-NegruB,
 	author        = "Stefan Negru and Sabin C. Buraga",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "34--42",
 	publisher     = "{SciTePress}",
 	title         = "{Persona Modeling Process — From Microdata-based Templates to Specific Web Ontologies}",

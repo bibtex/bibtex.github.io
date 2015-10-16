@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Section+on+Model+Transformation+—+ICMT+2011%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Journal of Object Technology':'JOT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICMT-J-2011,
 	editor        = "<a href="person/Jordi_Cabot.html">Jordi Cabot</a> and <a href="person/Eelco_Visser.html">Eelco Visser</a>",
-	journal       = "{Journal of Object Technology}",
+	journal       = "{<span id="journal">Journal of Object Technology</span>}",
 	number        = 2,
 	title         = "{Special Section on Model Transformation — ICMT 2011}",
 	volume        = 11,

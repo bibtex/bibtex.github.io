@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Goal-Directed+Evaluation+of+Well-Founded+Sematics+for+XSB%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-ChenSW,
 	author        = "<a href="person/Weidong_Chen.html">Weidong Chen</a> and <a href="person/Terrance_Swift.html">Terrance Swift</a> and <a href="person/David_Scott_Warren.html">David Scott Warren</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "679",
 	publisher     = "{MIT Press}",
 	title         = "{Goal-Directed Evaluation of Well-Founded Sematics for XSB}",

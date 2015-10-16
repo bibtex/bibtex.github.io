@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+an+Automation+of+Software+Evolution+Good+Practices%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-TibermacineSGFS,
 	author        = "<a href="person/Chouki_Tibermacine.html">Chouki Tibermacine</a> and <a href="person/Soraya_Sakhraoui.html">Soraya Sakhraoui</a> and <a href="person/Vincent_Le_Gloahec.html">Vincent Le Gloahec</a> and <a href="person/Regis_Fleurquin.html">Régis Fleurquin</a> and <a href="person/Salah_Sadou.html">Salah Sadou</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "339--344",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards an Automation of Software Evolution Good Practices}",

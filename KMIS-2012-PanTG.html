@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Component-based+Method+for+Stakeholder+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-PanTG,
 	author        = "Yu-Chun Pan and Yinshan Tang and <a href="person/Stephen_R_Gulliver.html">Stephen R. Gulliver</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "290--293",
 	publisher     = "{SciTePress}",
 	title         = "{A Component-based Method for Stakeholder Analysis}",

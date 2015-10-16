@@ -37,19 +37,18 @@
 <a href="http://dx.doi.org/10.1145/360051.360234">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1975-ChuO76,
 	author        = "<a href="person/Wesley_W_Chu.html">Wesley W. Chu</a> and <a href="person/Holger_Opderbeck.html">Holger Opderbeck</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/360051.360234">10.1145/360051.360234</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/360051.360234">http://doi.acm.org/10.1145/360051.360234</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	note          = "Corrigendum: CACM 19(9): 529 (1976)",
 	number        = 5,
 	pages         = "298--304",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Analysis of the PFF Replacement Algorithm via a Semi-Markov Model}",
 	volume        = 19,
 	year          = 1976,

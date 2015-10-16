@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Comparative+Study+of+Inductive+Logic+Programming+Methods+for+Software+Fault+Prediction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1997-CohenD,
 	author        = "William W. Cohen and <a href="person/Premkumar_T_Devanbu.html">Premkumar T. Devanbu</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Machine Learning</span>}",
 	pages         = "66--74",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A Comparative Study of Inductive Logic Programming Methods for Software Fault Prediction}",

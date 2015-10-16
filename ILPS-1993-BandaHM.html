@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Independence+in+Constraint+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-BandaHM,
 	author        = "<a href="person/Maria_J_Garcia_de_la_Banda.html">Maria J. García de la Banda</a> and <a href="person/Manuel_V_Hermenegildo.html">Manuel V. Hermenegildo</a> and <a href="person/Kim_Marriott.html">Kim Marriott</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "130--146",
 	publisher     = "{MIT Press}",
 	title         = "{Independence in Constraint Logic Programs}",

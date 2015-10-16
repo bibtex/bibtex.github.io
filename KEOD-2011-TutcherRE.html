@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrating+Railway+Maintenance+Data+—+Development+of+a+Semantic+Data+Model+to+Support+Condition+Monitoring+Data+from+Multiple+Sources%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-TutcherRE,
 	author        = "J. Tutcher and C. Roberts and J. M. Easton",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "442--444",
 	publisher     = "{SciTePress}",
 	title         = "{Integrating Railway Maintenance Data — Development of a Semantic Data Model to Support Condition Monitoring Data from Multiple Sources}",

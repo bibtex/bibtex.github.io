@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22CBR+Applied+to+Development+with+Reuse+Based+on+Mecanos%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-GarciaC,
 	author        = "<a href="person/Francisco_J_Garcia.html">Francisco J. García</a> and <a href="person/Juan_M_Corchado.html">Juan M. Corchado</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "307--311",
 	title         = "{CBR Applied to Development with Reuse Based on Mecanos}",
 	year          = 2001,

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1996130.1996139">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2011-LofsteadPGKSOWL,
 	author        = "Jay F. Lofstead and Milo Polte and <a href="person/Garth_A_Gibson.html">Garth A. Gibson</a> and Scott Klasky and <a href="person/Karsten_Schwan.html">Karsten Schwan</a> and Ron Oldfield and Matthew Wolf and Qing Liu",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1996130.1996139">10.1145/1996130.1996139</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1996130.1996139">http://doi.acm.org/10.1145/1996130.1996139</a>",
 </span>	pages         = "49--60",

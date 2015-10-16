@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparison+of+SRGMs+and+NNEs+on+Multiple+Data+Sets%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-StringfellowRVM,
 	author        = "<a href="person/Catherine_Stringfellow.html">Catherine Stringfellow</a> and <a href="person/Sreya_Reddy.html">Sreya Reddy</a> and <a href="person/Raaji_Vedala-Tiramula.html">Raaji Vedala-Tiramula</a> and <a href="person/Swetha_Myneni.html">Swetha Myneni</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "618--623",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Comparison of SRGMs and NNEs on Multiple Data Sets}",

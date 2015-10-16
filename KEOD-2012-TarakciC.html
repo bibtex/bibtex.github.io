@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22UCASFUM:+A+Ubiquitous+Context-aware+Semantic+Fuzzy+User+Modeling+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-TarakciC,
 	author        = "Hilal Tarakçi and Nihan Kesim Cicekli",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "278--283",
 	publisher     = "{SciTePress}",
 	title         = "{UCASFUM: A Ubiquitous Context-aware Semantic Fuzzy User Modeling System}",

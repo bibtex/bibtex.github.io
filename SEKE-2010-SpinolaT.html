@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Characteristics+of+Ubiquitous+Software+Projects:+Pertinence,+Relevance,+and+Use%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-SpinolaT,
 	author        = "<a href="person/Rodrigo_O_Spinola.html">Rodrigo O. Spínola</a> and <a href="person/Guilherme_Horta_Travassos.html">Guilherme Horta Travassos</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "732--737",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Characteristics of Ubiquitous Software Projects: Pertinence, Relevance, and Use}",

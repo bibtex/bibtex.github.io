@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Project+Risk+Evaluation+based+on+Specific+and+Systemic+Risks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-CostaBT,
 	author        = "<a href="person/Helio_R_Costa.html">Hélio R. Costa</a> and <a href="person/Marcio_de_Oliveira_Barros.html">Márcio de Oliveira Barros</a> and <a href="person/Guilherme_Horta_Travassos.html">Guilherme Horta Travassos</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "282--287",
 	title         = "{Software Project Risk Evaluation based on Specific and Systemic Risks}",
 	year          = 2004,

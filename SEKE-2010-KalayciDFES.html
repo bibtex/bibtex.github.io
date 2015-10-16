@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Distributed+and+Adaptive+Execution+of+Condor+DAGMan+Workflows%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-KalayciDFES,
 	author        = "<a href="person/Selim_Kalayci.html">Selim Kalayci</a> and <a href="person/Gargi_Dasgupta.html">Gargi Dasgupta</a> and <a href="person/Liana_Fong.html">Liana Fong</a> and <a href="person/Onyeka_Ezenwoye.html">Onyeka Ezenwoye</a> and <a href="person/Seyed_Masoud_Sadjadi.html">Seyed Masoud Sadjadi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "587--590",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Distributed and Adaptive Execution of Condor DAGMan Workflows}",

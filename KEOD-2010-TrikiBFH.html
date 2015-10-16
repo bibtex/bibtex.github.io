@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Modeling+Conflict+of+Interest+in+the+Design+of+Secure+Data+Warehouses%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-TrikiBFH,
 	author        = "Salah Triki and <a href="person/Hanene_Ben-Abdallah.html">Hanêne Ben-Abdallah</a> and <a href="person/Jamel_Feki.html">Jamel Feki</a> and Nouria Harbi",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "445--448",
 	publisher     = "{SciTePress}",
 	title         = "{Modeling Conflict of Interest in the Design of Secure Data Warehouses}",

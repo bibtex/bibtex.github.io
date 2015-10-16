@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Augmenting+Semantics+to+Distributed+Agents+Logs+—+Enabling+Graphical+After+Action+Analysis+of+Federated+Agents+Logs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-PinchukINDBP,
 	author        = "Rani Pinchuk and Sorin Ilie and Thomas Neidhart and Tiphaine Dalmas and <a href="person/Costin_Badica.html">Costin Badica</a> and Gregor Pavlin",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "232--241",
 	publisher     = "{SciTePress}",
 	title         = "{Augmenting Semantics to Distributed Agents Logs — Enabling Graphical After Action Analysis of Federated Agents Logs}",

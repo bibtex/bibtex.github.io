@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploiting+semantic+aspects+to+evolve+a+text-based+search+on+a+legacy+document+management+system%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-GrabnerMBG,
 	author        = "<a href="person/Johann_Grabner.html">Johann Grabner</a> and <a href="person/Andreas_Mauczka.html">Andreas Mauczka</a> and <a href="person/Mario_Bernhart.html">Mario Bernhart</a> and <a href="person/Thomas_Grechenig.html">Thomas Grechenig</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "392--397",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Exploiting semantic aspects to evolve a text-based search on a legacy document management system}",

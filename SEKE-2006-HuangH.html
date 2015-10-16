@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Method+for+Modeling+Object-Oriented+Systems+with+PZ+nets%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-HuangH,
 	author        = "<a href="person/Ying_Huang.html">Ying Huang</a> and <a href="person/Xudong_He.html">Xudong He</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "456--462",
 	title         = "{A Method for Modeling Object-Oriented Systems with PZ nets}",
 	year          = 2006,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Decidability+of+Minimal+Supports+of+S-invariants+and+the+Computation+of+their+Supported+S-invariants+of+Petri+Nets%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-LuZZBA,
 	author        = "<a href="person/Faming_Lu.html">Faming Lu</a> and <a href="person/Qingtian_Zeng.html">Qingtian Zeng</a> and <a href="person/Hao_Zhang.html">Hao Zhang</a> and <a href="person/Yunxia_Bao.html">Yunxia Bao</a> and <a href="person/Jiufang_An.html">Jiufang An</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "340--345",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Decidability of Minimal Supports of S-invariants and the Computation of their Supported S-invariants of Petri Nets}",

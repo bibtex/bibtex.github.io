@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2648511.2648536">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Software Product Line Conference':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2014-DamianiSW,
 	author        = "<a href="person/Ferruccio_Damiani.html">Ferruccio Damiani</a> and <a href="person/Ina_Schaefer.html">Ina Schaefer</a> and <a href="person/Tim_Winkelmann.html">Tim Winkelmann</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Software Product Line Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2648511.2648536">10.1145/2648511.2648536</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2648511.2648536">http://doi.acm.org/10.1145/2648511.2648536</a>",
 </span>	pages         = "232--236",

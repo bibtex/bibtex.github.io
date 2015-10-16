@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Becoming+Reactive%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-BlytheM,
 	author        = "<a href="person/Jim_Blythe.html">Jim Blythe</a> and Tom M. Mitchell",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "255--259",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{On Becoming Reactive}",

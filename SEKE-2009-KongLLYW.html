@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Requirement+Traceability+Refinement+Method+Based+on+Relevance+Feedback%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-KongLLYW,
 	author        = "<a href="person/Lingjun_Kong.html">Lingjun Kong</a> and <a href="person/Juan_Li.html">Juan Li</a> and <a href="person/Yin_Li.html">Yin Li</a> and <a href="person/Ye_Yang.html">Ye Yang</a> and <a href="person/Qing_Wang.html">Qing Wang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "37--42",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Requirement Traceability Refinement Method Based on Relevance Feedback}",

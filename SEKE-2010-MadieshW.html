@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Top-Down+Method+for+Secure+SOA-based+B2B+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-MadieshW,
 	author        = "<a href="person/Mostafa_Madiesh.html">Mostafa Madiesh</a> and <a href="person/Guido_Wirtz.html">Guido Wirtz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "698--703",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Top-Down Method for Secure SOA-based B2B Processes}",

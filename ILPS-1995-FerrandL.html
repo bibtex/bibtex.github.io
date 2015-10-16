@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Compositional+Proof+Method+of+Partial+Correctness+for+Normal+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-FerrandL,
 	author        = "<a href="person/Gerard_Ferrand.html">Gérard Ferrand</a> and <a href="person/Arnaud_Lallouet.html">Arnaud Lallouet</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "209--223",
 	publisher     = "{MIT Press}",
 	title         = "{A Compositional Proof Method of Partial Correctness for Normal Logic Programs}",

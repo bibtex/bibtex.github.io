@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Test+Suite+Minimization+for+Testing+in+Context%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Workshop on Testing Communicating Systems':'IWTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IWTCS-1998-YevtushenkoCL,
 	author        = "<a href="person/Nina_Yevtushenko.html">Nina Yevtushenko</a> and <a href="person/Ana_R_Cavalli.html">Ana R. Cavalli</a> and <a href="person/Luiz_A_Paula_Lima_Jr.html">Luiz A. Paula Lima Jr.</a>",
-	booktitle     = "{IWTCS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Workshop on Testing Communicating Systems</span>}",
 	pages         = "127--146",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

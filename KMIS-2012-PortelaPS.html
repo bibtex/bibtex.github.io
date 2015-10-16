@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Data+Mining+Predictive+Models+for+Pervasive+Intelligent+Decision+Support+in+Intensive+Care+Medicine%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-PortelaPS,
 	author        = "Filipe Portela and Filipe Pinto and Manuel Filipe Santos",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "81--88",
 	publisher     = "{SciTePress}",
 	title         = "{Data Mining Predictive Models for Pervasive Intelligent Decision Support in Intensive Care Medicine}",

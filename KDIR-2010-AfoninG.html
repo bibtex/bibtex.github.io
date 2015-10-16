@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Calculating+Semantic+Similarity+between+Facts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-AfoninG,
 	author        = "<a href="person/Sergey_Afonin.html">Sergey Afonin</a> and <a href="person/Denis_Golomazov.html">Denis Golomazov</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "514--517",
 	publisher     = "{SciTePress}",
 	title         = "{Calculating Semantic Similarity between Facts}",

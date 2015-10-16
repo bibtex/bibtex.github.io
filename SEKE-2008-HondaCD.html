@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Mobile-FIRST:+a+Mobile+Agent+Based+First+Responder+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-HondaCD,
 	author        = "<a href="person/Jason_Honda.html">Jason Honda</a> and <a href="person/Harry_H_Cheng.html">Harry H. Cheng</a> and <a href="person/Donna_Djordjevich.html">Donna Djordjevich</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "565--568",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Mobile-FIRST: a Mobile Agent Based First Responder System}",

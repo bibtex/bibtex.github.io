@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/301250.301356">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 31st Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1999-SkutellaW,
 	author        = "<a href="person/Martin_Skutella.html">Martin Skutella</a> and <a href="person/Gerhard_J_Woeginger.html">Gerhard J. Woeginger</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 31st Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/301250.301356">10.1145/301250.301356</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/301250.301356">http://doi.acm.org/10.1145/301250.301356</a>",
 </span>	pages         = "400--407",

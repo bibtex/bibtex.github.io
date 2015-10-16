@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22End-user+Development+for+Knowledge+Sharing+—+A+Collaborative+Web+Mapping+Application+in+the+First+Aid+Domain%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-FogliP,
 	author        = "<a href="person/Daniela_Fogli.html">Daniela Fogli</a> and Loredana Parasiliti Provenza",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "5--14",
 	publisher     = "{SciTePress}",
 	title         = "{End-user Development for Knowledge Sharing — A Collaborative Web Mapping Application in the First Aid Domain}",

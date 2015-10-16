@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Query+Learning+Strategies+Using+Boosting+and+Bagging%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-AbeM,
 	author        = "Naoki Abe and <a href="person/Hiroshi_Mamitsuka.html">Hiroshi Mamitsuka</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "1--9",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Query Learning Strategies Using Boosting and Bagging}",

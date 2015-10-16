@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+PVS+Approach+to+Verifying+ORA-SS+Data+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-LeeDSG,
 	author        = "<a href="person/Scott_Uk-Jin_Lee.html">Scott Uk-Jin Lee</a> and <a href="person/Gillian_Dobbie.html">Gillian Dobbie</a> and <a href="person/Jing_Sun.html">Jing Sun</a> and <a href="person/Lindsay_Groves.html">Lindsay Groves</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "126--131",
 	title         = "{A PVS Approach to Verifying ORA-SS Data Models}",
 	year          = 2006,

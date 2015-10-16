@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Algorithm+Selection+using+Reinforcement+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-LagoudakisL,
 	author        = "<a href="person/Michail_G_Lagoudakis.html">Michail G. Lagoudakis</a> and Michael L. Littman",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "511--518",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Algorithm Selection using Reinforcement Learning}",

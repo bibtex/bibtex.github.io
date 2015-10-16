@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Approximate+Model+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2014-TroyaWBV,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1277/5.pdf",
 	pages         = "44--53",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Towards Approximate Model Transformations}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1277/#paper5">http://ceur-ws.org/Vol-1277/#paper5</a>",
 </span>	volume        = 1277,

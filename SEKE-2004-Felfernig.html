@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Effort+Estimation+for+Knowledge-based+Configuration+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-Felfernig,
 	author        = "<a href="person/Alexander_Felfernig.html">Alexander Felfernig</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "148--154",
 	title         = "{Effort Estimation for Knowledge-based Configuration Systems}",
 	year          = 2004,

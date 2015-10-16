@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221648">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-ParkST,
 	author        = "Young Chul Park and Peter Scheuermann and Hsiang-Lung Tung",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P378.pdf",
 	cite          = "['journals/tse/AgrawalCM87', 'conf/podc/ChandyM82', 'conf/icde/Choudhary90', 'journals/tse/ChoudharyKST89', 'conf/icde/ElmagarmidSL86', 'journals/tse/GligorS80', 'books/mk/GrayR93', '...', 'journals/tse/HoR82', 'journals/tocs/LindsayHMWY84', '...', 'journals/tse/MenasceM79', 'journals/tods/Obermarck82', '...', 'conf/icde/ParkSL92', 'conf/sigmod/RoeslerB88', 'journals/tc/RoeslerB89', '...', 'journals/tse/SinhaN85', '...', 'journals/tse/Stonebraker79', 'conf/srds/SugiharaKYO84', '...']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221648">10.1145/221270.221648</a>",

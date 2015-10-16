@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Rule-Based+Systems+Combining+AI+Techniques+into+a+Legal+Agent-based+Intelligent+Tutoring+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-BittencourtTC,
 	author        = "<a href="person/Ig_Ibert_Bittencourt.html">Ig Ibert Bittencourt</a> and <a href="person/Marcos_Tadeu.html">Marcos Tadeu</a> and <a href="person/Evandro_de_Barros_Costa.html">Evandro de Barros Costa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "35--40",
 	title         = "{Rule-Based Systems Combining AI Techniques into a Legal Agent-based Intelligent Tutoring System}",
 	year          = 2006,

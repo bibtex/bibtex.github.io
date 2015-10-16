@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reverse+Engineering+of+Rule-based+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-BouchachiaW,
 	author        = "<a href="person/Abdelhamid_Bouchachia.html">Abdelhamid Bouchachia</a> and <a href="person/Daniel_Wakounig.html">Daniel Wakounig</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "45--50",
 	title         = "{Reverse Engineering of Rule-based Systems}",
 	year          = 2006,

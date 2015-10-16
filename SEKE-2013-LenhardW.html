@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+Portability+Issues+in+Model-Driven+BPEL+Mappings+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-LenhardW,
 	author        = "<a href="person/Joerg_Lenhard.html">Jörg Lenhard</a> and <a href="person/Guido_Wirtz.html">Guido Wirtz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "18--21",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Detecting Portability Issues in Model-Driven BPEL Mappings (S)}",

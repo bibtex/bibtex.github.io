@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2063576.2063943">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2011-LiLSG,
 	author        = "Dongsheng Li and Qin Lv and Li Shang and <a href="person/Ning_Gu.html">Ning Gu</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2063576.2063943">10.1145/2063576.2063943</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2063576.2063943">http://doi.acm.org/10.1145/2063576.2063943</a>",
 </span>	pages         = "2269--2272",
@@ -58,8 +58,7 @@
 <li class="tag"><a href="tag/performance.html">#performance</a></li>
 <li class="tag"><a href="tag/privacy.html">#privacy</a></li>
 <li class="tag"><a href="tag/recommendation.html">#recommendation</a></li>
-<li class="tag"><a href="tag/social.html">#social</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/social.html">#social</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

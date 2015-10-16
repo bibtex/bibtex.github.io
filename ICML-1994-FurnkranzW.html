@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Incremental+Reduced+Error+Pruning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1994-FurnkranzW,
 	author        = "Johannes Fürnkranz and Gerhard Widmer",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Machine Learning</span>}",
 	pages         = "70--77",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Incremental Reduced Error Pruning}",

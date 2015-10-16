@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Real-time+Intelligent+Decision+Support+in+Intensive+Medicine%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-PortelaSVRSN,
 	author        = "Filipe Portela and Manuel Santos and Marta Vilas-Boas and Fernando Rua and Álvaro M. Silva and José Neves",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "44--50",
 	publisher     = "{SciTePress}",
 	title         = "{Real-time Intelligent Decision Support in Intensive Medicine}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Temporal+Software+Change+Prediction+Using+Neural+Networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-AmouiST,
 	author        = "<a href="person/Mehdi_Amoui.html">Mehdi Amoui</a> and <a href="person/Mazeiar_Salehie.html">Mazeiar Salehie</a> and <a href="person/Ladan_Tahvildari.html">Ladan Tahvildari</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "380--385",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Temporal Software Change Prediction Using Neural Networks}",

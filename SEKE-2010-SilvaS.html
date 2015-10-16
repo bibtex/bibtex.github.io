@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Modeling+and+Testing+a+Knowledge+Base+for+Instructing+Users+to+Choose+the+Classification+Task+in+Relational+Data+Mining%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-SilvaS,
 	author        = "<a href="person/Lidia_Martins_da_Silva.html">Lidia Martins da Silva</a> and <a href="person/Ana_Estela_Antunes_da_Silva.html">Ana Estela Antunes da Silva</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "608--613",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Modeling and Testing a Knowledge Base for Instructing Users to Choose the Classification Task in Relational Data Mining}",

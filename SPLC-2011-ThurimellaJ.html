@@ -33,15 +33,16 @@
 <h2>Anil Kumar Thurimella, Dirk Janzen<br/><em><a href="word/metadoc.html">Metadoc</a> <a href="word/featur.html">Feature</a> <a href="word/model.html">Modeler</a>: A <a href="word/plug.html">Plug</a>-in for <a href="word/ibm.html">IBM</a> <a href="word/ration.html">Rational</a> <a href="word/door.html">DOORS</a></em><br/>SPLC, 2011.</h2>
 <div class="rbox">
 <strong><a href="SPLC-2011.html">SPLC 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/splc/ThurimellaJ11">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Metadoc+Feature+Modeler:+A+Plug-in+for+IBM+Rational+DOORS%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/SPLC.2011.17">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Metadoc+Feature+Modeler:+A+Plug-in+for+IBM+Rational+DOORS%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/SPLC.2011.17">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.1109/SPLC.2011.17">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Software Product Line Conference':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2011-ThurimellaJ,
 	author        = "<a href="person/Anil_Kumar_Thurimella.html">Anil Kumar Thurimella</a> and Dirk Janzen",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Software Product Line Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/SPLC.2011.17">10.1109/SPLC.2011.17</a>",
 </span>	pages         = "313--322",
 	publisher     = "{IEEE}",

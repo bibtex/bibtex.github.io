@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22PSPCAT:+A+PSP+Data+Collection+and+Analysis+Tool%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-LiuCH,
 	author        = "<a href="person/Chien-Hung_Liu.html">Chien-Hung Liu</a> and <a href="person/Shu-Ling_Chen.html">Shu-Ling Chen</a> and <a href="person/Yu-Chun_Huang.html">Yu-Chun Huang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "33--37",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{PSPCAT: A PSP Data Collection and Analysis Tool}",

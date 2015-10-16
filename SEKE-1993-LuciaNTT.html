@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Tool+Development+Language+TDL+for+the+Software+Development+Environment+WSDW%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-LuciaNTT,
 	author        = "<a href="person/Andrea_De_Lucia.html">Andrea De Lucia</a> and <a href="person/Margherita_Napoli.html">Margherita Napoli</a> and <a href="person/Genny_Tortora.html">Genny Tortora</a> and <a href="person/Maurizio_Tucci.html">Maurizio Tucci</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "421--428",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{The Tool Development Language TDL for the Software Development Environment WSDW}",

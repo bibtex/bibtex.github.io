@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Panorama+of+Software+Architectures+in+Game+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-MorelliN,
 	author        = "<a href="person/Leonardo_Bitencourt_Morelli.html">Leonardo Bitencourt Morelli</a> and <a href="person/Elisa_Yumi_Nakagawa.html">Elisa Yumi Nakagawa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "752--757",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Panorama of Software Architectures in Game Development}",

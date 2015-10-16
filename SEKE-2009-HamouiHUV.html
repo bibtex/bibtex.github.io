@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Specification+of+a+Component-based+Domotic+System+to+Support+User-defined+Scenarios%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-HamouiHUV,
 	author        = "<a href="person/Fady_Hamoui.html">Fady Hamoui</a> and <a href="person/Marianne_Huchard.html">Marianne Huchard</a> and <a href="person/Christelle_Urtado.html">Christelle Urtado</a> and <a href="person/Sylvain_Vauttier.html">Sylvain Vauttier</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "597--602",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Specification of a Component-based Domotic System to Support User-defined Scenarios}",

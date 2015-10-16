@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22TCOZ+Approach+to+OWL-S+Process+Model+Design%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-WangDSL,
 	author        = "<a href="person/Hai_H_Wang.html">Hai H. Wang</a> and <a href="person/Jin_Song_Dong.html">Jin Song Dong</a> and <a href="person/Jing_Sun.html">Jing Sun</a> and <a href="person/Yuan-Fang_Li.html">Yuan-Fang Li</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "354--359",
 	title         = "{TCOZ Approach to OWL-S Process Model Design}",
 	year          = 2005,

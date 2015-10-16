@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Fraud+Detection+in+Selection+Exams+Using+Knowledge+Engineering+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-BragaD,
 	author        = "<a href="person/Marcus_de_Melo_Braga.html">Marcus de Melo Braga</a> and <a href="person/Mario_Antonio_Ribeiro_Dantas.html">Mario Antonio Ribeiro Dantas</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "163--168",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Fraud Detection in Selection Exams Using Knowledge Engineering Tools}",

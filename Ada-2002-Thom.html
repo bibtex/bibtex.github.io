@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Conformity!+A+Practical+Integration+of+Standards+—+A+Case+for+using+the+Unified+Modelling+Language+(UML)+with+the+Ada+Programming+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität':'Ada Deutschland Tagung');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Ada-2002-Thom,
 	author        = "<a href="person/Francis_Thom.html">Francis Thom</a>",
-	booktitle     = "{Ada Deutschland Tagung}",
+	booktitle     = "{<span id="booktitle">Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität</span>}",
 	pages         = "29--36",
 	publisher     = "{Shaker Verlag}",
 	title         = "{Conformity! A Practical Integration of Standards — A Case for using the Unified Modelling Language (UML) with the Ada Programming Language}",

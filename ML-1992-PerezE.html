@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DYNAMIC:+A+New+Role+for+Training+Problems+in+EBL%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-PerezE,
 	author        = "M. Alicia Pérez and Oren Etzioni",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "367--372",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{DYNAMIC: A New Role for Training Problems in EBL}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/502585.502673">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2001-FordREMKJG,
 	author        = "Daniel Alexander Ford and Joann Ruvolo and Stefan Edlund and Jussi Myllymaki and James H. Kaufman and Jared Jackson and Martin Gerlach",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/502585.502673">10.1145/502585.502673</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/502585.502673">http://doi.acm.org/10.1145/502585.502673</a>",
 </span>	pages         = "520--522",
@@ -52,8 +52,7 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/semantics.html">#semantics</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/semantics.html">#semantics</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22System+Dynamics+as+an+Enabling+Technology+for+Learning+in+Software+Organizations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-PfahlR,
 	author        = "<a href="person/Dietmar_Pfahl.html">Dietmar Pfahl</a> and <a href="person/Guenther_Ruhe.html">Günther Ruhe</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "355--362",
 	title         = "{System Dynamics as an Enabling Technology for Learning in Software Organizations}",
 	year          = 2001,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Cost-Effective+Combinatorial+Test+Case+Prioritization+for+Varying+Combination+Weights%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-WangXCC,
 	author        = "<a href="person/Ziyuan_Wang.html">Ziyuan Wang</a> and <a href="person/Baowen_Xu.html">Baowen Xu</a> and <a href="person/Lin_Chen.html">Lin Chen</a> and <a href="person/Zhenyu_Chen.html">Zhenyu Chen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "273--278",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Cost-Effective Combinatorial Test Case Prioritization for Varying Combination Weights}",

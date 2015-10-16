@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22REM4j+—+A+Framework+for+Measuring+the+Reverse+Engineering+Capability+of+UML+CASE+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-KearneyP,
 	author        = "<a href="person/Steven_Kearney.html">Steven Kearney</a> and <a href="person/James_F_Power.html">James F. Power</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "209--214",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{REM4j — A Framework for Measuring the Reverse Engineering Capability of UML CASE Tools}",

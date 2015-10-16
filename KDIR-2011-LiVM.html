@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Unsupervised+Handwritten+Graphical+Symbol+Learning+—+Using+Minimum+Description+Length+Principle+on+Relational+Graph%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-LiVM,
 	author        = "Jinpeng Li and Christian Viard-Gaudin and Harold Mouchère",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "172--178",
 	publisher     = "{SciTePress}",
 	title         = "{Unsupervised Handwritten Graphical Symbol Learning — Using Minimum Description Length Principle on Relational Graph}",

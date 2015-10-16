@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Geometric+Knowledge+Analysis+based+in+Part+Functional+Descriptions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-LinharesD,
 	author        = "João Carlos Linhares and Altamir Dias",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "307--313",
 	publisher     = "{SciTePress}",
 	title         = "{Geometric Knowledge Analysis based in Part Functional Descriptions}",

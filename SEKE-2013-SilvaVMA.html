@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Scrum-based+Approach+for+Analyzing+Commonalities+and+Variabilities+in+Software+Product+Lines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-SilvaVMA,
 	author        = "<a href="person/Ivonei_Freitas_da_Silva.html">Ivonei Freitas da Silva</a> and <a href="person/Tassio_Vale.html">Tassio Vale</a> and <a href="person/Silvio_R_L_Meira.html">Silvio R. L. Meira</a> and <a href="person/Eduardo_Santana_de_Almeida.html">Eduardo Santana de Almeida</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "238--243",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Scrum-based Approach for Analyzing Commonalities and Variabilities in Software Product Lines}",

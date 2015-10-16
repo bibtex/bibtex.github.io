@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Nice+Class+Diagrams+Admit+Good+Design?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-Eichelberger,
 	author        = "<a href="person/Holger_Eichelberger.html">Holger Eichelberger</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "159--167",
 	publisher     = "{ACM}",
 	title         = "{Nice Class Diagrams Admit Good Design?}",

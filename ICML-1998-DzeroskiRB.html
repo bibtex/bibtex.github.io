@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Relational+Reinforcement+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-DzeroskiRB,
 	author        = "<a href="person/Saso_Dzeroski.html">Saso Dzeroski</a> and <a href="person/Luc_De_Raedt.html">Luc De Raedt</a> and <a href="person/Hendrik_Blockeel.html">Hendrik Blockeel</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "136--143",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Relational Reinforcement Learning}",

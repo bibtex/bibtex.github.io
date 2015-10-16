@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generalizing+Number+and+Learning+from+Multiple+Examples+in+Explanation+Based+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1988-Cohen,
 	author        = "William W. Cohen",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Workshop on Machine Learning</span>}",
 	pages         = "256--269",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Generalizing Number and Learning from Multiple Examples in Explanation Based Learning}",

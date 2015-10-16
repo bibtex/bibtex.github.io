@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22String+Searching+in+Referentially+Compressed+Genomes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-WandeltL,
 	author        = "Sebastian Wandelt and <a href="person/Ulf_Leser.html">Ulf Leser</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "95--102",
 	publisher     = "{SciTePress}",
 	title         = "{String Searching in Referentially Compressed Genomes}",

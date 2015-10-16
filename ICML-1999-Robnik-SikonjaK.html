@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Attribute+Dependencies,+Understandability+and+Split+Selection+in+Tree+Based+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1999-Robnik-SikonjaK,
 	author        = "Marko Robnik-Sikonja and Igor Kononenko",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Machine Learning</span>}",
 	pages         = "344--353",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Attribute Dependencies, Understandability and Split Selection in Tree Based Models}",

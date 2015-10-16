@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Protocol-Inspired+Hardware+Testing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Workshop on Testing Communicating Systems':'IWTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IWTCS-1999-HeT,
 	author        = "Ji He and <a href="person/Kenneth_J_Turner.html">Kenneth J. Turner</a>",
-	booktitle     = "{IWTCS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Workshop on Testing Communicating Systems</span>}",
 	pages         = "131--148",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

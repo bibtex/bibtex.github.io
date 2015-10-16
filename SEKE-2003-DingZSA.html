@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Specification+and+Validation+of+Fault-Tolerant+Software+Architectures+Based+on+Actor+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-DingZSA,
 	author        = "<a href="person/Hui_Ding.html">Hui Ding</a> and <a href="person/Can_Zheng.html">Can Zheng</a> and <a href="person/Lui_Sha.html">Lui Sha</a> and <a href="person/Gul_Agha.html">Gul Agha</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "458--466",
 	title         = "{Specification and Validation of Fault-Tolerant Software Architectures Based on Actor Model}",
 	year          = 2003,

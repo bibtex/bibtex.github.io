@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Case+Study+on+the+BPR-before-IT+of+Food+Company+in+Taiwan%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-Gong,
 	author        = "<a href="person/Dah-Chuan_Gong.html">Dah-Chuan Gong</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "77--81",
 	title         = "{A Case Study on the BPR-before-IT of Food Company in Taiwan}",
 	year          = 2005,

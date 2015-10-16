@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Product+Line+Hall+of+Fame%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-WeissCKK,
 	author        = "<a href="person/David_M_Weiss.html">David M. Weiss</a> and <a href="person/Paul_C_Clements.html">Paul C. Clements</a> and Kyo Kang and <a href="person/Charles_W_Krueger.html">Charles W. Krueger</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "237",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Software Product Line Hall of Fame}",

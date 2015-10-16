@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Compression-Based+Discretization+of+Continuous+Attributes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1995-Pfahringer,
 	author        = "<a href="person/Bernhard_Pfahringer.html">Bernhard Pfahringer</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Machine Learning</span>}",
 	pages         = "456--463",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Compression-Based Discretization of Continuous Attributes}",

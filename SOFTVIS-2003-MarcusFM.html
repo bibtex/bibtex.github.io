@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%223D+Representations+for+Software+Visualization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-MarcusFM,
 	author        = "<a href="person/Andrian_Marcus.html">Andrian Marcus</a> and <a href="person/Louis_Feng.html">Louis Feng</a> and <a href="person/Jonathan_I_Maletic.html">Jonathan I. Maletic</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "27--36",
 	publisher     = "{ACM}",
 	title         = "{3D Representations for Software Visualization}",

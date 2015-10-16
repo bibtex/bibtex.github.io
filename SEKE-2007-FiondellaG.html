@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Adequacy+of+Composite+Parametric+Software+Reliability+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-FiondellaG,
 	author        = "<a href="person/Lance_Fiondella.html">Lance Fiondella</a> and <a href="person/Swapna_S_Gokhale.html">Swapna S. Gokhale</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "643--648",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Adequacy of Composite Parametric Software Reliability Models}",

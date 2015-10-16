@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DAFOE:+An+Ontology+Building+Platform+—+From+Texts+or+Thesauri%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-SzulmanCANST,
 	author        = "<a href="person/Sylvie_Szulman.html">Sylvie Szulman</a> and Jean Charlet and <a href="person/Nathalie_Aussenac-Gilles.html">Nathalie Aussenac-Gilles</a> and Adeline Nazarenko and Éric Sardet and Henry Valéry Téguiak",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "372--375",
 	publisher     = "{INSTICC Press}",
 	title         = "{DAFOE: An Ontology Building Platform — From Texts or Thesauri}",

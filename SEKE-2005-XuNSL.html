@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reuse-based+Software+Process+Improvement+and+Contro%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-XuNSL,
 	author        = "<a href="person/Ruzhi_Xu.html">Ruzhi Xu</a> and <a href="person/Peiyao_Nie.html">Peiyao Nie</a> and <a href="person/Ying_Sai.html">Ying Sai</a> and <a href="person/Yun-Ting_Lee.html">Yun-Ting Lee</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "121--126",
 	title         = "{Reuse-based Software Process Improvement and Contro}",
 	year          = 2005,

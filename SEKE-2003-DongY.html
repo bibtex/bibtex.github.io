@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Extending+UML+to+Visualize+Design+Patterns+In+Class+Diagrams%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-DongY,
 	author        = "<a href="person/Jing_Dong.html">Jing Dong</a> and <a href="person/Sheng_Yang.html">Sheng Yang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "124--131",
 	title         = "{Extending UML to Visualize Design Patterns In Class Diagrams}",
 	year          = 2003,

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Coalgebraic+Aspects+of+Bidirectional+Computation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2015-Abou-SalehMG,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1396/p16-abousaleh.pdf",
 	pages         = "16--30",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Coalgebraic Aspects of Bidirectional Computation}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1396/#p16-abousaleh">http://ceur-ws.org/Vol-1396/#p16-abousaleh</a>",
 </span>	volume        = 1396,

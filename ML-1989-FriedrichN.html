@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Domain+Knowledge+to+Improve+Inductive+Learning+Algorithms+for+Diagnosis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-FriedrichN,
 	author        = "<a href="person/Gerhard_Friedrich.html">Gerhard Friedrich</a> and <a href="person/Wolfgang_Nejdl.html">Wolfgang Nejdl</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "75--77",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Using Domain Knowledge to Improve Inductive Learning Algorithms for Diagnosis}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1551609.1551627">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2009-AsikiTK,
 	author        = "Athanasia Asiki and <a href="person/Dimitrios_Tsoumakos.html">Dimitrios Tsoumakos</a> and <a href="person/Nectarios_Koziris.html">Nectarios Koziris</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1551609.1551627">10.1145/1551609.1551627</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1551609.1551627">http://doi.acm.org/10.1145/1551609.1551627</a>",
 </span>	pages         = "71--80",
@@ -54,8 +54,7 @@
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/adaptation.html">#adaptation</a></li>
 <li class="tag"><a href="tag/online.html">#online</a></li>
-<li class="tag"><a href="tag/performance.html">#performance</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/performance.html">#performance</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

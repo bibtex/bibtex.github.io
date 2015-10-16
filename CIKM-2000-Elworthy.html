@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/354756.354850">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2000-Elworthy,
 	author        = "David Elworthy",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/354756.354850">10.1145/354756.354850</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/354756.354850">http://doi.acm.org/10.1145/354756.354850</a>",
 </span>	pages         = "430--437",

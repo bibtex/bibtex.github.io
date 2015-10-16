@@ -33,18 +33,18 @@
 <h2>Ing-Marie Stenström, Eskil Swende<br/><em><a href="word/svea.html">SVEA</a> — A <a href="word/user.html">User</a> <a href="word/driven.html">Driven</a> and <a href="word/data.html">Data</a> <a href="word/driven.html">Driven</a> <a href="word/system.html">System</a> <a href="word/develop.html">Development</a> <a href="word/method.html">Method</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/StenstromS89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22SVEA+—+A+User+Driven+and+Data+Driven+System+Development+Method%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper9.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22SVEA+—+A+User+Driven+and+Data+Driven+System+Development+Method%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper9.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-StenstromS,
 	author        = "<a href="person/Ing-Marie_Stenstroem.html">Ing-Marie Stenström</a> and <a href="person/Eskil_Swende.html">Eskil Swende</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper9.pdf">http://ceur-ws.org/Vol-961/paper9.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{SVEA — A User Driven and Data Driven System Development Method}",
 	volume        = 961,
 	year          = 1989,

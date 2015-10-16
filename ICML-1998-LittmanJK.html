@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+a+Language-Independent+Representation+for+Terms+from+a+Partially+Aligned+Corpus%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-LittmanJK,
 	author        = "Michael L. Littman and <a href="person/Fan_Jiang.html">Fan Jiang</a> and Greg A. Keim",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "314--322",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Learning a Language-Independent Representation for Terms from a Partially Aligned Corpus}",

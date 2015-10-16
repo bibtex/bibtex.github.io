@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Complexité+des+problèmes+de+décision+relatifs+aux+algorithmes+de+tri%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1972-FlajoletS,
 	author        = "<a href="person/Philippe_Flajolet.html">Philippe Flajolet</a> and <a href="person/Jean-Marc_Steyaert.html">Jean-Marc Steyaert</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "537--548",
 	title         = "{Complexité des problèmes de décision relatifs aux algorithmes de tri}",
 	year          = 1972,

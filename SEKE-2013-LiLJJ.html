@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Locating+and+Understanding+Concurrency+Bugs+Based+on+Edge-labeled+Communication+Graphs+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-LiLJJ,
 	author        = "<a href="person/He_Li.html">He Li</a> and <a href="person/Mengxiang_Lin.html">Mengxiang Lin</a> and <a href="person/Tahir_Jameel.html">Tahir Jameel</a> and <a href="person/Zhenyuan_Jiang.html">Zhenyuan Jiang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "525--530",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Locating and Understanding Concurrency Bugs Based on Edge-labeled Communication Graphs (S)}",

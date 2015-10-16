@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Partial+Deduction+of+the+Ground+Representation+and+its+Application+to+Integrity+Checking%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-LeuschelM,
 	author        = "<a href="person/Michael_Leuschel.html">Michael Leuschel</a> and <a href="person/Bern_Martens.html">Bern Martens</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "495--509",
 	publisher     = "{MIT Press}",
 	title         = "{Partial Deduction of the Ground Representation and its Application to Integrity Checking}",

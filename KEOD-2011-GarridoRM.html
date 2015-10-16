@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Building+Brief+Ontologies+—+A+Case+Study+for+Floods+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-GarridoRM,
 	author        = "Julián Garrido and Ignacio Requena and Stefano Mambretti",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "28--36",
 	publisher     = "{SciTePress}",
 	title         = "{Building Brief Ontologies — A Case Study for Floods Management}",

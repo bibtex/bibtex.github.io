@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/99332.99365">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-1990-CrowleyMBFT,
 	author        = "Terrence R. Crowley and Paul Milazzo and Ellie Baker and Harry C. Forsdick and <a href="person/Raymond_S_Tomlinson.html">Raymond S. Tomlinson</a>",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/99332.99365">10.1145/99332.99365</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/99332.99365">http://doi.acm.org/10.1145/99332.99365</a>",
 </span>	pages         = "329--342",

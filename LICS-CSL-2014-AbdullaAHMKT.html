@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2603088.2603100">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Joint Meeting of the 23rd EACSL Annual Conference on Computer Science Logic and the 29th Annual ACM/IEEE Symposium on Logic in Computer Science':'CSL-LICS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LICS-CSL-2014-AbdullaAHMKT,
 	author        = "<a href="person/Parosh_Aziz_Abdulla.html">Parosh Aziz Abdulla</a> and <a href="person/Mohamed_Faouzi_Atig.html">Mohamed Faouzi Atig</a> and <a href="person/Piotr_Hofman.html">Piotr Hofman</a> and <a href="person/Richard_Mayr.html">Richard Mayr</a> and <a href="person/K_Narayan_Kumar.html">K. Narayan Kumar</a> and <a href="person/Patrick_Totzke.html">Patrick Totzke</a>",
-	booktitle     = "{CSL-LICS}",
+	booktitle     = "{<span id="booktitle">Joint Meeting of the 23rd EACSL Annual Conference on Computer Science Logic and the 29th Annual ACM/IEEE Symposium on Logic in Computer Science</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2603088.2603100">10.1145/2603088.2603100</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2603088.2603100">http://doi.acm.org/10.1145/2603088.2603100</a>",
 </span>	pages         = "10",

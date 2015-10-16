@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22When+Knowledge+Meets+Innovation+Technology+—+The+ENEA+e-LEARN+Experiences+through+Technology+and+Research%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-MorenoCCAMCG,
 	author        = "Anna Moreno and Francesca Caminiti and Celestina Coccia and Anna Amato and Clara Martin and Alessio Carducci and Sergio Grande",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "161--166",
 	publisher     = "{INSTICC Press}",
 	title         = "{When Knowledge Meets Innovation Technology — The ENEA e-LEARN Experiences through Technology and Research}",

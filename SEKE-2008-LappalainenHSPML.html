@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Comparison+of+Time+Tracking+Tools+for+Software+Developers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-LappalainenHSPML,
 	author        = "<a href="person/Jouni_Lappalainen.html">Jouni Lappalainen</a> and <a href="person/Lasse_Harjumaa.html">Lasse Harjumaa</a> and <a href="person/Jukka_Sirvioe.html">Jukka Sirviö</a> and <a href="person/Tytti_Pokka.html">Tytti Pokka</a> and <a href="person/Heidi_Moisanen.html">Heidi Moisanen</a> and <a href="person/Hanna_Leskinen.html">Hanna Leskinen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "91--96",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Comparison of Time Tracking Tools for Software Developers}",

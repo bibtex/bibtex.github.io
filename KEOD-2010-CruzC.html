@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Contextualizing+Ontologies+for+Agents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-CruzC,
 	author        = "Lito Perez Cruz and John Newsome Crossley",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "147--152",
 	publisher     = "{SciTePress}",
 	title         = "{Contextualizing Ontologies for Agents}",

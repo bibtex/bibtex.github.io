@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/268998.266637">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th ACM Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1997-AndersonBDGHLSVWW,
 	author        = "<a href="person/Jennifer-Ann_M_Anderson.html">Jennifer-Ann M. Anderson</a> and <a href="person/Lance_M_Berc.html">Lance M. Berc</a> and <a href="person/Jeffrey_Dean.html">Jeffrey Dean</a> and <a href="person/Sanjay_Ghemawat.html">Sanjay Ghemawat</a> and <a href="person/Monika_Rauch_Henzinger.html">Monika Rauch Henzinger</a> and <a href="person/Shun-Tak_Leung.html">Shun-Tak Leung</a> and <a href="person/Richard_L_Sites.html">Richard L. Sites</a> and <a href="person/Mark_T_Vandevoorde.html">Mark T. Vandevoorde</a> and <a href="person/Carl_A_Waldspurger.html">Carl A. Waldspurger</a> and <a href="person/William_E_Weihl.html">William E. Weihl</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th ACM Symposium on Operating System Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/268998.266637">10.1145/268998.266637</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/268998.266637">http://doi.acm.org/10.1145/268998.266637</a>",
 </span>	pages         = "1--14",

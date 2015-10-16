@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Simulation-Assisted+Learning+by+Competition:+Effects+of+Noise+Differences+Between+Training+Model+and+Target+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1990-RamseyGS,
 	author        = "Connie Loggia Ramsey and John J. Grefenstette and Alan C. Schultz",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Workshop on Machine Learning</span>}",
 	pages         = "211--215",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Simulation-Assisted Learning by Competition: Effects of Noise Differences Between Training Model and Target Environment}",

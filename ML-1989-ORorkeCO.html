@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+to+Recognize+Plans+Involving+Affect%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-ORorkeCO,
 	author        = "Paul O'Rorke and Timothy Cain and Andrew Ortony",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "209--211",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Learning to Recognize Plans Involving Affect}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800113.803634">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1976-Owicki,
 	author        = "<a href="person/Susan_S_Owicki.html">Susan S. Owicki</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800113.803634">10.1145/800113.803634</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800113.803634">http://doi.acm.org/10.1145/800113.803634</a>",
 </span>	pages         = "73--86",
@@ -56,7 +56,6 @@
 <li class="tag"><a href="tag/deduction.html">#deduction</a></li>
 <li class="tag"><a href="tag/parallel.html">#parallel</a></li>
 <li class="tag"><a href="tag/source%20code.html">#source code</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li>
 <li class="tag"><a href="tag/verification.html">#verification</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>

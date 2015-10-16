@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2660193.2660204">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OOPSLA-2014-XiaoGZZZYWLCZ,
 	author        = "<a href="person/Tian_Xiao.html">Tian Xiao</a> and <a href="person/Zhenyu_Guo.html">Zhenyu Guo</a> and <a href="person/Hucheng_Zhou.html">Hucheng Zhou</a> and <a href="person/Jiaxing_Zhang.html">Jiaxing Zhang</a> and <a href="person/Xu_Zhao.html">Xu Zhao</a> and <a href="person/Chencheng_Ye.html">Chencheng Ye</a> and <a href="person/Xi_Wang.html">Xi Wang</a> and <a href="person/Wei_Lin.html">Wei Lin</a> and <a href="person/Wenguang_Chen.html">Wenguang Chen</a> and <a href="person/Lidong_Zhou.html">Lidong Zhou</a>",
-	booktitle     = "{OOPSLA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2660193.2660204">10.1145/2660193.2660204</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2660193.2660204">http://doi.acm.org/10.1145/2660193.2660204</a>",
 </span>	pages         = "895--908",

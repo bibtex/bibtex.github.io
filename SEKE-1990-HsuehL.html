@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge-Based+Programming+for+Call+Processing+Program+in+Telecommunication+Switching+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1990-HsuehL,
 	author        = "<a href="person/John_C_C_Hsueh.html">John C. C. Hsueh</a> and <a href="person/D_T_Lee.html">D. T. Lee</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "110--115",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Knowledge-Based Programming for Call Processing Program in Telecommunication Switching System}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Empirical+Study+for+the+Improvement+of+Requirements+Engineering+Process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-Niazi,
 	author        = "<a href="person/Mahmood_Niazi.html">Mahmood Niazi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "396--399",
 	title         = "{An Empirical Study for the Improvement of Requirements Engineering Process}",
 	year          = 2005,

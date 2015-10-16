@@ -33,18 +33,18 @@
 <h2>Petra Luchner, Günter R. Koch, Franz Engelmann<br/><em><a href="word/glue.html">Glueing</a> <a href="word/case.html">CASE</a> <a href="word/tool.html">Tools</a> <a href="word/togeth.html">Together</a> in a <a href="word/heterogen.html">Heterogeneous</a> <a href="word/case.html">CASE</a> <a href="word/environ.html">Environment</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/LuchnerKE89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Glueing+CASE+Tools+Together+in+a+Heterogeneous+CASE+Environment%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper42.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22Glueing+CASE+Tools+Together+in+a+Heterogeneous+CASE+Environment%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper42.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-LuchnerKE,
 	author        = "<a href="person/Petra_Luchner.html">Petra Luchner</a> and <a href="person/Guenter_R_Koch.html">Günter R. Koch</a> and <a href="person/Franz_Engelmann.html">Franz Engelmann</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper42.pdf">http://ceur-ws.org/Vol-961/paper42.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Glueing CASE Tools Together in a Heterogeneous CASE Environment}",
 	volume        = 961,
 	year          = 1989,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Context+Ontology+Model+for+Pervasive+Advertising:+a+Case+Study+on+Pervasive+Displays%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-BublitzAP,
 	author        = "<a href="person/Frederico_Bublitz.html">Frederico Bublitz</a> and <a href="person/Hyggo_Oliveira_de_Almeida.html">Hyggo Oliveira de Almeida</a> and <a href="person/Angelo_Perkusich.html">Angelo Perkusich</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "426--431",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Context Ontology Model for Pervasive Advertising: a Case Study on Pervasive Displays}",

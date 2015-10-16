@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+efficient+QCL-based+alert+correlation+process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-Bouzar-BenlabiodBB,
 	author        = "<a href="person/Lydia_Bouzar-Benlabiod.html">Lydia Bouzar-Benlabiod</a> and <a href="person/Salem_Benferhat.html">Salem Benferhat</a> and <a href="person/Thouraya_Bouabana-Tebibel.html">Thouraya Bouabana-Tebibel</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "388--393",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An efficient QCL-based alert correlation process}",

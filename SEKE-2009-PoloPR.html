@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Some+Experiments+on+Test+Case+Tracebaility%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-PoloPR,
 	author        = "<a href="person/Macario_Polo.html">Macario Polo</a> and <a href="person/Beatriz_Perez_Lamancha.html">Beatriz Pérez Lamancha</a> and <a href="person/Pedro_Reales_Mateo.html">Pedro Reales Mateo</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "318--321",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Some Experiments on Test Case Tracebaility}",

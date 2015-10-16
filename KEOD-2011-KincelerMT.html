@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Ontology+for+a+Hydro-meteorological+Observation+Network%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-KincelerMT,
 	author        = "Lúcia Morais Kinceler and Angelo Mendes Massignam and <a href="person/Jose_Leomar_Todesco.html">José Leomar Todesco</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "145--151",
 	publisher     = "{SciTePress}",
 	title         = "{An Ontology for a Hydro-meteorological Observation Network}",

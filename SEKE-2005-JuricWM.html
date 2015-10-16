@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Experiences+of+Generating+COTS+Components+when+Automating+Medicinal+Product+Evaluations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-JuricWM,
 	author        = "<a href="person/Radmila_Juric.html">Radmila Juric</a> and <a href="person/Stephen_Williams.html">Stephen Williams</a> and <a href="person/Peter_Milligan.html">Peter Milligan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "653--656",
 	title         = "{Experiences of Generating COTS Components when Automating Medicinal Product Evaluations}",
 	year          = 2005,

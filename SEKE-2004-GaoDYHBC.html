@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Applying+Aspect-Orientation+in+Designing+Security+Systems:+A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-GaoDYHBC,
 	author        = "<a href="person/Shu_Gao.html">Shu Gao</a> and <a href="person/Yi_Deng.html">Yi Deng</a> and <a href="person/Huiqun_Yu.html">Huiqun Yu</a> and <a href="person/Xudong_He.html">Xudong He</a> and <a href="person/Konstantin_Beznosov.html">Konstantin Beznosov</a> and Kendra M. L. Cooper",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "360--365",
 	title         = "{Applying Aspect-Orientation in Designing Security Systems: A Case Study}",
 	year          = 2004,

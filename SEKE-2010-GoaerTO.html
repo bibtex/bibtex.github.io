@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Evolution+Styles+to+Capitalize+Evolution+Expertise+within+Software+Architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-GoaerTO,
 	author        = "<a href="person/Olivier_Le_Goaer.html">Olivier Le Goaer</a> and <a href="person/Dalila_Tamzalit.html">Dalila Tamzalit</a> and <a href="person/Mourad_Oussalah.html">Mourad Oussalah</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "159--164",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Evolution Styles to Capitalize Evolution Expertise within Software Architectures}",

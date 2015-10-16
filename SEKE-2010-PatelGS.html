@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22TestDrive+—+A+Cost+Effective+Way+to+Create+and+Maintain+Test+Scripts+for+Web+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-PatelGS,
 	author        = "<a href="person/Sachin_Patel.html">Sachin Patel</a> and <a href="person/Priya_Gupta.html">Priya Gupta</a> and <a href="person/Prafullakumar_Surve.html">Prafullakumar Surve</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "474--476",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{TestDrive — A Cost Effective Way to Create and Maintain Test Scripts for Web Applications}",

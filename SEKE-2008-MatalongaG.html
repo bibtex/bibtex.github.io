@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Linking+Return+on+Training+Investment+with+Defects+Causal+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-MatalongaG,
 	author        = "<a href="person/Santiago_Matalonga.html">Santiago Matalonga</a> and <a href="person/Tomas_San_Feliu_Gilabert.html">Tomás San Feliu Gilabert</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "42--47",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Linking Return on Training Investment with Defects Causal Analysis}",

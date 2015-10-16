@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Spacemaker:+Practical+Formal+Synthesis+of+Tradeoff+Spaces+for+Object-Relational+Mapping%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-BagheriSS,
 	author        = "<a href="person/Hamid_Bagheri.html">Hamid Bagheri</a> and <a href="person/Kevin_J_Sullivan.html">Kevin J. Sullivan</a> and <a href="person/Sang_H_Son.html">Sang H. Son</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "688--693",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Spacemaker: Practical Formal Synthesis of Tradeoff Spaces for Object-Relational Mapping}",

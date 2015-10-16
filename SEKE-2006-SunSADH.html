@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Achieving+a+Better+Middleware+Design+through+Formal+Modeling+and+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-SunSADH,
 	author        = "<a href="person/Weixiang_Sun.html">Weixiang Sun</a> and <a href="person/Tianjun_Shi.html">Tianjun Shi</a> and <a href="person/Gonzalo_Argote-Garcia.html">Gonzalo Argote-Garcia</a> and <a href="person/Yi_Deng.html">Yi Deng</a> and <a href="person/Xudong_He.html">Xudong He</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "463--468",
 	title         = "{Achieving a Better Middleware Design through Formal Modeling and Analysis}",
 	year          = 2006,

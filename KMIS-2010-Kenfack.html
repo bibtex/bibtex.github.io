@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22JADE+Agent+is+Intermediation+System+(JAIS)+for+Knowledge+Emergence+in+Community+of+Practices+—+Intelligent+Information+Systems,+Best+Practices+&amp;+Communities+of+Practice,+Cooperation,+Communication,+Collaboration+and+Knowledge+Sharing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-Kenfack,
 	author        = "Clauvice Kenfack",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "372--377",
 	publisher     = "{SciTePress}",
 	title         = "{JADE Agent is Intermediation System (JAIS) for Knowledge Emergence in Community of Practices — Intelligent Information Systems, Best Practices &amp; Communities of Practice, Cooperation, Communication, Collaboration and Knowledge Sharing}",

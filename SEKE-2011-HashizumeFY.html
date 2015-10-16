@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Misuse+Patterns+for+Cloud+Computing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-HashizumeFY,
 	author        = "<a href="person/Keiko_Hashizume.html">Keiko Hashizume</a> and <a href="person/Eduardo_B_Fernandez.html">Eduardo B. Fernández</a> and <a href="person/Nobukazu_Yoshioka.html">Nobukazu Yoshioka</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "683--686",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Misuse Patterns for Cloud Computing}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge-Based+Equation+Discovery+in+Engineering+Domains%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1991-RaoLS,
 	author        = "R. Bharat Rao and <a href="person/Stephen_C_Y_Lu.html">Stephen C. Y. Lu</a> and Robert E. Stepp",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Machine Learning</span>}",
 	pages         = "630--634",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Knowledge-Based Equation Discovery in Engineering Domains}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Aspect-Orientation+in+the+Development+of+Embedded+Systems:+A+Systematic+Review%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-DuarteN,
 	author        = "<a href="person/Leonardo_Simas_Duarte.html">Leonardo Simas Duarte</a> and <a href="person/Elisa_Yumi_Nakagawa.html">Elisa Yumi Nakagawa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "158--161",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Aspect-Orientation in the Development of Embedded Systems: A Systematic Review}",

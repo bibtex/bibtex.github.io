@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Objektorientierte+Entwicklung+eingebetteter+(Echtzeit-)+Systeme+mit+UML?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität':'Ada Deutschland Tagung');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Ada-2002-BichlerS,
 	author        = "<a href="person/Lutz_Bichler.html">Lutz Bichler</a> and <a href="person/Andy_Schuerr.html">Andy Schürr</a>",
-	booktitle     = "{Ada Deutschland Tagung}",
+	booktitle     = "{<span id="booktitle">Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität</span>}",
 	pages         = "11--28",
 	publisher     = "{Shaker Verlag}",
 	title         = "{Objektorientierte Entwicklung eingebetteter (Echtzeit-) Systeme mit UML?}",

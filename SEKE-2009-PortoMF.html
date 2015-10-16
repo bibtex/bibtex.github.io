@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Use+of+Reading+Technique+and+Visualization+for+Program+Understanding%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-PortoMF,
 	author        = "<a href="person/Daniel_Porto.html">Daniel Porto</a> and <a href="person/Manoel_G_Mendonca.html">Manoel G. Mendonça</a> and <a href="person/Sandra_Camargo_Pinto_Ferraz_Fabbri.html">Sandra Camargo Pinto Ferraz Fabbri</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "386--391",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{The Use of Reading Technique and Visualization for Program Understanding}",

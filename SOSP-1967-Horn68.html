@@ -37,17 +37,16 @@
 <a href="http://dx.doi.org/10.1145/363095.363145">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-1967-Horn68,
 	author        = "<a href="person/Earl_C_Van_Horn.html">Earl C. Van Horn</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/363095.363145">10.1145/363095.363145</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/363095.363145">http://doi.acm.org/10.1145/363095.363145</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 5,
 	pages         = "360--365",
-	series        = "{Communications of the ACM}",
 	title         = "{Three criteria for designing computing systems to facilitate debugging}",
 	volume        = 11,
 	year          = 1968,

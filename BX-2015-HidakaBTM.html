@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Trace-based+Approach+to+Editability+and+Correspondence+Analysis+for+Bidirectional+Graph+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2015-HidakaBTM,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1396/p51-hidaka.pdf",
 	pages         = "51--65",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Trace-based Approach to Editability and Correspondence Analysis for Bidirectional Graph Transformations}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1396/#p51-hidaka">http://ceur-ws.org/Vol-1396/#p51-hidaka</a>",
 </span>	volume        = 1396,

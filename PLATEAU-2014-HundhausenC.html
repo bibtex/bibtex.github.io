@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2688204.2688215">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Workshop on Evaluation and Usability of Programming Languages and Tools':'PLATEAU');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLATEAU-2014-HundhausenC,
 	author        = "<a href="person/Christopher_D_Hundhausen.html">Christopher D. Hundhausen</a> and <a href="person/Adam_S_Carter.html">Adam S. Carter</a>",
-	booktitle     = "{PLATEAU}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Workshop on Evaluation and Usability of Programming Languages and Tools</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2688204.2688215">10.1145/2688204.2688215</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2688204.2688215">http://doi.acm.org/10.1145/2688204.2688215</a>",
 </span>	pages         = "55--56",

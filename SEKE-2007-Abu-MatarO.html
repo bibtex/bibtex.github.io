@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Service+Oriented+Architecture+Empirical+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-Abu-MatarO,
 	author        = "<a href="person/Mohammad_Abu-Matar.html">Mohammad Abu-Matar</a> and <a href="person/A_Jefferson_Offutt.html">A. Jefferson Offutt</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "628--631",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Service Oriented Architecture Empirical Study}",

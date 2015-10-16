@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Management+and+the+Corporate+Nature+of+Local+Governance+—+A+Case+Study+from+the+Philippines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-GimutaoFD,
 	author        = "Kaymart Gimutao and Benjamina Paula Flor and Winifredo Dagli",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "363--368",
 	publisher     = "{SciTePress}",
 	title         = "{Knowledge Management and the Corporate Nature of Local Governance — A Case Study from the Philippines}",

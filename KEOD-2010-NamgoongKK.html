@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Mitigation+of+Large-scale+RDF+Data+Loading+with+the+Employment+of+a+Cloud+Computing+Service%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-NamgoongKK,
 	author        = "Hyun Namgoong and Harshit Kumar and <a href="person/Hong-Gee_Kim.html">Hong-Gee Kim</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "489--492",
 	publisher     = "{SciTePress}",
 	title         = "{Mitigation of Large-scale RDF Data Loading with the Employment of a Cloud Computing Service}",

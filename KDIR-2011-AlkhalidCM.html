@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparison+of+Greedy+Algorithms+for+Decision+Tree+Construction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-AlkhalidCM,
 	author        = "Abdulaziz Alkhalid and Igor Chikalov and <a href="person/Mikhail_Moshkov.html">Mikhail Moshkov</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "438--443",
 	publisher     = "{SciTePress}",
 	title         = "{Comparison of Greedy Algorithms for Decision Tree Construction}",

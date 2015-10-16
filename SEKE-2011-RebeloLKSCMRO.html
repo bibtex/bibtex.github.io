@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Assessing+the+Impact+of+Aspects+on+Design+By+Contract+Effort:+A+Quantitative+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-RebeloLKSCMRO,
 	author        = "<a href="person/Henrique_Rebelo.html">Henrique Rebêlo</a> and <a href="person/Ricardo_Massa_Ferreira_Lima.html">Ricardo Massa Ferreira Lima</a> and <a href="person/Uira_Kulesza.html">Uirá Kulesza</a> and <a href="person/Claudio_SantAnna.html">Cláudio Sant'Anna</a> and <a href="person/Roberta_Coelho.html">Roberta Coelho</a> and <a href="person/Alexandre_Mota.html">Alexandre Mota</a> and <a href="person/Marcio_Ribeiro.html">Márcio Ribeiro</a> and <a href="person/Cesar_A_L_Oliveira.html">César A. L. Oliveira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "450--455",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Assessing the Impact of Aspects on Design By Contract Effort: A Quantitative Study}",

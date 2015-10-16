@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Linear+Algorithm+for+Testing+Isomorphism+of+Planar+Graphs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Fontet,
 	author        = "<a href="person/Max_Fontet.html">Max Fontet</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "411--424",
 	title         = "{A Linear Algorithm for Testing Isomorphism of Planar Graphs}",
 	year          = 1976,

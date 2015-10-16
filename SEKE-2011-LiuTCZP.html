@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Extraction+of+Data+Lifecycle+Support+from+Database+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-LiuTCZP,
 	author        = "<a href="person/Kaiping_Liu.html">Kaiping Liu</a> and <a href="person/Hee_Beng_Kuan_Tan.html">Hee Beng Kuan Tan</a> and <a href="person/Xu_Chen.html">Xu Chen</a> and <a href="person/Hongyu_Zhang.html">Hongyu Zhang</a> and <a href="person/Bindu_Padmanabhuni.html">Bindu Padmanabhuni</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "432--437",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Automated Extraction of Data Lifecycle Support from Database Applications}",

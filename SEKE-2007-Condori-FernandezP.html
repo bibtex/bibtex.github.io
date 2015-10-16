@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Analyzing+the+Applicability+of+a+Theoretical+Model+in+the+Evaluation+of+Functional+Size+Measurement+Procedures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-Condori-FernandezP,
 	author        = "<a href="person/Nelly_Condori-Fernandez.html">Nelly Condori-Fernández</a> and <a href="person/Oscar_Pastor.html">Oscar Pastor</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "736--739",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Analyzing the Applicability of a Theoretical Model in the Evaluation of Functional Size Measurement Procedures}",

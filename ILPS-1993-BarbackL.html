@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Proof+Procedure+for+Default+Theories+with+Extensions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-BarbackL,
 	author        = "<a href="person/Monica_D_Barback.html">Monica D. Barback</a> and <a href="person/Jorge_Lobo.html">Jorge Lobo</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "651",
 	publisher     = "{MIT Press}",
 	title         = "{A Proof Procedure for Default Theories with Extensions}",

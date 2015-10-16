@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Two+Optimal+Parallel+Algorithms+on+the+Commutation+Class+of+a+Word%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-SchottS,
 	author        = "<a href="person/Rene_Schott.html">René Schott</a> and <a href="person/Jean-Claude_Spehner.html">Jean-Claude Spehner</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "403--419",
 	publisher     = "{World Scientific}",
 	title         = "{Two Optimal Parallel Algorithms on the Commutation Class of a Word}",

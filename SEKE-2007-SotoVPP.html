@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Three+Level+Multi-agent+Architecture+to+Foster+Knowledge+Exchange%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-SotoVPP,
 	author        = "<a href="person/Juan_Pablo_Soto.html">Juan Pablo Soto</a> and <a href="person/Aurora_Vizcaino.html">Aurora Vizcaíno</a> and <a href="person/Javier_Portillo-Rodriguez.html">Javier Portillo-Rodríguez</a> and <a href="person/Mario_Piattini.html">Mario Piattini</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "565--569",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Three Level Multi-agent Architecture to Foster Knowledge Exchange}",

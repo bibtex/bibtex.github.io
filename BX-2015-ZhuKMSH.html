@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22BiYacc:+Roll+Your+Parser+and+Reflective+Printer+into+One%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2015-ZhuKMSH,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1396/p43-zhu.pdf",
 	pages         = "43--50",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{BiYacc: Roll Your Parser and Reflective Printer into One}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1396/#p43-zhu">http://ceur-ws.org/Vol-1396/#p43-zhu</a>",
 </span>	volume        = 1396,

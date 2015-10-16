@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2661136.2661148">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth Symposium on New Ideas in Programming and Reflections on Software':'Onward!');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Onward-2014-KaraivanovRV,
 	author        = "<a href="person/Svetoslav_Karaivanov.html">Svetoslav Karaivanov</a> and <a href="person/Veselin_Raychev.html">Veselin Raychev</a> and <a href="person/Martin_T_Vechev.html">Martin T. Vechev</a>",
-	booktitle     = "{Onward!}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth Symposium on New Ideas in Programming and Reflections on Software</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2661136.2661148">10.1145/2661136.2661148</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2661136.2661148">http://doi.acm.org/10.1145/2661136.2661148</a>",
 </span>	pages         = "173--184",

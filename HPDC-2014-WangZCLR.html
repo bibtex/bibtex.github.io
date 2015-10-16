@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2600212.2600703">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2014-WangZCLR,
 	author        = "Ke Wang and Xiaobing Zhou and <a href="person/Hao_Chen.html">Hao Chen</a> and Michael Lang and Ioan Raicu",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2600212.2600703">10.1145/2600212.2600703</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2600212.2600703">http://doi.acm.org/10.1145/2600212.2600703</a>",
 </span>	pages         = "111--114",

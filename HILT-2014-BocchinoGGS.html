@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2663171.2663185">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the ACM SIGAda Annual Conference on High Integrity Language Technology':'HILT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HILT-2014-BocchinoGGS,
 	author        = "<a href="person/Robert_L_Bocchino.html">Robert L. Bocchino</a> and <a href="person/Edward_Gamble.html">Edward Gamble</a> and <a href="person/Kim_P_Gostelow.html">Kim P. Gostelow</a> and <a href="person/Raphael_R_Some.html">Raphael R. Some</a>",
-	booktitle     = "{HILT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the ACM SIGAda Annual Conference on High Integrity Language Technology</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2663171.2663185">10.1145/2663171.2663185</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2663171.2663185">http://doi.acm.org/10.1145/2663171.2663185</a>",
 </span>	pages         = "97--102",

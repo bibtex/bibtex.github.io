@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MFILM:+a+multi-dimensional+fuzzy+inductive+learning+method+for+knowledge+acquisition%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-ChenJ,
 	author        = "<a href="person/Yao-Tsung_Chen.html">Yao-Tsung Chen</a> and <a href="person/Bingchiang_Jeng.html">Bingchiang Jeng</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "445--449",
 	title         = "{MFILM: a multi-dimensional fuzzy inductive learning method for knowledge acquisition}",
 	year          = 2003,

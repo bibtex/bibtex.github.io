@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Empirical+Study+on+the+Test+Adequacy+Criterion+Based+on+Coincidental+Correctness+Probability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-ZhouWLZ,
 	author        = "<a href="person/Xiaoli_Zhou.html">Xiaoli Zhou</a> and <a href="person/Linzhang_Wang.html">Linzhang Wang</a> and <a href="person/Xuandong_Li.html">Xuandong Li</a> and <a href="person/Jianhua_Zhao.html">Jianhua Zhao</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "632--635",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Empirical Study on the Test Adequacy Criterion Based on Coincidental Correctness Probability}",

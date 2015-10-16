@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Decision+Support+for+Re-planning+of+Software+Product+Releases+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-AlamRP,
 	author        = "<a href="person/S_M_Didar_Al_Alam.html">S. M. Didar Al Alam</a> and <a href="person/Guenther_Ruhe.html">Günther Ruhe</a> and <a href="person/Dietmar_Pfahl.html">Dietmar Pfahl</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "89--94",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Decision Support for Re-planning of Software Product Releases (S)}",

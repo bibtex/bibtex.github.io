@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Identifying+strategies+on+god+class+detection+in+two+controlled+experiments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-SantosM,
 	author        = "<a href="person/Jose_Amancio_M_Santos.html">José Amancio M. Santos</a> and <a href="person/Manoel_G_Mendonca.html">Manoel G. Mendonça</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "244--249",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Identifying strategies on god class detection in two controlled experiments}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Confidentiality+Analysis+of+Mobile+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Static Analysis Symposium':'SAS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAS-2000-Feret,
 	author        = "<a href="person/Jerome_Feret.html">Jérôme Feret</a>",
-	booktitle     = "{SAS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Static Analysis Symposium</span>}",
 	pages         = "135--154",
 	publisher     = "{<span id="publisher">Springer-Verlag</span>}",
 	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",

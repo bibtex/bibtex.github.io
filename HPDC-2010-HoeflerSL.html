@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1851476.1851564">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2010-HoeflerSL,
 	author        = "Torsten Hoefler and Timo Schneider and <a href="person/Andrew_Lumsdaine.html">Andrew Lumsdaine</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1851476.1851564">10.1145/1851476.1851564</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1851476.1851564">http://doi.acm.org/10.1145/1851476.1851564</a>",
 </span>	pages         = "597--604",

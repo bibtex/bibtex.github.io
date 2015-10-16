@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Visualization+Tool+for+Pattern+Matching+and+Discovery+in+Scientific+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-ChangWCCWA,
 	author        = "<a href="person/George_Jyh-Shian_Chang.html">George Jyh-Shian Chang</a> and <a href="person/Jason_Tsong-Li_Wang.html">Jason Tsong-Li Wang</a> and <a href="person/Gung-Wei_Chirn.html">Gung-Wei Chirn</a> and <a href="person/Chia-Yo_Chang.html">Chia-Yo Chang</a> and <a href="person/Weihong_Wu.html">Weihong Wu</a> and <a href="person/Firas_Aljallad.html">Firas Aljallad</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "563--570",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Visualization Tool for Pattern Matching and Discovery in Scientific Databases}",

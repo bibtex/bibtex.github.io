@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploiting+the+Cost+(In)sensitivity+of+Decision+Tree+Splitting+Criteria%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-DrummondH,
 	author        = "<a href="person/Chris_Drummond.html">Chris Drummond</a> and Robert C. Holte",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "239--246",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Exploiting the Cost (In)sensitivity of Decision Tree Splitting Criteria}",

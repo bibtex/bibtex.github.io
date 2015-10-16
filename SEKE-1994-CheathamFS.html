@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Supporting+multiple+evolving+compilers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-CheathamFS,
 	author        = "<a href="person/Thomas_Cheatham.html">Thomas Cheatham</a> and <a href="person/Amr_F_Fahmy.html">Amr F. Fahmy</a> and <a href="person/Dan_C_Stefanescu.html">Dan C. Stefanescu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "241--248",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Supporting multiple evolving compilers}",

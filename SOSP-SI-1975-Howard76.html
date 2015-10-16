@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/360051.360079">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1975-Howard76,
 	author        = "<a href="person/John_H_Howard.html">John H. Howard</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/360051.360079">10.1145/360051.360079</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/360051.360079">http://doi.acm.org/10.1145/360051.360079</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 5,
 	pages         = "273--279",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Proving Monitors}",
 	volume        = 19,
 	year          = 1976,

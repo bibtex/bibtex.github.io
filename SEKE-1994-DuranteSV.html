@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+LOTOS+specification+of+the+SERCOS+field-bus+protocol%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-DuranteSV,
 	author        = "<a href="person/Luca_Durante.html">Luca Durante</a> and <a href="person/Riccardo_Sisto.html">Riccardo Sisto</a> and <a href="person/Adriano_Valenzano.html">Adriano Valenzano</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "139--147",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A LOTOS specification of the SERCOS field-bus protocol}",

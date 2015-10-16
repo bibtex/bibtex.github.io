@@ -33,18 +33,18 @@
 <h2>Laurence Rouille, Patrick Bosc, Alain Chauffaut<br/><em>A <a href="word/generic.html">Generic</a> <a href="word/model.html">Model</a> for <a href="word/dialog.html">Dialog</a> <a href="word/specif.html">Specification</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/RouilleBC89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Generic+Model+for+Dialog+Specification%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper23.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22A+Generic+Model+for+Dialog+Specification%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper23.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-RouilleBC,
 	author        = "<a href="person/Laurence_Rouille.html">Laurence Rouille</a> and <a href="person/Patrick_Bosc.html">Patrick Bosc</a> and <a href="person/Alain_Chauffaut.html">Alain Chauffaut</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper23.pdf">http://ceur-ws.org/Vol-961/paper23.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{A Generic Model for Dialog Specification}",
 	volume        = 961,
 	year          = 1989,

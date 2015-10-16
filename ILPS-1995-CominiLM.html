@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Compositionality+in+SLD-Derivations+and+their+Abstractions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-CominiLM,
 	author        = "<a href="person/Marco_Comini.html">Marco Comini</a> and <a href="person/Giorgio_Levi.html">Giorgio Levi</a> and <a href="person/Maria_Chiara_Meo.html">Maria Chiara Meo</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "561--575",
 	publisher     = "{MIT Press}",
 	title         = "{Compositionality in SLD-Derivations and their Abstractions}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Completeness+of+SLDNF-Resolution+for+Non-Floundering+Queries%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-Drabent,
 	author        = "<a href="person/Wlodzimierz_Drabent.html">Wlodzimierz Drabent</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "643",
 	publisher     = "{MIT Press}",
 	title         = "{Completeness of SLDNF-Resolution for Non-Floundering Queries}",

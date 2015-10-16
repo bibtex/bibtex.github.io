@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Representation+through+Coherence+Spaces+—+A+Theoretical+Framework+for+the+Integration+of+Knowledge+Representations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-AbrusciRF,
 	author        = "<a href="person/V_Michele_Abrusci.html">V. Michele Abrusci</a> and Marco Romano and <a href="person/Christophe_Fouquere.html">Christophe Fouqueré</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "220--225",
 	publisher     = "{INSTICC Press}",
 	title         = "{Knowledge Representation through Coherence Spaces — A Theoretical Framework for the Integration of Knowledge Representations}",

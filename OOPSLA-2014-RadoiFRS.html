@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2660193.2660228">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OOPSLA-2014-RadoiFRS,
 	author        = "<a href="person/Cosmin_Radoi.html">Cosmin Radoi</a> and <a href="person/Stephen_J_Fink.html">Stephen J. Fink</a> and <a href="person/Rodric_M_Rabbah.html">Rodric M. Rabbah</a> and <a href="person/Manu_Sridharan.html">Manu Sridharan</a>",
-	booktitle     = "{OOPSLA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2660193.2660228">10.1145/2660193.2660228</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2660193.2660228">http://doi.acm.org/10.1145/2660193.2660228</a>",
 </span>	pages         = "909--927",

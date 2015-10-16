@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Interactive+Business+Rules+Framework+for+Knowledge+Based+Service+Oriented+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-ChandaMB,
 	author        = "<a href="person/Debashis_Chanda.html">Debashis Chanda</a> and <a href="person/Dwijesh_Dutta_Majumder.html">Dwijesh Dutta Majumder</a> and <a href="person/Swapan_Bhattacharya.html">Swapan Bhattacharya</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "315--318",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Interactive Business Rules Framework for Knowledge Based Service Oriented Architecture}",

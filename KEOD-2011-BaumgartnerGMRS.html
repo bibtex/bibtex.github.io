@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reasoning+on+Data+Streams+for+Situation+Awareness%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-BaumgartnerGMRS,
 	author        = "<a href="person/Norbert_Baumgartner.html">Norbert Baumgartner</a> and Wolfgang Gottesheim and <a href="person/Stefan_Mitsch.html">Stefan Mitsch</a> and <a href="person/Werner_Retschitzegger.html">Werner Retschitzegger</a> and <a href="person/Wieland_Schwinger.html">Wieland Schwinger</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "407--412",
 	publisher     = "{SciTePress}",
 	title         = "{Reasoning on Data Streams for Situation Awareness}",

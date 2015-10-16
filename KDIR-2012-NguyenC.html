@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+New+Structure-based+Similarity+Measure+for+Automatic+Ontology+Matching%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-NguyenC,
 	author        = "Thi Thuy Anh Nguyen and <a href="person/Stefan_Conrad.html">Stefan Conrad</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "443--449",
 	publisher     = "{SciTePress}",
 	title         = "{A New Structure-based Similarity Measure for Automatic Ontology Matching}",

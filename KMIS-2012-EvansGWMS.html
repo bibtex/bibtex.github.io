@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Investigation+into+Collaboration+and+Knowledge+Managementduring+Product+Development+in+the+Aerospace+and+Defence+Industry%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-EvansGWMS,
 	author        = "Richard David Evans and James Xiaoyu Gao and Steve Woodhead and Nick Martin and Clive Simmonds",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "113--118",
 	publisher     = "{SciTePress}",
 	title         = "{An Investigation into Collaboration and Knowledge Managementduring Product Development in the Aerospace and Defence Industry}",

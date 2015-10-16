@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Verification+Conditions+as+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Emden,
 	author        = "<a href="person/Maarten_H_van_Emden.html">Maarten H. van Emden</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "99--119",
 	title         = "{Verification Conditions as Programs}",
 	year          = 1976,

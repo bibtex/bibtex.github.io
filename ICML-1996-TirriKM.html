@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Prababilistic+Instance-Based+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1996-TirriKM,
 	author        = "<a href="person/Henry_Tirri.html">Henry Tirri</a> and Petri Kontkanen and Petri Myllymäki",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Machine Learning</span>}",
 	pages         = "507--515",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Prababilistic Instance-Based Learning}",

@@ -33,15 +33,16 @@
 <h2>Mikkel Damgaard Olsen, Anna Herskind, Jens Bo Nielsen, Rasmus R. Paulsen<br/><em><a href="word/bodi.html">Body</a> <a href="word/part.html">Part</a> <a href="word/track.html">Tracking</a> of <a href="word/infant.html">Infants</a></em><br/>ICPR, 2014.</h2>
 <div class="rbox">
 <strong><a href="ICPR-2014.html">ICPR 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icpr/OlsenHNP14">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Body+Part+Tracking+of+Infants%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICPR.2014.377">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Body+Part+Tracking+of+Infants%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICPR.2014.377">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.1109/ICPR.2014.377">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Pattern Recognition':'ICPR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICPR-2014-OlsenHNP,
 	author        = "Mikkel Damgaard Olsen and Anna Herskind and Jens Bo Nielsen and Rasmus R. Paulsen",
-	booktitle     = "{ICPR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Pattern Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICPR.2014.377">10.1109/ICPR.2014.377</a>",
 </span>	pages         = "2167--2172",
 	publisher     = "{IEEE}",

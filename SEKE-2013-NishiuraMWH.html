@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Mutation+Analysis+for+JavaScriptWeb+Application+Testing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-NishiuraMWH,
 	author        = "<a href="person/Kazuki_Nishiura.html">Kazuki Nishiura</a> and <a href="person/Yuta_Maezawa.html">Yuta Maezawa</a> and <a href="person/Hironori_Washizaki.html">Hironori Washizaki</a> and <a href="person/Shinichi_Honiden.html">Shinichi Honiden</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "159--165",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Mutation Analysis for JavaScriptWeb Application Testing}",

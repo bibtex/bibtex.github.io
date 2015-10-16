@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Toward+Developing+Knowledge+Representation+in+Emergency+Medical+Assistance+through+a+Ontology-based+Semantic+Cache+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-ManicaRTDB,
 	author        = "<a href="person/Heloise_Manica.html">Heloise Manica</a> and <a href="person/Cristiano_C_da_Rocha.html">Cristiano C. da Rocha</a> and <a href="person/Jose_Leomar_Todesco.html">José Leomar Todesco</a> and <a href="person/Mario_A_R_Dantas.html">Mario A. R. Dantas</a> and <a href="person/Michael_A_Bauer.html">Michael A. Bauer</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "592--596",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Toward Developing Knowledge Representation in Emergency Medical Assistance through a Ontology-based Semantic Cache Model}",

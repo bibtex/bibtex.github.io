@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1879211.1879228">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2010-LinTOB,
 	author        = "<a href="person/Shen_Lin.html">Shen Lin</a> and <a href="person/Francois_Taiani.html">François Taïani</a> and <a href="person/Thomas_C_Ormerod.html">Thomas C. Ormerod</a> and <a href="person/Linden_J_Ball.html">Linden J. Ball</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the ACM Symposium on Software Visualization</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1879211.1879228">10.1145/1879211.1879228</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1879211.1879228">http://doi.acm.org/10.1145/1879211.1879228</a>",
 </span>	pages         = "103--112",

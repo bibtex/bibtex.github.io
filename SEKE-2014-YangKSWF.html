@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22RefactoringScript:+A+Script+and+Its+Processor+for+Composite+Refactoring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-YangKSWF,
 	author        = "<a href="person/Linchao_Yang.html">Linchao Yang</a> and <a href="person/Tomoyuki_Kamiya.html">Tomoyuki Kamiya</a> and <a href="person/Kazunori_Sakamoto.html">Kazunori Sakamoto</a> and <a href="person/Hironori_Washizaki.html">Hironori Washizaki</a> and <a href="person/Yoshiaki_Fukazawa.html">Yoshiaki Fukazawa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "711--716",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{RefactoringScript: A Script and Its Processor for Composite Refactoring}",

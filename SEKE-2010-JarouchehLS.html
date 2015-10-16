@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Model-driven+Approach+to+Flexible+Multi-Level+Customization+of+SaaS+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-JarouchehLS,
 	author        = "<a href="person/Zakwan_Jaroucheh.html">Zakwan Jaroucheh</a> and <a href="person/Xiaodong_Liu.html">Xiaodong Liu</a> and <a href="person/Sally_Smith.html">Sally Smith</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "241--246",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Model-driven Approach to Flexible Multi-Level Customization of SaaS Applications}",

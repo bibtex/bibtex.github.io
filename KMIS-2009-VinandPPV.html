@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Managing+Engineering+Knowledge+in+Special+Machine+Design+Companies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-VinandPPV,
 	author        = "Pierre-Emmanuel Vinand and Franck Pourroy and Guy Prudhomme and François Villeneuve",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "123--128",
 	publisher     = "{INSTICC Press}",
 	title         = "{Managing Engineering Knowledge in Special Machine Design Companies}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22State+of+the+Survey+on+Team-based+Software+Engineering+Project+Course%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-Hazeyama,
 	author        = "<a href="person/Atsuo_Hazeyama.html">Atsuo Hazeyama</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "430--435",
 	title         = "{State of the Survey on Team-based Software Engineering Project Course}",
 	year          = 2005,

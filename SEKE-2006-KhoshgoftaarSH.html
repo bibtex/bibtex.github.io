@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Polishing+Noise+in+Continuous+Software+Measurement+Data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-KhoshgoftaarSH,
 	author        = "<a href="person/Taghi_M_Khoshgoftaar.html">Taghi M. Khoshgoftaar</a> and <a href="person/Chris_Seiffert.html">Chris Seiffert</a> and <a href="person/Jason_Van_Hulse.html">Jason Van Hulse</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "227--231",
 	title         = "{Polishing Noise in Continuous Software Measurement Data}",
 	year          = 2006,

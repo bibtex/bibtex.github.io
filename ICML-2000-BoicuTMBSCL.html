@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Disciple-COA:+From+Agent+Programming+to+Agent+Teaching%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-BoicuTMBSCL,
 	author        = "Mihai Boicu and <a href="person/Gheorghe_Tecuci.html">Gheorghe Tecuci</a> and Dorin Marcu and <a href="person/Michael_Bowman.html">Michael Bowman</a> and Ping Shyr and Florin Ciucu and Cristian Levcovici",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "73--80",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Disciple-COA: From Agent Programming to Agent Teaching}",

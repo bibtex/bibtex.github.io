@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Object+Indexes+to+Implement+a+Case+Base+for+Reuse+in+a+Multi-Domain+Context%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-TalensBD,
 	author        = "<a href="person/Guilaine_Talens.html">Guilaine Talens</a> and <a href="person/Danielle_Boulanger.html">Danielle Boulanger</a> and <a href="person/Isabelle_Dedun.html">Isabelle Dedun</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "95--101",
 	title         = "{Object Indexes to Implement a Case Base for Reuse in a Multi-Domain Context}",
 	year          = 2001,

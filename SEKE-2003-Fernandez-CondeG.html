@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Case-based+Framework+Instantiation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-Fernandez-CondeG,
 	author        = "<a href="person/Carlos_Fernandez-Conde.html">Carlos Fernández-Conde</a> and <a href="person/Pedro_A_Gonzalez-Calero.html">Pedro A. González-Calero</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "281--288",
 	title         = "{Case-based Framework Instantiation}",
 	year          = 2003,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Constructing+Software+System+Based+On+Software+Pattern+and+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-LiuL,
 	author        = "<a href="person/Fong-Hao_Liu.html">Fong-Hao Liu</a> and <a href="person/Shiang-Fu_Luo.html">Shiang-Fu Luo</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "181--186",
 	title         = "{Constructing Software System Based On Software Pattern and Architecture}",
 	year          = 2005,

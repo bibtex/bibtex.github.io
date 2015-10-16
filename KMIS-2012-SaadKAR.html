@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Soft+Systems+Methodology+—+A+Conceptual+Model+of+Knowledge+Management+Systems+Initiatives+in+Malaysian+Public+Universities%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-SaadKAR,
 	author        = "Nor Hasliza Md Saad and Hasmiah Kasimin and Rose Alinda Alias and Azizah Abdul Rahman",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "60--69",
 	publisher     = "{SciTePress}",
 	title         = "{Soft Systems Methodology — A Conceptual Model of Knowledge Management Systems Initiatives in Malaysian Public Universities}",

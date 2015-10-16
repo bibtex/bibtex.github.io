@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Deterministic+Pushdown-CD-Systems+of+Stateless+Deterministic+R(1)-Automata%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Automata and Formal Languages':'AFL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AFL-2011-NagyO,
 	author        = "<a href="person/Benedek_Nagy.html">Benedek Nagy</a> and <a href="person/Friedrich_Otto.html">Friedrich Otto</a>",
-	booktitle     = "{AFL}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Automata and Formal Languages</span>}",
 	pages         = "328--342",
 	title         = "{Deterministic Pushdown-CD-Systems of Stateless Deterministic R(1)-Automata}",
 	year          = 2011,

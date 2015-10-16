@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+the+whole+structure+of+ontology+for+semantic+relatedness+measurement%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-KhounSiavashB,
 	author        = "<a href="person/Ehsan_KhounSiavash.html">Ehsan KhounSiavash</a> and <a href="person/Ahmad_Baraani-Dastjerdi.html">Ahmad Baraani-Dastjerdi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "79--83",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using the whole structure of ontology for semantic relatedness measurement}",

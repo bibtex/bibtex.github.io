@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Discovery+for+Pervasive+and+Real-time+Intelligent+Decision+Support+in+Intensive+Care+Medicine%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-PortelaGSSRMAN,
 	author        = "Filipe Portela and Pedro Gago and Manuel Filipe Santos and Álvaro M. Silva and Fernando Rua and José Machado and António Abelha and José Neves",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "241--249",
 	publisher     = "{SciTePress}",
 	title         = "{Knowledge Discovery for Pervasive and Real-time Intelligent Decision Support in Intensive Care Medicine}",

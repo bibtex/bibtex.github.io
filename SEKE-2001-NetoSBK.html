@@ -36,20 +36,19 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Prototype+Experience+Management+System+for+a+Software+Consulting+Organization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-NetoSBK,
 	author        = "<a href="person/Manoel_Gomes_de_Mendonca_Neto.html">Manoel Gomes de Mendonça Neto</a> and <a href="person/Carolyn_B_Seaman.html">Carolyn B. Seaman</a> and <a href="person/Victor_R_Basili.html">Victor R. Basili</a> and <a href="person/Yong-Mi_Kim.html">Yong-Mi Kim</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "29--36",
 	title         = "{A Prototype Experience Management System for a Software Consulting Organization}",
 	year          = 2001,
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/prototype.html">#prototype</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/prototype.html">#prototype</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

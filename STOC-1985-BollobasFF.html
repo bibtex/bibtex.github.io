@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/22145.22193">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1985-BollobasFF,
 	author        = "<a href="person/Bela_Bollobas.html">Béla Bollobás</a> and Trevor I. Fenner and <a href="person/Alan_M_Frieze.html">Alan M. Frieze</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/22145.22193">10.1145/22145.22193</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/22145.22193">http://doi.acm.org/10.1145/22145.22193</a>",
 </span>	pages         = "430--439",

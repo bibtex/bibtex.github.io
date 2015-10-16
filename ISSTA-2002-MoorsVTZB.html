@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/566172.566195">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Software Testing and Analysis':'ISSTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISSTA-2002-MoorsVTZB,
 	author        = "Tim Moors and Malathi Veeraraghavan and Zhifeng Tao and Xuan Zheng and Ramesh Badri",
-	booktitle     = "{ISSTA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Software Testing and Analysis</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/566172.566195">10.1145/566172.566195</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/566172.566195">http://doi.acm.org/10.1145/566172.566195</a>",
 </span>	pages         = "154--158",

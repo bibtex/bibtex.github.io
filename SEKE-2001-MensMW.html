@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Supporting+Software+Development+through+Declaratively+Codified+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-MensMW,
 	author        = "<a href="person/Kim_Mens.html">Kim Mens</a> and <a href="person/Isabel_Michiels.html">Isabel Michiels</a> and <a href="person/Roel_Wuyts.html">Roel Wuyts</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "236--243",
 	title         = "{Supporting Software Development through Declaratively Codified Programming}",
 	year          = 2001,

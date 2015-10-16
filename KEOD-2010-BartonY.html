@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22UrbanIT+—+Urban+Ontologies+to+Support+Informed+Urban+Development+and+Planning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-BartonY,
 	author        = "John Barton and Hairong Yu",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "224--228",
 	publisher     = "{SciTePress}",
 	title         = "{UrbanIT — Urban Ontologies to Support Informed Urban Development and Planning}",

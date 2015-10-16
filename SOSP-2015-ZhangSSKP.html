@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2815400.2815404">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th Symposium on Operating Systems Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-2015-ZhangSSKP,
 	author        = "<a href="person/Irene_Zhang.html">Irene Zhang</a> and <a href="person/Naveen_Kr_Sharma.html">Naveen Kr. Sharma</a> and <a href="person/Adriana_Szekeres.html">Adriana Szekeres</a> and <a href="person/Arvind_Krishnamurthy.html">Arvind Krishnamurthy</a> and <a href="person/Dan_R_K_Ports.html">Dan R. K. Ports</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th Symposium on Operating Systems Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2815400.2815404">10.1145/2815400.2815404</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2815400.2815404">http://doi.acm.org/10.1145/2815400.2815404</a>",
 </span>	pages         = "263--278",

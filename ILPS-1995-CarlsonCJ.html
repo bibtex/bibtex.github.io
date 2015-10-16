@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+implementation+of+AKL(FD)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-CarlsonCJ,
 	author        = "<a href="person/Bjoern_Carlson.html">Björn Carlson</a> and <a href="person/Mats_Carlsson.html">Mats Carlsson</a> and <a href="person/Sverker_Janson.html">Sverker Janson</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "227--241",
 	publisher     = "{MIT Press}",
 	title         = "{The implementation of AKL(FD)}",

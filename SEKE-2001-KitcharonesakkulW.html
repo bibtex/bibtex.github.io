@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Composing+based+on+a+Unified+SCM+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-KitcharonesakkulW,
 	author        = "<a href="person/Supanat_Kitcharoensakkul.html">Supanat Kitcharoensakkul</a> and <a href="person/Vilas_Wuwongse.html">Vilas Wuwongse</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "321--325",
 	title         = "{Software Composing based on a Unified SCM System}",
 	year          = 2001,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Linked+Data+Approach+for+Querying+Heterogeneous+Sources+—+Assisting+Researchers+in+Finding+Answers+to+Complex+Clinical+Questions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-MatskanisAMMR,
 	author        = "Nikolaos Matskanis and Vassiliki Andronikou and <a href="person/Philippe_Massonet.html">Philippe Massonet</a> and Konstantinos Mourtzoukos and Joseph Roumier",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "411--414",
 	publisher     = "{SciTePress}",
 	title         = "{A Linked Data Approach for Querying Heterogeneous Sources — Assisting Researchers in Finding Answers to Complex Clinical Questions}",

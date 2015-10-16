@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ontology-Based+Tools+in+the+Service+of+Hardware+Verification%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-BinGHMMPRST,
 	author        = "<a href="person/Eyal_Bin.html">Eyal Bin</a> and <a href="person/Alaa_Ghanayim.html">Alaa Ghanayim</a> and <a href="person/Karen_Holtz.html">Karen Holtz</a> and <a href="person/Eitan_Marcus.html">Eitan Marcus</a> and <a href="person/Ronny_Morad.html">Ronny Morad</a> and <a href="person/Ofer_Peled.html">Ofer Peled</a> and <a href="person/Michal_Rimon.html">Michal Rimon</a> and <a href="person/Gil_Shurek.html">Gil Shurek</a> and <a href="person/Elena_Tsanko.html">Elena Tsanko</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "303--308",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Ontology-Based Tools in the Service of Hardware Verification}",

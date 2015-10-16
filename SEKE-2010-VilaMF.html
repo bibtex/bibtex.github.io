@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+QVT+for+adapting+question+analysis+to+restricted+domain+QA+systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-VilaMF,
 	author        = "<a href="person/Katia_Vila.html">Katia Vila</a> and <a href="person/Jose-Norberto_Mazon.html">Jose-Norberto Mazón</a> and <a href="person/Antonio_Ferrandez.html">Antonio Ferrández</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "335--338",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using QVT for adapting question analysis to restricted domain QA systems}",

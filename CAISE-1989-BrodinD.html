@@ -33,18 +33,18 @@
 <h2>Espen Brodin, Bjørn Ivar Danielsen<br/><em><a href="word/foundat.html">Foundation</a> — The <a href="word/broad.html">Broad</a> <a href="word/tool.html">Tool</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/BrodinD89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Foundation+—+The+Broad+Tool%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper8.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22Foundation+—+The+Broad+Tool%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper8.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-BrodinD,
 	author        = "<a href="person/Espen_Brodin.html">Espen Brodin</a> and <a href="person/Bjorn_Ivar_Danielsen.html">Bjørn Ivar Danielsen</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper8.pdf">http://ceur-ws.org/Vol-961/paper8.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Foundation — The Broad Tool}",
 	volume        = 961,
 	year          = 1989,

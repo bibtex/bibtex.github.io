@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/323647.323643">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th ACM Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1985-CarrieroG,
 	author        = "<a href="person/Nicholas_Carriero.html">Nicholas Carriero</a> and <a href="person/David_Gelernter.html">David Gelernter</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th ACM Symposium on Operating System Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/323647.323643">10.1145/323647.323643</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/323647.323643">http://doi.acm.org/10.1145/323647.323643</a>",
 </span>	note          = "long version: ACM Trans. Comput. Syst. 4(2): 110-129(1986)",

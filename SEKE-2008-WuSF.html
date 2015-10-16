@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Discovering+Meaningful+Clusters+from+Mining+the+Software+Engineering+Literature%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-WuSF,
 	author        = "<a href="person/Yan_Wu.html">Yan Wu</a> and <a href="person/Harvey_P_Siy.html">Harvey P. Siy</a> and <a href="person/Li_Fan.html">Li Fan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "613--618",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Discovering Meaningful Clusters from Mining the Software Engineering Literature}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22FuzzyAlign+—+A+Fuzzy+Method+for+Ontology+Alignment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-FernandezVML,
 	author        = "Susel Fernández and Juan R. Velasco and Ivan Marsá-Maestre and Miguel A. López-Carmona",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "98--107",
 	publisher     = "{SciTePress}",
 	title         = "{FuzzyAlign — A Fuzzy Method for Ontology Alignment}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+Ontologies+through+Organizational+Modeling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-NajeraMPE,
 	author        = "<a href="person/Karen_Najera.html">Karen Najera</a> and <a href="person/Alicia_Martinez.html">Alicia Martínez</a> and <a href="person/Anna_Perini.html">Anna Perini</a> and <a href="person/Hugo_Estrada.html">Hugo Estrada</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "42--47",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Generating Ontologies through Organizational Modeling}",

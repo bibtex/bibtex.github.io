@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Evaluation+of+Tie-Breaking+Strategies+for+Fault+Localization+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-XuDWG,
 	author        = "<a href="person/Xiaofeng_Xu.html">Xiaofeng Xu</a> and <a href="person/Vidroha_Debroy.html">Vidroha Debroy</a> and <a href="person/W_Eric_Wong.html">W. Eric Wong</a> and <a href="person/Donghui_Guo.html">Donghui Guo</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "123--128",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Evaluation of Tie-Breaking Strategies for Fault Localization Techniques}",

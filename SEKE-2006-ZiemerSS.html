@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Decision+Modelling+Approach+for+Analysing+Requirements+Configuration+Trade-offs+in+Timeconstrained+Web+Application+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-ZiemerSS,
 	author        = "<a href="person/Sven_Ziemer.html">Sven Ziemer</a> and <a href="person/Pedro_R_Falcone_Sampaio.html">Pedro R. Falcone Sampaio</a> and <a href="person/Tor_Stalhane.html">Tor Stålhane</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "144--149",
 	title         = "{A Decision Modelling Approach for Analysing Requirements Configuration Trade-offs in Timeconstrained Web Application Development}",
 	year          = 2006,

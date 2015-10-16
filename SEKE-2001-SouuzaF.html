@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Designing+Reusable+Rule-Based+Architectures+with+Design+Patterns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-SouuzaF,
 	author        = "<a href="person/Marco_Antonio_Furlan_de_Souuza.html">Marco Antonio Furlan de Souuza</a> and <a href="person/Maria_Alice_Grigas_Varella_Ferreira.html">Maria Alice Grigas Varella Ferreira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "163--170",
 	title         = "{Designing Reusable Rule-Based Architectures with Design Patterns}",
 	year          = 2001,

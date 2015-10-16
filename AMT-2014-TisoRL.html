@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Unit+Testing+of+Model+to+Text+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2014-TisoRL,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1277/2.pdf",
 	pages         = "14--23",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Unit Testing of Model to Text Transformations}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1277/#paper2">http://ceur-ws.org/Vol-1277/#paper2</a>",
 </span>	volume        = 1277,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Introducing+Software+Process+Specification+to+Task+Context+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-PortugalO,
 	author        = "<a href="person/Ivens_da_S_Portugal.html">Ivens da S. Portugal</a> and <a href="person/Toacy_C_Oliveira.html">Toacy C. Oliveira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "22--25",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Introducing Software Process Specification to Task Context (S)}",

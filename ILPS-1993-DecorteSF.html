@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Inference+of+Norms:+A+Missing+Link+in+Automatic+Termination+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-DecorteSF,
 	author        = "<a href="person/Stefaan_Decorte.html">Stefaan Decorte</a> and <a href="person/Danny_De_Schreye.html">Danny De Schreye</a> and <a href="person/Massimo_Fabris.html">Massimo Fabris</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "420--436",
 	publisher     = "{MIT Press}",
 	title         = "{Automatic Inference of Norms: A Missing Link in Automatic Termination Analysis}",

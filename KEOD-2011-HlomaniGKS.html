@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Utilizing+a+Compositional+System+Knowledge+Framework+for+Ontology+Evaluation+—+A+Case+Study+on+BioSTORM%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-HlomaniGKS,
 	author        = "Hlomani Hlomani and Mitchell G. Gillespie and Daniel Kotowski and Deborah A. Stacey",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "167--175",
 	publisher     = "{SciTePress}",
 	title         = "{Utilizing a Compositional System Knowledge Framework for Ontology Evaluation — A Case Study on BioSTORM}",

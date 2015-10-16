@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Logical+Rules+of+Natural+Reasoning+about+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Kroger,
 	author        = "<a href="person/Fred_Kroeger.html">Fred Kröger</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "87--98",
 	title         = "{Logical Rules of Natural Reasoning about Programs}",
 	year          = 1976,

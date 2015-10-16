@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2702123.2702393">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2015-JainFGHDZVF,
 	author        = "Dhruv Jain and Leah Findlater and Jamie Gilkeson and <a href="person/Benjamin_Holland.html">Benjamin Holland</a> and Ramani Duraiswami and Dmitry N. Zotkin and Christian Vogler and Jon E. Froehlich",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2702123.2702393">10.1145/2702123.2702393</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2702123.2702393">http://doi.acm.org/10.1145/2702123.2702393</a>",
 </span>	pages         = "241--250",

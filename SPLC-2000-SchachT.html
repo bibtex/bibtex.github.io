@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Development/maintenance/reuse:+software+evolution+in+product+lines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Software Product Line Conference: Experiences and Research Directions':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2000-SchachT,
 	author        = "<a href="person/Stephen_R_Schach.html">Stephen R. Schach</a> and <a href="person/Amir_Tomer.html">Amir Tomer</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Software Product Line Conference: Experiences and Research Directions</span>}",
 	pages         = "437--450",
 	publisher     = "{Kluwer}",
 	title         = "{Development/maintenance/reuse: software evolution in product lines}",

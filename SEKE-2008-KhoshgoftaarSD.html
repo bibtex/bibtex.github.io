@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Rarity+of+Fault-prone+Modules+in+Knowledge-based+Software+Quality+Modeling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-KhoshgoftaarSD,
 	author        = "<a href="person/Taghi_M_Khoshgoftaar.html">Taghi M. Khoshgoftaar</a> and <a href="person/Naeem_Seliya.html">Naeem Seliya</a> and <a href="person/Dennis_J_Drown.html">Dennis J. Drown</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "279--284",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{On the Rarity of Fault-prone Modules in Knowledge-based Software Quality Modeling}",

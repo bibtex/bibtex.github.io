@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Establish+Decision+Making+Process+for+Selecting+Outsourcing+Company%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-Hayshi,
 	author        = "<a href="person/Akihiro_Hayshi.html">Akihiro Hayshi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "666--671",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Establish Decision Making Process for Selecting Outsourcing Company}",

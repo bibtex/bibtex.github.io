@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/168619.168635">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th ACM Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1993-WahbeLAG,
 	author        = "<a href="person/Robert_Wahbe.html">Robert Wahbe</a> and <a href="person/Steven_Lucco.html">Steven Lucco</a> and <a href="person/Thomas_E_Anderson.html">Thomas E. Anderson</a> and <a href="person/Susan_L_Graham.html">Susan L. Graham</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th ACM Symposium on Operating System Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/168619.168635">10.1145/168619.168635</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/168619.168635">http://doi.acm.org/10.1145/168619.168635</a>",
 </span>	pages         = "203--216",

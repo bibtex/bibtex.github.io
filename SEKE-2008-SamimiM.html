@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dynamis:+Dynamic+Overlay+Service+Composition+for+Distributed+Stream+Processing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-SamimiM,
 	author        = "<a href="person/Farshad_A_Samimi.html">Farshad A. Samimi</a> and <a href="person/Philip_K_McKinley.html">Philip K. McKinley</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "881--886",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Dynamis: Dynamic Overlay Service Composition for Distributed Stream Processing}",

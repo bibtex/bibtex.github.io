@@ -33,16 +33,17 @@
 <h2>Dines Bjørner<br/><em>A <a href="word/cloverleaf.html">Cloverleaf</a> of <a href="word/softwar.html">Software</a> <a href="word/engin.html">Engineering</a></em><br/>SEFM, 2005.</h2>
 <div class="rbox">
 <strong><a href="SEFM-2005.html">SEFM 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sefm/Bjorner05">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Cloverleaf+of+Software+Engineering%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/SEFM.2005.2">IEEE CS</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22A+Cloverleaf+of+Software+Engineering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/SEFM.2005.2">ACM DL</a><br/>
+<a href="http://doi.ieeecomputersociety.org/10.1109/SEFM.2005.2">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1109/SEFM.2005.2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third IEEE International Conference on Software Engineering and Formal Methods':'SEFM');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEFM-2005-Bjorner,
 	author        = "<a href="person/Dines_Bjorner.html">Dines Bjørner</a>",
-	booktitle     = "{SEFM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third IEEE International Conference on Software Engineering and Formal Methods</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/SEFM.2005.2">10.1109/SEFM.2005.2</a>",
 </span>	pages         = "75--85",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

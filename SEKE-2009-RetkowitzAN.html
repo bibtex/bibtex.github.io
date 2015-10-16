@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Mobility+Support+in+Smart+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-RetkowitzAN,
 	author        = "<a href="person/Daniel_Retkowitz.html">Daniel Retkowitz</a> and <a href="person/Ibrahim_Armac.html">Ibrahim Armac</a> and <a href="person/Manfred_Nagl.html">Manfred Nagl</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "603--608",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards Mobility Support in Smart Environments}",

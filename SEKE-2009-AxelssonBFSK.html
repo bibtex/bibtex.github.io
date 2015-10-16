@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+Defects+with+an+Interactive+Code+Review+Tool+Based+on+Visualisation+and+Machine+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-AxelssonBFSK,
 	author        = "<a href="person/Stefan_Axelsson.html">Stefan Axelsson</a> and <a href="person/Dejan_Baca.html">Dejan Baca</a> and <a href="person/Robert_Feldt.html">Robert Feldt</a> and <a href="person/Darius_Sidlauskas.html">Darius Sidlauskas</a> and <a href="person/Denis_Kacan.html">Denis Kacan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "412--417",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Detecting Defects with an Interactive Code Review Tool Based on Visualisation and Machine Learning}",

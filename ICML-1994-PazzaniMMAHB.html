@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reducing+Misclassification+Costs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1994-PazzaniMMAHB,
 	author        = "<a href="person/Michael_J_Pazzani.html">Michael J. Pazzani</a> and Christopher J. Merz and Patrick M. Murphy and Kamal M. Ali and Timothy Hume and <a href="person/Clifford_Brunk.html">Clifford Brunk</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Machine Learning</span>}",
 	pages         = "217--225",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Reducing Misclassification Costs}",

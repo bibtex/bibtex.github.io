@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22HybridUML+Based+Verification+of+CPS+Using+Differential+Dynamic+Logic%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-ZhuLLCZJ,
 	author        = "<a href="person/Min_Zhu.html">Min Zhu</a> and <a href="person/Bixin_Li.html">Bixin Li</a> and <a href="person/Jiakai_Li.html">Jiakai Li</a> and <a href="person/Qiaoqiao_Chen.html">Qiaoqiao Chen</a> and <a href="person/Xiaoxiang_Zhai.html">Xiaoxiang Zhai</a> and <a href="person/Shunhui_Ji.html">Shunhui Ji</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "235--238",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{HybridUML Based Verification of CPS Using Differential Dynamic Logic}",

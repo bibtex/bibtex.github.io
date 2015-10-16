@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Meaning-preserving+Skolemization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-AkamaN,
 	author        = "<a href="person/Kiyoshi_Akama.html">Kiyoshi Akama</a> and <a href="person/Ekawit_Nantajeewarawat.html">Ekawit Nantajeewarawat</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "322--327",
 	publisher     = "{SciTePress}",
 	title         = "{Meaning-preserving Skolemization}",

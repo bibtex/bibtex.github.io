@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Conceptual+Modelling+for+Management+of+Public+Health+in+Case+of+Emergency+Situations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-OtcenaskovaBC,
 	author        = "Tereza Otcenásková and Vladimír Bures and Pavel Cech",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "344--348",
 	publisher     = "{SciTePress}",
 	title         = "{Conceptual Modelling for Management of Public Health in Case of Emergency Situations}",

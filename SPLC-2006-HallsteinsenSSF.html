@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Product+Line+Techniques+to+Build+Adaptive+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-HallsteinsenSSF,
 	author        = "<a href="person/Svein_O_Hallsteinsen.html">Svein O. Hallsteinsen</a> and <a href="person/Erlend_Stav.html">Erlend Stav</a> and <a href="person/Arnor_Solberg.html">Arnor Solberg</a> and <a href="person/Jacqueline_Floch.html">Jacqueline Floch</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "141--150",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Using Product Line Techniques to Build Adaptive Systems}",

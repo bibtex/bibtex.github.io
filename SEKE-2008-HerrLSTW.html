@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Combining+SOA+and+BPM+Technologies+for+Cross-System+Process+Automation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-HerrLSTW,
 	author        = "<a href="person/S_Herr.html">S. Herr</a> and <a href="person/Konstantin_Laeufer.html">Konstantin Läufer</a> and <a href="person/J_Shafaee.html">J. Shafaee</a> and <a href="person/George_K_Thiruvathukal.html">George K. Thiruvathukal</a> and <a href="person/Guido_Wirtz.html">Guido Wirtz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "339--344",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Combining SOA and BPM Technologies for Cross-System Process Automation}",

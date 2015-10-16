@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Online+AUC+Maximization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-ZhaoHJY,
 	author        = "Peilin Zhao and <a href="person/Steven_C_H_Hoi.html">Steven C. H. Hoi</a> and Rong Jin and Tianbao Yang",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "233--240",
 	publisher     = "{Omnipress}",
 	title         = "{Online AUC Maximization}",

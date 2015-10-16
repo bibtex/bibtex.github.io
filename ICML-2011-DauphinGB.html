@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Large-Scale+Learning+of+Embeddings+with+Reconstruction+Sampling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-DauphinGB,
 	author        = "Yann Dauphin and Xavier Glorot and Yoshua Bengio",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "945--952",
 	publisher     = "{Omnipress}",
 	title         = "{Large-Scale Learning of Embeddings with Reconstruction Sampling}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2660193.2660200">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OOPSLA-2014-BerganGC,
 	author        = "<a href="person/Tom_Bergan.html">Tom Bergan</a> and <a href="person/Dan_Grossman.html">Dan Grossman</a> and <a href="person/Luis_Ceze.html">Luis Ceze</a>",
-	booktitle     = "{OOPSLA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Object Oriented Programming Systems Languages & Applications</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2660193.2660200">10.1145/2660193.2660200</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2660193.2660200">http://doi.acm.org/10.1145/2660193.2660200</a>",
 </span>	pages         = "491--506",

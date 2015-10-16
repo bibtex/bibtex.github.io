@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Merging+Goal+Models+of+Networked+Software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-FengHPWM,
 	author        = "<a href="person/Zaiwen_Feng.html">Zaiwen Feng</a> and <a href="person/Keqing_He.html">Keqing He</a> and <a href="person/Rong_Peng.html">Rong Peng</a> and <a href="person/Jian_Wang.html">Jian Wang</a> and <a href="person/Yutao_Ma.html">Yutao Ma</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "178--184",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards Merging Goal Models of Networked Software}",

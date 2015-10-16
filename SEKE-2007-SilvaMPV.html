@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22XML+Schema+Evolution+by+Context+Free+Grammar+Inference%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-SilvaMPV,
 	author        = "<a href="person/Julio_C_T_da_Silva.html">Julio C. T. da Silva</a> and <a href="person/Martin_A_Musicante.html">Martin A. Musicante</a> and <a href="person/Aurora_Trinidad_Ramirez_Pozo.html">Aurora Trinidad Ramirez Pozo</a> and <a href="person/Silvia_Regina_Vergilio.html">Silvia Regina Vergilio</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "444--None",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{XML Schema Evolution by Context Free Grammar Inference}",

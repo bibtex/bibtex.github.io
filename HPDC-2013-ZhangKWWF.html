@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2462902.2462913">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2013-ZhangKWWF,
 	author        = "Zhao Zhang and <a href="person/Daniel_S_Katz.html">Daniel S. Katz</a> and <a href="person/Michael_Wilde.html">Michael Wilde</a> and Justin M. Wozniak and <a href="person/Ian_T_Foster.html">Ian T. Foster</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2462902.2462913">10.1145/2462902.2462913</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2462902.2462913">http://doi.acm.org/10.1145/2462902.2462913</a>",
 </span>	pages         = "37--48",

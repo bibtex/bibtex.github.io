@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Indeterminate+Concurrent+Constraint+Programming:+A+Fixpoint+Semantics+for+Non-Terminating+Computations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-NystromJ,
 	author        = "<a href="person/Sven-Olof_Nystroem.html">Sven-Olof Nyström</a> and <a href="person/Bengt_Jonsson.html">Bengt Jonsson</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "335--352",
 	publisher     = "{MIT Press}",
 	title         = "{Indeterminate Concurrent Constraint Programming: A Fixpoint Semantics for Non-Terminating Computations}",

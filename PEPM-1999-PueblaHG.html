@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Integration+of+Partial+Evaluation+in+a+Generic+Abstract+Interpretation+Framework%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical report BRICS-NS-99-1)':'PEPM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PEPM-1999-PueblaHG,
 	author        = "<a href="person/German_Puebla.html">Germán Puebla</a> and <a href="person/Manuel_V_Hermenegildo.html">Manuel V. Hermenegildo</a> and <a href="person/John_P_Gallagher.html">John P. Gallagher</a>",
-	booktitle     = "{PEPM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Workshop on Partial Evaluation and Semantics-Based Program Manipulation (Technical report BRICS-NS-99-1)</span>}",
 	pages         = "75--84",
 	publisher     = "{University of Aarhus}",
 	title         = "{An Integration of Partial Evaluation in a Generic Abstract Interpretation Framework}",

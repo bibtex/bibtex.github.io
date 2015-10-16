@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Feature-Oriented+Approach+to+Developing+Dynamically+Reconfigurable+Products+in+Product+Line+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-LeeK,
 	author        = "<a href="person/Jaejoon_Lee.html">Jaejoon Lee</a> and <a href="person/Kyo_Chul_Kang.html">Kyo Chul Kang</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "131--140",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{A Feature-Oriented Approach to Developing Dynamically Reconfigurable Products in Product Line Engineering}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantic+Equivalence+of+Program+Schemes+and+its+Syntactic+Characterization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Guessarian,
 	author        = "<a href="person/Irene_Guessarian.html">Irène Guessarian</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "189--200",
 	title         = "{Semantic Equivalence of Program Schemes and its Syntactic Characterization}",
 	year          = 1976,

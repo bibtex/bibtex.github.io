@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Backtrackable+State+with+Linear+Assumptions,+Continuations+and+Hidden+Accumulator+Grammars%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-TarauDF,
 	author        = "<a href="person/Paul_Tarau.html">Paul Tarau</a> and <a href="person/Veronica_Dahl.html">Verónica Dahl</a> and <a href="person/Andrew_Fall.html">Andrew Fall</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "642",
 	publisher     = "{MIT Press}",
 	title         = "{Backtrackable State with Linear Assumptions, Continuations and Hidden Accumulator Grammars}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2556288.2557161">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2014-LiR14a,
 	author        = "<a href="person/Xiang_Li.html">Xiang Li</a> and Jun Rekimoto",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2556288.2557161">10.1145/2556288.2557161</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2556288.2557161">http://doi.acm.org/10.1145/2556288.2557161</a>",
 </span>	pages         = "1563--1570",
@@ -52,8 +52,7 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/named.html">#named</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

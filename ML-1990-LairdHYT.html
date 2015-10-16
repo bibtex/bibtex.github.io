@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Correcting+and+Extending+Domain+Knowledge+using+Outside+Guidance%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1990-LairdHYT,
 	author        = "John E. Laird and Michael Hucka and Eric S. Yager and Christopher M. Tuck",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Workshop on Machine Learning</span>}",
 	pages         = "235--243",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Correcting and Extending Domain Knowledge using Outside Guidance}",

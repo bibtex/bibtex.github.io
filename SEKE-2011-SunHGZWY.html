@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Novel+Method+for+Formally+Detecting+RFID+Event+Using+Petri+Nets%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-SunHGZWY,
 	author        = "<a href="person/Jinan_Sun.html">Jinan Sun</a> and <a href="person/Yu_Huang.html">Yu Huang</a> and <a href="person/Xin_Gao.html">Xin Gao</a> and <a href="person/Shikun_Zhang.html">Shikun Zhang</a> and <a href="person/Lifu_Wang.html">Lifu Wang</a> and <a href="person/Chong-Yi_Yuan.html">Chong-Yi Yuan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "122--125",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Novel Method for Formally Detecting RFID Event Using Petri Nets}",

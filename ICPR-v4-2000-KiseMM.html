@@ -33,16 +33,17 @@
 <h2>Koichi Kise, Yasuo Miki, Keinosuke Matsumoto<br/><em><a href="word/background.html">Backgrounds</a> as <a href="word/inform.html">Information</a> <a href="word/carrier.html">Carriers</a> for <a href="word/print.html">Printed</a> <a href="word/document.html">Documents</a></em><br/>ICPR, 2000.</h2>
 <div class="rbox">
 <strong><a href="ICPR-v4-2000.html">ICPR v4 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icpr/KiseMM00">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Backgrounds+as+Information+Carriers+for+Printed+Documents%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/ICPR.2000.902938">IEEE CS</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22Backgrounds+as+Information+Carriers+for+Printed+Documents%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICPR.2000.902938">ACM DL</a><br/>
+<a href="http://doi.ieeecomputersociety.org/10.1109/ICPR.2000.902938">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1109/ICPR.2000.902938">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Pattern Recognition, Volume 4':'ICPR v4');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICPR-v4-2000-KiseMM,
 	author        = "Koichi Kise and Yasuo Miki and Keinosuke Matsumoto",
-	booktitle     = "{ICPR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Pattern Recognition, Volume 4</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICPR.2000.902938">10.1109/ICPR.2000.902938</a>",
 </span>	pages         = "4380--4384",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

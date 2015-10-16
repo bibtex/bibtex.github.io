@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Challenges+of+Embedded+and+Ubiquitous+Software+Engineering+from+the+Perspective+of+Networked+Ecological+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-Aoyama,
 	author        = "<a href="person/Mikio_Aoyama.html">Mikio Aoyama</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "792",
 	title         = "{Challenges of Embedded and Ubiquitous Software Engineering from the Perspective of Networked Ecological Systems}",
 	year          = 2005,

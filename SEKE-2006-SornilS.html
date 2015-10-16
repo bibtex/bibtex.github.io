@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Intrusion+Detection+Systems+Using+Reference+Vectors%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-SornilS,
 	author        = "<a href="person/Ohm_Sornil.html">Ohm Sornil</a> and <a href="person/Pattree_Sidthikorn.html">Pattree Sidthikorn</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "398--403",
 	title         = "{Improving Intrusion Detection Systems Using Reference Vectors}",
 	year          = 2006,

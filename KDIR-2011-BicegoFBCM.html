@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Innovative+Protocol+for+Comparing+Protein+Binding+Sites+via+Atomic+Grid+Maps%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-BicegoFBCM,
 	author        = "<a href="person/Manuele_Bicego.html">Manuele Bicego</a> and Angelo D. Favia and Paola Bisignano and Andrea Cavalli and Vittorio Murino",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "413--422",
 	publisher     = "{SciTePress}",
 	title         = "{An Innovative Protocol for Comparing Protein Binding Sites via Atomic Grid Maps}",

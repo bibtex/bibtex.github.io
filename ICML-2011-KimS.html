@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Robustness+of+Kernel+Density+M-Estimators%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-KimS,
 	author        = "JooSeuk Kim and Clayton D. Scott",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "697--704",
 	publisher     = "{Omnipress}",
 	title         = "{On the Robustness of Kernel Density M-Estimators}",

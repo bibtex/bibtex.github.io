@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Measuring+the+Structural+Similarity+between+Source+Code+Entities+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-TerraBMVSCB,
 	author        = "<a href="person/Ricardo_Terra.html">Ricardo Terra</a> and <a href="person/Joao_Brunet.html">João Brunet</a> and <a href="person/Luis_Fernando_Miranda.html">Luis Fernando Miranda</a> and <a href="person/Marco_Tulio_Valente.html">Marco Tulio Valente</a> and <a href="person/Dalton_Serey.html">Dalton Serey</a> and <a href="person/Douglas_Castilho.html">Douglas Castilho</a> and <a href="person/Roberto_da_Silva_Bigonha.html">Roberto da Silva Bigonha</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "753--758",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Measuring the Structural Similarity between Source Code Entities (S)}",

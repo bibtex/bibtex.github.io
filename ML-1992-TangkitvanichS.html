@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Refining+a+Relational+Theory+with+Multiple+Faults+in+the+Concept+and+Subconcepts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-TangkitvanichS,
 	author        = "Somkiat Tangkitvanich and Masamichi Shimura",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "436--444",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Refining a Relational Theory with Multiple Faults in the Concept and Subconcepts}",

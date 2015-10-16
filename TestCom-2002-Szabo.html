@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Experiences+of+TTCN-3+Test+Executor+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services':'TestCom');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TestCom-2002-Szabo,
 	author        = "János Zoltán Szabó",
-	booktitle     = "{TestCom}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services</span>}",
 	pages         = "191--200",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

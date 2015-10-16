@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Game-Theoretic+Framework+to+Identify+Top-K+Teams+in+Social+Networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-SorkhiAHH,
 	author        = "Maryam Sorkhi and Hamidreza Alvari and <a href="person/Sattar_Hashemi.html">Sattar Hashemi</a> and <a href="person/Ali_Hamzeh.html">Ali Hamzeh</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "252--257",
 	publisher     = "{SciTePress}",
 	title         = "{A Game-Theoretic Framework to Identify Top-K Teams in Social Networks}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Documenting+the+Mined+Feature+Implementations+from+the+Object-oriented+Source+Code+of+a+Collection+of+Software+Product+Variants%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-Al-MsiedeenSHUV,
 	author        = "<a href="person/RaFat_Al-Msiedeen.html">Ra'Fat Al-Msie'deen</a> and <a href="person/Abdelhak_Seriai.html">Abdelhak Seriai</a> and <a href="person/Marianne_Huchard.html">Marianne Huchard</a> and <a href="person/Christelle_Urtado.html">Christelle Urtado</a> and <a href="person/Sylvain_Vauttier.html">Sylvain Vauttier</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "138--143",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Documenting the Mined Feature Implementations from the Object-oriented Source Code of a Collection of Software Product Variants}",

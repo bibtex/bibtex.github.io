@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2610384.2628050">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Symposium on Software Testing and Analysis':'ISSTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISSTA-2014-XuZXW,
 	author        = "Zhenbo Xu and <a href="person/Jian_Zhang.html">Jian Zhang</a> and Zhongxing Xu and Jiteng Wang",
-	booktitle     = "{ISSTA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Symposium on Software Testing and Analysis</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2610384.2628050">10.1145/2610384.2628050</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2610384.2628050">http://doi.acm.org/10.1145/2610384.2628050</a>",
 </span>	pages         = "425--428",

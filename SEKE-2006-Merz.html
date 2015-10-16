@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+the+Dynamic+Proxy+Approach+to+Introduce+Role-Based+Security+to+Java+Data+Objects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-Merz,
 	author        = "<a href="person/Matthias_Merz.html">Matthias Merz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "404--409",
 	title         = "{Using the Dynamic Proxy Approach to Introduce Role-Based Security to Java Data Objects}",
 	year          = 2006,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Visual+Programming+in+Object-oriented+Style%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-ChengHH,
 	author        = "<a href="person/K_Y_Cheng.html">K. Y. Cheng</a> and <a href="person/W_H_Huang.html">W. H. Huang</a> and <a href="person/M_S_Hwu.html">M. S. Hwu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "93--97",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Visual Programming in Object-oriented Style}",

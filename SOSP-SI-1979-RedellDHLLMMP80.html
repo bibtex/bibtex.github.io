@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/358818.358822">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1979-RedellDHLLMMP80,
 	author        = "<a href="person/David_D_Redell.html">David D. Redell</a> and <a href="person/Yogen_K_Dalal.html">Yogen K. Dalal</a> and <a href="person/Thomas_R_Horsley.html">Thomas R. Horsley</a> and <a href="person/Hugh_C_Lauer.html">Hugh C. Lauer</a> and <a href="person/William_C_Lynch.html">William C. Lynch</a> and <a href="person/Paul_R_McJones.html">Paul R. McJones</a> and <a href="person/Hal_G_Murray.html">Hal G. Murray</a> and <a href="person/Stephen_C_Purcell.html">Stephen C. Purcell</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/358818.358822">10.1145/358818.358822</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/358818.358822">http://doi.acm.org/10.1145/358818.358822</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 2,
 	pages         = "81--92",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Pilot: An Operating System for a Personal Computer}",
 	volume        = 23,
 	year          = 1980,
@@ -56,8 +55,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/operating%20system.html">#operating system</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/operating%20system.html">#operating system</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

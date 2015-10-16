@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+visual+logic+specification+of+flexible+manufacturing+systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-ChauC,
 	author        = "<a href="person/H_Lewis_Chau.html">H. Lewis Chau</a> and <a href="person/K_Gary_Chan.html">K. Gary Chan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "438--445",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A visual logic specification of flexible manufacturing systems}",

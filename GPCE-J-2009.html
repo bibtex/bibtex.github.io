@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Section+on+Generative+Programming+and+Component+Engineering+—+GPCE+2009%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Journal of Object Technology':'JOT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GPCE-J-2009,
 	editor        = "<a href="person/Bernd_Fischer.html">Bernd Fischer</a>",
-	journal       = "{Journal of Object Technology}",
+	journal       = "{<span id="journal">Journal of Object Technology</span>}",
 	title         = "{Special Section on Generative Programming and Component Engineering — GPCE 2009}",
 	volume        = 10,
 	year          = 2011,

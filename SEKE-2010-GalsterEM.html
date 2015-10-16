@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Textual+Software+Requirements+Specifications+in+the+Context+of+Software+Architecting%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-GalsterEM,
 	author        = "<a href="person/Matthias_Galster.html">Matthias Galster</a> and <a href="person/Armin_Eberlein.html">Armin Eberlein</a> and <a href="person/Mahmood_Moussavi.html">Mahmood Moussavi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "42--47",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Textual Software Requirements Specifications in the Context of Software Architecting}",

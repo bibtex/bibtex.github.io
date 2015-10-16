@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Engineering+An+Expert+System+For+Creativity+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1990-OngwisesphaiboonBEPG,
 	author        = "<a href="person/Vipa_Ongwisesphaiboon.html">Vipa Ongwisesphaiboon</a> and <a href="person/Ilene_Burnstein.html">Ilene Burnstein</a> and <a href="person/Martha_W_Evens.html">Martha W. Evens</a> and <a href="person/Anjali_Puri.html">Anjali Puri</a> and <a href="person/Martin_E_Ginn.html">Martin E. Ginn</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "141--146",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Engineering An Expert System For Creativity Management}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Designing+Aspects+with+Use+Cases:+A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-DingWT,
 	author        = "<a href="person/Junhua_Ding.html">Junhua Ding</a> and <a href="person/Christopher_R_Westbrook.html">Christopher R. Westbrook</a> and <a href="person/Mohammad_N_H_Tabrizi.html">Mohammad N. H. Tabrizi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "797--803",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Designing Aspects with Use Cases: A Case Study}",

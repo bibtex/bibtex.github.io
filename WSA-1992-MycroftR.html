@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Minimal+Function+Graphs+are+not+Instrumented%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Static Analysis in Bordeaux':'WSA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WSA-1992-MycroftR,
 	author        = "<a href="person/Alan_Mycroft.html">Alan Mycroft</a> and <a href="person/Mads_Rosendahl.html">Mads Rosendahl</a>",
-	booktitle     = "{WSA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second Workshop on Static Analysis in Bordeaux</span>}",
 	pages         = "60--67",
 	publisher     = "{Atelier Irisa, IRISA, Campus de Beaulieu}",
 	series        = "{Series Bigre}",

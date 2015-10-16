@@ -36,15 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Issue+on+Technology+of+Object-Oriented+Languages+and+Systems+—+TOOLS+2007%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Journal of Object Technology':'JOT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{TOOLS-EUROPE-2007,
 	booktitle     = "{TOOLS Europe}",
 	editor        = "<a href="person/Jean_Bezivin.html">Jean Bézivin</a> and <a href="person/Bertrand_Meyer.html">Bertrand Meyer</a>",
-	journal       = "{Journal of Object Technology}",
+	journal       = "{<span id="journal">Journal of Object Technology</span>}",
 	number        = 9,
-	pages         = "11",
 	title         = "{Special Issue on Technology of Object-Oriented Languages and Systems — TOOLS 2007}",
 	volume        = 6,
 	year          = 2007,

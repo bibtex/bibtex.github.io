@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Giving+Shape+to+an+N-version+Dependency+Parser+—+Improving+Dependency+Parsing+Accuracy+for+Spanish+using+Maltparser%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-BallesterosHFG,
 	author        = "Miguel Ballesteros and Jesús Herrera and Virginia Francisco and <a href="person/Pablo_Gervas.html">Pablo Gervás</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "336--341",
 	publisher     = "{SciTePress}",
 	title         = "{Giving Shape to an N-version Dependency Parser — Improving Dependency Parsing Accuracy for Spanish using Maltparser}",

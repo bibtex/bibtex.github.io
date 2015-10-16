@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Mapping+of+OWL+Ontologies+into+Java%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-KalyanpurPBP,
 	author        = "<a href="person/Aditya_Kalyanpur.html">Aditya Kalyanpur</a> and <a href="person/Daniel_Jimenez_Pastor.html">Daniel Jiménez Pastor</a> and <a href="person/Steve_Battle.html">Steve Battle</a> and <a href="person/Julian_A_Padget.html">Julian A. Padget</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "98--103",
 	title         = "{Automatic Mapping of OWL Ontologies into Java}",
 	year          = 2004,

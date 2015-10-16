@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Text-Based+Requirements+Modeling+Support+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-ParkEP,
 	author        = "<a href="person/Sooyong_Park.html">Sooyong Park</a> and <a href="person/Richard_P_Evans.html">Richard P. Evans</a> and <a href="person/James_D_Palmer.html">James D. Palmer</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "16--22",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Text-Based Requirements Modeling Support System}",

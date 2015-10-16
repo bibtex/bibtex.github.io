@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Piecewise+Bounds+for+Estimating+Bernoulli-Logistic+Latent+Gaussian+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-MarlinKM,
 	author        = "Benjamin M. Marlin and Mohammad Emtiyaz Khan and Kevin P. Murphy",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "633--640",
 	publisher     = "{Omnipress}",
 	title         = "{Piecewise Bounds for Estimating Bernoulli-Logistic Latent Gaussian Models}",

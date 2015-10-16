@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2009916.2010160">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 34th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2011-PolajnarGA,
 	author        = "Tamara Polajnar and Richard Glassey and <a href="person/Leif_Azzopardi.html">Leif Azzopardi</a>",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 34th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2009916.2010160">10.1145/2009916.2010160</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2009916.2010160">http://doi.acm.org/10.1145/2009916.2010160</a>",
 </span>	pages         = "1281--1282",
@@ -53,8 +53,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/query.html">#query</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/query.html">#query</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

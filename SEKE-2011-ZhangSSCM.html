@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+Architecture+Erosion+by+Design+Decision+of+Architectural+Pattern%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-ZhangSSCM,
 	author        = "<a href="person/Lei_Zhang.html">Lei Zhang</a> and <a href="person/Yanchun_Sun.html">Yanchun Sun</a> and <a href="person/Hui_Song.html">Hui Song</a> and <a href="person/Franck_Chauvel.html">Franck Chauvel</a> and <a href="person/Hong_Mei.html">Hong Mei</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "758--763",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Detecting Architecture Erosion by Design Decision of Architectural Pattern}",

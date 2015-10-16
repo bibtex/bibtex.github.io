@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Approximating+Learned+Search+Control+Knowledge%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-ChaseZPBMH,
 	author        = "<a href="person/Melissa_P_Chase.html">Melissa P. Chase</a> and Monte Zweben and <a href="person/Richard_L_Piazza.html">Richard L. Piazza</a> and John D. Burger and Paul P. Maglio and Haym Hirsh",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "218--220",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Approximating Learned Search Control Knowledge}",

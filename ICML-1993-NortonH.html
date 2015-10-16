@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+DNF+Via+Probabilistic+Evidence+Combination%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1993-NortonH,
 	author        = "Steven W. Norton and Haym Hirsh",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Machine Learning</span>}",
 	pages         = "220--227",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Learning DNF Via Probabilistic Evidence Combination}",

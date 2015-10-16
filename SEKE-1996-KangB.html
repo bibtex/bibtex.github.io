@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Design+Cohesion+to+Visualize,+Quantify,+and+Restructure+Software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-KangB,
 	author        = "<a href="person/Byung-Kyoo_Kang.html">Byung-Kyoo Kang</a> and <a href="person/James_M_Bieman.html">James M. Bieman</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "222--229",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Using Design Cohesion to Visualize, Quantify, and Restructure Software}",

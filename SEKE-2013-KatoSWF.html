@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparative+Evaluation+of+Programming+Paradigms:+Separation+of+Concerns+with+Object-,+Aspect-,+and+Context-Oriented+Programming+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-KatoSWF,
 	author        = "<a href="person/Fumiya_Kato.html">Fumiya Kato</a> and <a href="person/Kazunori_Sakamoto.html">Kazunori Sakamoto</a> and <a href="person/Hironori_Washizaki.html">Hironori Washizaki</a> and <a href="person/Yoshiaki_Fukazawa.html">Yoshiaki Fukazawa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "594--599",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Comparative Evaluation of Programming Paradigms: Separation of Concerns with Object-, Aspect-, and Context-Oriented Programming (S)}",

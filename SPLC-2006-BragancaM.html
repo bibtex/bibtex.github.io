@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Extending+UML+2.0+Metamodel+for+Complementary+Usages+of+the+«extend»+Relationship+within+Use+Case+Variability+Specification%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-BragancaM,
 	author        = "Alexandre Bragança and <a href="person/Ricardo_Jorge_Machado.html">Ricardo Jorge Machado</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "123--130",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Extending UML 2.0 Metamodel for Complementary Usages of the «extend» Relationship within Use Case Variability Specification}",

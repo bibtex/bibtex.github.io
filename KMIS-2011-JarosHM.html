@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22PreSti+—+Neuroscience+Stimuli+Presentation+Software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-JarosHM,
 	author        = "Petr Jaros and Petr Háka and Roman Moucek",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "390--393",
 	publisher     = "{SciTePress}",
 	title         = "{PreSti — Neuroscience Stimuli Presentation Software}",

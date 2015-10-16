@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Panel+—+Software+Tools+for+High-Performance+Distributed+Computing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-1993-SunderamFGGHKQS,
 	author        = "Vaidy S. Sunderam and Geoffrey Fox and Al Geist and William Gropp and Bob Harrison and Adam Kolawa and Michael J. Quinn and <a href="person/Anthony_Skjellum.html">Anthony Skjellum</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Symposium on High Performance Parallel and Distributed Computing</span>}",
 	pages         = "170--171",
 	publisher     = "{IEEE}",
 	title         = "{Panel — Software Tools for High-Performance Distributed Computing}",

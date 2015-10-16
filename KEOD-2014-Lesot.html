@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Bridging+the+Emotional+Gap+—+From+Objective+Representations+to+Subjective+Interpretations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2014-Lesot,
 	author        = "Marie-Jeanne Lesot",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "1--15",
 	publisher     = "{SciTePress}",
 	title         = "{Bridging the Emotional Gap — From Objective Representations to Subjective Interpretations}",

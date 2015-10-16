@@ -33,15 +33,15 @@
 <h2>Zbigniew Stachniak<br/><em>A <a href="word/note.html">Note</a> on <a href="word/satisfi.html">Satisfying</a> <a href="word/truth.html">Truth</a>-<a href="word/valu.html">Value</a> <a href="word/assign.html">Assignments</a> of <a href="word/boolean.html">Boolean</a> <a href="word/formula.html">Formulas</a></em><br/>ICST, 2004.</h2>
 <div class="rbox">
 <strong><a href="SAT-2004.html">SAT 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sat/Stachniak04">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Note+on+Satisfying+Truth-Value+Assignments+of+Boolean+Formulas%22">Scholar</a><hr/><a href="http://www.satisfiability.org/SAT04/programme/52.pdf">?EE?</a>
+<a href="https://scholar.google.com/scholar?q=%22A+Note+on+Satisfying+Truth-Value+Assignments+of+Boolean+Formulas%22">Scholar</a><hr/><a href="http://www.satisfiability.org/SAT04/programme/52.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Theory and Applications of Satisfiability Testing':'SAT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAT-2004-Stachniak04,
 	author        = "Zbigniew Stachniak",
-	booktitle     = "{SAT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Theory and Applications of Satisfiability Testing</span>}",
 <span class="uri">	ee            = "<a href="http://www.satisfiability.org/SAT04/programme/52.pdf">http://www.satisfiability.org/SAT04/programme/52.pdf</a>",
 </span>	title         = "{A Note on Satisfying Truth-Value Assignments of Boolean Formulas}",
 	year          = 2004,

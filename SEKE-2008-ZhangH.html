@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+OWL/SWRL+Based+Diagnosis+Approach+in+a+Pervasive+Middleware%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-ZhangH,
 	author        = "<a href="person/Weishan_Zhang.html">Weishan Zhang</a> and <a href="person/Klaus_Marius_Hansen.html">Klaus Marius Hansen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "893--898",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An OWL/SWRL Based Diagnosis Approach in a Pervasive Middleware}",

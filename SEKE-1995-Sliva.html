@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+G-Net+Module+Synthesis+Method+for+Software+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-Sliva,
 	author        = "<a href="person/Vladimir_P_Sliva.html">Vladimir P. Sliva</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "419--426",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A G-Net Module Synthesis Method for Software Applications}",

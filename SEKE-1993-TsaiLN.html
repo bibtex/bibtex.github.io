@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Debugging+Logic-Based+Requirements+Specifications+—+a+FRORL+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-TsaiLN,
 	author        = "<a href="person/Jeffrey_J_P_Tsai.html">Jeffrey J. P. Tsai</a> and <a href="person/Alan_Liu.html">Alan Liu</a> and <a href="person/Krishnakumar_R_Nair.html">Krishnakumar R. Nair</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "372--379",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Debugging Logic-Based Requirements Specifications — a FRORL Approach}",

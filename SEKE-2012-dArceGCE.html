@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Coordination+Model+to+Support+Visualization+of+Aspect-Oriented+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-dArceGCE,
 	author        = "<a href="person/Alvaro_F_dArce.html">Álvaro F. d'Arce</a> and <a href="person/Rogerio_Eduardo_Garcia.html">Rogério Eduardo Garcia</a> and <a href="person/Ronaldo_Celso_Messias_Correia.html">Ronaldo Celso Messias Correia</a> and <a href="person/Danilo_Medeiros_Eler.html">Danilo Medeiros Eler</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "168--173",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Coordination Model to Support Visualization of Aspect-Oriented Programs}",

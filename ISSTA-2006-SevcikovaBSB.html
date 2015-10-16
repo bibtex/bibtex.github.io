@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1146238.1146263">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Symposium on Software Testing and Analysis':'ISSTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISSTA-2006-SevcikovaBSB,
 	author        = "Hana Sevcikova and <a href="person/Alan_Borning.html">Alan Borning</a> and <a href="person/David_Socha.html">David Socha</a> and <a href="person/Wolf-Gideon_Bleek.html">Wolf-Gideon Bleek</a>",
-	booktitle     = "{ISSTA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Symposium on Software Testing and Analysis</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1146238.1146263">10.1145/1146238.1146263</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1146238.1146263">http://doi.acm.org/10.1145/1146238.1146263</a>",
 </span>	pages         = "215--224",

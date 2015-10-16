@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+PAC-Bayes+Sample-compression+Approach+to+Kernel+Methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-GermainLLMS,
 	author        = "Pascal Germain and Alexandre Lacoste and François Laviolette and Mario Marchand and <a href="person/Sara_Shanian.html">Sara Shanian</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "297--304",
 	publisher     = "{Omnipress}",
 	title         = "{A PAC-Bayes Sample-compression Approach to Kernel Methods}",

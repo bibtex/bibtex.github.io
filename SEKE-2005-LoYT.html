@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Weighted+Binary+Sequential+Mining+Algorithm+with+Application+to+the+Next-Day+Appearance+Prediction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-LoYT,
 	author        = "<a href="person/Shuchuan_Lo.html">Shuchuan Lo</a> and <a href="person/Junneng_Yang.html">Junneng Yang</a> and <a href="person/Fang-Chih_Tien.html">Fang-Chih Tien</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "783--782",
 	title         = "{Weighted Binary Sequential Mining Algorithm with Application to the Next-Day Appearance Prediction}",
 	year          = 2005,

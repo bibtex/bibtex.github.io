@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/503376.503450">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM SIGCHI Conference on Human Factors in Computing Systems: Changing our World, Changing ourselves':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2002-BellottiBEGHL,
 	author        = "Victoria Bellotti and Maribeth Back and W. Keith Edwards and <a href="person/Rebecca_E_Grinter.html">Rebecca E. Grinter</a> and D. Austin Henderson Jr. and <a href="person/Cristina_Videira_Lopes.html">Cristina Videira Lopes</a>",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM SIGCHI Conference on Human Factors in Computing Systems: Changing our World, Changing ourselves</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/503376.503450">10.1145/503376.503450</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/503376.503450">http://doi.acm.org/10.1145/503376.503450</a>",
 </span>	pages         = "415--422",

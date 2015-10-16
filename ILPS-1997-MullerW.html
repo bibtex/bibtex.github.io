@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Extending+a+Concurrent+Constraint+Language+by+Propagators%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-MullerW,
 	author        = "<a href="person/Tobias_Mueller.html">Tobias Müller</a> and <a href="person/Joerg_Wuertz.html">Jörg Würtz</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "149--163",
 	publisher     = "{MIT Press}",
 	title         = "{Extending a Concurrent Constraint Language by Propagators}",

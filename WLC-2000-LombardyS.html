@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Star+Height+of+Rational+Languages:+A+New+Presentation+for+Two+Old+Results%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-LombardyS,
 	author        = "<a href="person/Sylvain_Lombardy.html">Sylvain Lombardy</a> and <a href="person/Jacques_Sakarovitch.html">Jacques Sakarovitch</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "266--285",
 	publisher     = "{World Scientific}",
 	title         = "{On the Star Height of Rational Languages: A New Presentation for Two Old Results}",

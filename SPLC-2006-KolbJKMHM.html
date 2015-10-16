@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Experiences+with+Product+Line+Development+of+Embedded+Systems+at+Testo+AG%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-KolbJKMHM,
 	author        = "<a href="person/Ronny_Kolb.html">Ronny Kolb</a> and <a href="person/Isabel_John.html">Isabel John</a> and <a href="person/Jens_Knodel.html">Jens Knodel</a> and <a href="person/Dirk_Muthig.html">Dirk Muthig</a> and <a href="person/Uwe_Haury.html">Uwe Haury</a> and <a href="person/Gerald_Meier.html">Gerald Meier</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "172--181",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Experiences with Product Line Development of Embedded Systems at Testo AG}",

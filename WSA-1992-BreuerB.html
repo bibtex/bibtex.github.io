@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Decompilation+is+the+Efficient+Enumeration+of+Types%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Static Analysis in Bordeaux':'WSA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WSA-1992-BreuerB,
 	author        = "<a href="person/Peter_T_Breuer.html">Peter T. Breuer</a> and <a href="person/Jonathan_P_Bowen.html">Jonathan P. Bowen</a>",
-	booktitle     = "{WSA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second Workshop on Static Analysis in Bordeaux</span>}",
 	pages         = "255--273",
 	publisher     = "{Atelier Irisa, IRISA, Campus de Beaulieu}",
 	series        = "{Series Bigre}",

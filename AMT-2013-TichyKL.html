@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+Performance+Bad+Smells+for+Henshin+Model+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2013-TichyKL,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1077/amt13_submission_6.pdf",
 	pages         = "82--91",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Detecting Performance Bad Smells for Henshin Model Transformations}",
 	volume        = 1077,
 	year          = 2013,

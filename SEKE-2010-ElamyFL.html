@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Multiagent+System+for+Automate+Detection+and+Diagnosis+of+Active+Tuberculosis+on+Chest+Radiograph+and+CT+Thorax%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-ElamyFL,
 	author        = "<a href="person/Abdel_Halim_Elamy.html">Abdel Halim Elamy</a> and <a href="person/Behrouz_H_Far.html">Behrouz H. Far</a> and <a href="person/Richard_Long.html">Richard Long</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "495--498",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Multiagent System for Automate Detection and Diagnosis of Active Tuberculosis on Chest Radiograph and CT Thorax}",
@@ -50,8 +50,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/detection.html">#detection</a></li>
-<li class="tag"><a href="tag/multi.html">#multi</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/multi.html">#multi</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

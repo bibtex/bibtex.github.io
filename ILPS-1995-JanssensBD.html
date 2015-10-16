@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Blueprint+for+an+Abstract+Machine+for+Abstract+Interpretation+of+(Constraint)+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-JanssensBD,
 	author        = "<a href="person/Gerda_Janssens.html">Gerda Janssens</a> and <a href="person/Maurice_Bruynooghe.html">Maurice Bruynooghe</a> and <a href="person/Veroniek_Dumortier.html">Veroniek Dumortier</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "336--350",
 	publisher     = "{MIT Press}",
 	title         = "{A Blueprint for an Abstract Machine for Abstract Interpretation of (Constraint) Logic Programs}",

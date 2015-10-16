@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800215.806571">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1979-WalkerKP,
 	author        = "<a href="person/Bruce_J_Walker.html">Bruce J. Walker</a> and <a href="person/Richard_A_Kemmerer.html">Richard A. Kemmerer</a> and <a href="person/Gerald_J_Popek.html">Gerald J. Popek</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh Symposium on Operating System Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800215.806571">10.1145/800215.806571</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800215.806571">http://doi.acm.org/10.1145/800215.806571</a>",
 </span>	note          = "long version: CACM 23(2)",

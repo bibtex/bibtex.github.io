@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Translating+Workflow+Diagrams+into+Web+Designs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-NavarroMFC,
 	author        = "<a href="person/Antonio_Navarro.html">Antonio Navarro</a> and <a href="person/Jorge_Merino.html">Jorge Merino</a> and <a href="person/Alfredo_Fernandez-Valmayor.html">Alfredo Fernández-Valmayor</a> and <a href="person/Jesus_Cristobal.html">Jesus Cristobal</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "667--672",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Translating Workflow Diagrams into Web Designs}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Factorized+Test+Generation+for+Multi-Input/Output+Transition+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Workshop on Testing Communicating Systems':'IWTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IWTCS-1998-BrinksmaHT,
 	author        = "<a href="person/Ed_Brinksma.html">Ed Brinksma</a> and Lex Heerink and <a href="person/Jan_Tretmans.html">Jan Tretmans</a>",
-	booktitle     = "{IWTCS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Workshop on Testing Communicating Systems</span>}",
 	pages         = "67--82",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

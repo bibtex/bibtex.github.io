@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Represen1ation+in+Automatic+COBOL+Programmer%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-LiaoKL,
 	author        = "<a href="person/Holmes_S_Liao.html">Holmes S. Liao</a> and <a href="person/Abraham_Kandel.html">Abraham Kandel</a> and <a href="person/R_Chris_Lacher.html">R. Chris Lacher</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "38--41",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Knowledge Represen1ation in Automatic COBOL Programmer}",

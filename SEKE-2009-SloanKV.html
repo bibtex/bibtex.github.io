@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Extendible+Translation+of+BPEL+to+a+Machine-verifiable+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-SloanKV,
 	author        = "<a href="person/John_C_Sloan.html">John C. Sloan</a> and <a href="person/Taghi_M_Khoshgoftaar.html">Taghi M. Khoshgoftaar</a> and <a href="person/Augusto_Varas.html">Augusto Varas</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "344--349",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Extendible Translation of BPEL to a Machine-verifiable Model}",

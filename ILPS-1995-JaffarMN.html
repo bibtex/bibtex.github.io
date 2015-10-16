@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Logic+Programming+and+Object+Modelling:+A+Case+Study+(Abstract)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-JaffarMN,
 	author        = "<a href="person/Joxan_Jaffar.html">Joxan Jaffar</a> and <a href="person/Michael_J_Maher.html">Michael J. Maher</a> and <a href="person/Gustaf_Neumann.html">Gustaf Neumann</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "48",
 	publisher     = "{MIT Press}",
 	title         = "{Logic Programming and Object Modelling: A Case Study (Abstract)}",

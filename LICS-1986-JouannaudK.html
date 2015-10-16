@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Proofs+by+Induction+in+Equational+Theories+Without+Constructors%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Symposium on Logic in Computer Science':'LICS');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LICS-1986-JouannaudK,
 	author        = "<a href="person/Jean-Pierre_Jouannaud.html">Jean-Pierre Jouannaud</a> and <a href="person/Emmanuel_Kounalis.html">Emmanuel Kounalis</a>",
-	booktitle     = "{LICS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Symposium on Logic in Computer Science</span>}",
 	pages         = "358--366",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Automatic Proofs by Induction in Equational Theories Without Constructors}",

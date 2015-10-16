@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Plugging-in+Visualization:+Experiences+Integrating+a+Visualization+Tool+with+Eclipse%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-LinternMSW,
 	author        = "<a href="person/Robert_Lintern.html">Robert Lintern</a> and <a href="person/Jeff_Michaud.html">Jeff Michaud</a> and <a href="person/Margaret-Anne_D_Storey.html">Margaret-Anne D. Storey</a> and <a href="person/Xiaomin_Wu.html">Xiaomin Wu</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "47--56",
 	publisher     = "{ACM}",
 	title         = "{Plugging-in Visualization: Experiences Integrating a Visualization Tool with Eclipse}",

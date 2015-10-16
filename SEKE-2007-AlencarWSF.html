@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Do+Neural-Network+Question-Answering+Systems+Have+a+Role+to+Play+in+the+Deployment+of+Real+World+Information+Systems?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-AlencarWSF,
 	author        = "<a href="person/Antonio_J_Alencar.html">Antonio J. Alencar</a> and <a href="person/Renata_Chaomey_Wo.html">Renata Chaomey Wo</a> and <a href="person/Eber_A_Schmitz.html">Eber A. Schmitz</a> and <a href="person/Armando_Leite_Ferreira.html">Armando Leite Ferreira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "386--391",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Do Neural-Network Question-Answering Systems Have a Role to Play in the Deployment of Real World Information Systems?}",

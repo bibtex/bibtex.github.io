@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Project+Manager+Skill-up+Simulator+Towards+Problem+Solving-based+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-AkiyoshiSK,
 	author        = "Masanori Akiyoshi and Masaki Samejima and <a href="person/Norihisa_Komoda.html">Norihisa Komoda</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "190--195",
 	publisher     = "{SciTePress}",
 	title         = "{A Project Manager Skill-up Simulator Towards Problem Solving-based Learning}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Translating+UML+Diagrams+Into+Maude+Formal+Specifications:+A+Systematic+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-MokhatiBG,
 	author        = "<a href="person/Farid_Mokhati.html">Farid Mokhati</a> and <a href="person/Mourad_Badri.html">Mourad Badri</a> and <a href="person/Patrice_Gagnon.html">Patrice Gagnon</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "572--577",
 	title         = "{Translating UML Diagrams Into Maude Formal Specifications: A Systematic Approach}",
 	year          = 2006,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Ontology+Driven+Approach+to+Software+Systems+Composition%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-HlomaniS,
 	author        = "Hlomani Hlomani and Deborah A. Stacey",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "254--260",
 	publisher     = "{INSTICC Press}",
 	title         = "{An Ontology Driven Approach to Software Systems Composition}",

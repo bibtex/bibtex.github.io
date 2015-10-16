@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22SOPHIANN:+A+Tool+for+Extraction+Knowledge+Rules+from+ANN+Previously+Trained+A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-SongZDASNVSV,
 	author        = "<a href="person/Mark_A_J_Song.html">Mark A. J. Song</a> and <a href="person/Luis_E_Zarate.html">Luis E. Zárate</a> and <a href="person/Sergio_M_Dias.html">Sérgio M. Dias</a> and <a href="person/A_Alvarez.html">A. Alvarez</a> and <a href="person/B_Soares.html">B. Soares</a> and <a href="person/Bruno_M_Nogueira.html">Bruno M. Nogueira</a> and <a href="person/Renato_Vimieiro.html">Renato Vimieiro</a> and <a href="person/Tadeu_R_A_Santos.html">Tadeu R. A. Santos</a> and <a href="person/Newton_Vieira.html">Newton Vieira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "631--638",
 	title         = "{SOPHIANN: A Tool for Extraction Knowledge Rules from ANN Previously Trained A Case Study}",
 	year          = 2006,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Quality+Management+in+Knowledge+Intensive+Business+Processes+—+Development+of+a+Maturity+Model+to+Measure+the+Quality+of+Knowledge+Intensive+Business+Processes+in+Small+and+Medium+Enterprises%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-HeinzeG,
 	author        = "Priscilla Heinze and Dennis Geers",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "276--279",
 	publisher     = "{INSTICC Press}",
 	title         = "{Quality Management in Knowledge Intensive Business Processes — Development of a Maturity Model to Measure the Quality of Knowledge Intensive Business Processes in Small and Medium Enterprises}",

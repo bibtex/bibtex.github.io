@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22External+Conformance+Requirements:+Concepts,+Methods+and+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Workshop on Testing Communicating Systems':'IWTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{IWTCS-1999-ArtychB,
 	author        = "Rafal Artych and Krzysztof M. Brzezinski",
-	booktitle     = "{IWTCS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Workshop on Testing Communicating Systems</span>}",
 	pages         = "363--378",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

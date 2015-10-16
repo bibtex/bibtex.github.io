@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Introduction+of+Time+and+Timing+Variability+in+Usage+Model+based+Testing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-SieglGH,
 	author        = "<a href="person/Sebastian_Siegl.html">Sebastian Siegl</a> and <a href="person/Reinhard_German.html">Reinhard German</a> and <a href="person/Kai-Steffen_Jens_Hielscher.html">Kai-Steffen Jens Hielscher</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "61--66",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Introduction of Time and Timing Variability in Usage Model based Testing}",

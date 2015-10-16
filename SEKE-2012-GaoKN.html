@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Stability+of+Filter-Based+Feature+Selection+Methods+for+Imbalanced+Software+Measurement+Data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-GaoKN,
 	author        = "<a href="person/Kehan_Gao.html">Kehan Gao</a> and <a href="person/Taghi_M_Khoshgoftaar.html">Taghi M. Khoshgoftaar</a> and <a href="person/Amri_Napolitano.html">Amri Napolitano</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "74--79",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Stability of Filter-Based Feature Selection Methods for Imbalanced Software Measurement Data}",

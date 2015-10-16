@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+and+implementation+of+a+knowledge+based+BPA/BPR+tool:+EUOBFE%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-ChenU,
 	author        = "<a href="person/Yigang_Chen.html">Yigang Chen</a> and <a href="person/Yutaka_Usuda.html">Yutaka Usuda</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "446--453",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Design and implementation of a knowledge based BPA/BPR tool: EUOBFE}",

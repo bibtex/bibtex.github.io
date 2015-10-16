@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Conceptual+Clustering+with+Systematic+Missing+Values%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-WeinbergBK,
 	author        = "Jerry B. Weinberg and <a href="person/Gautam_Biswas.html">Gautam Biswas</a> and Glenn R. Koller",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "464--469",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Conceptual Clustering with Systematic Missing Values}",

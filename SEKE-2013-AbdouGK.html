@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Managing+Corrective+Actions+to+Closure+in+Open+Source+Software+Test+Process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-AbdouGK,
 	author        = "<a href="person/Tamer_Abdou.html">Tamer Abdou</a> and <a href="person/Peter_Grogono.html">Peter Grogono</a> and <a href="person/Pankaj_Kamthan.html">Pankaj Kamthan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "306--311",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Managing Corrective Actions to Closure in Open Source Software Test Process}",

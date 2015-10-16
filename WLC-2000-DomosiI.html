@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Parsing+Problem+for+Context-Sensitive+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-DomosiI,
 	author        = "<a href="person/Pal_Doemoesi.html">Pál Dömösi</a> and <a href="person/Masami_Ito.html">Masami Ito</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "183--184",
 	publisher     = "{World Scientific}",
 	title         = "{A Parsing Problem for Context-Sensitive Languages}",

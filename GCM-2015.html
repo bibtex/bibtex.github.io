@@ -33,10 +33,10 @@
 <h2>Detlef Plump<br/><em>Proceedings of the Sixth International Workshop on Graph Computation Models</em><br/>GCM, 2015.</h2>
 <div class="rbox">
 <strong><a href="GT.html">GT</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/gg/2015gcm">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Sixth+International+Workshop+on+Graph+Computation+Models%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-1403">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Sixth+International+Workshop+on+Graph+Computation+Models%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-1403">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GCM-2015,
@@ -44,7 +44,7 @@
 	editor        = "<a href="person/Detlef_Plump.html">Detlef Plump</a>",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-1403">http://ceur-ws.org/Vol-1403</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Proceedings of the Sixth International Workshop on Graph Computation Models}",
 	volume        = 1403,
 	year          = 2015,

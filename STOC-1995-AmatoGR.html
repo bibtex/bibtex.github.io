@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/225058.225285">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1995-AmatoGR,
 	author        = "Nancy M. Amato and <a href="person/Michael_T_Goodrich.html">Michael T. Goodrich</a> and Edgar A. Ramos",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 27th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/225058.225285">10.1145/225058.225285</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/225058.225285">http://doi.acm.org/10.1145/225058.225285</a>",
 </span>	pages         = "672--682",

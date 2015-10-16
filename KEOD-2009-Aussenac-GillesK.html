@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ontology+Learning+by+Analyzing+XML+Document+Structure+and+Content%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-Aussenac-GillesK,
 	author        = "<a href="person/Nathalie_Aussenac-Gilles.html">Nathalie Aussenac-Gilles</a> and <a href="person/Mouna_Kamel.html">Mouna Kamel</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "159--165",
 	publisher     = "{INSTICC Press}",
 	title         = "{Ontology Learning by Analyzing XML Document Structure and Content}",

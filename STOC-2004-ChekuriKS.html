@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1007352.1007383">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 36th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2004-ChekuriKS,
 	author        = "<a href="person/Chandra_Chekuri.html">Chandra Chekuri</a> and <a href="person/Sanjeev_Khanna.html">Sanjeev Khanna</a> and <a href="person/F_Bruce_Shepherd.html">F. Bruce Shepherd</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 36th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1007352.1007383">10.1145/1007352.1007383</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1007352.1007383">http://doi.acm.org/10.1145/1007352.1007383</a>",
 </span>	pages         = "156--165",

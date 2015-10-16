@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Embedding+On-line+Training+in+an+E-prescribing+Service%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-PapakonstantinouMV,
 	author        = "D. Papakonstantinou and Flora Malamateniou and George Vassilacopoulos",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "180--186",
 	publisher     = "{SciTePress}",
 	title         = "{Embedding On-line Training in an E-prescribing Service}",

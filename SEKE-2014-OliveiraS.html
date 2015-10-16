@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Agile+Quality+Culture+—+A+survey+on+agile+culture+and+software+quality%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-OliveiraS,
 	author        = "<a href="person/Bruno_C_d_S_Oliveira.html">Bruno C. d. S. Oliveira</a> and <a href="person/Simone_R_S_Souza.html">Simone R. S. Souza</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "298--303",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{The Agile Quality Culture — A survey on agile culture and software quality}",

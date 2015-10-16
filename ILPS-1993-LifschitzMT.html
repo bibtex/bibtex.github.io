@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Reasoning+About+Actions:+A+Logic+Programming+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-LifschitzMT,
 	author        = "<a href="person/Vladimir_Lifschitz.html">Vladimir Lifschitz</a> and <a href="person/Norman_McCain.html">Norman McCain</a> and <a href="person/Hudson_Turner.html">Hudson Turner</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "641",
 	publisher     = "{MIT Press}",
 	title         = "{Automated Reasoning About Actions: A Logic Programming Approach}",

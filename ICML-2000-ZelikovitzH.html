@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Short-Text+Classification+using+Unlabeled+Data+for+Classification+Problems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-ZelikovitzH,
 	author        = "Sarah Zelikovitz and Haym Hirsh",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "1191--1198",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Improving Short-Text Classification using Unlabeled Data for Classification Problems}",

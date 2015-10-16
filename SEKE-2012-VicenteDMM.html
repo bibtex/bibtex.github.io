@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Program+Comprehension+in+Operating+System+Kernels+with+Execution+Trace+Information%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-VicenteDMM,
 	author        = "<a href="person/Elder_Vicente.html">Elder Vicente</a> and <a href="person/Geycy_Dyany.html">Geycy Dyany</a> and <a href="person/Rivalino_Matias.html">Rivalino Matias</a> and <a href="person/Marcelo_de_Almeida_Maia.html">Marcelo de Almeida Maia</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "174--179",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Improving Program Comprehension in Operating System Kernels with Execution Trace Information}",

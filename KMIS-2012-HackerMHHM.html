@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Management+of+Collaboration+—+Impacts+of+Virtualization+to+Learning+&+Knowledge%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-HackerMHHM,
 	author        = "Gerhard Hacker and Manfred Mayr and Peter Haber and Gerhard Hacker and Manfred Mayr",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "235--239",
 	publisher     = "{SciTePress}",
 	title         = "{Management of Collaboration — Impacts of Virtualization to Learning & Knowledge}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/335305.335362">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2000-FaginKKRRRST,
 	author        = "<a href="person/Ronald_Fagin.html">Ronald Fagin</a> and <a href="person/Anna_R_Karlin.html">Anna R. Karlin</a> and <a href="person/Jon_M_Kleinberg.html">Jon M. Kleinberg</a> and <a href="person/Prabhakar_Raghavan.html">Prabhakar Raghavan</a> and Sridhar Rajagopalan and <a href="person/Ronitt_Rubinfeld.html">Ronitt Rubinfeld</a> and Madhu Sudan and Andrew Tomkins",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/335305.335362">10.1145/335305.335362</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/335305.335362">http://doi.acm.org/10.1145/335305.335362</a>",
 </span>	pages         = "484--493",

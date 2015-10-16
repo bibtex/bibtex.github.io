@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Sheaf-Theoretic+Model+of+Concurrency%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Symposium on Logic in Computer Science':'LICS');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LICS-1986-MonteiroP,
 	author        = "<a href="person/Luis_Monteiro.html">Luís Monteiro</a> and <a href="person/Fernando_C_N_Pereira.html">Fernando C. N. Pereira</a>",
-	booktitle     = "{LICS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Symposium on Logic in Computer Science</span>}",
 	pages         = "66--76",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{A Sheaf-Theoretic Model of Concurrency}",

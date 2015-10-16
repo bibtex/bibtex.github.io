@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Temporal+Reasoning+in+a+Medical+Expertise%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-DojatS,
 	author        = "<a href="person/Michel_Dojat.html">Michel Dojat</a> and <a href="person/Claudette_Sayettat.html">Claudette Sayettat</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "134--141",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Temporal Reasoning in a Medical Expertise}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2402676.2402700">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the ACM Conference on High Integrity Language Technology':'HILT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HILT-2012-OLearyS,
 	author        = "<a href="person/Jeffrey_OLeary.html">Jeffrey O'Leary</a> and <a href="person/Alok_Srivastava.html">Alok Srivastava</a>",
-	booktitle     = "{HILT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the ACM Conference on High Integrity Language Technology</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2402676.2402700">10.1145/2402676.2402700</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2402676.2402700">http://doi.acm.org/10.1145/2402676.2402700</a>",
 </span>	pages         = "71--72",

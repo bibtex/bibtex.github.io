@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Normative+Examination+of+Ensemble+Learning+Algorithms%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-PennockMGH,
 	author        = "David M. Pennock and Pedrito Maynard-Reid II and <a href="person/C_Lee_Giles.html">C. Lee Giles</a> and Eric Horvitz",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "735--742",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A Normative Examination of Ensemble Learning Algorithms}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+optimization+methods+for+deep+learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-LeNCLPN,
 	author        = "Quoc V. Le and Jiquan Ngiam and Adam Coates and Ahbik Lahiri and Bobby Prochnow and Andrew Y. Ng",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "265--272",
 	publisher     = "{Omnipress}",
 	title         = "{On optimization methods for deep learning}",

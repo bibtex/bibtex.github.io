@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparing+Systems+and+analyzing+Functions+to+Improve+Constructive+Induction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-Rendell,
 	author        = "<a href="person/Larry_A_Rendell.html">Larry A. Rendell</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "461--464",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Comparing Systems and analyzing Functions to Improve Constructive Induction}",

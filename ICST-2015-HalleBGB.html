@@ -33,15 +33,16 @@
 <h2>Sylvain Hallé, Nicolas Bergeron, Francis Guerin, Gabriel Le Breton<br/><em><a href="word/test.html">Testing</a> <a href="word/web.html">Web</a> <a href="word/applic.html">Applications</a> Through <a href="word/layout.html">Layout</a> <a href="word/constraint.html">Constraints</a></em><br/>ICST, 2015.</h2>
 <div class="rbox">
 <strong><a href="ICST-2015.html">ICST 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icst/HalleBGB15">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Testing+Web+Applications+Through+Layout+Constraints%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICST.2015.7102635">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Testing+Web+Applications+Through+Layout+Constraints%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICST.2015.7102635">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.1109/ICST.2015.7102635">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth IEEE International Conference on Software Testing, Verification and Validation':'ICST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICST-2015-HalleBGB,
 	author        = "<a href="person/Sylvain_Halle.html">Sylvain Hallé</a> and <a href="person/Nicolas_Bergeron.html">Nicolas Bergeron</a> and <a href="person/Francis_Guerin.html">Francis Guerin</a> and <a href="person/Gabriel_Le_Breton.html">Gabriel Le Breton</a>",
-	booktitle     = "{ICST}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth IEEE International Conference on Software Testing, Verification and Validation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICST.2015.7102635">10.1109/ICST.2015.7102635</a>",
 </span>	pages         = "1--8",
 	publisher     = "{IEEE}",

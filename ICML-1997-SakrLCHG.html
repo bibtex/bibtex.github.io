@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Predicting+Multiprocessor+Memory+Access+Patterns+with+Learning+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1997-SakrLCHG,
 	author        = "M. F. Sakr and <a href="person/Steven_P_Levitan.html">Steven P. Levitan</a> and Donald M. Chiarulli and Bill G. Horne and <a href="person/C_Lee_Giles.html">C. Lee Giles</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Machine Learning</span>}",
 	pages         = "305--312",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Predicting Multiprocessor Memory Access Patterns with Learning Models}",

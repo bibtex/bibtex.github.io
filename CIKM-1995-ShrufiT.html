@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221545">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-ShrufiT,
 	author        = "Adel Shrufi and <a href="person/Thodoros_Topaloglou.html">Thodoros Topaloglou</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P158.pdf",
 	cite          = "['journals/cacm/Allen83', 'journals/tkde/BertinoK89', '...', 'conf/sigmod/CopelandK85', 'conf/sigmod/IoannidisK91', '...', 'journals/tois/MylopoulosBJKT90', 'journals/vldb/MylopoulosCPST96', 'journals/aim/NechesFFGPSS91', 'conf/sigmod/SelingerACLP79', '...', 'journals/tods/Snodgrass87', 'conf/icde/TopaloglouIS92', 'conf/cikm/Topaloglou93', 'journals/tods/Valduriez87', 'conf/vldb/ValduriezKC86', 'conf/vldb/XieH94', 'journals/cacm/Yao77']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221545">10.1145/221270.221545</a>",

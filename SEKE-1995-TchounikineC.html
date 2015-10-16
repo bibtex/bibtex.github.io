@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Fault+diagnosis+expert+system+for+robots:+a+knowledge+level+prototyping+experience%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-TchounikineC,
 	author        = "<a href="person/Pierre_Tchounikine.html">Pierre Tchounikine</a> and <a href="person/Christophe_Choquet.html">Christophe Choquet</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "268--274",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Fault diagnosis expert system for robots: a knowledge level prototyping experience}",
@@ -50,8 +50,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/fault.html">#fault</a></li>
-<li class="tag"><a href="tag/prototype.html">#prototype</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/prototype.html">#prototype</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

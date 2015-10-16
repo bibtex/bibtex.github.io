@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/240678.240711">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'The Annual Meeting of the Ada Programming World':'TRI-Ada');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TRI-Ada-1996-CrossBHT,
 	author        = "<a href="person/James_H_Cross_II.html">James H. Cross II</a> and <a href="person/Larry_A_Barowski.html">Larry A. Barowski</a> and <a href="person/T_Dean_Hendrix.html">T. Dean Hendrix</a> and <a href="person/Joseph_C_Teate.html">Joseph C. Teate</a>",
-	booktitle     = "{TRI-Ada}",
+	booktitle     = "{<span id="booktitle">The Annual Meeting of the Ada Programming World</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/240678.240711">10.1145/240678.240711</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/240678.240711">http://doi.acm.org/10.1145/240678.240711</a>",
 </span>	pages         = "143--147",

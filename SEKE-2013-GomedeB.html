@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Non-Intrusive+Process+to+Software+Engineering+Decision+Support+focused+on+increasing+the+Quality+of+Software+Development+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-GomedeB,
 	author        = "<a href="person/Everton_Gomede.html">Everton Gomede</a> and <a href="person/Rodolfo_M_Barros.html">Rodolfo M. Barros</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "95--100",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Non-Intrusive Process to Software Engineering Decision Support focused on increasing the Quality of Software Development (S)}",

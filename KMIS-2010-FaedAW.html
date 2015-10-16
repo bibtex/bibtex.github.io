@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Impact+of+Trust+and+Interactivity+on+Intensifying+Customer+Loyalty+for+CRM%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-FaedAW,
 	author        = "Alireza Faed and Afsaneh Ashouri and Chen Wu",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "113--120",
 	publisher     = "{SciTePress}",
 	title         = "{The Impact of Trust and Interactivity on Intensifying Customer Loyalty for CRM}",

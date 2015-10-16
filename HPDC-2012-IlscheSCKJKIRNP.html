@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2287076.2287085">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2012-IlscheSCKJKIRNP,
 	author        = "Thomas Ilsche and Joseph Schuchart and Jason Cope and Dries Kimpe and Terry Jones and Andreas Knüpfer and Kamil Iskra and Robert B. Ross and Wolfgang E. Nagel and Stephen Poole",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2287076.2287085">10.1145/2287076.2287085</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2287076.2287085">http://doi.acm.org/10.1145/2287076.2287085</a>",
 </span>	pages         = "49--60",

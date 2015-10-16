@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Multi-agent+Systems+and+Ontologies+Applied+to+New+Industrial+Domains+—+Case+Study:+Ornamental+Plants%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-Otero-CerdeiraRVA,
 	author        = "Lorena Otero-Cerdeira and Francisco Javier Rodríguez-Martínez and Tito Valencia-Requejo and Loxo Lueiro Astray",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "357--364",
 	publisher     = "{SciTePress}",
 	title         = "{Multi-agent Systems and Ontologies Applied to New Industrial Domains — Case Study: Ornamental Plants}",

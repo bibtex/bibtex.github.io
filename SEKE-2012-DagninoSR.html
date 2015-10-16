@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Forecasting+Fault+Events+in+Power+Distribution+Grids+Using+Machine+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-DagninoSR,
 	author        = "<a href="person/Aldo_Dagnino.html">Aldo Dagnino</a> and <a href="person/Karen_Smiley.html">Karen Smiley</a> and <a href="person/Lakshmi_Ramachandran.html">Lakshmi Ramachandran</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "458--463",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Forecasting Fault Events in Power Distribution Grids Using Machine Learning}",

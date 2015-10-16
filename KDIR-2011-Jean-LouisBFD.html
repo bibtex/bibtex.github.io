@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Weakly+Supervised+Approach+for+Large-scale+Relation+Extraction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-Jean-LouisBFD,
 	author        = "Ludovic Jean-Louis and Romaric Besançon and Olivier Ferret and Adrien Durand",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "94--103",
 	publisher     = "{SciTePress}",
 	title         = "{A Weakly Supervised Approach for Large-scale Relation Extraction}",

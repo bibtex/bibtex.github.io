@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/289524.289529">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the ACM SIGAda Annual International Conference on Ada Technology':'SIGAda');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGAda-1998-WongL,
 	author        = "<a href="person/Sy_Wong.html">Sy Wong</a> and <a href="person/Gertrude_Levine.html">Gertrude Levine</a>",
-	booktitle     = "{SIGAda}",
+	booktitle     = "{<span id="booktitle">Proceedings of the ACM SIGAda Annual International Conference on Ada Technology</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/289524.289529">10.1145/289524.289529</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/289524.289529">http://doi.acm.org/10.1145/289524.289529</a>",
 </span>	pages         = "28--38",

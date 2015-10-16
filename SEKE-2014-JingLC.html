@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Argument-based+Collaborative+Negotiation+Approach+to+Support+Software+Design+Collaboration%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-JingLC,
 	author        = "<a href="person/Nan_Jing.html">Nan Jing</a> and <a href="person/Stephen_C_Y_Lu.html">Stephen C. Y. Lu</a> and <a href="person/Hung-Fu_Chang.html">Hung-Fu Chang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "274--279",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Argument-based Collaborative Negotiation Approach to Support Software Design Collaboration}",

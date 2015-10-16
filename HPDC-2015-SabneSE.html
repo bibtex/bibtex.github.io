@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2749246.2749261">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2015-SabneSE,
 	author        = "Amit Sabne and Putt Sakdhnagool and <a href="person/Rudolf_Eigenmann.html">Rudolf Eigenmann</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2749246.2749261">10.1145/2749246.2749261</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2749246.2749261">http://doi.acm.org/10.1145/2749246.2749261</a>",
 </span>	pages         = "235--246",
@@ -55,8 +55,7 @@
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/clustering.html">#clustering</a></li>
 <li class="tag"><a href="tag/named.html">#named</a></li>
 <li class="tag"><a href="tag/pipes%20and%20filters.html">#pipes and filters</a></li>
-<li class="tag"><a href="tag/programming.html">#programming</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/programming.html">#programming</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

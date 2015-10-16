@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Effective+Crowdsourcing+for+Software+Feature+Ideation+in+Online+Co-Creation+Forums%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-RajasekharanMN,
 	author        = "<a href="person/Karthikeyan_Rajasekharan.html">Karthikeyan Rajasekharan</a> and <a href="person/Aditya_P_Mathur.html">Aditya P. Mathur</a> and <a href="person/See-Kiong_Ng.html">See-Kiong Ng</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "119--124",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Effective Crowdsourcing for Software Feature Ideation in Online Co-Creation Forums}",

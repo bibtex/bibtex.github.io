@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Employing+EM+and+Pool-Based+Active+Learning+for+Text+Classification%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-McCallumN,
 	author        = "Andrew McCallum and Kamal Nigam",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "350--358",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Employing EM and Pool-Based Active Learning for Text Classification}",

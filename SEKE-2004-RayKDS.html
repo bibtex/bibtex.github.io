@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Risk+Assessment+for+Managing+Software+Projects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-RayKDS,
 	author        = "<a href="person/Bonnie_K_Ray.html">Bonnie K. Ray</a> and <a href="person/Tim_Klinger.html">Tim Klinger</a> and <a href="person/R_Delmonico.html">R. Delmonico</a> and <a href="person/Peter_Santhanam.html">Peter Santhanam</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "372--377",
 	title         = "{Automated Risk Assessment for Managing Software Projects}",
 	year          = 2004,

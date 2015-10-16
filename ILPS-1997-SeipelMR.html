@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Characterization+of+the+Partial+Stable+Models+For+Disjunctive+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-SeipelMR,
 	author        = "<a href="person/Dietmar_Seipel.html">Dietmar Seipel</a> and <a href="person/Jack_Minker.html">Jack Minker</a> and <a href="person/Carolina_Ruiz.html">Carolina Ruiz</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "245--259",
 	publisher     = "{MIT Press}",
 	title         = "{A Characterization of the Partial Stable Models For Disjunctive Databases}",

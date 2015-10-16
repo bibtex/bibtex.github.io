@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/361268.361280">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1973-CoffmanR72,
 	author        = "<a href="person/Edward_G_Coffman_Jr.html">Edward G. Coffman Jr.</a> and <a href="person/T_A_Ryan.html">T. A. Ryan</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/361268.361280">10.1145/361268.361280</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/361268.361280">http://doi.acm.org/10.1145/361268.361280</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 3,
 	pages         = "185--190",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{A Study of Storage Partitioning Using a Mathematical Model of Locality}",
 	volume        = 15,
 	year          = 1972,

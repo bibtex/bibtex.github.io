@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Feature-Oriented+Analysis+to+Recover+Legacy+Software+Design+for+Software+Evolution%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-LiCLY,
 	author        = "<a href="person/Shaoyun_Li.html">Shaoyun Li</a> and <a href="person/Feng_Chen.html">Feng Chen</a> and <a href="person/Zhihong_Liang.html">Zhihong Liang</a> and <a href="person/Hongji_Yang.html">Hongji Yang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "336--341",
 	title         = "{Using Feature-Oriented Analysis to Recover Legacy Software Design for Software Evolution}",
 	year          = 2005,

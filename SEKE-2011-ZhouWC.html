@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Engineering+in+the+domain+of+Carbon+Dioxide+Capture+Process+System+%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-ZhouWC,
 	author        = "<a href="person/Qing_Zhou.html">Qing Zhou</a> and <a href="person/Alexander_J_Wiebe.html">Alexander J. Wiebe</a> and <a href="person/Christine_W_Chan.html">Christine W. Chan</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "414--419",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Knowledge Engineering in the domain of Carbon Dioxide Capture Process System }",

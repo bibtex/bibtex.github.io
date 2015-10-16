@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Software+Engineers’+Skills+through+the+Simulation+of+Distributed+Software+Development+in+Academic+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-FortalezaJCVP,
 	author        = "<a href="person/Luiz_Leandro_Fortaleza.html">Luiz Leandro Fortaleza</a> and <a href="person/Olavo_Olimpio_Matos_Junior.html">Olavo Olimpio Matos Junior</a> and <a href="person/Tayana_Conte.html">Tayana Conte</a> and <a href="person/Sergio_Roberto_Costa_Vieira.html">Sérgio Roberto Costa Vieira</a> and <a href="person/Rafael_Prikladnicki.html">Rafael Prikladnicki</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "190--195",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Improving Software Engineers’ Skills through the Simulation of Distributed Software Development in Academic Environments}",

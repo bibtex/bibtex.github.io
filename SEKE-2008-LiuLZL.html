@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Supremum+of+Agent+Number+Needed+in+Analyzing+Security+Protocols+Based+on+Horn+Logic%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-LiuLZL,
 	author        = "<a href="person/Feng_Liu.html">Feng Liu</a> and <a href="person/Zhoujun_Li.html">Zhoujun Li</a> and <a href="person/Ti_Zhou.html">Ti Zhou</a> and <a href="person/Mengjun_Li.html">Mengjun Li</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "795--801",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Supremum of Agent Number Needed in Analyzing Security Protocols Based on Horn Logic}",

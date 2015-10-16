@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Multi-State+Bayesian+Network+for+Shill+Verification+in+Online+Auctions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-GoelXS,
 	author        = "<a href="person/Ankit_Goel.html">Ankit Goel</a> and <a href="person/Haiping_Xu.html">Haiping Xu</a> and <a href="person/Sol_M_Shatz.html">Sol M. Shatz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "279--285",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Multi-State Bayesian Network for Shill Verification in Online Auctions}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Chinese+Text+Mining+Application:+An+Automatic+Answer+Reply+to+Customers’+E-mail+Queries+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-HuangLF,
 	author        = "<a href="person/Ju-Yu_Huang.html">Ju-Yu Huang</a> and <a href="person/Huey-Ming_Lee.html">Huey-Ming Lee</a> and <a href="person/Chen-Liang_Fang.html">Chen-Liang Fang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "504--507",
 	title         = "{A Chinese Text Mining Application: An Automatic Answer Reply to Customers’ E-mail Queries Model}",
 	year          = 2005,

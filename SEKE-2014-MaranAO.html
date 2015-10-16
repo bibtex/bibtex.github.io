@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Are+The+Integrations+Between+Ontologies+and+Databases+Really+Opening+the+Closed+World+in+Ubiquitous+Computing+?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-MaranAO,
 	author        = "<a href="person/Vinicius_Maran.html">Vinícius Maran</a> and <a href="person/Iara_Augustin.html">Iara Augustin</a> and <a href="person/Jose_Palazzo_M_de_Oliveira.html">José Palazzo M. de Oliveira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "453--458",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Are The Integrations Between Ontologies and Databases Really Opening the Closed World in Ubiquitous Computing ?}",

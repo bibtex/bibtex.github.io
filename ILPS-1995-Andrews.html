@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Paralogical+Semantics+for+the+Prolog+Cut%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-Andrews,
 	author        = "<a href="person/James_H_Andrews.html">James H. Andrews</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "591--605",
 	publisher     = "{MIT Press}",
 	title         = "{A Paralogical Semantics for the Prolog Cut}",

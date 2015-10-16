@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/584792.584905">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2002-AdakBBKKKS,
 	author        = "Sudeshna Adak and Vishal S. Batra and Deo N. Bhardwaj and Pasumarti V. Kamesam and <a href="person/Pankaj_Kankar.html">Pankaj Kankar</a> and Manish P. Kurhekar and <a href="person/Biplav_Srivastava.html">Biplav Srivastava</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/584792.584905">10.1145/584792.584905</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/584792.584905">http://doi.acm.org/10.1145/584792.584905</a>",
 </span>	pages         = "638--641",
@@ -52,8 +52,7 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/information%20management.html">#information management</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/information%20management.html">#information management</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

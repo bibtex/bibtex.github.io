@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Quick+Acquisition+of+Topic-based+Information/Knowledge+from+News+Site+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-Han,
 	author        = "<a href="person/Hao_Han.html">Hao Han</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "343--348",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Quick Acquisition of Topic-based Information/Knowledge from News Site Databases}",

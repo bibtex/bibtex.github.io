@@ -33,18 +33,18 @@
 <h2>Christina Lagerkvist, Åke Nyberg<br/><em>How to <a href="word/succeed.html">Succeed</a> with <a href="word/modern.html">Modern</a> <a href="word/tool.html">Tools</a> <a href="word/such.html">such</a> as the <a href="word/case.html">CASE</a> <a href="word/tool.html">tool</a> “<a href="word/deft.html">Deft</a>” on the <a href="word/macintosh.html">Macintosh</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/LagerkvistN89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22How+to+Succeed+with+Modern+Tools+such+as+the+CASE+tool+“Deft”+on+the+Macintosh%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper12.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22How+to+Succeed+with+Modern+Tools+such+as+the+CASE+tool+“Deft”+on+the+Macintosh%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper12.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-LagerkvistN,
 	author        = "<a href="person/Christina_Lagerkvist.html">Christina Lagerkvist</a> and <a href="person/Ake_Nyberg.html">Åke Nyberg</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper12.pdf">http://ceur-ws.org/Vol-961/paper12.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{How to Succeed with Modern Tools such as the CASE tool “Deft” on the Macintosh}",
 	volume        = 961,
 	year          = 1989,

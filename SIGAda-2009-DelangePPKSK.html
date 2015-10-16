@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1647420.1647435">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Annual ACM SIGAda International Conference on Ada':'SIGAda');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGAda-2009-DelangePPKSK,
 	author        = "<a href="person/Julien_Delange.html">Julien Delange</a> and <a href="person/Laurent_Pautet.html">Laurent Pautet</a> and <a href="person/Alain_Plantec.html">Alain Plantec</a> and <a href="person/Mickael_Kerboeuf.html">Mickaël Kerboeuf</a> and <a href="person/Frank_Singhoff.html">Frank Singhoff</a> and <a href="person/Fabrice_Kordon.html">Fabrice Kordon</a>",
-	booktitle     = "{SIGAda}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Annual ACM SIGAda International Conference on Ada</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1647420.1647435">10.1145/1647420.1647435</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1647420.1647435">http://doi.acm.org/10.1145/1647420.1647435</a>",
 </span>	pages         = "31--44",

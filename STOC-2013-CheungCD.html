@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2488608.2488633">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 45th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2013-CheungCD,
 	author        = "Yun Kuen Cheung and <a href="person/Richard_Cole.html">Richard Cole</a> and Nikhil R. Devanur",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 45th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2488608.2488633">10.1145/2488608.2488633</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2488608.2488633">http://doi.acm.org/10.1145/2488608.2488633</a>",
 </span>	pages         = "191--200",

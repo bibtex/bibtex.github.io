@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Client-Side+Rendering+Mechanism:+A+Double-Edged+Sword+for+Browser-Based+Web+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-HanXO,
 	author        = "<a href="person/Hao_Han.html">Hao Han</a> and <a href="person/Yinxing_Xue.html">Yinxing Xue</a> and <a href="person/Keizo_Oyama.html">Keizo Oyama</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "124--130",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Client-Side Rendering Mechanism: A Double-Edged Sword for Browser-Based Web Applications}",

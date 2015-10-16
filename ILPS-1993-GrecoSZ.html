@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+Programming+Optimization+for+Logic+Queries+with+Aggregates%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-GrecoSZ,
 	author        = "<a href="person/Sergio_Greco.html">Sergio Greco</a> and <a href="person/Domenico_Sacca.html">Domenico Saccà</a> and <a href="person/Carlo_Zaniolo.html">Carlo Zaniolo</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "575--589",
 	publisher     = "{MIT Press}",
 	title         = "{Dynamic Programming Optimization for Logic Queries with Aggregates}",

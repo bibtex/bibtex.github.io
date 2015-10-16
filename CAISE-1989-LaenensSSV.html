@@ -33,18 +33,18 @@
 <h2>Els Laenens, John Snijders, François Staes, Dirk Vermeir<br/><em>A <a href="word/case.html">Case</a> <a href="word/studi.html">Study</a> in <a href="word/object.html">Object</a>-<a href="word/orient.html">Oriented</a> <a href="word/knowledg.html">Knowledge</a>-<a href="word/base.html">Base</a> <a href="word/design.html">Design</a> <a href="word/use.html">Using</a> the <a href="word/kiwi.html">KIWI</a> <a href="word/system.html">System</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/LaenensSSV89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Case+Study+in+Object-Oriented+Knowledge-Base+Design+Using+the+KIWI+System%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper6.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22A+Case+Study+in+Object-Oriented+Knowledge-Base+Design+Using+the+KIWI+System%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper6.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-LaenensSSV,
 	author        = "<a href="person/Els_Laenens.html">Els Laenens</a> and <a href="person/John_Snijders.html">John Snijders</a> and <a href="person/Francois_Staes.html">François Staes</a> and <a href="person/Dirk_Vermeir.html">Dirk Vermeir</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper6.pdf">http://ceur-ws.org/Vol-961/paper6.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{A Case Study in Object-Oriented Knowledge-Base Design Using the KIWI System}",
 	volume        = 961,
 	year          = 1989,

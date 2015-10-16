@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Management+and+Acquisition+in+Digital+Repositories+—+A+Semantic+Web+Perspective%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-KoutsomitropoulosSAP,
 	author        = "Dimitrios A. Koutsomitropoulos and Georgia D. Solomou and Andreas D. Alexopoulos and <a href="person/Theodore_S_Papatheodorou.html">Theodore S. Papatheodorou</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "117--122",
 	publisher     = "{INSTICC Press}",
 	title         = "{Knowledge Management and Acquisition in Digital Repositories — A Semantic Web Perspective}",

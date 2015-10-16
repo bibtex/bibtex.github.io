@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Taxonomy+on+Consistency+Requirements+in+the+Business+Process+Integration+Context%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-SchonbergerW,
 	author        = "<a href="person/Andreas_Schoenberger.html">Andreas Schönberger</a> and <a href="person/Guido_Wirtz.html">Guido Wirtz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "593--598",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Taxonomy on Consistency Requirements in the Business Process Integration Context}",

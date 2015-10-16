@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Evaluating+the+Efficiency+of+Retrieval+Methods+for+Component+Repositories%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-HummelJA,
 	author        = "<a href="person/Oliver_Hummel.html">Oliver Hummel</a> and <a href="person/Werner_Janjic.html">Werner Janjic</a> and <a href="person/Colin_Atkinson.html">Colin Atkinson</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "404--409",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Evaluating the Efficiency of Retrieval Methods for Component Repositories}",

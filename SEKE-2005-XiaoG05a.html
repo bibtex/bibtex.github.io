@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Modelling+Agent+Knowledge+with+Business+Rules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-XiaoG05a,
 	author        = "<a href="person/Liang_Xiao.html">Liang Xiao</a> and <a href="person/Des_Greer.html">Des Greer</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "566--571",
 	title         = "{Modelling Agent Knowledge with Business Rules}",
 	year          = 2005,

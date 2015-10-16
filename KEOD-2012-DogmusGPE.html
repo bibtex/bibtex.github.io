@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Developing+and+Maintaining+an+Ontology+for+Rehabilitation+Robotics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-DogmusGPE,
 	author        = "Zeynep Dogmus and Gizem Gezici and Volkan Patoglu and <a href="person/Esra_Erdem.html">Esra Erdem</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "389--395",
 	publisher     = "{SciTePress}",
 	title         = "{Developing and Maintaining an Ontology for Rehabilitation Robotics}",

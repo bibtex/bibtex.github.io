@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Relaxation+in+Constraint+Logic+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-GovindarajanJM,
 	author        = "<a href="person/Kannan_Govindarajan.html">Kannan Govindarajan</a> and <a href="person/Bharat_Jayaraman.html">Bharat Jayaraman</a> and <a href="person/Surya_Mantha.html">Surya Mantha</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "637",
 	publisher     = "{MIT Press}",
 	title         = "{Relaxation in Constraint Logic Languages}",

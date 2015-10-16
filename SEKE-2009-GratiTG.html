@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Another+New+Criterion+to+Improve+the+Interaction+Diagrams+Quality%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-GratiTG,
 	author        = "<a href="person/Lilia_Grati.html">Lilia Grati</a> and <a href="person/Mohamed_Tmar.html">Mohamed Tmar</a> and <a href="person/Faiez_Gargouri.html">Faïez Gargouri</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "613--618",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Another New Criterion to Improve the Interaction Diagrams Quality}",

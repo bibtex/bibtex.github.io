@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Test+Selection,+Trace+Distance+and+Heuristics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services':'TestCom');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TestCom-2002-FeijsGMT,
 	author        = "<a href="person/Loe_M_G_Feijs.html">Loe M. G. Feijs</a> and <a href="person/Nicolae_Goga.html">Nicolae Goga</a> and <a href="person/Sjouke_Mauw.html">Sjouke Mauw</a> and <a href="person/Jan_Tretmans.html">Jan Tretmans</a>",
-	booktitle     = "{TestCom}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services</span>}",
 	pages         = "267--282",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

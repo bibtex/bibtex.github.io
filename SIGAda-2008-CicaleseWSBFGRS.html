@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1454474.1454495">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Annual ACM SIGAda International Conference on Ada':'SIGAda');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGAda-2008-CicaleseWSBFGRS,
 	author        = "<a href="person/Cynthia_Della_Torre_Cicalese.html">Cynthia Della Torre Cicalese</a> and <a href="person/Richard_M_Weatherly.html">Richard M. Weatherly</a> and <a href="person/Joel_Sherrill.html">Joel Sherrill</a> and <a href="person/Robert_H_Bolling.html">Robert H. Bolling</a> and <a href="person/Kevin_Forbes.html">Kevin Forbes</a> and <a href="person/Robert_Grabowski.html">Robert Grabowski</a> and <a href="person/Keven_Ring.html">Keven Ring</a> and <a href="person/David_Seidel.html">David Seidel</a>",
-	booktitle     = "{SIGAda}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Annual ACM SIGAda International Conference on Ada</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1454474.1454495">10.1145/1454474.1454495</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1454474.1454495">http://doi.acm.org/10.1145/1454474.1454495</a>",
 </span>	pages         = "133--138",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Language+Support+for+Event-based+Debugging%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-Al-SharifJ09a,
 	author        = "<a href="person/Ziad_Al-Sharif.html">Ziad Al-Sharif</a> and <a href="person/Clinton_L_Jeffery.html">Clinton L. Jeffery</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "392--399",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Language Support for Event-based Debugging}",

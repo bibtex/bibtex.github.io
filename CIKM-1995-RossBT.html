@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221586">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-RossBT,
 	author        = "Daniel E. Rose and Jeremy J. Bornstein and Kevin Tiene",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P266.pdf",
 	cite          = "['conf/sigir/Belew89', 'journals/cacm/BelkinC92', '...', '...', 'journals/cacm/FurnasLGD87', 'journals/cacm/GoldbergNOT92', '...', 'conf/chi/HillSRF95', '...', 'conf/aaai/LashkariMM94', '...', 'conf/cscw/ResnickISBR94', '...', 'books/mg/SaltonG83', 'conf/chi/ShardanandM95', '...']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221586">10.1145/221270.221586</a>",

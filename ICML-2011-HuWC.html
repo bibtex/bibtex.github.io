@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22BCDNPKL:+Scalable+Non-Parametric+Kernel+Learning+Using+Block+Coordinate+Descent%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-HuWC,
 	author        = "Enliang Hu and <a href="person/Bo_Wang.html">Bo Wang</a> and Songcan Chen",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "209--216",
 	publisher     = "{Omnipress}",
 	title         = "{BCDNPKL: Scalable Non-Parametric Kernel Learning Using Block Coordinate Descent}",

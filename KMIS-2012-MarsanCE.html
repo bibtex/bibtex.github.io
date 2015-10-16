@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Factors+Influencing+the+Behavioral+Intention+of+using+Enterprise+2.0+Tools+as+a+Knowledge+Management+Platform+—+An+Analysis+of+the+UTAUT+Model+in+an+Large+Real+Estate+Company%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-MarsanCE,
 	author        = "Benoit Marsan and Luc Cassivi and Elie Elia",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "281--284",
 	publisher     = "{SciTePress}",
 	title         = "{Factors Influencing the Behavioral Intention of using Enterprise 2.0 Tools as a Knowledge Management Platform — An Analysis of the UTAUT Model in an Large Real Estate Company}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Deterministic+Parsing+of+Languages+with+Dynamic+Operators%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-PostGK,
 	author        = "<a href="person/Kjell_Post.html">Kjell Post</a> and <a href="person/Allen_Van_Gelder.html">Allen Van Gelder</a> and <a href="person/James_Kerr.html">James Kerr</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "456--472",
 	publisher     = "{MIT Press}",
 	title         = "{Deterministic Parsing of Languages with Dynamic Operators}",

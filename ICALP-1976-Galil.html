@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Enumeration+Procedures+for+Theorem+Proving+and+for+Integer+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Galil,
 	author        = "<a href="person/Zvi_Galil.html">Zvi Galil</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "355--381",
 	title         = "{On Enumeration Procedures for Theorem Proving and for Integer Programming}",
 	year          = 1976,

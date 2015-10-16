@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1806689.1806761">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 42nd Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2010-Sherstov,
 	author        = "Alexander A. Sherstov",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 42nd Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1806689.1806761">10.1145/1806689.1806761</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1806689.1806761">http://doi.acm.org/10.1145/1806689.1806761</a>",
 </span>	pages         = "523--532",

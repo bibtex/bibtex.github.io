@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22miKrow+—+An+Intra-enterprise+Semantic+Microblogging+Tool+as+a+Micro-knowledge+Management+Solution%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-AlvaroCPCCGC,
 	author        = "Guillermo Álvaro and Carmen Córdoba and Víctor Penela and Michelangelo Castagnone and Francesco Carbone and José Manuél Gómez-Pérez and Jesús Contreras",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "36--43",
 	publisher     = "{SciTePress}",
 	title         = "{miKrow — An Intra-enterprise Semantic Microblogging Tool as a Micro-knowledge Management Solution}",

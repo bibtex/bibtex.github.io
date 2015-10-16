@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Pattern-based+Ontology+Transformation+Service%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-Svab-ZamazalSS,
 	author        = "Ondrej Sváb-Zamazal and Vojtech Svátek and <a href="person/Francois_Scharffe.html">François Scharffe</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "42--47",
 	publisher     = "{INSTICC Press}",
 	title         = "{Pattern-based Ontology Transformation Service}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Evolutive+Content-based+Search+System+—+Semantic+Search+System+based+on+Case-based-Reasoning+and+Ontology+Enrichment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-Elloumi-ChaabeneMZMS,
 	author        = "Manel Elloumi-Chaabene and <a href="person/Nesrine_Ben_Mustapha.html">Nesrine Ben Mustapha</a> and <a href="person/Hajer_Baazaoui_Zghal.html">Hajer Baazaoui Zghal</a> and Antonio Moreno and David Sánchez",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "24--34",
 	publisher     = "{SciTePress}",
 	title         = "{Evolutive Content-based Search System — Semantic Search System based on Case-based-Reasoning and Ontology Enrichment}",

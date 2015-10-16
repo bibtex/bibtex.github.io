@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Selecting+Web+Services+for+Choreography+Implementation:+Compatibility+Checking+Approach+with+Access+Control%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-ElabdCH,
 	author        = "<a href="person/Emad_Elabd.html">Emad Elabd</a> and <a href="person/Emmanuel_Coquery.html">Emmanuel Coquery</a> and <a href="person/Mohand-Said_Hacid.html">Mohand-Said Hacid</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "235--240",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Selecting Web Services for Choreography Implementation: Compatibility Checking Approach with Access Control}",

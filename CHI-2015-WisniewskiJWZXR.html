@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2702123.2702240">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2015-WisniewskiJWZXR,
 	author        = "Pamela J. Wisniewski and Haiyan Jia and Na Wang and Saijing Zheng and <a href="person/Heng_Xu.html">Heng Xu</a> and <a href="person/Mary_Beth_Rosson.html">Mary Beth Rosson</a> and <a href="person/John_M_Carroll.html">John M. Carroll</a>",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2702123.2702240">10.1145/2702123.2702240</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2702123.2702240">http://doi.acm.org/10.1145/2702123.2702240</a>",
 </span>	pages         = "4029--4038",

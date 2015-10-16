@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Approach+for+Testing+Real+Time+Protocol+Entities%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services':'TestCom');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TestCom-2000-KhoumsiADEG,
 	author        = "Ahmed Khoumsi and Mehdi Akalay and <a href="person/Rachida_Dssouli.html">Rachida Dssouli</a> and Abdeslam En-Nouaary and Louis Granger",
-	booktitle     = "{TestCom}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Testing Communicating Systems: Applications to Internet Technologies and Services</span>}",
 	pages         = "281--300",
 	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",

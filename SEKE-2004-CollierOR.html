@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+UML-based+Software+Engineering+Methodology+for+Agent+Factory%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-CollierOR,
 	author        = "<a href="person/Rem_W_Collier.html">Rem W. Collier</a> and <a href="person/Gregory_M_P_OHare.html">Gregory M. P. O'Hare</a> and <a href="person/Colm_Rooney.html">Colm Rooney</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "25--30",
 	title         = "{A UML-based Software Engineering Methodology for Agent Factory}",
 	year          = 2004,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Supporting+the+Solution+Selection+for+a+Digital+City+with+a+Fuzzy-based+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-AnthopoulosGF,
 	author        = "Leonidas G. Anthopoulos and Vassilis C. Gerogiannis and Panos Fitsilis",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "355--358",
 	publisher     = "{SciTePress}",
 	title         = "{Supporting the Solution Selection for a Digital City with a Fuzzy-based Approach}",

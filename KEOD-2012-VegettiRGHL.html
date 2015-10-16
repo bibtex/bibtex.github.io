@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22ONTOTracED:+A+Framework+to+Capture+and+Trace+Ontology+Development+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-VegettiRGHL,
 	author        = "Marcela Vegetti and María Luciana Roldán and <a href="person/Silvio_Gonnet.html">Silvio Gonnet</a> and Gabriela P. Henning and <a href="person/Horacio_P_Leone.html">Horacio P. Leone</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "419--422",
 	publisher     = "{SciTePress}",
 	title         = "{ONTOTracED: A Framework to Capture and Trace Ontology Development Processes}",

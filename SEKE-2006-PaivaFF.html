@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+Rationale+in+Academic+Software+Development:+Requirements+for+a+Representation+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-PaivaFF,
 	author        = "<a href="person/Debora_Maria_Barroso_Paiva.html">Débora Maria Barroso Paiva</a> and <a href="person/Andre_Pimenta_Freire.html">André Pimenta Freire</a> and <a href="person/Renata_Pontin_de_Mattos_Fortes.html">Renata Pontin de Mattos Fortes</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "469--472",
 	title         = "{Design Rationale in Academic Software Development: Requirements for a Representation Model}",
 	year          = 2006,

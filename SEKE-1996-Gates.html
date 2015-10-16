@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Defining+a+Class+of+Integrity+Constraints%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-Gates,
 	author        = "<a href="person/Ann_Q_Gates.html">Ann Q. Gates</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "338--344",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{On Defining a Class of Integrity Constraints}",

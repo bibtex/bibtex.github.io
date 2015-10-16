@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Creating+an+Educational+Roadmap+for+Engineering+Students+via+an+Optimal+and+Iterative+Yearly+Regression+Tree+using+Data+Mining%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2012-KhairMZ,
 	author        = "Marie Khair and Chady El Moucary and Walid Zakhem",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "43--52",
 	publisher     = "{SciTePress}",
 	title         = "{Creating an Educational Roadmap for Engineering Students via an Optimal and Iterative Yearly Regression Tree using Data Mining}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22What’s+in+Constructing+a+Domain+Model+for+Sharing+Architectural+Knowledge?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-FarenhorstBDLV,
 	author        = "<a href="person/Rik_Farenhorst.html">Rik Farenhorst</a> and <a href="person/Remco_C_de_Boer.html">Remco C. de Boer</a> and <a href="person/Robert_Deckers.html">Robert Deckers</a> and <a href="person/Patricia_Lago.html">Patricia Lago</a> and <a href="person/Hans_van_Vliet.html">Hans van Vliet</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "108--113",
 	title         = "{What’s in Constructing a Domain Model for Sharing Architectural Knowledge?}",
 	year          = 2006,

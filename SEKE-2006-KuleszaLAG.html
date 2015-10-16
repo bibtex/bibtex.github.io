@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Customizing+Aspect-Oriented+Variabilities+using+Generative+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-KuleszaLAG,
 	author        = "<a href="person/Uira_Kulesza.html">Uirá Kulesza</a> and <a href="person/Carlos_Jose_Pereira_de_Lucena.html">Carlos José Pereira de Lucena</a> and <a href="person/Paulo_S_C_Alencar.html">Paulo S. C. Alencar</a> and <a href="person/Alessandro_Garcia.html">Alessandro Garcia</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "17--22",
 	title         = "{Customizing Aspect-Oriented Variabilities using Generative Techniques}",
 	year          = 2006,

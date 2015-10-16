@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Engineering+to+Visualize+Complexity+for+Legacy+Modernization+Planning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-LeeSB,
 	author        = "<a href="person/Sarah_B_Lee.html">Sarah B. Lee</a> and <a href="person/Sajjan_G_Shiva.html">Sajjan G. Shiva</a> and <a href="person/K_S_Braunsdorf.html">K. S. Braunsdorf</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "331--334",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Knowledge Engineering to Visualize Complexity for Legacy Modernization Planning}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Engineering+an+Ingres+Active+Database+using+Conceptual+Design+Knowledge+Elements%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-ConstantinidisZ,
 	author        = "<a href="person/Vicki_Constantinidis.html">Vicki Constantinidis</a> and <a href="person/Arkady_B_Zaslavsky.html">Arkady B. Zaslavsky</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "158--160",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Engineering an Ingres Active Database using Conceptual Design Knowledge Elements}",

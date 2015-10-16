@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Scrum+and+Plan-driven+Process+Integration+and+its+Impact+on+Effort+Estimation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-AlvesCL,
 	author        = "<a href="person/Nelio_Alves.html">Nelio Alves</a> and <a href="person/William_Carvalho.html">William Carvalho</a> and <a href="person/Edgard_Lamounier_Jr.html">Edgard Lamounier Jr.</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "710--715",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Scrum and Plan-driven Process Integration and its Impact on Effort Estimation}",

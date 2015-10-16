@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Gene+Ontology+based+Simulation+for+Feature+Selection%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-GilliesSPW,
 	author        = "Christopher E. Gillies and Mohammad-Reza Siadat and Nilesh V. Patel and George D. Wilson",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "294--302",
 	publisher     = "{SciTePress}",
 	title         = "{Gene Ontology based Simulation for Feature Selection}",

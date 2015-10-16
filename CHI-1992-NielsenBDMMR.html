@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/142750.142986">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-1992-NielsenBDMMR,
 	author        = "Jakob Nielsen and Rita M. Bush and Tom Dayton and Nancy E. Mond and <a href="person/Michael_J_Muller.html">Michael J. Muller</a> and Robert W. Root",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/142750.142986">10.1145/142750.142986</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/142750.142986">http://doi.acm.org/10.1145/142750.142986</a>",
 </span>	pages         = "557--564",

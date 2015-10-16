@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+Goals+and+Their+Use+In+Recursive+Query+Processing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-BerryE,
 	author        = "<a href="person/Vincent_Berry.html">Vincent Berry</a> and <a href="person/Philippe_Ezequel.html">Philippe Ézéquel</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "649",
 	publisher     = "{MIT Press}",
 	title         = "{Generating Goals and Their Use In Recursive Query Processing}",

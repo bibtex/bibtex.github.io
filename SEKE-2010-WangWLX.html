@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Assisting+Developers+to+Read+Code+Help-Documents+Efficiently+through+Discovering+Document-section+Relationships%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-WangWLX,
 	author        = "<a href="person/Lijie_Wang.html">Lijie Wang</a> and <a href="person/Leye_Wang.html">Leye Wang</a> and <a href="person/Ge_Li.html">Ge Li</a> and <a href="person/Bing_Xie.html">Bing Xie</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "367--373",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Assisting Developers to Read Code Help-Documents Efficiently through Discovering Document-section Relationships}",

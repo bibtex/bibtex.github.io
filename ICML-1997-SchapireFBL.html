@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Boosting+the+margin:+A+new+explanation+for+the+effectiveness+of+voting+methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1997-SchapireFBL,
 	author        = "Robert E. Schapire and Yoav Freund and Peter Barlett and Wee Sun Lee",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Machine Learning</span>}",
 	pages         = "322--330",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Boosting the margin: A new explanation for the effectiveness of voting methods}",

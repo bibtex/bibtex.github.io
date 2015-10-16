@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Toward+Modeling+and+Analysis+for+Software+Installation+Testing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-GaoTHCCF,
 	author        = "<a href="person/Jerry_Zeyu_Gao.html">Jerry Zeyu Gao</a> and <a href="person/Sujana_Tirumalasetti.html">Sujana Tirumalasetti</a> and <a href="person/Chien-Pin_Hsu.html">Chien-Pin Hsu</a> and <a href="person/Yip_Cheong.html">Yip Cheong</a> and <a href="person/Anne_Colendich.html">Anne Colendich</a> and <a href="person/Todd_Fitch.html">Todd Fitch</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "111--116",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Toward Modeling and Analysis for Software Installation Testing}",

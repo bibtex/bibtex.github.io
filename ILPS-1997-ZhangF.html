@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Answer+Sets+for+Prioritized+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-ZhangF,
 	author        = "<a href="person/Yan_Zhang.html">Yan Zhang</a> and <a href="person/Norman_Y_Foo.html">Norman Y. Foo</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "69--83",
 	publisher     = "{MIT Press}",
 	title         = "{Answer Sets for Prioritized Logic Programs}",

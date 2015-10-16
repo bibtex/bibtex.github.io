@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1076034.1076192">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2005-SehgalS,
 	author        = "Aditya Kumar Sehgal and Padmini Srinivasan",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1076034.1076192">10.1145/1076034.1076192</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1076034.1076192">http://doi.acm.org/10.1145/1076034.1076192</a>",
 </span>	pages         = "680",
@@ -53,8 +53,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/mining.html">#mining</a></li>
-<li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/named.html">#named</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

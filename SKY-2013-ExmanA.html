@@ -33,15 +33,16 @@
 <h2>Iaakov Exman, Avinoam Alfia<br/><em><a href="word/knowledg.html">Knowledge</a>-<a href="word/driven.html">driven</a> <a href="word/game.html">Game</a> <a href="word/design.html">Design</a> by <a href="word/non.html">Non</a>-<a href="word/programm.html">programmers</a></em><br/>SKY, 2013.</h2>
 <div class="rbox">
 <strong><a href="SKY-2013.html">SKY 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ic3k/ExmanA13">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Knowledge-driven+Game+Design+by+Non-programmers%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0004640000470054">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Knowledge-driven+Game+Design+by+Non-programmers%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0004640000470054">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.5220/0004640000470054">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Workshop on Software Knowledge':'SKY');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SKY-2013-ExmanA,
 	author        = "Iaakov Exman and Avinoam Alfia",
-	booktitle     = "{SKY}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Workshop on Software Knowledge</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.5220/0004640000470054">10.5220/0004640000470054</a>",
 </span>	pages         = "47--54",
 	publisher     = "{SciTePress}",

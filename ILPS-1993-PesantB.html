@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Handling+Quadratic+Constraints+through+Geometry%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-PesantB,
 	author        = "<a href="person/Gilles_Pesant.html">Gilles Pesant</a> and <a href="person/Michel_Boyer.html">Michel Boyer</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "659",
 	publisher     = "{MIT Press}",
 	title         = "{Handling Quadratic Constraints through Geometry}",

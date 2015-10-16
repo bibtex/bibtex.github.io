@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/258549.258704">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-1997-MoranPHCKMMZ,
 	author        = "Thomas P. Moran and Leysia Palen and Steve R. Harrison and Patrick Chiu and Don Kimber and Scott L. Minneman and William van Melle and Polle Zellweger",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/258549.258704">10.1145/258549.258704</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/258549.258704">http://doi.acm.org/10.1145/258549.258704</a>",
 </span>	pages         = "202--209",

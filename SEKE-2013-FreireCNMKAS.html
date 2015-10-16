@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Support+for+Controlled+Experiments+in+Software+Engineering:+A+Systematic+Review+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-FreireCNMKAS,
 	author        = "<a href="person/Marilia_Aranha_Freire.html">Marília Aranha Freire</a> and <a href="person/Daniel_Alencar_da_Costa.html">Daniel Alencar da Costa</a> and <a href="person/Edmilson_Campos_Neto.html">Edmilson Campos Neto</a> and <a href="person/Taina_Medeiros.html">Tainá Medeiros</a> and <a href="person/Uira_Kulesza.html">Uirá Kulesza</a> and <a href="person/Eduardo_Aranha.html">Eduardo Aranha</a> and <a href="person/Sergio_Soares.html">Sérgio Soares</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "504--509",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Automated Support for Controlled Experiments in Software Engineering: A Systematic Review (S)}",

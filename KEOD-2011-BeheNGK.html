@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantic+Management+of+Intelligent+Multi-agents+Systems+in+a+3D+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-BeheNGK,
 	author        = "Florian Béhé and <a href="person/Christophe_Nicolle.html">Christophe Nicolle</a> and <a href="person/Stephane_Galland.html">Stéphane Galland</a> and <a href="person/Abder_Koukam.html">Abder Koukam</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "91--98",
 	publisher     = "{SciTePress}",
 	title         = "{Semantic Management of Intelligent Multi-agents Systems in a 3D Environment}",

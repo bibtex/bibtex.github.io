@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Post-proceedings+of+the+First+Symposium+on+Operating+Systems+Principles%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SOSP-1967,
 	address       = "Princeton, NJ, USA",
 	booktitle     = "{SOSP}",
 	number        = 5,
-	series        = "{Communications of the ACM}",
+	series        = "{<span id="series">Communications of the ACM</span>}",
 	title         = "{Post-proceedings of the First Symposium on Operating Systems Principles}",
 	volume        = 11,
 	year          = 1967,

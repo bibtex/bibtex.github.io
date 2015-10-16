@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Domain-oriented+engineering+of+elevator+control+software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Software Product Line Conference: Experiences and Research Directions':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2000-LeeKKCKC,
 	author        = "Kwanwoo Lee and <a href="person/Kyo_Chul_Kang.html">Kyo Chul Kang</a> and Eunman Koh and Wonsuk Chae and Bokyoung Kim and Byoung Wook Choi",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Software Product Line Conference: Experiences and Research Directions</span>}",
 	pages         = "3--22",
 	publisher     = "{Kluwer}",
 	title         = "{Domain-oriented engineering of elevator control software}",

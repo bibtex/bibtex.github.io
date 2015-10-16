@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ada+trifft+Algebra%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität':'Ada Deutschland Tagung');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Ada-2002-Siara,
 	author        = "<a href="person/Reinhard_Siara.html">Reinhard Siara</a>",
-	booktitle     = "{Ada Deutschland Tagung}",
+	booktitle     = "{<span id="booktitle">Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität</span>}",
 	pages         = "147--151",
 	publisher     = "{Shaker Verlag}",
 	title         = "{Ada trifft Algebra}",

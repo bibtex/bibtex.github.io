@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+management+in+next+generation+networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-AtitallahKSM,
 	author        = "<a href="person/Samir_Atitallah.html">Samir Atitallah</a> and <a href="person/Omar_Abou_Khaled.html">Omar Abou Khaled</a> and <a href="person/Maria_Sokhn.html">Maria Sokhn</a> and <a href="person/Elena_Mugellini.html">Elena Mugellini</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "363--368",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Knowledge management in next generation networks}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Fast+3-D+Visualization+Methodology+Using+Characteristic+Views+of+Objects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-HwangCWS,
 	author        = "<a href="person/Soochan_Hwang.html">Soochan Hwang</a> and <a href="person/Sang-Young_Cho.html">Sang-Young Cho</a> and <a href="person/Taehyung_Wang.html">Taehyung Wang</a> and <a href="person/Phillip_C-Y_Sheu.html">Phillip C.-Y. Sheu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "577--584",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Fast 3-D Visualization Methodology Using Characteristic Views of Objects}",

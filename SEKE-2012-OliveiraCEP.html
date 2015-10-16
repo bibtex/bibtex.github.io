@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Autonomic+Business+Process+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-OliveiraCEP,
 	author        = "<a href="person/Karolyne_Oliveira.html">Karolyne Oliveira</a> and <a href="person/Jaelson_Castro.html">Jaelson Castro</a> and <a href="person/Sergio_Espana.html">Sergio España</a> and <a href="person/Oscar_Pastor.html">Oscar Pastor</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "531--536",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards Autonomic Business Process Models}",

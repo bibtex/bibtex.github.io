@@ -33,15 +33,16 @@
 <h2>Adam L. Kaczmarek<br/><em>The <a href="word/applic.html">Application</a> of the <a href="word/ioda.html">IODA</a> <a href="word/document.html">Document</a> <a href="word/architectur.html">Architecture</a> to <a href="word/music.html">Music</a> <a href="word/data.html">Data</a></em><br/>KMIS, 2014.</h2>
 <div class="rbox">
 <strong><a href="KMIS-2014.html">KMIS 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ic3k/Kaczmarek14">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22The+Application+of+the+IODA+Document+Architecture+to+Music+Data%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0005130302680273">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22The+Application+of+the+IODA+Document+Architecture+to+Music+Data%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0005130302680273">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.5220/0005130302680273">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2014-Kaczmarek,
 	author        = "Adam L. Kaczmarek",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Knowledge Management and Information Sharing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.5220/0005130302680273">10.5220/0005130302680273</a>",
 </span>	pages         = "268--273",
 	publisher     = "{SciTePress}",

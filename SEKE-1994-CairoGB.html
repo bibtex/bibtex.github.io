@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+formal+methodology+for+acquiring+and+representing+knowledge+from+multiple+experts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-CairoGB,
 	author        = "<a href="person/Osvaldo_Cairo.html">Osvaldo Cairó</a> and <a href="person/Silvia_Guardati.html">Silvia Guardati</a> and <a href="person/Tomhs_Boom.html">Tomhs Boom</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "281--288",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A formal methodology for acquiring and representing knowledge from multiple experts}",

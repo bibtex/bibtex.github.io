@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Lean+Six+Sigma+Applied+to+Quality+and+Productivity+Improvement+in+the+Management+Cycle+—+Planning+and+Control+—+of+an+Education,+Training+and+Social+Integration+Institution%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-FalcaoNGPA,
 	author        = "Susana Falcão and Francisco Nunes and Sofia Cheis Gil and Silvia Peres and Sandra Nunes Alves",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "326--330",
 	publisher     = "{SciTePress}",
 	title         = "{Lean Six Sigma Applied to Quality and Productivity Improvement in the Management Cycle — Planning and Control — of an Education, Training and Social Integration Institution}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+of+Knowiedge-Based+Integrity+Systems+with+ISL++%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1990-PetersRU,
 	author        = "<a href="person/James_F_Peters.html">James F. Peters</a> and <a href="person/Sheela_Ramanna.html">Sheela Ramanna</a> and <a href="person/E_A_Unger.html">E. A. Unger</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "183--188",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Design of Knowiedge-Based Integrity Systems with ISL++}",

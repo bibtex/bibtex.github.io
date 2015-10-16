@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Runtime+Code+Reuse+Attacks:+A+Dynamic+Framework+Bypassing+Fine-Grained+Address+Space+Layout+Randomization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-ZhuangZL,
 	author        = "<a href="person/Yi_Zhuang.html">Yi Zhuang</a> and <a href="person/Tao_Zheng.html">Tao Zheng</a> and <a href="person/Zhitian_Lin.html">Zhitian Lin</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "609--614",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Runtime Code Reuse Attacks: A Dynamic Framework Bypassing Fine-Grained Address Space Layout Randomization}",

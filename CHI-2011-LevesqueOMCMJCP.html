@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1978942.1979306">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2011-LevesqueOMCMJCP,
 	author        = "Vincent Lévesque and Louise Oram and Karon E. MacLean and Andy Cockburn and Nicholas D. Marchuk and Dan Johnson and J. Edward Colgate and Michael A. Peshkin",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1978942.1979306">10.1145/1978942.1979306</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1978942.1979306">http://doi.acm.org/10.1145/1978942.1979306</a>",
 </span>	pages         = "2481--2490",

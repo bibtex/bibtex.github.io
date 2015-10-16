@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Unanticipated+Connection+of+Components+Based+on+Their+State+Changes+Notifications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-FabresseDH,
 	author        = "<a href="person/Luc_Fabresse.html">Luc Fabresse</a> and <a href="person/Christophe_Dony.html">Christophe Dony</a> and <a href="person/Marianne_Huchard.html">Marianne Huchard</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "702--707",
 	title         = "{Unanticipated Connection of Components Based on Their State Changes Notifications}",
 	year          = 2006,

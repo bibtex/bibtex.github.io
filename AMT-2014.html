@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Workshop+on+Analysis+of+Model+Transformations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{AMT-2014,
 	address       = "Valencia, Spain",
 	editor        = "<a href="person/Juergen_Dingel.html">Jürgen Dingel</a> and <a href="person/Juan_de_Lara.html">Juan de Lara</a> and Levi Lúcio and <a href="person/Hans_Vangheluwe.html">Hans Vangheluwe</a>",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Proceedings of the Workshop on Analysis of Model Transformations}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1277/">http://ceur-ws.org/Vol-1277/</a>",
 </span>	urn           = "urn:nbn:de:0074-1277-5",

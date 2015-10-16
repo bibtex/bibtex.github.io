@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1553374.1553413">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2009-FarhangfarGS,
 	author        = "Alireza Farhangfar and <a href="person/Russell_Greiner.html">Russell Greiner</a> and Csaba Szepesvári",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Machine Learning</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1553374.1553413">10.1145/1553374.1553413</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1553374.1553413">http://doi.acm.org/10.1145/1553374.1553413</a>",
 </span>	pages         = "305--312",

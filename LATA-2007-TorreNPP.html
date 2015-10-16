@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Verification+of+Succinct+Hierarchical+State+Machines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Language and Automata Theory and Applications':'LATA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LATA-2007-TorreNPP,
 	author        = "<a href="person/Salvatore_La_Torre.html">Salvatore La Torre</a> and <a href="person/Margherita_Napoli.html">Margherita Napoli</a> and <a href="person/Mimmo_Parente.html">Mimmo Parente</a> and <a href="person/Gennaro_Parlato.html">Gennaro Parlato</a>",
-	booktitle     = "{LATA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Language and Automata Theory and Applications</span>}",
 	pages         = "485--496",
 	publisher     = "{Research Group on Mathematical Linguistics, Universitat Rovira i Virgili, Tarragona}",
 	title         = "{Verification of Succinct Hierarchical State Machines}",

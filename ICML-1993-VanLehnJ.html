@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Better+Learners+Use+Analogical+Problem+Solving+Sparingly%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1993-VanLehnJ,
 	author        = "Kurt VanLehn and Randolph M. Jones",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Machine Learning</span>}",
 	pages         = "338--345",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Better Learners Use Analogical Problem Solving Sparingly}",

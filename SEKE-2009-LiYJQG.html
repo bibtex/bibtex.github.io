@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22WSTester:+Testing+Web+Service+for+Behavior+Conformance%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-LiYJQG,
 	author        = "<a href="person/Bixin_Li.html">Bixin Li</a> and <a href="person/Lili_Yang.html">Lili Yang</a> and <a href="person/Shunhui_Ji.html">Shunhui Ji</a> and <a href="person/Dong_Qiu.html">Dong Qiu</a> and <a href="person/Xufang_Gong.html">Xufang Gong</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "456--459",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{WSTester: Testing Web Service for Behavior Conformance}",

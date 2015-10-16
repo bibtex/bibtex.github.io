@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/332040.332481">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2000-ConwayABCC,
 	author        = "Matthew Conway and Steve Audia and Tommy Burnette and Dennis Cosgrove and Kevin Christiansen",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/332040.332481">10.1145/332040.332481</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/332040.332481">http://doi.acm.org/10.1145/332040.332481</a>",
 </span>	pages         = "486--493",
@@ -54,8 +54,7 @@
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/3d.html">#3d</a></li>
 <li class="tag"><a href="tag/lessons%20learnt.html">#lessons learnt</a></li>
-<li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/named.html">#named</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

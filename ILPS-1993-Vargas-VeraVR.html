@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Building+Large-Scale+Prolog+Programs+using+a+Techniques+Editing+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-Vargas-VeraVR,
 	author        = "<a href="person/Maria_Vargas-Vera.html">Maria Vargas-Vera</a> and <a href="person/Wamberto_Weber_Vasconcelos.html">Wamberto Weber Vasconcelos</a> and <a href="person/David_Stuart_Robertson.html">David Stuart Robertson</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "636",
 	publisher     = "{MIT Press}",
 	title         = "{Building Large-Scale Prolog Programs using a Techniques Editing System}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Issues+of+Optimization+of+a+Genetic+Algorithm+for+Traffic+Network+Division+using+a+Genetic+Algorithm%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-Potuzak,
 	author        = "Tomas Potuzak",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "340--343",
 	publisher     = "{SciTePress}",
 	title         = "{Issues of Optimization of a Genetic Algorithm for Traffic Network Division using a Genetic Algorithm}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2695664.2695845">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th Annual ACM Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2015-MottaMSMPC,
 	author        = "<a href="person/Danilo_Motta.html">Danilo Motta</a> and <a href="person/Luciana_de_Matos.html">Luciana de Matos</a> and <a href="person/Amanda_Caniatto_de_Souza.html">Amanda Caniatto de Souza</a> and <a href="person/Rafael_Marcato.html">Rafael Marcato</a> and <a href="person/Afonso_Paiva.html">Afonso Paiva</a> and <a href="person/Luis_Alberto_Vieira_de_Carvalho.html">Luis Alberto Vieira de Carvalho</a>",
-	booktitle     = "{SAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th Annual ACM Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2695664.2695845">10.1145/2695664.2695845</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2695664.2695845">http://doi.acm.org/10.1145/2695664.2695845</a>",
 </span>	pages         = "26--31",

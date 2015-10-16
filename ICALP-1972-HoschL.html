@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Finite+Delay+Solutions+for+Sequential+Conditions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1972-HoschL,
 	author        = "<a href="person/Frederick_A_Hosch.html">Frederick A. Hosch</a> and <a href="person/Lawrence_H_Landweber.html">Lawrence H. Landweber</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "45--60",
 	title         = "{Finite Delay Solutions for Sequential Conditions}",
 	year          = 1972,

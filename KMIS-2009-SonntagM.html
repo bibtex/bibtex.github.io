@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Unifying+Semantic+Annotation+and+Querying+in+Biomedical+Image+Repositories+—+One+Solution+for+Two+Problems+of+Medical+Knowledge+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-SonntagM,
 	author        = "Daniel Sonntag and Manuel Möller",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "89--94",
 	publisher     = "{INSTICC Press}",
 	title         = "{Unifying Semantic Annotation and Querying in Biomedical Image Repositories — One Solution for Two Problems of Medical Knowledge Engineering}",

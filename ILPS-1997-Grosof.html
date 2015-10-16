@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Prioritized+Conflict+Handling+for+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-Grosof,
 	author        = "<a href="person/Benjamin_N_Grosof.html">Benjamin N. Grosof</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "197--211",
 	publisher     = "{MIT Press}",
 	title         = "{Prioritized Conflict Handling for Logic Programs}",

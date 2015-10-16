@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Real-Time+Mining+of+Partial+Periodic+Patterns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-LaiSF,
 	author        = "<a href="person/Chih_Lai.html">Chih Lai</a> and <a href="person/Lawrence_Stephanie.html">Lawrence Stephanie</a> and <a href="person/Meng_Fang.html">Meng Fang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "259--266",
 	title         = "{Real-Time Mining of Partial Periodic Patterns}",
 	year          = 2003,

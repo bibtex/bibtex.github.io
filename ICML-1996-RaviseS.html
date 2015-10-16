@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Advanced+Evolution+Should+Not+Repeat+its+Past+Errors%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1996-RaviseS,
 	author        = "Caroline Ravise and Michèle Sebag",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Machine Learning</span>}",
 	pages         = "400--408",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{An Advanced Evolution Should Not Repeat its Past Errors}",

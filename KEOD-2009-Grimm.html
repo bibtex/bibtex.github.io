@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Unifying+Formal+Ontology+Model+—+A+Simple+Formal+Model+for+Unifying+the+Presentation+of+Ontologies+in+Semantic+Web+Research%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-Grimm,
 	author        = "<a href="person/Stephan_Grimm.html">Stephan Grimm</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "327--335",
 	publisher     = "{INSTICC Press}",
 	title         = "{A Unifying Formal Ontology Model — A Simple Formal Model for Unifying the Presentation of Ontologies in Semantic Web Research}",

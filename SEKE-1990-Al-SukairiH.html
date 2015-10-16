@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Query-Independent+Compilation+of+Linear+Recursions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1990-Al-SukairiH,
 	author        = "<a href="person/Abdallah_Al-Sukairi.html">Abdallah Al-Sukairi</a> and <a href="person/Lawrence_J_Henschen.html">Lawrence J. Henschen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "177--182",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Query-Independent Compilation of Linear Recursions}",

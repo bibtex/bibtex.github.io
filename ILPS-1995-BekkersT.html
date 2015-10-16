@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Monadic+Constructs+for+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-BekkersT,
 	author        = "<a href="person/Yves_Bekkers.html">Yves Bekkers</a> and <a href="person/Paul_Tarau.html">Paul Tarau</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "51--65",
 	publisher     = "{MIT Press}",
 	title         = "{Monadic Constructs for Logic Programming}",

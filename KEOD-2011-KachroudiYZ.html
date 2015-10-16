@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DAMO+—+Direct+Alignment+for+Multilingual+Ontologies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-KachroudiYZ,
 	author        = "Marouen Kachroudi and <a href="person/Sadok_Ben_Yahia.html">Sadok Ben Yahia</a> and Sami Zghal",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "110--117",
 	publisher     = "{SciTePress}",
 	title         = "{DAMO — Direct Alignment for Multilingual Ontologies}",

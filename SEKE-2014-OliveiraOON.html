@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Taxonomy+of+Services+for+Developing+Service-Oriented+Robotic+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-OliveiraOON,
 	author        = "<a href="person/Lucas_Bueno_Ruas_de_Oliveira.html">Lucas Bueno Ruas de Oliveira</a> and <a href="person/Fernando_Santos_Osorio.html">Fernando Santos Osório</a> and <a href="person/Flavio_Oquendo.html">Flávio Oquendo</a> and <a href="person/Elisa_Yumi_Nakagawa.html">Elisa Yumi Nakagawa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "344--349",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards a Taxonomy of Services for Developing Service-Oriented Robotic Systems}",

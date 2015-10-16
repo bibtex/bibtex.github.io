@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Semantic+Annotations+for+Supporting+Requirements+Evolution%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-MachadoAF,
 	author        = "<a href="person/Bruno_Nandolpho_Machado.html">Bruno Nandolpho Machado</a> and <a href="person/Lucas_de_Oliveira_Arantes.html">Lucas de Oliveira Arantes</a> and <a href="person/Ricardo_de_Almeida_Falbo.html">Ricardo de Almeida Falbo</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "185--190",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using Semantic Annotations for Supporting Requirements Evolution}",

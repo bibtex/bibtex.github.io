@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Flexible+Deployment+of+Business+Rules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-RoscaW,
 	author        = "<a href="person/Daniela_Rosca.html">Daniela Rosca</a> and <a href="person/Chris_Wild.html">Chris Wild</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "128--136",
 	title         = "{Towards a Flexible Deployment of Business Rules}",
 	year          = 2001,

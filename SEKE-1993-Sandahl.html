@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Developing+Knowledge-Based+Systems+with+Active+Expert+Participation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-Sandahl,
 	author        = "<a href="person/Kristian_Sandahl.html">Kristian Sandahl</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "589--595",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Developing Knowledge-Based Systems with Active Expert Participation}",

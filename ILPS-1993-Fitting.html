@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Metric+Methods+in+the+Semantics+of+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-Fitting,
 	author        = "<a href="person/Melvin_Fitting.html">Melvin Fitting</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "69--71",
 	publisher     = "{MIT Press}",
 	title         = "{Metric Methods in the Semantics of Logic Programs}",

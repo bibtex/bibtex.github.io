@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Abstractions+in+Object-oriented+Data+Models:+A+Formalized+Representation+Scheme%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-MohanK,
 	author        = "<a href="person/Lil_Mohan.html">Lil Mohan</a> and <a href="person/Rangasami_L_Kashyap.html">Rangasami L. Kashyap</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "79--84",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Abstractions in Object-oriented Data Models: A Formalized Representation Scheme}",

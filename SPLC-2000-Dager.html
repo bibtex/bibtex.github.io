@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Cummins’s+experience+in+developing+a+software+product+line+architecture+for+real-time+embedded+diesel+engine+controls%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Software Product Line Conference: Experiences and Research Directions':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2000-Dager,
 	author        = "James C. Dager",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Software Product Line Conference: Experiences and Research Directions</span>}",
 	pages         = "23--46",
 	publisher     = "{Kluwer}",
 	title         = "{Cummins’s experience in developing a software product line architecture for real-time embedded diesel engine controls}",

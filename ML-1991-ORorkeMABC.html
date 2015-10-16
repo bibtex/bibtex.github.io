@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Machine+Learning+for+Nondestructive+Evaluation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1991-ORorkeMABC,
 	author        = "Paul O'Rorke and Steven Morris and Michael Amirfathi and William Bond and <a href="person/Daniel_C_St_Clair.html">Daniel C. St. Clair</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Machine Learning</span>}",
 	pages         = "620--624",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Machine Learning for Nondestructive Evaluation}",

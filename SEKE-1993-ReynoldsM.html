@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Use+of+Refinement+Metrics+to+Assess+Programming+Language+Support+for+the+Stepwise+Refinement+Process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-ReynoldsM,
 	author        = "<a href="person/Robert_G_Reynolds.html">Robert G. Reynolds</a> and <a href="person/Jonathan_I_Maletic.html">Jonathan I. Maletic</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "150--157",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{The Use of Refinement Metrics to Assess Programming Language Support for the Stepwise Refinement Process}",

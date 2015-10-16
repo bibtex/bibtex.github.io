@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Fuzzy+Substructure+Discovery%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-HolderCB,
 	author        = "<a href="person/Lawrence_B_Holder.html">Lawrence B. Holder</a> and Diane J. Cook and <a href="person/Horst_Bunke.html">Horst Bunke</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "218--223",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Fuzzy Substructure Discovery}",

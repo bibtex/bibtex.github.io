@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2531602.2531641">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2014-BrownELQM,
 	author        = "Chloë Brown and Christos Efstratiou and Ilias Leontiadis and <a href="person/Daniele_Quercia.html">Daniele Quercia</a> and <a href="person/Cecilia_Mascolo.html">Cecilia Mascolo</a>",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2531602.2531641">10.1145/2531602.2531641</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2531602.2531641">http://doi.acm.org/10.1145/2531602.2531641</a>",
 </span>	pages         = "1072--1081",

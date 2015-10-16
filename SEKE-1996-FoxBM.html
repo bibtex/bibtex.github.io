@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automating+the+Debugging+Process+of+Pascal+Syntax+Errors%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-FoxBM,
 	author        = "<a href="person/Richard_Fox.html">Richard Fox</a> and <a href="person/Christian_Bilke.html">Christian Bilke</a> and <a href="person/James_Mendoza.html">James Mendoza</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "92--99",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Automating the Debugging Process of Pascal Syntax Errors}",

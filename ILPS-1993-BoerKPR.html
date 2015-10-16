@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Non-monotonic+Concurrent+Constraint+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-BoerKPR,
 	author        = "<a href="person/Frank_S_de_Boer.html">Frank S. de Boer</a> and <a href="person/Joost_N_Kok.html">Joost N. Kok</a> and <a href="person/Catuscia_Palamidessi.html">Catuscia Palamidessi</a> and <a href="person/Jan_J_M_M_Rutten.html">Jan J. M. M. Rutten</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "315--334",
 	publisher     = "{MIT Press}",
 	title         = "{Non-monotonic Concurrent Constraint Programming}",

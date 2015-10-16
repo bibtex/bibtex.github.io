@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Knowledge-based+System+for+Engineering+Design%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-WangPT,
 	author        = "<a href="person/S_L_Wang.html">S. L. Wang</a> and <a href="person/S_T_Peng.html">S. T. Peng</a> and <a href="person/T_L_Teng.html">T. L. Teng</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "104--109",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Knowledge-based System for Engineering Design}",
@@ -50,8 +50,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/design.html">#design</a></li>
-<li class="tag"><a href="tag/knowledge-based.html">#knowledge-based</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/knowledge-based.html">#knowledge-based</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

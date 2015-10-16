@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/587078.587114">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2002-EdwardsNSSBSWI,
 	author        = "W. Keith Edwards and Mark W. Newman and Jana Z. Sedivy and Trevor F. Smith and <a href="person/Dirk_Balfanz.html">Dirk Balfanz</a> and Diana K. Smetters and H. Chi Wong and Shahram Izadi",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/587078.587114">10.1145/587078.587114</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/587078.587114">http://doi.acm.org/10.1145/587078.587114</a>",
 </span>	pages         = "256--265",

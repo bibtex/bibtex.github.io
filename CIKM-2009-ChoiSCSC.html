@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1645953.1646315">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2009-ChoiSCSC,
 	author        = "Hyunsik Choi and Jihoon Son and YongHyun Cho and Min Kyoung Sung and <a href="person/Yon_Dohn_Chung.html">Yon Dohn Chung</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1645953.1646315">10.1145/1645953.1646315</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1645953.1646315">http://doi.acm.org/10.1145/1645953.1646315</a>",
 </span>	pages         = "2087--2088",
@@ -57,8 +57,7 @@
 <li class="tag"><a href="tag/named.html">#named</a></li>
 <li class="tag"><a href="tag/parallel.html">#parallel</a></li>
 <li class="tag"><a href="tag/rdf.html">#rdf</a></li>
-<li class="tag"><a href="tag/scalability.html">#scalability</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/scalability.html">#scalability</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

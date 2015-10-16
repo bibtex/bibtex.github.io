@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Rational+and+Efficient+Algorithm+for+View+Deletion+in+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-AravindanB,
 	author        = "<a href="person/Chandrabose_Aravindan.html">Chandrabose Aravindan</a> and <a href="person/Peter_Baumgartner.html">Peter Baumgartner</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "165--179",
 	publisher     = "{MIT Press}",
 	title         = "{A Rational and Efficient Algorithm for View Deletion in Databases}",

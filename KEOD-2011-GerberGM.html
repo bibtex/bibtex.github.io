@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Formal+Ontologies+for+the+Development+of+Consistent+and+Unambiguous+Financial+Accounting+Standards%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-GerberGM,
 	author        = "Marthinus C. Gerber and Aurona Gerber and <a href="person/Alta_van_der_Merwe.html">Alta van der Merwe</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "419--424",
 	publisher     = "{SciTePress}",
 	title         = "{Using Formal Ontologies for the Development of Consistent and Unambiguous Financial Accounting Standards}",

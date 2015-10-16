@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22UML+and+Modeling+A+Use+Case+Model+and+its+Transformation+to+Activity+Diagram%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-LinWCS,
 	author        = "<a href="person/Xing-Yi_Lin.html">Xing-Yi Lin</a> and <a href="person/Ching-Hui_Wang.html">Ching-Hui Wang</a> and <a href="person/William_C_Chu.html">William C. Chu</a> and <a href="person/Chihhsiong_Shih.html">Chihhsiong Shih</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "556--561",
 	title         = "{UML and Modeling A Use Case Model and its Transformation to Activity Diagram}",
 	year          = 2006,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Flow+Balancing+Model+for+Air+Traffc+Flow+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-SouzaWCC,
 	author        = "<a href="person/Bueno_Borges_de_Souza.html">Bueno Borges de Souza</a> and <a href="person/Li_Weigang.html">Li Weigang</a> and <a href="person/Antonio_Marcio_Ferreira_Crespo.html">Antonio Marcio Ferreira Crespo</a> and <a href="person/Victor_Rafael_Rezende_Celestino.html">Victor Rafael Rezende Celestino</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "417--421",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Flow Balancing Model for Air Traffc Flow Management}",

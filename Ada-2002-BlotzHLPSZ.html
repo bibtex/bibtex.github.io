@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Model-Based+Software+Engineering+and+Ada:+Synergy+for+the+Development+of+Safety-Critical+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität':'Ada Deutschland Tagung');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Ada-2002-BlotzHLPSZ,
 	author        = "<a href="person/Andree_Blotz.html">Andree Blotz</a> and <a href="person/Franz_Huber.html">Franz Huber</a> and <a href="person/Heiko_Loetzbeyer.html">Heiko Lötzbeyer</a> and <a href="person/Alexander_Pretschner.html">Alexander Pretschner</a> and <a href="person/Oscar_Slotosch.html">Oscar Slotosch</a> and <a href="person/Hans-Peter_Zaengerl.html">Hans-Peter Zängerl</a>",
-	booktitle     = "{Ada Deutschland Tagung}",
+	booktitle     = "{<span id="booktitle">Ada Deutschland Tagung 2002: Software für sicherheitskritische Systeme, 6. bis 8. März 2002, Jena, Friedrich-Schiller-Universität</span>}",
 	pages         = "37--52",
 	publisher     = "{Shaker Verlag}",
 	title         = "{Model-Based Software Engineering and Ada: Synergy for the Development of Safety-Critical Systems}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/167088.167198">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1993-Cesa-BianchiFHHSW,
 	author        = "Nicolò Cesa-Bianchi and Yoav Freund and <a href="person/David_P_Helmbold.html">David P. Helmbold</a> and <a href="person/David_Haussler.html">David Haussler</a> and Robert E. Schapire and Manfred K. Warmuth",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/167088.167198">10.1145/167088.167198</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/167088.167198">http://doi.acm.org/10.1145/167088.167198</a>",
 </span>	pages         = "382--391",

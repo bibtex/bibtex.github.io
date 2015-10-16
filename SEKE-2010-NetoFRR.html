@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MMWA-ae:+boosting+knowledge+from+Multimodal+Interface+Design,+Reuse+and+Usability+Evaluation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-NetoFRR,
 	author        = "<a href="person/Americo_Talarico_Neto.html">Américo Talarico Neto</a> and <a href="person/Renata_Pontin_de_Mattos_Fortes.html">Renata Pontin de Mattos Fortes</a> and <a href="person/Rafael_Geraldeli_Rossi.html">Rafael Geraldeli Rossi</a> and <a href="person/Solange_O_Rezende.html">Solange O. Rezende</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "355--360",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{MMWA-ae: boosting knowledge from Multimodal Interface Design, Reuse and Usability Evaluation}",

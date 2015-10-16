@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Lower+Bound+Cost+Estimation+for+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-DebrayLHL,
 	author        = "<a href="person/Saumya_K_Debray.html">Saumya K. Debray</a> and <a href="person/Pedro_Lopez-Garcia.html">Pedro López-García</a> and <a href="person/Manuel_V_Hermenegildo.html">Manuel V. Hermenegildo</a> and <a href="person/Nai-Wei_Lin.html">Nai-Wei Lin</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "291--305",
 	publisher     = "{MIT Press}",
 	title         = "{Lower Bound Cost Estimation for Logic Programs}",

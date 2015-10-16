@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Challenge+of+Automatically+Annotating+Solution+Documents+—+Comparing+Manual+and+Automatic+Annotation+of+Solution+Documents+in+the+Field+of+Mechanical+Engineering+%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-KohnLP,
 	author        = "Andreas Kohn and Udo Lindemann and Gerhard Peter",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "153--158",
 	publisher     = "{SciTePress}",
 	title         = "{The Challenge of Automatically Annotating Solution Documents — Comparing Manual and Automatic Annotation of Solution Documents in the Field of Mechanical Engineering }",

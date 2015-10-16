@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/195058.195117">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1994-KarlinNT,
 	author        = "<a href="person/Anna_R_Karlin.html">Anna R. Karlin</a> and <a href="person/Greg_Nelson.html">Greg Nelson</a> and <a href="person/Hisao_Tamaki.html">Hisao Tamaki</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/195058.195117">10.1145/195058.195117</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/195058.195117">http://doi.acm.org/10.1145/195058.195117</a>",
 </span>	pages         = "125--133",

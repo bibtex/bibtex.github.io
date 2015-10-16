@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Environment+for+Software+Reusability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-AsdjodiH,
 	author        = "<a href="person/Maryam_Asdjodi.html">Maryam Asdjodi</a> and <a href="person/James_W_Hopper.html">James W. Hopper</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "48--53",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{An Environment for Software Reusability}",

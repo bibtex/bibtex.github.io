@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+from+Document+Annotations+as+By-Product+in+Distributed+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-AverbakhNS,
 	author        = "<a href="person/Anna_Averbakh.html">Anna Averbakh</a> and <a href="person/Kai_Niklas.html">Kai Niklas</a> and <a href="person/Kurt_Schneider.html">Kurt Schneider</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "350--354",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Knowledge from Document Annotations as By-Product in Distributed Software Engineering}",

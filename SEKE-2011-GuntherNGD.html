@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Causal+Networks+Based+Process+Improvement%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-GuntherNGD,
 	author        = "<a href="person/D_Guenther.html">D. Günther</a> and <a href="person/Robert_Neumann.html">Robert Neumann</a> and <a href="person/Konstantina_Georgieva.html">Konstantina Georgieva</a> and <a href="person/Reiner_R_Dumke.html">Reiner R. Dumke</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "462--465",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Causal Networks Based Process Improvement}",

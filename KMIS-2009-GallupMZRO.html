@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Facilitating+Decision+Making,+Re-use+and+Collaboration+—+A+Knowledge+Management+Approach+for+System+Self-Awareness%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-GallupMZRO,
 	author        = "Shelley P. Gallup and Douglas J. MacKinnon and Ying Zhao and John Robey and Chris Odell",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "236--241",
 	publisher     = "{INSTICC Press}",
 	title         = "{Facilitating Decision Making, Re-use and Collaboration — A Knowledge Management Approach for System Self-Awareness}",

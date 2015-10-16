@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2600428.2609605">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 37th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2014-GangulyLJ,
 	author        = "Debasis Ganguly and Johannes Leveling and <a href="person/Gareth_J_F_Jones.html">Gareth J. F. Jones</a>",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 37th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2600428.2609605">10.1145/2600428.2609605</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2600428.2609605">http://doi.acm.org/10.1145/2600428.2609605</a>",
 </span>	pages         = "687--696",

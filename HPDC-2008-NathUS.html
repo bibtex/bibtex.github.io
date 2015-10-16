@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1383422.1383428">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2008-NathUS,
 	author        = "Partho Nath and Bhuvan Urgaonkar and Anand Sivasubramaniam",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1383422.1383428">10.1145/1383422.1383428</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1383422.1383428">http://doi.acm.org/10.1145/1383422.1383428</a>",
 </span>	pages         = "35--44",

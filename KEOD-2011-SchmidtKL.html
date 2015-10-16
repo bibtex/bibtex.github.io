@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Domain+Specific+Language+in+Technical+Solution+Documents+—+Discussion+of+Two+Approaches+to+Improve+the+Semi-automated+Annotation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-SchmidtKL,
 	author        = "Helena X. Schmidt and Andreas Kohn and Udo Lindemann",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "159--166",
 	publisher     = "{SciTePress}",
 	title         = "{Domain Specific Language in Technical Solution Documents — Discussion of Two Approaches to Improve the Semi-automated Annotation}",

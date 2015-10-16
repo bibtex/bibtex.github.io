@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Forwarding+Links+without+Browsing+Links+in+Online+Social+Networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-JiangWZD,
 	author        = "<a href="person/Jing_Jiang.html">Jing Jiang</a> and <a href="person/Xiao_Wang.html">Xiao Wang</a> and <a href="person/Li_Zhang.html">Li Zhang</a> and <a href="person/Yafei_Dai.html">Yafei Dai</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "636--641",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Forwarding Links without Browsing Links in Online Social Networks}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2737924.2737965">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation':'PLDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PLDI-2015-LopesMNR,
 	author        = "<a href="person/Nuno_P_Lopes.html">Nuno P. Lopes</a> and <a href="person/David_Menendez.html">David Menendez</a> and <a href="person/Santosh_Nagarakatte.html">Santosh Nagarakatte</a> and <a href="person/John_Regehr.html">John Regehr</a>",
-	booktitle     = "{PLDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2737924.2737965">10.1145/2737924.2737965</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2737924.2737965">http://doi.acm.org/10.1145/2737924.2737965</a>",
 </span>	pages         = "22--32",

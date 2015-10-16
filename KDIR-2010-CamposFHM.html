@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Content-Bsed+Approach+to+Relevance+Feedback+in+XML-IR+for+Content+and+Structure+Queries%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-CamposFHM,
 	author        = "<a href="person/Luis_M_de_Campos.html">Luis M. de Campos</a> and <a href="person/Juan_M_Fernandez-Luna.html">Juan M. Fernández-Luna</a> and <a href="person/Juan_F_Huete.html">Juan F. Huete</a> and Carlos J. Martín-Dancausa",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "418--427",
 	publisher     = "{SciTePress}",
 	title         = "{A Content-Bsed Approach to Relevance Feedback in XML-IR for Content and Structure Queries}",

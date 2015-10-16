@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22OCL+Evaluation+on+AUTOSAR+Model%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-ParkHLK,
 	author        = "<a href="person/Sachoun_Park.html">Sachoun Park</a> and <a href="person/Taeman_Han.html">Taeman Han</a> and <a href="person/Hyoungju_Lim.html">Hyoungju Lim</a> and <a href="person/Gihwon_Kwon.html">Gihwon Kwon</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "645--648",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{OCL Evaluation on AUTOSAR Model}",

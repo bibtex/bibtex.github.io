@@ -33,15 +33,16 @@
 <h2>Iaakov Exman<br/><em><a href="word/opinion.html">Opinion</a>-<a href="word/ontolog.html">Ontologies</a> — <a href="word/short.html">Short</a> and <a href="word/sharp.html">Sharp</a></em><br/>KEOD, 2014.</h2>
 <div class="rbox">
 <strong><a href="KEOD-2014.html">KEOD 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ic3k/Exman14">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Opinion-Ontologies+—+Short+and+Sharp%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0005166104540458">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Opinion-Ontologies+—+Short+and+Sharp%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0005166104540458">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.5220/0005166104540458">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2014-Exman,
 	author        = "Iaakov Exman",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Knowledge Engineering and Ontology Development</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.5220/0005166104540458">10.5220/0005166104540458</a>",
 </span>	pages         = "454--458",
 	publisher     = "{SciTePress}",

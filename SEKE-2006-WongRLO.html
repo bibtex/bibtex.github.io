@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Coverage+Testing+Embedded+Software+on+Symbian/OMAP%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-WongRLO,
 	author        = "<a href="person/W_Eric_Wong.html">W. Eric Wong</a> and <a href="person/Sharath_Rao.html">Sharath Rao</a> and <a href="person/John_Linn.html">John Linn</a> and <a href="person/James_Overturf.html">James Overturf</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "473--478",
 	title         = "{Coverage Testing Embedded Software on Symbian/OMAP}",
 	year          = 2006,

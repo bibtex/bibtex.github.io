@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Modeling+of+Indicators+using+UTL+—+A+Study+Case+with+Hop3x+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-NgocIC,
 	author        = "Diem Pham Thi Ngoc and Sébastien Iksal and <a href="person/Christophe_Choquet.html">Christophe Choquet</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "269--272",
 	publisher     = "{SciTePress}",
 	title         = "{Modeling of Indicators using UTL — A Study Case with Hop3x System}",

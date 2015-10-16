@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Sparse+Greedy+Matrix+Approximation+for+Machine+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-SmolaS,
 	author        = "Alexander J. Smola and Bernhard Schölkopf",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "911--918",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Sparse Greedy Matrix Approximation for Machine Learning}",

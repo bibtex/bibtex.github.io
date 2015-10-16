@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Ontology-based+Mapping+Repository+for+Meta-querier+Customization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-LiC,
 	author        = "<a href="person/Xiao_Li.html">Xiao Li</a> and <a href="person/Randy_Chow.html">Randy Chow</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "325--330",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Ontology-based Mapping Repository for Meta-querier Customization}",

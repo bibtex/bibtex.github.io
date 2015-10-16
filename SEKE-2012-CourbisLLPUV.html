@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Formal+Support+for+Incremental+Behavior+Specification+In+Agile+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-CourbisLLPUV,
 	author        = "<a href="person/Anne-Lise_Courbis.html">Anne-Lise Courbis</a> and <a href="person/Thomas_Lambolais.html">Thomas Lambolais</a> and <a href="person/Hong-Viet_Luong.html">Hong-Viet Luong</a> and <a href="person/Thanh-Liem_Phan.html">Thanh-Liem Phan</a> and <a href="person/Christelle_Urtado.html">Christelle Urtado</a> and <a href="person/Sylvain_Vauttier.html">Sylvain Vauttier</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "694--799",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Formal Support for Incremental Behavior Specification In Agile Development}",

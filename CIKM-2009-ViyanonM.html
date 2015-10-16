@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1645953.1646105">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2009-ViyanonM,
 	author        = "Waraporn Viyanon and <a href="person/Sanjay_Kumar_Madria.html">Sanjay Kumar Madria</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1645953.1646105">10.1145/1645953.1646105</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1645953.1646105">http://doi.acm.org/10.1145/1645953.1646105</a>",
 </span>	pages         = "1197--1206",
@@ -56,7 +56,6 @@
 <li class="tag"><a href="tag/detection.html">#detection</a></li>
 <li class="tag"><a href="tag/relational.html">#relational</a></li>
 <li class="tag"><a href="tag/similarity.html">#similarity</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li>
 <li class="tag"><a href="tag/using.html">#using</a></li>
 <li class="tag"><a href="tag/xml.html">#xml</a></li></ul><hr/>
 </div>

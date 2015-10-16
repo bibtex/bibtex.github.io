@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Enterprise+Ontologies+—+Emerging+Issues+from+the+Internet+of+Things+and+Social+Media%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-OLeary,
 	author        = "Daniel E. O'Leary",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	publisher     = "{SciTePress}",
 	title         = "{Enterprise Ontologies — Emerging Issues from the Internet of Things and Social Media}",
 	year          = 2012,

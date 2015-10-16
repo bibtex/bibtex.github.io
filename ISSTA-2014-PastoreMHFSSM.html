@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2610384.2610387">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Symposium on Software Testing and Analysis':'ISSTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISSTA-2014-PastoreMHFSSM,
 	author        = "<a href="person/Fabrizio_Pastore.html">Fabrizio Pastore</a> and <a href="person/Leonardo_Mariani.html">Leonardo Mariani</a> and <a href="person/Antti_Eero_Johannes_Hyvaerinen.html">Antti Eero Johannes Hyvärinen</a> and <a href="person/Grigory_Fedyukovich.html">Grigory Fedyukovich</a> and <a href="person/Natasha_Sharygina.html">Natasha Sharygina</a> and Stephan Sehestedt and <a href="person/Ali_Muhammad.html">Ali Muhammad</a>",
-	booktitle     = "{ISSTA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Symposium on Software Testing and Analysis</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2610384.2610387">10.1145/2610384.2610387</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2610384.2610387">http://doi.acm.org/10.1145/2610384.2610387</a>",
 </span>	pages         = "37--48",

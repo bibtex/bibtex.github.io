@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ontological+Framework+for+the+Enterprise+from+a+Process+Perspective+—+Operational,+Tactical+and+Strategic+Integration+for+Improved+Decision-making%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-MunozCLCP,
 	author        = "Edrisi Muñoz and Elisabet Capón-García and José Miguel Laínez and Antonio Espuña Camarasa and Luis Puigjaner",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "538--546",
 	publisher     = "{SciTePress}",
 	title         = "{Ontological Framework for the Enterprise from a Process Perspective — Operational, Tactical and Strategic Integration for Improved Decision-making}",

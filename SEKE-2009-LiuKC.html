@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+Test+Profiles+in+Adaptive+Random+Testing:+A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-LiuKC,
 	author        = "<a href="person/Huai_Liu.html">Huai Liu</a> and <a href="person/Fei-Ching_Kuo.html">Fei-Ching Kuo</a> and <a href="person/Tsong_Yueh_Chen.html">Tsong Yueh Chen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "418--421",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Dynamic Test Profiles in Adaptive Random Testing: A Case Study}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22OptiML:+An+Implicitly+Parallel+Domain-Specific+Language+for+Machine+Learning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-SujeethLBRCWAOO,
 	author        = "<a href="person/Arvind_K_Sujeeth.html">Arvind K. Sujeeth</a> and <a href="person/HyoukJoong_Lee.html">HyoukJoong Lee</a> and <a href="person/Kevin_J_Brown.html">Kevin J. Brown</a> and <a href="person/Tiark_Rompf.html">Tiark Rompf</a> and <a href="person/Hassan_Chafi.html">Hassan Chafi</a> and <a href="person/Michael_Wu.html">Michael Wu</a> and Anand R. Atreya and <a href="person/Martin_Odersky.html">Martin Odersky</a> and <a href="person/Kunle_Olukotun.html">Kunle Olukotun</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "609--616",
 	publisher     = "{Omnipress}",
 	title         = "{OptiML: An Implicitly Parallel Domain-Specific Language for Machine Learning}",

@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/358818.358824">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1979-LampsonR80,
 	author        = "<a href="person/Butler_W_Lampson.html">Butler W. Lampson</a> and <a href="person/David_D_Redell.html">David D. Redell</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/358818.358824">10.1145/358818.358824</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/358818.358824">http://doi.acm.org/10.1145/358818.358824</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 2,
 	pages         = "105--117",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Experience with Processes and Monitors in Mesa}",
 	volume        = 23,
 	year          = 1980,

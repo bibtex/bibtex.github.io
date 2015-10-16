@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/503376.503449">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM SIGCHI Conference on Human Factors in Computing Systems: Changing our World, Changing ourselves':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2002-McGeeCWH,
 	author        = "David McGee and Philip R. Cohen and R. Matthews Wesson and Sheilah Horman",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM SIGCHI Conference on Human Factors in Computing Systems: Changing our World, Changing ourselves</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/503376.503449">10.1145/503376.503449</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/503376.503449">http://doi.acm.org/10.1145/503376.503449</a>",
 </span>	pages         = "407--414",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MD-JPA+Profile:+A+Model+Driven+Language+for+Java+Persistence%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-TorresGP,
 	author        = "<a href="person/Alexandre_Torres.html">Alexandre Torres</a> and <a href="person/Renata_de_Matos_Galante.html">Renata de Matos Galante</a> and <a href="person/Marcelo_Soares_Pimenta.html">Marcelo Soares Pimenta</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "727--732",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{MD-JPA Profile: A Model Driven Language for Java Persistence}",

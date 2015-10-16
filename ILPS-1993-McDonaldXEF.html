@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Denotational+and+Logical+Semantics+of+CLP-Modules%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-McDonaldXEF,
 	author        = "<a href="person/B_McDonald.html">B. McDonald</a> and <a href="person/J_Xu.html">J. Xu</a> and <a href="person/M_Epstein.html">M. Epstein</a> and <a href="person/E_Freeman.html">E. Freeman</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "658",
 	publisher     = "{MIT Press}",
 	title         = "{On the Denotational and Logical Semantics of CLP-Modules}",

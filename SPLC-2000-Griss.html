@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Implementing+Product-line+features+by+composing+aspects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Software Product Line Conference: Experiences and Research Directions':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2000-Griss,
 	author        = "<a href="person/Martin_L_Griss.html">Martin L. Griss</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Software Product Line Conference: Experiences and Research Directions</span>}",
 	pages         = "271--289",
 	publisher     = "{Kluwer}",
 	title         = "{Implementing Product-line features by composing aspects}",

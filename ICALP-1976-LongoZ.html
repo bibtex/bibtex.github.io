@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Theory+of+Computation+with+an+Identity+Discriminator%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-LongoZ,
 	author        = "<a href="person/Giuseppe_Longo.html">Giuseppe Longo</a> and <a href="person/Marisa_Venturini_Zilli.html">Marisa Venturini Zilli</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "147--167",
 	title         = "{A Theory of Computation with an Identity Discriminator}",
 	year          = 1976,

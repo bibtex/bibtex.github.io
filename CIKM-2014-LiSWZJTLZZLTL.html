@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2661829.2661848">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2014-LiSWZJTLZZLTL,
 	author        = "<a href="person/Lei_Li.html">Lei Li</a> and Chao Shen and <a href="person/Long_Wang.html">Long Wang</a> and <a href="person/Li_Zheng.html">Li Zheng</a> and Yexi Jiang and Liang Tang and Hongtai Li and Longhui Zhang and Chunqiu Zeng and <a href="person/Tao_Li.html">Tao Li</a> and <a href="person/Jun_Tang.html">Jun Tang</a> and <a href="person/Dong_Liu.html">Dong Liu</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2661829.2661848">10.1145/2661829.2661848</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2661829.2661848">http://doi.acm.org/10.1145/2661829.2661848</a>",
 </span>	pages         = "2057--2059",

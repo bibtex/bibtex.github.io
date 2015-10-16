@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowledge+Management+for+Project+Planning+and+Enactment+in+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-GoldmannHR,
 	author        = "<a href="person/Sigrid_Goldmann.html">Sigrid Goldmann</a> and <a href="person/Harald_Holz.html">Harald Holz</a> and <a href="person/Michael_M_Richter.html">Michael M. Richter</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "393--397",
 	title         = "{Knowledge Management for Project Planning and Enactment in Software Engineering}",
 	year          = 2003,

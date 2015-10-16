@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22HESA:+The+Construction+and+Evaluation+of+Hierarchical+Software+Feature+Repository%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-YuWYLY,
 	author        = "<a href="person/Yue_Yu.html">Yue Yu</a> and <a href="person/Huaimin_Wang.html">Huaimin Wang</a> and <a href="person/Gang_Yin.html">Gang Yin</a> and <a href="person/Xiang_Li.html">Xiang Li</a> and <a href="person/Cheng_Yang.html">Cheng Yang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "624--631",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{HESA: The Construction and Evaluation of Hierarchical Software Feature Repository}",

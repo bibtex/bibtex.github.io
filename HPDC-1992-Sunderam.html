@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Tutorial+I:+Paradigms+and+Tools+for+Heterogeneous+Network+Computing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on High Performance Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-1992-Sunderam,
 	author        = "Vaidy S. Sunderam",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Symposium on High Performance Distributed Computing</span>}",
 	pages         = "282",
 	publisher     = "{IEEE}",
 	title         = "{Tutorial I: Paradigms and Tools for Heterogeneous Network Computing}",

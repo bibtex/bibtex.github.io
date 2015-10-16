@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22D2d+—+A+Robust+Front-end+for+Prototyping,+Authoring+and+Maintaining+XML+Encoded+Documents+by+Domain+Experts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-LepperT,
 	author        = "<a href="person/Markus_Lepper.html">Markus Lepper</a> and <a href="person/Baltasar_Trancon_y_Widemann.html">Baltasar Trancón y Widemann</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "449--456",
 	publisher     = "{SciTePress}",
 	title         = "{D2d — A Robust Front-end for Prototyping, Authoring and Maintaining XML Encoded Documents by Domain Experts}",

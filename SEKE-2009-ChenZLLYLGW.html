@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Ontology-based+Approach+to+Portable+Embedded+System+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-ChenZLLYLGW,
 	author        = "<a href="person/Feng_Chen.html">Feng Chen</a> and <a href="person/Hong_Zhou.html">Hong Zhou</a> and <a href="person/Jianzhi_Li.html">Jianzhi Li</a> and <a href="person/Ruimin_Liu.html">Ruimin Liu</a> and <a href="person/Hongji_Yang.html">Hongji Yang</a> and <a href="person/Han_Li.html">Han Li</a> and <a href="person/He_Guo.html">He Guo</a> and <a href="person/Yuxin_Wang.html">Yuxin Wang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "569--574",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Ontology-based Approach to Portable Embedded System Development}",

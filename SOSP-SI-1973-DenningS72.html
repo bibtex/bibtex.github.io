@@ -37,19 +37,18 @@
 <a href="http://dx.doi.org/10.1145/361268.361281">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1973-DenningS72,
 	author        = "<a href="person/Peter_J_Denning.html">Peter J. Denning</a> and <a href="person/Stuart_C_Schwartz.html">Stuart C. Schwartz</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/361268.361281">10.1145/361268.361281</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/361268.361281">http://doi.acm.org/10.1145/361268.361281</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	note          = "Corrigendum: CACM 16(2): 122 (1972)",
 	number        = 3,
 	pages         = "191--198",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Properties of the Working Set Model}",
 	volume        = 15,
 	year          = 1972,

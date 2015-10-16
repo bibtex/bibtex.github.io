@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Avoiding+Bad+Smells+in+Aspect-Oriented+Software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-PivetaHMPAGP,
 	author        = "<a href="person/Eduardo_Kessler_Piveta.html">Eduardo Kessler Piveta</a> and <a href="person/Marcelo_Hecht.html">Marcelo Hecht</a> and <a href="person/Ana_Moreira.html">Ana Moreira</a> and <a href="person/Marcelo_Soares_Pimenta.html">Marcelo Soares Pimenta</a> and <a href="person/Joao_Araujo.html">João Araújo</a> and <a href="person/Pedro_Guerreiro.html">Pedro Guerreiro</a> and <a href="person/Roberto_Tom_Price.html">Roberto Tom Price</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "81--None",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Avoiding Bad Smells in Aspect-Oriented Software}",

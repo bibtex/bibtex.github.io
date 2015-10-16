@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800213.806521">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1975-PruittC,
 	author        = "<a href="person/J_L_Pruitt.html">J. L. Pruitt</a> and <a href="person/W_W_Case.html">W. W. Case</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Symposium on Operating System Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800213.806521">10.1145/800213.806521</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800213.806521">http://doi.acm.org/10.1145/800213.806521</a>",
 </span>	pages         = "51--59",

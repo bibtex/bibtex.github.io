@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Business+Ontologies+Cooperation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-ZianiBT,
 	author        = "Mina Ziani and <a href="person/Danielle_Boulanger.html">Danielle Boulanger</a> and <a href="person/Guilaine_Talens.html">Guilaine Talens</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "214--219",
 	publisher     = "{SciTePress}",
 	title         = "{Business Ontologies Cooperation}",

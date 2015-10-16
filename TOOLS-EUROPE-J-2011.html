@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Section+on+Technology+of+Object-Oriented+Languages+and+Systems+—+TOOLS+Europe+2011%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Journal of Object Technology':'JOT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{TOOLS-EUROPE-J-2011,
 	booktitle     = "{TOOLS Europe}",
 	editor        = "<a href="person/Antonio_Vallecillo.html">Antonio Vallecillo</a> and <a href="person/Judith_Bishop.html">Judith Bishop</a>",
-	journal       = "{Journal of Object Technology}",
+	journal       = "{<span id="journal">Journal of Object Technology</span>}",
 	number        = 1,
 	title         = "{Special Section on Technology of Object-Oriented Languages and Systems — TOOLS Europe 2011}",
 	volume        = 11,

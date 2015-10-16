@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Snowball+Effects+on+Risk+Mitigation+Scheduling:+Process+and+Tool%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-LeungLZ,
 	author        = "<a href="person/Hareton_K_N_Leung.html">Hareton K. N. Leung</a> and <a href="person/Kim_Man_Lui.html">Kim Man Lui</a> and <a href="person/Peng_Zhou.html">Peng Zhou</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "582--585",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Snowball Effects on Risk Mitigation Scheduling: Process and Tool}",

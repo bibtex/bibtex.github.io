@@ -33,18 +33,18 @@
 <h2>Kalle Lyytinen, Kari Smolander, Veli-Pekka Tahvanainen<br/><em><a href="word/model.html">Modelling</a> <a href="word/case.html">CASE</a> <a href="word/environ.html">Environments</a> in <a href="word/system.html">Systems</a> <a href="word/develop.html">Development</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/LyytinenST89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Modelling+CASE+Environments+in+Systems+Development%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper20.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22Modelling+CASE+Environments+in+Systems+Development%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper20.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-LyytinenST,
 	author        = "<a href="person/Kalle_Lyytinen.html">Kalle Lyytinen</a> and <a href="person/Kari_Smolander.html">Kari Smolander</a> and <a href="person/Veli-Pekka_Tahvanainen.html">Veli-Pekka Tahvanainen</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper20.pdf">http://ceur-ws.org/Vol-961/paper20.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Modelling CASE Environments in Systems Development}",
 	volume        = 961,
 	year          = 1989,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+High-Level+Petri+Net+for+a+Subset+of+FGHC%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1990-JeffreyM,
 	author        = "<a href="person/John_Jeffrey.html">John Jeffrey</a> and <a href="person/Tadao_Murata.html">Tadao Murata</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "260--266",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A High-Level Petri Net for a Subset of FGHC}",

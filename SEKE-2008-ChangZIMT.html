@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Transformations+for+Rapid+Prototyping+of+Time-critical+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-ChangZIMT,
 	author        = "<a href="person/Shi-Kuo_Chang.html">Shi-Kuo Chang</a> and <a href="person/Zhoulan_Zhang.html">Zhoulan Zhang</a> and <a href="person/Colin_J_Ihrig.html">Colin J. Ihrig</a> and <a href="person/Paolo_Maresca.html">Paolo Maresca</a> and <a href="person/Valentina_Ternelli.html">Valentina Ternelli</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "4--15",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Transformations for Rapid Prototyping of Time-critical Applications}",

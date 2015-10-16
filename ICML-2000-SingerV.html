@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+to+Predict+Performance+from+Formula+Modeling+and+Training+Data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-SingerV,
 	author        = "Bryan Singer and Manuela M. Veloso",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "887--894",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Learning to Predict Performance from Formula Modeling and Training Data}",

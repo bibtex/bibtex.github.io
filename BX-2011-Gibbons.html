@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22HOT+Topics+in+Bidirectional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'Schloss Dagstuhl — Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2011-Gibbons,
@@ -47,7 +47,7 @@
 	month         = "jan",
 	number        = 1,
 	pages         = "56",
-	publisher     = "{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}",
+	publisher     = "{<span id="publisher">Schloss Dagstuhl — Leibniz-Zentrum für Informatik</span>}",
 	series        = "{Dagstuhl Reports}",
 	title         = "{HOT Topics in Bidirectional Programming}",
 	volume        = 1,

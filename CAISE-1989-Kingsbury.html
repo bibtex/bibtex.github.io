@@ -33,18 +33,18 @@
 <h2>Michael A. Kingsbury<br/><em><a href="word/system.html">Systems</a> <a href="word/develop.html">Development</a>: <a href="word/basic.html">Basic</a> <a href="word/flaw.html">Flaws</a> in the <a href="word/current.html">Current</a> <a href="word/cultur.html">Culture</a> — <a href="word/idea.html">Ideas</a> for <a href="word/rectifi.html">Rectifying</a> <a href="word/some.html">Some</a> of the <a href="word/problem.html">Problems</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/Kingsbury89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Systems+Development:+Basic+Flaws+in+the+Current+Culture+—+Ideas+for+Rectifying+Some+of+the+Problems%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper2.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22Systems+Development:+Basic+Flaws+in+the+Current+Culture+—+Ideas+for+Rectifying+Some+of+the+Problems%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper2.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-Kingsbury,
 	author        = "<a href="person/Michael_A_Kingsbury.html">Michael A. Kingsbury</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper2.pdf">http://ceur-ws.org/Vol-961/paper2.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Systems Development: Basic Flaws in the Current Culture — Ideas for Rectifying Some of the Problems}",
 	volume        = 961,
 	year          = 1989,

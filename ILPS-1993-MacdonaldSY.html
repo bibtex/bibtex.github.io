@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Redundancy+of+Variables+in+CLP+(R)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-MacdonaldSY,
 	author        = "<a href="person/Andrew_D_Macdonald.html">Andrew D. Macdonald</a> and <a href="person/Peter_J_Stuckey.html">Peter J. Stuckey</a> and <a href="person/Roland_H_C_Yap.html">Roland H. C. Yap</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "75--93",
 	publisher     = "{MIT Press}",
 	title         = "{Redundancy of Variables in CLP (R)}",

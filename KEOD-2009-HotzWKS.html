@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Ontology-based+Similarity+of+Software+Cases+—+Applying+Ontology+Reasoning+to+Software+Retrieval%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-HotzWKS,
 	author        = "<a href="person/Lothar_Hotz.html">Lothar Hotz</a> and <a href="person/Katharina_Wolter.html">Katharina Wolter</a> and Stephanie Knab and Arved Solth",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "183--191",
 	publisher     = "{INSTICC Press}",
 	title         = "{Ontology-based Similarity of Software Cases — Applying Ontology Reasoning to Software Retrieval}",

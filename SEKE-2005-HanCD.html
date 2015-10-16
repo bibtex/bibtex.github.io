@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Secure+Electronic+Commerce+with+Mobile+Agents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-HanCD,
 	author        = "<a href="person/Song_Han.html">Song Han</a> and <a href="person/Elizabeth_Chang.html">Elizabeth Chang</a> and <a href="person/Tharam_S_Dillon.html">Tharam S. Dillon</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "777--782",
 	title         = "{Secure Electronic Commerce with Mobile Agents}",
 	year          = 2005,

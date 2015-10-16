@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Tactic-Based+Evaluation+of+Self-Adaptive+Software+Architecture+Availability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-Parvizi-MosaedMHH,
 	author        = "<a href="person/Alireza_Parvizi-Mosaed.html">Alireza Parvizi-Mosaed</a> and <a href="person/Shahrouz_Moaven.html">Shahrouz Moaven</a> and <a href="person/Jafar_Habibi.html">Jafar Habibi</a> and <a href="person/Abbas_Heydarnoori.html">Abbas Heydarnoori</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "168--173",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards a Tactic-Based Evaluation of Self-Adaptive Software Architecture Availability}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Applicability+of+McCabe’s+complexity+metric+to+knowledge+engineering+products%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-Tovar,
 	author        = "<a href="person/Edmundo_Tovar.html">Edmundo Tovar</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "508--515",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Applicability of McCabe’s complexity metric to knowledge engineering products}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generation+of+Thematic+Maps+using+WPS-Cartographer:+An+experimental+study+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-SouzaSPFF,
 	author        = "<a href="person/Francisco_Carlos_M_Souza.html">Francisco Carlos M. Souza</a> and <a href="person/Alinne_C_Correa_dos_Santos.html">Alinne C. Corrêa dos Santos</a> and <a href="person/Vinicius_Pereira.html">Vinicius Pereira</a> and <a href="person/Ellen_Francine.html">Ellen Francine</a> and <a href="person/Vinicius_Ramos_Toledo_Ferraz.html">Vinícius Ramos Toledo Ferraz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "500--503",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Generation of Thematic Maps using WPS-Cartographer: An experimental study (S)}",

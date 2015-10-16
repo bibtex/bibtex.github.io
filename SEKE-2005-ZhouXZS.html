@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Aspect+Transformation+Approach+with+Refactoring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-ZhouXZS,
 	author        = "<a href="person/Chaohong_Zhou.html">Chaohong Zhou</a> and <a href="person/Baowen_Xu.html">Baowen Xu</a> and <a href="person/Tianlin_Zhou.html">Tianlin Zhou</a> and <a href="person/Liang_Shi.html">Liang Shi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "318--323",
 	title         = "{An Aspect Transformation Approach with Refactoring}",
 	year          = 2005,

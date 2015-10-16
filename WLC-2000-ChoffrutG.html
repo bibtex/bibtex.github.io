@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Theory+of+Rational+Relations+on+Transfinite+Strings%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-ChoffrutG,
 	author        = "<a href="person/Christian_Choffrut.html">Christian Choffrut</a> and <a href="person/Serge_Grigorieff.html">Serge Grigorieff</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "103--133",
 	publisher     = "{World Scientific}",
 	title         = "{The Theory of Rational Relations on Transfinite Strings}",

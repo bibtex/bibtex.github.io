@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantic+Conflicts+Detection+in+Model-driven+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-CostaJM,
 	author        = "<a href="person/Valeria_Oliveira_Costa.html">Valéria Oliveira Costa</a> and <a href="person/Joao_M_B_Oliveira_Junior.html">João M. B. Oliveira Junior</a> and <a href="person/Leonardo_Gresta_Paulino_Murta.html">Leonardo Gresta Paulino Murta</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "656--661",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Semantic Conflicts Detection in Model-driven Engineering}",

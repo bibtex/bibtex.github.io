@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+MENTLE+Approach+to+Learning+Heuristics+for+the+Control+of+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-HoggerB,
 	author        = "Elizabeth I. Hogger and <a href="person/Krysia_Broda.html">Krysia Broda</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "212--217",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{The MENTLE Approach to Learning Heuristics for the Control of Logic Programs}",

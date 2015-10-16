@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Web+Information+Gathering+Tasks+—+A+Framework+and+Research+Agenda%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-AlhenshiriWSD,
 	author        = "Anwar Alhenshiri and <a href="person/Carolyn_R_Watters.html">Carolyn R. Watters</a> and <a href="person/Michael_A_Shepherd.html">Michael A. Shepherd</a> and <a href="person/Jack_Duffy.html">Jack Duffy</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "131--140",
 	publisher     = "{SciTePress}",
 	title         = "{Web Information Gathering Tasks — A Framework and Research Agenda}",

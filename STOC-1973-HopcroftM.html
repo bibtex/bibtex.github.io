@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800125.804038">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1973-HopcroftM,
 	author        = "<a href="person/John_E_Hopcroft.html">John E. Hopcroft</a> and J. Musinski",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800125.804038">10.1145/800125.804038</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800125.804038">http://doi.acm.org/10.1145/800125.804038</a>",
 </span>	pages         = "73--87",

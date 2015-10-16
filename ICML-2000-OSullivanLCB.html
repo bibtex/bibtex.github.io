@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22FeatureBoost:+A+Meta-Learning+Algorithm+that+Improves+Model+Robustness%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-OSullivanLCB,
 	author        = "Joseph O'Sullivan and John Langford and Rich Caruana and Avrim Blum",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "703--710",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{FeatureBoost: A Meta-Learning Algorithm that Improves Model Robustness}",

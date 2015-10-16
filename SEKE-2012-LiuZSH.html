@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22SAMAT+—+A+Tool+for+Software+Architecture+Modeling+and+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-LiuZSH,
 	author        = "<a href="person/Su_Liu.html">Su Liu</a> and <a href="person/Reng_Zeng.html">Reng Zeng</a> and <a href="person/Zhuo_Sun.html">Zhuo Sun</a> and <a href="person/Xudong_He.html">Xudong He</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "352--358",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{SAMAT — A Tool for Software Architecture Modeling and Analysis}",

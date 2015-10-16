@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Flexible+Support+for+Adaptable+Software+and+Systems+Engineering+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-MordinyiMBD,
 	author        = "<a href="person/Richard_Mordinyi.html">Richard Mordinyi</a> and <a href="person/Thomas_Moser.html">Thomas Moser</a> and <a href="person/Stefan_Biffl.html">Stefan Biffl</a> and <a href="person/Deepak_Dhungana.html">Deepak Dhungana</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "608--612",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Flexible Support for Adaptable Software and Systems Engineering Processes}",

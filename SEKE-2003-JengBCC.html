@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Holonic+Framework+for+Business+Activity+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-JengBCC,
 	author        = "<a href="person/Jun-Jang_Jeng.html">Jun-Jang Jeng</a> and <a href="person/Stephen_J_Buckley.html">Stephen J. Buckley</a> and <a href="person/Henry_Chang.html">Henry Chang</a> and <a href="person/Jen-Yao_Chung.html">Jen-Yao Chung</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "671--678",
 	title         = "{A Holonic Framework for Business Activity Management}",
 	year          = 2003,

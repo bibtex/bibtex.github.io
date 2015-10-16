@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Power+Semigroups+and+Polynomial+Closure%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-MargolisS,
 	author        = "<a href="person/Stuart_W_Margolis.html">Stuart W. Margolis</a> and <a href="person/Benjamin_Steinberg.html">Benjamin Steinberg</a>",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "311--322",
 	publisher     = "{World Scientific}",
 	title         = "{Power Semigroups and Polynomial Closure}",

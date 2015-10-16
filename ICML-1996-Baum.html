@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Toward+a+Model+of+Mind+as+a+Laissez-Faire+Economy+of+Idiots%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1996-Baum,
 	author        = "Eric B. Baum",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Machine Learning</span>}",
 	pages         = "28--36",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Toward a Model of Mind as a Laissez-Faire Economy of Idiots}",

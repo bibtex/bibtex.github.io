@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+OI5ce+Document+Retrieval+System+with+the+Capability+of+Processing+Incomplete+and+Vague+Queries%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-LiuWN,
 	author        = "<a href="person/Qianhong_Liu.html">Qianhong Liu</a> and <a href="person/Jason_Tsong-Li_Wang.html">Jason Tsong-Li Wang</a> and <a href="person/Peter_A_Ng.html">Peter A. Ng</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "11--17",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{An OI5ce Document Retrieval System with the Capability of Processing Incomplete and Vague Queries}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploratory+Design+of+Derivation+Business+Rules+Using+Query+Rewriting%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-KrenickyWE,
 	author        = "<a href="person/Roman_Krenicky.html">Roman Krenicky</a> and <a href="person/David_Willmor.html">David Willmor</a> and <a href="person/Suzanne_M_Embury.html">Suzanne M. Embury</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "467--472",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Exploratory Design of Derivation Business Rules Using Query Rewriting}",

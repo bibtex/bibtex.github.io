@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Does+Visualization+Improve+Our+Ability+to+Find+and+Learn+from+Internet+Based+Information?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2001-Kauwell,
 	author        = "Daniel A. Kauwell and Jim Levin and Hwan Jo Yu and Young Jin Lee and Jeff Ellen and Arun Bahalla",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 	pages         = "453",
 	publisher     = "{ACM}",
 	title         = "{Does Visualization Improve Our Ability to Find and Learn from Internet Based Information?}",

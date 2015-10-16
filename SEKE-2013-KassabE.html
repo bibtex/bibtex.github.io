@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Quantifying+Quality,+Tactics+and+Architectural+Patterns+Interactions+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-KassabE,
 	author        = "<a href="person/Mohamad_Kassab.html">Mohamad Kassab</a> and <a href="person/Ghizlane_El-Boussaidi.html">Ghizlane El-Boussaidi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "441--446",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards Quantifying Quality, Tactics and Architectural Patterns Interactions (S)}",

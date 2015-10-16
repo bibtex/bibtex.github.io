@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Adapting+Multidimensional+Schemes+to+Data+sources+using+Algebraic+Operators%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-NabliFG,
 	author        = "<a href="person/Ahlem_Nabli.html">Ahlem Nabli</a> and <a href="person/Jamel_Feki.html">Jamel Feki</a> and <a href="person/Faiez_Gargouri.html">Faïez Gargouri</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "713--718",
 	title         = "{Adapting Multidimensional Schemes to Data sources using Algebraic Operators}",
 	year          = 2005,

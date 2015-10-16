@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Interactive+Visual+Debugging+with+UML%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-JacobsM,
 	author        = "<a href="person/Timothy_Jacobs.html">Timothy Jacobs</a> and <a href="person/Benjamin_Musial.html">Benjamin Musial</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "115--122",
 	publisher     = "{ACM}",
 	title         = "{Interactive Visual Debugging with UML}",

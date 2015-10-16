@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221583">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-TangV,
 	author        = "<a href="person/Jian_Tang.html">Jian Tang</a> and <a href="person/Jari_Veijalainen.html">Jari Veijalainen</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P250.pdf",
 	cite          = "['conf/vldb/AttieSSR93', 'journals/sigmod/BreitbartDSSW93', 'journals/debu/BukhresEK93', 'conf/vldb/ChrysanthisR91', '...', '...', 'conf/vldb/DayalHL91', 'journals/debu/Hsu93', 'conf/vldb/ElmagarmidLLR90', 'books/mk/Elmagarmid92', 'journals/debu/Garcia-MolinaGKKS91', 'conf/icde/GeorgakopoulosHKM94', 'journals/debu/GeorgakopoulosHMBHNH93', 'journals/dpd/GeorgakopoulosHS95', 'journals/computer/Grudin94', 'journals/ibmsj/LeymannA94', 'journals/debu/McCarthyS93', 'books/mk/elmagarmid92/NodineRZ92', '...', 'conf/coopis/TangV95', '...', '...', 'conf/dexa/Veijalainen93', 'conf/ride/ZhangJ93']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221583">10.1145/221270.221583</a>",

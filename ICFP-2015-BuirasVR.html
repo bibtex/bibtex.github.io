@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2784731.2784758">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming':'ICFP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICFP-2015-BuirasVR,
 	author        = "<a href="person/Pablo_Buiras.html">Pablo Buiras</a> and <a href="person/Dimitrios_Vytiniotis.html">Dimitrios Vytiniotis</a> and <a href="person/Alejandro_Russo.html">Alejandro Russo</a>",
-	booktitle     = "{ICFP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2784731.2784758">10.1145/2784731.2784758</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2784731.2784758">http://doi.acm.org/10.1145/2784731.2784758</a>",
 </span>	pages         = "289--301",

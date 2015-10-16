@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/509907.509963">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 34th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2002-SaksS,
 	author        = "<a href="person/Michael_E_Saks.html">Michael E. Saks</a> and Xiaodong Sun",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 34th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/509907.509963">10.1145/509907.509963</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/509907.509963">http://doi.acm.org/10.1145/509907.509963</a>",
 </span>	pages         = "360--369",

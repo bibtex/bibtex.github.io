@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Hereditary+Harrop+Formulas+and+Uniform+Proof+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Symposium on Logic in Computer Science':'LICS');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LICS-1987-MillerNS,
 	author        = "<a href="person/Dale_Miller.html">Dale Miller</a> and <a href="person/Gopalan_Nadathur.html">Gopalan Nadathur</a> and <a href="person/Andre_Scedrov.html">Andre Scedrov</a>",
-	booktitle     = "{LICS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second Symposium on Logic in Computer Science</span>}",
 	pages         = "98--105",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Hereditary Harrop Formulas and Uniform Proof Systems}",

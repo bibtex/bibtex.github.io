@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Adaptive+Management+Framework+for+Service+Brokers+in+Service-oriented+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-TsaiCCW,
 	author        = "<a href="person/Wei-Tek_Tsai.html">Wei-Tek Tsai</a> and <a href="person/Tszyan_Chow.html">Tszyan Chow</a> and <a href="person/Yinong_Chen.html">Yinong Chen</a> and <a href="person/Xiao_Wei.html">Xiao Wei</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "280--285",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Adaptive Management Framework for Service Brokers in Service-oriented Architecture}",

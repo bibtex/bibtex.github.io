@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2505515.2505612">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2013-KimCHZRD,
 	author        = "Hyun Duk Kim and Malú Castellanos and Meichun Hsu and ChengXiang Zhai and Thomas A. Rietz and Daniel Diermeier",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2505515.2505612">10.1145/2505515.2505612</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2505515.2505612">http://doi.acm.org/10.1145/2505515.2505612</a>",
 </span>	pages         = "885--890",

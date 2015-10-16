@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+action+models+with+indeterminate+effects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-GaoZHL,
 	author        = "<a href="person/Jie_Gao.html">Jie Gao</a> and <a href="person/Hankz_Hankui_Zhuo.html">Hankz Hankui Zhuo</a> and <a href="person/Dao-jun_Han.html">Dao-jun Han</a> and <a href="person/Lei_Li.html">Lei Li</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "159--162",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Learning action models with indeterminate effects}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22XHITS+—+Multiple+Roles+in+a+Hyperlinked+Structure%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2009-FilhoRM,
 	author        = "Francisco Benjamim Filho and Raúl Pierre Rentería and <a href="person/Ruy_Luiz_Milidiu.html">Ruy Luiz Milidiú</a>",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "189--195",
 	publisher     = "{INSTICC Press}",
 	title         = "{XHITS — Multiple Roles in a Hyperlinked Structure}",

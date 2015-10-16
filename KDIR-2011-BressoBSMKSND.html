@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Use+of+Domain+Knowledge+for+Dimension+Reduction+—+Application+to+Mining+of+Drug+Side+Effects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-BressoBSMKSND,
 	author        = "Emmanuel Bresso and Sidahmed Benabderrahmane and Malika Smaïl-Tabbone and Gino Marchetti and Arnaud Sinan Karaboga and Michel Souchet and Amedeo Napoli and Marie-Dominique Devignes",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "271--276",
 	publisher     = "{SciTePress}",
 	title         = "{Use of Domain Knowledge for Dimension Reduction — Application to Mining of Drug Side Effects}",

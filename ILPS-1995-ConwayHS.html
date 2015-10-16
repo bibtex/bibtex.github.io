@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Code+Generation+for+Mercury%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-ConwayHS,
 	author        = "<a href="person/Thomas_C_Conway.html">Thomas C. Conway</a> and <a href="person/Fergus_Henderson.html">Fergus Henderson</a> and <a href="person/Zoltan_Somogyi.html">Zoltan Somogyi</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "242--256",
 	publisher     = "{MIT Press}",
 	title         = "{Code Generation for Mercury}",

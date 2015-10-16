@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Temporal+Logic+Programming+in+Dense+Time%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-Brzoska,
 	author        = "<a href="person/Christoph_Brzoska.html">Christoph Brzoska</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "303--317",
 	publisher     = "{MIT Press}",
 	title         = "{Temporal Logic Programming in Dense Time}",

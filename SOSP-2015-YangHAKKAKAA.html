@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2815400.2815421">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th Symposium on Operating Systems Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-2015-YangHAKKAKAA,
 	author        = "<a href="person/Suli_Yang.html">Suli Yang</a> and <a href="person/Tyler_Harter.html">Tyler Harter</a> and <a href="person/Nishant_Agrawal.html">Nishant Agrawal</a> and <a href="person/Salini_Selvaraj_Kowsalya.html">Salini Selvaraj Kowsalya</a> and <a href="person/Anand_Krishnamurthy.html">Anand Krishnamurthy</a> and <a href="person/Samer_Al-Kiswany.html">Samer Al-Kiswany</a> and <a href="person/Rini_T_Kaushik.html">Rini T. Kaushik</a> and <a href="person/Andrea_C_Arpaci-Dusseau.html">Andrea C. Arpaci-Dusseau</a> and <a href="person/Remzi_H_Arpaci-Dusseau.html">Remzi H. Arpaci-Dusseau</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th Symposium on Operating Systems Principles</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2815400.2815421">10.1145/2815400.2815421</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2815400.2815421">http://doi.acm.org/10.1145/2815400.2815421</a>",
 </span>	pages         = "474--489",

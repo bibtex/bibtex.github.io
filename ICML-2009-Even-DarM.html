@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1553374.1553553">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2009-Even-DarM,
 	author        = "<a href="person/Eyal_Even-Dar.html">Eyal Even-Dar</a> and <a href="person/Vahab_S_Mirrokni.html">Vahab S. Mirrokni</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Machine Learning</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1553374.1553553">10.1145/1553374.1553553</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1553374.1553553">http://doi.acm.org/10.1145/1553374.1553553</a>",
 </span>	pages         = "13",

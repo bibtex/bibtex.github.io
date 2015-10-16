@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22End-User+Software+Visualizations+for+Fault+Localization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-RuthruffCBCPFM,
 	author        = "<a href="person/Joseph_R_Ruthruff.html">Joseph R. Ruthruff</a> and <a href="person/Eugene_Creswick.html">Eugene Creswick</a> and <a href="person/Margaret_M_Burnett.html">Margaret M. Burnett</a> and <a href="person/Curtis_R_Cook.html">Curtis R. Cook</a> and <a href="person/Shreenivasarao_Prabhakararao.html">Shreenivasarao Prabhakararao</a> and <a href="person/Marc_Fisher_II.html">Marc Fisher II</a> and <a href="person/M_Main.html">M. Main</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "123--132",
 	publisher     = "{ACM}",
 	title         = "{End-User Software Visualizations for Fault Localization}",

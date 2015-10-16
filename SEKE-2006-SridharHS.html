@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Container-Based+Component+Deployment:+A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-SridharHS,
 	author        = "<a href="person/Nigamanth_Sridhar.html">Nigamanth Sridhar</a> and <a href="person/Jason_O_Hallstrom.html">Jason O. Hallstrom</a> and <a href="person/Paolo_A_G_Sivilotti.html">Paolo A. G. Sivilotti</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "274--277",
 	title         = "{Container-Based Component Deployment: A Case Study}",
 	year          = 2006,

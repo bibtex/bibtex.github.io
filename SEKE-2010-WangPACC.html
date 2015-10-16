@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Automatic+Failure+Mode+and+Effect+Analysis+Technique+for+Processes+Defined+in+the+Little-JIL+Process+Definition+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-WangPACC,
 	author        = "<a href="person/Danhua_Wang.html">Danhua Wang</a> and <a href="person/Jingui_Pan.html">Jingui Pan</a> and <a href="person/George_S_Avrunin.html">George S. Avrunin</a> and <a href="person/Lori_A_Clarke.html">Lori A. Clarke</a> and <a href="person/Bin_Chen.html">Bin Chen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "765--770",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Automatic Failure Mode and Effect Analysis Technique for Processes Defined in the Little-JIL Process Definition Language}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/800070.802206">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-1982-BabaiGM,
 	author        = "<a href="person/Laszlo_Babai.html">László Babai</a> and D. Yu. Grigoryev and David M. Mount",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800070.802206">10.1145/800070.802206</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800070.802206">http://doi.acm.org/10.1145/800070.802206</a>",
 </span>	pages         = "310--324",

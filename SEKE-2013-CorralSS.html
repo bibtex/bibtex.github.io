@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+a+Partially+Instantiated+GQM+to+Measure+the+Quality+of+Mobile+Applications+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-CorralSS,
 	author        = "<a href="person/Luis_Corral.html">Luis Corral</a> and <a href="person/Alberto_Sillitti.html">Alberto Sillitti</a> and <a href="person/Giancarlo_Succi.html">Giancarlo Succi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "520--524",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using a Partially Instantiated GQM to Measure the Quality of Mobile Applications (S)}",

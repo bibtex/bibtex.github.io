@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Knowledge+Processing+Language+and+Its+Parallel+Inference+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-ZhangZX,
 	author        = "<a href="person/Cui_Zhang.html">Cui Zhang</a> and <a href="person/Qinping_Zhao.html">Qinping Zhao</a> and <a href="person/Jiafu_Xu.html">Jiafu Xu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "199--206",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Knowledge Processing Language and Its Parallel Inference System}",

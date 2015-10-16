@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Experimental+Analysis+for+Classifying+Specification+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-KomiyaSHKOHOO,
 	author        = "<a href="person/Seiichi_Komiya.html">Seiichi Komiya</a> and <a href="person/Motoshi_Saeki.html">Motoshi Saeki</a> and <a href="person/Shinichi_Honiden.html">Shinichi Honiden</a> and <a href="person/Junzou_Kato.html">Junzou Kato</a> and <a href="person/Akira_Ohmori.html">Akira Ohmori</a> and <a href="person/Hisayuki_Horai.html">Hisayuki Horai</a> and <a href="person/Shigeru_Ohtsuki.html">Shigeru Ohtsuki</a> and <a href="person/Kazuhito_Ohmaki.html">Kazuhito Ohmaki</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "231--234",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{An Experimental Analysis for Classifying Specification Processes}",

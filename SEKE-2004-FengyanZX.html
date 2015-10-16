@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Nonparametric+Software+Reliability+Model+Based+on+Kernel+Estimator+and+Optimum+Algorithm%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-FengyanZX,
 	author        = "<a href="person/Han_Fengyan.html">Han Fengyan</a> and <a href="person/Qin_Zheng.html">Qin Zheng</a> and <a href="person/Wang_Xin.html">Wang Xin</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "13--18",
 	title         = "{A Nonparametric Software Reliability Model Based on Kernel Estimator and Optimum Algorithm}",
 	year          = 2004,

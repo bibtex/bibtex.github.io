@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22EvOnto+—+Joint+Evolution+of+Ontologies+and+Semantic+Annotations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-TissaouiAHL,
 	author        = "Anis Tissaoui and <a href="person/Nathalie_Aussenac-Gilles.html">Nathalie Aussenac-Gilles</a> and <a href="person/Nathalie_Hernandez.html">Nathalie Hernandez</a> and Philippe Laublet",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "226--231",
 	publisher     = "{SciTePress}",
 	title         = "{EvOnto — Joint Evolution of Ontologies and Semantic Annotations}",

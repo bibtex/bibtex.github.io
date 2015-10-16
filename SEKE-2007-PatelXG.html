@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Real-Time+Trust+Management+in+Agent+Based+Online+Auction+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-PatelXG,
 	author        = "<a href="person/Rinkesh_Patel.html">Rinkesh Patel</a> and <a href="person/Haiping_Xu.html">Haiping Xu</a> and <a href="person/Ankit_Goel.html">Ankit Goel</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "244--250",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Real-Time Trust Management in Agent Based Online Auction Systems}",

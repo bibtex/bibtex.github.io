@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generalized+Recursive+Splitting+Algorithms+for+Learning+Hybrid+Concepts%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-LambertTL,
 	author        = "Bruce L. Lambert and <a href="person/David_K_Tcheng.html">David K. Tcheng</a> and <a href="person/Stephen_C_Y_Lu.html">Stephen C. Y. Lu</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "496--498",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Generalized Recursive Splitting Algorithms for Learning Hybrid Concepts}",

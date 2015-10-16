@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Lazy+Partial+Evaluation:+An+Integration+of+Explanation-Based+Generalization+and+Partial+Evaluation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-ClarkH,
 	author        = "Peter Clark and Robert C. Holte",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "82--91",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Lazy Partial Evaluation: An Integration of Explanation-Based Generalization and Partial Evaluation}",

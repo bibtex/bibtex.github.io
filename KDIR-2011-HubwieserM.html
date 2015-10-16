@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Knowpats:+Patterns+of+Declarative+Knowledge+—+Searching+Frequent+Knowledge+Patterns+about+Object-orientation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-HubwieserM,
 	author        = "Peter Hubwieser and Andreas Mühling",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "358--364",
 	publisher     = "{SciTePress}",
 	title         = "{Knowpats: Patterns of Declarative Knowledge — Searching Frequent Knowledge Patterns about Object-orientation}",

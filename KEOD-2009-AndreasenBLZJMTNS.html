@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22SIABO+—+Semantic+Information+Access+through+Biomedical+Ontologies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2009-AndreasenBLZJMTNS,
 	author        = "Troels Andreasen and Henrik Bulskov and Tine Lassen and Sine Zambach and Per Anker Jensen and Bodil Nistrup Madsen and Hanne Erdman Thomsen and <a href="person/Jorgen_Fischer_Nilsson.html">Jørgen Fischer Nilsson</a> and Bartlomiej Antoni Szymczak",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "171--176",
 	publisher     = "{INSTICC Press}",
 	title         = "{SIABO — Semantic Information Access through Biomedical Ontologies}",

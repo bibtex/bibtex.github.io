@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+the+Results+from+a+Systematic+Mapping+Extension+to+Define+a+Usability+Inspection+Method+for+Web+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-RiveroC,
 	author        = "<a href="person/Luis_Rivero.html">Luis Rivero</a> and <a href="person/Tayana_Conte.html">Tayana Conte</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "582--587",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using the Results from a Systematic Mapping Extension to Define a Usability Inspection Method for Web Applications}",

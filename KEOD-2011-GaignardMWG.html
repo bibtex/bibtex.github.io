@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Characterizing+Semantic+Service+Parameters+with+Role+Concepts+to+Infer+Domain-specific+Knowledge+at+Runtime%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-GaignardMWG,
 	author        = "<a href="person/Alban_Gaignard.html">Alban Gaignard</a> and Johan Montagnat and Bacem Wali and Bernard Gibaud",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "59--70",
 	publisher     = "{SciTePress}",
 	title         = "{Characterizing Semantic Service Parameters with Role Concepts to Infer Domain-specific Knowledge at Runtime}",

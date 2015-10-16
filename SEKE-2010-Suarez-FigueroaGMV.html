@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22gOntt,+a+Tool+for+Scheduling+and+Executing+Ontology+Development+Projects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-Suarez-FigueroaGMV,
 	author        = "<a href="person/Maria_del_Carmen_Suarez-Figueroa.html">María del Carmen Suárez-Figueroa</a> and <a href="person/Asuncion_Gomez-Perez.html">Asunción Gómez-Pérez</a> and <a href="person/Oscar_Munoz-Garcia.html">Óscar Muñoz-García</a> and <a href="person/Martin_Vigo.html">Martín Vigo</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "614--619",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{gOntt, a Tool for Scheduling and Executing Ontology Development Projects}",

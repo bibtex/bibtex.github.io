@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1183614.1183703">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2006-VaradarajanH,
 	author        = "Ramakrishna Varadarajan and Vagelis Hristidis",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1183614.1183703">10.1145/1183614.1183703</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1183614.1183703">http://doi.acm.org/10.1145/1183614.1183703</a>",
 </span>	pages         = "622--631",
@@ -52,8 +52,7 @@
 }</pre>
 </div>
 <hr/>
-<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/documentation.html">#documentation</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/documentation.html">#documentation</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

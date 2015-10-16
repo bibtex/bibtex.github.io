@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Meta+Context+for+Agent+Planning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-Egyhazy,
 	author        = "<a href="person/Csaba_J_Egyhazy.html">Csaba J. Egyhazy</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "672--674",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Meta Context for Agent Planning}",

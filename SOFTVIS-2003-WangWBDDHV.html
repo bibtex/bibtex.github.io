@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22EVolve:+An+Open+Extensible+Software+Visualisation+Framework%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-WangWBDDHV,
 	author        = "<a href="person/Qin_Wang.html">Qin Wang</a> and <a href="person/Wei_Wang.html">Wei Wang</a> and <a href="person/Rhodes_Brown.html">Rhodes Brown</a> and <a href="person/Karel_Driesen.html">Karel Driesen</a> and <a href="person/Bruno_Dufour.html">Bruno Dufour</a> and <a href="person/Laurie_J_Hendren.html">Laurie J. Hendren</a> and <a href="person/Clark_Verbrugge.html">Clark Verbrugge</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "37--46",
 	publisher     = "{ACM}",
 	title         = "{EVolve: An Open Extensible Software Visualisation Framework}",

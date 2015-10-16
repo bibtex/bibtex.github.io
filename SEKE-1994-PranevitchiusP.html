@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Tools+for+validation+and+simulation+of+Estelle/Ag+specifications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-PranevitchiusP,
 	author        = "<a href="person/Henrikas_Pranevitchius.html">Henrikas Pranevitchius</a> and <a href="person/Vytautas_Pilkauskas.html">Vytautas Pilkauskas</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "94--99",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Tools for validation and simulation of Estelle/Ag specifications}",

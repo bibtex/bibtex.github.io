@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrated+Design+of+Object-Oriented+Real-Time+Control+and+Database+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-PerkusichPS,
 	author        = "<a href="person/Maria_Ligia_B_Perkusich.html">Maria Ligia B. Perkusich</a> and <a href="person/Angelo_Perkusich.html">Angelo Perkusich</a> and <a href="person/Ulrich_Schiel.html">Ulrich Schiel</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "150--152",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Integrated Design of Object-Oriented Real-Time Control and Database Systems}",

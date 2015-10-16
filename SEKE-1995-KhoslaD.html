@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integration+of+Task+Level+Architecture+with+O-O+Technology%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-KhoslaD,
 	author        = "<a href="person/Rajiv_Khosla.html">Rajiv Khosla</a> and <a href="person/Tharam_S_Dillon.html">Tharam S. Dillon</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "95--97",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Integration of Task Level Architecture with O-O Technology}",

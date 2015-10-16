@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalability+of+Variability+Management:+An+Example+of+Industrial+Practice+and+Some+Improvements%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-XueJYPZ,
 	author        = "<a href="person/Yinxing_Xue.html">Yinxing Xue</a> and <a href="person/Stan_Jarzabek.html">Stan Jarzabek</a> and <a href="person/Pengfei_Ye.html">Pengfei Ye</a> and <a href="person/Xin_Peng.html">Xin Peng</a> and <a href="person/Wenyun_Zhao.html">Wenyun Zhao</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "705--710",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Scalability of Variability Management: An Example of Industrial Practice and Some Improvements}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Early+Multi-Level+Software+Architecture+Performance+Evaluations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-BarberHB,
 	author        = "<a href="person/K_Suzanne_Barber.html">K. Suzanne Barber</a> and <a href="person/Jim_Holt.html">Jim Holt</a> and <a href="person/Geoff_Baker.html">Geoff Baker</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "561--569",
 	title         = "{Early Multi-Level Software Architecture Performance Evaluations}",
 	year          = 2003,

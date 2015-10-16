@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Defect+Estimation+using+Support+Vector+Regression%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-FagundesS,
 	author        = "<a href="person/Roberta_A_de_A_Fagundes.html">Roberta A. de A. Fagundes</a> and <a href="person/Renata_M_C_R_de_Souza.html">Renata M. C. R. de Souza</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "265--268",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Software Defect Estimation using Support Vector Regression}",

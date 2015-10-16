@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Organizational+Knowledge:+an+XML-based+Approach+to+Support+Knowledge+Management+in+Distributed+and+Heterogeneous+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-MaidantchikSM,
 	author        = "<a href="person/Carmen_Maidantchik.html">Carmen Maidantchik</a> and <a href="person/Gleison_Santos.html">Gleison Santos</a> and <a href="person/Mariano_Montoni.html">Mariano Montoni</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "427--430",
 	title         = "{Organizational Knowledge: an XML-based Approach to Support Knowledge Management in Distributed and Heterogeneous Environments}",
 	year          = 2004,

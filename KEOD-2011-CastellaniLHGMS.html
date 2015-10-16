@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Knowledge-based+System+to+Support+Legal+Case+Construction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-CastellaniLHGMS,
 	author        = "Stefania Castellani and Nikolaos Lagos and Nicolas Hairon and Antonietta Grasso and David B. Martin and Frédérique Segond",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "15--27",
 	publisher     = "{SciTePress}",
 	title         = "{A Knowledge-based System to Support Legal Case Construction}",

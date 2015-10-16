@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1031607.1031651">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2004-AlmesCBFHS,
 	author        = "<a href="person/Guy_T_Almes.html">Guy T. Almes</a> and Jonathon N. Cummings and Jeremy P. Birnholtz and <a href="person/Ian_T_Foster.html">Ian T. Foster</a> and Tony Hey and Bill Spencer",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1031607.1031651">10.1145/1031607.1031651</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1031607.1031651">http://doi.acm.org/10.1145/1031607.1031651</a>",
 </span>	pages         = "270--273",

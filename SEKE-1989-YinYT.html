@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+Activity+Agent:+A+Knowledge-Based+Software+Design+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1989-YinYT,
 	author        = "<a href="person/W_P_Yin.html">W. P. Yin</a> and <a href="person/David_Y_Y_Yun.html">David Y. Y. Yun</a> and <a href="person/Murat_M_Tanik.html">Murat M. Tanik</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "1--8",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Design Activity Agent: A Knowledge-Based Software Design Environment}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+view+towards+Organizational+Learning:+An+empirical+study+on+Scrum+implementation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-SantosGSF,
 	author        = "<a href="person/Viviane_A_Santos.html">Viviane A. Santos</a> and <a href="person/Alfredo_Goldman.html">Alfredo Goldman</a> and <a href="person/Ana_Carolina_M_Shinoda.html">Ana Carolina M. Shinoda</a> and <a href="person/Andre_L_Fischer.html">André L. Fischer</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "583--589",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A view towards Organizational Learning: An empirical study on Scrum implementation}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Topology-based+Geometric+Modelling+for+Biological+Cellular+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Language and Automata Theory and Applications':'LATA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LATA-2007-PoudretCGAM,
 	author        = "<a href="person/Mathieu_Poudret.html">Mathieu Poudret</a> and <a href="person/Jean-Paul_Comet.html">Jean-Paul Comet</a> and <a href="person/Pascale_Le_Gall.html">Pascale Le Gall</a> and <a href="person/Agnes_Arnould.html">Agnès Arnould</a> and <a href="person/Philippe_Meseure.html">Philippe Meseure</a>",
-	booktitle     = "{LATA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Language and Automata Theory and Applications</span>}",
 	pages         = "497--508",
 	publisher     = "{Research Group on Mathematical Linguistics, Universitat Rovira i Virgili, Tarragona}",
 	title         = "{Topology-based Geometric Modelling for Biological Cellular Processes}",

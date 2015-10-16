@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+NLP+Techniques+for+Identifying+GUI+Prototypes+and+UML+Diagrams+From+Use+Cases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-AnchietaSM,
 	author        = "<a href="person/Rafael_T_Anchieta.html">Rafael T. Anchiêta</a> and <a href="person/Rogerio_F_de_Sousa.html">Rogério F. de Sousa</a> and <a href="person/Raimundo_Santos_Moura.html">Raimundo Santos Moura</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "48--53",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Using NLP Techniques for Identifying GUI Prototypes and UML Diagrams From Use Cases}",

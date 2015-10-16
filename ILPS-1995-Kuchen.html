@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Implementation+Issues+for+Functional+Logic+Programming+(Tutorial+Abstract)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-Kuchen,
 	author        = "<a href="person/Herbert_Kuchen.html">Herbert Kuchen</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "612--613",
 	publisher     = "{MIT Press}",
 	title         = "{Implementation Issues for Functional Logic Programming (Tutorial Abstract)}",

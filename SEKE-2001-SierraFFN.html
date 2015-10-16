@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Operationalizing+Application+Descriptions+in+DTC:+Building+Applications+with+Generalized+Markup+Technologies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-SierraFFN,
 	author        = "<a href="person/Jose_Luis_Sierra.html">José Luis Sierra</a> and <a href="person/Alfredo_Fernandez-Valmayor.html">Alfredo Fernández-Valmayor</a> and <a href="person/Baltasar_Fernandez-Manjon.html">Baltasar Fernández-Manjón</a> and <a href="person/Antonio_Navarro.html">Antonio Navarro</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "379--386",
 	title         = "{Operationalizing Application Descriptions in DTC: Building Applications with Generalized Markup Technologies}",
 	year          = 2001,

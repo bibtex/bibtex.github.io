@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1143844.1143952">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2006-SongE,
 	author        = "Le Song and Julien Epps",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Machine Learning</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1143844.1143952">10.1145/1143844.1143952</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1143844.1143952">http://doi.acm.org/10.1145/1143844.1143952</a>",
 </span>	pages         = "857--864",
@@ -55,8 +55,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/interface.html">#interface</a></li>
-<li class="tag"><a href="tag/learning.html">#learning</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/learning.html">#learning</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

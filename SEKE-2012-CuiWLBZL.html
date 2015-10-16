@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Verifying+Aspect-Oriented+Activity+Diagrams+Against+Crosscutting+Properties+with+Petri+Net+Analyzer%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-CuiWLBZL,
 	author        = "<a href="person/Zhanqi_Cui.html">Zhanqi Cui</a> and <a href="person/Linzhang_Wang.html">Linzhang Wang</a> and <a href="person/Xi_Liu.html">Xi Liu</a> and <a href="person/Lei_Bu.html">Lei Bu</a> and <a href="person/Jianhua_Zhao.html">Jianhua Zhao</a> and <a href="person/Xuandong_Li.html">Xuandong Li</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "369--374",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Verifying Aspect-Oriented Activity Diagrams Against Crosscutting Properties with Petri Net Analyzer}",

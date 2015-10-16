@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Convex+Max-Product+over+Compact+Sets+for+Protein+Folding%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-PengHMU,
 	author        = "Jian Peng and Tamir Hazan and <a href="person/David_A_McAllester.html">David A. McAllester</a> and Raquel Urtasun",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "729--736",
 	publisher     = "{Omnipress}",
 	title         = "{Convex Max-Product over Compact Sets for Protein Folding}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1753326.1753423">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2010-ChettyBHRSGKK,
 	author        = "Marshini Chetty and Richard Banks and Richard H. R. Harper and Tim Regan and Abigail Sellen and <a href="person/Christos_Gkantsidis.html">Christos Gkantsidis</a> and <a href="person/Thomas_Karagiannis.html">Thomas Karagiannis</a> and Peter B. Key",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1753326.1753423">10.1145/1753326.1753423</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1753326.1753423">http://doi.acm.org/10.1145/1753326.1753423</a>",
 </span>	pages         = "659--668",

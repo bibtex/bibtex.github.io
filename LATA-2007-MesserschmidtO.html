@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Determinism+Versus+Non-Determinism+for+Restarting+Automata%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Language and Automata Theory and Applications':'LATA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LATA-2007-MesserschmidtO,
 	author        = "<a href="person/Hartmut_Messerschmidt.html">Hartmut Messerschmidt</a> and <a href="person/Friedrich_Otto.html">Friedrich Otto</a>",
-	booktitle     = "{LATA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Language and Automata Theory and Applications</span>}",
 	pages         = "413--424",
 	publisher     = "{Research Group on Mathematical Linguistics, Universitat Rovira i Virgili, Tarragona}",
 	title         = "{On Determinism Versus Non-Determinism for Restarting Automata}",

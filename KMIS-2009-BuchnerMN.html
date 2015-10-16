@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Concept+and+Service+based+Analysis+of+Commercial+and+Open+Source+Enterprise+2.0+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-BuchnerMN,
 	author        = "Thomas Büchner and <a href="person/Florian_Matthes.html">Florian Matthes</a> and Christian Neubert",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "37--45",
 	publisher     = "{INSTICC Press}",
 	title         = "{A Concept and Service based Analysis of Commercial and Open Source Enterprise 2.0 Tools}",

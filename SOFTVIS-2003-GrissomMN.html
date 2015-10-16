@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Algorithm+Visualization+in+CS+Education:+Comparing+Levels+of+Student+Engagement%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-GrissomMN,
 	author        = "<a href="person/Scott_Grissom.html">Scott Grissom</a> and <a href="person/Myles_F_McNally.html">Myles F. McNally</a> and <a href="person/Thomas_L_Naps.html">Thomas L. Naps</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "87--94",
 	publisher     = "{ACM}",
 	title         = "{Algorithm Visualization in CS Education: Comparing Levels of Student Engagement}",

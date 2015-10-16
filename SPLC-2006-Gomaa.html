@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Designing+Software+Product+Lines+with+UML+2.0:+From+Use+Cases+to+Pattern-Based+Software+Architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Software Product Line Conference':'SPLC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2006-Gomaa,
 	author        = "<a href="person/Hassan_Gomaa.html">Hassan Gomaa</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Software Product Line Conference</span>}",
 	pages         = "218",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",
 	title         = "{Designing Software Product Lines with UML 2.0: From Use Cases to Pattern-Based Software Architectures}",

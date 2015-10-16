@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Project+Effort+Estimation+Non+Lineal+Mathematical+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-SoriaMSDH,
 	author        = "<a href="person/Pablo_Rodriguez-Soria.html">Pablo Rodríguez-Soria</a> and <a href="person/Borja_Martin-Herrera.html">Borja Martín-Herrera</a> and <a href="person/Marian_Fernandez_de_Sevilla.html">Marian Fernández de Sevilla</a> and <a href="person/Maria_J_Dominguez-Alda.html">Maria J. Domínguez-Alda</a> and <a href="person/Miguel_A_Herranz.html">Miguel A. Herranz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "619--624",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Software Project Effort Estimation Non Lineal Mathematical Models}",

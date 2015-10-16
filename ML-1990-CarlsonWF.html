@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Search+Control,+Utility,+and+Concept+Induction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1990-CarlsonWF,
 	author        = "Brian M. Carlson and Jerry B. Weinberg and Douglas H. Fisher",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Workshop on Machine Learning</span>}",
 	pages         = "85--92",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Search Control, Utility, and Concept Induction}",

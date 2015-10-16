@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Creating+Proprietary+Terms+Using+Lightweight+Ontology:+A+Case+Study+on+Acquisition+Phase+in+a+Cyber+Forensic+Process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-GayedLB,
 	author        = "<a href="person/Tamer_Fares_Gayed.html">Tamer Fares Gayed</a> and <a href="person/Hakim_Lounis.html">Hakim Lounis</a> and <a href="person/Moncef_Bari.html">Moncef Bari</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "76--81",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Creating Proprietary Terms Using Lightweight Ontology: A Case Study on Acquisition Phase in a Cyber Forensic Process}",

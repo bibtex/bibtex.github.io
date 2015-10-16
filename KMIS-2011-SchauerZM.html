@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Feature-based+Analysis+of+Open+Source+Tools+for+Enterprise+2.0+—+Open+Source+Tools+for+Team+Collaboration+in+SMEs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-SchauerZM,
 	author        = "Bettina Schauer and Michael Zeiller and <a href="person/Robert_Matzinger.html">Robert Matzinger</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "57--66",
 	publisher     = "{SciTePress}",
 	title         = "{A Feature-based Analysis of Open Source Tools for Enterprise 2.0 — Open Source Tools for Team Collaboration in SMEs}",

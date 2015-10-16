@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2661829.2661858">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2014-SegerenGC,
 	author        = "Joshua Segeren and Dhruv Gairola and Fei Chiang",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2661829.2661858">10.1145/2661829.2661858</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2661829.2661858">http://doi.acm.org/10.1145/2661829.2661858</a>",
 </span>	pages         = "2087--2089",
@@ -53,8 +53,7 @@
 </div>
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/constraints.html">#constraints</a></li>
-<li class="tag"><a href="tag/named.html">#named</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/named.html">#named</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">

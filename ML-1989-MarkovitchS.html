@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Information+Filters+and+Their+Implementation+in+the+SYLLOG+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-MarkovitchS,
 	author        = "<a href="person/Shaul_Markovitch.html">Shaul Markovitch</a> and <a href="person/Paul_D_Scott.html">Paul D. Scott</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "404--407",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Information Filters and Their Implementation in the SYLLOG System}",

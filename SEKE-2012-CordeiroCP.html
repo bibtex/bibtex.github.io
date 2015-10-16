@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Light+Weight+Alternative+for+OLAP%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-CordeiroCP,
 	author        = "<a href="person/Hugo_Cordeiro.html">Hugo Cordeiro</a> and <a href="person/Jackson_Casimiro.html">Jackson Casimiro</a> and <a href="person/Erick_Passos.html">Erick Passos</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "712--717",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Light Weight Alternative for OLAP}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Interactive+Locality+Optimization+on+NUMA+Architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-MuTSM,
 	author        = "<a href="person/Tao_Mu.html">Tao Mu</a> and <a href="person/Jie_Tao.html">Jie Tao</a> and <a href="person/Martin_Schulz.html">Martin Schulz</a> and <a href="person/Sally_A_McKee.html">Sally A. McKee</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "133--141",
 	publisher     = "{ACM}",
 	title         = "{Interactive Locality Optimization on NUMA Architectures}",

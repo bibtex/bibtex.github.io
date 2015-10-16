@@ -33,15 +33,16 @@
 <h2>Pedro Matos de Carvalho, Carlos Mendes, Miguel Mira da Silva<br/><em><a href="word/demo.html">DEMO</a> <a href="word/engin.html">Engine</a></em><br/>KEOD, 2013.</h2>
 <div class="rbox">
 <strong><a href="KEOD-2013.html">KEOD 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ic3k/CarvalhoMS13">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22DEMO+Engine%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0004649604450452">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22DEMO+Engine%22">Scholar</a><hr/><a href="http://dx.doi.org/10.5220/0004649604450452">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.5220/0004649604450452">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2013-CarvalhoMS,
 	author        = "Pedro Matos de Carvalho and <a href="person/Carlos_Mendes.html">Carlos Mendes</a> and <a href="person/Miguel_Mira_da_Silva.html">Miguel Mira da Silva</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Knowledge Engineering and Ontology Development</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.5220/0004649604450452">10.5220/0004649604450452</a>",
 </span>	pages         = "445--452",
 	publisher     = "{SciTePress}",

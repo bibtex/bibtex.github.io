@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Tailoring+an+Aspectual+Goal-oriented+Approach+to+Model+Features%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-SilvaAAMC,
 	author        = "<a href="person/Carla_T_L_L_Silva.html">Carla T. L. L. Silva</a> and <a href="person/Fernanda_M_R_Alencar.html">Fernanda M. R. Alencar</a> and <a href="person/Joao_Araujo.html">João Araújo</a> and <a href="person/Ana_Moreira.html">Ana Moreira</a> and <a href="person/Jaelson_Brelaz_de_Castro.html">Jaelson Brelaz de Castro</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "472--477",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Tailoring an Aspectual Goal-oriented Approach to Model Features}",

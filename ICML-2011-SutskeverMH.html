@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+Text+with+Recurrent+Neural+Networks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2011-SutskeverMH,
 	author        = "Ilya Sutskever and James Martens and Geoffrey E. Hinton",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Machine Learning</span>}",
 	pages         = "1017--1024",
 	publisher     = "{Omnipress}",
 	title         = "{Generating Text with Recurrent Neural Networks}",

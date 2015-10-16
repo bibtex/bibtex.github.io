@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2661829.2661840">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2014-ZhangXTW0,
 	author        = "Kezun Zhang and <a href="person/Yanghua_Xiao.html">Yanghua Xiao</a> and <a href="person/Hanghang_Tong.html">Hanghang Tong</a> and Haixun Wang and <a href="person/Wei_Wang.html">Wei Wang</a>",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2661829.2661840">10.1145/2661829.2661840</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2661829.2661840">http://doi.acm.org/10.1145/2661829.2661840</a>",
 </span>	pages         = "2033--2035",

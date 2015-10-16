@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Self-managed+Deployment+in+a+Distributed+Environment+via+Utility+Functions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-DebOP,
 	author        = "<a href="person/Debzani_Deb.html">Debzani Deb</a> and <a href="person/Michael_J_Oudshoorn.html">Michael J. Oudshoorn</a> and <a href="person/John_Paxton.html">John Paxton</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "808--813",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Self-managed Deployment in a Distributed Environment via Utility Functions}",

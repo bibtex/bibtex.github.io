@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Specification+and+Implementation+of+SPEM4MDE,+a+metamodel+for+MDE+software+processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-DiawLC,
 	author        = "<a href="person/Samba_Diaw.html">Samba Diaw</a> and <a href="person/Redouane_Lbath.html">Rédouane Lbath</a> and <a href="person/Bernard_Coulette.html">Bernard Coulette</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "646--653",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Specification and Implementation of SPEM4MDE, a metamodel for MDE software processes}",

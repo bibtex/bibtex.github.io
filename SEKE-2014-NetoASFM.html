@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22CoMoVi:+a+Framework+for+Data+Transformation+in+Credit+Behavioral+Scoring+Applications+Using+Model+Driven+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-NetoASFM,
 	author        = "<a href="person/Rosalvo_F_O_Neto.html">Rosalvo F. O. Neto</a> and <a href="person/Paulo_J_L_Adeodato.html">Paulo J. L. Adeodato</a> and <a href="person/Ana_Carolina_Salgado.html">Ana Carolina Salgado</a> and <a href="person/Dailton_Rodrigues_de_Carvalho_Filho.html">Dailton Rodrigues de Carvalho Filho</a> and <a href="person/Genival_Rocha_Machado.html">Genival Rocha Machado</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "286--291",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{CoMoVi: a Framework for Data Transformation in Credit Behavioral Scoring Applications Using Model Driven Architecture}",

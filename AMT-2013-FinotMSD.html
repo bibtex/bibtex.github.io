@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Meta-model+Coverage+to+Qualify+Test+Oracles%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2013-FinotMSD,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1077/amt13_submission_3.pdf",
 	pages         = "12--21",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Using Meta-model Coverage to Qualify Test Oracles}",
 	volume        = 1077,
 	year          = 2013,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Formal+Concept+Analysis+for+the+Interpretation+of+Relational+Learning+Applied+on+3D+Protein-binding+Sites%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2012-BressoGDNS,
 	author        = "Emmanuel Bresso and Renaud Grisoni and Marie-Dominique Devignes and Amedeo Napoli and Malika Smaïl-Tabbone",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "111--120",
 	publisher     = "{SciTePress}",
 	title         = "{Formal Concept Analysis for the Interpretation of Relational Learning Applied on 3D Protein-binding Sites}",

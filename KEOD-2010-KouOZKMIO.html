@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Development+of+Fundamental+Technologies+for+Better+Understanding+of+Clinical+Medical+Ontologies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-KouOZKMIO,
 	author        = "Hiroko Kou and Mamoru Ohta and Jun Zhou and Kouji Kozaki and <a href="person/Riichiro_Mizoguchi.html">Riichiro Mizoguchi</a> and Takeshi Imai and Kazuhiko Ohe",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "235--240",
 	publisher     = "{SciTePress}",
 	title         = "{Development of Fundamental Technologies for Better Understanding of Clinical Medical Ontologies}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2791060.2791087">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Software Product Line Conference':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2015-BeekLLV,
 	author        = "<a href="person/Maurice_H_ter_Beek.html">Maurice H. ter Beek</a> and <a href="person/Axel_Legay.html">Axel Legay</a> and <a href="person/Alberto_Lluch-Lafuente.html">Alberto Lluch-Lafuente</a> and <a href="person/Andrea_Vandin.html">Andrea Vandin</a>",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Software Product Line Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2791060.2791087">10.1145/2791060.2791087</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2791060.2791087">http://doi.acm.org/10.1145/2791060.2791087</a>",
 </span>	pages         = "11--15",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Branch-Level+Scheduling+in+Aurora:+The+Dharma+Scheduler%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-Sindaha,
 	author        = "<a href="person/Raed_Yousef_Sindaha.html">Raéd Yousef Sindaha</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "403--419",
 	publisher     = "{MIT Press}",
 	title         = "{Branch-Level Scheduling in Aurora: The Dharma Scheduler}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimizations+of+Bottom-Up+Evaluation+with+Non-Ground+Terms%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-SudarshanR,
 	author        = "<a href="person/S_Sudarshan.html">S. Sudarshan</a> and <a href="person/Raghu_Ramakrishnan.html">Raghu Ramakrishnan</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "557--574",
 	publisher     = "{MIT Press}",
 	title         = "{Optimizations of Bottom-Up Evaluation with Non-Ground Terms}",

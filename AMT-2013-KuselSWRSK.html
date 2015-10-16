@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Reality+Check+for+Model+Transformation+Reuse:+The+ATL+Transformation+Zoo+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on the Analysis of Model Transformations':'AMT');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2013-KuselSWRSK,
@@ -46,7 +46,7 @@
 	openpdf       = "http://ceur-ws.org/Vol-1077/amt13_submission_4.pdf",
 	pages         = "42--51",
 	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Reality Check for Model Transformation Reuse: The ATL Transformation Zoo Case Study}",
 	volume        = 1077,
 	year          = 2013,

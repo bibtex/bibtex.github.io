@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22VESTA:+A+View-based+Software+Quality+Assessment+Model+for+Software+Evolution+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-HuKYJS,
 	author        = "<a href="person/Wei-Chung_Hu.html">Wei-Chung Hu</a> and <a href="person/Chia_Hung_Kao.html">Chia Hung Kao</a> and <a href="person/Feng-Pu_Yang.html">Feng-Pu Yang</a> and <a href="person/Hewijin_Christine_Jiau.html">Hewijin Christine Jiau</a> and <a href="person/Kuo-Feng_Ssu.html">Kuo-Feng Ssu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "345--348",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{VESTA: A View-based Software Quality Assessment Model for Software Evolution Management}",

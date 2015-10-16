@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MAAEM:+a+Multi-agent+Application+Engineering+Methodology%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-LeiteGC,
 	author        = "<a href="person/Adriana_Leite.html">Adriana Leite</a> and <a href="person/Rosario_Girardi.html">Rosario Girardi</a> and <a href="person/Uiratan_Cavalcante.html">Uiratan Cavalcante</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "735--740",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{MAAEM: a Multi-agent Application Engineering Methodology}",

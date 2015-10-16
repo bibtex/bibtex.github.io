@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Information+Technology+—+It’s+Role+in+Facilitating+the+Sharing+and+Transfer+of+Knowledge+in+Small+Medium+Sized+Enterprises%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-RajabionK,
 	author        = "Lila Rajabion and Azadeh Kheirabadi",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "275--282",
 	publisher     = "{SciTePress}",
 	title         = "{Information Technology — It’s Role in Facilitating the Sharing and Transfer of Knowledge in Small Medium Sized Enterprises}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1460563.1460591">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th ACM Conference on Computer Supported Cooperative Work':'CSCW');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CSCW-2008-YamashitaHAKH,
 	author        = "Naomi Yamashita and <a href="person/Keiji_Hirata.html">Keiji Hirata</a> and Shigemi Aoyagi and Hideaki Kuzuoka and <a href="person/Yasunori_Harada.html">Yasunori Harada</a>",
-	booktitle     = "{CSCW}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th ACM Conference on Computer Supported Cooperative Work</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1460563.1460591">10.1145/1460563.1460591</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1460563.1460591">http://doi.acm.org/10.1145/1460563.1460591</a>",
 </span>	pages         = "177--186",

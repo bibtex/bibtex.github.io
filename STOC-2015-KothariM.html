@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2746539.2746611">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 47th Annual ACM Symposium on Theory of Computing':'STOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{STOC-2015-KothariM,
 	author        = "Pravesh K. Kothari and <a href="person/Raghu_Meka.html">Raghu Meka</a>",
-	booktitle     = "{STOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 47th Annual ACM Symposium on Theory of Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2746539.2746611">10.1145/2746539.2746611</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2746539.2746611">http://doi.acm.org/10.1145/2746539.2746611</a>",
 </span>	pages         = "247--256",

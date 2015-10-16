@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Bayesian+Approach+to+Temporal+Data+Clustering+using+Hidden+Markov+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2000-LiB,
 	author        = "Cen Li and <a href="person/Gautam_Biswas.html">Gautam Biswas</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Machine Learning</span>}",
 	pages         = "543--550",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A Bayesian Approach to Temporal Data Clustering using Hidden Markov Models}",

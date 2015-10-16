@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Well-Behaved+Semantics+Suitable+for+Aggregation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1997-DixO,
 	author        = "<a href="person/Juergen_Dix.html">Jürgen Dix</a> and <a href="person/Mauricio_Osorio.html">Mauricio Osorio</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "405",
 	publisher     = "{MIT Press}",
 	title         = "{On Well-Behaved Semantics Suitable for Aggregation}",

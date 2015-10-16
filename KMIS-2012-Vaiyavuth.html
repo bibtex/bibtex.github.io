@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22How+Open+Innovation+Models+Might+Help+the+Thai+Energy+Sector+to+Address+the+Climate+Change+Challenge?+—+A+Conceptual+Framework+on+an+Approach+to+Measure+the+Impact+of+Adoption+of+Open+Innovation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-Vaiyavuth,
 	author        = "Ronnakorn Vaiyavuth",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "229--234",
 	publisher     = "{SciTePress}",
 	title         = "{How Open Innovation Models Might Help the Thai Energy Sector to Address the Climate Change Challenge? — A Conceptual Framework on an Approach to Measure the Impact of Adoption of Open Innovation}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22AutoClass:+A+Bayesian+Classification+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1988-CheesemanKSSTF,
 	author        = "Peter Cheeseman and James Kelly and Matthew Self and John Stutz and Will Taylor and Don Freeman",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Workshop on Machine Learning</span>}",
 	pages         = "54--64",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{AutoClass: A Bayesian Classification System}",

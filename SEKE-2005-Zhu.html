@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Formal+Reasoning+about+Emergent+Behaviours+of+Multi-Agent+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-Zhu,
 	author        = "<a href="person/Hong_Zhu.html">Hong Zhu</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "280--285",
 	title         = "{Formal Reasoning about Emergent Behaviours of Multi-Agent Systems}",
 	year          = 2005,

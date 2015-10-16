@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Construction+of+Prolog+Primitives+for+Type+Checking+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Static Analysis at JTASPEFL in Bordeaux':'JTASPEFL/WSA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WSA-1991-BoeckC,
 	author        = "<a href="person/Pierre_De_Boeck.html">Pierre De Boeck</a> and <a href="person/Baudouin_Le_Charlier.html">Baudouin Le Charlier</a>",
-	booktitle     = "{JTASPEFT/WSA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Workshop on Static Analysis at JTASPEFL in Bordeaux</span>}",
 	pages         = "165--172",
 	publisher     = "{Atelier Irisa, IRISA, Campus de Beaulieu}",
 	series        = "{Series Bigre}",

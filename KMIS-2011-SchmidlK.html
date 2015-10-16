@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Using+Task+Histories+to+Support+Person-to-person+Knowledge+Exchange+—+Extracting+and+using+Contextual+Overlap+and+Levels+of+Expertise+to+Connect+Knowledge+Workers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-SchmidlK,
 	author        = "Jörg Schmidl and <a href="person/Helmut_Krcmar.html">Helmut Krcmar</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "77--86",
 	publisher     = "{SciTePress}",
 	title         = "{Using Task Histories to Support Person-to-person Knowledge Exchange — Extracting and using Contextual Overlap and Levels of Expertise to Connect Knowledge Workers}",

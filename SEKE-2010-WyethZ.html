@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Formal+Specification+of+Software+Architecture+Security+Tactics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-WyethZ,
 	author        = "<a href="person/Andrew_Wyeth.html">Andrew Wyeth</a> and <a href="person/Cui_Zhang.html">Cui Zhang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "172--175",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Formal Specification of Software Architecture Security Tactics}",

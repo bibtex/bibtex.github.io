@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Structuring+Taxonomies+by+using+Linguistic+Patterns+and+WordNet+on+Web+Search%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-Rios-AlvaradoLS,
 	author        = "Ana B. Rios-Alvarado and Ivan López-Arévalo and Victor Sosa-Sosa",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "273--278",
 	publisher     = "{SciTePress}",
 	title         = "{Structuring Taxonomies by using Linguistic Patterns and WordNet on Web Search}",

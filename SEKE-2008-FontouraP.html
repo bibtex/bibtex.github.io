@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Systematic+Approach+to+Risk+Management+in+Software+Projects+through+Process+Tailoring%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-FontouraP,
 	author        = "<a href="person/Lisandra_M_Fontoura.html">Lisandra M. Fontoura</a> and <a href="person/Roberto_Tom_Price.html">Roberto Tom Price</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "179--184",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Systematic Approach to Risk Management in Software Projects through Process Tailoring}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2470654.2466117">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 31st ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2013-YliriskuLJBSSHR,
 	author        = "Salu Ylirisku and Siân E. Lindley and Giulio Jacucci and Richard Banks and Craig D. Stewart and Abigail Sellen and Richard H. R. Harper and Tim Regan",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 31st ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2470654.2466117">10.1145/2470654.2466117</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2470654.2466117">http://doi.acm.org/10.1145/2470654.2466117</a>",
 </span>	pages         = "909--918",

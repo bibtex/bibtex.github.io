@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1148170.1148282">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2006-BlunsomKC,
 	author        = "Phil Blunsom and Krystle Kocik and James R. Curran",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1148170.1148282">10.1145/1148170.1148282</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1148170.1148282">http://doi.acm.org/10.1145/1148170.1148282</a>",
 </span>	pages         = "615--616",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrating+Current+Practices+and+Information+Systems+in+KM+Initiatives+—+A+Knowledge+Management+Audit+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-Rodriguez-EliasRVM,
 	author        = "<a href="person/Oscar_M_Rodriguez-Elias.html">Oscar M. Rodríguez-Elias</a> and Cesar E. Rose-Gómez and <a href="person/Aurora_Vizcaino.html">Aurora Vizcaíno</a> and <a href="person/Ana_I_Martinez-Garcia.html">Ana I. Martínez-Garcia</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "71--80",
 	publisher     = "{SciTePress}",
 	title         = "{Integrating Current Practices and Information Systems in KM Initiatives — A Knowledge Management Audit Approach}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Body+of+Knowledge+for+Executing+Performance+Analysis+of+Software+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2014-SchotsRS,
 	author        = "<a href="person/Natalia_Chaves_Lessa_Schots.html">Natália Chaves Lessa Schots</a> and <a href="person/Ana_Regina_Rocha.html">Ana Regina Rocha</a> and <a href="person/Gleison_Santos.html">Gleison Santos</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "560--565",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{A Body of Knowledge for Executing Performance Analysis of Software Processes}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Explaining+and+Generalizing+Diagnostic+Decisions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1993-ORorkeFE,
 	author        = "Paul O'Rorke and Yousri El Fattah and Margaret Elliott",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Machine Learning</span>}",
 	pages         = "228--235",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Explaining and Generalizing Diagnostic Decisions}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Composer-Science:+A+Semantic+Service+Based+framework+for+Workflow+Composition+in+e-Science+Projects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2010-SilvaBC,
 	author        = "<a href="person/Laryssa_Machado_da_Silva.html">Laryssa Machado da Silva</a> and <a href="person/Regina_M_M_Braga.html">Regina M. M. Braga</a> and <a href="person/Fernanda_Campos.html">Fernanda Campos</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "84--87",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Composer-Science: A Semantic Service Based framework for Workflow Composition in e-Science Projects}",

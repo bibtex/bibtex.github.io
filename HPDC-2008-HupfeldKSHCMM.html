@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1383422.1383424">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2008-HupfeldKSHCMM,
 	author        = "Felix Hupfeld and Björn Kolbeck and <a href="person/Jan_Stender.html">Jan Stender</a> and Mikael Högqvist and <a href="person/Toni_Cortes.html">Toni Cortes</a> and Jonathan Martí and Jesus Malo",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1383422.1383424">10.1145/1383422.1383424</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1383422.1383424">http://doi.acm.org/10.1145/1383422.1383424</a>",
 </span>	pages         = "1--10",

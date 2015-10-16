@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Metrics-based+Detection+of+Similar+Software+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-OliveiraBVC,
 	author        = "<a href="person/Paloma_Oliveira.html">Paloma Oliveira</a> and <a href="person/Hudson_Borges.html">Hudson Borges</a> and <a href="person/Marco_Tulio_Valente.html">Marco Tulio Valente</a> and <a href="person/Heitor_Augustus_Xavier_Costa.html">Heitor Augustus Xavier Costa</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "447--450",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Metrics-based Detection of Similar Software (S)}",

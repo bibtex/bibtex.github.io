@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Selected+Papers+of+the+Fifth+Symposium+on+Operating+System+Principles%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SOSP-SI-1975,
 	booktitle     = "{SOSP}",
 	number        = 5,
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
+	series        = "{<span id="series">Communications of the ACM</span>}",
 	title         = "{Selected Papers of the Fifth Symposium on Operating System Principles}",
 	volume        = 19,
 	year          = 1976,

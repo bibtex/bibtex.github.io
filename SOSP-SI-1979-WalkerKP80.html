@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/358818.358825">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1979-WalkerKP80,
 	author        = "<a href="person/Bruce_J_Walker.html">Bruce J. Walker</a> and <a href="person/Richard_A_Kemmerer.html">Richard A. Kemmerer</a> and <a href="person/Gerald_J_Popek.html">Gerald J. Popek</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/358818.358825">10.1145/358818.358825</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/358818.358825">http://doi.acm.org/10.1145/358818.358825</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 2,
 	pages         = "118--131",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Specification and Verification of the UCLA Unix Security Kernel}",
 	volume        = 23,
 	year          = 1980,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proposal+and+Validation+of+a+Feasibility+Model+for+Information+Mining+Projects+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-PytelBG,
 	author        = "<a href="person/Pablo_Pytel.html">Pablo Pytel</a> and <a href="person/Paola_Britos.html">Paola Britos</a> and <a href="person/Ramon_Garcia-Martinez.html">Ramón García-Martínez</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "83--88",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Proposal and Validation of a Feasibility Model for Information Mining Projects (S)}",

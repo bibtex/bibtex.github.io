@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Intuitionistic+Resolution+Method+for+a+Language+Dealing+with+Scope+Constraints%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1993-Hui-Bon-Hoa,
 	author        = "<a href="person/Alain_Hui-Bon-Hoa.html">Alain Hui-Bon-Hoa</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "667",
 	publisher     = "{MIT Press}",
 	title         = "{An Intuitionistic Resolution Method for a Language Dealing with Scope Constraints}",

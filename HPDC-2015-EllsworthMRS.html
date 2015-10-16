@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2749246.2749277">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2015-EllsworthMRS,
 	author        = "Daniel A. Ellsworth and <a href="person/Allen_D_Malony.html">Allen D. Malony</a> and Barry Rountree and <a href="person/Martin_Schulz.html">Martin Schulz</a>",
-	booktitle     = "{HPDC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2749246.2749277">10.1145/2749246.2749277</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2749246.2749277">http://doi.acm.org/10.1145/2749246.2749277</a>",
 </span>	pages         = "145--148",

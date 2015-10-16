@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Improving+Enterprise+IT+Governance+and+Management+by+Applying+Competitive+Intelligence+and+External+Context+Discovery+on+COBIT+5.0%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-RamosSB,
 	author        = "Eduardo Costa Ramos and <a href="person/Flavia_Maria_Santoro.html">Flávia Maria Santoro</a> and <a href="person/Fernanda_Araujo_Baiao.html">Fernanda Araujo Baião</a>",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "89--96",
 	publisher     = "{SciTePress}",
 	title         = "{Improving Enterprise IT Governance and Management by Applying Competitive Intelligence and External Context Discovery on COBIT 5.0}",

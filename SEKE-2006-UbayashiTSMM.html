@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Aspect-Oriented+and+Collaborative+Systems+Metamodel+Access+Protocols+for+Extensible+Aspect-Oriented+Modeling%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-UbayashiTSMM,
 	author        = "<a href="person/Naoyasu_Ubayashi.html">Naoyasu Ubayashi</a> and <a href="person/Tetsuo_Tamai.html">Tetsuo Tamai</a> and <a href="person/Shinji_Sano.html">Shinji Sano</a> and <a href="person/Yusaku_Maeno.html">Yusaku Maeno</a> and <a href="person/Satoshi_Murakami.html">Satoshi Murakami</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "4--10",
 	title         = "{Aspect-Oriented and Collaborative Systems Metamodel Access Protocols for Extensible Aspect-Oriented Modeling}",
 	year          = 2006,

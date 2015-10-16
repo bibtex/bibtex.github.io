@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DiLiA+—+a+Digital+Library+Assistant+—+A+New+Approach+to+Information+Discovery+through+Information+Extraction+and+Visualization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2009-SeifertEHSKRN,
 	author        = "Inessa Seifert and Kathrin Eichler and Holmer Hemsen and Sven Schmeier and Michael Kruppa and Norbert Reithinger and Günter Neumann",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "180--185",
 	publisher     = "{INSTICC Press}",
 	title         = "{DiLiA — a Digital Library Assistant — A New Approach to Information Discovery through Information Extraction and Visualization}",

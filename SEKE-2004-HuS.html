@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Mapping+UML+Diagrams+to+a+Petri+Net+Notation+for+System+Simulation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-HuS,
 	author        = "<a href="person/Zhaoxia_Hu.html">Zhaoxia Hu</a> and <a href="person/Sol_M_Shatz.html">Sol M. Shatz</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "213--219",
 	title         = "{Mapping UML Diagrams to a Petri Net Notation for System Simulation}",
 	year          = 2004,

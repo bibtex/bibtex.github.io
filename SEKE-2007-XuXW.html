@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+Test+Code+Generation+from+UML+Protocol+State+Machines%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-XuXW,
 	author        = "<a href="person/Dianxiang_Xu.html">Dianxiang Xu</a> and <a href="person/Weifeng_Xu.html">Weifeng Xu</a> and <a href="person/W_Eric_Wong.html">W. Eric Wong</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "99--104",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Automated Test Code Generation from UML Protocol State Machines}",

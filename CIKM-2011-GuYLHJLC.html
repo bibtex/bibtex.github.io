@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2063576.2063847">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-2011-GuYLHJLC,
 	author        = "Yingqin Gu and <a href="person/Jun_Yan.html">Jun Yan</a> and Hongyan Liu and <a href="person/Jun_He.html">Jun He</a> and Lei Ji and Ning Liu and Zheng Chen",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM International Conference on Conference on Information and Knowledge Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2063576.2063847">10.1145/2063576.2063847</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2063576.2063847">http://doi.acm.org/10.1145/2063576.2063847</a>",
 </span>	pages         = "1883--1888",

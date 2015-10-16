@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Architeture+Design+of+a+Network-centric+Platform+for+Unified+Communication+and+Collaboration+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2012-KeumKB,
 	author        = "ChangSup Keum and <a href="person/Sungwon_Kang.html">Sungwon Kang</a> and Hyunjoo Bae",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "294--297",
 	publisher     = "{SciTePress}",
 	title         = "{Architeture Design of a Network-centric Platform for Unified Communication and Collaboration Applications}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Combining+Rules+and+Description+Logics:+An+Overview+of+CARIN%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the International Symposium on Logic Programming':'ILPS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ILPS-1995-LevyR,
 	author        = "<a href="person/Alon_Y_Levy.html">Alon Y. Levy</a> and <a href="person/Marie-Christine_Rousset.html">Marie-Christine Rousset</a>",
-	booktitle     = "{ILPS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the International Symposium on Logic Programming</span>}",
 	pages         = "635",
 	publisher     = "{MIT Press}",
 	title         = "{Combining Rules and Description Logics: An Overview of CARIN}",

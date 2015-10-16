@@ -33,15 +33,16 @@
 <h2>Antti Valmari<br/><em><a href="word/charact.html">Character</a> <a href="word/string.html">Strings</a> and <a href="word/gödel.html">Gödel</a>’s <a href="word/incomplet.html">Incompleteness</a> <a href="word/proof.html">Proof</a></em><br/>AFL, 2014.</h2>
 <div class="rbox">
 <strong><a href="AFL-2014.html">AFL 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/journals/corr/Valmari14">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Character+Strings+and+Gödel’s+Incompleteness+Proof%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4204/EPTCS.151.25">DOI</a>
+<a href="https://scholar.google.com/scholar?q=%22Character+Strings+and+Gödel’s+Incompleteness+Proof%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4204/EPTCS.151.25">ACM DL</a><br/>
+<a href="http://dx.doi.org/10.4204/EPTCS.151.25">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Automata and Formal Languages':'AFL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AFL-2014-Valmari,
 	author        = "<a href="person/Antti_Valmari.html">Antti Valmari</a>",
-	booktitle     = "{AFL}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Automata and Formal Languages</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.4204/EPTCS.151.25">10.4204/EPTCS.151.25</a>",
 </span>	pages         = "355--369",
 	series        = "{EPTCS}",

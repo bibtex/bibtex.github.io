@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/568760.568796">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2002-BryantBARO,
 	author        = "<a href="person/Barrett_R_Bryant.html">Barrett R. Bryant</a> and <a href="person/Carol_C_Burt.html">Carol C. Burt</a> and <a href="person/Mikhail_Auguston.html">Mikhail Auguston</a> and <a href="person/Rajeev_R_Raje.html">Rajeev R. Raje</a> and <a href="person/Andrew_M_Olson.html">Andrew M. Olson</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Software Engineering and Knowledge Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/568760.568796">10.1145/568760.568796</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/568760.568796">http://doi.acm.org/10.1145/568760.568796</a>",
 </span>	pages         = "209--212",

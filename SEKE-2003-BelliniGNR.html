@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22TILCO+Temporal+Logic+for+Real-Time+Systems+Implementation+in+C++%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-BelliniGNR,
 	author        = "<a href="person/Pierfrancesco_Bellini.html">Pierfrancesco Bellini</a> and <a href="person/Andrea_Giotti.html">Andrea Giotti</a> and <a href="person/Paolo_Nesi.html">Paolo Nesi</a> and <a href="person/Davide_Rogai.html">Davide Rogai</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "166--173",
 	title         = "{TILCO Temporal Logic for Real-Time Systems Implementation in C++}",
 	year          = 2003,

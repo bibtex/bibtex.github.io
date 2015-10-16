@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Model+Version+Management+in+a+Design+Process%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2001-GonnetL,
 	author        = "<a href="person/Silvio_Gonnet.html">Silvio Gonnet</a> and <a href="person/Horacio_P_Leone.html">Horacio P. Leone</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "260--267",
 	title         = "{A Framework for Model Version Management in a Design Process}",
 	year          = 2001,

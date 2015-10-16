@@ -33,16 +33,17 @@
 <h2>Mark Reynolds<br/><em><a href="word/more.html">More</a> <a href="word/past.html">Past</a> <a href="word/glori.html">Glories</a></em><br/>LICS, 2000.</h2>
 <div class="rbox">
 <strong><a href="LICS-2000.html">LICS 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/lics/Reynolds00">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22More+Past+Glories%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/LICS.2000.855772">IEEE CS</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22More+Past+Glories%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/LICS.2000.855772">ACM DL</a><br/>
+<a href="http://doi.ieeecomputersociety.org/10.1109/LICS.2000.855772">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1109/LICS.2000.855772">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Annual IEEE Symposium on Logic in Computer Science':'LICS');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{LICS-2000-Reynolds,
 	author        = "<a href="person/Mark_Reynolds.html">Mark Reynolds</a>",
-	booktitle     = "{LICS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Annual IEEE Symposium on Logic in Computer Science</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/LICS.2000.855772">10.1109/LICS.2000.855772</a>",
 </span>	pages         = "229--240",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

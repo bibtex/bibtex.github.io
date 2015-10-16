@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Revising+Rules+to+Capture+Requirements+Traceability+Relations:+A+Machine+Learning+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2003-SpanoudakisGZ,
 	author        = "<a href="person/George_Spanoudakis.html">George Spanoudakis</a> and <a href="person/Artur_S_dAvila_Garcez.html">Artur S. d'Avila Garcez</a> and <a href="person/Andrea_Zisman.html">Andrea Zisman</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "570--577",
 	title         = "{Revising Rules to Capture Requirements Traceability Relations: A Machine Learning Approach}",
 	year          = 2003,

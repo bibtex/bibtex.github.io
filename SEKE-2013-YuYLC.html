@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Empirical+Study+of+an+Improved+Web+Application+Fuzz+Testing+Technique+(S)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-YuYLC,
 	author        = "<a href="person/Lili_Yu.html">Lili Yu</a> and <a href="person/Zi_Yuan.html">Zi Yuan</a> and <a href="person/Chao_Liu.html">Chao Liu</a> and <a href="person/Feng_Chen.html">Feng Chen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "400--404",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{An Empirical Study of an Improved Web Application Fuzz Testing Technique (S)}",

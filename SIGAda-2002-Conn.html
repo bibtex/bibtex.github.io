@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/589451.589453">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Annual ACM SIGAda International Conference on Ada: The Engineering of Correct and Reliable Software for Real-Time & Distributed Systems using Ada and Related Technologies':'SIGAda');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGAda-2002-Conn,
 	author        = "<a href="person/Richard_Conn.html">Richard Conn</a>",
-	booktitle     = "{SIGAda}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Annual ACM SIGAda International Conference on Ada: The Engineering of Correct and Reliable Software for Real-Time & Distributed Systems using Ada and Related Technologies</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/589451.589453">10.1145/589451.589453</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/589451.589453">http://doi.acm.org/10.1145/589451.589453</a>",
 </span>	pages         = "10",

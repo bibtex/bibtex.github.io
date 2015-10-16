@@ -33,15 +33,15 @@
 <h2>Armin Biere<br/><em><a href="word/resolv.html">Resolve</a> and <a href="word/expand.html">Expand</a></em><br/>ICST, 2004.</h2>
 <div class="rbox">
 <strong><a href="SAT-2004.html">SAT 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sat/Biere04">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Resolve+and+Expand%22">Scholar</a><hr/><a href="http://www.satisfiability.org/SAT04/programme/93.pdf">?EE?</a>
+<a href="https://scholar.google.com/scholar?q=%22Resolve+and+Expand%22">Scholar</a><hr/><a href="http://www.satisfiability.org/SAT04/programme/93.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Theory and Applications of Satisfiability Testing':'SAT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAT-2004-Biere04,
 	author        = "<a href="person/Armin_Biere.html">Armin Biere</a>",
-	booktitle     = "{SAT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Theory and Applications of Satisfiability Testing</span>}",
 <span class="uri">	ee            = "<a href="http://www.satisfiability.org/SAT04/programme/93.pdf">http://www.satisfiability.org/SAT04/programme/93.pdf</a>",
 </span>	title         = "{Resolve and Expand}",
 	year          = 2004,

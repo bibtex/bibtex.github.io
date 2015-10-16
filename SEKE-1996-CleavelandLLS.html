@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Theory+of+Testing+for+Soft+Real-Time+Processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1996-CleavelandLLS,
 	author        = "<a href="person/Rance_Cleaveland.html">Rance Cleaveland</a> and <a href="person/Insup_Lee.html">Insup Lee</a> and <a href="person/Philip_M_Lewis.html">Philip M. Lewis</a> and <a href="person/Scott_A_Smolka.html">Scott A. Smolka</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "474--479",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Theory of Testing for Soft Real-Time Processes}",

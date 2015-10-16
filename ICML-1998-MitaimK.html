@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Stochastic+Resonance+with+Adaptive+Fuzzy+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-MitaimK,
 	author        = "Sanya Mitaim and Bart Kosko",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "377--385",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Stochastic Resonance with Adaptive Fuzzy Systems}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/170657.170666">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Conference Proceedings on TRI-Ada 1993':'TRI-Ada');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TRI-Ada-1993-MathiasR,
 	author        = "<a href="person/Karl_S_Mathias.html">Karl S. Mathias</a> and <a href="person/Mark_A_Roth.html">Mark A. Roth</a>",
-	booktitle     = "{TRI-Ada}",
+	booktitle     = "{<span id="booktitle">Conference Proceedings on TRI-Ada 1993</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/170657.170666">10.1145/170657.170666</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/170657.170666">http://doi.acm.org/10.1145/170657.170666</a>",
 </span>	pages         = "29--36",

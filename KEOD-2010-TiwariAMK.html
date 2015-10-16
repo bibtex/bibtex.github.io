@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+Discovery+of+Web+Services+using+Mobile+Agents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-TiwariAMK,
 	author        = "Gaurav Tiwari and Rahul Agrawal and Shakti Mishra and Dharmender Singh Kushwaha",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "497--500",
 	publisher     = "{SciTePress}",
 	title         = "{Dynamic Discovery of Web Services using Mobile Agents}",

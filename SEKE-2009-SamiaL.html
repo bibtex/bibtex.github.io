@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Pie+Tree+Visualization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-SamiaL,
 	author        = "<a href="person/Mireille_Samia.html">Mireille Samia</a> and <a href="person/Michael_Leuschel.html">Michael Leuschel</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "400--405",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Pie Tree Visualization}",

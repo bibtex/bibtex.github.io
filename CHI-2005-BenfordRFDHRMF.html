@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/1054972.1055072">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2005-BenfordRFDHRMF,
 	author        = "Steve Benford and Duncan Rowland and Martin Flintham and Adam Drozd and <a href="person/Richard_Hull.html">Richard Hull</a> and Josephine Reid and Jo Morrison and Keri Facer",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1054972.1055072">10.1145/1054972.1055072</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1054972.1055072">http://doi.acm.org/10.1145/1054972.1055072</a>",
 </span>	pages         = "721--730",

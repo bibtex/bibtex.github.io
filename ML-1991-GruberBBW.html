@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+Rationale+Capture+as+Knowledge+Acquisition%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Workshop on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1991-GruberBBW,
 	author        = "Thomas R. Gruber and Catherine Baudin and John H. Boose and Jay Webber",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Workshop on Machine Learning</span>}",
 	pages         = "3--12",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Design Rationale Capture as Knowledge Acquisition}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Benchmarking+the+RDF(S)+Interoperability+of+Ontology+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-Garcia-CastroGS,
 	author        = "<a href="person/Raul_Garcia-Castro.html">Raúl García-Castro</a> and <a href="person/Asuncion_Gomez-Perez.html">Asunción Gómez-Pérez</a> and <a href="person/York_Sure.html">York Sure</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "410--415",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Benchmarking the RDF(S) Interoperability of Ontology Tools}",

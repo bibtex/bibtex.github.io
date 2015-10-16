@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Program+text+as+hypertext:+using+program+dependences+for+transient+linking%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1994-KoskinenPS,
 	author        = "<a href="person/Jussi_Koskinen.html">Jussi Koskinen</a> and <a href="person/Jukka_Paakki.html">Jukka Paakki</a> and <a href="person/Airi_Salminen.html">Airi Salminen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "209--216",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Program text as hypertext: using program dependences for transient linking}",

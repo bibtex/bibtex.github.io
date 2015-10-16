@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+Test+Cases+of+Composite+Services+Based+on+OWL-S+and+EH-CPN%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2009-LiCQJJ,
 	author        = "<a href="person/Bixin_Li.html">Bixin Li</a> and <a href="person/Ju_Cai.html">Ju Cai</a> and <a href="person/Dong_Qiu.html">Dong Qiu</a> and <a href="person/Shunhui_Ji.html">Shunhui Ji</a> and <a href="person/Yuting_Jiang.html">Yuting Jiang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "350--355",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Generating Test Cases of Composite Services Based on OWL-S and EH-CPN}",

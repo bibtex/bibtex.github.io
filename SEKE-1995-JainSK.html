@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Reusability+Based+Upon+Similar+Computational+Behavior%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-JainSK,
 	author        = "<a href="person/Ashish_Jain.html">Ashish Jain</a> and <a href="person/Leon_Sterling.html">Leon Sterling</a> and <a href="person/Marc_Kirschenbaum.html">Marc Kirschenbaum</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "197--203",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Towards Reusability Based Upon Similar Computational Behavior}",

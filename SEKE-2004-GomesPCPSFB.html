@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reuse+of+UML+Class+Diagrams+Using+Case-Based+Composition%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-GomesPCPSFB,
 	author        = "<a href="person/Paulo_Gomes.html">Paulo Gomes</a> and <a href="person/Francisco_C_Pereira.html">Francisco C. Pereira</a> and <a href="person/Paulo_Carreiro.html">Paulo Carreiro</a> and <a href="person/Paulo_Paiva.html">Paulo Paiva</a> and <a href="person/Nuno_Seco.html">Nuno Seco</a> and <a href="person/Jose_Luis_Ferreira.html">José Luís Ferreira</a> and <a href="person/Carlos_Bento.html">Carlos Bento</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "258--263",
 	title         = "{Reuse of UML Class Diagrams Using Case-Based Composition}",
 	year          = 2004,

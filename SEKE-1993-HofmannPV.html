@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Situated+Software+Design%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-HofmannPV,
 	author        = "<a href="person/Hubert_F_Hofmann.html">Hubert F. Hofmann</a> and <a href="person/Rolf_Pfeifer.html">Rolf Pfeifer</a> and <a href="person/Erik_Vinkhuyzen.html">Erik Vinkhuyzen</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "622--628",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Situated Software Design}",

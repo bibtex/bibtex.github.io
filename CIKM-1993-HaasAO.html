@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/170088.170422">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1993-HaasAO,
 	author        = "<a href="person/Juergen_Haas.html">Juergen Haas</a> and Jeffery S. Aaronson and G. Christian Overton",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1993/P554.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/170088.170422">10.1145/170088.170422</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/170088.170422">http://doi.acm.org/10.1145/170088.170422</a>",

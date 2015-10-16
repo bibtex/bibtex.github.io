@@ -33,18 +33,18 @@
 <h2>Franz Van Assche<br/><em>On the <a href="word/futur.html">Future</a> of <a href="word/case.html">CASE</a> <a href="word/tool.html">Tools</a></em><br/>CAiSE, 1989.</h2>
 <div class="rbox">
 <strong><a href="CAISE-1989.html">CAISE 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/caise/Assche89">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22On+the+Future+of+CASE+Tools%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper13.pdf">CEUR</a>
+<a href="https://scholar.google.com/scholar?q=%22On+the+Future+of+CASE+Tools%22">Scholar</a><hr/><a href="http://ceur-ws.org/Vol-961/paper13.pdf">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)':'CA(i)SE');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CAISE-1989-Assche,
 	author        = "<a href="person/Franz_Van_Assche.html">Franz Van Assche</a>",
-	booktitle     = "{CA(i)SE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Nordic Conference on Advanced Systems Engineering, CA(i)SE (republished at CEUR-WS.org in 2013)</span>}",
 <span class="uri">	ee            = "<a href="http://ceur-ws.org/Vol-961/paper13.pdf">http://ceur-ws.org/Vol-961/paper13.pdf</a>",
 </span>	publisher     = "{CEUR-WS.org}",
-	series        = "{CEUR Workshop Proceedings}",
+	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{On the Future of CASE Tools}",
 	volume        = 961,
 	year          = 1989,

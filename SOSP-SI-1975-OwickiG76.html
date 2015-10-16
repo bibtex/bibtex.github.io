@@ -37,18 +37,17 @@
 <a href="http://dx.doi.org/10.1145/360051.360224">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Communications of the ACM':'CACM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{SOSP-SI-1975-OwickiG76,
 	author        = "<a href="person/Susan_S_Owicki.html">Susan S. Owicki</a> and <a href="person/David_Gries.html">David Gries</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/360051.360224">10.1145/360051.360224</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/360051.360224">http://doi.acm.org/10.1145/360051.360224</a>",
-</span>	journal       = "{Commun. ACM}",
+</span>	journal       = "{<span id="journal">Communications of the ACM</span>}",
 	number        = 5,
 	pages         = "279--285",
 	publisher     = "{ACM}",
-	series        = "{Communications of the ACM}",
 	title         = "{Verifying Properties of Parallel Programs: An Axiomatic Approach}",
 	volume        = 19,
 	year          = 1976,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Characterization+of+Valuation+Rings+and+Valuation+Semigroups+by+Semistar-Operations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Words, Languages & Combinatorics':'Words, Languages & Combinatorics');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WLC-2000-Matsuda,
 	author        = "Ryuki Matsuda",
-	booktitle     = "{Words, Languages & Combinatorics}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Words, Languages & Combinatorics</span>}",
 	pages         = "339--351",
 	publisher     = "{World Scientific}",
 	title         = "{Characterization of Valuation Rings and Valuation Semigroups by Semistar-Operations}",

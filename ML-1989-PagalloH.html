@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Two+Algorithms+That+Learn+DNF+by+Discovering+Relevant+Features%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1989-PagalloH,
 	author        = "Giulia Pagallo and <a href="person/David_Haussler.html">David Haussler</a>",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Workshop on Machine Learning</span>}",
 	pages         = "119--123",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Two Algorithms That Learn DNF by Discovering Relevant Features}",

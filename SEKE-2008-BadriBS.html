@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Predicting+Change+Propagation+in+Object-oriented+Systems:+a+Control-call+Path+Based+Approach+and+Associated+Tool%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2008-BadriBS,
 	author        = "<a href="person/Linda_Badri.html">Linda Badri</a> and <a href="person/Mourad_Badri.html">Mourad Badri</a> and <a href="person/Daniel_St-Yves.html">Daniel St-Yves</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "103--110",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Predicting Change Propagation in Object-oriented Systems: a Control-call Path Based Approach and Associated Tool}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+SSEP+toolset+for+product+line+development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Software Product Line Conference: Experiences and Research Directions':'SPLC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SPLC-2000-StuartSPCWC,
 	author        = "Douglas Stuart and Wonhee Sull and Steve Pruitt and Deborah Cobb and Fred Waskiewicz and T. W. Cook",
-	booktitle     = "{SPLC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Software Product Line Conference: Experiences and Research Directions</span>}",
 	pages         = "413--436",
 	publisher     = "{Kluwer}",
 	title         = "{The SSEP toolset for product line development}",

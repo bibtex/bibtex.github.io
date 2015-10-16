@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Architecture+for+Personal+Cognitive+Assistance%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-GarlanS,
 	author        = "<a href="person/David_Garlan.html">David Garlan</a> and <a href="person/Bradley_R_Schmerl.html">Bradley R. Schmerl</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "91--97",
 	title         = "{An Architecture for Personal Cognitive Assistance}",
 	year          = 2006,

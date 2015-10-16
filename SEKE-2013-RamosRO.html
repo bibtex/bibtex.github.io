@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+strategy+for+analysing+benefits+of+Software+Process+Improvement+programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-RamosRO,
 	author        = "<a href="person/Cristiane_S_Ramos.html">Cristiane S. Ramos</a> and <a href="person/Ana_Regina_Rocha.html">Ana Regina Rocha</a> and <a href="person/Kathia_Marcal_de_Oliveira.html">Káthia Marçal de Oliveira</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "638--643",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Towards a strategy for analysing benefits of Software Process Improvement programs}",

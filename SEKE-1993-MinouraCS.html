@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+SAOS+Approach+to+Software+Lifecycle+Support%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-MinouraCS,
 	author        = "<a href="person/Toshimi_Minoura.html">Toshimi Minoura</a> and <a href="person/Sungwoon_Choi.html">Sungwoon Choi</a> and <a href="person/Anil_Srivastava.html">Anil Srivastava</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "54--61",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{The SAOS Approach to Software Lifecycle Support}",

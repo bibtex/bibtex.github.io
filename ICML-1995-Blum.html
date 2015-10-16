@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Empirical+Support+for+Winnow+and+Weighted-Majority+Based+Algorithms:+Results+on+a+Calendar+Scheduling+Domain%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1995-Blum,
 	author        = "Avrim Blum",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Machine Learning</span>}",
 	pages         = "64--72",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Empirical Support for Winnow and Weighted-Majority Based Algorithms: Results on a Calendar Scheduling Domain}",

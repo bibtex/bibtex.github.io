@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+KAMET+II+Architecture+for+Problem-Solving+Method+Reuse%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-CairoA,
 	author        = "<a href="person/Osvaldo_Cairo.html">Osvaldo Cairó</a> and <a href="person/Julio_Cesar_Alvarez.html">Julio César Alvarez</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "435--438",
 	title         = "{The KAMET II Architecture for Problem-Solving Method Reuse}",
 	year          = 2004,

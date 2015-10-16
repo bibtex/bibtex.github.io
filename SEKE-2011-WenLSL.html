@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Program+slicing+spectrum-based+software+fault+localization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2011-WenLSL,
 	author        = "<a href="person/Wanzhi_Wen.html">Wanzhi Wen</a> and <a href="person/Bixin_Li.html">Bixin Li</a> and <a href="person/Xiaobing_Sun.html">Xiaobing Sun</a> and <a href="person/Jiakai_Li.html">Jiakai Li</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "213--218",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Program slicing spectrum-based software fault localization}",

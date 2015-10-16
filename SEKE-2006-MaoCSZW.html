@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Dynamic+Casteship+Mechanism+for+Modeling+and+Designing+Adaptive+Agents%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2006-MaoCSZW,
 	author        = "<a href="person/XinJun_Mao.html">XinJun Mao</a> and <a href="person/Zhiming_Chang.html">Zhiming Chang</a> and <a href="person/Lijun_Shan.html">Lijun Shan</a> and <a href="person/Hong_Zhu.html">Hong Zhu</a> and <a href="person/Ji_Wang.html">Ji Wang</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "639--644",
 	title         = "{The Dynamic Casteship Mechanism for Modeling and Designing Adaptive Agents}",
 	year          = 2006,

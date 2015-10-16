@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Interpretation+of+Collaborative+Decisions+by+Meta-metrics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2011-GronauWH,
 	author        = "<a href="person/Norbert_Gronau.html">Norbert Gronau</a> and Edzard Weber and Priscilla Heinze",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "158--166",
 	publisher     = "{SciTePress}",
 	title         = "{Interpretation of Collaborative Decisions by Meta-metrics}",

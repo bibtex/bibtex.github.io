@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Parametric+Verification+of+TimeWorkflow+Nets%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2012-BouchenebB,
 	author        = "<a href="person/Hanifa_Boucheneb.html">Hanifa Boucheneb</a> and <a href="person/Kamel_Barkaoui.html">Kamel Barkaoui</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "375--380",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Parametric Verification of TimeWorkflow Nets}",

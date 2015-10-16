@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On-line+Learning+of+Binary+Lexical+Relations+Using+Two-dimensional+Weighted+Majority+Algorithms%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1995-AbeLN,
 	author        = "Naoki Abe and <a href="person/Hang_Li.html">Hang Li</a> and Atsuyoshi Nakamura",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Machine Learning</span>}",
 	pages         = "3--11",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{On-line Learning of Binary Lexical Relations Using Two-dimensional Weighted Majority Algorithms}",

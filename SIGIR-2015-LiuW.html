@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2766462.2767775">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2015-LiuW,
 	author        = "<a href="person/Xin_Liu.html">Xin Liu</a> and <a href="person/Wei_Wu.html">Wei Wu</a>",
-	booktitle     = "{SIGIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2766462.2767775">10.1145/2766462.2767775</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2766462.2767775">http://doi.acm.org/10.1145/2766462.2767775</a>",
 </span>	pages         = "887--890",

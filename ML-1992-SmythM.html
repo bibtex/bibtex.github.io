@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+Novel+Classes+with+Applications+to+Fault+Diagnosis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Workshop on Machine Learning':'ML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ML-1992-SmythM,
 	author        = "Padhraic Smyth and Jeff Mellstrom",
-	booktitle     = "{ML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Workshop on Machine Learning</span>}",
 	pages         = "416--425",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Detecting Novel Classes with Applications to Fault Diagnosis}",

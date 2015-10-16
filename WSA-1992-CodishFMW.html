@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Analysis+of+Reactive+Properties+of+Concurrent+Constraint+Logic+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second Workshop on Static Analysis in Bordeaux':'WSA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{WSA-1992-CodishFMW,
 	author        = "<a href="person/Michael_Codish.html">Michael Codish</a> and <a href="person/Moreno_Falaschi.html">Moreno Falaschi</a> and <a href="person/Kim_Marriott.html">Kim Marriott</a> and <a href="person/William_H_Winsborough.html">William H. Winsborough</a>",
-	booktitle     = "{WSA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second Workshop on Static Analysis in Bordeaux</span>}",
 	pages         = "35--42",
 	publisher     = "{Atelier Irisa, IRISA, Campus de Beaulieu}",
 	series        = "{Series Bigre}",

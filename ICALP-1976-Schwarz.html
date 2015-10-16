@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Event+Based+Reasoning+—+A+System+for+Proving+Correct+Termination+of+Programs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Colloquium on Automata, Languages and Programming':'ICALP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICALP-1976-Schwarz,
 	author        = "<a href="person/J_Schwarz.html">J. Schwarz</a>",
-	booktitle     = "{ICALP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Colloquium on Automata, Languages and Programming</span>}",
 	pages         = "131--146",
 	title         = "{Event Based Reasoning — A System for Proving Correct Termination of Programs}",
 	year          = 1976,
@@ -51,7 +51,6 @@
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/proving.html">#proving</a></li>
 <li class="tag"><a href="tag/reasoning.html">#reasoning</a></li>
 <li class="tag"><a href="tag/source%20code.html">#source code</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li>
 <li class="tag"><a href="tag/termination.html">#termination</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>

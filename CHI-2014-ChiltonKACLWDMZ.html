@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2556288.2557375">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd ACM SIGCHI Conference on Human Factors in Computing Systems':'CHI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CHI-2014-ChiltonKACLWDMZ,
 	author        = "Lydia B. Chilton and Juho Kim and Paul André and Felicia Cordeiro and James A. Landay and Daniel S. Weld and Steven P. Dow and <a href="person/Robert_C_Miller.html">Robert C. Miller</a> and Haoqi Zhang",
-	booktitle     = "{CHI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd ACM SIGCHI Conference on Human Factors in Computing Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2556288.2557375">10.1145/2556288.2557375</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2556288.2557375">http://doi.acm.org/10.1145/2556288.2557375</a>",
 </span>	pages         = "1255--1264",

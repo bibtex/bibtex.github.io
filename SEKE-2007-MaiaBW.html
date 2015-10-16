@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Odyssey-MDA:+A+Transformational+Approach+to+Component+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2007-MaiaBW,
 	author        = "<a href="person/Natanael_Maia.html">Natanael Maia</a> and <a href="person/Ana_Paula_Terra_Bacelo.html">Ana Paula Terra Bacelo</a> and <a href="person/Claudia_Maria_Lima_Werner.html">Cláudia Maria Lima Werner</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "9--14",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Odyssey-MDA: A Transformational Approach to Component Models}",

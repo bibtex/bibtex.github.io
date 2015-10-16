@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Experimental+Evidence+on+Data+Warehouse+Fragmentation+and+Allocation+in+a+Distributed+Context%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Management and Information Sharing':'KMIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KMIS-2010-KarimaAO,
 	author        = "Tekaya Karima and Abdellaziz Abdelatif and Habib Ounalli",
-	booktitle     = "{KMIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Management and Information Sharing</span>}",
 	pages         = "102--110",
 	publisher     = "{SciTePress}",
 	title         = "{Experimental Evidence on Data Warehouse Fragmentation and Allocation in a Distributed Context}",

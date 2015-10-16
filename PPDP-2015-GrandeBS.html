@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/2790449.2790523">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Symposium on Principles and Practice of Declarative Programming':'PPDP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PPDP-2015-GrandeBS,
 	author        = "<a href="person/Johan_Grande.html">Johan Grande</a> and <a href="person/Gerard_Boudol.html">Gérard Boudol</a> and <a href="person/Manuel_Serrano.html">Manuel Serrano</a>",
-	booktitle     = "{PPDP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Symposium on Principles and Practice of Declarative Programming</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2790449.2790523">10.1145/2790449.2790523</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2790449.2790523">http://doi.acm.org/10.1145/2790449.2790523</a>",
 </span>	pages         = "149--160",

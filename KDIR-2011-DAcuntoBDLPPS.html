@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Inferential+Mining+for+Reconstruction+of+3D+Cell+Structures+in+Atomic+Force+Microscopy+Imaging%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-DAcuntoBDLPPS,
 	author        = "Mario D'Acunto and Stefano Berrettini and Serena Danti and Michele Lisanti and Mario Petrini and Andrea Pietrabissa and Ovidio Salvetti",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "348--353",
 	publisher     = "{SciTePress}",
 	title         = "{Inferential Mining for Reconstruction of 3D Cell Structures in Atomic Force Microscopy Imaging}",

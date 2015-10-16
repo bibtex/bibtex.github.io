@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reverse+Engineering+of+Sequence+Diagrams+by+Merging+Call+Trees%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2013-YoonMPP,
 	author        = "<a href="person/Seonghye_Yoon.html">Seonghye Yoon</a> and <a href="person/Sunghyun_Min.html">Sunghyun Min</a> and <a href="person/Sooyong_Park.html">Sooyong Park</a> and <a href="person/Soojin_Park.html">Soojin Park</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "368--374",
 	publisher     = "{Knowledge Systems Institute Graduate School}",
 	title         = "{Reverse Engineering of Sequence Diagrams by Merging Call Trees}",

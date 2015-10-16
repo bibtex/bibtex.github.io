@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Fast+Algorithm+for+Mining+Graphs+of+Prescribed+Connectivity%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2011-Vanetik,
 	author        = "Natalia Vanetik",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "5--13",
 	publisher     = "{SciTePress}",
 	title         = "{A Fast Algorithm for Mining Graphs of Prescribed Connectivity}",

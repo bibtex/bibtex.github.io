@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Evolution+Based+Approaches+to+Software+Engineering:+Culturing+Software%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1995-ReynoldsBRB,
 	author        = "<a href="person/Robert_G_Reynolds.html">Robert G. Reynolds</a> and <a href="person/Victor_R_Basili.html">Victor R. Basili</a> and <a href="person/Vaclav_Rajlich.html">Václav Rajlich</a> and <a href="person/Nikolaos_G_Bourbakis.html">Nikolaos G. Bourbakis</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "427",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{Evolution Based Approaches to Software Engineering: Culturing Software}",

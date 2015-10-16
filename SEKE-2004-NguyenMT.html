@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Software+Traceability+via+Versioned+Hypermedia%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2004-NguyenMT,
 	author        = "<a href="person/Tien_Nhut_Nguyen.html">Tien Nhut Nguyen</a> and <a href="person/Ethan_V_Munson.html">Ethan V. Munson</a> and <a href="person/Cheng_Thao.html">Cheng Thao</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "288--293",
 	title         = "{Software Traceability via Versioned Hypermedia}",
 	year          = 2004,

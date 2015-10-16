@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Fast,+Bottom-Up+Decision+Tree+Pruning+Algorithm+with+Near-Optimal+Generalization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1998-KearnsM,
 	author        = "Michael J. Kearns and <a href="person/Yishay_Mansour.html">Yishay Mansour</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Machine Learning</span>}",
 	pages         = "269--277",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A Fast, Bottom-Up Decision Tree Pruning Algorithm with Near-Optimal Generalization}",

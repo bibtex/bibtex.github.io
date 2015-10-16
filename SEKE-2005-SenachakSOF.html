@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Provably+Correct+Translation+from+CafeOBJ+into+Java%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-2005-SenachakSOF,
 	author        = "<a href="person/Jittisak_Senachak.html">Jittisak Senachak</a> and <a href="person/Takahiro_Seino.html">Takahiro Seino</a> and <a href="person/Kazuhiro_Ogata.html">Kazuhiro Ogata</a> and <a href="person/Kokichi_Futatsugi.html">Kokichi Futatsugi</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "614--619",
 	title         = "{Provably Correct Translation from CafeOBJ into Java}",
 	year          = 2005,

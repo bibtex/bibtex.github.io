@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Designing+Effective+Program+Visualization+Tools+for+Reducing+User’s+Cognitive+Effort%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings ACM Symposium on Software Visualization':'SOFTVIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOFTVIS-2003-Tudoreanu,
 	author        = "<a href="person/Mihail_Eduard_Tudoreanu.html">Mihail Eduard Tudoreanu</a>",
-	booktitle     = "{SOFTVIS}",
+	booktitle     = "{<span id="booktitle">Proceedings ACM Symposium on Software Visualization</span>}",
 	pages         = "105--114",
 	publisher     = "{ACM}",
 	title         = "{Designing Effective Program Visualization Tools for Reducing User’s Cognitive Effort}",

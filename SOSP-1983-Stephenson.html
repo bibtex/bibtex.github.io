@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Fast+Fits%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth ACM Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SOSP-1983-Stephenson,
 	author        = "<a href="person/C_J_Stephenson.html">C. J. Stephenson</a>",
-	booktitle     = "{SOSP}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth ACM Symposium on Operating System Principles</span>}",
 	pages         = "30--32",
 	publisher     = "{ACM}",
 	title         = "{Fast Fits}",

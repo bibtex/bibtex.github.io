@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Inferring+Reduced+Ordered+Decision+Graphs+of+Minimum+Description+Length%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-1995-OliveiraS,
 	author        = "<a href="person/Arlindo_L_Oliveira.html">Arlindo L. Oliveira</a> and <a href="person/Alberto_L_Sangiovanni-Vincentelli.html">Alberto L. Sangiovanni-Vincentelli</a>",
-	booktitle     = "{ICML}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Machine Learning</span>}",
 	pages         = "421--429",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Inferring Reduced Ordered Decision Graphs of Minimum Description Length}",

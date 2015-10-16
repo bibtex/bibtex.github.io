@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Integrated+Candidate+Generation+in+Processing+Batches+of+Frequent+Itemset+Queries+using+Apriori%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval':'KDIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDIR-2010-JedrzejczakW,
 	author        = "Piotr Jedrzejczak and Marek Wojciechowski",
-	booktitle     = "{KDIR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Discovery and Information Retrieval</span>}",
 	pages         = "487--490",
 	publisher     = "{SciTePress}",
 	title         = "{Integrated Candidate Generation in Processing Batches of Frequent Itemset Queries using Apriori}",

@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/221270.221575">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1995-TreschL,
 	author        = "<a href="person/Markus_Tresch.html">Markus Tresch</a> and Allen Luniewski",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1995/P226.pdf",
 	cite          = "['books/wa/BreimanFOS84', '...', 'conf/sigir/Harman92', 'conf/sigir/Hoch94', '...', '...', 'books/wi/James85', '...', 'journals/tse/MaarekBK91', 'journals/computer/ObraczkaDL93', 'books/mk/Quinlan93', '...', '...', 'conf/vldb/SoensLSST93', 'journals/cacm/SaltonWY75', 'conf/vldb/TreschPL95', 'books/bu/Rijsbergen79']",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/221270.221575">10.1145/221270.221575</a>",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22PsychoNet+2+—+Contextualized+and+Enriched+Psycholinguistic+Commonsense+Ontology%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2011-MohtassebAAC,
 	author        = "Haytham Mohtasseb and Amr Ahmed and Amjad AlTadmri and David Cobham",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "339--343",
 	publisher     = "{SciTePress}",
 	title         = "{PsychoNet 2 — Contextualized and Enriched Psycholinguistic Commonsense Ontology}",

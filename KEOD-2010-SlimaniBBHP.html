@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Ontology+Change+Management+System+—+An+Experiment+on+a+Health+Care+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development':'KEOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KEOD-2010-SlimaniBBHP,
 	author        = "<a href="person/Soumaya_Slimani.html">Soumaya Slimani</a> and <a href="person/Karim_Baina.html">Karim Baïna</a> and <a href="person/Salah_Baina.html">Salah Baïna</a> and <a href="person/Martin_Henkel.html">Martin Henkel</a> and <a href="person/Erik_Perjons.html">Erik Perjons</a>",
-	booktitle     = "{KEOD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Knowledge Engineering and Ontology Development</span>}",
 	pages         = "449--452",
 	publisher     = "{SciTePress}",
 	title         = "{An Ontology Change Management System — An Experiment on a Health Care Case Study}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Common+Architecture+To+Encourage+Reuse+Of+Natural+Language/Text+Processing+Tools%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering':'SEKE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SEKE-1993-MacMillanFLLS,
 	author        = "<a href="person/T_Richard_MacMillan.html">T. Richard MacMillan</a> and <a href="person/Martha_L_Farinacci.html">Martha L. Farinacci</a> and <a href="person/Sharon_J_Laskowski.html">Sharon J. Laskowski</a> and <a href="person/Elaine_P_Lusher.html">Elaine P. Lusher</a> and <a href="person/Leonard_J_Seligman.html">Leonard J. Seligman</a>",
-	booktitle     = "{SEKE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Software Engineering and Knowledge Engineering</span>}",
 	pages         = "266--270",
 	publisher     = "{Knowledge Systems Institute}",
 	title         = "{A Common Architecture To Encourage Reuse Of Natural Language/Text Processing Tools}",

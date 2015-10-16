@@ -37,12 +37,12 @@
 <a href="http://dx.doi.org/10.1145/191246.191265">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Conference on Information and Knowledge Management':'CIKM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIKM-1994-KarpPG,
 	author        = "Peter D. Karp and Suzanne M. Paley and Ira Greenberg",
-	booktitle     = "{CIKM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Conference on Information and Knowledge Management</span>}",
 	cdrom         = "CIKM1994/P097.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/191246.191265">10.1145/191246.191265</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/191246.191265">http://doi.acm.org/10.1145/191246.191265</a>",
@@ -55,8 +55,7 @@
 <hr/>
 <h3>Tags:</h3><ul class="tri"><li class="tag"><a href="tag/information%20management.html">#information management</a></li>
 <li class="tag"><a href="tag/representation.html">#representation</a></li>
-<li class="tag"><a href="tag/scalability.html">#scalability</a></li>
-<li class="tag"><a href="tag/system%20f.html">#system f</a></li></ul><hr/>
+<li class="tag"><a href="tag/scalability.html">#scalability</a></li></ul><hr/>
 </div>
 <hr style="clear:both"/>
 <div class="last">
