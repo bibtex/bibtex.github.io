@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Programming+in+the+Large+for+the+Internet+of+Things+(Invited+Talk)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4230/LIPIcs.ECOOP.2015.2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');$('#publisher').text(this.checked?'Schloss Dagstuhl — Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2015-Choi,
@@ -44,7 +44,7 @@
 	booktitle     = "{ECOOP}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.4230/LIPIcs.ECOOP.2015.2">10.4230/LIPIcs.ECOOP.2015.2</a>",
 </span>	pages         = "2",
-	publisher     = "{Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik}",
+	publisher     = "{<span id="publisher">Schloss Dagstuhl — Leibniz-Zentrum für Informatik</span>}",
 	series        = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title         = "{Programming in the Large for the Internet of Things (Invited Talk)}",
 	volume        = 37,

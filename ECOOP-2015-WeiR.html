@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Adaptive+Context-sensitive+Analysis+for+JavaScript%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4230/LIPIcs.ECOOP.2015.712">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');$('#publisher').text(this.checked?'Schloss Dagstuhl — Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECOOP-2015-WeiR,
@@ -44,7 +44,7 @@
 	booktitle     = "{ECOOP}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.4230/LIPIcs.ECOOP.2015.712">10.4230/LIPIcs.ECOOP.2015.712</a>",
 </span>	pages         = "712--734",
-	publisher     = "{Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik}",
+	publisher     = "{<span id="publisher">Schloss Dagstuhl — Leibniz-Zentrum für Informatik</span>}",
 	series        = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title         = "{Adaptive Context-sensitive Analysis for JavaScript}",
 	volume        = 37,
