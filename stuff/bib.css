@@ -1,60 +1,54 @@
-h2>em>a {text-decoration: none; color:#263238;}
+h2>em>a {text-decoration:none; color:#263238;}
 h2>em>a:hover {color:#4CAF50;}
-.abc {float:left; width:50px; height:50px; text-align: center;
-	font-family: "Courier Prime", Courier, mono; font-size: 50px}
-.abc a:link, .abc a:visited{text-decoration: none; color:#0D47A1}
-.minibar div {height: 70px; position: relative; float:left; margin-right:2px;}
-.minibar div abbr {position: absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
+.abc {float:left; width:50px; height:50px; text-align:center; font-family:"Courier Prime", Courier, mono; font-size:50px;}
+.abc a:link, .abc a:visited {text-decoration:none; color:#0D47A1;}
+.minibar div {height:70px; position:relative; float:left; margin-right:2px;}
+.minibar div abbr {position:absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
 .minibar>img, .minibar>a>img {margin:2px;}
-.wider>a>img {margin-right:40px;}
-.txt {float:left; background-color: #90A4AE; width:310px; margin: 10px;
-	height:140px; position: relative; border: solid #90A4AE 5px; overflow: hidden}
-.txt * {margin: 0;}
-.lespic {float:left; background: #212121; width:65px; margin: 10px;
-	height:65px; position: relative;}
+.wider>a>img {margin-right:20px;}
+.txt {float:left; background-color:#90A4AE; width:310px; margin:10px; height:140px; position:relative; border:solid #90A4AE 5px; overflow:hidden;}
+.txt * {margin:0;}
+.lespic {float:left; background:#212121; width:65px; margin:10px; height:65px; position:relative;}
 .lespic img {border:0px; width:65px; height:65px;}
-.pic {float:left; width:150px; margin: 10px;
-	height:150px; position: relative;}
+.pic {float:left; width:150px; margin:10px; height:150px; position:relative;}
 .pic img {border:0px; width:150px; height:150px;}
-.lespic h2{top:10px; left:5px; visibility: hidden}
-.lespic:hover h2{top:10px; left:5px; visibility: visible;}
-.pic h2 {top:90px; left:5px; }
-.pic h2, .lespic h2{position: absolute; color:#ECEFF1; font-weight:bold;
-text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-font-family: "Impact"; font-size: 200%}
-.pic:hover img {opacity: 0.5;}
-.pagevis {height: 5px; background: white; float:left; top:5px; position: relative; left:5px;}
-.toc dd{float:left;}
-.toc dt img, .main dl dd img{width: 20px; margin-right: 5px}
-.sm img {margin:5px}
-div.fig {float:right}
-div.fig img {border:0px}
-.def {background-color:#CCF}
-li img, h3 img {padding-right:5px}
-body {background-color:#CFD8DC; margin:0px; color:#263238; font-family: "Exo 2", sans-serif}
-.last {margin-left:160px; text-align:right}
-.left {float:left; text-align:center; height:100%;position:fixed;top:0;background:#90A4AE;}
-.pad {padding-bottom:20px}
-.main {margin-left:160px; margin-right:10px}
-ul ul {padding-top:10px; padding-bottom:10px}
-.pre {border:1px solid black; margin-right:150px}
-.pre pre {white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word}
-.tbox hr, .rbox hr {padding:0px; border:1px dashed black; margin-bottom:0px}
-.tbox {border:1px solid black; float:right; width:250px; text-align:center; padding:10px}
-.tbox strong {color:green; font-size:200%}
-.tbox em {color:green}
-.tbox code {font-weight:bold; font-family: "Exo 2", sans-serif; font-size: 125%}
-.tbox img {width:1em}
-.rbox {border:1px solid black; float:right; min-width:130px; text-align:center}
-.rbox * {padding:5px}
-.rbox span {padding:0px}
-pre {border-top:1px solid black}
-dt {font-weight:bold; clear:left}
-.toc a:link, .toc a:visited {color:#600}
-ul.tri {list-style:none}
-ul.tri li:before {content:"‣ "}
-.tag a:link, .tag a:visited {color:#388E3C; font-weight:bold; text-decoration:none}
-dt .tag{margin:10px;}
-.ttl {font-variant:small-caps; color:red}
-.mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px}
-.icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red}
+.lespic h2 {top:10px; left:5px; visibility:hidden;}
+.lespic:hover h2 {top:10px; left:5px; visibility:visible;}
+.pic h2 {top:90px; left:5px;}
+.pic h2, .lespic h2 {position:absolute; color:#ECEFF1; font-weight:bold; text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; font-family:"Impact"; font-size:200%;}
+.pic:hover img {opacity:0.5;}
+.pagevis {height:5px; background:white; float:left; top:5px; position:relative; left:5px;}
+.toc dd {float:left;}
+.toc dt img, .main dl dd img {width:20px; margin-right:5px;}
+.sm img {margin:5px;}
+div.fig {float:right;}
+div.fig img {border:0px;}
+.def {background-color:#CCF;}
+li img, h3 img {padding-right:5px;}
+body {background-color:#ECEFF1; margin:0px; color:#263238; font-family:"Exo 2", sans-serif;}
+.last {margin-left:160px; text-align:right;}
+.left {float:left; text-align:center; height:100%; position:fixed; top:0; background:#90A4AE;}
+.pad {padding-bottom:20px;}
+.main {margin-left:160px; margin-right:10px;}
+ul ul {padding-top:10px; padding-bottom:10px;}
+.pre {border:1px solid black; margin-right:150px;}
+.pre pre {white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word;}
+.tbox hr, .rbox hr {padding:0px; border:1px dashed black; margin-bottom:0px;}
+.tbox {border:1px solid black; float:right; width:250px; text-align:center; padding:10px;}
+.tbox strong {color:green; font-size:200%;}
+.tbox em {color:green;}
+.tbox code {font-weight:bold; font-family:"Exo 2", sans-serif; font-size:125%;}
+.tbox img {width:16px;}
+.rbox {border:1px solid black; float:right; min-width:130px; text-align:center;}
+.rbox * {padding:5px;}
+.rbox span {padding:0px;}
+pre {border-top:1px solid black;}
+dt {font-weight:bold; clear:left;}
+.toc a:link, .toc a:visited {color:#600;}
+ul.tri {list-style:none;}
+ul.tri li:before {content:"‣ ";}
+.tag a:link, .tag a:visited {color:#388E3C; font-weight:bold; text-decoration:none;}
+dt .tag {margin:10px;}
+.ttl {font-variant:small-caps; color:red;}
+.mul {-moz-column-count:4; -moz-column-gap:20px; -webkit-column-count:4; -webkit-column-gap:20px; column-count:4; column-gap:20px;}
+.icn {font-family:"Courier Prime","Courier New",Courier,mono; font-weight:bold; color:red;}
