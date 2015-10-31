@@ -4,6 +4,7 @@ h2>em>a:hover {color:#4CAF50;}
 .abc a:link, .abc a:visited {text-decoration:none; color:#0D47A1;}
 .minibar div {height:70px; position:relative; float:left; margin-right:2px;}
 .minibar div abbr {position:absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
+.minibar div span {position:absolute; top:50px; left:0; font-weight:bold; font-size:smaller;}
 .minibar>img, .minibar>a>img {margin:2px;}
 .wider>a>img {margin-right:20px;}
 .txt {float:left; background-color:#90A4AE; width:310px; margin:10px; height:140px; position:relative; border:solid #90A4AE 5px; overflow:hidden;}
