@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1989/SIGMOD-1989/SIGMOD-1989-CopelandK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1989\SIGMOD-1989\SIGMOD-1989-CopelandK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>George P. Copeland, Tom W. Keller<br/><em>A <a href="word/comparison.html">Comparison</a> Of <a href="word/high.html">High</a>-<a href="word/avail.html">Availability</a> <a href="word/media.html">Media</a> <a href="word/recoveri.html">Recovery</a> <a href="word/techniqu.html">Techniques</a></em><br/>SIGMOD, 1989.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1989.html">SIGMOD 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/CopelandK89">DBLP</a><br/>
+<strong><a href="SIGMOD-1989.html">SIGMOD 1989</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/CopelandK89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Comparison+Of+High-Availability+Media+Recovery+Techniques%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/67544.66936">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/67544.66936">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1989-CopelandK,
 	author        = "<a href="person/George_P_Copeland.html">George P. Copeland</a> and <a href="person/Tom_W_Keller.html">Tom W. Keller</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD89/P098.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/67544.66936">10.1145/67544.66936</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/67544.66936">http://doi.acm.org/10.1145/67544.66936</a>",

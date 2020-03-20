@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2002/ICEIS-2002/ICEIS-2002-LeeK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2002\ICEIS-2002\ICEIS-2002-LeeK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sai Peck Lee, Chin Heong Khor<br/><em><a href="word/persist.html">Persistence</a> <a href="word/framework.html">Framework</a> for <a href="word/multipl.html">Multiple</a> <a href="word/legaci.html">Legacy</a> <a href="word/databas.html">Databases</a></em><br/>ICEIS, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/LeeK02">DBLP</a><br/>
+<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/LeeK02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Persistence+Framework+for+Multiple+Legacy+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2002-LeeK,
 	author        = "<a href="person/Sai_Peck_Lee.html">Sai Peck Lee</a> and <a href="person/Chin_Heong_Khor.html">Chin Heong Khor</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Enterprise Information Systems</span>}",
 	pages         = "269--274",
 	title         = "{Persistence Framework for Multiple Legacy Databases}",
 	year          = 2002,

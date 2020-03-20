@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2012/DRR-2012/DRR-2012-TangSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2012\DRR-2012\DRR-2012-TangSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,21 @@
 <div class="main">
 <h2>Yi Tang, Sargur N. Srihari, Harish Srinivasan<br/><em><a href="word/handwrit.html">Handwriting</a> <a href="word/individu.html">individualization</a> <a href="word/use.html">using</a> <a href="word/distanc.html">distance</a> and <a href="word/rariti.html">rarity</a></em><br/>DRR, 2012.</h2>
 <div class="rbox">
-<strong><a href="DRR-2012.html">DRR 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/TangSS12">DBLP</a><br/>
+<strong><a href="DRR-2012.html">DRR 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/TangSS12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Handwriting+individualization+using+distance+and+rarity%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.912035">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2012-TangSS,
 	author        = "<a href="person/Yi_Tang.html">Yi Tang</a> and <a href="person/Sargur_N_Srihari.html">Sargur N. Srihari</a> and <a href="person/Harish_Srinivasan.html">Harish Srinivasan</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.912035">10.1117/12.912035</a>",
 </span>	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Handwriting individualization using distance and rarity}",
-	volume        = 8297,
+	volume        = "8297",
 	year          = 2012,
 }</pre>
 </div>

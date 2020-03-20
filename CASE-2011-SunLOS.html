@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/CASE-2011/CASE-2011-SunLOS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\CASE-2011\CASE-2011-SunLOS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Biao Sun, Peter B. Luh, Zheng O'Neill, Fangting Song<br/><em><a href="word/build.html">Building</a> <a href="word/energi.html">energy</a> <a href="word/doctor.html">doctors</a>: <a href="word/spc.html">SPC</a> and <a href="word/kalman.html">Kalman</a> <a href="word/filter.html">filter</a>-<a href="word/base.html">based</a> <a href="word/fault.html">fault</a> <a href="word/detect.html">detection</a></em><br/>CASE, 2011.</h2>
 <div class="rbox">
-<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/SunLOS11">DBLP</a><br/>
+<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/SunLOS11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Building+energy+doctors:+SPC+and+Kalman+filter-based+fault+detection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CASE.2011.6042429">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2011-SunLOS,
 	author        = "<a href="person/Biao_Sun.html">Biao Sun</a> and <a href="person/Peter_B_Luh.html">Peter B. Luh</a> and <a href="person/Zheng_ONeill.html">Zheng O'Neill</a> and <a href="person/Fangting_Song.html">Fangting Song</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CASE.2011.6042429">10.1109/CASE.2011.6042429</a>",
 </span>	pages         = "333--340",
 	publisher     = "{IEEE}",

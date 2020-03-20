@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP/2015/ICFP-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP\2015\ICFP-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Kathleen Fisher, John H. Reppy<br/><em>Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming</em><br/>ICFP, 2015.</h2>
 <div class="rbox">
-<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icfp/2015">DBLP</a><br/>
+<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icfp/2015">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+20th+ACM+SIGPLAN+International+Conference+on+Functional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming':'ICFP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICFP-2015,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2784731">2784731</a>",
 </span>	address       = "Vancouver, British Columbia, Canada",
-	booktitle     = "{ICFP}",
 	editor        = "<a href="person/Kathleen_Fisher.html">Kathleen Fisher</a> and <a href="person/John_H_Reppy.html">John H. Reppy</a>",
 <span id="isbn">	isbn          = "978-1-4503-3669-7",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming}",
+	title         = "{<span id="title">Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming</span>}",
 	year          = 2015,
 }</pre>
 </div>

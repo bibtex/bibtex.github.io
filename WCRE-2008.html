@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL/2008/WCRE-2008.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL\2008\WCRE-2008.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,19 +32,18 @@
 <div class="main">
 <h2>Ahmed E. Hassan, Andy Zaidman, Massimiliano Di Penta<br/><em>Proceedings of the 15th Working Conference on Reverse Engineering</em><br/>WCRE, 2008.</h2>
 <div class="rbox">
-<strong><a href="EVOL.html">EVOL</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/wcre/2008">DBLP</a><br/>
+<strong><a href="EVOL.html">EVOL</a></strong><hr/><a href="http://dblp.org/rec/html/conf/wcre/2008">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+15th+Working+Conference+on+Reverse+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 15th Working Conference on Reverse Engineering':'WCRE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{WCRE-2008,
 	address       = "Antwerp, Belgium",
-	booktitle     = "{WCRE}",
 	editor        = "<a href="person/Ahmed_E_Hassan.html">Ahmed E. Hassan</a> and <a href="person/Andy_Zaidman.html">Andy Zaidman</a> and <a href="person/Massimiliano_Di_Penta.html">Massimiliano Di Penta</a>",
 	publisher     = "{IEEE}",
-	title         = "{Proceedings of the 15th Working Conference on Reverse Engineering}",
+	title         = "{<span id="title">Proceedings of the 15th Working Conference on Reverse Engineering</span>}",
 	year          = 2008,
 }</pre>
 </div>
@@ -88,7 +87,7 @@
 <dt><a href="WCRE-2008-Blasband.html">WCRE-2008-Blasband</a></dt><dd>Hard Facts vs Soft Facts (<abbr title="Darius Blasband">DB</abbr>), pp. 301–304.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="WCRE-2008-HenrardRCH.html">WCRE-2008-HenrardRCH</a> <span class="tag"><a href="tag/experience.html" title="experience">#experience</a></span> <span class="tag"><a href="tag/re-engineering.html" title="re-engineering">#re-engineering</a></span> <span class="tag"><a href="tag/scalability.html" title="scalability">#scalability</a></span></dt><dd>Large-Scale Data Reengineering: Return from Experience (<abbr title="Jean Henrard">JH</abbr>, <abbr title="Didier Roland">DR</abbr>, <abbr title="Anthony Cleve">AC</abbr>, <abbr title="Jean-Luc Hainaut">JLH</abbr>), pp. 305–308.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="WCRE-2008-Geet.html">WCRE-2008-Geet</a> <span class="tag"><a href="tag/enterprise.html" title="enterprise">#enterprise</a></span> <span class="tag"><a href="tag/reverse%20engineering.html" title="reverse engineering">#reverse engineering</a></span></dt><dd>Reverse Engineering in the World of Enterprise SOA (<abbr title="Joris Van Geet">JVG</abbr>), pp. 311–314.</dd> <div class="pagevis" style="width:3px"></div>
-<dt><a href="WCRE-2008-Muliawan.html">WCRE-2008-Muliawan</a> <span class="tag"><a href="tag/higher-order.html" title="higher-order">#higher-order</a></span> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/using.html" title="using">#using</a></span></dt><dd>Extending a Model Transformation Language Using Higher Order Transformations (<abbr title="Olaf Muliawan">OM</abbr>), pp. 315–318.</dd> <div class="pagevis" style="width:3px"></div>
+<dt><a href="WCRE-2008-Muliawan.html">WCRE-2008-Muliawan</a> <span class="tag"><a href="tag/higher-order.html" title="higher-order">#higher-order</a></span> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/transformation%20language.html" title="transformation language">#transformation language</a></span> <span class="tag"><a href="tag/using.html" title="using">#using</a></span></dt><dd>Extending a Model Transformation Language Using Higher Order Transformations (<abbr title="Olaf Muliawan">OM</abbr>), pp. 315–318.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="WCRE-2008-Ebraert.html">WCRE-2008-Ebraert</a> <span class="tag"><a href="tag/feature%20model.html" title="feature model">#feature model</a></span> <span class="tag"><a href="tag/programming.html" title="programming">#programming</a></span></dt><dd>First-Class Change Objects for Feature-Oriented Programming (<abbr title="Peter Ebraert">PE</abbr>), pp. 319–322.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="WCRE-2008-Vermolen.html">WCRE-2008-Vermolen</a> <span class="tag"><a href="tag/evolution.html" title="evolution">#evolution</a></span></dt><dd>Software Language Evolution (<abbr title="Sander Vermolen">SV</abbr>), pp. 323–326.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="WCRE-2008-YuW.html">WCRE-2008-YuW</a> <span class="tag"><a href="tag/comprehension.html" title="comprehension">#comprehension</a></span> <span class="tag"><a href="tag/evolution.html" title="evolution">#evolution</a></span> <span class="tag"><a href="tag/tool%20support.html" title="tool support">#tool support</a></span></dt><dd>Graph-Centric Tools for Understanding the Evolution and Relationships of Software Structures (<abbr title="Yijun Yu">YY</abbr>, <abbr title="Michel Wermelinger">MW</abbr>), pp. 329–330.</dd> <div class="pagevis" style="width:1px"></div>

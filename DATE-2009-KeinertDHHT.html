@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-KeinertDHHT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-KeinertDHHT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Joachim Keinert, Hritam Dutta, Frank Hannig, Christian Haubelt, Jürgen Teich<br/><em><a href="word/model.html">Model</a>-<a href="word/base.html">based</a> <a href="word/synthesi.html">synthesis</a> and <a href="word/optim.html">optimization</a> of <a href="word/static.html">static</a> <a href="word/multi.html">multi</a>-<a href="word/rate.html">rate</a> <a href="word/imag.html">image</a> <a href="word/process.html">processing</a> <a href="word/algorithm.html">algorithms</a></em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/KeinertDHHT09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/KeinertDHHT09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Model-based+synthesis+and+optimization+of+static+multi-rate+image+processing+algorithms%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-KeinertDHHT,
 	author        = "<a href="person/Joachim_Keinert.html">Joachim Keinert</a> and <a href="person/Hritam_Dutta.html">Hritam Dutta</a> and <a href="person/Frank_Hannig.html">Frank Hannig</a> and <a href="person/Christian_Haubelt.html">Christian Haubelt</a> and <a href="person/Juergen_Teich.html">Jürgen Teich</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "135--140",
 	publisher     = "{IEEE}",
 	title         = "{Model-based synthesis and optimization of static multi-rate image processing algorithms}",

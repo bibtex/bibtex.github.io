@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-LazzariFMC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-LazzariFMC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Cristiano Lazzari, Paulo F. Flores, José Monteiro, Luigi Carro<br/><em>A <a href="word/new.html">new</a> <a href="word/quaternari.html">quaternary</a> <a href="word/fpga.html">FPGA</a> <a href="word/base.html">based</a> on a <a href="word/voltag.html">voltage</a>-<a href="word/mode.html">mode</a> <a href="word/multi.html">multi</a>-<a href="word/valu.html">valued</a> <a href="word/circuit.html">circuit</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/LazzariFMC10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/LazzariFMC10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+new+quaternary+FPGA+based+on+a+voltage-mode+multi-valued+circuit%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-LazzariFMC,
 	author        = "<a href="person/Cristiano_Lazzari.html">Cristiano Lazzari</a> and <a href="person/Paulo_F_Flores.html">Paulo F. Flores</a> and <a href="person/Jose_Monteiro.html">José Monteiro</a> and <a href="person/Luigi_Carro.html">Luigi Carro</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1797--1802",
 	publisher     = "{IEEE}",
 	title         = "{A new quaternary FPGA based on a voltage-mode multi-valued circuit}",

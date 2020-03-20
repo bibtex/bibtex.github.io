@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2007/CASE-2007/CASE-2007-PopaLMDS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2007\CASE-2007\CASE-2007-PopaLMDS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Dan O. Popa, Woo Ho Lee, Rakesh Murthy, Aditya N. Das, Harry E. Stephanou<br/><em><a href="word/high.html">High</a> <a href="word/yield.html">Yield</a> <a href="word/autom.html">Automated</a> <a href="word/mem.html">MEMS</a> <a href="word/assembl.html">Assembly</a></em><br/>CASE, 2007.</h2>
 <div class="rbox">
-<strong><a href="CASE-2007.html">CASE 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/PopaLMDS07">DBLP</a><br/>
+<strong><a href="CASE-2007.html">CASE 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/PopaLMDS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22High+Yield+Automated+MEMS+Assembly%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2007.4341718">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2007-PopaLMDS,
 	author        = "<a href="person/Dan_O_Popa.html">Dan O. Popa</a> and <a href="person/Woo_Ho_Lee.html">Woo Ho Lee</a> and <a href="person/Rakesh_Murthy.html">Rakesh Murthy</a> and <a href="person/Aditya_N_Das.html">Aditya N. Das</a> and <a href="person/Harry_E_Stephanou.html">Harry E. Stephanou</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2007.4341718">10.1109/COASE.2007.4341718</a>",
 </span>	pages         = "1099--1104",
 	publisher     = "{IEEE}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1998/KDD-1998/KDD-1998-OliverRGBBW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1998\KDD-1998\KDD-1998-OliverRGBBW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Jonathan J. Oliver, Ted Roush, Paul Gazis, Wray L. Buntine, Rohan A. Baxter, Steven R. Waterhouse<br/><em><a href="word/analys.html">Analysing</a> <a href="word/rock.html">Rock</a> <a href="word/sampl.html">Samples</a> for the <a href="word/mar.html">Mars</a> <a href="word/lander.html">Lander</a></em><br/>KDD, 1998.</h2>
 <div class="rbox">
-<strong><a href="KDD-1998.html">KDD 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/OliverRGBBW98">DBLP</a><br/>
+<strong><a href="KDD-1998.html">KDD 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/OliverRGBBW98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Analysing+Rock+Samples+for+the+Mars+Lander%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KDD/1998/kdd98-053.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-1998-OliverRGBBW,
 	author        = "<a href="person/Jonathan_J_Oliver.html">Jonathan J. Oliver</a> and <a href="person/Ted_Roush.html">Ted Roush</a> and <a href="person/Paul_Gazis.html">Paul Gazis</a> and <a href="person/Wray_L_Buntine.html">Wray L. Buntine</a> and <a href="person/Rohan_A_Baxter.html">Rohan A. Baxter</a> and <a href="person/Steven_R_Waterhouse.html">Steven R. Waterhouse</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KDD/1998/kdd98-053.php">http://www.aaai.org/Library/KDD/1998/kdd98-053.php</a>",
 </span>	pages         = "299--303",
 	publisher     = "{AAAI Press}",

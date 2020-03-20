@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1997/EDTC-1997/EDTC-1997-SzekelyPPRC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1997\EDTC-1997\EDTC-1997-SzekelyPPRC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Vladimir Székely, A. Pahi, András Poppe, Márta Rencz, A. Csendes<br/><em><a href="word/sisssi.html">SISSSI</a>-A <a href="word/tool.html">tool</a> for <a href="word/dynam.html">dynamic</a> <a href="word/electro.html">electro</a>-<a href="word/thermal.html">thermal</a> <a href="word/simul.html">simulation</a> of <a href="word/analog.html">analog</a> <a href="word/vlsi.html">VLSI</a> <a href="word/cell.html">cells</a></em><br/>DATE, 1997.</h2>
 <div class="rbox">
-<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/SzekelyPPRC97">DBLP</a><br/>
+<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/SzekelyPPRC97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SISSSI-A+tool+for+dynamic+electro-thermal+simulation+of+analog+VLSI+cells%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/EDTC.1997.582430">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Design and Test Conference':'ED&TC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDTC-1997-SzekelyPPRC,
 	author        = "<a href="person/Vladimir_Szekely.html">Vladimir Székely</a> and <a href="person/A_Pahi.html">A. Pahi</a> and <a href="person/Andras_Poppe.html">András Poppe</a> and <a href="person/Marta_Rencz.html">Márta Rencz</a> and <a href="person/A_Csendes.html">A. Csendes</a>",
-	booktitle     = "{ED&TC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second European Design and Test Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDTC.1997.582430">10.1109/EDTC.1997.582430</a>",
 </span>	pages         = "617",
 	publisher     = "{IEEE}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-LaudBCSR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-LaudBCSR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Amey V. Laud, Sourav S. Bhowmick, Pedro Cruz, Dadabhai T. Singh, George Rajesh<br/><em>The <a href="word/grna.html">gRNA</a>: A <a href="word/high.html">Highly</a> <a href="word/programm.html">Programmable</a> <a href="word/infrastructur.html">Infrastructure</a> for <a href="word/prototyp.html">Prototyping</a>, <a href="word/develop.html">Developing</a> and <a href="word/deploy.html">Deploying</a> <a href="word/genom.html">Genomics</a>-<a href="word/centric.html">Centric</a> <a href="word/applic.html">Applications</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/LaudBCSR02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/LaudBCSR02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+gRNA:+A+Highly+Programmable+Infrastructure+for+Prototyping,+Developing+and+Deploying+Genomics-Centric+Applications%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S28P03.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-LaudBCSR,
 	author        = "<a href="person/Amey_V_Laud.html">Amey V. Laud</a> and <a href="person/Sourav_S_Bhowmick.html">Sourav S. Bhowmick</a> and <a href="person/Pedro_Cruz.html">Pedro Cruz</a> and <a href="person/Dadabhai_T_Singh.html">Dadabhai T. Singh</a> and <a href="person/George_Rajesh.html">George Rajesh</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S28P03.pdf">http://www.vldb.org/conf/2002/S28P03.pdf</a>",
 </span>	pages         = "928--939",
 	publisher     = "{Morgan Kaufmann}",

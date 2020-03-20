@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1997/VLDB-1997/VLDB-1997-LiCHH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1997\VLDB-1997\VLDB-1997-LiCHH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Wen-Syan Li, K. Selçuk Candan, Kyoji Hirata, Yoshinori Hara<br/><em><a href="word/facilit.html">Facilitating</a> <a href="word/multimedia.html">Multimedia</a> <a href="word/databas.html">Database</a> <a href="word/explor.html">Exploration</a> through <a href="word/visual.html">Visual</a> <a href="word/interfac.html">Interfaces</a> and <a href="word/perpetu.html">Perpetual</a> <a href="word/queri.html">Query</a> <a href="word/reformul.html">Reformulations</a></em><br/>VLDB, 1997.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/LiCHH97">DBLP</a><br/>
+<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/LiCHH97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Facilitating+Multimedia+Database+Exploration+through+Visual+Interfaces+and+Perpetual+Query+Reformulations%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1997/P538.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1997-LiCHH,
 	author        = "<a href="person/Wen-Syan_Li.html">Wen-Syan Li</a> and <a href="person/K_Selcuk_Candan.html">K. Selçuk Candan</a> and <a href="person/Kyoji_Hirata.html">Kyoji Hirata</a> and <a href="person/Yoshinori_Hara.html">Yoshinori Hara</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1997/P538.PDF">http://www.vldb.org/conf/1997/P538.PDF</a>",
 </span>	pages         = "538--547",
 	publisher     = "{Morgan Kaufmann}",

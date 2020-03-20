@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/VLDB-2007/VLDB-2007-ShenDNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\VLDB-2007\VLDB-2007-ShenDNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Warren Shen, AnHai Doan, Jeffrey F. Naughton, Raghu Ramakrishnan<br/><em><a href="word/declar.html">Declarative</a> <a href="word/inform.html">Information</a> <a href="word/extract.html">Extraction</a> <a href="word/use.html">Using</a> <a href="word/datalog.html">Datalog</a> with <a href="word/embed.html">Embedded</a> <a href="word/extract.html">Extraction</a> <a href="word/predic.html">Predicates</a></em><br/>VLDB, 2007.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ShenDNR07">DBLP</a><br/>
+<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ShenDNR07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Declarative+Information+Extraction+Using+Datalog+with+Embedded+Extraction+Predicates%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2007/papers/research/p1033-shen.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2007-ShenDNR,
 	author        = "<a href="person/Warren_Shen.html">Warren Shen</a> and <a href="person/AnHai_Doan.html">AnHai Doan</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a> and <a href="person/Raghu_Ramakrishnan.html">Raghu Ramakrishnan</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2007/papers/research/p1033-shen.pdf">http://www.vldb.org/conf/2007/papers/research/p1033-shen.pdf</a>",
 </span>	pages         = "1033--1044",
 	publisher     = "{ACM}",

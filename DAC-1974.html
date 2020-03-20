@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1974/DAC-1974.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1974\DAC-1974.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Herbert M. Wall, Robert B. Hitchcock Sr., Stephen P. Krosner, J. Michael Galey, Nitta P. Dooner, Donald J. Humcke, Pat O. Pistilli<br/><em>Proceedings of the 11th Design Automation Workshop</em><br/>DAC, 1974.</h2>
 <div class="rbox">
-<strong><a href="AUTO.html">AUTO</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/1974">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/1974">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+Design+Automation+Workshop%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th Design Automation Workshop':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{DAC-1974,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=800291">800291</a>",
 </span>	address       = "Denver, Colorado, USA",
-	booktitle     = "{DAC}",
 	editor        = "Herbert M. Wall and <a href="person/Robert_B_Hitchcock_Sr.html">Robert B. Hitchcock Sr.</a> and <a href="person/Stephen_P_Krosner.html">Stephen P. Krosner</a> and <a href="person/J_Michael_Galey.html">J. Michael Galey</a> and <a href="person/Nitta_P_Dooner.html">Nitta P. Dooner</a> and Donald J. Humcke and <a href="person/Pat_O_Pistilli.html">Pat O. Pistilli</a>",
 	publisher     = "{ACM}",
-	title         = "{Proceedings of the 11th Design Automation Workshop}",
+	title         = "{<span id="title">Proceedings of the 11th Design Automation Workshop</span>}",
 	year          = 1974,
 }</pre>
 </div>

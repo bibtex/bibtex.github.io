@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/VLDB-2007/VLDB-2007-WangRKMLKWPCBH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\VLDB-2007\VLDB-2007-WangRKMLKWPCBH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Fusheng Wang, Pierre-Emmanuel Bourgue, Georg Hackenberg, Mo Wang, David Kaltschmidt, Peiya Liu, Cornelius Rabsch, Patrick Kling, Gerald Madlmayr, John Pearson, Joe Carpinelli<br/><em><a href="word/sci.html">Sci</a><a href="word/port.html">Port</a>: An <a href="word/adapt.html">Adaptable</a> <a href="word/scientif.html">Scientific</a> <a href="word/data.html">Data</a> <a href="word/integr.html">Integration</a> <a href="word/platform.html">Platform</a> for <a href="word/collabor.html">Collaborative</a> <a href="word/scientif.html">Scientific</a> <a href="word/research.html">Research</a></em><br/>VLDB, 2007.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/WangRKMLKWPCBH07">DBLP</a><br/>
+<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/WangRKMLKWPCBH07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SciPort:+An+Adaptable+Scientific+Data+Integration+Platform+for+Collaborative+Scientific+Research%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2007/papers/demo/p1310-wang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2007-WangRKMLKWPCBH,
 	author        = "<a href="person/Fusheng_Wang.html">Fusheng Wang</a> and <a href="person/Pierre-Emmanuel_Bourgue.html">Pierre-Emmanuel Bourgue</a> and <a href="person/Georg_Hackenberg.html">Georg Hackenberg</a> and <a href="person/Mo_Wang.html">Mo Wang</a> and <a href="person/David_Kaltschmidt.html">David Kaltschmidt</a> and <a href="person/Peiya_Liu.html">Peiya Liu</a> and <a href="person/Cornelius_Rabsch.html">Cornelius Rabsch</a> and <a href="person/Patrick_Kling.html">Patrick Kling</a> and <a href="person/Gerald_Madlmayr.html">Gerald Madlmayr</a> and <a href="person/John_Pearson.html">John Pearson</a> and <a href="person/Joe_Carpinelli.html">Joe Carpinelli</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2007/papers/demo/p1310-wang.pdf">http://www.vldb.org/conf/2007/papers/demo/p1310-wang.pdf</a>",
 </span>	pages         = "1310--1313",
 	publisher     = "{ACM}",

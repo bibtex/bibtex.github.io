@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1999/OSDI-1999/OSDI-1999-ChangG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1999\OSDI-1999\OSDI-1999-ChangG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Fay W. Chang, Garth A. Gibson<br/><em><a href="word/automat.html">Automatic</a> I/O <a href="word/hint.html">Hint</a> <a href="word/generat.html">Generation</a> Through <a href="word/specul.html">Speculative</a> <a href="word/execut.html">Execution</a></em><br/>OSDI, 1999.</h2>
 <div class="rbox">
-<strong><a href="OSDI-1999.html">OSDI 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/ChangG99">DBLP</a><br/>
+<strong><a href="OSDI-1999.html">OSDI 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/ChangG99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+I/O+Hint+Generation+Through+Speculative+Execution%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/296806.296807">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/296806.296807">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-1999-ChangG,
 	author        = "<a href="person/Fay_W_Chang.html">Fay W. Chang</a> and <a href="person/Garth_A_Gibson.html">Garth A. Gibson</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/296806.296807">10.1145/296806.296807</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/296806.296807">http://doi.acm.org/10.1145/296806.296807</a>",
 </span>	pages         = "1--14",

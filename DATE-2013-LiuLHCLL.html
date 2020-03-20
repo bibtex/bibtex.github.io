@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2013/DATE-2013/DATE-2013-LiuLHCLL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2013\DATE-2013\DATE-2013-LiuLHCLL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Shih-Ying Sean Liu, Chieh-Jui Lee, Chuan-Chia Huang, Hung-Ming Chen, Chang-Tzu Lin, Chia-Hsin Lee<br/><em><a href="word/effect.html">Effective</a> <a href="word/power.html">power</a> <a href="word/network.html">network</a> <a href="word/prototyp.html">prototyping</a> via <a href="word/statist.html">statistical</a>-<a href="word/base.html">based</a> <a href="word/cluster.html">clustering</a> and <a href="word/sequenti.html">sequential</a> <a href="word/linear.html">linear</a> <a href="word/program.html">programming</a></em><br/>DATE, 2013.</h2>
 <div class="rbox">
-<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/LiuLHCLL13">DBLP</a><br/>
+<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/LiuLHCLL13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Effective+power+network+prototyping+via+statistical-based+clustering+and+sequential+linear+programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2013-LiuLHCLL,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2485690">2485690</a>",
 </span>	author        = "<a href="person/Shih-Ying_Sean_Liu.html">Shih-Ying Sean Liu</a> and <a href="person/Chieh-Jui_Lee.html">Chieh-Jui Lee</a> and <a href="person/Chuan-Chia_Huang.html">Chuan-Chia Huang</a> and <a href="person/Hung-Ming_Chen.html">Hung-Ming Chen</a> and <a href="person/Chang-Tzu_Lin.html">Chang-Tzu Lin</a> and <a href="person/Chia-Hsin_Lee.html">Chia-Hsin Lee</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1701--1706",
 	publisher     = "{EDA Consortium San Jose, CA, USA / ACM DL}",
 	title         = "{Effective power network prototyping via statistical-based clustering and sequential linear programming}",

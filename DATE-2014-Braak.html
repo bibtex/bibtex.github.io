@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/DATE-2014/DATE-2014-Braak.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\DATE-2014\DATE-2014-Braak.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Timon D. ter Braak<br/><em><a href="word/use.html">Using</a> <a href="word/guid.html">guided</a> <a href="word/local.html">local</a> <a href="word/search.html">search</a> for <a href="word/adapt.html">adaptive</a> <a href="word/resourc.html">resource</a> <a href="word/reserv.html">reservation</a> in <a href="word/larg.html">large</a>-<a href="word/scale.html">scale</a> <a href="word/embed.html">embedded</a> <a href="word/system.html">systems</a></em><br/>DATE, 2014.</h2>
 <div class="rbox">
-<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/Braak14">DBLP</a><br/>
+<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/Braak14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+guided+local+search+for+adaptive+resource+reservation+in+large-scale+embedded+systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.7873/DATE.2014.171">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2014-Braak,
 	author        = "<a href="person/Timon_D_ter_Braak.html">Timon D. ter Braak</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.7873/DATE.2014.171">10.7873/DATE.2014.171</a>",
 </span>	pages         = "1--4",
 	publisher     = "{IEEE}",

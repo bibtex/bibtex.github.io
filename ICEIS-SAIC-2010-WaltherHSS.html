@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-SAIC-2010/ICEIS-SAIC-2010-WaltherHSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-SAIC-2010\ICEIS-SAIC-2010-WaltherHSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Maximilian Walther, Ludwig Hähne, Daniel Schuster, Alexander Schill<br/><em><a href="word/locat.html">Locating</a> and <a href="word/extract.html">Extracting</a> <a href="word/product.html">Product</a> <a href="word/specif.html">Specifications</a> from <a href="word/produc.html">Producer</a> <a href="word/websit.html">Websites</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2010.html">ICEIS SAIC 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/WaltherHSS10">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2010.html">ICEIS SAIC 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/WaltherHSS10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Locating+and+Extracting+Product+Specifications+from+Producer+Websites%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2010-WaltherHSS,
 	author        = "<a href="person/Maximilian_Walther.html">Maximilian Walther</a> and <a href="person/Ludwig_Haehne.html">Ludwig Hähne</a> and <a href="person/Daniel_Schuster.html">Daniel Schuster</a> and <a href="person/Alexander_Schill.html">Alexander Schill</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "13--22",
 	publisher     = "{SciTePress}",
 	title         = "{Locating and Extracting Product Specifications from Producer Websites}",

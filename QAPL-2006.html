@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLI/2006/QAPL-2006.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLT\2006\QAPL-2006.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,19 +32,18 @@
 <div class="main">
 <h2>Alessandra Di Pierro, Herbert Wiklicky<br/><em>Proceedings of the Fourth Workshop on Quantitative Aspects of Programming Languages</em><br/>QAPL, 2006.</h2>
 <div class="rbox">
-<strong><a href="PLI.html">PLI</a></strong><hr/>no DBLP info<br/>
+<strong><a href="PLT.html">PLT</a></strong><hr/>no DBLP info<br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+Workshop+on+Quantitative+Aspects+of+Programming+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Notes in Theoretical Computer Science':'ENTCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth Workshop on Quantitative Aspects of Programming Languages':'QAPL');$('#journal').text(this.checked?'Electronic Notes in Theoretical Computer Science':'ENTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{QAPL-2006,
-	booktitle     = "{QAPL}",
 	editor        = "<a href="person/Alessandra_Di_Pierro.html">Alessandra Di Pierro</a> and <a href="person/Herbert_Wiklicky.html">Herbert Wiklicky</a>",
 	journal       = "{<span id="journal">Electronic Notes in Theoretical Computer Science</span>}",
 	number        = 3,
-	title         = "{Proceedings of the Fourth Workshop on Quantitative Aspects of Programming Languages}",
+	title         = "{<span id="title">Proceedings of the Fourth Workshop on Quantitative Aspects of Programming Languages</span>}",
 	volume        = 164,
 	year          = 2006,
 }</pre>

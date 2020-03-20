@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FCRC/1999/PLDI-1999.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLT\1999\PLDI-1999.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Barbara G. Ryder, Benjamin G. Zorn<br/><em>Proceedings of the 20th Conference on Programming Language Design and Implementation</em><br/>PLDI, 1999.</h2>
 <div class="rbox">
-<strong><a href="FCRC.html">FCRC</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pldi/1999">DBLP</a><br/>
+<strong><a href="PLT.html">PLT</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pldi/1999">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+20th+Conference+on+Programming+Language+Design+and+Implementation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 20th Conference on Programming Language Design and Implementation':'PLDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PLDI-1999,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=301618">301618</a>",
 </span>	address       = "Atlanta, Georgia, USA",
-	booktitle     = "{PLDI}",
 	editor        = "<a href="person/Barbara_G_Ryder.html">Barbara G. Ryder</a> and <a href="person/Benjamin_G_Zorn.html">Benjamin G. Zorn</a>",
 <span id="isbn">	isbn          = "1-58113-094-5",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 20th Conference on Programming Language Design and Implementation}",
+	title         = "{<span id="title">Proceedings of the 20th Conference on Programming Language Design and Implementation</span>}",
 	year          = 1999,
 }</pre>
 </div>

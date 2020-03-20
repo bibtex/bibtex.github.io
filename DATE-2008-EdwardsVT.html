@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/DATE-2008/DATE-2008-EdwardsVT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\DATE-2008\DATE-2008-EdwardsVT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Stephen A. Edwards, Nalini Vasudevan, Olivier Tardieu<br/><em><a href="word/program.html">Programming</a> <a href="word/share.html">Shared</a> <a href="word/memori.html">Memory</a> <a href="word/multiprocessor.html">Multiprocessors</a> with <a href="word/determinist.html">Deterministic</a> <a href="word/messag.html">Message</a>-<a href="word/pass.html">Passing</a> <a href="word/concurr.html">Concurrency</a>: <a href="word/compil.html">Compiling</a> <a href="word/shim.html">SHIM</a> to <a href="word/pthread.html">Pthreads</a></em><br/>DATE, 2008.</h2>
 <div class="rbox">
-<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/EdwardsVT08">DBLP</a><br/>
+<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/EdwardsVT08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Programming+Shared+Memory+Multiprocessors+with+Deterministic+Message-Passing+Concurrency:+Compiling+SHIM+to+Pthreads%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/DATE.2008.4484886">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2008-EdwardsVT,
 	author        = "<a href="person/Stephen_A_Edwards.html">Stephen A. Edwards</a> and <a href="person/Nalini_Vasudevan.html">Nalini Vasudevan</a> and <a href="person/Olivier_Tardieu.html">Olivier Tardieu</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/DATE.2008.4484886">10.1109/DATE.2008.4484886</a>",
 </span>	pages         = "1498--1503",
 	publisher     = "{IEEE}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1995/SIGMOD-1995/SIGMOD-1995-Levine.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1995\SIGMOD-1995\SIGMOD-1995-Levine.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Charles Levine<br/><em><a href="word/order.html">Order</a>-of-<a href="word/magnitud.html">Magnitude</a> <a href="word/advantag.html">Advantage</a> of <a href="word/tpc.html">TPC</a>-C <a href="word/though.html">Though</a> <a href="word/massiv.html">Massive</a> <a href="word/parallel.html">Parallelism</a></em><br/>SIGMOD, 1995.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1995.html">SIGMOD 1995</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/Levine95">DBLP</a><br/>
+<strong><a href="SIGMOD-1995.html">SIGMOD 1995</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/Levine95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Order-of-Magnitude+Advantage+of+TPC-C+Though+Massive+Parallelism%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/223784.223878">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/223784.223878">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1995-Levine,
 	author        = "<a href="person/Charles_Levine.html">Charles Levine</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD95/P464.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/223784.223878">10.1145/223784.223878</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/223784.223878">http://doi.acm.org/10.1145/223784.223878</a>",

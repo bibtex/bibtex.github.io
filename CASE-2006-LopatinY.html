@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2006/CASE-2006/CASE-2006-LopatinY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\CASE-2006\CASE-2006-LopatinY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Pavel K. Lopatin, Artyom S. Yegorov<br/><em><a href="word/use.html">Using</a> the <a href="word/forward.html">forward</a> <a href="word/search.html">search</a> and the <a href="word/polynomi.html">polynomial</a> <a href="word/approxim.html">approximation</a> <a href="word/algorithm.html">algorithms</a> in the <a href="word/exact.html">exact</a> <a href="word/algorithm.html">algorithm</a> for <a href="word/manipul.html">manipulator</a>’s <a href="word/control.html">control</a> in an <a href="word/unknown.html">unknown</a> <a href="word/environ.html">environment</a></em><br/>CASE, 2006.</h2>
 <div class="rbox">
-<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/LopatinY06">DBLP</a><br/>
+<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/LopatinY06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+the+forward+search+and+the+polynomial+approximation+algorithms+in+the+exact+algorithm+for+manipulator’s+control+in+an+unknown+environment%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2006.326881">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2006-LopatinY,
 	author        = "<a href="person/Pavel_K_Lopatin.html">Pavel K. Lopatin</a> and <a href="person/Artyom_S_Yegorov.html">Artyom S. Yegorov</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2006.326881">10.1109/COASE.2006.326881</a>",
 </span>	pages         = "206--211",
 	publisher     = "{IEEE}",

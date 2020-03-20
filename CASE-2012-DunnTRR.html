@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/CASE-2012/CASE-2012-DunnTRR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\CASE-2012\CASE-2012-DunnTRR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Mark T. Dunn, Jeremy P. Thompson, Peter B. Reid, David C. Reid<br/><em><a href="word/high.html">High</a> <a href="word/accuraci.html">accuracy</a> <a href="word/inerti.html">inertial</a> <a href="word/navig.html">navigation</a> for <a href="word/underground.html">underground</a> <a href="word/mine.html">mining</a> <a href="word/machineri.html">machinery</a></em><br/>CASE, 2012.</h2>
 <div class="rbox">
-<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/DunnTRR12">DBLP</a><br/>
+<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/DunnTRR12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22High+accuracy+inertial+navigation+for+underground+mining+machinery%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2012.6386402">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2012-DunnTRR,
 	author        = "<a href="person/Mark_T_Dunn.html">Mark T. Dunn</a> and <a href="person/Jeremy_P_Thompson.html">Jeremy P. Thompson</a> and <a href="person/Peter_B_Reid.html">Peter B. Reid</a> and <a href="person/David_C_Reid.html">David C. Reid</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2012.6386402">10.1109/CoASE.2012.6386402</a>",
 </span>	pages         = "1179--1183",
 	publisher     = "{IEEE}",

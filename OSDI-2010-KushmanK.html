@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2010/OSDI-2010/OSDI-2010-KushmanK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\OSDI-2010\OSDI-2010-KushmanK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nate Kushman, Dina Katabi<br/><em><a href="word/enabl.html">Enabling</a> <a href="word/configur.html">Configuration</a>-<a href="word/independ.html">Independent</a> <a href="word/autom.html">Automation</a> by <a href="word/non.html">Non</a>-<a href="word/expert.html">Expert</a> <a href="word/user.html">Users</a></em><br/>OSDI, 2010.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/KushmanK10">DBLP</a><br/>
+<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/KushmanK10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Enabling+Configuration-Independent+Automation+by+Non-Expert+Users%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi10/tech/full_papers/Kushman.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2010-KushmanK,
 	author        = "<a href="person/Nate_Kushman.html">Nate Kushman</a> and <a href="person/Dina_Katabi.html">Dina Katabi</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi10/tech/full_papers/Kushman.pdf">http://www.usenix.org/events/osdi10/tech/full_papers/Kushman.pdf</a>",
 </span>	pages         = "223--236",
 	publisher     = "{USENIX Association}",

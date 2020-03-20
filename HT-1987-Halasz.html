@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1987/HT-1987/HT-1987-Halasz.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1987\HT-1987\HT-1987-Halasz.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Frank G. Halasz<br/><em><a href="word/reflect.html">Reflections</a> on <a href="word/note.html">Note</a><a href="word/card.html">Cards</a>: <a href="word/seven.html">Seven</a> <a href="word/issu.html">Issues</a> for the <a href="word/next.html">Next</a> <a href="word/generat.html">Generation</a> of <a href="word/hypermedia.html">Hypermedia</a> <a href="word/system.html">Systems</a></em><br/>HT, 1987.</h2>
 <div class="rbox">
-<strong><a href="HT-1987.html">HT 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/Halasz87">DBLP</a><br/>
+<strong><a href="HT-1987.html">HT 1987</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/Halasz87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Reflections+on+NoteCards:+Seven+Issues+for+the+Next+Generation+of+Hypermedia+Systems%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/317426.317451">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/317426.317451">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Conference on Hypertext':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-1987-Halasz,
 	author        = "<a href="person/Frank_G_Halasz.html">Frank G. Halasz</a>",
-	booktitle     = "{Hypertext}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Conference on Hypertext</span>}",
 	cdrom         = "HT1987/P345.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/317426.317451">10.1145/317426.317451</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/317426.317451">http://doi.acm.org/10.1145/317426.317451</a>",

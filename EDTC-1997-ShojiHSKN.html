@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1997/EDTC-1997/EDTC-1997-ShojiHSKN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1997\EDTC-1997\EDTC-1997-ShojiHSKN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Minoru Shoji, Fumiyasu Hirose, Shintaro Shimogori, Satoshi Kowatari, Hiroshi Nagai<br/><em><a href="word/acceler.html">Acceleration</a> of <a href="word/behavior.html">behavioral</a> <a href="word/simul.html">simulation</a> on <a href="word/simul.html">simulation</a> <a href="word/specif.html">specific</a> <a href="word/machin.html">machines</a></em><br/>DATE, 1997.</h2>
 <div class="rbox">
-<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ShojiHSKN97">DBLP</a><br/>
+<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ShojiHSKN97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Acceleration+of+behavioral+simulation+on+simulation+specific+machines%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/EDTC.1997.582385">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Design and Test Conference':'ED&TC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDTC-1997-ShojiHSKN,
 	author        = "<a href="person/Minoru_Shoji.html">Minoru Shoji</a> and <a href="person/Fumiyasu_Hirose.html">Fumiyasu Hirose</a> and <a href="person/Shintaro_Shimogori.html">Shintaro Shimogori</a> and <a href="person/Satoshi_Kowatari.html">Satoshi Kowatari</a> and <a href="person/Hiroshi_Nagai.html">Hiroshi Nagai</a>",
-	booktitle     = "{ED&TC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second European Design and Test Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDTC.1997.582385">10.1109/EDTC.1997.582385</a>",
 </span>	pages         = "373--377",
 	publisher     = "{IEEE}",

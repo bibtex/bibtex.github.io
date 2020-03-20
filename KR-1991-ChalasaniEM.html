@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1991/KR-1991/KR-1991-ChalasaniEM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1991\KR-1991\KR-1991-ChalasaniEM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Prasad Chalasani, Oren Etzioni, John Mount<br/><em><a href="word/integr.html">Integrating</a> <a href="word/effici.html">Efficient</a> <a href="word/model.html">Model</a>-<a href="word/learn.html">Learning</a> and <a href="word/problem.html">Problem</a>-<a href="word/solv.html">Solving</a> <a href="word/algorithm.html">Algorithms</a> in <a href="word/permut.html">Permutation</a> <a href="word/environ.html">Environments</a></em><br/>KR, 1991.</h2>
 <div class="rbox">
-<strong><a href="KR-1991.html">KR 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/ChalasaniEM91">DBLP</a><br/>
+<strong><a href="KR-1991.html">KR 1991</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/ChalasaniEM91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Integrating+Efficient+Model-Learning+and+Problem-Solving+Algorithms+in+Permutation+Environments%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1991-ChalasaniEM,
 	author        = "<a href="person/Prasad_Chalasani.html">Prasad Chalasani</a> and <a href="person/Oren_Etzioni.html">Oren Etzioni</a> and <a href="person/John_Mount.html">John Mount</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "89--98",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Integrating Efficient Model-Learning and Problem-Solving Algorithms in Permutation Environments}",

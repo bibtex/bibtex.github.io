@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1976/SIGMOD-1976/SIGMOD-1976-WintersD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1976\SIGMOD-1976\SIGMOD-1976-WintersD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Edward W. Winters, Alan F. Dickey<br/><em>A <a href="word/busi.html">Business</a> <a href="word/applic.html">Application</a> of <a href="word/data.html">Data</a> <a href="word/translat.html">Translation</a></em><br/>SIGMOD, 1976.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1976.html">SIGMOD 1976</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/WintersD76">DBLP</a><br/>
+<strong><a href="SIGMOD-1976.html">SIGMOD 1976</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/WintersD76">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Business+Application+of+Data+Translation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1976-WintersD,
 	author        = "<a href="person/Edward_W_Winters.html">Edward W. Winters</a> and <a href="person/Alan_F_Dickey.html">Alan F. Dickey</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD76/P189.PDF",
 	pages         = "189--196",
 	publisher     = "{ACM}",

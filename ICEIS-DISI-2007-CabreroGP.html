@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-DISI-2007/ICEIS-DISI-2007-CabreroGP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-DISI-2007\ICEIS-DISI-2007-CabreroGP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Daniel Cabrero Moreno, Javier Garzás, Mario Piattini<br/><em><a href="word/mainten.html">Maintenance</a> <a href="word/cost.html">cost</a> of a <a href="word/softwar.html">software</a> <a href="word/design.html">design</a>: A <a href="word/valu.html">value</a>-<a href="word/base.html">based</a> <a href="word/approach.html">approach</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/CabreroGP07">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/CabreroGP07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Maintenance+cost+of+a+software+design:+A+value-based+approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2007-CabreroGP,
 	author        = "<a href="person/Daniel_Cabrero_Moreno.html">Daniel Cabrero Moreno</a> and <a href="person/Javier_Garzas.html">Javier Garzás</a> and <a href="person/Mario_Piattini.html">Mario Piattini</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "384--389",
 	title         = "{Maintenance cost of a software design: A value-based approach}",
 	year          = 2007,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1988/PPEALS-1988.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1988\PPEALS-1988.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Richard L. Wexelblat<br/><em>Proceedings of the First Symposium on Parallel Programming: Experience with Applications, Languages and Systems</em><br/>PPEALS, 1988.</h2>
 <div class="rbox">
-<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ppopp/1988">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ppopp/1988">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+First+Symposium+on+Parallel+Programming:+Experience+with+Applications,+Languages+and+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the First Symposium on Parallel Programming: Experience with Applications, Languages and Systems':'PPEALS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PPEALS-1988,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=62115">62115</a>",
 </span>	address       = "New Haven, Connecticut, USA",
-	booktitle     = "{PPEALS}",
 	editor        = "<a href="person/Richard_L_Wexelblat.html">Richard L. Wexelblat</a>",
 <span id="isbn">	isbn          = "0-89791-276-4",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the First Symposium on Parallel Programming: Experience with Applications, Languages and Systems}",
+	title         = "{<span id="title">Proceedings of the First Symposium on Parallel Programming: Experience with Applications, Languages and Systems</span>}",
 	year          = 1988,
 }</pre>
 </div>
@@ -58,7 +57,7 @@
 <dt><a href="PPEALS-1988-AlbertKLS.html">PPEALS-1988-AlbertKLS</a> <span class="tag"><a href="tag/array.html" title="array">#array</a></span> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span> <span class="tag"><a href="tag/fortran.html" title="fortran">#fortran</a></span></dt><dd>Compiling Fortran 8x Array Features for the Connection Machine Computer System (<abbr title="Eugene Albert">EA</abbr>, <abbr title="Kathleen Knobe">KK</abbr>, <abbr title="Joan D. Lukas">JDL</abbr>, <abbr title="Guy L. Steele Jr.">GLSJ</abbr>), pp. 42–56.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="PPEALS-1988-QuinnHJ.html">PPEALS-1988-QuinnHJ</a> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Compiling C* Programs for a Hypercube Multicomputer (<abbr title="Michael J. Quinn">MJQ</abbr>, <abbr title="Philip J. Hatcher">PJH</abbr>, <abbr title="Karen C. Jourdennais">KCJ</abbr>), pp. 57–65.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="PPEALS-1988-Katseff.html">PPEALS-1988-Katseff</a> <span class="tag"><a href="tag/assembly.html" title="assembly">#assembly</a></span> <span class="tag"><a href="tag/clustering.html" title="clustering">#clustering</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span> <span class="tag"><a href="tag/using.html" title="using">#using</a></span></dt><dd>Using Data Partitioning to Implement a Parallel Assembler (<abbr title="Howard P. Katseff">HPK</abbr>), pp. 66–76.</dd> <div class="pagevis" style="width:10px"></div>
-<dt><a href="PPEALS-1988-BurkeCFHSS.html">PPEALS-1988-BurkeCFHSS</a> <span class="tag"><a href="tag/automation.html" title="automation">#automation</a></span> <span class="tag"><a href="tag/empirical.html" title="empirical">#empirical</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span></dt><dd>Automatic Discovery of Parallelism: A Tool and an Experiment (Extended Abstract) (<abbr title="Michael G. Burke">MGB</abbr>, <abbr title="Ron Cytron">RC</abbr>, <abbr title="Jeanne Ferrante">JF</abbr>, <abbr title="Wilson C. Hsieh">WCH</abbr>, <abbr title="Vivek Sarkar">VS</abbr>, <abbr title="David Shields">DS</abbr>), pp. 77–84.</dd> <div class="pagevis" style="width:7px"></div>
+<dt><a href="PPEALS-1988-BurkeCFHSS.html">PPEALS-1988-BurkeCFHSS</a> <span class="tag"><a href="tag/automation.html" title="automation">#automation</a></span> <span class="tag"><a href="tag/empirical.html" title="empirical">#empirical</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span></dt><dd>Automatic Discovery of Parallelism: A Tool and an Experiment (<abbr title="Michael G. Burke">MGB</abbr>, <abbr title="Ron Cytron">RC</abbr>, <abbr title="Jeanne Ferrante">JF</abbr>, <abbr title="Wilson C. Hsieh">WCH</abbr>, <abbr title="Vivek Sarkar">VS</abbr>, <abbr title="David Shields">DS</abbr>), pp. 77–84.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="PPEALS-1988-LiY.html">PPEALS-1988-LiY</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/interprocedural.html" title="interprocedural">#interprocedural</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span></dt><dd>Efficient Interprocedural Analysis for Program Parallelization and Restructuring (<abbr title="Zhiyuan Li">ZL</abbr>, <abbr title="Pen-Chung Yew">PCY</abbr>), pp. 85–99.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="PPEALS-1988-LarusH.html">PPEALS-1988-LarusH</a> <span class="tag"><a href="tag/concurrent.html" title="concurrent">#concurrent</a></span> <span class="tag"><a href="tag/execution.html" title="execution">#execution</a></span> <span class="tag"><a href="tag/lisp.html" title="lisp">#lisp</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Restructuring Lisp Programs for Concurrent Execution (<abbr title="James R. Larus">JRL</abbr>, <abbr title="Paul N. Hilfinger">PNH</abbr>), pp. 100–110.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="PPEALS-1988-GoldmanG.html">PPEALS-1988-GoldmanG</a> <span class="tag"><a href="tag/experience.html" title="experience">#experience</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span></dt><dd>Qlisp: Experience and New Directions (<abbr title="Ron Goldman">RG</abbr>, <abbr title="Richard P. Gabriel">RPG</abbr>), pp. 111–123.</dd> <div class="pagevis" style="width:12px"></div>

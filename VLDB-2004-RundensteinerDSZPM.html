@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/VLDB-2004/VLDB-2004-RundensteinerDSZPM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\VLDB-2004\VLDB-2004-RundensteinerDSZPM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Elke A. Rundensteiner, Luping Ding, Timothy M. Sutherland, Yali Zhu, Bradford Pielech, Nishant K. Mehta<br/><em><a href="word/cape.html">CAPE</a>: <a href="word/continu.html">Continuous</a> <a href="word/queri.html">Query</a> <a href="word/engin.html">Engine</a> with <a href="word/heterogen.html">Heterogeneous</a>-<a href="word/grain.html">Grained</a> <a href="word/adapt.html">Adaptivity</a></em><br/>VLDB, 2004.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/RundensteinerDSZPM04">DBLP</a><br/>
+<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/RundensteinerDSZPM04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22CAPE:+Continuous+Query+Engine+with+Heterogeneous-Grained+Adaptivity%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2004/DEMP26.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2004-RundensteinerDSZPM,
 	author        = "<a href="person/Elke_A_Rundensteiner.html">Elke A. Rundensteiner</a> and <a href="person/Luping_Ding.html">Luping Ding</a> and <a href="person/Timothy_M_Sutherland.html">Timothy M. Sutherland</a> and <a href="person/Yali_Zhu.html">Yali Zhu</a> and <a href="person/Bradford_Pielech.html">Bradford Pielech</a> and <a href="person/Nishant_K_Mehta.html">Nishant K. Mehta</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2004/DEMP26.PDF">http://www.vldb.org/conf/2004/DEMP26.PDF</a>",
 </span>	pages         = "1353--1356",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-HCI-2007/ICEIS-HCI-2007-WerdaMH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-HCI-2007\ICEIS-HCI-2007-WerdaMH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Salah Werda, Walid Mahdi, Abdelmajid Ben Hamadou<br/><em>A <a href="word/new.html">New</a> <a href="word/lip.html">LIP</a>-<a href="word/read.html">Reading</a> <a href="word/approach.html">Approach</a> for <a href="word/human.html">Human</a> <a href="word/comput.html">Computer</a> <a href="word/interact.html">Interaction</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/WerdaMH07">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/WerdaMH07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+New+LIP-Reading+Approach+for+Human+Computer+Interaction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2007-WerdaMH,
 	author        = "<a href="person/Salah_Werda.html">Salah Werda</a> and <a href="person/Walid_Mahdi.html">Walid Mahdi</a> and <a href="person/Abdelmajid_Ben_Hamadou.html">Abdelmajid Ben Hamadou</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI</span>}",
 	pages         = "27--36",
 	title         = "{A New LIP-Reading Approach for Human Computer Interaction}",
 	year          = 2007,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1978/VLDB-1978/VLDB-1978-TothMRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1978\VLDB-1978\VLDB-1978-TothMRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>K. C. Toth, Samy A. Mahmoud, J. Spruce Riordon, O. Sherif<br/><em>The <a href="word/add.html">ADD</a> <a href="word/system.html">System</a>: An <a href="word/architectur.html">Architecture</a> for <a href="word/distribut.html">Distributed</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 1978.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1978.html">VLDB 1978</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/TothMRS78">DBLP</a><br/>
+<strong><a href="VLDB-1978.html">VLDB 1978</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/TothMRS78">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+ADD+System:+An+Architecture+for+Distributed+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Very Large Data Bases':'VLDB');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1978-TothMRS,
 	author        = "<a href="person/K_C_Toth.html">K. C. Toth</a> and <a href="person/Samy_A_Mahmoud.html">Samy A. Mahmoud</a> and <a href="person/J_Spruce_Riordon.html">J. Spruce Riordon</a> and <a href="person/O_Sherif.html">O. Sherif</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Very Large Data Bases</span>}",
 	cdrom         = "VLDB78/P462.PDF",
 	pages         = "462--471",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

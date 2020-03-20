@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FLT/1993/AFL-1993.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FLT\1993\AFL-1993.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,14 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Seventh+International+Conference+on+Automata+and+Formal+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Seventh International Conference on Automata and Formal Languages':'AFL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{AFL-1993,
 	address       = "Salgótarján, Hungary",
-	booktitle     = "{AFL}",
 	editor        = "András Ádám and <a href="person/Pal_Doemoesi.html">Pál Dömösi</a>",
-	title         = "{Proceedings of the Seventh International Conference on Automata and Formal Languages}",
+	title         = "{<span id="title">Proceedings of the Seventh International Conference on Automata and Formal Languages</span>}",
 	year          = 1993,
 }</pre>
 </div>

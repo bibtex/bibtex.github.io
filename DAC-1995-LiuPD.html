@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1995/DAC-1995/DAC-1995-LiuPD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1995\DAC-1995\DAC-1995-LiuPD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Shihming Liu, Massoud Pedram, Alvin M. Despain<br/><em>A <a href="word/fast.html">Fast</a> <a href="word/state.html">State</a> <a href="word/assign.html">Assignment</a> <a href="word/procedur.html">Procedure</a> for <a href="word/larg.html">Large</a> <a href="word/fsms.html">FSMs</a></em><br/>DAC, 1995.</h2>
 <div class="rbox">
-<strong><a href="DAC-1995.html">DAC 1995</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/LiuPD95">DBLP</a><br/>
+<strong><a href="DAC-1995.html">DAC 1995</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/LiuPD95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Fast+State+Assignment+Procedure+for+Large+FSMs%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/217474.217550">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/217474.217550">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1995-LiuPD,
 	author        = "<a href="person/Shihming_Liu.html">Shihming Liu</a> and <a href="person/Massoud_Pedram.html">Massoud Pedram</a> and <a href="person/Alvin_M_Despain.html">Alvin M. Despain</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/217474.217550">10.1145/217474.217550</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/217474.217550">http://doi.acm.org/10.1145/217474.217550</a>",
 </span>	pages         = "327--332",

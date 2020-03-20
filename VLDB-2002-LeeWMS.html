@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-LeeWMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-LeeWMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Young-Koo Lee, Kyu-Young Whang, Yang-Sae Moon, Il-Yeol Song<br/><em>A <a href="word/one.html">One</a>-<a href="word/pass.html">Pass</a> <a href="word/aggreg.html">Aggregation</a> <a href="word/algorithm.html">Algorithm</a> with the <a href="word/optim.html">Optimal</a> <a href="word/buffer.html">Buffer</a> <a href="word/size.html">Size</a> in <a href="word/multidimension.html">Multidimensional</a> <a href="word/olap.html">OLAP</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/LeeWMS02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/LeeWMS02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+One-Pass+Aggregation+Algorithm+with+the+Optimal+Buffer+Size+in+Multidimensional+OLAP%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S22P03.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-LeeWMS,
 	author        = "<a href="person/Young-Koo_Lee.html">Young-Koo Lee</a> and <a href="person/Kyu-Young_Whang.html">Kyu-Young Whang</a> and <a href="person/Yang-Sae_Moon.html">Yang-Sae Moon</a> and <a href="person/Il-Yeol_Song.html">Il-Yeol Song</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S22P03.pdf">http://www.vldb.org/conf/2002/S22P03.pdf</a>",
 </span>	pages         = "790--801",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/DATE-2015/DATE-2015-AndradeMVAPL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\DATE-2015\DATE-2015-AndradeMVAPL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Liliana Andrade, Torsten Maehne, Alain Vachoux, Cédric Ben Aoun, François Pêcheux, Marie-Minerve Louërat<br/><em><a href="word/pre.html">Pre</a>-<a href="word/simul.html">simulation</a> <a href="word/symbol.html">symbolic</a> <a href="word/analysi.html">analysis</a> of <a href="word/synchron.html">synchronization</a> <a href="word/issu.html">issues</a> <a href="word/between.html">between</a> <a href="word/discret.html">discrete</a> <a href="word/event.html">event</a> and <a href="word/time.html">timed</a> <a href="word/data.html">data</a> <a href="word/flow.html">flow</a> <a href="word/model.html">models</a> of <a href="word/comput.html">computation</a></em><br/>DATE, 2015.</h2>
 <div class="rbox">
-<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/AndradeMVAPL15">DBLP</a><br/>
+<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/AndradeMVAPL15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Pre-simulation+symbolic+analysis+of+synchronization+issues+between+discrete+event+and+timed+data+flow+models+of+computation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2015-AndradeMVAPL,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2757199">2757199</a>",
 </span>	author        = "<a href="person/Liliana_Andrade.html">Liliana Andrade</a> and <a href="person/Torsten_Maehne.html">Torsten Maehne</a> and <a href="person/Alain_Vachoux.html">Alain Vachoux</a> and <a href="person/Cedric_Ben_Aoun.html">Cédric Ben Aoun</a> and <a href="person/Francois_Pecheux.html">François Pêcheux</a> and <a href="person/Marie-Minerve_Louerat.html">Marie-Minerve Louërat</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "1671--1676",
 	publisher     = "{ACM}",
 	title         = "{Pre-simulation symbolic analysis of synchronization issues between discrete event and timed data flow models of computation}",

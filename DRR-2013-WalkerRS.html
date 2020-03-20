@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2013/DRR-2013/DRR-2013-WalkerRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2013\DRR-2013\DRR-2013-WalkerRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,21 @@
 <div class="main">
 <h2>Daniel David Walker, Eric K. Ringger, Kevin D. Seppi<br/><em><a href="word/evalu.html">Evaluating</a> <a href="word/supervis.html">supervised</a> <a href="word/topic.html">topic</a> <a href="word/model.html">models</a> in the <a href="word/presenc.html">presence</a> of <a href="word/ocr.html">OCR</a> <a href="word/error.html">errors</a></em><br/>DRR, 2013.</h2>
 <div class="rbox">
-<strong><a href="DRR-2013.html">DRR 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/WalkerRS13">DBLP</a><br/>
+<strong><a href="DRR-2013.html">DRR 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/WalkerRS13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Evaluating+supervised+topic+models+in+the+presence+of+OCR+errors%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.2008345">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2013-WalkerRS,
 	author        = "<a href="person/Daniel_David_Walker.html">Daniel David Walker</a> and <a href="person/Eric_K_Ringger.html">Eric K. Ringger</a> and <a href="person/Kevin_D_Seppi.html">Kevin D. Seppi</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.2008345">10.1117/12.2008345</a>",
 </span>	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Evaluating supervised topic models in the presence of OCR errors}",
-	volume        = 8658,
+	volume        = "8658",
 	year          = 2013,
 }</pre>
 </div>

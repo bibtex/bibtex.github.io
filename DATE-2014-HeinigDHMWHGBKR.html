@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/DATE-2014/DATE-2014-HeinigDHMWHGBKR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\DATE-2014\DATE-2014-HeinigDHMWHGBKR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Andy Heinig, Manfred Dietrich, Andreas Herkersdorf, Felix Miller, Thomas Wild, Kai Hahn, Armin Grunewald, Rainer Brück, Steffen Krohnert, Jochen Reisinger<br/><em><a href="word/system.html">System</a> <a href="word/integr.html">integration</a> — The <a href="word/bridg.html">bridge</a> <a href="word/between.html">between</a> <a href="word/more.html">More</a> <a href="word/than.html">than</a> <a href="word/moor.html">Moore</a> and <a href="word/more.html">More</a> <a href="word/moor.html">Moore</a></em><br/>DATE, 2014.</h2>
 <div class="rbox">
-<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/HeinigDHMWHGBKR14">DBLP</a><br/>
+<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/HeinigDHMWHGBKR14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22System+integration+—+The+bridge+between+More+than+Moore+and+More+Moore%22">Scholar</a><hr/><a href="http://dx.doi.org/10.7873/DATE.2014.145">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2014-HeinigDHMWHGBKR,
 	author        = "<a href="person/Andy_Heinig.html">Andy Heinig</a> and <a href="person/Manfred_Dietrich.html">Manfred Dietrich</a> and <a href="person/Andreas_Herkersdorf.html">Andreas Herkersdorf</a> and <a href="person/Felix_Miller.html">Felix Miller</a> and <a href="person/Thomas_Wild.html">Thomas Wild</a> and <a href="person/Kai_Hahn.html">Kai Hahn</a> and <a href="person/Armin_Grunewald.html">Armin Grunewald</a> and <a href="person/Rainer_Brueck.html">Rainer Brück</a> and <a href="person/Steffen_Krohnert.html">Steffen Krohnert</a> and <a href="person/Jochen_Reisinger.html">Jochen Reisinger</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.7873/DATE.2014.145">10.7873/DATE.2014.145</a>",
 </span>	pages         = "1--9",
 	publisher     = "{IEEE}",

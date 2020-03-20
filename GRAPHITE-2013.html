@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH/2013/GRAPHITE-2013.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH\2013\GRAPHITE-2013.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -30,24 +30,21 @@
 
 </div>
 <div class="main">
-<h2>Mila E. Majster-Cederbaum, Nils Semmelrock<br/><em>Proceedings Second Workshop on GRAPH Inspection and Traversal Engineering</em><br/>GRAPHITE, 2013.</h2>
+<h2>Anton Wijs, Dragan Bošnački, Stefan Edelkamp<br/><em>Proceedings Second Workshop on GRAPH Inspection and Traversal Engineering</em><br/>GRAPHITE, 2013.</h2>
 <div class="rbox">
-<strong><a href="GRAPH.html">GRAPH</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/journals/corr/WijsBE13">DBLP</a><br/>
+<strong><a href="GRAPH.html">GRAPH</a></strong><hr/><a href="http://dblp.org/rec/html/journals/corr/WijsBE13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+Second+Workshop+on+GRAPH+Inspection+and+Traversal+Engineering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.4204/EPTCS.138">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings Second Workshop on GRAPH Inspection and Traversal Engineering':'GRAPHITE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GRAPHITE-2013,
 	address       = "Rome, Italy",
-	author        = "<a href="person/Mila_E_Majster-Cederbaum.html">Mila E. Majster-Cederbaum</a> and <a href="person/Nils_Semmelrock.html">Nils Semmelrock</a>",
-	booktitle     = "{GRAPHITE}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.4204/EPTCS.138">10.4204/EPTCS.138</a>",
 </span>	editor        = "<a href="person/Anton_Wijs.html">Anton Wijs</a> and <a href="person/Dragan_Bosnaczki.html">Dragan Bošnački</a> and <a href="person/Stefan_Edelkamp.html">Stefan Edelkamp</a>",
-	pages         = "1--11",
 	series        = "{EPTCS}",
-	title         = "{Proceedings Second Workshop on GRAPH Inspection and Traversal Engineering}",
+	title         = "{<span id="title">Proceedings Second Workshop on GRAPH Inspection and Traversal Engineering</span>}",
 	volume        = 138,
 	year          = 2013,
 }</pre>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-DISI-2010/ICEIS-DISI-2010-NikitinTL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-DISI-2010\ICEIS-DISI-2010-NikitinTL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sergiy Nikitin, Vagan Y. Terziyan, Minna Lappalainen<br/><em><a href="word/sofia.html">SOFIA</a>: <a href="word/agent.html">Agent</a> <a href="word/scenario.html">Scenario</a> for <a href="word/forest.html">Forest</a> <a href="word/industri.html">Industry</a> — <a href="word/tailor.html">Tailoring</a> <a href="word/ubiwar.html">UBIWARE</a> <a href="word/platform.html">Platform</a> <a href="word/toward.html">Towards</a> <a href="word/industri.html">Industrial</a> <a href="word/agent.html">Agent</a>-<a href="word/driven.html">driven</a> <a href="word/solut.html">Solutions</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2010.html">ICEIS DISI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/NikitinTL10">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2010.html">ICEIS DISI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/NikitinTL10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SOFIA:+Agent+Scenario+for+Forest+Industry+—+Tailoring+UBIWARE+Platform+Towards+Industrial+Agent-driven+Solutions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2010-NikitinTL,
 	author        = "<a href="person/Sergiy_Nikitin.html">Sergiy Nikitin</a> and <a href="person/Vagan_Y_Terziyan.html">Vagan Y. Terziyan</a> and <a href="person/Minna_Lappalainen.html">Minna Lappalainen</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "15--22",
 	publisher     = "{SciTePress}",
 	title         = "{SOFIA: Agent Scenario for Forest Industry — Tailoring UBIWARE Platform Towards Industrial Agent-driven Solutions}",

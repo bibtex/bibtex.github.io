@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-SAIC-2007/ICEIS-SAIC-2007-Maximilien.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-SAIC-2007\ICEIS-SAIC-2007-Maximilien.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>E. Michael Maximilien<br/><em>A <a href="word/partial.html">Partial</a> <a href="word/solut.html">Solution</a> to the <a href="word/semant.html">Semantic</a> <a href="word/web.html">Web</a> <a href="word/servic.html">Services</a> <a href="word/challeng.html">Challenge</a> <a href="word/problem.html">Problem</a> <a href="word/use.html">Using</a> <a href="word/swashup.html">Swashup</a> — The <a href="word/rubi.html">Ruby</a> on <a href="word/rail.html">Rails</a> <a href="word/servic.html">Services</a> <a href="word/mashup.html">Mashup</a> <a href="word/approach.html">Approach</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/Maximilien07">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/Maximilien07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Partial+Solution+to+the+Semantic+Web+Services+Challenge+Problem+Using+Swashup+—+The+Ruby+on+Rails+Services+Mashup+Approach%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2007-Maximilien,
 	author        = "<a href="person/E_Michael_Maximilien.html">E. Michael Maximilien</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "438--446",
 	title         = "{A Partial Solution to the Semantic Web Services Challenge Problem Using Swashup — The Ruby on Rails Services Mashup Approach}",
 	year          = 2007,

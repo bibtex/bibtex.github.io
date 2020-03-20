@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1981/DAC-1981/DAC-1981-SakauyeLRETSABW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1981\DAC-1981\DAC-1981-SakauyeLRETSABW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>G. Sakauye, Anna Lubiw, J. Royle, R. Epplett, Jeffrey Tweedale, E. S. Y. Shew, E. Attfield, Franc Brglez, Philip S. Wilcox<br/><em>A <a href="word/set.html">set</a> of <a href="word/program.html">programs</a> for <a href="word/mos.html">MOS</a> <a href="word/design.html">design</a></em><br/>DAC, 1981.</h2>
 <div class="rbox">
-<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/SakauyeLRETSABW81">DBLP</a><br/>
+<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/SakauyeLRETSABW81">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+set+of+programs+for+MOS+design%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1981-SakauyeLRETSABW,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=802340">802340</a>",
 </span>	author        = "<a href="person/G_Sakauye.html">G. Sakauye</a> and <a href="person/Anna_Lubiw.html">Anna Lubiw</a> and <a href="person/J_Royle.html">J. Royle</a> and <a href="person/R_Epplett.html">R. Epplett</a> and <a href="person/Jeffrey_Tweedale.html">Jeffrey Tweedale</a> and <a href="person/E_S_Y_Shew.html">E. S. Y. Shew</a> and <a href="person/E_Attfield.html">E. Attfield</a> and <a href="person/Franc_Brglez.html">Franc Brglez</a> and <a href="person/Philip_S_Wilcox.html">Philip S. Wilcox</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Design Automation Conference</span>}",
 	pages         = "435--442",
 	publisher     = "{ACM/IEEE}",
 	title         = "{A set of programs for MOS design}",

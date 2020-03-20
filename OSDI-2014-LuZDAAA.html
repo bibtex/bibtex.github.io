@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2014/OSDI-2014/OSDI-2014-LuZDAAA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\OSDI-2014\OSDI-2014-LuZDAAA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Lanyue Lu, Yupu Zhang, Thanh Do, Samer Al-Kiswany, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau<br/><em><a href="word/physic.html">Physical</a> <a href="word/disentangl.html">Disentanglement</a> in a <a href="word/contain.html">Container</a>-<a href="word/base.html">Based</a> <a href="word/file.html">File</a> <a href="word/system.html">System</a></em><br/>OSDI, 2014.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/LuZDAAA14">DBLP</a><br/>
+<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/LuZDAAA14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Physical+Disentanglement+in+a+Container-Based+File+System%22">Scholar</a><hr/><a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/lu">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2014-LuZDAAA,
 	author        = "<a href="person/Lanyue_Lu.html">Lanyue Lu</a> and <a href="person/Yupu_Zhang.html">Yupu Zhang</a> and <a href="person/Thanh_Do.html">Thanh Do</a> and <a href="person/Samer_Al-Kiswany.html">Samer Al-Kiswany</a> and <a href="person/Andrea_C_Arpaci-Dusseau.html">Andrea C. Arpaci-Dusseau</a> and <a href="person/Remzi_H_Arpaci-Dusseau.html">Remzi H. Arpaci-Dusseau</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/lu">https://www.usenix.org/conference/osdi14/technical-sessions/presentation/lu</a>",
 </span>	pages         = "81--96",
 	publisher     = "{USENIX Association}",

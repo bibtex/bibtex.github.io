@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/1998/IWTCS-1998.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\1998\IWTCS-1998.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Alexandre Petrenko, Nina Yevtushenko<br/><em>Proceedings of the 11th International Workshop on Testing Communicating Systems</em><br/>IWTCS, 1998.</h2>
 <div class="rbox">
-<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pts/1998">DBLP</a><br/>
+<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pts/1998">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+International+Workshop+on+Testing+Communicating+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Workshop on Testing Communicating Systems':'IWTCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IWTCS-1998,
 	address       = "Tomsk, Russia",
-	booktitle     = "{IWTCS}",
 	editor        = "<a href="person/Alexandre_Petrenko.html">Alexandre Petrenko</a> and <a href="person/Nina_Yevtushenko.html">Nina Yevtushenko</a>",
 <span id="isbn">	isbn          = "0-412-84430-3",
 </span>	publisher     = "{Kluwer}",
 	series        = "{IFIP Conference Proceedings}",
-	title         = "{Proceedings of the 11th International Workshop on Testing Communicating Systems}",
+	title         = "{<span id="title">Proceedings of the 11th International Workshop on Testing Communicating Systems</span>}",
 	volume        = 131,
 	year          = 1998,
 }</pre>

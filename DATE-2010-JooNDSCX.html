@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-JooNDSCX.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-JooNDSCX.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Yongsoo Joo, Dimin Niu, Xiangyu Dong, Guangyu Sun, Naehyuck Chang, Yuan Xie<br/><em><a href="word/energi.html">Energy</a>- and <a href="word/endur.html">endurance</a>-<a href="word/awar.html">aware</a> <a href="word/design.html">design</a> of <a href="word/phase.html">phase</a> <a href="word/chang.html">change</a> <a href="word/memori.html">memory</a> <a href="word/cach.html">caches</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/JooNDSCX10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/JooNDSCX10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Energy-+and+endurance-aware+design+of+phase+change+memory+caches%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-JooNDSCX,
 	author        = "<a href="person/Yongsoo_Joo.html">Yongsoo Joo</a> and <a href="person/Dimin_Niu.html">Dimin Niu</a> and <a href="person/Xiangyu_Dong.html">Xiangyu Dong</a> and <a href="person/Guangyu_Sun.html">Guangyu Sun</a> and <a href="person/Naehyuck_Chang.html">Naehyuck Chang</a> and <a href="person/Yuan_Xie.html">Yuan Xie</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "136--141",
 	publisher     = "{IEEE}",
 	title         = "{Energy- and endurance-aware design of phase change memory caches}",

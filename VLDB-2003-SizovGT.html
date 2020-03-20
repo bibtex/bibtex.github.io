@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/VLDB-2003/VLDB-2003-SizovGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\VLDB-2003\VLDB-2003-SizovGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sergej Sizov, Jens Graupmann, Martin Theobald<br/><em>From <a href="word/focus.html">Focused</a> <a href="word/crawl.html">Crawling</a> to <a href="word/expert.html">Expert</a> <a href="word/inform.html">Information</a>: an <a href="word/applic.html">Application</a> <a href="word/framework.html">Framework</a> for <a href="word/web.html">Web</a> <a href="word/explor.html">Exploration</a> and <a href="word/portal.html">Portal</a> <a href="word/generat.html">Generation</a></em><br/>VLDB, 2003.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/SizovGT03">DBLP</a><br/>
+<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/SizovGT03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22From+Focused+Crawling+to+Expert+Information:+an+Application+Framework+for+Web+Exploration+and+Portal+Generation%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2003/papers/S36P07.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2003-SizovGT,
 	author        = "<a href="person/Sergej_Sizov.html">Sergej Sizov</a> and <a href="person/Jens_Graupmann.html">Jens Graupmann</a> and <a href="person/Martin_Theobald.html">Martin Theobald</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2003/papers/S36P07.pdf">http://www.vldb.org/conf/2003/papers/S36P07.pdf</a>",
 </span>	pages         = "1105--1108",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/1982/CADE-1982/CADE-1982-Weyhrauch.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\1982\CADE-1982\CADE-1982-Weyhrauch.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Richard W. Weyhrauch<br/><em>An <a href="word/exampl.html">Example</a> of <a href="word/fol.html">FOL</a> <a href="word/use.html">Using</a> <a href="word/metatheori.html">Metatheory</a></em><br/>CADE, 1982.</h2>
 <div class="rbox">
-<strong><a href="CADE-1982.html">CADE 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/cade/Weyhrauch82">DBLP</a><br/>
+<strong><a href="CADE-1982.html">CADE 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/cade/Weyhrauch82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Example+of+FOL+Using+Metatheory%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0000057">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Automated Deduction':'CADE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CADE-1982-Weyhrauch,
 	author        = "<a href="person/Richard_W_Weyhrauch.html">Richard W. Weyhrauch</a>",
-	booktitle     = "{CADE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Automated Deduction</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/BFb0000057">10.1007/BFb0000057</a>",
 </span>	pages         = "151--158",
 	publisher     = "{<span id="publisher">Springer-Verlag</span>}",
 	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{An Example of FOL Using Metatheory}",
-	volume        = 138,
+	volume        = "138",
 	year          = 1982,
 }</pre>
 </div>

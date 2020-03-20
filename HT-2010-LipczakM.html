@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2010/HT-2010/HT-2010-LipczakM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2010\HT-2010\HT-2010-LipczakM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Marek Lipczak, Evangelos E. Milios<br/><em>The <a href="word/impact.html">impact</a> of <a href="word/resourc.html">resource</a> <a href="word/titl.html">title</a> on <a href="word/tag.html">tags</a> in <a href="word/collabor.html">collaborative</a> <a href="word/tag.html">tagging</a> <a href="word/system.html">systems</a></em><br/>HT, 2010.</h2>
 <div class="rbox">
-<strong><a href="HT-2010.html">HT 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/LipczakM10">DBLP</a><br/>
+<strong><a href="HT-2010.html">HT 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/LipczakM10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+impact+of+resource+title+on+tags+in+collaborative+tagging+systems%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1810617.1810648">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1810617.1810648">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st Conference on Hypertext and Hypermedia':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-2010-LipczakM,
 	author        = "<a href="person/Marek_Lipczak.html">Marek Lipczak</a> and <a href="person/Evangelos_E_Milios.html">Evangelos E. Milios</a>",
-	booktitle     = "{HT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st Conference on Hypertext and Hypermedia</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1810617.1810648">10.1145/1810617.1810648</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1810617.1810648">http://doi.acm.org/10.1145/1810617.1810648</a>",
 </span>	pages         = "179--188",

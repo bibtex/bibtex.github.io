@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DAC-2009/DAC-2009-RedfordSSHZM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DAC-2009\DAC-2009-RedfordSSHZM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Mark Redford, Joseph Sawicki, Prasad Subramaniam, Cliff Hou, Yervant Zorian, Kimon Michaels<br/><em><a href="word/dfm.html">DFM</a>: <a href="word/don.html">don</a>’t <a href="word/care.html">care</a> or <a href="word/competit.html">competitive</a> <a href="word/weapon.html">weapon</a>?</em><br/>DAC, 2009.</h2>
 <div class="rbox">
-<strong><a href="DAC-2009.html">DAC 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/RedfordSSHZM09">DBLP</a><br/>
+<strong><a href="DAC-2009.html">DAC 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/RedfordSSHZM09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22DFM:+don’t+care+or+competitive+weapon?%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1629911.1629991">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1629911.1629991">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 46th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2009-RedfordSSHZM,
 	author        = "<a href="person/Mark_Redford.html">Mark Redford</a> and <a href="person/Joseph_Sawicki.html">Joseph Sawicki</a> and <a href="person/Prasad_Subramaniam.html">Prasad Subramaniam</a> and <a href="person/Cliff_Hou.html">Cliff Hou</a> and <a href="person/Yervant_Zorian.html">Yervant Zorian</a> and <a href="person/Kimon_Michaels.html">Kimon Michaels</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 46th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1629911.1629991">10.1145/1629911.1629991</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1629911.1629991">http://doi.acm.org/10.1145/1629911.1629991</a>",
 </span>	pages         = "296--297",

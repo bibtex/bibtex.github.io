@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/DATE-2014/DATE-2014-MaurichG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\DATE-2014\DATE-2014-MaurichG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ingo von Maurich, Tim Güneysu<br/><em><a href="word/lightweight.html">Lightweight</a> <a href="word/code.html">code</a>-<a href="word/base.html">based</a> <a href="word/cryptographi.html">cryptography</a>: QC-<a href="word/mdpc.html">MDPC</a> Mc<a href="word/eliec.html">Eliece</a> <a href="word/encrypt.html">encryption</a> on <a href="word/reconfigur.html">reconfigurable</a> <a href="word/devic.html">devices</a></em><br/>DATE, 2014.</h2>
 <div class="rbox">
-<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/MaurichG14">DBLP</a><br/>
+<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/MaurichG14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Lightweight+code-based+cryptography:+QC-MDPC+McEliece+encryption+on+reconfigurable+devices%22">Scholar</a><hr/><a href="http://dx.doi.org/10.7873/DATE.2014.051">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2014-MaurichG,
 	author        = "<a href="person/Ingo_von_Maurich.html">Ingo von Maurich</a> and <a href="person/Tim_Gueneysu.html">Tim Güneysu</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.7873/DATE.2014.051">10.7873/DATE.2014.051</a>",
 </span>	pages         = "1--6",
 	publisher     = "{IEEE}",

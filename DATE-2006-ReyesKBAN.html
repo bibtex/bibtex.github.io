@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2006/DATE-2006/DATE-2006-ReyesKBAN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\DATE-2006\DATE-2006-ReyesKBAN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Víctor Reyes, Wido Kruijtzer, Tomás Bautista, Ghiath Alkadi, Antonio Núñez<br/><em>A <a href="word/unifi.html">unified</a> <a href="word/system.html">system</a>-<a href="word/level.html">level</a> <a href="word/model.html">modeling</a> and <a href="word/simul.html">simulation</a> <a href="word/environ.html">environment</a> for <a href="word/mpsoc.html">MPSoC</a> <a href="word/design.html">design</a>: <a href="word/mpeg.html">MPEG</a>-4 <a href="word/decod.html">decoder</a> <a href="word/case.html">case</a> <a href="word/studi.html">study</a></em><br/>DATE, 2006.</h2>
 <div class="rbox">
-<strong><a href="DATE-2006.html">DATE 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ReyesKBAN06">DBLP</a><br/>
+<strong><a href="DATE-2006.html">DATE 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ReyesKBAN06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+unified+system-level+modeling+and+simulation+environment+for+MPSoC+design:+MPEG-4+decoder+case+study%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1131608">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1131608">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2006-ReyesKBAN,
 	author        = "<a href="person/Victor_Reyes.html">Víctor Reyes</a> and <a href="person/Wido_Kruijtzer.html">Wido Kruijtzer</a> and <a href="person/Tomas_Bautista.html">Tomás Bautista</a> and <a href="person/Ghiath_Alkadi.html">Ghiath Alkadi</a> and <a href="person/Antonio_Nunez.html">Antonio Núñez</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1131608">10.1145/1131608</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1131608">http://doi.acm.org/10.1145/1131608</a>",
 </span>	pages         = "474--479",

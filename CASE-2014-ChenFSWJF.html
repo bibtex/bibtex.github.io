@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/CASE-2014/CASE-2014-ChenFSWJF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\CASE-2014\CASE-2014-ChenFSWJF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ching-Yu Chen, Jui Hsi Fu, Today Sung, Ping-Feng Wang, Emery Jou, Ming-Whei Feng<br/><em><a href="word/complex.html">Complex</a> <a href="word/event.html">event</a> <a href="word/process.html">processing</a> for the <a href="word/internet.html">Internet</a> of <a href="word/thing.html">Things</a> and its <a href="word/applic.html">applications</a></em><br/>CASE, 2014.</h2>
 <div class="rbox">
-<strong><a href="CASE-2014.html">CASE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/ChenFSWJF14">DBLP</a><br/>
+<strong><a href="CASE-2014.html">CASE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/ChenFSWJF14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Complex+event+processing+for+the+Internet+of+Things+and+its+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2014.6899470">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2014-ChenFSWJF,
 	author        = "<a href="person/Ching-Yu_Chen.html">Ching-Yu Chen</a> and <a href="person/Jui_Hsi_Fu.html">Jui Hsi Fu</a> and <a href="person/Today_Sung.html">Today Sung</a> and <a href="person/Ping-Feng_Wang.html">Ping-Feng Wang</a> and <a href="person/Emery_Jou.html">Emery Jou</a> and <a href="person/Ming-Whei_Feng.html">Ming-Whei Feng</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2014.6899470">10.1109/CoASE.2014.6899470</a>",
 </span>	pages         = "1144--1149",
 	publisher     = "{IEEE}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-AIDSS-2007/ICEIS-AIDSS-2007-RaimondiPVM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-AIDSS-2007\ICEIS-AIDSS-2007-RaimondiPVM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Francesco Maria Raimondi, Salvatore Pennacchio, Pietro Via, Marianna Mulè<br/><em>A <a href="word/new.html">New</a> <a href="word/fuzzi.html">Fuzzy</a> <a href="word/logic.html">Logic</a> <a href="word/control.html">Controller</a> for <a href="word/trade.html">Trading</a> on the <a href="word/stock.html">Stock</a> <a href="word/market.html">Market</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-AIDSS-2007.html">ICEIS AIDSS 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/RaimondiPVM07">DBLP</a><br/>
+<strong><a href="ICEIS-AIDSS-2007.html">ICEIS AIDSS 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/RaimondiPVM07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+New+Fuzzy+Logic+Controller+for+Trading+on+the+Stock+Market%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 2: AIDSS':'ICEIS AIDSS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-AIDSS-2007-RaimondiPVM,
 	author        = "<a href="person/Francesco_Maria_Raimondi.html">Francesco Maria Raimondi</a> and <a href="person/Salvatore_Pennacchio.html">Salvatore Pennacchio</a> and <a href="person/Pietro_Via.html">Pietro Via</a> and <a href="person/Marianna_Mule.html">Marianna Mulè</a>",
-	booktitle     = "{ICEIS (2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 2: AIDSS</span>}",
 	pages         = "322--329",
 	title         = "{A New Fuzzy Logic Controller for Trading on the Stock Market}",
 	year          = 2007,

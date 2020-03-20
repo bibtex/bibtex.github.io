@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-ISAS-2009/ICEIS-ISAS-2009-GoebelTGTN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-ISAS-2009\ICEIS-ISAS-2009-GoebelTGTN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christoph Goebel, Christoph Tribowski, Oliver Günther, Ralph Tröger, Roland Nickerl<br/><em><a href="word/rfid.html">RFID</a> in the <a href="word/suppli.html">Supply</a> <a href="word/chain.html">Chain</a>: How to <a href="word/obtain.html">Obtain</a> a <a href="word/posit.html">Positive</a> <a href="word/roi.html">ROI</a> — The <a href="word/case.html">Case</a> of <a href="word/gerri.html">Gerry</a> <a href="word/weber.html">Weber</a></em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/GoebelTGTN09">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/GoebelTGTN09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22RFID+in+the+Supply+Chain:+How+to+Obtain+a+Positive+ROI+—+The+Case+of+Gerry+Weber%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2009-GoebelTGTN,
 	author        = "<a href="person/Christoph_Goebel.html">Christoph Goebel</a> and <a href="person/Christoph_Tribowski.html">Christoph Tribowski</a> and <a href="person/Oliver_Guenther.html">Oliver Günther</a> and <a href="person/Ralph_Troeger.html">Ralph Tröger</a> and <a href="person/Roland_Nickerl.html">Roland Nickerl</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS</span>}",
 	pages         = "95--102",
 	title         = "{RFID in the Supply Chain: How to Obtain a Positive ROI — The Case of Gerry Weber}",
 	year          = 2009,

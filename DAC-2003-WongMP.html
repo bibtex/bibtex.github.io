@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2003/DAC-2003/DAC-2003-WongMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2003\DAC-2003\DAC-2003-WongMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jennifer L. Wong, Seapahn Megerian, Miodrag Potkonjak<br/><em><a href="word/design.html">Design</a> <a href="word/techniqu.html">techniques</a> for <a href="word/sensor.html">sensor</a> <a href="word/applianc.html">appliances</a>: <a href="word/foundat.html">foundations</a> and <a href="word/light.html">light</a> <a href="word/compass.html">compass</a> <a href="word/case.html">case</a> <a href="word/studi.html">study</a></em><br/>DAC, 2003.</h2>
 <div class="rbox">
-<strong><a href="DAC-2003.html">DAC 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/WongMP03">DBLP</a><br/>
+<strong><a href="DAC-2003.html">DAC 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/WongMP03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Design+techniques+for+sensor+appliances:+foundations+and+light+compass+case+study%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/775832.775851">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/775832.775851">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 40th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2003-WongMP,
 	author        = "<a href="person/Jennifer_L_Wong.html">Jennifer L. Wong</a> and <a href="person/Seapahn_Megerian.html">Seapahn Megerian</a> and <a href="person/Miodrag_Potkonjak.html">Miodrag Potkonjak</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 40th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/775832.775851">10.1145/775832.775851</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/775832.775851">http://doi.acm.org/10.1145/775832.775851</a>",
 </span>	pages         = "66--71",

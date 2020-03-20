@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/DATE-2008/DATE-2008-PlazaMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\DATE-2008\DATE-2008-PlazaMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Stephen Plaza, Igor L. Markov, Valeria Bertacco<br/><em><a href="word/random.html">Random</a> <a href="word/stimulus.html">Stimulus</a> <a href="word/generat.html">Generation</a> <a href="word/use.html">using</a> <a href="word/entropi.html">Entropy</a> and <a href="word/xor.html">XOR</a> <a href="word/constraint.html">Constraints</a></em><br/>DATE, 2008.</h2>
 <div class="rbox">
-<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/PlazaMB08">DBLP</a><br/>
+<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/PlazaMB08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Random+Stimulus+Generation+using+Entropy+and+XOR+Constraints%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/DATE.2008.4484754">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2008-PlazaMB,
 	author        = "<a href="person/Stephen_Plaza.html">Stephen Plaza</a> and <a href="person/Igor_L_Markov.html">Igor L. Markov</a> and <a href="person/Valeria_Bertacco.html">Valeria Bertacco</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/DATE.2008.4484754">10.1109/DATE.2008.4484754</a>",
 </span>	pages         = "664--669",
 	publisher     = "{IEEE}",

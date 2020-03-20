@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-WalfishSKBMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-WalfishSKBMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Michael Walfish, Jeremy Stribling, Maxwell N. Krohn, Hari Balakrishnan, Robert Morris, Scott Shenker<br/><em><a href="word/middlebox.html">Middleboxes</a> <a href="word/no.html">No</a> <a href="word/longer.html">Longer</a> <a href="word/consid.html">Considered</a> <a href="word/harm.html">Harmful</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/WalfishSKBMS04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/WalfishSKBMS04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Middleboxes+No+Longer+Considered+Harmful%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/walfish.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-WalfishSKBMS,
 	author        = "<a href="person/Michael_Walfish.html">Michael Walfish</a> and <a href="person/Jeremy_Stribling.html">Jeremy Stribling</a> and <a href="person/Maxwell_N_Krohn.html">Maxwell N. Krohn</a> and <a href="person/Hari_Balakrishnan.html">Hari Balakrishnan</a> and <a href="person/Robert_Morris.html">Robert Morris</a> and <a href="person/Scott_Shenker.html">Scott Shenker</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/walfish.html">http://www.usenix.org/events/osdi04/tech/walfish.html</a>",
 </span>	pages         = "215--230",
 	publisher     = "{USENIX Association}",

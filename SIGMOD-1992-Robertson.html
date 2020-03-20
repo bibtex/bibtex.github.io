@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1992/SIGMOD-1992/SIGMOD-1992-Robertson.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1992\SIGMOD-1992\SIGMOD-1992-Robertson.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Bill Robertson<br/><em><a href="word/administr.html">Administration</a>, <a href="word/avail.html">Availability</a>, and <a href="word/develop.html">Development</a> <a href="word/featur.html">Features</a> of <a href="word/teradata.html">Teradata</a></em><br/>SIGMOD, 1992.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1992.html">SIGMOD 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/Robertson92">DBLP</a><br/>
+<strong><a href="SIGMOD-1992.html">SIGMOD 1992</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/Robertson92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Administration,+Availability,+and+Development+Features+of+Teradata%22">Scholar</a><hr/><a href="http://dl.acm.org/citation.cfm?doid=130283.130318">ACM DL</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1992-Robertson,
 	author        = "<a href="person/Bill_Robertson.html">Bill Robertson</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD92/P225.PDF",
 	pages         = "225",
 	title         = "{Administration, Availability, and Development Features of Teradata}",

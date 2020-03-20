@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1970/SIGFIDET-1970/SIGFIDET-1970-CODASYL70a.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1970\SIGFIDET-1970\SIGFIDET-1970-CODASYL70a.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,15 +32,15 @@
 <div class="main">
 <h2><br/><em><a href="word/codasyl.html">CODASYL</a>: <a href="word/storag.html">Storage</a> <a href="word/structur.html">Structure</a> <a href="word/definit.html">Definition</a> <a href="word/languag.html">Language</a> <a href="word/task.html">Task</a> <a href="word/group.html">Group</a>: <a href="word/design.html">Design</a> <a href="word/object.html">Objectives</a> for a <a href="word/storag.html">Storage</a> <a href="word/structur.html">Structure</a> <a href="word/definit.html">Definition</a> <a href="word/languag.html">Language</a> (<a href="word/ssdl.html">SSDL</a>)</em><br/>SIGMOD, 1970.</h2>
 <div class="rbox">
-<strong><a href="SIGFIDET-1970.html">SIGFIDET 1970</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/CODASYL70a">DBLP</a><br/>
+<strong><a href="SIGFIDET-1970.html">SIGFIDET 1970</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/CODASYL70a">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22CODASYL:+Storage+Structure+Definition+Language+Task+Group:+Design+Objectives+for+a+Storage+Structure+Definition+Language+(SSDL)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Record of the First ACM SIGFIDET Workshop on Data Description and Access':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGFIDET-1970-CODASYL70a,
-	booktitle     = "{SIGFIDET Workshop}",
+	booktitle     = "{<span id="booktitle">Record of the First ACM SIGFIDET Workshop on Data Description and Access</span>}",
 	cdrom         = "SIGFIDET70/P329.pdf",
 	pages         = "329--337",
 	publisher     = "{ACM}",

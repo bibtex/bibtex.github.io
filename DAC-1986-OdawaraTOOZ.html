@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1986/DAC-1986/DAC-1986-OdawaraTOOZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1986\DAC-1986\DAC-1986-OdawaraTOOZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Gotaro Odawara, Masahiro Tomita, Osamu Okuzawa, Tomomichi Ohta, Zhen-quan Zhuang<br/><em>A <a href="word/logic.html">logic</a> <a href="word/verifi.html">verifier</a> <a href="word/base.html">based</a> on <a href="word/boolean.html">Boolean</a> <a href="word/comparison.html">comparison</a></em><br/>DAC, 1986.</h2>
 <div class="rbox">
-<strong><a href="DAC-1986.html">DAC 1986</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/OdawaraTOOZ86">DBLP</a><br/>
+<strong><a href="DAC-1986.html">DAC 1986</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/OdawaraTOOZ86">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+logic+verifier+based+on+Boolean+comparison%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/318013.318046">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/318013.318046">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1986-OdawaraTOOZ,
 	author        = "<a href="person/Gotaro_Odawara.html">Gotaro Odawara</a> and <a href="person/Masahiro_Tomita.html">Masahiro Tomita</a> and <a href="person/Osamu_Okuzawa.html">Osamu Okuzawa</a> and <a href="person/Tomomichi_Ohta.html">Tomomichi Ohta</a> and <a href="person/Zhen-quan_Zhuang.html">Zhen-quan Zhuang</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/318013.318046">10.1145/318013.318046</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/318013.318046">http://doi.acm.org/10.1145/318013.318046</a>",
 </span>	pages         = "208--214",

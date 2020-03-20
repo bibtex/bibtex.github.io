@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE/2014/AMT-2014/AMT-2014-RichaBPBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE\2014\AMT-2014\AMT-2014-RichaBPBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Testing+Model+Transformation+Chains+Using+Precondition+Construction+in+Algebraic+Graph+Transformation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Workshop on Analysis of Model Transformations':'AMT');$('#series').text(this.checked?'CEUR Workshop Proceedings':'CEUR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMT-2014-RichaBPBR,
 	author        = "<a href="person/Elie_Richa.html">Elie Richa</a> and <a href="person/Etienne_Borde.html">Etienne Borde</a> and <a href="person/Laurent_Pautet.html">Laurent Pautet</a> and <a href="person/Matteo_Bordin.html">Matteo Bordin</a> and <a href="person/Jose_F_Ruiz.html">José F. Ruiz</a>",
-	booktitle     = "{Proceedings of the Workshop on Analysis of Model Transformations}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third Workshop on Analysis of Model Transformations</span>}",
 	editor        = "<a href="person/Juergen_Dingel.html">Jürgen Dingel</a> and <a href="person/Juan_de_Lara.html">Juan de Lara</a> and <a href="person/Levi_Lucio.html">Levi Lúcio</a> and <a href="person/Hans_Vangheluwe.html">Hans Vangheluwe</a>",
 	openpdf       = "http://ceur-ws.org/Vol-1277/4.pdf",
 	pages         = "34--43",
@@ -49,7 +49,7 @@
 	series        = "{<span id="series">CEUR Workshop Proceedings</span>}",
 	title         = "{Towards Testing Model Transformation Chains Using Precondition Construction in Algebraic Graph Transformation}",
 <span class="uri">	url           = "<a href="http://ceur-ws.org/Vol-1277/#paper4">http://ceur-ws.org/Vol-1277/#paper4</a>",
-</span>	volume        = 1277,
+</span>	volume        = "1277",
 	year          = 2014,
 }</pre>
 </div>

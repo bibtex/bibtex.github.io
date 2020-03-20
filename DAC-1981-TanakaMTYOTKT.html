@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1981/DAC-1981/DAC-1981-TanakaMTYOTKT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1981\DAC-1981\DAC-1981-TanakaMTYOTKT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Chiyoji Tanaka, Shinichi Murai, Hiroo Tsuji, Toshihiko Yahara, Kaoru Okazaki, Masayuki Terai, Reiji Katoh, Mikio Tachibana<br/><em>An <a href="word/integr.html">integrated</a> <a href="word/comput.html">computer</a> <a href="word/aid.html">aided</a> <a href="word/design.html">design</a> <a href="word/system.html">system</a> for <a href="word/gate.html">gate</a> <a href="word/array.html">array</a> <a href="word/masterslic.html">masterslices</a>: <a href="word/part.html">Part</a> 2 the <a href="word/layout.html">layout</a> <a href="word/design.html">design</a> <a href="word/system.html">system</a> <a href="word/mar.html">MARS</a>-M3</em><br/>DAC, 1981.</h2>
 <div class="rbox">
-<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/TanakaMTYOTKT81">DBLP</a><br/>
+<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/TanakaMTYOTKT81">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+integrated+computer+aided+design+system+for+gate+array+masterslices:+Part+2+the+layout+design+system+MARS-M3%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1981-TanakaMTYOTKT,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=802398">802398</a>",
 </span>	author        = "<a href="person/Chiyoji_Tanaka.html">Chiyoji Tanaka</a> and <a href="person/Shinichi_Murai.html">Shinichi Murai</a> and <a href="person/Hiroo_Tsuji.html">Hiroo Tsuji</a> and <a href="person/Toshihiko_Yahara.html">Toshihiko Yahara</a> and <a href="person/Kaoru_Okazaki.html">Kaoru Okazaki</a> and <a href="person/Masayuki_Terai.html">Masayuki Terai</a> and <a href="person/Reiji_Katoh.html">Reiji Katoh</a> and <a href="person/Mikio_Tachibana.html">Mikio Tachibana</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Design Automation Conference</span>}",
 	pages         = "812--819",
 	publisher     = "{ACM/IEEE}",
 	title         = "{An integrated computer aided design system for gate array masterslices: Part 2 the layout design system MARS-M3}",

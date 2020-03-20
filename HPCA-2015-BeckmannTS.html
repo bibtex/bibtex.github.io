@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2015/HPCA-2015/HPCA-2015-BeckmannTS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\HPCA-2015\HPCA-2015-BeckmannTS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nathan Beckmann, Po-An Tsai, Daniel Sánchez<br/><em><a href="word/scale.html">Scaling</a> <a href="word/distribut.html">distributed</a> <a href="word/cach.html">cache</a> <a href="word/hierarchi.html">hierarchies</a> through <a href="word/comput.html">computation</a> and <a href="word/data.html">data</a> co-<a href="word/schedul.html">scheduling</a></em><br/>HPCA, 2015.</h2>
 <div class="rbox">
-<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpca/BeckmannTS15">DBLP</a><br/>
+<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpca/BeckmannTS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Scaling+distributed+cache+hierarchies+through+computation+and+data+co-scheduling%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/HPCA.2015.7056061">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Symposium on High-Performance Computer Architecture':'HPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPCA-2015-BeckmannTS,
 	author        = "<a href="person/Nathan_Beckmann.html">Nathan Beckmann</a> and <a href="person/Po-An_Tsai.html">Po-An Tsai</a> and <a href="person/Daniel_Sanchez.html">Daniel Sánchez</a>",
-	booktitle     = "{HPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Symposium on High-Performance Computer Architecture</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPCA.2015.7056061">10.1109/HPCA.2015.7056061</a>",
 </span>	pages         = "538--550",
 	publisher     = "{IEEE}",

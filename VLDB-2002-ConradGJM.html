@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-ConradGJM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-ConradGJM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Jack G. Conrad, Xi S. Guo, Peter Jackson, Monem Meziou<br/><em><a href="word/databas.html">Database</a> <a href="word/select.html">Selection</a> <a href="word/use.html">Using</a> <a href="word/actual.html">Actual</a> <a href="word/physic.html">Physical</a> and <a href="word/acquir.html">Acquired</a> <a href="word/logic.html">Logical</a> <a href="word/collect.html">Collection</a> <a href="word/resourc.html">Resources</a> in a <a href="word/massiv.html">Massive</a> <a href="word/domain.html">Domain</a>-<a href="word/specif.html">specific</a> <a href="word/oper.html">Operational</a> <a href="word/environ.html">Environment</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ConradGJM02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ConradGJM02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Database+Selection+Using+Actual+Physical+and+Acquired+Logical+Collection+Resources+in+a+Massive+Domain-specific+Operational+Environment%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S03P04.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-ConradGJM,
 	author        = "<a href="person/Jack_G_Conrad.html">Jack G. Conrad</a> and <a href="person/Xi_S_Guo.html">Xi S. Guo</a> and <a href="person/Peter_Jackson.html">Peter Jackson</a> and <a href="person/Monem_Meziou.html">Monem Meziou</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S03P04.pdf">http://www.vldb.org/conf/2002/S03P04.pdf</a>",
 </span>	pages         = "71--82",
 	publisher     = "{Morgan Kaufmann}",

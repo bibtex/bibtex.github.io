@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1971/SIGFIDET-1971/SIGFIDET-1971-Bayer.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1971\SIGFIDET-1971\SIGFIDET-1971-Bayer.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Rudolf Bayer<br/><em><a href="word/binari.html">Binary</a> B-<a href="word/tree.html">Trees</a> for <a href="word/virtual.html">Virtual</a> <a href="word/memori.html">Memory</a></em><br/>SIGMOD, 1971.</h2>
 <div class="rbox">
-<strong><a href="SIGFIDET-1971.html">SIGFIDET 1971</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/Bayer71">DBLP</a><br/>
+<strong><a href="SIGFIDET-1971.html">SIGFIDET 1971</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/Bayer71">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Binary+B-Trees+for+Virtual+Memory%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second ACM-SIGFIDET Workshop on Data Description, Access and Control':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGFIDET-1971-Bayer,
 	author        = "<a href="person/Rudolf_Bayer.html">Rudolf Bayer</a>",
-	booktitle     = "{SIGFIDET Workshop}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second ACM-SIGFIDET Workshop on Data Description, Access and Control</span>}",
 	cdrom         = "SIGFIDET71/P219.pdf",
 	pages         = "219--235",
 	publisher     = "{ACM}",

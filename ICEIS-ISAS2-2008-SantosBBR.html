@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2008/ICEIS-ISAS2-2008/ICEIS-ISAS2-2008-SantosBBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2008\ICEIS-ISAS2-2008\ICEIS-ISAS2-2008-SantosBBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Thiago Medeiros dos Santos, Rodrigo Bonacin, Maria Cecília Calani Baranauskas, Marcos Antônio Rodrigues<br/><em>A <a href="word/model.html">Model</a> <a href="word/driven.html">Driven</a> <a href="word/architectur.html">Architecture</a> <a href="word/tool.html">Tool</a> <a href="word/base.html">Based</a> on <a href="word/semant.html">Semantic</a> <a href="word/analysi.html">Analysis</a> <a href="word/method.html">Method</a></em><br/>ICEIS, 2008.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS2-2008.html">ICEIS ISAS2 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/SantosBBR08">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS2-2008.html">ICEIS ISAS2 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/SantosBBR08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Model+Driven+Architecture+Tool+Based+on+Semantic+Analysis+Method%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 3.2: ISAS':'ICEIS ISAS v2');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS2-2008-SantosBBR,
 	author        = "<a href="person/Thiago_Medeiros_dos_Santos.html">Thiago Medeiros dos Santos</a> and <a href="person/Rodrigo_Bonacin.html">Rodrigo Bonacin</a> and <a href="person/Maria_Cecilia_Calani_Baranauskas.html">Maria Cecília Calani Baranauskas</a> and <a href="person/Marcos_Antonio_Rodrigues.html">Marcos Antônio Rodrigues</a>",
-	booktitle     = "{ICEIS (3-2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 3.2: ISAS</span>}",
 	pages         = "305--310",
 	title         = "{A Model Driven Architecture Tool Based on Semantic Analysis Method}",
 	year          = 2008,

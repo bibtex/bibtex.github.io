@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-WhitakerCG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-WhitakerCG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Andrew Whitaker, Richard S. Cox, Steven D. Gribble<br/><em><a href="word/configur.html">Configuration</a> <a href="word/debug.html">Debugging</a> as <a href="word/search.html">Search</a>: <a href="word/find.html">Finding</a> the <a href="word/needl.html">Needle</a> in the <a href="word/haystack.html">Haystack</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/WhitakerCG04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/WhitakerCG04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Configuration+Debugging+as+Search:+Finding+the+Needle+in+the+Haystack%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/whitaker.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-WhitakerCG,
 	author        = "<a href="person/Andrew_Whitaker.html">Andrew Whitaker</a> and <a href="person/Richard_S_Cox.html">Richard S. Cox</a> and <a href="person/Steven_D_Gribble.html">Steven D. Gribble</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/whitaker.html">http://www.usenix.org/events/osdi04/tech/whitaker.html</a>",
 </span>	pages         = "77--90",
 	publisher     = "{USENIX Association}",

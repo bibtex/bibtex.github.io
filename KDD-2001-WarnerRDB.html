@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2001/KDD-2001/KDD-2001-WarnerRDB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2001\KDD-2001\KDD-2001-WarnerRDB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Doug Warner, J. Neal Richter, Stephen D. Durbin, Bikramjit Banerjee<br/><em><a href="word/mine.html">Mining</a> <a href="word/user.html">user</a> <a href="word/session.html">session</a> <a href="word/data.html">data</a> to <a href="word/facilit.html">facilitate</a> <a href="word/user.html">user</a> <a href="word/interact.html">interaction</a> with a <a href="word/custom.html">customer</a> <a href="word/servic.html">service</a> <a href="word/knowledg.html">knowledge</a> <a href="word/base.html">base</a> in <a href="word/right.html">Right</a><a href="word/now.html">Now</a> <a href="word/web.html">Web</a></em><br/>KDD, 2001.</h2>
 <div class="rbox">
-<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/WarnerRDB01">DBLP</a><br/>
+<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/WarnerRDB01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Mining+user+session+data+to+facilitate+user+interaction+with+a+customer+service+knowledge+base+in+RightNow+Web%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2001-WarnerRDB,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=502512.502583">502512.502583</a>",
 </span>	author        = "<a href="person/Doug_Warner.html">Doug Warner</a> and <a href="person/J_Neal_Richter.html">J. Neal Richter</a> and <a href="person/Stephen_D_Durbin.html">Stephen D. Durbin</a> and <a href="person/Bikramjit_Banerjee.html">Bikramjit Banerjee</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining</span>}",
 	pages         = "467--472",
 	publisher     = "{ACM}",
 	title         = "{Mining user session data to facilitate user interaction with a customer service knowledge base in RightNow Web}",

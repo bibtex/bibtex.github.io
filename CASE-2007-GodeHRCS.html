@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2007/CASE-2007/CASE-2007-GodeHRCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2007\CASE-2007\CASE-2007-GodeHRCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Bernd Göde, Silke Holzmüller-Laue, Kristina Rimane, Mo-Yuen Chow, Norbert Stoll<br/><em><a href="word/laboratori.html">Laboratory</a> <a href="word/inform.html">Information</a> <a href="word/manag.html">Management</a> <a href="word/system.html">Systems</a> — An <a href="word/approach.html">Approach</a> as an <a href="word/integr.html">Integration</a> <a href="word/platform.html">Platform</a> <a href="word/within.html">within</a> <a href="word/flexibl.html">Flexible</a> <a href="word/laboratori.html">Laboratory</a> <a href="word/autom.html">Automation</a> for <a href="word/applic.html">Application</a> in <a href="word/life.html">Life</a> <a href="word/scienc.html">Sciences</a></em><br/>CASE, 2007.</h2>
 <div class="rbox">
-<strong><a href="CASE-2007.html">CASE 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/GodeHRCS07">DBLP</a><br/>
+<strong><a href="CASE-2007.html">CASE 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/GodeHRCS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Laboratory+Information+Management+Systems+—+An+Approach+as+an+Integration+Platform+within+Flexible+Laboratory+Automation+for+Application+in+Life+Sciences%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2007.4341780">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2007-GodeHRCS,
 	author        = "<a href="person/Bernd_Goede.html">Bernd Göde</a> and <a href="person/Silke_Holzmueller-Laue.html">Silke Holzmüller-Laue</a> and <a href="person/Kristina_Rimane.html">Kristina Rimane</a> and <a href="person/Mo-Yuen_Chow.html">Mo-Yuen Chow</a> and <a href="person/Norbert_Stoll.html">Norbert Stoll</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2007.4341780">10.1109/COASE.2007.4341780</a>",
 </span>	pages         = "841--845",
 	publisher     = "{IEEE}",

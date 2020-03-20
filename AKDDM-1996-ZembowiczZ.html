@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1996/AKDDM-1996/AKDDM-1996-ZembowiczZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1996\AKDDM-1996\AKDDM-1996-ZembowiczZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Robert Zembowicz, Jan M. Zytkow<br/><em>From <a href="word/conting.html">Contingency</a> <a href="word/tabl.html">Tables</a> to <a href="word/various.html">Various</a> <a href="word/form.html">Forms</a> of <a href="word/knowledg.html">Knowledge</a> in <a href="word/databas.html">Databases</a></em><br/>KDD, 1996.</h2>
 <div class="rbox">
-<strong><a href="AKDDM-1996.html">AKDDM 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/books/mit/fayyadPSU96/ZembowiczZ96">DBLP</a><br/>
+<strong><a href="AKDDM-1996.html">AKDDM 1996</a></strong><hr/><a href="http://dblp.org/rec/html/books/mit/fayyadPSU96/ZembowiczZ96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22From+Contingency+Tables+to+Various+Forms+of+Knowledge+in+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Advances in Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@incollection{AKDDM-1996-ZembowiczZ,
 	author        = "<a href="person/Robert_Zembowicz.html">Robert Zembowicz</a> and <a href="person/Jan_M_Zytkow.html">Jan M. Zytkow</a>",
-	booktitle     = "{Advances in Knowledge Discovery and Data Mining}",
+	booktitle     = "{<span id="booktitle">Advances in Knowledge Discovery and Data Mining</span>}",
 	pages         = "329--349",
 	publisher     = "{AAAI/MIT Press}",
 	title         = "{From Contingency Tables to Various Forms of Knowledge in Databases}",

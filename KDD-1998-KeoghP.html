@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1998/KDD-1998/KDD-1998-KeoghP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1998\KDD-1998\KDD-1998-KeoghP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Eamonn J. Keogh, Michael J. Pazzani<br/><em>An <a href="word/enhanc.html">Enhanced</a> <a href="word/represent.html">Representation</a> of <a href="word/time.html">Time</a> <a href="word/seri.html">Series</a> <a href="word/which.html">Which</a> <a href="word/allow.html">Allows</a> <a href="word/fast.html">Fast</a> and <a href="word/accur.html">Accurate</a> <a href="word/classif.html">Classification</a>, <a href="word/cluster.html">Clustering</a> and <a href="word/relev.html">Relevance</a> <a href="word/feedback.html">Feedback</a></em><br/>KDD, 1998.</h2>
 <div class="rbox">
-<strong><a href="KDD-1998.html">KDD 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/KeoghP98">DBLP</a><br/>
+<strong><a href="KDD-1998.html">KDD 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/KeoghP98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Enhanced+Representation+of+Time+Series+Which+Allows+Fast+and+Accurate+Classification,+Clustering+and+Relevance+Feedback%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KDD/1998/kdd98-041.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-1998-KeoghP,
 	author        = "<a href="person/Eamonn_J_Keogh.html">Eamonn J. Keogh</a> and <a href="person/Michael_J_Pazzani.html">Michael J. Pazzani</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KDD/1998/kdd98-041.php">http://www.aaai.org/Library/KDD/1998/kdd98-041.php</a>",
 </span>	pages         = "239--243",
 	publisher     = "{AAAI Press}",

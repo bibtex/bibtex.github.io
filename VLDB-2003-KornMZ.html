@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/VLDB-2003/VLDB-2003-KornMZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\VLDB-2003\VLDB-2003-KornMZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Flip Korn, S. Muthukrishnan, Yunyue Zhu<br/><em><a href="word/check.html">Checks</a> and <a href="word/balanc.html">Balances</a>: <a href="word/monitor.html">Monitoring</a> <a href="word/data.html">Data</a> <a href="word/qualiti.html">Quality</a> <a href="word/problem.html">Problems</a> in <a href="word/network.html">Network</a> <a href="word/traffic.html">Traffic</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 2003.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/KornMZ03">DBLP</a><br/>
+<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/KornMZ03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Checks+and+Balances:+Monitoring+Data+Quality+Problems+in+Network+Traffic+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2003/papers/S17P01.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2003-KornMZ,
 	author        = "<a href="person/Flip_Korn.html">Flip Korn</a> and <a href="person/S_Muthukrishnan.html">S. Muthukrishnan</a> and <a href="person/Yunyue_Zhu.html">Yunyue Zhu</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2003/papers/S17P01.pdf">http://www.vldb.org/conf/2003/papers/S17P01.pdf</a>",
 </span>	pages         = "536--547",
 	publisher     = "{Morgan Kaufmann}",

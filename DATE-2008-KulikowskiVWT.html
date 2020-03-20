@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/DATE-2008/DATE-2008-KulikowskiVWT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\DATE-2008\DATE-2008-KulikowskiVWT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Konrad J. Kulikowski, Vyas Venkataraman, Zhen Wang, Alexander Taubin<br/><em><a href="word/power.html">Power</a> <a href="word/balanc.html">Balanced</a> <a href="word/gate.html">Gates</a> <a href="word/insensit.html">Insensitive</a> to <a href="word/rout.html">Routing</a> <a href="word/capacit.html">Capacitance</a> <a href="word/mismatch.html">Mismatch</a></em><br/>DATE, 2008.</h2>
 <div class="rbox">
-<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/KulikowskiVWT08">DBLP</a><br/>
+<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/KulikowskiVWT08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Power+Balanced+Gates+Insensitive+to+Routing+Capacitance+Mismatch%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/DATE.2008.4484855">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2008-KulikowskiVWT,
 	author        = "<a href="person/Konrad_J_Kulikowski.html">Konrad J. Kulikowski</a> and <a href="person/Vyas_Venkataraman.html">Vyas Venkataraman</a> and <a href="person/Zhen_Wang.html">Zhen Wang</a> and <a href="person/Alexander_Taubin.html">Alexander Taubin</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/DATE.2008.4484855">10.1109/DATE.2008.4484855</a>",
 </span>	pages         = "1280--1285",
 	publisher     = "{IEEE}",

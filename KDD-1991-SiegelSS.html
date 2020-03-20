@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1991/KDD-1991/KDD-1991-SiegelSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1991\KDD-1991\KDD-1991-SiegelSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Michael Siegel, Edward Sciore, Sharon C. Salveter<br/><em><a href="word/rule.html">Rule</a> <a href="word/discoveri.html">Discovery</a> for <a href="word/queri.html">Query</a> <a href="word/optim.html">Optimization</a></em><br/>KDD, 1991.</h2>
 <div class="rbox">
-<strong><a href="KDD-1991.html">KDD 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/books/mit/PF91/SiegelSS91">DBLP</a><br/>
+<strong><a href="KDD-1991.html">KDD 1991</a></strong><hr/><a href="http://dblp.org/rec/html/books/mit/PF91/SiegelSS91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Rule+Discovery+for+Query+Optimization%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Knowledge Discovery in Databases':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@incollection{KDD-1991-SiegelSS,
 	author        = "<a href="person/Michael_Siegel.html">Michael Siegel</a> and <a href="person/Edward_Sciore.html">Edward Sciore</a> and <a href="person/Sharon_C_Salveter.html">Sharon C. Salveter</a>",
-	booktitle     = "{Knowledge Discovery in Databases}",
+	booktitle     = "{<span id="booktitle">Knowledge Discovery in Databases</span>}",
 	pages         = "411--430",
 	publisher     = "{AAAI/MIT Press}",
 	title         = "{Rule Discovery for Query Optimization}",

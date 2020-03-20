@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2012/KDD-2012/KDD-2012-TangWSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2012\KDD-2012\KDD-2012-TangWSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jie Tang, Sen Wu, Jimeng Sun, Hang Su<br/><em><a href="word/cross.html">Cross</a>-<a href="word/domain.html">domain</a> <a href="word/collabor.html">collaboration</a> <a href="word/recommend.html">recommendation</a></em><br/>KDD, 2012.</h2>
 <div class="rbox">
-<strong><a href="KDD-2012.html">KDD 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/TangWSS12">DBLP</a><br/>
+<strong><a href="KDD-2012.html">KDD 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/TangWSS12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Cross-domain+collaboration+recommendation%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/2339530.2339730">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/2339530.2339730">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2012-TangWSS,
 	author        = "<a href="person/Jie_Tang.html">Jie Tang</a> and <a href="person/Sen_Wu.html">Sen Wu</a> and <a href="person/Jimeng_Sun.html">Jimeng Sun</a> and <a href="person/Hang_Su.html">Hang Su</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2339530.2339730">10.1145/2339530.2339730</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2339530.2339730">http://doi.acm.org/10.1145/2339530.2339730</a>",
 </span>	pages         = "1285--1293",

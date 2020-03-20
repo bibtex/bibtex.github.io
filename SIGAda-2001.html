@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/HILT/2001/SIGAda-2001.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLT\2001\SIGAda-2001.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,18 +32,17 @@
 <div class="main">
 <h2><br/><em>Proceedings ACM SIGAda Annual International Conference (SIGAda 2001)</em><br/>SIGAda, 2001.</h2>
 <div class="rbox">
-<strong><a href="HILT.html">HILT</a></strong><hr/><a href="http://dblp.uni-trier.de/db/conf/sigada/sigada2001.html">DBLP</a><br/>
+<strong><a href="PLT.html">PLT</a></strong><hr/><a href="http://dblp.uni-trier.de/db/conf/sigada/sigada2001.html">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+ACM+SIGAda+Annual+International+Conference+(SIGAda+2001)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings ACM SIGAda Annual International Conference (SIGAda 2001)':'SIGAda');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SIGAda-2001,
 	address       = "Bloomington, Minnesota, USA",
-	booktitle     = "{SIGAda}",
 	publisher     = "{ACM}",
-	title         = "{Proceedings ACM SIGAda Annual International Conference (SIGAda 2001)}",
+	title         = "{<span id="title">Proceedings ACM SIGAda Annual International Conference (SIGAda 2001)</span>}",
 	year          = 2001,
 }</pre>
 </div>

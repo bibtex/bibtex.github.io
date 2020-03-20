@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1996/KR-1996/KR-1996-LeeG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1996\KR-1996\KR-1996-LeeG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Yugyung Lee, James Geller<br/><em><a href="word/parallel.html">Parallel</a> <a href="word/transit.html">Transitive</a> <a href="word/reason.html">Reasoning</a> in <a href="word/mix.html">Mixed</a> <a href="word/relat.html">Relational</a> <a href="word/hierarchi.html">Hierarchies</a></em><br/>KR, 1996.</h2>
 <div class="rbox">
-<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/LeeG96">DBLP</a><br/>
+<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/LeeG96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Parallel+Transitive+Reasoning+in+Mixed+Relational+Hierarchies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1996-LeeG,
 	author        = "<a href="person/Yugyung_Lee.html">Yugyung Lee</a> and <a href="person/James_Geller.html">James Geller</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "576--587",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Parallel Transitive Reasoning in Mixed Relational Hierarchies}",

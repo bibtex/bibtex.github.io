@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-MerrettAWZRMRLFA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-MerrettAWZRMRLFA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Michael Merrett, Plamen Asenov, Yangang Wang, Mark Zwolinski, Dave Reid, Campbell Millar, Scott Roy, Zhenyu Liu, Stephen B. Furber, Asen Asenov<br/><em><a href="word/model.html">Modelling</a> <a href="word/circuit.html">circuit</a> <a href="word/perform.html">performance</a> <a href="word/variat.html">variations</a> <a href="word/due.html">due</a> to <a href="word/statist.html">statistical</a> <a href="word/variabl.html">variability</a>: <a href="word/mont.html">Monte</a> <a href="word/carlo.html">Carlo</a> <a href="word/static.html">static</a> <a href="word/time.html">timing</a> <a href="word/analysi.html">analysis</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/MerrettAWZRMRLFA11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/MerrettAWZRMRLFA11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Modelling+circuit+performance+variations+due+to+statistical+variability:+Monte+Carlo+static+timing+analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-MerrettAWZRMRLFA,
 	author        = "<a href="person/Michael_Merrett.html">Michael Merrett</a> and <a href="person/Plamen_Asenov.html">Plamen Asenov</a> and <a href="person/Yangang_Wang.html">Yangang Wang</a> and <a href="person/Mark_Zwolinski.html">Mark Zwolinski</a> and <a href="person/Dave_Reid.html">Dave Reid</a> and <a href="person/Campbell_Millar.html">Campbell Millar</a> and <a href="person/Scott_Roy.html">Scott Roy</a> and <a href="person/Zhenyu_Liu.html">Zhenyu Liu</a> and <a href="person/Stephen_B_Furber.html">Stephen B. Furber</a> and <a href="person/Asen_Asenov.html">Asen Asenov</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1537--1540",
 	publisher     = "{IEEE}",
 	title         = "{Modelling circuit performance variations due to statistical variability: Monte Carlo static timing analysis}",

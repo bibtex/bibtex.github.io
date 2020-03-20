@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-MullerBGRNZB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-MullerBGRNZB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Matthias Müller, Axel G. Braun, Joachim Gerlach, Wolfgang Rosenstiel, Dennis Nienhüser, Johann Marius Zöllner, Oliver Bringmann<br/><em><a href="word/design.html">Design</a> of an <a href="word/automot.html">automotive</a> <a href="word/traffic.html">traffic</a> <a href="word/sign.html">sign</a> <a href="word/recognit.html">recognition</a> <a href="word/system.html">system</a> <a href="word/target.html">targeting</a> a <a href="word/multi.html">multi</a>-<a href="word/core.html">core</a> SoC <a href="word/implement.html">implementation</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/MullerBGRNZB10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/MullerBGRNZB10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Design+of+an+automotive+traffic+sign+recognition+system+targeting+a+multi-core+SoC+implementation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-MullerBGRNZB,
 	author        = "<a href="person/Matthias_Mueller.html">Matthias Müller</a> and <a href="person/Axel_G_Braun.html">Axel G. Braun</a> and <a href="person/Joachim_Gerlach.html">Joachim Gerlach</a> and <a href="person/Wolfgang_Rosenstiel.html">Wolfgang Rosenstiel</a> and <a href="person/Dennis_Nienhueser.html">Dennis Nienhüser</a> and <a href="person/Johann_Marius_Zoellner.html">Johann Marius Zöllner</a> and <a href="person/Oliver_Bringmann.html">Oliver Bringmann</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "532--537",
 	publisher     = "{IEEE}",
 	title         = "{Design of an automotive traffic sign recognition system targeting a multi-core SoC implementation}",

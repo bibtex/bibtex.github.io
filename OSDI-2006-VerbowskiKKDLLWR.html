@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/OSDI-2006/OSDI-2006-VerbowskiKKDLLWR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\OSDI-2006\OSDI-2006-VerbowskiKKDLLWR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Chad Verbowski, Emre Kiciman, Arunvijay Kumar, Brad Daniels, Shan Lu, Juhan Lee, Yi-Min Wang, Roussi Roussev<br/><em><a href="word/flight.html">Flight</a> <a href="word/data.html">Data</a> <a href="word/record.html">Recorder</a>: <a href="word/monitor.html">Monitoring</a> <a href="word/persist.html">Persistent</a>-<a href="word/state.html">State</a> <a href="word/interact.html">Interactions</a> to <a href="word/improv.html">Improve</a> <a href="word/system.html">Systems</a> <a href="word/manag.html">Management</a></em><br/>OSDI, 2006.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/VerbowskiKKDLLWR06">DBLP</a><br/>
+<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/VerbowskiKKDLLWR06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Flight+Data+Recorder:+Monitoring+Persistent-State+Interactions+to+Improve+Systems+Management%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi06/tech/verbowski.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2006-VerbowskiKKDLLWR,
 	author        = "<a href="person/Chad_Verbowski.html">Chad Verbowski</a> and <a href="person/Emre_Kiciman.html">Emre Kiciman</a> and <a href="person/Arunvijay_Kumar.html">Arunvijay Kumar</a> and <a href="person/Brad_Daniels.html">Brad Daniels</a> and <a href="person/Shan_Lu.html">Shan Lu</a> and <a href="person/Juhan_Lee.html">Juhan Lee</a> and <a href="person/Yi-Min_Wang.html">Yi-Min Wang</a> and <a href="person/Roussi_Roussev.html">Roussi Roussev</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi06/tech/verbowski.html">http://www.usenix.org/events/osdi06/tech/verbowski.html</a>",
 </span>	pages         = "117--130",
 	publisher     = "{USENIX Association}",

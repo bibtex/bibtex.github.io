@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/1999/ICEIS-1999/ICEIS-1999-Wu.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\1999\ICEIS-1999\ICEIS-1999-Wu.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Chaoming J. Wu<br/><em>A <a href="word/causal.html">Causal</a> <a href="word/model.html">Model</a> for the <a href="word/intent.html">Intention</a> to <a href="word/use.html">Use</a> a <a href="word/web.html">Web</a> <a href="word/site.html">Site</a>: A <a href="word/studi.html">Study</a> <a href="word/base.html">Based</a> on the <a href="word/technolog.html">Technology</a> <a href="word/accept.html">Acceptance</a> <a href="word/model.html">Model</a> and the <a href="word/use.html">Uses</a> and <a href="word/gratif.html">Gratifications</a> <a href="word/perspect.html">Perspective</a></em><br/>ICEIS, 1999.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/Wu99">DBLP</a><br/>
+<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/Wu99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Causal+Model+for+the+Intention+to+Use+a+Web+Site:+A+Study+Based+on+the+Technology+Acceptance+Model+and+the+Uses+and+Gratifications+Perspective%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-1999-Wu,
 	author        = "<a href="person/Chaoming_J_Wu.html">Chaoming J. Wu</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Enterprise Information Systems</span>}",
 	pages         = "788",
 	title         = "{A Causal Model for the Intention to Use a Web Site: A Study Based on the Technology Acceptance Model and the Uses and Gratifications Perspective}",
 	year          = 1999,

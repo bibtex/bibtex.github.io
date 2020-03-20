@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/CASE-2008/CASE-2008-WangZFZXL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\CASE-2008\CASE-2008-WangZFZXL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Yifa Wang, Yunfeng Zhang, Jerry Y. H. Fuh, Zude Zhou, Ligong Xue, Ping Lou<br/><em>A <a href="word/web.html">web</a>-<a href="word/base.html">based</a> <a href="word/integr.html">integrated</a> <a href="word/process.html">process</a> <a href="word/plan.html">planning</a> and <a href="word/schedul.html">scheduling</a> <a href="word/system.html">system</a></em><br/>CASE, 2008.</h2>
 <div class="rbox">
-<strong><a href="CASE-2008.html">CASE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/WangZFZXL08">DBLP</a><br/>
+<strong><a href="CASE-2008.html">CASE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/WangZFZXL08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+web-based+integrated+process+planning+and+scheduling+system%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2008.4626574">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2008-WangZFZXL,
 	author        = "<a href="person/Yifa_Wang.html">Yifa Wang</a> and <a href="person/Yunfeng_Zhang.html">Yunfeng Zhang</a> and <a href="person/Jerry_Y_H_Fuh.html">Jerry Y. H. Fuh</a> and <a href="person/Zude_Zhou.html">Zude Zhou</a> and <a href="person/Ligong_Xue.html">Ligong Xue</a> and <a href="person/Ping_Lou.html">Ping Lou</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2008.4626574">10.1109/COASE.2008.4626574</a>",
 </span>	pages         = "662--667",
 	publisher     = "{IEEE}",

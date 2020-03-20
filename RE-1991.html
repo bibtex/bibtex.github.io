@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/REQ/1991/RE-1991.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/REQ\1991\RE-1991.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Michael Timm<br/><em>Proceedings of the Workshop on Requirements Engineering: Structured Analysis and Related Approaches</em><br/>Requirements Engineering, 1991.</h2>
 <div class="rbox">
-<strong><a href="REQ.html">REQ</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/re/1991">DBLP</a><br/>
+<strong><a href="REQ.html">REQ</a></strong><hr/><a href="http://dblp.org/rec/html/conf/re/1991">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Workshop+on+Requirements+Engineering:+Structured+Analysis+and+Related+Approaches%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Requirements Engineering':'RE');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Workshop on Requirements Engineering: Structured Analysis and Related Approaches':'Requirements Engineering');$('#publisher').text(this.checked?'Springer-Verlag':'Springer');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{RE-1991,
-	booktitle     = "{<span id="booktitle">Requirements Engineering</span>}",
 	editor        = "Michael Timm",
 <span id="isbn">	isbn          = "3-540-54025-3",
 </span>	publisher     = "{<span id="publisher">Springer-Verlag</span>}",
 	series        = "{Informatik-Fachberichte}",
-	title         = "{Proceedings of the Workshop on Requirements Engineering: Structured Analysis and Related Approaches}",
+	title         = "{<span id="title">Proceedings of the Workshop on Requirements Engineering: Structured Analysis and Related Approaches</span>}",
 	volume        = 273,
 	year          = 1991,
 }</pre>

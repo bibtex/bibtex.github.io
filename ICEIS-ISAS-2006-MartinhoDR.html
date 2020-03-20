@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-ISAS-2006/ICEIS-ISAS-2006-MartinhoDR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-ISAS-2006\ICEIS-ISAS-2006-MartinhoDR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ricardo Martinho, Dulce Domingos, António Rito Silva<br/><em><a href="word/support.html">Supporting</a> <a href="word/authent.html">Authentication</a> <a href="word/requir.html">Requirements</a> in <a href="word/workflow.html">Workflows</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MartinhoDR06">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MartinhoDR06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Supporting+Authentication+Requirements+in+Workflows%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2006-MartinhoDR,
 	author        = "<a href="person/Ricardo_Martinho.html">Ricardo Martinho</a> and <a href="person/Dulce_Domingos.html">Dulce Domingos</a> and <a href="person/Antonio_Rito_Silva.html">António Rito Silva</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification</span>}",
 	pages         = "181--188",
 	title         = "{Supporting Authentication Requirements in Workflows}",
 	year          = 2006,

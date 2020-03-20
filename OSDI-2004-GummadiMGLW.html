@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-GummadiMGLW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-GummadiMGLW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>P. Krishna Gummadi, Harsha V. Madhyastha, Steven D. Gribble, Henry M. Levy, David Wetherall<br/><em><a href="word/improv.html">Improving</a> the <a href="word/reliabl.html">Reliability</a> of <a href="word/internet.html">Internet</a> <a href="word/path.html">Paths</a> with <a href="word/one.html">One</a>-<a href="word/hop.html">hop</a> <a href="word/sourc.html">Source</a> <a href="word/rout.html">Routing</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/GummadiMGLW04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/GummadiMGLW04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Improving+the+Reliability+of+Internet+Paths+with+One-hop+Source+Routing%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/gummadi.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-GummadiMGLW,
 	author        = "<a href="person/P_Krishna_Gummadi.html">P. Krishna Gummadi</a> and <a href="person/Harsha_V_Madhyastha.html">Harsha V. Madhyastha</a> and <a href="person/Steven_D_Gribble.html">Steven D. Gribble</a> and <a href="person/Henry_M_Levy.html">Henry M. Levy</a> and <a href="person/David_Wetherall.html">David Wetherall</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/gummadi.html">http://www.usenix.org/events/osdi04/tech/gummadi.html</a>",
 </span>	pages         = "183--198",
 	publisher     = "{USENIX Association}",

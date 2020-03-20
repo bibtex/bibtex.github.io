@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2008/OSDI-2008/OSDI-2008-AnandSKPAAAB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\OSDI-2008\OSDI-2008-AnandSKPAAAB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ashok Anand, Sayandeep Sen, Andrew Krioukov, Florentina I. Popovici, Aditya Akella, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau, Suman Banerjee<br/><em><a href="word/avoid.html">Avoiding</a> <a href="word/file.html">File</a> <a href="word/system.html">System</a> <a href="word/micromanag.html">Micromanagement</a> with <a href="word/rang.html">Range</a> <a href="word/write.html">Writes</a></em><br/>OSDI, 2008.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/AnandSKPAAAB08">DBLP</a><br/>
+<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/AnandSKPAAAB08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Avoiding+File+System+Micromanagement+with+Range+Writes%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi08/tech/full_papers/anand/anand.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2008-AnandSKPAAAB,
 	author        = "<a href="person/Ashok_Anand.html">Ashok Anand</a> and <a href="person/Sayandeep_Sen.html">Sayandeep Sen</a> and <a href="person/Andrew_Krioukov.html">Andrew Krioukov</a> and <a href="person/Florentina_I_Popovici.html">Florentina I. Popovici</a> and <a href="person/Aditya_Akella.html">Aditya Akella</a> and <a href="person/Andrea_C_Arpaci-Dusseau.html">Andrea C. Arpaci-Dusseau</a> and <a href="person/Remzi_H_Arpaci-Dusseau.html">Remzi H. Arpaci-Dusseau</a> and <a href="person/Suman_Banerjee.html">Suman Banerjee</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi08/tech/full_papers/anand/anand.pdf">http://www.usenix.org/events/osdi08/tech/full_papers/anand/anand.pdf</a>",
 </span>	pages         = "161--176",
 	publisher     = "{USENIX Association}",

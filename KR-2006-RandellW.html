@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2006/KR-2006/KR-2006-RandellW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2006\KR-2006\KR-2006-RandellW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>David A. Randell, Mark Witkowski<br/><em><a href="word/abduct.html">Abductive</a> <a href="word/visual.html">Visual</a> <a href="word/percept.html">Perception</a> with <a href="word/featur.html">Feature</a> <a href="word/cloud.html">Clouds</a></em><br/>KR, 2006.</h2>
 <div class="rbox">
-<strong><a href="KR-2006.html">KR 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/RandellW06">DBLP</a><br/>
+<strong><a href="KR-2006.html">KR 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/RandellW06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Abductive+Visual+Perception+with+Feature+Clouds%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KR/2006/kr06-037.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2006-RandellW,
 	author        = "<a href="person/David_A_Randell.html">David A. Randell</a> and <a href="person/Mark_Witkowski.html">Mark Witkowski</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KR/2006/kr06-037.php">http://www.aaai.org/Library/KR/2006/kr06-037.php</a>",
 </span>	pages         = "352--361",
 	publisher     = "{AAAI Press}",

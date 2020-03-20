@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/VLDB-2000/VLDB-2000-WangZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\VLDB-2000\VLDB-2000-WangZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Haixun Wang, Carlo Zaniolo<br/><em><a href="word/use.html">Using</a> <a href="word/sql.html">SQL</a> to <a href="word/build.html">Build</a> <a href="word/new.html">New</a> <a href="word/aggreg.html">Aggregates</a> and <a href="word/extend.html">Extenders</a> for <a href="word/object.html">Object</a>- <a href="word/relat.html">Relational</a> <a href="word/system.html">Systems</a></em><br/>VLDB, 2000.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/WangZ00">DBLP</a><br/>
+<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/WangZ00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+SQL+to+Build+New+Aggregates+and+Extenders+for+Object-+Relational+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2000/P166.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2000-WangZ,
 	author        = "<a href="person/Haixun_Wang.html">Haixun Wang</a> and <a href="person/Carlo_Zaniolo.html">Carlo Zaniolo</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2000/P166.pdf">http://www.vldb.org/conf/2000/P166.pdf</a>",
 </span>	pages         = "166--175",
 	publisher     = "{Morgan Kaufmann}",

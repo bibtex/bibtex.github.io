@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2000/KR-2000/KR-2000-MontanariPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2000\KR-2000\KR-2000-MontanariPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Angelo Montanari, Alberto Policriti, Matteo Slanina<br/><em><a href="word/support.html">Supporting</a> <a href="word/autom.html">automated</a> <a href="word/deduct.html">deduction</a> in <a href="word/first.html">first</a>-<a href="word/order.html">order</a> <a href="word/modal.html">modal</a> <a href="word/logic.html">logics</a></em><br/>KR, 2000.</h2>
 <div class="rbox">
-<strong><a href="KR-2000.html">KR 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/MontanariPS00">DBLP</a><br/>
+<strong><a href="KR-2000.html">KR 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/MontanariPS00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Supporting+automated+deduction+in+first-order+modal+logics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2000-MontanariPS,
 	author        = "<a href="person/Angelo_Montanari.html">Angelo Montanari</a> and <a href="person/Alberto_Policriti.html">Alberto Policriti</a> and <a href="person/Matteo_Slanina.html">Matteo Slanina</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "547--556",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Supporting automated deduction in first-order modal logics}",

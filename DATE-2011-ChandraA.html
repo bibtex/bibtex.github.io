@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-ChandraA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-ChandraA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Vikas Chandra, Robert C. Aitken<br/><em><a href="word/analyt.html">Analytical</a> <a href="word/model.html">model</a> for <a href="word/sram.html">SRAM</a> <a href="word/dynam.html">dynamic</a> <a href="word/write.html">write</a>-<a href="word/abil.html">ability</a> <a href="word/degrad.html">degradation</a> <a href="word/due.html">due</a> to <a href="word/gate.html">gate</a> <a href="word/oxid.html">oxide</a> <a href="word/breakdown.html">breakdown</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ChandraA11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ChandraA11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Analytical+model+for+SRAM+dynamic+write-ability+degradation+due+to+gate+oxide+breakdown%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-ChandraA,
 	author        = "<a href="person/Vikas_Chandra.html">Vikas Chandra</a> and <a href="person/Robert_C_Aitken.html">Robert C. Aitken</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1172--1175",
 	publisher     = "{IEEE}",
 	title         = "{Analytical model for SRAM dynamic write-ability degradation due to gate oxide breakdown}",

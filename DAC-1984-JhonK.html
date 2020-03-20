@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1984/DAC-1984/DAC-1984-JhonK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1984\DAC-1984\DAC-1984-JhonK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Chu S. Jhon, Robert M. Keller<br/><em><a href="word/deadlock.html">Deadlock</a> <a href="word/analysi.html">analysis</a> in the <a href="word/design.html">design</a> of <a href="word/data.html">data</a>-<a href="word/flow.html">flow</a> <a href="word/circuit.html">circuits</a></em><br/>DAC, 1984.</h2>
 <div class="rbox">
-<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/JhonK84">DBLP</a><br/>
+<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/JhonK84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Deadlock+analysis+in+the+design+of+data-flow+circuits%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1984-JhonK,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=800889">800889</a>",
 </span>	author        = "<a href="person/Chu_S_Jhon.html">Chu S. Jhon</a> and <a href="person/Robert_M_Keller.html">Robert M. Keller</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st Design Automation Conference</span>}",
 	pages         = "705--707",
 	publisher     = "{ACM/IEEE}",
 	title         = "{Deadlock analysis in the design of data-flow circuits}",

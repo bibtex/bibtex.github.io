@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1997/EDTC-1997/EDTC-1997-VriesZBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1997\EDTC-1997\EDTC-1997-VriesZBR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>R. de Vries, Taco Zwemstra, E. M. J. G. Bruls, Paul P. L. Regtien<br/><em><a href="word/built.html">Built</a>-in <a href="word/self.html">self</a>-<a href="word/test.html">test</a> <a href="word/methodolog.html">methodology</a> for A/D <a href="word/convert.html">converters</a></em><br/>DATE, 1997.</h2>
 <div class="rbox">
-<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/VriesZBR97">DBLP</a><br/>
+<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/VriesZBR97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Built-in+self-test+methodology+for+A/D+converters%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/EDTC.1997.582382">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Design and Test Conference':'ED&TC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDTC-1997-VriesZBR,
 	author        = "<a href="person/R_de_Vries.html">R. de Vries</a> and <a href="person/Taco_Zwemstra.html">Taco Zwemstra</a> and <a href="person/E_M_J_G_Bruls.html">E. M. J. G. Bruls</a> and <a href="person/Paul_P_L_Regtien.html">Paul P. L. Regtien</a>",
-	booktitle     = "{ED&TC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second European Design and Test Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDTC.1997.582382">10.1109/EDTC.1997.582382</a>",
 </span>	pages         = "353--358",
 	publisher     = "{IEEE}",

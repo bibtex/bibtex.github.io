@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2014/KR-2014/KR-2014-GottlobMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2014\KR-2014\KR-2014-GottlobMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Georg Gottlob, Marco Manna, Andreas Pieris<br/><em><a href="word/polynomi.html">Polynomial</a> <a href="word/combin.html">Combined</a> <a href="word/rewrit.html">Rewritings</a> for <a href="word/existenti.html">Existential</a> <a href="word/rule.html">Rules</a></em><br/>KR, 2014.</h2>
 <div class="rbox">
-<strong><a href="KR-2014.html">KR 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/GottlobMP14">DBLP</a><br/>
+<strong><a href="KR-2014.html">KR 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/GottlobMP14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Polynomial+Combined+Rewritings+for+Existential+Rules%22">Scholar</a><hr/><a href="http://www.aaai.org/ocs/index.php/KR/KR14/paper/view/7973">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2014-GottlobMP,
 	author        = "<a href="person/Georg_Gottlob.html">Georg Gottlob</a> and <a href="person/Marco_Manna.html">Marco Manna</a> and <a href="person/Andreas_Pieris.html">Andreas Pieris</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/ocs/index.php/KR/KR14/paper/view/7973">http://www.aaai.org/ocs/index.php/KR/KR14/paper/view/7973</a>",
 </span>	publisher     = "{AAAI Press}",
 	title         = "{Polynomial Combined Rewritings for Existential Rules}",

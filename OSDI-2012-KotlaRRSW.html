@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2012/OSDI-2012/OSDI-2012-KotlaRRSW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\OSDI-2012\OSDI-2012-KotlaRRSW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ramakrishna Kotla, Tom Rodeheffer, Indrajit Roy, Patrick Stuedi, Benjamin Wester<br/><em><a href="word/pastur.html">Pasture</a>: <a href="word/secur.html">Secure</a> <a href="word/offlin.html">Offline</a> <a href="word/data.html">Data</a> <a href="word/access.html">Access</a> <a href="word/use.html">Using</a> <a href="word/commod.html">Commodity</a> <a href="word/trust.html">Trusted</a> <a href="word/hardwar.html">Hardware</a></em><br/>OSDI, 2012.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2012.html">OSDI 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/KotlaRRSW12">DBLP</a><br/>
+<strong><a href="OSDI-2012.html">OSDI 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/KotlaRRSW12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Pasture:+Secure+Offline+Data+Access+Using+Commodity+Trusted+Hardware%22">Scholar</a><hr/><a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kotla">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2012-KotlaRRSW,
 	author        = "<a href="person/Ramakrishna_Kotla.html">Ramakrishna Kotla</a> and <a href="person/Tom_Rodeheffer.html">Tom Rodeheffer</a> and <a href="person/Indrajit_Roy.html">Indrajit Roy</a> and <a href="person/Patrick_Stuedi.html">Patrick Stuedi</a> and <a href="person/Benjamin_Wester.html">Benjamin Wester</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kotla">https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kotla</a>",
 </span>	pages         = "321--334",
 	publisher     = "{USENIX Association}",

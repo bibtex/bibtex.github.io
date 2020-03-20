@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2013/DRR-2013/DRR-2013-SchusterHME.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2013\DRR-2013\DRR-2013-SchusterHME.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,21 @@
 <div class="main">
 <h2>Daniel Schuster, Marcel Hanke, Klemens Muthmann, Daniel Esser<br/><em><a href="word/rule.html">Rule</a>-<a href="word/base.html">based</a> <a href="word/versus.html">versus</a> <a href="word/train.html">training</a>-<a href="word/base.html">based</a> <a href="word/extract.html">extraction</a> of <a href="word/index.html">index</a> <a href="word/term.html">terms</a> from <a href="word/busi.html">business</a> <a href="word/document.html">documents</a>: how to <a href="word/combin.html">combine</a> the <a href="word/result.html">results</a></em><br/>DRR, 2013.</h2>
 <div class="rbox">
-<strong><a href="DRR-2013.html">DRR 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/SchusterHME13">DBLP</a><br/>
+<strong><a href="DRR-2013.html">DRR 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/SchusterHME13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Rule-based+versus+training-based+extraction+of+index+terms+from+business+documents:+how+to+combine+the+results%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.2002509">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2013-SchusterHME,
 	author        = "<a href="person/Daniel_Schuster.html">Daniel Schuster</a> and <a href="person/Marcel_Hanke.html">Marcel Hanke</a> and <a href="person/Klemens_Muthmann.html">Klemens Muthmann</a> and <a href="person/Daniel_Esser.html">Daniel Esser</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.2002509">10.1117/12.2002509</a>",
 </span>	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Rule-based versus training-based extraction of index terms from business documents: how to combine the results}",
-	volume        = 8658,
+	volume        = "8658",
 	year          = 2013,
 }</pre>
 </div>

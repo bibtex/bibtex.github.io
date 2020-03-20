@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FLT/2013/DLT-J-2013.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FLT\2013\DLT-J-2013.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,16 +36,15 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Issue+on+Developments+in+Language+Theory+—+DLT+2013%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'International Journal of Foundations of Computer Science':'IJFCS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Special Issue on Developments in Language Theory — DLT 2013':'DLT');$('#journal').text(this.checked?'International Journal of Foundations of Computer Science':'IJFCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{DLT-J-2013,
-	booktitle     = "{DLT}",
 	editor        = "<a href="person/Marie-Pierre_Beal.html">Marie-Pierre Béal</a> and <a href="person/Olivier_Carton.html">Olivier Carton</a>",
 	journal       = "{<span id="journal">International Journal of Foundations of Computer Science</span>}",
 	number        = 8,
 	publisher     = "{World Scientific}",
-	title         = "{Special Issue on Developments in Language Theory — DLT 2013}",
+	title         = "{<span id="title">Special Issue on Developments in Language Theory — DLT 2013</span>}",
 	volume        = 25,
 	year          = 2014,
 }</pre>

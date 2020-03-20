@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/CASE-2011/CASE-2011-HeoOP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\CASE-2011\CASE-2011-HeoOP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Dong-Hyeog Heo, Ah-Reum Oh, Tae-Hyoung Park<br/><em>A <a href="word/local.html">localization</a> <a href="word/system.html">system</a> of <a href="word/mobil.html">mobile</a> <a href="word/robot.html">robots</a> <a href="word/use.html">using</a> <a href="word/artifici.html">artificial</a> <a href="word/landmark.html">landmarks</a></em><br/>CASE, 2011.</h2>
 <div class="rbox">
-<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/HeoOP11">DBLP</a><br/>
+<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/HeoOP11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+localization+system+of+mobile+robots+using+artificial+landmarks%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CASE.2011.6042431">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2011-HeoOP,
 	author        = "<a href="person/Dong-Hyeog_Heo.html">Dong-Hyeog Heo</a> and <a href="person/Ah-Reum_Oh.html">Ah-Reum Oh</a> and <a href="person/Tae-Hyoung_Park.html">Tae-Hyoung Park</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CASE.2011.6042431">10.1109/CASE.2011.6042431</a>",
 </span>	pages         = "139--144",
 	publisher     = "{IEEE}",

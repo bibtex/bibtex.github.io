@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/DATE-2015/DATE-2015-BaldwinBRPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\DATE-2015\DATE-2015-BaldwinBRPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Rebecca Baldwin, Stan Bobovych, Ryan Robucci, Chintan Patel, Nilanjan Banerjee<br/><em><a href="word/gait.html">Gait</a> <a href="word/analysi.html">analysis</a> for <a href="word/fall.html">fall</a> <a href="word/predict.html">prediction</a> <a href="word/use.html">using</a> <a href="word/hierarch.html">hierarchical</a> <a href="word/textil.html">textile</a>-<a href="word/base.html">based</a> <a href="word/capacit.html">capacitive</a> <a href="word/sensor.html">sensor</a> <a href="word/array.html">arrays</a></em><br/>DATE, 2015.</h2>
 <div class="rbox">
-<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/BaldwinBRPB15">DBLP</a><br/>
+<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/BaldwinBRPB15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Gait+analysis+for+fall+prediction+using+hierarchical+textile-based+capacitive+sensor+arrays%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2015-BaldwinBRPB,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2757114">2757114</a>",
 </span>	author        = "<a href="person/Rebecca_Baldwin.html">Rebecca Baldwin</a> and <a href="person/Stan_Bobovych.html">Stan Bobovych</a> and <a href="person/Ryan_Robucci.html">Ryan Robucci</a> and <a href="person/Chintan_Patel.html">Chintan Patel</a> and <a href="person/Nilanjan_Banerjee.html">Nilanjan Banerjee</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "1293--1298",
 	publisher     = "{ACM}",
 	title         = "{Gait analysis for fall prediction using hierarchical textile-based capacitive sensor arrays}",

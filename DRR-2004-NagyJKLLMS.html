@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/DRR-2004/DRR-2004-NagyJKLLMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\DRR-2004\DRR-2004-NagyJKLLMS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>George Nagy, Ashutosh Joshi, Mukkai S. Krishnamoorthy, Yu Lin, Daniel P. Lopresti, Shashank K. Mehta, Sharad C. Seth<br/><em>A <a href="word/nonparametr.html">nonparametric</a> <a href="word/classifi.html">classifier</a> for <a href="word/unseg.html">unsegmented</a> <a href="word/text.html">text</a></em><br/>DRR, 2004.</h2>
 <div class="rbox">
-<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/NagyJKLLMS04">DBLP</a><br/>
+<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/NagyJKLLMS04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+nonparametric+classifier+for+unsegmented+text%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=30457">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2004-NagyJKLLMS,
 	author        = "<a href="person/George_Nagy.html">George Nagy</a> and <a href="person/Ashutosh_Joshi.html">Ashutosh Joshi</a> and <a href="person/Mukkai_S_Krishnamoorthy.html">Mukkai S. Krishnamoorthy</a> and <a href="person/Yu_Lin.html">Yu Lin</a> and <a href="person/Daniel_P_Lopresti.html">Daniel P. Lopresti</a> and <a href="person/Shashank_K_Mehta.html">Shashank K. Mehta</a> and <a href="person/Sharad_C_Seth.html">Sharad C. Seth</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=30457">http://www.imaging.org/store/epub.cfm?abstrid=30457</a>",
 </span>	pages         = "102--108",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{A nonparametric classifier for unsegmented text}",
-	volume        = 5296,
+	volume        = "5296",
 	year          = 2004,
 }</pre>
 </div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2015/HT-2015/HT-2015-SchulzSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2015\HT-2015\HT-2015-SchulzSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Axel Schulz, Benedikt Schmidt, Thorsten Strufe<br/><em><a href="word/small.html">Small</a>-<a href="word/scale.html">Scale</a> <a href="word/incid.html">Incident</a> <a href="word/detect.html">Detection</a> <a href="word/base.html">based</a> on <a href="word/micropost.html">Microposts</a></em><br/>HT, 2015.</h2>
 <div class="rbox">
-<strong><a href="HT-2015.html">HT 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/SchulzSS15">DBLP</a><br/>
+<strong><a href="HT-2015.html">HT 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/SchulzSS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Small-Scale+Incident+Detection+based+on+Microposts%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/2700171.2791038">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/2700171.2791038">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th Conference on Hypertext and Social Media':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-2015-SchulzSS,
 	author        = "<a href="person/Axel_Schulz.html">Axel Schulz</a> and <a href="person/Benedikt_Schmidt.html">Benedikt Schmidt</a> and <a href="person/Thorsten_Strufe.html">Thorsten Strufe</a>",
-	booktitle     = "{HT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th Conference on Hypertext and Social Media</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2700171.2791038">10.1145/2700171.2791038</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2700171.2791038">http://doi.acm.org/10.1145/2700171.2791038</a>",
 </span>	pages         = "3--12",

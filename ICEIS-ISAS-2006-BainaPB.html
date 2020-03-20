@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-ISAS-2006/ICEIS-ISAS-2006-BainaPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-ISAS-2006\ICEIS-ISAS-2006-BainaPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Salah Baïna, Hervé Panetto, Khalid Benali<br/><em>A <a href="word/product.html">Product</a> <a href="word/orient.html">Oriented</a> <a href="word/model.html">Modelling</a> <a href="word/concept.html">Concept</a> — <a href="word/holon.html">Holons</a> for <a href="word/system.html">Systems</a> <a href="word/synchronis.html">Synchronisation</a> and <a href="word/interoper.html">Interoperability</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/BainaPB06">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/BainaPB06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Product+Oriented+Modelling+Concept+—+Holons+for+Systems+Synchronisation+and+Interoperability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2006-BainaPB,
 	author        = "<a href="person/Salah_Baina.html">Salah Baïna</a> and <a href="person/Herve_Panetto.html">Hervé Panetto</a> and <a href="person/Khalid_Benali.html">Khalid Benali</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification</span>}",
 	pages         = "19--26",
 	title         = "{A Product Oriented Modelling Concept — Holons for Systems Synchronisation and Interoperability}",
 	year          = 2006,

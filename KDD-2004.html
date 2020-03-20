@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2004/KDD-2004.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2004\KDD-2004.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Won Kim, Ron Kohavi, Johannes Gehrke, William DuMouchel<br/><em>Proceedings of the 10th International Conference on Knowledge Discovery and Data Mining</em><br/>KDD, 2004.</h2>
 <div class="rbox">
-<strong><a href="KER.html">KER</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/2004">DBLP</a><br/>
+<strong><a href="KER.html">KER</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/2004">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+10th+International+Conference+on+Knowledge+Discovery+and+Data+Mining%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 10th International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{KDD-2004,
 	address       = "Seattle, Washington, USA",
-	booktitle     = "{KDD}",
 	editor        = "<a href="person/Won_Kim.html">Won Kim</a> and <a href="person/Ron_Kohavi.html">Ron Kohavi</a> and <a href="person/Johannes_Gehrke.html">Johannes Gehrke</a> and <a href="person/William_DuMouchel.html">William DuMouchel</a>",
 <span id="isbn">	isbn          = "1-58113-888-1",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 10th International Conference on Knowledge Discovery and Data Mining}",
+	title         = "{<span id="title">Proceedings of the 10th International Conference on Knowledge Discovery and Data Mining</span>}",
 	year          = 2004,
 }</pre>
 </div>

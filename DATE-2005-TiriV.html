@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2005/DATE-2005/DATE-2005-TiriV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2005\DATE-2005\DATE-2005-TiriV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Kris Tiri, Ingrid Verbauwhede<br/><em><a href="word/design.html">Design</a> <a href="word/method.html">Method</a> for <a href="word/constant.html">Constant</a> <a href="word/power.html">Power</a> <a href="word/consumpt.html">Consumption</a> of <a href="word/differenti.html">Differential</a> <a href="word/logic.html">Logic</a> <a href="word/circuit.html">Circuits</a></em><br/>DATE, 2005.</h2>
 <div class="rbox">
-<strong><a href="DATE-2005.html">DATE 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/TiriV05">DBLP</a><br/>
+<strong><a href="DATE-2005.html">DATE 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/TiriV05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Design+Method+for+Constant+Power+Consumption+of+Differential+Logic+Circuits%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/DATE.2005.113">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/DATE.2005.113">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Conference on Design, Automation and Test in Europe':'DATE');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2005-TiriV,
 	author        = "<a href="person/Kris_Tiri.html">Kris Tiri</a> and <a href="person/Ingrid_Verbauwhede.html">Ingrid Verbauwhede</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/DATE.2005.113">10.1109/DATE.2005.113</a>",
 </span>	pages         = "628--633",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

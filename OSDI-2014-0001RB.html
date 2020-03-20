@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2014/OSDI-2014/OSDI-2014-0001RB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\OSDI-2014\OSDI-2014-0001RB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Pedro Fonseca, Rodrigo Rodrigues, Björn B. Brandenburg<br/><em><a href="word/ski.html">SKI</a>: <a href="word/expos.html">Exposing</a> <a href="word/kernel.html">Kernel</a> <a href="word/concurr.html">Concurrency</a> <a href="word/bug.html">Bugs</a> through <a href="word/systemat.html">Systematic</a> <a href="word/schedul.html">Schedule</a> <a href="word/explor.html">Exploration</a></em><br/>OSDI, 2014.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/0001RB14">DBLP</a><br/>
+<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/0001RB14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SKI:+Exposing+Kernel+Concurrency+Bugs+through+Systematic+Schedule+Exploration%22">Scholar</a><hr/><a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/fonseca">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2014-0001RB,
 	author        = "<a href="person/Pedro_Fonseca.html">Pedro Fonseca</a> and <a href="person/Rodrigo_Rodrigues.html">Rodrigo Rodrigues</a> and <a href="person/Bjoern_B_Brandenburg.html">Björn B. Brandenburg</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/fonseca">https://www.usenix.org/conference/osdi14/technical-sessions/presentation/fonseca</a>",
 </span>	pages         = "415--431",
 	publisher     = "{USENIX Association}",

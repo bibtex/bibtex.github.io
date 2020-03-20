@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/VLDB-2000/VLDB-2000-BasuFP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\VLDB-2000\VLDB-2000-BasuFP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Julie Basu, José Alberto Fernández, Olga Peschansky<br/><em><a href="word/build.html">Building</a> <a href="word/scalabl.html">Scalable</a> <a href="word/internet.html">Internet</a> <a href="word/applic.html">Applications</a> with <a href="word/oracl.html">Oracle</a>8i <a href="word/server.html">Server</a></em><br/>VLDB, 2000.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BasuFP00">DBLP</a><br/>
+<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BasuFP00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Building+Scalable+Internet+Applications+with+Oracle8i+Server%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2000/P649.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2000-BasuFP,
 	author        = "<a href="person/Julie_Basu.html">Julie Basu</a> and <a href="person/Jose_Alberto_Fernandez.html">José Alberto Fernández</a> and <a href="person/Olga_Peschansky.html">Olga Peschansky</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2000/P649.pdf">http://www.vldb.org/conf/2000/P649.pdf</a>",
 </span>	pages         = "649",
 	publisher     = "{Morgan Kaufmann}",

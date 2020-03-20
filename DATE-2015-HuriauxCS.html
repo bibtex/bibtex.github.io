@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/DATE-2015/DATE-2015-HuriauxCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\DATE-2015\DATE-2015-HuriauxCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Christophe Huriaux, Antoine Courtay, Olivier Sentieys<br/><em><a href="word/design.html">Design</a> <a href="word/flow.html">flow</a> and <a href="word/run.html">run</a>-<a href="word/time.html">time</a> <a href="word/manag.html">management</a> for <a href="word/compress.html">compressed</a> <a href="word/fpga.html">FPGA</a> <a href="word/configur.html">configurations</a></em><br/>DATE, 2015.</h2>
 <div class="rbox">
-<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/HuriauxCS15">DBLP</a><br/>
+<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/HuriauxCS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Design+flow+and+run-time+management+for+compressed+FPGA+configurations%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2015-HuriauxCS,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2757170">2757170</a>",
 </span>	author        = "<a href="person/Christophe_Huriaux.html">Christophe Huriaux</a> and <a href="person/Antoine_Courtay.html">Antoine Courtay</a> and <a href="person/Olivier_Sentieys.html">Olivier Sentieys</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "1551--1554",
 	publisher     = "{ACM}",
 	title         = "{Design flow and run-time management for compressed FPGA configurations}",

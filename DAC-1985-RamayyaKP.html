@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1985/DAC-1985/DAC-1985-RamayyaKP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1985\DAC-1985\DAC-1985-RamayyaKP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Kumar Ramayya, Anshul Kumar, Surendra Prasad<br/><em>An <a href="word/autom.html">automated</a> <a href="word/data.html">data</a> <a href="word/path.html">path</a> <a href="word/synthes.html">synthesizer</a> for a <a href="word/canon.html">canonic</a> <a href="word/structur.html">structure</a>, <a href="word/implement.html">implementable</a> in <a href="word/vlsi.html">VLSI</a></em><br/>DAC, 1985.</h2>
 <div class="rbox">
-<strong><a href="DAC-1985.html">DAC 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/RamayyaKP85">DBLP</a><br/>
+<strong><a href="DAC-1985.html">DAC 1985</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/RamayyaKP85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+automated+data+path+synthesizer+for+a+canonic+structure,+implementable+in+VLSI%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/317825.317916">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/317825.317916">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1985-RamayyaKP,
 	author        = "<a href="person/Kumar_Ramayya.html">Kumar Ramayya</a> and <a href="person/Anshul_Kumar.html">Anshul Kumar</a> and <a href="person/Surendra_Prasad.html">Surendra Prasad</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/317825.317916">10.1145/317825.317916</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/317825.317916">http://doi.acm.org/10.1145/317825.317916</a>",
 </span>	pages         = "381--387",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1996/VLDB-1996/VLDB-1996-ViverosNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1996\VLDB-1996\VLDB-1996-ViverosNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Marisa S. Viveros, John P. Nearhos, Michael J. Rothman<br/><em><a href="word/appli.html">Applying</a> <a href="word/data.html">Data</a> <a href="word/mine.html">Mining</a> <a href="word/techniqu.html">Techniques</a> to a <a href="word/health.html">Health</a> <a href="word/insur.html">Insurance</a> <a href="word/inform.html">Information</a> <a href="word/system.html">System</a></em><br/>VLDB, 1996.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1996.html">VLDB 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ViverosNR96">DBLP</a><br/>
+<strong><a href="VLDB-1996.html">VLDB 1996</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ViverosNR96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Applying+Data+Mining+Techniques+to+a+Health+Insurance+Information+System%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1996/P286.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 22nd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1996-ViverosNR,
 	author        = "<a href="person/Marisa_S_Viveros.html">Marisa S. Viveros</a> and <a href="person/John_P_Nearhos.html">John P. Nearhos</a> and <a href="person/Michael_J_Rothman.html">Michael J. Rothman</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 22nd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1996/P286.PDF">http://www.vldb.org/conf/1996/P286.PDF</a>",
 </span>	note          = "experience/applicaton paper",
 	pages         = "286--294",

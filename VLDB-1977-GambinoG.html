@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1977/VLDB-1977/VLDB-1977-GambinoG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1977\VLDB-1977\VLDB-1977-GambinoG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Thomas J. Gambino, Rob Gerritsen<br/><em>A <a href="word/data.html">Data</a> <a href="word/base.html">Base</a> <a href="word/design.html">Design</a> <a href="word/decis.html">Decision</a> <a href="word/support.html">Support</a> <a href="word/system.html">System</a></em><br/>VLDB, 1977.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1977.html">VLDB 1977</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/GambinoG77">DBLP</a><br/>
+<strong><a href="VLDB-1977.html">VLDB 1977</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/GambinoG77">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Data+Base+Design+Decision+Support+System%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Very Large Data Bases':'VLDB');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1977-GambinoG,
 	author        = "<a href="person/Thomas_J_Gambino.html">Thomas J. Gambino</a> and <a href="person/Rob_Gerritsen.html">Rob Gerritsen</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Very Large Data Bases</span>}",
 	cdrom         = "VLDB77/P534.PDF",
 	pages         = "534--544",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

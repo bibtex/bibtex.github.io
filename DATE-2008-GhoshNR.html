@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/DATE-2008/DATE-2008-GhoshNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\DATE-2008\DATE-2008-GhoshNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Swaroop Ghosh, Patrick Ndai, Kaushik Roy<br/><em>A <a href="word/novel.html">Novel</a> <a href="word/low.html">Low</a> <a href="word/overhead.html">Overhead</a> <a href="word/fault.html">Fault</a> <a href="word/toler.html">Tolerant</a> <a href="word/kogg.html">Kogge</a>-<a href="word/stone.html">Stone</a> <a href="word/adder.html">Adder</a> <a href="word/use.html">Using</a> <a href="word/adapt.html">Adaptive</a> <a href="word/clock.html">Clocking</a></em><br/>DATE, 2008.</h2>
 <div class="rbox">
-<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/GhoshNR08">DBLP</a><br/>
+<strong><a href="DATE-2008.html">DATE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/GhoshNR08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Novel+Low+Overhead+Fault+Tolerant+Kogge-Stone+Adder+Using+Adaptive+Clocking%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/DATE.2008.4484707">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2008-GhoshNR,
 	author        = "<a href="person/Swaroop_Ghosh.html">Swaroop Ghosh</a> and <a href="person/Patrick_Ndai.html">Patrick Ndai</a> and <a href="person/Kaushik_Roy.html">Kaushik Roy</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/DATE.2008.4484707">10.1109/DATE.2008.4484707</a>",
 </span>	pages         = "366--371",
 	publisher     = "{IEEE}",

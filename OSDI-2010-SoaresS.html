@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2010/OSDI-2010/OSDI-2010-SoaresS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\OSDI-2010\OSDI-2010-SoaresS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Livio Soares, Michael Stumm<br/><em><a href="word/flex.html">Flex</a>SC: <a href="word/flexibl.html">Flexible</a> <a href="word/system.html">System</a> <a href="word/call.html">Call</a> <a href="word/schedul.html">Scheduling</a> with <a href="word/except.html">Exception</a>-<a href="word/less.html">Less</a> <a href="word/system.html">System</a> <a href="word/call.html">Calls</a></em><br/>OSDI, 2010.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/SoaresS10">DBLP</a><br/>
+<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/SoaresS10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22FlexSC:+Flexible+System+Call+Scheduling+with+Exception-Less+System+Calls%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi10/tech/full_papers/Soares.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2010-SoaresS,
 	author        = "<a href="person/Livio_Soares.html">Livio Soares</a> and <a href="person/Michael_Stumm.html">Michael Stumm</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi10/tech/full_papers/Soares.pdf">http://www.usenix.org/events/osdi10/tech/full_papers/Soares.pdf</a>",
 </span>	pages         = "33--46",
 	publisher     = "{USENIX Association}",

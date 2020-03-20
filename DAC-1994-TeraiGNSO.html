@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1994/DAC-1994/DAC-1994-TeraiGNSO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1994\DAC-1994\DAC-1994-TeraiGNSO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Hidekazu Terai, Kazutoshi Gemma, Yohsuke Nagao, Yasuo Satoh, Yasuhiro Ohno<br/><em><a href="word/basic.html">Basic</a> <a href="word/concept.html">Concept</a> of <a href="word/cooper.html">Cooperative</a> <a href="word/time.html">Timing</a>-<a href="word/driven.html">driven</a> <a href="word/design.html">Design</a> <a href="word/autom.html">Automation</a> <a href="word/technolog.html">Technology</a> for <a href="word/high.html">High</a>-<a href="word/speed.html">speed</a> <a href="word/risc.html">RISC</a> <a href="word/processor.html">Processor</a> <a href="word/harp.html">HARP</a>-1</em><br/>DAC, 1994.</h2>
 <div class="rbox">
-<strong><a href="DAC-1994.html">DAC 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/TeraiGNSO94">DBLP</a><br/>
+<strong><a href="DAC-1994.html">DAC 1994</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/TeraiGNSO94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Basic+Concept+of+Cooperative+Timing-driven+Design+Automation+Technology+for+High-speed+RISC+Processor+HARP-1%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/196244.196371">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/196244.196371">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 31st Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1994-TeraiGNSO,
 	author        = "<a href="person/Hidekazu_Terai.html">Hidekazu Terai</a> and <a href="person/Kazutoshi_Gemma.html">Kazutoshi Gemma</a> and <a href="person/Yohsuke_Nagao.html">Yohsuke Nagao</a> and <a href="person/Yasuo_Satoh.html">Yasuo Satoh</a> and <a href="person/Yasuhiro_Ohno.html">Yasuhiro Ohno</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 31st Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/196244.196371">10.1145/196244.196371</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/196244.196371">http://doi.acm.org/10.1145/196244.196371</a>",
 </span>	pages         = "262--269",

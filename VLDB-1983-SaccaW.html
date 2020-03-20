@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1983/VLDB-1983/VLDB-1983-SaccaW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1983\VLDB-1983\VLDB-1983-SaccaW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Domenico Saccà, Gio Wiederhold<br/><em><a href="word/databas.html">Database</a> <a href="word/partit.html">Partitioning</a> in a <a href="word/cluster.html">Cluster</a> of <a href="word/processor.html">Processors</a></em><br/>VLDB, 1983.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/SaccaW83">DBLP</a><br/>
+<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/SaccaW83">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Database+Partitioning+in+a+Cluster+of+Processors%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1983/P242.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1983-SaccaW,
 	author        = "<a href="person/Domenico_Sacca.html">Domenico Saccà</a> and <a href="person/Gio_Wiederhold.html">Gio Wiederhold</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1983/P242.PDF">http://www.vldb.org/conf/1983/P242.PDF</a>",
 </span>	pages         = "242--247",
 	publisher     = "{Morgan Kaufmann}",

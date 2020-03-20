@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2001/DATE-2001/DATE-2001-Ruiz-de-ClavijoJBAV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2001\DATE-2001\DATE-2001-Ruiz-de-ClavijoJBAV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Paulino Ruiz-de-Clavijo, Jorge Juan-Chico, Manuel J. Bellido, Antonio J. Acosta, Manuel Valencia<br/><em><a href="word/haloti.html">HALOTIS</a>: <a href="word/high.html">high</a> <a href="word/accuraci.html">accuracy</a> L<a href="word/ogic.html">Ogic</a> T<a href="word/ime.html">Iming</a> <a href="word/simul.html">simulator</a> with <a href="word/inerti.html">inertial</a> and <a href="word/degrad.html">degradation</a> <a href="word/delay.html">delay</a> <a href="word/model.html">model</a></em><br/>DATE, 2001.</h2>
 <div class="rbox">
-<strong><a href="DATE-2001.html">DATE 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/Ruiz-de-ClavijoJBAV01">DBLP</a><br/>
+<strong><a href="DATE-2001.html">DATE 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/Ruiz-de-ClavijoJBAV01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22HALOTIS:+high+accuracy+LOgic+TIming+simulator+with+inertial+and+degradation+delay+model%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/367072.367328">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/367072.367328">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2001-Ruiz-de-ClavijoJBAV,
 	author        = "<a href="person/Paulino_Ruiz-de-Clavijo.html">Paulino Ruiz-de-Clavijo</a> and <a href="person/Jorge_Juan-Chico.html">Jorge Juan-Chico</a> and <a href="person/Manuel_J_Bellido.html">Manuel J. Bellido</a> and <a href="person/Antonio_J_Acosta.html">Antonio J. Acosta</a> and <a href="person/Manuel_Valencia.html">Manuel Valencia</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/367072.367328">10.1145/367072.367328</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/367072.367328">http://doi.acm.org/10.1145/367072.367328</a>",
 </span>	pages         = "467--471",

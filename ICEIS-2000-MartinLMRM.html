@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2000/ICEIS-2000/ICEIS-2000-MartinLMRM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2000\ICEIS-2000\ICEIS-2000-MartinLMRM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>S. Martín, Coromoto León, Manuel Mejías, M. C. Romero, A. V. Medina<br/><em><a href="word/integr.html">Integration</a> of <a href="word/expert.html">Expert</a> <a href="word/system.html">System</a> <a href="word/rule.html">Rules</a> into <a href="word/standard.html">Standardized</a> <a href="word/object.html">Object</a> <a href="word/descript.html">Description</a> <a href="word/model.html">Models</a> for <a href="word/telecommun.html">Telecommunication</a> <a href="word/network.html">Network</a> <a href="word/manag.html">Management</a></em><br/>ICEIS, 2000.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2000.html">ICEIS 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MartinLMRM00">DBLP</a><br/>
+<strong><a href="ICEIS-2000.html">ICEIS 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MartinLMRM00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Integration+of+Expert+System+Rules+into+Standardized+Object+Description+Models+for+Telecommunication+Network+Management%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2000-MartinLMRM,
 	author        = "<a href="person/S_Martin.html">S. Martín</a> and <a href="person/Coromoto_Leon.html">Coromoto León</a> and <a href="person/Manuel_Mejias.html">Manuel Mejías</a> and <a href="person/M_C_Romero.html">M. C. Romero</a> and <a href="person/A_V_Medina.html">A. V. Medina</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Enterprise Information Systems</span>}",
 	pages         = "171--175",
 	title         = "{Integration of Expert System Rules into Standardized Object Description Models for Telecommunication Network Management}",
 	year          = 2000,

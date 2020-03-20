@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-AIDSS-2010/ICEIS-AIDSS-2010-MajdoubiTG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-AIDSS-2010\ICEIS-AIDSS-2010-MajdoubiTG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Jihen Majdoubi, Mohamed Tmar, Faïez Gargouri<br/><em><a href="word/thesaurus.html">Thesaurus</a> <a href="word/base.html">based</a> <a href="word/semant.html">Semantic</a> <a href="word/represent.html">Representation</a> in <a href="word/languag.html">Language</a> <a href="word/model.html">Modeling</a> for <a href="word/medic.html">Medical</a> <a href="word/articl.html">Article</a> <a href="word/index.html">Indexing</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-AIDSS-2010.html">ICEIS AIDSS 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MajdoubiTG10">DBLP</a><br/>
+<strong><a href="ICEIS-AIDSS-2010.html">ICEIS AIDSS 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MajdoubiTG10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Thesaurus+based+Semantic+Representation+in+Language+Modeling+for+Medical+Article+Indexing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 2: AIDSS':'ICEIS AIDSS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-AIDSS-2010-MajdoubiTG,
 	author        = "<a href="person/Jihen_Majdoubi.html">Jihen Majdoubi</a> and <a href="person/Mohamed_Tmar.html">Mohamed Tmar</a> and <a href="person/Faiez_Gargouri.html">Faïez Gargouri</a>",
-	booktitle     = "{ICEIS (2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 2: AIDSS</span>}",
 	pages         = "65--74",
 	publisher     = "{SciTePress}",
 	title         = "{Thesaurus based Semantic Representation in Language Modeling for Medical Article Indexing}",

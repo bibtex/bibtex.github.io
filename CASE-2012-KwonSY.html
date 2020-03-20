@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/CASE-2012/CASE-2012-KwonSY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\CASE-2012\CASE-2012-KwonSY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Young Sik Kwon, Jong Tae Suh, Byung-Ju Yi<br/><em>A <a href="word/linkag.html">linkage</a> <a href="word/type.html">type</a> <a href="word/mechan.html">mechanical</a> <a href="word/clutch.html">clutch</a> <a href="word/synthesi.html">synthesis</a> for <a href="word/pipelin.html">pipeline</a> <a href="word/inspect.html">inspection</a> <a href="word/robot.html">robot</a></em><br/>CASE, 2012.</h2>
 <div class="rbox">
-<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/KwonSY12">DBLP</a><br/>
+<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/KwonSY12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+linkage+type+mechanical+clutch+synthesis+for+pipeline+inspection+robot%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2012.6386501">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2012-KwonSY,
 	author        = "<a href="person/Young_Sik_Kwon.html">Young Sik Kwon</a> and <a href="person/Jong_Tae_Suh.html">Jong Tae Suh</a> and <a href="person/Byung-Ju_Yi.html">Byung-Ju Yi</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2012.6386501">10.1109/CoASE.2012.6386501</a>",
 </span>	pages         = "618--623",
 	publisher     = "{IEEE}",

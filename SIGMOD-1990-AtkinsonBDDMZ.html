@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1990/SIGMOD-1990/SIGMOD-1990-AtkinsonBDDMZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1990\SIGMOD-1990\SIGMOD-1990-AtkinsonBDDMZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Malcolm P. Atkinson, François Bancilhon, David J. DeWitt, Klaus R. Dittrich, David Maier, Stanley B. Zdonik<br/><em>The <a href="word/object.html">Object</a>-<a href="word/orient.html">Oriented</a> <a href="word/databas.html">Database</a> <a href="word/system.html">System</a> <a href="word/manifesto.html">Manifesto</a></em><br/>SIGMOD, 1990.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1990.html">SIGMOD 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/AtkinsonBDDMZ90">DBLP</a><br/>
+<strong><a href="SIGMOD-1990.html">SIGMOD 1990</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/AtkinsonBDDMZ90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Object-Oriented+Database+System+Manifesto%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1990-AtkinsonBDDMZ,
 	author        = "<a href="person/Malcolm_P_Atkinson.html">Malcolm P. Atkinson</a> and <a href="person/Francois_Bancilhon.html">François Bancilhon</a> and <a href="person/David_J_DeWitt.html">David J. DeWitt</a> and <a href="person/Klaus_R_Dittrich.html">Klaus R. Dittrich</a> and <a href="person/David_Maier.html">David Maier</a> and <a href="person/Stanley_B_Zdonik.html">Stanley B. Zdonik</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD90/P395.PDF",
 	pages         = "395",
 	title         = "{The Object-Oriented Database System Manifesto}",

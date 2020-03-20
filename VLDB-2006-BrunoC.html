@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2006/VLDB-2006/VLDB-2006-BrunoC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2006\VLDB-2006\VLDB-2006-BrunoC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Nicolas Bruno, Surajit Chaudhuri<br/><em>To <a href="word/tune.html">Tune</a> or <a href="word/not.html">not</a> to <a href="word/tune.html">Tune</a>? A <a href="word/lightweight.html">Lightweight</a> <a href="word/physic.html">Physical</a> <a href="word/design.html">Design</a> <a href="word/alert.html">Alerter</a></em><br/>VLDB, 2006.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2006.html">VLDB 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BrunoC06">DBLP</a><br/>
+<strong><a href="VLDB-2006.html">VLDB 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BrunoC06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22To+Tune+or+not+to+Tune?+A+Lightweight+Physical+Design+Alerter%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2006/p499-bruno.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2006-BrunoC,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=1164171">1164171</a>",
 </span>	author        = "<a href="person/Nicolas_Bruno.html">Nicolas Bruno</a> and <a href="person/Surajit_Chaudhuri.html">Surajit Chaudhuri</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2006/p499-bruno.pdf">http://www.vldb.org/conf/2006/p499-bruno.pdf</a>",
 </span>	pages         = "499--510",
 	publisher     = "{ACM}",

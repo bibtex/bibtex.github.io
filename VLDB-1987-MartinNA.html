@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1987/VLDB-1987/VLDB-1987-MartinNA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1987\VLDB-1987\VLDB-1987-MartinNA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>N. G. Martin, Shamkant B. Navathe, Rafi Ahmed<br/><em><a href="word/deal.html">Dealing</a> with <a href="word/tempor.html">Temporal</a> <a href="word/schema.html">Schema</a> <a href="word/anomali.html">Anomalies</a> in <a href="word/histori.html">History</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 1987.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1987.html">VLDB 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/MartinNA87">DBLP</a><br/>
+<strong><a href="VLDB-1987.html">VLDB 1987</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/MartinNA87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Dealing+with+Temporal+Schema+Anomalies+in+History+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1987/P177.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1987-MartinNA,
 	author        = "<a href="person/N_G_Martin.html">N. G. Martin</a> and <a href="person/Shamkant_B_Navathe.html">Shamkant B. Navathe</a> and <a href="person/Rafi_Ahmed.html">Rafi Ahmed</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1987/P177.PDF">http://www.vldb.org/conf/1987/P177.PDF</a>",
 </span>	pages         = "177--184",
 	publisher     = "{Morgan Kaufmann}",

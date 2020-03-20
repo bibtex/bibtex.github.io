@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-EIS-2007/ICEIS-EIS-2007-HeberlingHBH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-EIS-2007\ICEIS-EIS-2007-HeberlingHBH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Markus Heberling, Robert Hinn, Thomas Bopp, Thorsten Hampel<br/><em><a href="word/futur.html">Future</a> <a href="word/collabor.html">Collaborative</a> <a href="word/system.html">Systems</a> <a href="word/between.html">Between</a> <a href="word/peer.html">Peer</a>-to-<a href="word/peer.html">Peer</a> and <a href="word/massiv.html">Massive</a> <a href="word/multiplay.html">Multiplayer</a> <a href="word/onlin.html">Online</a> <a href="word/game.html">Games</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/HeberlingHBH07">DBLP</a><br/>
+<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/HeberlingHBH07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Future+Collaborative+Systems+Between+Peer-to-Peer+and+Massive+Multiplayer+Online+Games%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS':'ICEIS EIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-EIS-2007-HeberlingHBH,
 	author        = "<a href="person/Markus_Heberling.html">Markus Heberling</a> and <a href="person/Robert_Hinn.html">Robert Hinn</a> and <a href="person/Thomas_Bopp.html">Thomas Bopp</a> and <a href="person/Thorsten_Hampel.html">Thorsten Hampel</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS</span>}",
 	pages         = "340--346",
 	title         = "{Future Collaborative Systems Between Peer-to-Peer and Massive Multiplayer Online Games}",
 	year          = 2007,

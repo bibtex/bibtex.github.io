@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/1999/ICEIS-1999/ICEIS-1999-CarvalhoCNKKBGB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\1999\ICEIS-1999\ICEIS-1999-CarvalhoCNKKBGB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Lucimar F. de Carvalho, Hugo J. T. de Carvalho, Júlio C. Nievola, Celso A. A. Kaestner, Christiane Koehler, Charles T. Batezini, Raquele Z. Grazziotin, Vinícius S. Borguetti<br/><em><a href="word/expert.html">Expert</a> <a href="word/system.html">System</a> <a href="word/object.html">Object</a>-<a href="word/orient.html">Oriented</a> <a href="word/combin.html">Combining</a> <a href="word/systemat.html">Systematic</a> and <a href="word/heurist.html">Heuristic</a> <a href="word/reason.html">Reasoning</a></em><br/>ICEIS, 1999.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/CarvalhoCNKKBGB99">DBLP</a><br/>
+<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/CarvalhoCNKKBGB99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Expert+System+Object-Oriented+Combining+Systematic+and+Heuristic+Reasoning%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-1999-CarvalhoCNKKBGB,
 	author        = "<a href="person/Lucimar_F_de_Carvalho.html">Lucimar F. de Carvalho</a> and <a href="person/Hugo_J_T_de_Carvalho.html">Hugo J. T. de Carvalho</a> and <a href="person/Julio_C_Nievola.html">Júlio C. Nievola</a> and <a href="person/Celso_A_A_Kaestner.html">Celso A. A. Kaestner</a> and <a href="person/Christiane_Koehler.html">Christiane Koehler</a> and <a href="person/Charles_T_Batezini.html">Charles T. Batezini</a> and <a href="person/Raquele_Z_Grazziotin.html">Raquele Z. Grazziotin</a> and <a href="person/Vinicius_S_Borguetti.html">Vinícius S. Borguetti</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Enterprise Information Systems</span>}",
 	pages         = "763",
 	title         = "{Expert System Object-Oriented Combining Systematic and Heuristic Reasoning}",
 	year          = 1999,

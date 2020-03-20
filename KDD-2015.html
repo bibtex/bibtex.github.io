@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2015/KDD-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2015\KDD-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Longbing Cao, Chengqi Zhang, Thorsten Joachims, Geoffrey I. Webb, Dragos D. Margineantu, Graham Williams<br/><em>Proceedings of the 21st International Conference on Knowledge Discovery and Data Mining</em><br/>KDD, 2015.</h2>
 <div class="rbox">
-<strong><a href="KER.html">KER</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/2015">DBLP</a><br/>
+<strong><a href="KER.html">KER</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/2015">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+21st+International+Conference+on+Knowledge+Discovery+and+Data+Mining%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 21st International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{KDD-2015,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2783258">2783258</a>",
 </span>	address       = "NSW, Australia",
-	booktitle     = "{KDD}",
 	editor        = "<a href="person/Longbing_Cao.html">Longbing Cao</a> and <a href="person/Chengqi_Zhang.html">Chengqi Zhang</a> and <a href="person/Thorsten_Joachims.html">Thorsten Joachims</a> and <a href="person/Geoffrey_I_Webb.html">Geoffrey I. Webb</a> and <a href="person/Dragos_D_Margineantu.html">Dragos D. Margineantu</a> and <a href="person/Graham_Williams.html">Graham Williams</a>",
 <span id="isbn">	isbn          = "978-1-4503-3664-2",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 21st International Conference on Knowledge Discovery and Data Mining}",
+	title         = "{<span id="title">Proceedings of the 21st International Conference on Knowledge Discovery and Data Mining</span>}",
 	year          = 2015,
 }</pre>
 </div>

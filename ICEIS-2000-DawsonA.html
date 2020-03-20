@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2000/ICEIS-2000/ICEIS-2000-DawsonA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2000\ICEIS-2000\ICEIS-2000-DawsonA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ray Dawson, Asad Al-Zaid<br/><em><a href="word/facilit.html">Facilitating</a> a <a href="word/user.html">User</a> <a href="word/perform.html">Performed</a> <a href="word/requir.html">Requirements</a> <a href="word/analysi.html">Analysis</a>-A <a href="word/case.html">Case</a> <a href="word/studi.html">Study</a></em><br/>ICEIS, 2000.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2000.html">ICEIS 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/DawsonA00">DBLP</a><br/>
+<strong><a href="ICEIS-2000.html">ICEIS 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/DawsonA00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Facilitating+a+User+Performed+Requirements+Analysis-A+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2000-DawsonA,
 	author        = "<a href="person/Ray_Dawson.html">Ray Dawson</a> and <a href="person/Asad_Al-Zaid.html">Asad Al-Zaid</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Enterprise Information Systems</span>}",
 	pages         = "525--526",
 	title         = "{Facilitating a User Performed Requirements Analysis-A Case Study}",
 	year          = 2000,

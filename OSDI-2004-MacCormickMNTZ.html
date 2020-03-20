@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-MacCormickMNTZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-MacCormickMNTZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>John MacCormick, Nick Murphy, Marc Najork, Chandramohan A. Thekkath, Lidong Zhou<br/><em><a href="word/boxwood.html">Boxwood</a>: <a href="word/abstract.html">Abstractions</a> as the <a href="word/foundat.html">Foundation</a> for <a href="word/storag.html">Storage</a> <a href="word/infrastructur.html">Infrastructure</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/MacCormickMNTZ04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/MacCormickMNTZ04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Boxwood:+Abstractions+as+the+Foundation+for+Storage+Infrastructure%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/maccormick.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-MacCormickMNTZ,
 	author        = "<a href="person/John_MacCormick.html">John MacCormick</a> and <a href="person/Nick_Murphy.html">Nick Murphy</a> and <a href="person/Marc_Najork.html">Marc Najork</a> and <a href="person/Chandramohan_A_Thekkath.html">Chandramohan A. Thekkath</a> and <a href="person/Lidong_Zhou.html">Lidong Zhou</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/maccormick.html">http://www.usenix.org/events/osdi04/tech/maccormick.html</a>",
 </span>	pages         = "105--120",
 	publisher     = "{USENIX Association}",

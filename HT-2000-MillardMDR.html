@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/HT-2000/HT-2000-MillardMDR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\HT-2000\HT-2000-MillardMDR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>David E. Millard, Luc Moreau, Hugh C. Davis, Siegfried Reich<br/><em><a href="word/fohm.html">FOHM</a>: a <a href="word/fundament.html">fundamental</a> <a href="word/open.html">open</a> <a href="word/hypertext.html">hypertext</a> <a href="word/model.html">model</a> for <a href="word/investig.html">investigating</a> <a href="word/interoper.html">interoperability</a> <a href="word/between.html">between</a> <a href="word/hypertext.html">hypertext</a> <a href="word/domain.html">domains</a></em><br/>HT, 2000.</h2>
 <div class="rbox">
-<strong><a href="HT-2000.html">HT 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/MillardMDR00">DBLP</a><br/>
+<strong><a href="HT-2000.html">HT 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/MillardMDR00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22FOHM:+a+fundamental+open+hypertext+model+for+investigating+interoperability+between+hypertext+domains%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/336296.336334">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/336296.336334">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Conference on Hypertext and Hypermedia':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-2000-MillardMDR,
 	author        = "<a href="person/David_E_Millard.html">David E. Millard</a> and <a href="person/Luc_Moreau.html">Luc Moreau</a> and <a href="person/Hugh_C_Davis.html">Hugh C. Davis</a> and <a href="person/Siegfried_Reich.html">Siegfried Reich</a>",
-	booktitle     = "{Hypertext}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Conference on Hypertext and Hypermedia</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/336296.336334">10.1145/336296.336334</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/336296.336334">http://doi.acm.org/10.1145/336296.336334</a>",
 </span>	pages         = "93--102",

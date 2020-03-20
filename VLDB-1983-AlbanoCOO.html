@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1983/VLDB-1983/VLDB-1983-AlbanoCOO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1983\VLDB-1983\VLDB-1983-AlbanoCOO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Antonio Albano, Maurizio Capaccioli, M. Eugenia Occhiuto, Renzo Orsini<br/><em>A <a href="word/modular.html">Modularization</a> <a href="word/mechan.html">Mechanism</a> for <a href="word/conceptu.html">Conceptual</a> <a href="word/model.html">Modeling</a></em><br/>VLDB, 1983.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AlbanoCOO83">DBLP</a><br/>
+<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AlbanoCOO83">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Modularization+Mechanism+for+Conceptual+Modeling%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1983/P232.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1983-AlbanoCOO,
 	author        = "<a href="person/Antonio_Albano.html">Antonio Albano</a> and <a href="person/Maurizio_Capaccioli.html">Maurizio Capaccioli</a> and <a href="person/M_Eugenia_Occhiuto.html">M. Eugenia Occhiuto</a> and <a href="person/Renzo_Orsini.html">Renzo Orsini</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1983/P232.PDF">http://www.vldb.org/conf/1983/P232.PDF</a>",
 </span>	pages         = "232--240",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/1999/ICEIS-1999/ICEIS-1999-CaleroPPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\1999\ICEIS-1999\ICEIS-1999-CaleroPPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Coral Calero, Mario Piattini, Macario Polo, Francisco Ruiz<br/><em><a href="word/valid.html">Validating</a> <a href="word/referenti.html">Referential</a> <a href="word/integr.html">Integrity</a> as a <a href="word/databas.html">Database</a> <a href="word/qualiti.html">Quality</a> <a href="word/metric.html">Metric</a></em><br/>ICEIS, 1999.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/CaleroPPR99">DBLP</a><br/>
+<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/CaleroPPR99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Validating+Referential+Integrity+as+a+Database+Quality+Metric%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-1999-CaleroPPR,
 	author        = "<a href="person/Coral_Calero.html">Coral Calero</a> and <a href="person/Mario_Piattini.html">Mario Piattini</a> and <a href="person/Macario_Polo.html">Macario Polo</a> and <a href="person/Francisco_Ruiz.html">Francisco Ruiz</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Enterprise Information Systems</span>}",
 	pages         = "45--50",
 	title         = "{Validating Referential Integrity as a Database Quality Metric}",
 	year          = 1999,

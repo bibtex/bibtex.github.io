@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/HPDC-2006/HPDC-2006-BoeheimGHLMMPW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\HPDC-2006\HPDC-2006-BoeheimGHLMMPW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Chuck Boeheim, Stephen J. Gowdy, Andrew Hanushevsky, David Leith, Randy Melen, Richard Mount, Teela Pulliam, Bill Weeks<br/><em><a href="word/peta.html">Peta</a><a href="word/cach.html">Cache</a>: A <a href="word/memori.html">memory</a>-<a href="word/base.html">Based</a> <a href="word/data.html">Data</a>-<a href="word/server.html">Server</a> <a href="word/system.html">System</a></em><br/>HPDC, 2006.</h2>
 <div class="rbox">
-<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpdc/BoeheimGHLMMPW06">DBLP</a><br/>
+<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpdc/BoeheimGHLMMPW06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22PetaCache:+A+memory-Based+Data-Server+System%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/HPDC.2006.1652178">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/HPDC.2006.1652178">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2006-BoeheimGHLMMPW,
 	author        = "<a href="person/Chuck_Boeheim.html">Chuck Boeheim</a> and <a href="person/Stephen_J_Gowdy.html">Stephen J. Gowdy</a> and <a href="person/Andrew_Hanushevsky.html">Andrew Hanushevsky</a> and <a href="person/David_Leith.html">David Leith</a> and <a href="person/Randy_Melen.html">Randy Melen</a> and <a href="person/Richard_Mount.html">Richard Mount</a> and <a href="person/Teela_Pulliam.html">Teela Pulliam</a> and <a href="person/Bill_Weeks.html">Bill Weeks</a>",
-	booktitle     = "{Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPDC.2006.1652178">10.1109/HPDC.2006.1652178</a>",
 </span>	pages         = "349--350",
 	publisher     = "{IEEE}",

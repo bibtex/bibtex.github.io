@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/ICDAR-1993/ICDAR-1993-SeniorF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\ICDAR-1993\ICDAR-1993-SeniorF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Andrew W. Senior, Frank Fallside<br/><em><a href="word/use.html">Using</a> <a href="word/constrain.html">constrained</a> <a href="word/snake.html">snakes</a> for <a href="word/featur.html">feature</a> <a href="word/spot.html">spotting</a> in <a href="word/off.html">off</a>-<a href="word/line.html">line</a> <a href="word/cursiv.html">cursive</a> <a href="word/script.html">script</a></em><br/>ICDAR, 1993.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/SeniorF93">DBLP</a><br/>
+<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/SeniorF93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+constrained+snakes+for+feature+spotting+in+off-line+cursive+script%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICDAR.1993.395726">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Document Analysis and Recognition':'ICDAR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-1993-SeniorF,
 	author        = "<a href="person/Andrew_W_Senior.html">Andrew W. Senior</a> and <a href="person/Frank_Fallside.html">Frank Fallside</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.1993.395726">10.1109/ICDAR.1993.395726</a>",
 </span>	pages         = "305--310",
 	publisher     = "{IEEE}",

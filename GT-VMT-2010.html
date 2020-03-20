@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH/2010/GT-VMT-2010.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH\2010\GT-VMT-2010.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,14 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Ninth+International+Workshop+on+Graph+Transformation+and+Visual+Modeling+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Ninth International Workshop on Graph Transformation and Visual Modeling Techniques':'GT-VMT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GT-VMT-2010,
-	booktitle     = "{GT-VMT}",
 	editor        = "<a href="person/Jochen_Malte_Kuester.html">Jochen Malte Küster</a> and <a href="person/Emilio_Tuosto.html">Emilio Tuosto</a>",
 	journal       = "{ECEASST}",
-	title         = "{Proceedings of the Ninth International Workshop on Graph Transformation and Visual Modeling Techniques}",
+	title         = "{<span id="title">Proceedings of the Ninth International Workshop on Graph Transformation and Visual Modeling Techniques</span>}",
 	volume        = 29,
 	year          = 2010,
 }</pre>
@@ -60,7 +59,7 @@
 <dt><a href="GT-VMT-2010-RehakSSH.html">GT-VMT-2010-RehakSSH</a> <span class="tag"><a href="tag/decidability.html" title="decidability">#decidability</a></span></dt><dd>Decidable Race Condition and Open Coregions in HMSC (<abbr title="Vojtech Rehák">VR</abbr>, <abbr title="Petr Slovák">PS</abbr>, <abbr title="Jan Strejcek">JS</abbr>, <abbr title="Loïc Hélouët">LH</abbr>).</dd> 
 <dt><a href="GT-VMT-2010-Schatz.html">GT-VMT-2010-Schatz</a> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/verification.html" title="verification">#verification</a></span></dt><dd>Verification of Model Transformations (<abbr title="Bernhard Schätz">BS</abbr>).</dd> 
 <dt><a href="GT-VMT-2010-StroblM.html">GT-VMT-2010-StroblM</a> <span class="tag"><a href="tag/editing.html" title="editing">#editing</a></span> <span class="tag"><a href="tag/generative.html" title="generative">#generative</a></span> <span class="tag"><a href="tag/interactive.html" title="interactive">#interactive</a></span> <span class="tag"><a href="tag/modelling.html" title="modelling">#modelling</a></span> <span class="tag"><a href="tag/specification.html" title="specification">#specification</a></span> <span class="tag"><a href="tag/visual%20notation.html" title="visual notation">#visual notation</a></span></dt><dd>Specifying and Generating Editing Environments for Interactive Animated Visual Models (<abbr title="Torsten Strobl">TS</abbr>, <abbr title="Mark Minas">MM</abbr>).</dd> 
-<dt><a href="GT-VMT-2010-SyrianiV.html">GT-VMT-2010-SyrianiV</a> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span></dt><dd>De-/Re-constructing Model Transformation Languages (<abbr title="Eugene Syriani">ES</abbr>, <abbr title="Hans Vangheluwe">HV</abbr>).</dd> 
+<dt><a href="GT-VMT-2010-SyrianiV.html">GT-VMT-2010-SyrianiV</a> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/transformation%20language.html" title="transformation language">#transformation language</a></span></dt><dd>De-/Re-constructing Model Transformation Languages (<abbr title="Eugene Syriani">ES</abbr>, <abbr title="Hans Vangheluwe">HV</abbr>).</dd> 
 <dt><a href="GT-VMT-2010-TorriniHRB.html">GT-VMT-2010-TorriniHRB</a> <span class="tag"><a href="tag/graph%20transformation.html" title="graph transformation">#graph transformation</a></span> <span class="tag"><a href="tag/probability.html" title="probability">#probability</a></span></dt><dd>Stochastic Graph Transformation with Regions (<abbr title="Paolo Torrini">PT</abbr>, <abbr title="Reiko Heckel">RH</abbr>, <abbr title="István Ráth">IR</abbr>, <abbr title="Gábor Bergmann">GB</abbr>).</dd> </dl>
 </div>
 <hr style="clear:both"/>

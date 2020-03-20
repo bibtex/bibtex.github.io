@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-DunaganHJKTW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-DunaganHJKTW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>John Dunagan, Nicholas J. A. Harvey, Michael B. Jones, Dejan Kostic, Marvin Theimer, Alec Wolman<br/><em><a href="word/fuse.html">FUSE</a>: <a href="word/lightweight.html">Lightweight</a> <a href="word/guarante.html">Guaranteed</a> <a href="word/distribut.html">Distributed</a> <a href="word/failur.html">Failure</a> <a href="word/notif.html">Notification</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/DunaganHJKTW04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/DunaganHJKTW04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22FUSE:+Lightweight+Guaranteed+Distributed+Failure+Notification%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/dunagan.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-DunaganHJKTW,
 	author        = "<a href="person/John_Dunagan.html">John Dunagan</a> and <a href="person/Nicholas_J_A_Harvey.html">Nicholas J. A. Harvey</a> and <a href="person/Michael_B_Jones.html">Michael B. Jones</a> and <a href="person/Dejan_Kostic.html">Dejan Kostic</a> and <a href="person/Marvin_Theimer.html">Marvin Theimer</a> and <a href="person/Alec_Wolman.html">Alec Wolman</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/dunagan.html">http://www.usenix.org/events/osdi04/tech/dunagan.html</a>",
 </span>	pages         = "151--166",
 	publisher     = "{USENIX Association}",

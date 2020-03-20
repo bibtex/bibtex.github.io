@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-TieDWC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-TieDWC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Meng Tie, Haiying Dong, Tong Wang, Xu Cheng<br/><em><a href="word/dual.html">Dual</a>-<a href="word/vth.html">Vth</a> <a href="word/leakag.html">leakage</a> <a href="word/reduct.html">reduction</a> with <a href="word/fast.html">Fast</a> <a href="word/clock.html">Clock</a> <a href="word/skew.html">Skew</a> <a href="word/schedul.html">Scheduling</a> <a href="word/enhanc.html">Enhancement</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/TieDWC10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/TieDWC10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Dual-Vth+leakage+reduction+with+Fast+Clock+Skew+Scheduling+Enhancement%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-TieDWC,
 	author        = "<a href="person/Meng_Tie.html">Meng Tie</a> and <a href="person/Haiying_Dong.html">Haiying Dong</a> and <a href="person/Tong_Wang.html">Tong Wang</a> and <a href="person/Xu_Cheng.html">Xu Cheng</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "520--525",
 	publisher     = "{IEEE}",
 	title         = "{Dual-Vth leakage reduction with Fast Clock Skew Scheduling Enhancement}",

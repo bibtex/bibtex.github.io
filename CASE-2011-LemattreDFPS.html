@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/CASE-2011/CASE-2011-LemattreDFPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\CASE-2011\CASE-2011-LemattreDFPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Thibault Lemattre, Bruno Denis, Jean-Marc Faure, Jean-François Pétin, Patrick Salaün<br/><em><a href="word/design.html">Designing</a> <a href="word/oper.html">operational</a> <a href="word/control.html">control</a> <a href="word/architectur.html">architectures</a> of <a href="word/critic.html">critical</a> <a href="word/system.html">systems</a> by <a href="word/reachabl.html">reachability</a> <a href="word/analysi.html">analysis</a></em><br/>CASE, 2011.</h2>
 <div class="rbox">
-<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/LemattreDFPS11">DBLP</a><br/>
+<strong><a href="CASE-2011.html">CASE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/LemattreDFPS11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Designing+operational+control+architectures+of+critical+systems+by+reachability+analysis%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CASE.2011.6042413">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2011-LemattreDFPS,
 	author        = "<a href="person/Thibault_Lemattre.html">Thibault Lemattre</a> and <a href="person/Bruno_Denis.html">Bruno Denis</a> and <a href="person/Jean-Marc_Faure.html">Jean-Marc Faure</a> and <a href="person/Jean-Francois_Petin.html">Jean-François Pétin</a> and <a href="person/Patrick_Salauen.html">Patrick Salaün</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CASE.2011.6042413">10.1109/CASE.2011.6042413</a>",
 </span>	pages         = "12--18",
 	publisher     = "{IEEE}",

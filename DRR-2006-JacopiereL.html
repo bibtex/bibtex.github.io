@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2006/DRR-2006/DRR-2006-JacopiereL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2006\DRR-2006\DRR-2006-JacopiereL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Aliette de Bodard de la Jacopière, Laurence Likforman-Sulem<br/><em><a href="word/author.html">Author</a> <a href="word/name.html">name</a> <a href="word/recognit.html">recognition</a> in <a href="word/degrad.html">degraded</a> <a href="word/journal.html">journal</a> <a href="word/imag.html">images</a></em><br/>DRR, 2006.</h2>
 <div class="rbox">
-<strong><a href="DRR-2006.html">DRR 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/JacopiereL06">DBLP</a><br/>
+<strong><a href="DRR-2006.html">DRR 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/JacopiereL06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Author+name+recognition+in+degraded+journal+images%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.643043">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2006-JacopiereL,
 	author        = "<a href="person/Aliette_de_Bodard_de_la_Jacopiere.html">Aliette de Bodard de la Jacopière</a> and <a href="person/Laurence_Likforman-Sulem.html">Laurence Likforman-Sulem</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.643043">10.1117/12.643043</a>",
 </span>	publisher     = "{SPIE}",
 	title         = "{Author name recognition in degraded journal images}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-DISI-2009/ICEIS-DISI-2009-MartinoSPV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-DISI-2009\ICEIS-DISI-2009-MartinoSPV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ferdinando Di Martino, Salvatore Sessa, Giuseppe Polese, Mario Vacca<br/><em>A <a href="word/mapreduc.html">Mapreduce</a> <a href="word/framework.html">Framework</a> for <a href="word/chang.html">Change</a> <a href="word/propag.html">Propagation</a> in <a href="word/geograph.html">Geographic</a> <a href="word/databas.html">Databases</a></em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2009.html">ICEIS DISI 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MartinoSPV09">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2009.html">ICEIS DISI 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MartinoSPV09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Mapreduce+Framework+for+Change+Propagation+in+Geographic+Databases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2009-MartinoSPV,
 	author        = "<a href="person/Ferdinando_Di_Martino.html">Ferdinando Di Martino</a> and <a href="person/Salvatore_Sessa.html">Salvatore Sessa</a> and <a href="person/Giuseppe_Polese.html">Giuseppe Polese</a> and <a href="person/Mario_Vacca.html">Mario Vacca</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "31--36",
 	title         = "{A Mapreduce Framework for Change Propagation in Geographic Databases}",
 	year          = 2009,

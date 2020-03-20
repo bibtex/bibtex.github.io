@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-ArpinenKSHH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-ArpinenKSHH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Tero Arpinen, Tapio Koskinen, Erno Salminen, Timo D. Hämäläinen, Marko Hännikäinen<br/><em><a href="word/evalu.html">Evaluating</a> <a href="word/uml.html">UML</a>2 <a href="word/model.html">modeling</a> of IP-<a href="word/xact.html">XACT</a> <a href="word/object.html">objects</a> for <a href="word/automat.html">automatic</a> MP-SoC <a href="word/integr.html">integration</a> <a href="word/onto.html">onto</a> <a href="word/fpga.html">FPGA</a></em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ArpinenKSHH09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ArpinenKSHH09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Evaluating+UML2+modeling+of+IP-XACT+objects+for+automatic+MP-SoC+integration+onto+FPGA%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-ArpinenKSHH,
 	author        = "<a href="person/Tero_Arpinen.html">Tero Arpinen</a> and <a href="person/Tapio_Koskinen.html">Tapio Koskinen</a> and <a href="person/Erno_Salminen.html">Erno Salminen</a> and <a href="person/Timo_D_Haemaelaeinen.html">Timo D. Hämäläinen</a> and <a href="person/Marko_Haennikaeinen.html">Marko Hännikäinen</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "244--249",
 	publisher     = "{IEEE}",
 	title         = "{Evaluating UML2 modeling of IP-XACT objects for automatic MP-SoC integration onto FPGA}",

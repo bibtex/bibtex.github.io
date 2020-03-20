@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/DRR-2003/DRR-2003-HurstB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\DRR-2003\DRR-2003-HurstB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Matthew Hurst, Dave Barney<br/><em><a href="word/unconstrain.html">Unconstrained</a> <a href="word/invoic.html">invoice</a> <a href="word/process.html">processing</a> in the <a href="word/health.html">health</a> <a href="word/insur.html">insurance</a> <a href="word/domain.html">domain</a></em><br/>DRR, 2003.</h2>
 <div class="rbox">
-<strong><a href="DRR-2003.html">DRR 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/HurstB03">DBLP</a><br/>
+<strong><a href="DRR-2003.html">DRR 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/HurstB03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Unconstrained+invoice+processing+in+the+health+insurance+domain%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=22570">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2003-HurstB,
 	author        = "<a href="person/Matthew_Hurst.html">Matthew Hurst</a> and <a href="person/Dave_Barney.html">Dave Barney</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=22570">http://www.imaging.org/store/epub.cfm?abstrid=22570</a>",
 </span>	pages         = "172--178",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Unconstrained invoice processing in the health insurance domain}",
-	volume        = 5010,
+	volume        = "5010",
 	year          = 2003,
 }</pre>
 </div>

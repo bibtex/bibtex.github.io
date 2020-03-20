@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-HCI-2007/ICEIS-HCI-2007-EijkKSR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-HCI-2007\ICEIS-HCI-2007-EijkKSR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ronald van Eijk, Nicole de Koning, Marc Steen, Erik Reitsema<br/><em>A WE-<a href="word/centric.html">Centric</a> <a href="word/servic.html">Service</a> for <a href="word/mobil.html">Mobile</a> <a href="word/polic.html">Police</a> <a href="word/offic.html">Officers</a> to <a href="word/support.html">Support</a> <a href="word/communic.html">Communication</a> in <a href="word/ad.html">Ad</a>-<a href="word/hoc.html">Hoc</a> <a href="word/group.html">Groups</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/EijkKSR07">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/EijkKSR07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+WE-Centric+Service+for+Mobile+Police+Officers+to+Support+Communication+in+Ad-Hoc+Groups%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2007-EijkKSR,
 	author        = "<a href="person/Ronald_van_Eijk.html">Ronald van Eijk</a> and <a href="person/Nicole_de_Koning.html">Nicole de Koning</a> and <a href="person/Marc_Steen.html">Marc Steen</a> and <a href="person/Erik_Reitsema.html">Erik Reitsema</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI</span>}",
 	pages         = "61--67",
 	title         = "{A WE-Centric Service for Mobile Police Officers to Support Communication in Ad-Hoc Groups}",
 	year          = 2007,

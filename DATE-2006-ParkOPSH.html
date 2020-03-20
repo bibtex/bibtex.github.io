@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2006/DATE-2006/DATE-2006-ParkOPSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\DATE-2006\DATE-2006-ParkOPSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Hae-woo Park, Kyoungjoo Oh, Soyoung Park, Myoung-min Sim, Soonhoi Ha<br/><em><a href="word/dynam.html">Dynamic</a> <a href="word/code.html">code</a> <a href="word/overlay.html">overlay</a> of <a href="word/sdf.html">SDF</a>-<a href="word/model.html">modeled</a> <a href="word/program.html">programs</a> on <a href="word/low.html">low</a>-<a href="word/end.html">end</a> <a href="word/embed.html">embedded</a> <a href="word/system.html">systems</a></em><br/>DATE, 2006.</h2>
 <div class="rbox">
-<strong><a href="DATE-2006.html">DATE 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ParkOPSH06">DBLP</a><br/>
+<strong><a href="DATE-2006.html">DATE 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ParkOPSH06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+code+overlay+of+SDF-modeled+programs+on+low-end+embedded+systems%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1131745">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1131745">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2006-ParkOPSH,
 	author        = "<a href="person/Hae-woo_Park.html">Hae-woo Park</a> and <a href="person/Kyoungjoo_Oh.html">Kyoungjoo Oh</a> and <a href="person/Soyoung_Park.html">Soyoung Park</a> and <a href="person/Myoung-min_Sim.html">Myoung-min Sim</a> and <a href="person/Soonhoi_Ha.html">Soonhoi Ha</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Conference on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1131745">10.1145/1131745</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1131745">http://doi.acm.org/10.1145/1131745</a>",
 </span>	pages         = "945--946",

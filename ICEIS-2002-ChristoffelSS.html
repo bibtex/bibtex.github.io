@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2002/ICEIS-2002/ICEIS-2002-ChristoffelSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2002\ICEIS-2002\ICEIS-2002-ChristoffelSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Michael Christoffel, Bethina Schmitt, Jürgen Schneider<br/><em><a href="word/semi.html">Semi</a>-<a href="word/automat.html">Automatic</a> <a href="word/wrapper.html">Wrapper</a> <a href="word/generat.html">Generation</a> and <a href="word/adapt.html">Adaption</a>: <a href="word/live.html">Living</a> with <a href="word/heterogen.html">Heterogeneity</a> in a <a href="word/market.html">Market</a> <a href="word/environ.html">Environment</a></em><br/>ICEIS, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/ChristoffelSS02">DBLP</a><br/>
+<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/ChristoffelSS02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Semi-Automatic+Wrapper+Generation+and+Adaption:+Living+with+Heterogeneity+in+a+Market+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2002-ChristoffelSS,
 	author        = "<a href="person/Michael_Christoffel.html">Michael Christoffel</a> and <a href="person/Bethina_Schmitt.html">Bethina Schmitt</a> and <a href="person/Juergen_Schneider.html">Jürgen Schneider</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Enterprise Information Systems</span>}",
 	pages         = "65--72",
 	title         = "{Semi-Automatic Wrapper Generation and Adaption: Living with Heterogeneity in a Market Environment}",
 	year          = 2002,

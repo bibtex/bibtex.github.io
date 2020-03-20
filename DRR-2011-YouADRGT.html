@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2011/DRR-2011/DRR-2011-YouADRGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2011\DRR-2011\DRR-2011-YouADRGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Daekeun You, Sameer Antani, Dina Demner-Fushman, Md. Mahmudur Rahman, Venu Govindaraju, George R. Thoma<br/><em><a href="word/automat.html">Automatic</a> <a href="word/identif.html">identification</a> of <a href="word/roi.html">ROI</a> in <a href="word/figur.html">figure</a> <a href="word/imag.html">images</a> <a href="word/toward.html">toward</a> <a href="word/improv.html">improving</a> <a href="word/hybrid.html">hybrid</a> (<a href="word/text.html">text</a> and <a href="word/imag.html">image</a>) <a href="word/biomed.html">biomedical</a> <a href="word/document.html">document</a> <a href="word/retriev.html">retrieval</a></em><br/>DRR, 2011.</h2>
 <div class="rbox">
-<strong><a href="DRR-2011.html">DRR 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/YouADRGT11">DBLP</a><br/>
+<strong><a href="DRR-2011.html">DRR 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/YouADRGT11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+identification+of+ROI+in+figure+images+toward+improving+hybrid+(text+and+image)+biomedical+document+retrieval%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.873434">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2011-YouADRGT,
 	author        = "<a href="person/Daekeun_You.html">Daekeun You</a> and <a href="person/Sameer_Antani.html">Sameer Antani</a> and <a href="person/Dina_Demner-Fushman.html">Dina Demner-Fushman</a> and <a href="person/Md_Mahmudur_Rahman.html">Md. Mahmudur Rahman</a> and <a href="person/Venu_Govindaraju.html">Venu Govindaraju</a> and <a href="person/George_R_Thoma.html">George R. Thoma</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.873434">10.1117/12.873434</a>",
 </span>	pages         = "1--10",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Automatic identification of ROI in figure images toward improving hybrid (text and image) biomedical document retrieval}",
-	volume        = 7874,
+	volume        = "7874",
 	year          = 2011,
 }</pre>
 </div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1982/VLDB-1982/VLDB-1982-ChanDFLNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1982\VLDB-1982\VLDB-1982-ChanDFLNR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Arvola Chan, Sy Danberg, Stephen Fox, Wen-Te K. Lin, Anil Nori, Daniel R. Ries<br/><em><a href="word/storag.html">Storage</a> and <a href="word/access.html">Access</a> <a href="word/structur.html">Structures</a> to <a href="word/support.html">Support</a> a <a href="word/semant.html">Semantic</a> <a href="word/data.html">Data</a> <a href="word/model.html">Model</a></em><br/>VLDB, 1982.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1982.html">VLDB 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ChanDFLNR82">DBLP</a><br/>
+<strong><a href="VLDB-1982.html">VLDB 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ChanDFLNR82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Storage+and+Access+Structures+to+Support+a+Semantic+Data+Model%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1982/P122.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1982-ChanDFLNR,
 	author        = "<a href="person/Arvola_Chan.html">Arvola Chan</a> and <a href="person/Sy_Danberg.html">Sy Danberg</a> and <a href="person/Stephen_Fox.html">Stephen Fox</a> and <a href="person/Wen-Te_K_Lin.html">Wen-Te K. Lin</a> and <a href="person/Anil_Nori.html">Anil Nori</a> and <a href="person/Daniel_R_Ries.html">Daniel R. Ries</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1982/P122.PDF">http://www.vldb.org/conf/1982/P122.PDF</a>",
 </span>	pages         = "122--130",
 	publisher     = "{Morgan Kaufmann}",

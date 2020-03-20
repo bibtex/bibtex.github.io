@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2015/HPCA-2015/HPCA-2015-ChrysosMRBV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\HPCA-2015\HPCA-2015-ChrysosMRBV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nikolaos Chrysos, Cyriel Minkenberg, Mark Rudquist, Claude Basso, Brian Vanderpool<br/><em><a href="word/scoc.html">SCOC</a>: <a href="word/high.html">High</a>-<a href="word/radix.html">radix</a> <a href="word/switch.html">switches</a> <a href="word/made.html">made</a> of <a href="word/bufferless.html">bufferless</a> <a href="word/clos.html">clos</a> <a href="word/network.html">networks</a></em><br/>HPCA, 2015.</h2>
 <div class="rbox">
-<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpca/ChrysosMRBV15">DBLP</a><br/>
+<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpca/ChrysosMRBV15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SCOC:+High-radix+switches+made+of+bufferless+clos+networks%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/HPCA.2015.7056050">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Symposium on High-Performance Computer Architecture':'HPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPCA-2015-ChrysosMRBV,
 	author        = "<a href="person/Nikolaos_Chrysos.html">Nikolaos Chrysos</a> and <a href="person/Cyriel_Minkenberg.html">Cyriel Minkenberg</a> and <a href="person/Mark_Rudquist.html">Mark Rudquist</a> and <a href="person/Claude_Basso.html">Claude Basso</a> and <a href="person/Brian_Vanderpool.html">Brian Vanderpool</a>",
-	booktitle     = "{HPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Symposium on High-Performance Computer Architecture</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPCA.2015.7056050">10.1109/HPCA.2015.7056050</a>",
 </span>	pages         = "402--414",
 	publisher     = "{IEEE}",

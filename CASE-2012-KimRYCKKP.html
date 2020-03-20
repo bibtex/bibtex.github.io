@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/CASE-2012/CASE-2012-KimRYCKKP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\CASE-2012\CASE-2012-KimRYCKKP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Hui Min Kim, Yong Woo Rho, Hui-Ryong Yoo, Sung Ho Cho, Dong-Kyu Kim, Sung-Ja Koo, Gwan Soo Park<br/><em>A <a href="word/studi.html">study</a> on the <a href="word/measur.html">measurement</a> of <a href="word/axial.html">axial</a> <a href="word/crack.html">cracks</a> in the <a href="word/magnet.html">Magnetic</a> <a href="word/flux.html">Flux</a> <a href="word/leakag.html">Leakage</a> <a href="word/ndt.html">NDT</a> <a href="word/system.html">system</a></em><br/>CASE, 2012.</h2>
 <div class="rbox">
-<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/KimRYCKKP12">DBLP</a><br/>
+<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/KimRYCKKP12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+study+on+the+measurement+of+axial+cracks+in+the+Magnetic+Flux+Leakage+NDT+system%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2012.6386507">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2012-KimRYCKKP,
 	author        = "<a href="person/Hui_Min_Kim.html">Hui Min Kim</a> and <a href="person/Yong_Woo_Rho.html">Yong Woo Rho</a> and <a href="person/Hui-Ryong_Yoo.html">Hui-Ryong Yoo</a> and <a href="person/Sung_Ho_Cho.html">Sung Ho Cho</a> and <a href="person/Dong-Kyu_Kim.html">Dong-Kyu Kim</a> and <a href="person/Sung-Ja_Koo.html">Sung-Ja Koo</a> and <a href="person/Gwan_Soo_Park.html">Gwan Soo Park</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2012.6386507">10.1109/CoASE.2012.6386507</a>",
 </span>	pages         = "624--629",
 	publisher     = "{IEEE}",

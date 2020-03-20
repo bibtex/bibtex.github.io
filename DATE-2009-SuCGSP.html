@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-SuCGSP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-SuCGSP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Lifeng Su, Stephan Courcambeck, Pierre Guillemin, Christian Schwarz, Renaud Pacalet<br/><em><a href="word/sec.html">Sec</a><a href="word/bus.html">Bus</a>: <a href="word/oper.html">Operating</a> <a href="word/system.html">System</a> <a href="word/control.html">controlled</a> <a href="word/hierarch.html">hierarchical</a> <a href="word/page.html">page</a>-<a href="word/base.html">based</a> <a href="word/memori.html">memory</a> <a href="word/bus.html">bus</a> <a href="word/protect.html">protection</a></em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/SuCGSP09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/SuCGSP09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SecBus:+Operating+System+controlled+hierarchical+page-based+memory+bus+protection%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-SuCGSP,
 	author        = "<a href="person/Lifeng_Su.html">Lifeng Su</a> and <a href="person/Stephan_Courcambeck.html">Stephan Courcambeck</a> and <a href="person/Pierre_Guillemin.html">Pierre Guillemin</a> and <a href="person/Christian_Schwarz.html">Christian Schwarz</a> and <a href="person/Renaud_Pacalet.html">Renaud Pacalet</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "570--573",
 	publisher     = "{IEEE}",
 	title         = "{SecBus: Operating System controlled hierarchical page-based memory bus protection}",

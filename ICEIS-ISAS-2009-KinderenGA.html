@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-ISAS-2009/ICEIS-ISAS-2009-KinderenGA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-ISAS-2009\ICEIS-ISAS-2009-KinderenGA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sybren de Kinderen, Jaap Gordijn, Hans Akkermans<br/><em><a href="word/reason.html">Reasoning</a> <a href="word/about.html">about</a> <a href="word/custom.html">Customer</a> <a href="word/need.html">Needs</a> in <a href="word/multi.html">Multi</a>-<a href="word/supplier.html">supplier</a> <a href="word/ict.html">ICT</a> <a href="word/servic.html">Service</a> <a href="word/bundl.html">Bundles</a> <a href="word/use.html">using</a> <a href="word/decis.html">Decision</a> <a href="word/model.html">Models</a></em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/KinderenGA09">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/KinderenGA09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Reasoning+about+Customer+Needs+in+Multi-supplier+ICT+Service+Bundles+using+Decision+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2009-KinderenGA,
 	author        = "<a href="person/Sybren_de_Kinderen.html">Sybren de Kinderen</a> and <a href="person/Jaap_Gordijn.html">Jaap Gordijn</a> and <a href="person/Hans_Akkermans.html">Hans Akkermans</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS</span>}",
 	pages         = "131--136",
 	title         = "{Reasoning about Customer Needs in Multi-supplier ICT Service Bundles using Decision Models}",
 	year          = 2009,

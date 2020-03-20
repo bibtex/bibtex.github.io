@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2001/ICML-2001/ICML-2001-GhaniSY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2001\ICML-2001\ICML-2001-GhaniSY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Rayid Ghani, Seán Slattery, Yiming Yang<br/><em><a href="word/hypertext.html">Hypertext</a> <a href="word/categor.html">Categorization</a> <a href="word/use.html">using</a> <a href="word/hyperlink.html">Hyperlink</a> <a href="word/pattern.html">Patterns</a> and <a href="word/meta.html">Meta</a> <a href="word/data.html">Data</a></em><br/>ICML, 2001.</h2>
 <div class="rbox">
-<strong><a href="ICML-2001.html">ICML 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icml/GhaniSY01">DBLP</a><br/>
+<strong><a href="ICML-2001.html">ICML 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icml/GhaniSY01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Hypertext+Categorization+using+Hyperlink+Patterns+and+Meta+Data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2001-GhaniSY,
 	author        = "<a href="person/Rayid_Ghani.html">Rayid Ghani</a> and <a href="person/Sean_Slattery.html">Seán Slattery</a> and <a href="person/Yiming_Yang.html">Yiming Yang</a>",
-	booktitle     = "{Proceedings of the 18th International Conference on Machine Learning}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Machine Learning</span>}",
 	pages         = "178--185",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Hypertext Categorization using Hyperlink Patterns and Meta Data}",

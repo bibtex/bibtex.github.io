@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/VLDB-2000/VLDB-2000-YagoubFIV00a.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\VLDB-2000\VLDB-2000-YagoubFIV00a.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Khaled Yagoub, Daniela Florescu, Valérie Issarny, Patrick Valduriez<br/><em><a href="word/build.html">Building</a> and <a href="word/custom.html">Customizing</a> <a href="word/data.html">Data</a>-<a href="word/intens.html">Intensive</a> <a href="word/web.html">Web</a> <a href="word/site.html">Sites</a> <a href="word/use.html">Using</a> <a href="word/weav.html">Weave</a></em><br/>VLDB, 2000.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/YagoubFIV00a">DBLP</a><br/>
+<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/YagoubFIV00a">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Building+and+Customizing+Data-Intensive+Web+Sites+Using+Weave%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2000-YagoubFIV00a,
 	author        = "<a href="person/Khaled_Yagoub.html">Khaled Yagoub</a> and <a href="person/Daniela_Florescu.html">Daniela Florescu</a> and <a href="person/Valerie_Issarny.html">Valérie Issarny</a> and <a href="person/Patrick_Valduriez.html">Patrick Valduriez</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Very Large Data Bases</span>}",
 	pages         = "607--610",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Building and Customizing Data-Intensive Web Sites Using Weave}",

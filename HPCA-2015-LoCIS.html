@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2015/HPCA-2015/HPCA-2015-LoCIS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\HPCA-2015\HPCA-2015-LoCIS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Daniel Lo, Tao Chen, Mohamed Ismail, G. Edward Suh<br/><em><a href="word/run.html">Run</a>-<a href="word/time.html">time</a> <a href="word/monitor.html">monitoring</a> with <a href="word/adjust.html">adjustable</a> <a href="word/overhead.html">overhead</a> <a href="word/use.html">using</a> <a href="word/dataflow.html">dataflow</a>-<a href="word/guid.html">guided</a> <a href="word/filter.html">filtering</a></em><br/>HPCA, 2015.</h2>
 <div class="rbox">
-<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpca/LoCIS15">DBLP</a><br/>
+<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpca/LoCIS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Run-time+monitoring+with+adjustable+overhead+using+dataflow-guided+filtering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/HPCA.2015.7056071">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Symposium on High-Performance Computer Architecture':'HPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPCA-2015-LoCIS,
 	author        = "<a href="person/Daniel_Lo.html">Daniel Lo</a> and <a href="person/Tao_Chen.html">Tao Chen</a> and <a href="person/Mohamed_Ismail.html">Mohamed Ismail</a> and <a href="person/G_Edward_Suh.html">G. Edward Suh</a>",
-	booktitle     = "{HPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Symposium on High-Performance Computer Architecture</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPCA.2015.7056071">10.1109/HPCA.2015.7056071</a>",
 </span>	pages         = "662--674",
 	publisher     = "{IEEE}",

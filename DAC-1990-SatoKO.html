@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1990/DAC-1990/DAC-1990-SatoKO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1990\DAC-1990\DAC-1990-SatoKO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Masao Sato, Kazuto Kubota, Tatsuo Ohtsuki<br/><em>A <a href="word/hardwar.html">Hardware</a> <a href="word/implement.html">Implementation</a> of <a href="word/gridless.html">Gridless</a> <a href="word/rout.html">Routing</a> <a href="word/base.html">Based</a> on <a href="word/content.html">Content</a> <a href="word/address.html">Addressable</a> <a href="word/memori.html">Memory</a></em><br/>DAC, 1990.</h2>
 <div class="rbox">
-<strong><a href="DAC-1990.html">DAC 1990</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/SatoKO90">DBLP</a><br/>
+<strong><a href="DAC-1990.html">DAC 1990</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/SatoKO90">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Hardware+Implementation+of+Gridless+Routing+Based+on+Content+Addressable+Memory%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/123186.128298">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/123186.128298">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1990-SatoKO,
 	author        = "<a href="person/Masao_Sato.html">Masao Sato</a> and <a href="person/Kazuto_Kubota.html">Kazuto Kubota</a> and <a href="person/Tatsuo_Ohtsuki.html">Tatsuo Ohtsuki</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 27th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/123186.128298">10.1145/123186.128298</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/123186.128298">http://doi.acm.org/10.1145/123186.128298</a>",
 </span>	pages         = "646--649",

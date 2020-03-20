@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/1999/ICEIS-1999/ICEIS-1999-Pinto.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\1999\ICEIS-1999\ICEIS-1999-Pinto.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Hugo José P. B. Paulino Pinto<br/><em><a href="word/distribut.html">Distributed</a> <a href="word/network.html">Networking</a> <a href="word/comput.html">Computer</a> <a href="word/model.html">Model</a>: <a href="word/sun.html">SUNs</a> <a href="word/jini.html">JINI</a> as an <a href="word/advanc.html">Advance</a> in the <a href="word/technolog.html">Technology</a>-An <a href="word/overview.html">Overview</a> of <a href="word/java.html">Javas</a> <a href="word/distribut.html">Distributed</a> <a href="word/platform.html">Platform</a></em><br/>ICEIS, 1999.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/Pinto99">DBLP</a><br/>
+<strong><a href="ICEIS-1999.html">ICEIS 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/Pinto99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Distributed+Networking+Computer+Model:+SUNs+JINI+as+an+Advance+in+the+Technology-An+Overview+of+Javas+Distributed+Platform%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-1999-Pinto,
 	author        = "<a href="person/Hugo_Jose_P_B_Paulino_Pinto.html">Hugo José P. B. Paulino Pinto</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Enterprise Information Systems</span>}",
 	pages         = "790",
 	title         = "{Distributed Networking Computer Model: SUNs JINI as an Advance in the Technology-An Overview of Javas Distributed Platform}",
 	year          = 1999,

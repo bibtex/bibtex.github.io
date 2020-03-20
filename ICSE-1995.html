@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SE/1995/ICSE-1995.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SE\1995\ICSE-1995.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Dewayne E. Perry, Ross Jeffrey, David Notkin<br/><em>Proceedings of the 17th International Conference on Software Engineering</em><br/>ICSE, 1995.</h2>
 <div class="rbox">
-<strong><a href="SE.html">SE</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icse/1995">DBLP</a><br/>
+<strong><a href="SE.html">SE</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icse/1995">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+17th+International+Conference+on+Software+Engineering%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 17th International Conference on Software Engineering':'ICSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICSE-1995,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=225014">225014</a>",
 </span>	address       = "Seattle, Washington, USA",
-	booktitle     = "{ICSE}",
 	editor        = "<a href="person/Dewayne_E_Perry.html">Dewayne E. Perry</a> and <a href="person/Ross_Jeffrey.html">Ross Jeffrey</a> and <a href="person/David_Notkin.html">David Notkin</a>",
 <span id="isbn">	isbn          = "0-89791-708-1",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 17th International Conference on Software Engineering}",
+	title         = "{<span id="title">Proceedings of the 17th International Conference on Software Engineering</span>}",
 	year          = 1995,
 }</pre>
 </div>

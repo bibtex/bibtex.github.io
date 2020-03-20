@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1975/SOSP-1975.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1975\SOSP-1975.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,23 +32,22 @@
 <div class="main">
 <h2>James C. Browne, Juan Rodriguez-Rosell<br/><em>Proceedings of the Fifth Symposium on Operating System Principles</em><br/>SOSP, 1975.</h2>
 <div class="rbox">
-<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sosp/1975">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sosp/1975">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fifth+Symposium+on+Operating+System+Principles%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/800213">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/800213">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fifth Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SOSP-1975,
 	address       = "Austin, Texas, USA",
-	booktitle     = "{SOSP}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800213">10.1145/800213</a>",
 </span>	editor        = "<a href="person/James_C_Browne.html">James C. Browne</a> and <a href="person/Juan_Rodriguez-Rosell.html">Juan Rodriguez-Rosell</a>",
 <span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800213">http://doi.acm.org/10.1145/800213</a>",
-</span>	note          = "Operating System Review 9(5), Special Issue",
-	publisher     = "{ACM}",
-	title         = "{Proceedings of the Fifth Symposium on Operating System Principles}",
+</span>	publisher     = "{ACM}",
+	title         = "{<span id="title">Proceedings of the Fifth Symposium on Operating System Principles</span>}",
+	volume        = "Operating System Review 9(5), Special Issue",
 	year          = 1975,
 }</pre>
 </div>
@@ -68,7 +67,7 @@
 <dt><a href="SOSP-1975-PopekK.html">SOSP-1975-PopekK</a> <span class="tag"><a href="tag/architecture.html" title="architecture">#architecture</a></span> <span class="tag"><a href="tag/case%20study.html" title="case study">#case study</a></span> <span class="tag"><a href="tag/virtual%20machine.html" title="virtual machine">#virtual machine</a></span></dt><dd>The PDP-11 Virtual Machine Architecture: A Case Study (<abbr title="Gerald J. Popek">GJP</abbr>, <abbr title="Charles S. Kline">CSK</abbr>), pp. 97–105.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="SOSP-1975-RussellB.html">SOSP-1975-RussellB</a> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span></dt><dd>Error Resynchronization in Producer-Consumer Systems (<abbr title="David L. Russell">DLR</abbr>, <abbr title="Thomas H. Bredt">THB</abbr>), pp. 106–113.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SOSP-1975-ArdenB.html">SOSP-1975-ArdenB</a> <span class="tag"><a href="tag/architecture.html" title="architecture">#architecture</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span></dt><dd>A Multi-Microprocessor Computer System Architecture (<abbr title="Bruce W. Arden">BWA</abbr>, <abbr title="Alan D. Berenbaum">ADB</abbr>), pp. 114–121.</dd> <div class="pagevis" style="width:7px"></div>
-<dt><a href="SOSP-1975-WulfLP.html">SOSP-1975-WulfLP</a> <span class="tag"><a href="tag/bibliography.html" title="bibliography">#bibliography</a></span> <span class="tag"><a href="tag/development.html" title="development">#development</a></span> <span class="tag"><a href="tag/operating%20system.html" title="operating system">#operating system</a></span></dt><dd>Overview of the HYDRA Operating System Development (<abbr title="William A. Wulf">WAW</abbr>, <abbr title="Roy Levin">RL</abbr>, <abbr title="C. Pierson">CP</abbr>), pp. 122–131.</dd> <div class="pagevis" style="width:9px"></div>
+<dt><a href="SOSP-1975-WulfLP.html">SOSP-1975-WulfLP</a> <span class="tag"><a href="tag/development.html" title="development">#development</a></span> <span class="tag"><a href="tag/operating%20system.html" title="operating system">#operating system</a></span> <span class="tag"><a href="tag/overview.html" title="overview">#overview</a></span></dt><dd>Overview of the HYDRA Operating System Development (<abbr title="William A. Wulf">WAW</abbr>, <abbr title="Roy Levin">RL</abbr>, <abbr title="C. Pierson">CP</abbr>), pp. 122–131.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="SOSP-1975-LevinCCPW.html">SOSP-1975-LevinCCPW</a> <span class="tag"><a href="tag/policy.html" title="policy">#policy</a></span></dt><dd>Policy/Mechanism Separation in HYDRA (<abbr title="Roy Levin">RL</abbr>, <abbr title="Ellis S. Cohen">ESC</abbr>, <abbr title="William M. Corwin">WMC</abbr>, <abbr title="Fred J. Pollack">FJP</abbr>, <abbr title="William A. Wulf">WAW</abbr>), pp. 132–140.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="SOSP-1975-CohenJ.html">SOSP-1975-CohenJ</a> <span class="tag"><a href="tag/operating%20system.html" title="operating system">#operating system</a></span></dt><dd>Protection in the HYDRA Operating System (<abbr title="Ellis S. Cohen">ESC</abbr>, <abbr title="David Jefferson">DJ</abbr>), pp. 141–160.</dd> <div class="pagevis" style="width:19px"></div>
 <dt><a href="SOSP-1975-BrundageB.html">SOSP-1975-BrundageB</a> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Computational Processor Demands of Algol-60 Programs (<abbr title="Robert E. Brundage">REB</abbr>, <abbr title="Alan P. Batson">APB</abbr>), pp. 161–168.</dd> <div class="pagevis" style="width:7px"></div>

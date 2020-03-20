@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2002/OSDI-2002/OSDI-2002-WhiteLSRGNHBJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2002\OSDI-2002\OSDI-2002-WhiteLSRGNHBJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Brian White, Jay Lepreau, Leigh Stoller, Robert Ricci, Shashi Guruprasad, Mac Newbold, Mike Hibler, Chad Barb, Abhijeet Joglekar<br/><em>An <a href="word/integr.html">Integrated</a> <a href="word/experiment.html">Experimental</a> <a href="word/environ.html">Environment</a> for <a href="word/distribut.html">Distributed</a> <a href="word/system.html">Systems</a> and <a href="word/network.html">Networks</a></em><br/>OSDI, 2002.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2002.html">OSDI 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/WhiteLSRGNHBJ02">DBLP</a><br/>
+<strong><a href="OSDI-2002.html">OSDI 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/WhiteLSRGNHBJ02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Integrated+Experimental+Environment+for+Distributed+Systems+and+Networks%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi02/tech/white.html">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1145/1060289.1060313">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2002-WhiteLSRGNHBJ,
 	author        = "<a href="person/Brian_White.html">Brian White</a> and <a href="person/Jay_Lepreau.html">Jay Lepreau</a> and <a href="person/Leigh_Stoller.html">Leigh Stoller</a> and <a href="person/Robert_Ricci.html">Robert Ricci</a> and <a href="person/Shashi_Guruprasad.html">Shashi Guruprasad</a> and <a href="person/Mac_Newbold.html">Mac Newbold</a> and <a href="person/Mike_Hibler.html">Mike Hibler</a> and <a href="person/Chad_Barb.html">Chad Barb</a> and <a href="person/Abhijeet_Joglekar.html">Abhijeet Joglekar</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1060289.1060313">10.1145/1060289.1060313</a>",
 </span><span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi02/tech/white.html">http://www.usenix.org/events/osdi02/tech/white.html</a>",
 </span>	pages         = "255--270",

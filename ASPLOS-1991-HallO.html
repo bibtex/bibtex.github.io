@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1991/ASPLOS-1991/ASPLOS-1991-HallO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1991\ASPLOS-1991\ASPLOS-1991-HallO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>C. Brian Hall, Kevin O'Brien<br/><em><a href="word/perform.html">Performance</a> <a href="word/characterist.html">Characteristics</a> of <a href="word/architectur.html">Architectural</a> <a href="word/featur.html">Features</a> of the <a href="word/ibm.html">IBM</a> <a href="word/risc.html">RISC</a> <a href="word/system.html">System</a>/6000</em><br/>ASPLOS, 1991.</h2>
 <div class="rbox">
-<strong><a href="ASPLOS-1991.html">ASPLOS 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/asplos/HallO91">DBLP</a><br/>
+<strong><a href="ASPLOS-1991.html">ASPLOS 1991</a></strong><hr/><a href="http://dblp.org/rec/html/conf/asplos/HallO91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Performance+Characteristics+of+Architectural+Features+of+the+IBM+RISC+System/6000%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/106972.107002">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/106972.107002">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Architectural Support for Programming Languages and Operating Systems':'ASPLOS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASPLOS-1991-HallO,
 	author        = "<a href="person/C_Brian_Hall.html">C. Brian Hall</a> and <a href="person/Kevin_OBrien.html">Kevin O'Brien</a>",
-	booktitle     = "{ASPLOS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Architectural Support for Programming Languages and Operating Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/106972.107002">10.1145/106972.107002</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/106972.107002">http://doi.acm.org/10.1145/106972.107002</a>",
 </span>	pages         = "303--309",

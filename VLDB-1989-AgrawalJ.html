@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1989/VLDB-1989/VLDB-1989-AgrawalJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1989\VLDB-1989\VLDB-1989-AgrawalJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Rakesh Agrawal, H. V. Jagadish<br/><em>On <a href="word/correct.html">Correctly</a> <a href="word/configur.html">Configuring</a> <a href="word/version.html">Versioned</a> <a href="word/object.html">Objects</a></em><br/>VLDB, 1989.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1989.html">VLDB 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AgrawalJ89">DBLP</a><br/>
+<strong><a href="VLDB-1989.html">VLDB 1989</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AgrawalJ89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On+Correctly+Configuring+Versioned+Objects%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1989/P367.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1989-AgrawalJ,
 	author        = "<a href="person/Rakesh_Agrawal.html">Rakesh Agrawal</a> and <a href="person/H_V_Jagadish.html">H. V. Jagadish</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1989/P367.PDF">http://www.vldb.org/conf/1989/P367.PDF</a>",
 </span>	pages         = "367--374",
 	publisher     = "{Morgan Kaufmann}",

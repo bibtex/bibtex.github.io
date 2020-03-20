@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1991/HT-1991/HT-1991-CasanovaTLNRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1991\HT-1991\HT-1991-CasanovaTLNRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Marco A. Casanova, Luiz Tucherman, Maria Julia D. Lima, Jose L. Rangel Netto, Noemi de La Rocque Rodriguez, Luiz Fernando Gomes Soares<br/><em>The <a href="word/nest.html">Nested</a> <a href="word/context.html">Context</a> <a href="word/model.html">Model</a> for <a href="word/hyperdocu.html">Hyperdocuments</a></em><br/>HT, 1991.</h2>
 <div class="rbox">
-<strong><a href="HT-1991.html">HT 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/CasanovaTLNRS91">DBLP</a><br/>
+<strong><a href="HT-1991.html">HT 1991</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/CasanovaTLNRS91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Nested+Context+Model+for+Hyperdocuments%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/122974.122993">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/122974.122993">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Conference on Hypertext':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-1991-CasanovaTLNRS,
 	author        = "<a href="person/Marco_A_Casanova.html">Marco A. Casanova</a> and <a href="person/Luiz_Tucherman.html">Luiz Tucherman</a> and <a href="person/Maria_Julia_D_Lima.html">Maria Julia D. Lima</a> and <a href="person/Jose_L_Rangel_Netto.html">Jose L. Rangel Netto</a> and <a href="person/Noemi_de_La_Rocque_Rodriguez.html">Noemi de La Rocque Rodriguez</a> and <a href="person/Luiz_Fernando_Gomes_Soares.html">Luiz Fernando Gomes Soares</a>",
-	booktitle     = "{Hypertext}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third Conference on Hypertext</span>}",
 	cdrom         = "HT1991/P193.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/122974.122993">10.1145/122974.122993</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/122974.122993">http://doi.acm.org/10.1145/122974.122993</a>",

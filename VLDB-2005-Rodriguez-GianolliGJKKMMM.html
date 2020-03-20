@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2005/VLDB-2005/VLDB-2005-Rodriguez-GianolliGJKKMMM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2005\VLDB-2005\VLDB-2005-Rodriguez-GianolliGJKKMMM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Patricia Rodríguez-Gianolli, Maddalena Garzetti, Lei Jiang, Anastasios Kementsietsidis, Iluju Kiringa, Mehedi Masud, Renée J. Miller, John Mylopoulos<br/><em><a href="word/data.html">Data</a> <a href="word/share.html">Sharing</a> in the <a href="word/hyperion.html">Hyperion</a> <a href="word/peer.html">Peer</a> <a href="word/databas.html">Database</a> <a href="word/system.html">System</a></em><br/>VLDB, 2005.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2005.html">VLDB 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/Rodriguez-GianolliGJKKMMM05">DBLP</a><br/>
+<strong><a href="VLDB-2005.html">VLDB 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/Rodriguez-GianolliGJKKMMM05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Data+Sharing+in+the+Hyperion+Peer+Database+System%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2005/papers/p1291-rodriguez-gianolli.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 31st International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2005-Rodriguez-GianolliGJKKMMM,
 	author        = "<a href="person/Patricia_Rodriguez-Gianolli.html">Patricia Rodríguez-Gianolli</a> and <a href="person/Maddalena_Garzetti.html">Maddalena Garzetti</a> and <a href="person/Lei_Jiang.html">Lei Jiang</a> and <a href="person/Anastasios_Kementsietsidis.html">Anastasios Kementsietsidis</a> and <a href="person/Iluju_Kiringa.html">Iluju Kiringa</a> and <a href="person/Mehedi_Masud.html">Mehedi Masud</a> and <a href="person/Renee_J_Miller.html">Renée J. Miller</a> and <a href="person/John_Mylopoulos.html">John Mylopoulos</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 31st International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2005/papers/p1291-rodriguez-gianolli.pdf">http://www.vldb.org/conf/2005/papers/p1291-rodriguez-gianolli.pdf</a>",
 </span>	pages         = "1291--1294",
 	publisher     = "{ACM}",

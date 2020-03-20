@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-SAIC-2010/ICEIS-SAIC-2010-DascaluDPV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-SAIC-2010\ICEIS-SAIC-2010-DascaluDPV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Maria-Iuliana Dascalu, Camelia Delcea, Dragos Palaghita, Bogdan Vintila<br/><em>The <a href="word/impact.html">Impact</a> of <a href="word/compet.html">Competences</a> <a href="word/assess.html">Assessment</a> <a href="word/system.html">Systems</a> to <a href="word/firm.html">Firm</a> <a href="word/perform.html">Performance</a> — <a href="word/studi.html">Study</a> on <a href="word/project.html">Project</a> <a href="word/manag.html">Management</a> e-<a href="word/assess.html">Assessment</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2010.html">ICEIS SAIC 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/DascaluDPV10">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2010.html">ICEIS SAIC 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/DascaluDPV10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Impact+of+Competences+Assessment+Systems+to+Firm+Performance+—+Study+on+Project+Management+e-Assessment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2010-DascaluDPV,
 	author        = "<a href="person/Maria-Iuliana_Dascalu.html">Maria-Iuliana Dascalu</a> and <a href="person/Camelia_Delcea.html">Camelia Delcea</a> and <a href="person/Dragos_Palaghita.html">Dragos Palaghita</a> and <a href="person/Bogdan_Vintila.html">Bogdan Vintila</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "59--64",
 	publisher     = "{SciTePress}",
 	title         = "{The Impact of Competences Assessment Systems to Firm Performance — Study on Project Management e-Assessment}",

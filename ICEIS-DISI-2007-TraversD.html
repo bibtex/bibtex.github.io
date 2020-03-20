@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-DISI-2007/ICEIS-DISI-2007-TraversD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-DISI-2007\ICEIS-DISI-2007-TraversD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nicolas Travers, Tuyet-Tram Dang-Ngoc<br/><em>An <a href="word/extens.html">extensible</a> <a href="word/rule.html">rule</a> <a href="word/transform.html">transformation</a> <a href="word/model.html">model</a> for X<a href="word/queri.html">Query</a> <a href="word/optim.html">optimization</a> — <a href="word/rule.html">rules</a> <a href="word/pattern.html">pattern</a> for X<a href="word/queri.html">Query</a> <a href="word/tree.html">tree</a> <a href="word/graph.html">graph</a> <a href="word/view.html">view</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/TraversD07">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/TraversD07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+extensible+rule+transformation+model+for+XQuery+optimization+—+rules+pattern+for+XQuery+tree+graph+view%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2007-TraversD,
 	author        = "<a href="person/Nicolas_Travers.html">Nicolas Travers</a> and <a href="person/Tuyet-Tram_Dang-Ngoc.html">Tuyet-Tram Dang-Ngoc</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "351--358",
 	title         = "{An extensible rule transformation model for XQuery optimization — rules pattern for XQuery tree graph view}",
 	year          = 2007,

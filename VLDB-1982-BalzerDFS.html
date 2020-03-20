@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1982/VLDB-1982/VLDB-1982-BalzerDFS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1982\VLDB-1982\VLDB-1982-BalzerDFS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Robert Balzer, David Dyer, M. Fehling, S. Saunders<br/><em><a href="word/specif.html">Specification</a>-<a href="word/base.html">Based</a> <a href="word/comput.html">Computing</a> <a href="word/environ.html">Environments</a></em><br/>VLDB, 1982.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1982.html">VLDB 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BalzerDFS82">DBLP</a><br/>
+<strong><a href="VLDB-1982.html">VLDB 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BalzerDFS82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Specification-Based+Computing+Environments%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1982/P273.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1982-BalzerDFS,
 	author        = "<a href="person/Robert_Balzer.html">Robert Balzer</a> and <a href="person/David_Dyer.html">David Dyer</a> and <a href="person/M_Fehling.html">M. Fehling</a> and <a href="person/S_Saunders.html">S. Saunders</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1982/P273.PDF">http://www.vldb.org/conf/1982/P273.PDF</a>",
 </span>	pages         = "273--279",
 	publisher     = "{Morgan Kaufmann}",

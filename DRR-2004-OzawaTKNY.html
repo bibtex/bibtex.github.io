@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/DRR-2004/DRR-2004-OzawaTKNY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\DRR-2004\DRR-2004-OzawaTKNY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Noriaki Ozawa, Hiroaki Takebe, Yutaka Katsuyama, Satoshi Naoi, Haruo Yokota<br/><em><a href="word/slide.html">Slide</a> <a href="word/identif.html">identification</a> for <a href="word/lectur.html">lecture</a> <a href="word/movi.html">movies</a> by <a href="word/match.html">matching</a> <a href="word/charact.html">characters</a> and <a href="word/imag.html">images</a></em><br/>DRR, 2004.</h2>
 <div class="rbox">
-<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/OzawaTKNY04">DBLP</a><br/>
+<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/OzawaTKNY04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Slide+identification+for+lecture+movies+by+matching+characters+and+images%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=30454">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2004-OzawaTKNY,
 	author        = "<a href="person/Noriaki_Ozawa.html">Noriaki Ozawa</a> and <a href="person/Hiroaki_Takebe.html">Hiroaki Takebe</a> and <a href="person/Yutaka_Katsuyama.html">Yutaka Katsuyama</a> and <a href="person/Satoshi_Naoi.html">Satoshi Naoi</a> and <a href="person/Haruo_Yokota.html">Haruo Yokota</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=30454">http://www.imaging.org/store/epub.cfm?abstrid=30454</a>",
 </span>	pages         = "74--81",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Slide identification for lecture movies by matching characters and images}",
-	volume        = 5296,
+	volume        = "5296",
 	year          = 2004,
 }</pre>
 </div>

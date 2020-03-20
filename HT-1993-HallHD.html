@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/HT-1993/HT-1993-HallHD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\HT-1993\HT-1993-HallHD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Wendy Hall, Gary Hill, Hugh C. Davis<br/><em>The <a href="word/microcosm.html">Microcosm</a> <a href="word/link.html">Link</a> <a href="word/servic.html">Service</a></em><br/>HT, 1993.</h2>
 <div class="rbox">
-<strong><a href="HT-1993.html">HT 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/HallHD93">DBLP</a><br/>
+<strong><a href="HT-1993.html">HT 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/HallHD93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Microcosm+Link+Service%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/168750.168842">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/168750.168842">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Conference on Hypertext':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-1993-HallHD,
 	author        = "<a href="person/Wendy_Hall.html">Wendy Hall</a> and <a href="person/Gary_Hill.html">Gary Hill</a> and <a href="person/Hugh_C_Davis.html">Hugh C. Davis</a>",
-	booktitle     = "{Hypertext}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Conference on Hypertext</span>}",
 	cdrom         = "HT1993/P256.pdf",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/168750.168842">10.1145/168750.168842</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/168750.168842">http://doi.acm.org/10.1145/168750.168842</a>",

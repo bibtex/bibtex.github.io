@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2007/DAC-2007/DAC-2007-Kwon.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2007\DAC-2007\DAC-2007-Kwon.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Oh-Hyun Kwon<br/><em><a href="word/perspect.html">Perspective</a> of the <a href="word/futur.html">Future</a> <a href="word/semiconductor.html">Semiconductor</a> <a href="word/industri.html">Industry</a>: <a href="word/challeng.html">Challenges</a> and <a href="word/solut.html">Solutions</a></em><br/>DAC, 2007.</h2>
 <div class="rbox">
-<strong><a href="DAC-2007.html">DAC 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/Kwon07">DBLP</a><br/>
+<strong><a href="DAC-2007.html">DAC 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/Kwon07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Perspective+of+the+Future+Semiconductor+Industry:+Challenges+and+Solutions%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 44th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2007-Kwon,
 	author        = "<a href="person/Oh-Hyun_Kwon.html">Oh-Hyun Kwon</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 44th Design Automation Conference</span>}",
 	publisher     = "{IEEE}",
 	title         = "{Perspective of the Future Semiconductor Industry: Challenges and Solutions}",
 	year          = 2007,

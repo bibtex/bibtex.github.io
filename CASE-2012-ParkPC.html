@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/CASE-2012/CASE-2012-ParkPC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\CASE-2012\CASE-2012-ParkPC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>C.-H. Park, B.-G. Pyo, D.-H. Choi<br/><em><a href="word/design.html">Design</a> <a href="word/autom.html">automation</a> of <a href="word/valv.html">valve</a> <a href="word/gate.html">gate</a> <a href="word/locat.html">locations</a> and <a href="word/open.html">open</a> <a href="word/time.html">timing</a> for <a href="word/inject.html">injection</a> <a href="word/mold.html">molding</a> of an <a href="word/automot.html">automotive</a> <a href="word/instrument.html">instrument</a> <a href="word/panel.html">panel</a></em><br/>CASE, 2012.</h2>
 <div class="rbox">
-<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/ParkPC12">DBLP</a><br/>
+<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/ParkPC12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Design+automation+of+valve+gate+locations+and+open+timing+for+injection+molding+of+an+automotive+instrument+panel%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2012.6386357">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2012-ParkPC,
 	author        = "<a href="person/C-H_Park.html">C.-H. Park</a> and <a href="person/B-G_Pyo.html">B.-G. Pyo</a> and <a href="person/D-H_Choi.html">D.-H. Choi</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2012.6386357">10.1109/CoASE.2012.6386357</a>",
 </span>	pages         = "843--845",
 	publisher     = "{IEEE}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-WangPCZW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-WangPCZW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Helen J. Wang, John C. Platt, Yu Chen, Ruyun Zhang, Yi-Min Wang<br/><em><a href="word/automat.html">Automatic</a> <a href="word/misconfigur.html">Misconfiguration</a> <a href="word/troubleshoot.html">Troubleshooting</a> with <a href="word/peer.html">Peer</a><a href="word/pressur.html">Pressure</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/WangPCZW04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/WangPCZW04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Misconfiguration+Troubleshooting+with+PeerPressure%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/wang.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-WangPCZW,
 	author        = "<a href="person/Helen_J_Wang.html">Helen J. Wang</a> and <a href="person/John_C_Platt.html">John C. Platt</a> and <a href="person/Yu_Chen.html">Yu Chen</a> and <a href="person/Ruyun_Zhang.html">Ruyun Zhang</a> and <a href="person/Yi-Min_Wang.html">Yi-Min Wang</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/wang.html">http://www.usenix.org/events/osdi04/tech/wang.html</a>",
 </span>	pages         = "245--258",
 	publisher     = "{USENIX Association}",

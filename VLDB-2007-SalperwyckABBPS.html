@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/VLDB-2007/VLDB-2007-SalperwyckABBPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\VLDB-2007\VLDB-2007-SalperwyckABBPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christophe Salperwyck, Nicolas Anciaux, Mehdi Benzine, Luc Bouganim, Philippe Pucheral, Dennis Shasha<br/><em><a href="word/ghost.html">Ghost</a>DB: <a href="word/hide.html">Hiding</a> <a href="word/data.html">Data</a> from <a href="word/pri.html">Prying</a> <a href="word/eye.html">Eyes</a></em><br/>VLDB, 2007.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/SalperwyckABBPS07">DBLP</a><br/>
+<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/SalperwyckABBPS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22GhostDB:+Hiding+Data+from+Prying+Eyes%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2007/papers/demo/p1346-salperwyck.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2007-SalperwyckABBPS,
 	author        = "<a href="person/Christophe_Salperwyck.html">Christophe Salperwyck</a> and <a href="person/Nicolas_Anciaux.html">Nicolas Anciaux</a> and <a href="person/Mehdi_Benzine.html">Mehdi Benzine</a> and <a href="person/Luc_Bouganim.html">Luc Bouganim</a> and <a href="person/Philippe_Pucheral.html">Philippe Pucheral</a> and <a href="person/Dennis_Shasha.html">Dennis Shasha</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2007/papers/demo/p1346-salperwyck.pdf">http://www.vldb.org/conf/2007/papers/demo/p1346-salperwyck.pdf</a>",
 </span>	pages         = "1346--1349",
 	publisher     = "{ACM}",

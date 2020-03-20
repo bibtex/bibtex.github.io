@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1997/DAC-1997/DAC-1997-GrundmannDAR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1997\DAC-1997\DAC-1997-GrundmannDAR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>William J. Grundmann, Dan Dobberpuhl, Randy L. Allmon, Nicholas L. Rethman<br/><em><a href="word/design.html">Designing</a> <a href="word/high.html">High</a> <a href="word/perform.html">Performance</a> <a href="word/cmos.html">CMOS</a> <a href="word/microprocessor.html">Microprocessors</a> <a href="word/use.html">Using</a> <a href="word/full.html">Full</a> <a href="word/custom.html">Custom</a> <a href="word/techniqu.html">Techniques</a></em><br/>DAC, 1997.</h2>
 <div class="rbox">
-<strong><a href="DAC-1997.html">DAC 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/GrundmannDAR97">DBLP</a><br/>
+<strong><a href="DAC-1997.html">DAC 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/GrundmannDAR97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Designing+High+Performance+CMOS+Microprocessors+Using+Full+Custom+Techniques%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/266021.266353">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/266021.266353">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 34th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1997-GrundmannDAR,
 	author        = "<a href="person/William_J_Grundmann.html">William J. Grundmann</a> and <a href="person/Dan_Dobberpuhl.html">Dan Dobberpuhl</a> and <a href="person/Randy_L_Allmon.html">Randy L. Allmon</a> and <a href="person/Nicholas_L_Rethman.html">Nicholas L. Rethman</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 34th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/266021.266353">10.1145/266021.266353</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/266021.266353">http://doi.acm.org/10.1145/266021.266353</a>",
 </span>	pages         = "722--727",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-ISAS-2006/ICEIS-ISAS-2006-SoeiroBM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-ISAS-2006\ICEIS-ISAS-2006-SoeiroBM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Elisabete Soeiro, Isabel Sofia Brito, Ana M. D. Moreira<br/><em>An <a href="word/xml.html">XML</a>-<a href="word/base.html">Based</a> <a href="word/languag.html">Language</a> for <a href="word/specif.html">Specification</a> and <a href="word/composit.html">Composition</a> of <a href="word/aspectu.html">Aspectual</a> <a href="word/concern.html">Concerns</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/SoeiroBM06">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/SoeiroBM06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+XML-Based+Language+for+Specification+and+Composition+of+Aspectual+Concerns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2006-SoeiroBM,
 	author        = "<a href="person/Elisabete_Soeiro.html">Elisabete Soeiro</a> and <a href="person/Isabel_Sofia_Brito.html">Isabel Sofia Brito</a> and <a href="person/Ana_M_D_Moreira.html">Ana M. D. Moreira</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification</span>}",
 	pages         = "410--419",
 	title         = "{An XML-Based Language for Specification and Composition of Aspectual Concerns}",
 	year          = 2006,

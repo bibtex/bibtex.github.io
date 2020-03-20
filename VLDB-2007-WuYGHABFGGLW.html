@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/VLDB-2007/VLDB-2007-WuYGHABFGGLW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\VLDB-2007\VLDB-2007-WuYGHABFGGLW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Kun-Lung Wu, Philip S. Yu, Bugra Gedik, Kirsten Hildrum, Charu C. Aggarwal, Eric Bouillet, Wei Fan, David George, Xiaohui Gu, Gang Luo, Haixun Wang<br/><em><a href="word/challeng.html">Challenges</a> and <a href="word/experi.html">Experience</a> in <a href="word/prototyp.html">Prototyping</a> a <a href="word/multi.html">Multi</a>-<a href="word/modal.html">Modal</a> <a href="word/stream.html">Stream</a> <a href="word/analyt.html">Analytic</a> and <a href="word/monitor.html">Monitoring</a> <a href="word/applic.html">Application</a> on <a href="word/system.html">System</a> S</em><br/>VLDB, 2007.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/WuYGHABFGGLW07">DBLP</a><br/>
+<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/WuYGHABFGGLW07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Challenges+and+Experience+in+Prototyping+a+Multi-Modal+Stream+Analytic+and+Monitoring+Application+on+System+S%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2007/papers/industrial/p1185-wu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2007-WuYGHABFGGLW,
 	author        = "<a href="person/Kun-Lung_Wu.html">Kun-Lung Wu</a> and <a href="person/Philip_S_Yu.html">Philip S. Yu</a> and <a href="person/Bugra_Gedik.html">Bugra Gedik</a> and <a href="person/Kirsten_Hildrum.html">Kirsten Hildrum</a> and <a href="person/Charu_C_Aggarwal.html">Charu C. Aggarwal</a> and <a href="person/Eric_Bouillet.html">Eric Bouillet</a> and <a href="person/Wei_Fan.html">Wei Fan</a> and <a href="person/David_George.html">David George</a> and <a href="person/Xiaohui_Gu.html">Xiaohui Gu</a> and <a href="person/Gang_Luo.html">Gang Luo</a> and <a href="person/Haixun_Wang.html">Haixun Wang</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2007/papers/industrial/p1185-wu.pdf">http://www.vldb.org/conf/2007/papers/industrial/p1185-wu.pdf</a>",
 </span>	pages         = "1185--1196",
 	publisher     = "{ACM}",

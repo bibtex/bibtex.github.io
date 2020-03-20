@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2005/DRR-2005/DRR-2005-HopkinsA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2005\DRR-2005\DRR-2005-HopkinsA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Jared Hopkins, Timothy L. Andersen<br/><em>A <a href="word/fourier.html">Fourier</a>-<a href="word/descriptor.html">descriptor</a>-<a href="word/base.html">based</a> <a href="word/charact.html">character</a> <a href="word/recognit.html">recognition</a> <a href="word/engin.html">engine</a> <a href="word/implement.html">implemented</a> <a href="word/under.html">under</a> the <a href="word/gamera.html">Gamera</a> <a href="word/open.html">open</a>-<a href="word/sourc.html">source</a> <a href="word/document.html">document</a>-<a href="word/process.html">processing</a> <a href="word/framework.html">framework</a></em><br/>DRR, 2005.</h2>
 <div class="rbox">
-<strong><a href="DRR-2005.html">DRR 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/HopkinsA05">DBLP</a><br/>
+<strong><a href="DRR-2005.html">DRR 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/HopkinsA05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Fourier-descriptor-based+character+recognition+engine+implemented+under+the+Gamera+open-source+document-processing+framework%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=32855">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2005-HopkinsA,
 	author        = "<a href="person/Jared_Hopkins.html">Jared Hopkins</a> and <a href="person/Timothy_L_Andersen.html">Timothy L. Andersen</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=32855">http://www.imaging.org/store/epub.cfm?abstrid=32855</a>",
 </span>	pages         = "111--118",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{A Fourier-descriptor-based character recognition engine implemented under the Gamera open-source document-processing framework}",
-	volume        = 5676,
+	volume        = "5676",
 	year          = 2005,
 }</pre>
 </div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/VLDB-1993/VLDB-1993-AmatoGM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\VLDB-1993\VLDB-1993-AmatoGM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Giuseppe Amato, Fosca Giannotti, Gianni Mainetto<br/><em><a href="word/data.html">Data</a> <a href="word/share.html">Sharing</a> <a href="word/analysi.html">Analysis</a> for a <a href="word/databas.html">Database</a> <a href="word/program.html">Programming</a> <a href="word/lanaguag.html">Lanaguage</a> via <a href="word/abstract.html">Abstract</a> <a href="word/interpret.html">Interpretation</a></em><br/>VLDB, 1993.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1993.html">VLDB 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AmatoGM93">DBLP</a><br/>
+<strong><a href="VLDB-1993.html">VLDB 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AmatoGM93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Data+Sharing+Analysis+for+a+Database+Programming+Lanaguage+via+Abstract+Interpretation%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1993/P405.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1993-AmatoGM,
 	author        = "<a href="person/Giuseppe_Amato.html">Giuseppe Amato</a> and <a href="person/Fosca_Giannotti.html">Fosca Giannotti</a> and <a href="person/Gianni_Mainetto.html">Gianni Mainetto</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1993/P405.PDF">http://www.vldb.org/conf/1993/P405.PDF</a>",
 </span>	pages         = "405--415",
 	publisher     = "{Morgan Kaufmann}",

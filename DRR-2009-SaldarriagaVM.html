@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2009/DRR-2009/DRR-2009-SaldarriagaVM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2009\DRR-2009\DRR-2009-SaldarriagaVM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Sebastián Peña Saldarriaga, Christian Viard-Gaudin, Emmanuel Morin<br/><em>On-<a href="word/line.html">line</a> <a href="word/handwritten.html">handwritten</a> <a href="word/text.html">text</a> <a href="word/categor.html">categorization</a></em><br/>DRR, 2009.</h2>
 <div class="rbox">
-<strong><a href="DRR-2009.html">DRR 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/SaldarriagaVM09">DBLP</a><br/>
+<strong><a href="DRR-2009.html">DRR 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/SaldarriagaVM09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On-line+handwritten+text+categorization%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.804355">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2009-SaldarriagaVM,
 	author        = "<a href="person/Sebastian_Pena_Saldarriaga.html">Sebastián Peña Saldarriaga</a> and <a href="person/Christian_Viard-Gaudin.html">Christian Viard-Gaudin</a> and <a href="person/Emmanuel_Morin.html">Emmanuel Morin</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.804355">10.1117/12.804355</a>",
 </span>	pages         = "1--10",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{On-line handwritten text categorization}",
-	volume        = 7247,
+	volume        = "7247",
 	year          = 2009,
 }</pre>
 </div>

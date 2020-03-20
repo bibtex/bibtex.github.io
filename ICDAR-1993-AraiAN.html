@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/ICDAR-1993/ICDAR-1993-AraiAN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\ICDAR-1993\ICDAR-1993-AraiAN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Hiroyuki Arai, Shinji Abe, Masakazu Nagura<br/><em><a href="word/intellig.html">Intelligent</a> <a href="word/interact.html">interactive</a> <a href="word/map.html">map</a> <a href="word/recognit.html">recognition</a> <a href="word/use.html">using</a> <a href="word/neural.html">neural</a> <a href="word/network.html">networks</a></em><br/>ICDAR, 1993.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/AraiAN93">DBLP</a><br/>
+<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/AraiAN93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Intelligent+interactive+map+recognition+using+neural+networks%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICDAR.1993.395586">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Document Analysis and Recognition':'ICDAR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-1993-AraiAN,
 	author        = "<a href="person/Hiroyuki_Arai.html">Hiroyuki Arai</a> and <a href="person/Shinji_Abe.html">Shinji Abe</a> and <a href="person/Masakazu_Nagura.html">Masakazu Nagura</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.1993.395586">10.1109/ICDAR.1993.395586</a>",
 </span>	pages         = "922--925",
 	publisher     = "{IEEE}",

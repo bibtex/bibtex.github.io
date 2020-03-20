@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1994/PODS-1994/PODS-1994-Gonnet.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1994\PODS-1994\PODS-1994-Gonnet.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Gaston H. Gonnet<br/><em><a href="word/tutori.html">Tutorial</a>: <a href="word/text.html">Text</a> <a href="word/domin.html">Dominated</a> <a href="word/databas.html">Databases</a>, <a href="word/theori.html">Theory</a> <a href="word/practic.html">Practice</a> and <a href="word/experi.html">Experience</a></em><br/>PODS, 1994.</h2>
 <div class="rbox">
-<strong><a href="PODS-1994.html">PODS 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pods/Gonnet94">DBLP</a><br/>
+<strong><a href="PODS-1994.html">PODS 1994</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pods/Gonnet94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Tutorial:+Text+Dominated+Databases,+Theory+Practice+and+Experience%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/182591.182655">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/182591.182655">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Symposium on Principles of Database Systems':'PODS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PODS-1994-Gonnet,
 	author        = "<a href="person/Gaston_H_Gonnet.html">Gaston H. Gonnet</a>",
-	booktitle     = "{PODS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Symposium on Principles of Database Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/182591.182655">10.1145/182591.182655</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/182591.182655">http://doi.acm.org/10.1145/182591.182655</a>",
 </span>	pages         = "301--302",

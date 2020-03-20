@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2008/OSDI-2008/OSDI-2008-ChenZMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\OSDI-2008\OSDI-2008-ChenZMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Xu Chen, Ming Zhang, Zhuoqing Morley Mao, Paramvir Bahl<br/><em><a href="word/autom.html">Automating</a> <a href="word/network.html">Network</a> <a href="word/applic.html">Application</a> <a href="word/depend.html">Dependency</a> <a href="word/discoveri.html">Discovery</a>: <a href="word/experi.html">Experiences</a>, <a href="word/limit.html">Limitations</a>, and <a href="word/new.html">New</a> <a href="word/solut.html">Solutions</a></em><br/>OSDI, 2008.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/ChenZMB08">DBLP</a><br/>
+<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/ChenZMB08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automating+Network+Application+Dependency+Discovery:+Experiences,+Limitations,+and+New+Solutions%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi08/tech/full_papers/chen_xu/chen_xu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2008-ChenZMB,
 	author        = "<a href="person/Xu_Chen.html">Xu Chen</a> and <a href="person/Ming_Zhang.html">Ming Zhang</a> and <a href="person/Zhuoqing_Morley_Mao.html">Zhuoqing Morley Mao</a> and <a href="person/Paramvir_Bahl.html">Paramvir Bahl</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi08/tech/full_papers/chen_xu/chen_xu.pdf">http://www.usenix.org/events/osdi08/tech/full_papers/chen_xu/chen_xu.pdf</a>",
 </span>	pages         = "117--130",
 	publisher     = "{USENIX Association}",

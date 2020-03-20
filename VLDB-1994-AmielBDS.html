@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1994/VLDB-1994/VLDB-1994-AmielBDS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1994\VLDB-1994\VLDB-1994-AmielBDS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Eric Amiel, Marie-Jo Bellosta, Eric Dujardin, Eric Simon<br/><em><a href="word/support.html">Supporting</a> <a href="word/except.html">Exceptions</a> to <a href="word/schema.html">Schema</a> <a href="word/consist.html">Consistency</a> to <a href="word/eas.html">Ease</a> <a href="word/schema.html">Schema</a> <a href="word/evolut.html">Evolution</a> in <a href="word/oodbm.html">OODBMS</a></em><br/>VLDB, 1994.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1994.html">VLDB 1994</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AmielBDS94">DBLP</a><br/>
+<strong><a href="VLDB-1994.html">VLDB 1994</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AmielBDS94">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Supporting+Exceptions+to+Schema+Consistency+to+Ease+Schema+Evolution+in+OODBMS%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1994/P108.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1994-AmielBDS,
 	author        = "<a href="person/Eric_Amiel.html">Eric Amiel</a> and <a href="person/Marie-Jo_Bellosta.html">Marie-Jo Bellosta</a> and <a href="person/Eric_Dujardin.html">Eric Dujardin</a> and <a href="person/Eric_Simon.html">Eric Simon</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1994/P108.PDF">http://www.vldb.org/conf/1994/P108.PDF</a>",
 </span>	pages         = "108--119",
 	publisher     = "{Morgan Kaufmann}",

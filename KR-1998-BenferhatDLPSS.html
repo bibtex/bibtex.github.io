@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1998/KR-1998/KR-1998-BenferhatDLPSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1998\KR-1998\KR-1998-BenferhatDLPSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Salem Benferhat, Didier Dubois, Jérôme Lang, Henri Prade, Alessandro Saffiotti, Philippe Smets<br/><em>A <a href="word/general.html">General</a> <a href="word/approach.html">Approach</a> for <a href="word/inconsist.html">Inconsistency</a> <a href="word/handl.html">Handling</a> and <a href="word/merg.html">Merging</a> <a href="word/inform.html">Information</a> in <a href="word/priorit.html">Prioritized</a> <a href="word/knowledg.html">Knowledge</a> <a href="word/base.html">Bases</a></em><br/>KR, 1998.</h2>
 <div class="rbox">
-<strong><a href="KR-1998.html">KR 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/BenferhatDLPSS98">DBLP</a><br/>
+<strong><a href="KR-1998.html">KR 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/BenferhatDLPSS98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+General+Approach+for+Inconsistency+Handling+and+Merging+Information+in+Prioritized+Knowledge+Bases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1998-BenferhatDLPSS,
 	author        = "<a href="person/Salem_Benferhat.html">Salem Benferhat</a> and <a href="person/Didier_Dubois.html">Didier Dubois</a> and <a href="person/Jerome_Lang.html">Jérôme Lang</a> and <a href="person/Henri_Prade.html">Henri Prade</a> and <a href="person/Alessandro_Saffiotti.html">Alessandro Saffiotti</a> and <a href="person/Philippe_Smets.html">Philippe Smets</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "466--477",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{A General Approach for Inconsistency Handling and Merging Information in Prioritized Knowledge Bases}",

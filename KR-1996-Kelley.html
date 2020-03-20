@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1996/KR-1996/KR-1996-Kelley.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1996\KR-1996\KR-1996-Kelley.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Todd G. Kelley<br/><em><a href="word/model.html">Modeling</a> <a href="word/complex.html">Complex</a> <a href="word/system.html">Systems</a> in the <a href="word/situat.html">Situation</a> <a href="word/calculus.html">Calculus</a>: A <a href="word/case.html">Case</a> <a href="word/studi.html">Study</a> <a href="word/use.html">Using</a> the <a href="word/dagstuhl.html">Dagstuhl</a> <a href="word/steam.html">Steam</a> <a href="word/boiler.html">Boiler</a> <a href="word/problem.html">Problem</a></em><br/>KR, 1996.</h2>
 <div class="rbox">
-<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/Kelley96">DBLP</a><br/>
+<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/Kelley96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Modeling+Complex+Systems+in+the+Situation+Calculus:+A+Case+Study+Using+the+Dagstuhl+Steam+Boiler+Problem%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1996-Kelley,
 	author        = "<a href="person/Todd_G_Kelley.html">Todd G. Kelley</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "26--37",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Modeling Complex Systems in the Situation Calculus: A Case Study Using the Dagstuhl Steam Boiler Problem}",

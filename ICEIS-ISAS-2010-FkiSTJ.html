@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-ISAS-2010/ICEIS-ISAS-2010-FkiSTJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-ISAS-2010\ICEIS-ISAS-2010-FkiSTJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Emna Fki, Chantal Soulé-Dupuy, Saïd Tazi, Mohamed Jmaiel<br/><em><a href="word/intent.html">Intention</a> <a href="word/driven.html">Driven</a> <a href="word/servic.html">Service</a> <a href="word/composit.html">Composition</a> with <a href="word/pattern.html">Patterns</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2010.html">ICEIS ISAS 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/FkiSTJ10">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2010.html">ICEIS ISAS 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/FkiSTJ10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Intention+Driven+Service+Composition+with+Patterns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 3: ISAS':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2010-FkiSTJ,
 	author        = "<a href="person/Emna_Fki.html">Emna Fki</a> and <a href="person/Chantal_Soule-Dupuy.html">Chantal Soulé-Dupuy</a> and <a href="person/Said_Tazi.html">Saïd Tazi</a> and <a href="person/Mohamed_Jmaiel.html">Mohamed Jmaiel</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 3: ISAS</span>}",
 	pages         = "236--241",
 	publisher     = "{SciTePress}",
 	title         = "{Intention Driven Service Composition with Patterns}",

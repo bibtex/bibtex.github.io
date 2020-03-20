@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2000/KR-2000/KR-2000-AmorBDGP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2000\KR-2000\KR-2000-AmorBDGP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nahla Ben Amor, Salem Benferhat, Didier Dubois, Hector Geffner, Henri Prade<br/><em><a href="word/independ.html">Independence</a> in <a href="word/qualit.html">qualitative</a> <a href="word/uncertainti.html">uncertainty</a> <a href="word/framework.html">frameworks</a></em><br/>KR, 2000.</h2>
 <div class="rbox">
-<strong><a href="KR-2000.html">KR 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/AmorBDGP00">DBLP</a><br/>
+<strong><a href="KR-2000.html">KR 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/AmorBDGP00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Independence+in+qualitative+uncertainty+frameworks%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2000-AmorBDGP,
 	author        = "<a href="person/Nahla_Ben_Amor.html">Nahla Ben Amor</a> and <a href="person/Salem_Benferhat.html">Salem Benferhat</a> and <a href="person/Didier_Dubois.html">Didier Dubois</a> and <a href="person/Hector_Geffner.html">Hector Geffner</a> and <a href="person/Henri_Prade.html">Henri Prade</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "235--246",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Independence in qualitative uncertainty frameworks}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1999/VLDB-1999/VLDB-1999-FuhDCMTLDRM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1999\VLDB-1999\VLDB-1999-FuhDCMTLDRM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>You-Chin Fuh, Stefan Deßloch, Weidong Chen, Nelson Mendonça Mattos, Brian T. Tran, Bruce G. Lindsay, Linda DeMichel, Serge Rielau, Danko Mannhaupt<br/><em><a href="word/implement.html">Implementation</a> of <a href="word/sql.html">SQL</a>3 <a href="word/structur.html">Structured</a> <a href="word/type.html">Types</a> with <a href="word/inherit.html">Inheritance</a> and <a href="word/valu.html">Value</a> <a href="word/substitut.html">Substitutability</a></em><br/>VLDB, 1999.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1999.html">VLDB 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/FuhDCMTLDRM99">DBLP</a><br/>
+<strong><a href="VLDB-1999.html">VLDB 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/FuhDCMTLDRM99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Implementation+of+SQL3+Structured+Types+with+Inheritance+and+Value+Substitutability%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1999/P53.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 25th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1999-FuhDCMTLDRM,
 	author        = "<a href="person/You-Chin_Fuh.html">You-Chin Fuh</a> and <a href="person/Stefan_Dessloch.html">Stefan Deßloch</a> and <a href="person/Weidong_Chen.html">Weidong Chen</a> and <a href="person/Nelson_Mendonca_Mattos.html">Nelson Mendonça Mattos</a> and <a href="person/Brian_T_Tran.html">Brian T. Tran</a> and <a href="person/Bruce_G_Lindsay.html">Bruce G. Lindsay</a> and <a href="person/Linda_DeMichel.html">Linda DeMichel</a> and <a href="person/Serge_Rielau.html">Serge Rielau</a> and <a href="person/Danko_Mannhaupt.html">Danko Mannhaupt</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 25th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1999/P53.pdf">http://www.vldb.org/conf/1999/P53.pdf</a>",
 </span>	pages         = "565--574",
 	publisher     = "{Morgan Kaufmann}",

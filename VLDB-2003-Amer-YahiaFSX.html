@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/VLDB-2003/VLDB-2003-Amer-YahiaFSX.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\VLDB-2003\VLDB-2003-Amer-YahiaFSX.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sihem Amer-Yahia, Mary F. Fernández, Divesh Srivastava, Yu Xu<br/><em><a href="word/phrase.html">Phrase</a> <a href="word/match.html">Matching</a> in <a href="word/xml.html">XML</a></em><br/>VLDB, 2003.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/Amer-YahiaFSX03">DBLP</a><br/>
+<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/Amer-YahiaFSX03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Phrase+Matching+in+XML%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2003/papers/S07P01.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2003-Amer-YahiaFSX,
 	author        = "<a href="person/Sihem_Amer-Yahia.html">Sihem Amer-Yahia</a> and <a href="person/Mary_F_Fernandez.html">Mary F. Fernández</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a> and <a href="person/Yu_Xu.html">Yu Xu</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2003/papers/S07P01.pdf">http://www.vldb.org/conf/2003/papers/S07P01.pdf</a>",
 </span>	pages         = "177--188",
 	publisher     = "{Morgan Kaufmann}",

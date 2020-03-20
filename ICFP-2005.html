@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP/2005/ICFP-2005.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP\2005\ICFP-2005.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Olivier Danvy, Benjamin C. Pierce<br/><em>Proceedings of the 10th International Conference on Functional Programming</em><br/>ICFP, 2005.</h2>
 <div class="rbox">
-<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icfp/2005">DBLP</a><br/>
+<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icfp/2005">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+10th+International+Conference+on+Functional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 10th International Conference on Functional Programming':'ICFP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICFP-2005,
 	address       = "Tallinn, Estonia",
-	booktitle     = "{ICFP}",
 	editor        = "<a href="person/Olivier_Danvy.html">Olivier Danvy</a> and <a href="person/Benjamin_C_Pierce.html">Benjamin C. Pierce</a>",
 <span id="isbn">	isbn          = "1-59593-064-7",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 10th International Conference on Functional Programming}",
+	title         = "{<span id="title">Proceedings of the 10th International Conference on Functional Programming</span>}",
 	year          = 2005,
 }</pre>
 </div>
@@ -66,8 +65,8 @@
 <dt><a href="ICFP-2005-LeijenL.html">ICFP-2005-LeijenL</a></dt><dd>Qualified types for MLF (<abbr title="Daan Leijen">DL</abbr>, <abbr title="Andres Löh">AL</abbr>), pp. 144–155.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="ICFP-2005-MakholmW.html">ICFP-2005-MakholmW</a> <span class="tag"><a href="tag/mixin.html" title="mixin">#mixin</a></span> <span class="tag"><a href="tag/morphism.html" title="morphism">#morphism</a></span> <span class="tag"><a href="tag/type%20inference.html" title="type inference">#type inference</a></span></dt><dd>Type inference, principal typings, and let-polymorphism for first-class mixin modules (<abbr title="Henning Makholm">HM</abbr>, <abbr title="J. B. Wells">JBW</abbr>), pp. 156–167.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="ICFP-2005-DiatchkiJL.html">ICFP-2005-DiatchkiJL</a> <span class="tag"><a href="tag/low%20level.html" title="low level">#low level</a></span></dt><dd>High-level views on low-level representations (<abbr title="Iavor S. Diatchki">ISD</abbr>, <abbr title="Mark P. Jones">MPJ</abbr>, <abbr title="Rebekah Leslie">RL</abbr>), pp. 168–179.</dd> <div class="pagevis" style="width:11px"></div>
-<dt><a href="ICFP-2005-Cheney.html">ICFP-2005-Cheney</a> <span class="tag"><a href="tag/functional.html" title="functional">#functional</a></span></dt><dd>Scrap your nameplate: (functional pearl) (<abbr title="James Cheney">JC</abbr>), pp. 180–191.</dd> <div class="pagevis" style="width:11px"></div>
-<dt><a href="ICFP-2005-KiselyovSFS.html">ICFP-2005-KiselyovSFS</a> <span class="tag"><a href="tag/backtracking.html" title="backtracking">#backtracking</a></span> <span class="tag"><a href="tag/functional.html" title="functional">#functional</a></span> <span class="tag"><a href="tag/monad.html" title="monad">#monad</a></span></dt><dd>Backtracking, interleaving, and terminating monad transformers: (functional pearl) (<abbr title="Oleg Kiselyov">OK</abbr>, <abbr title="Chung-chieh Shan">CcS</abbr>, <abbr title="Daniel P. Friedman">DPF</abbr>, <abbr title="Amr Sabry">AS</abbr>), pp. 192–203.</dd> <div class="pagevis" style="width:11px"></div>
+<dt><a href="ICFP-2005-Cheney.html">ICFP-2005-Cheney</a></dt><dd>Scrap your nameplate: (<abbr title="James Cheney">JC</abbr>), pp. 180–191.</dd> <div class="pagevis" style="width:11px"></div>
+<dt><a href="ICFP-2005-KiselyovSFS.html">ICFP-2005-KiselyovSFS</a> <span class="tag"><a href="tag/backtracking.html" title="backtracking">#backtracking</a></span> <span class="tag"><a href="tag/monad.html" title="monad">#monad</a></span></dt><dd>Backtracking, interleaving, and terminating monad transformers: (<abbr title="Oleg Kiselyov">OK</abbr>, <abbr title="Chung-chieh Shan">CcS</abbr>, <abbr title="Daniel P. Friedman">DPF</abbr>, <abbr title="Amr Sabry">AS</abbr>), pp. 192–203.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="ICFP-2005-LammelJ.html">ICFP-2005-LammelJ</a> <span class="tag"><a href="tag/scrap%20your%20boilerplate.html" title="scrap your boilerplate">#scrap your boilerplate</a></span></dt><dd>Scrap your boilerplate with class: extensible generic functions (<abbr title="Ralf Lämmel">RL</abbr>, <abbr title="Simon L. Peyton Jones">SLPJ</abbr>), pp. 204–215.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="ICFP-2005-PettyjohnCMKF.html">ICFP-2005-PettyjohnCMKF</a> <span class="tag"><a href="tag/continuation.html" title="continuation">#continuation</a></span> <span class="tag"><a href="tag/stack.html" title="stack">#stack</a></span></dt><dd>Continuations from generalized stack inspection (<abbr title="Greg Pettyjohn">GP</abbr>, <abbr title="John Clements">JC</abbr>, <abbr title="Joe Marshall">JM</abbr>, <abbr title="Shriram Krishnamurthi">SK</abbr>, <abbr title="Matthias Felleisen">MF</abbr>), pp. 216–227.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="ICFP-2005-RamosSV.html">ICFP-2005-RamosSV</a> <span class="tag"><a href="tag/partial%20evaluation.html" title="partial evaluation">#partial evaluation</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Fast narrowing-driven partial evaluation for inductively sequential programs (<abbr title="J. Guadalupe Ramos">JGR</abbr>, <abbr title="Josep Silva">JS</abbr>, <abbr title="Germán Vidal">GV</abbr>), pp. 228–239.</dd> <div class="pagevis" style="width:11px"></div>

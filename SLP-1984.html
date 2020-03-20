@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/1984/SLP-1984.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\1984\SLP-1984.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,19 +32,18 @@
 <div class="main">
 <h2><br/><em>Proceedings of the First International Symposium on Logic Programming</em><br/>SLP, 1984.</h2>
 <div class="rbox">
-<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/slp/1984">DBLP</a><br/>
+<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.org/rec/html/conf/slp/1984">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+First+International+Symposium+on+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the First International Symposium on Logic Programming':'SLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SLP-1984,
 	address       = "Atlantic City, New Jersey, USA",
-	booktitle     = "{SLP}",
 <span id="isbn">	isbn          = "0-8186-0522-7",
 </span>	publisher     = "{IEEE-CS}",
-	title         = "{Proceedings of the First International Symposium on Logic Programming}",
+	title         = "{<span id="title">Proceedings of the First International Symposium on Logic Programming</span>}",
 	year          = 1984,
 }</pre>
 </div>
@@ -73,7 +72,7 @@
 <dt><a href="SLP-1984-Warren84.html">SLP-1984-Warren84</a> <span class="tag"><a href="tag/flexibility.html" title="flexibility">#flexibility</a></span> <span class="tag"><a href="tag/memory%20management.html" title="memory management">#memory management</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span> <span class="tag"><a href="tag/prolog.html" title="prolog">#prolog</a></span></dt><dd>Efficient Prolog Memory Management for Flexible Control Strategies (<abbr title="David Scott Warren">DSW</abbr>), pp. 198–202.</dd> <div class="pagevis" style="width:4px"></div>
 <dt><a href="SLP-1984-WiseP84.html">SLP-1984-WiseP84</a> <span class="tag"><a href="tag/prolog.html" title="prolog">#prolog</a></span> <span class="tag"><a href="tag/word.html" title="word">#word</a></span></dt><dd>Indexing Prolog Clauses via Superimposed Code Words and Filed Encoded Words (<abbr title="Michael J. Wise">MJW</abbr>, <abbr title="David M. W. Powers">DMWP</abbr>), pp. 203–210.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SLP-1984-Stickel84.html">SLP-1984-Stickel84</a> <span class="tag"><a href="tag/prolog.html" title="prolog">#prolog</a></span> <span class="tag"><a href="tag/proving.html" title="proving">#proving</a></span> <span class="tag"><a href="tag/theorem%20proving.html" title="theorem proving">#theorem proving</a></span></dt><dd>A Prolog Technology Theorem Prover (<abbr title="Mark E. Stickel">MES</abbr>), pp. 211–217.</dd> <div class="pagevis" style="width:6px"></div>
-<dt><a href="SLP-1984-UeharaOKT84.html">SLP-1984-UeharaOKT84</a> <span class="tag"><a href="tag/bibliography.html" title="bibliography">#bibliography</a></span> <span class="tag"><a href="tag/bottom-up.html" title="bottom-up">#bottom-up</a></span> <span class="tag"><a href="tag/implementation.html" title="implementation">#implementation</a></span> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span> <span class="tag"><a href="tag/parsing.html" title="parsing">#parsing</a></span></dt><dd>A Bottom-Up Parser Based on Predicate Logic: A Survey of the Formalism and its Implementation Technique (<abbr title="Kuniaki Uehara">KU</abbr>, <abbr title="Ryo Ochitani">RO</abbr>, <abbr title="Osamu Kakusho">OK</abbr>, <abbr title="Jun'ichi Toyoda">JT</abbr>), pp. 220–227.</dd> <div class="pagevis" style="width:7px"></div>
+<dt><a href="SLP-1984-UeharaOKT84.html">SLP-1984-UeharaOKT84</a> <span class="tag"><a href="tag/bottom-up.html" title="bottom-up">#bottom-up</a></span> <span class="tag"><a href="tag/implementation.html" title="implementation">#implementation</a></span> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span> <span class="tag"><a href="tag/overview.html" title="overview">#overview</a></span> <span class="tag"><a href="tag/parsing.html" title="parsing">#parsing</a></span></dt><dd>A Bottom-Up Parser Based on Predicate Logic: A Survey of the Formalism and its Implementation Technique (<abbr title="Kuniaki Uehara">KU</abbr>, <abbr title="Ryo Ochitani">RO</abbr>, <abbr title="Osamu Kakusho">OK</abbr>, <abbr title="Jun'ichi Toyoda">JT</abbr>), pp. 220–227.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SLP-1984-PortoF84.html">SLP-1984-PortoF84</a> <span class="tag"><a href="tag/approach.html" title="approach">#approach</a></span> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/natural%20language.html" title="natural language">#natural language</a></span> <span class="tag"><a href="tag/semantics.html" title="semantics">#semantics</a></span></dt><dd>Natural Language Semantics: A Logic Programming Approach (<abbr title="António Porto">AP</abbr>, <abbr title="Miguel Filgueiras">MF</abbr>), pp. 228–232.</dd> <div class="pagevis" style="width:4px"></div>
 <dt><a href="SLP-1984-Abramson84.html">SLP-1984-Abramson84</a> <span class="tag"><a href="tag/definite%20clause%20grammar.html" title="definite clause grammar">#definite clause grammar</a></span></dt><dd>Definite Clause Translation Grammars (<abbr title="Harvey Abramson">HA</abbr>), pp. 233–240.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SLP-1984-Kahn84.html">SLP-1984-Kahn84</a> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>A Primitive for the Control of Logic Programs (<abbr title="Kenneth M. Kahn">KMK</abbr>), pp. 242–251.</dd> <div class="pagevis" style="width:9px"></div>

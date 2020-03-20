@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/VLDB-2004/VLDB-2004-AboulnagaHLLMPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\VLDB-2004\VLDB-2004-AboulnagaHLLMPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ashraf Aboulnaga, Peter J. Haas, Sam Lightstone, Guy M. Lohman, Volker Markl, Ivan Popivanov, Vijayshankar Raman<br/><em><a href="word/autom.html">Automated</a> <a href="word/statist.html">Statistics</a> <a href="word/collect.html">Collection</a> in DB2 <a href="word/udb.html">UDB</a></em><br/>VLDB, 2004.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AboulnagaHLLMPR04">DBLP</a><br/>
+<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AboulnagaHLLMPR04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automated+Statistics+Collection+in+DB2+UDB%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2004/IND5P3.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2004-AboulnagaHLLMPR,
 	author        = "<a href="person/Ashraf_Aboulnaga.html">Ashraf Aboulnaga</a> and <a href="person/Peter_J_Haas.html">Peter J. Haas</a> and <a href="person/Sam_Lightstone.html">Sam Lightstone</a> and <a href="person/Guy_M_Lohman.html">Guy M. Lohman</a> and <a href="person/Volker_Markl.html">Volker Markl</a> and <a href="person/Ivan_Popivanov.html">Ivan Popivanov</a> and <a href="person/Vijayshankar_Raman.html">Vijayshankar Raman</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2004/IND5P3.PDF">http://www.vldb.org/conf/2004/IND5P3.PDF</a>",
 </span>	pages         = "1146--1157",
 	publisher     = "{Morgan Kaufmann}",

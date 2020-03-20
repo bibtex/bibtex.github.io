@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2005/ICEIS-v5-2005/ICEIS-v5-2005-GarciaLMGGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2005\ICEIS-v5-2005\ICEIS-v5-2005-GarciaLMGGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>F. Javier García, María Dolores Lozano, Francisco Montero Simarro, José A. Gallud, Pascual González, Carlota Lorenzo<br/><em>A <a href="word/control.html">Controlled</a> <a href="word/experi.html">Experiment</a> for <a href="word/measur.html">Measuring</a> the <a href="word/usabl.html">Usability</a> of <a href="word/webapp.html">Webapps</a> <a href="word/use.html">Using</a> <a href="word/pattern.html">Patterns</a></em><br/>ICEIS, 2005.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-v5-2005.html">ICEIS v5 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/GarciaLMGGL05">DBLP</a><br/>
+<strong><a href="ICEIS-v5-2005.html">ICEIS v5 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/GarciaLMGGL05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Controlled+Experiment+for+Measuring+the+Usability+of+Webapps+Using+Patterns%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Enterprise Information Systems, Volume 5':'ICEIS v5');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-v5-2005-GarciaLMGGL,
 	author        = "<a href="person/F_Javier_Garcia.html">F. Javier García</a> and <a href="person/Maria_Dolores_Lozano.html">María Dolores Lozano</a> and <a href="person/Francisco_Montero_Simarro.html">Francisco Montero Simarro</a> and <a href="person/Jose_A_Gallud.html">José A. Gallud</a> and <a href="person/Pascual_Gonzalez.html">Pascual González</a> and <a href="person/Carlota_Lorenzo.html">Carlota Lorenzo</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Enterprise Information Systems, Volume 5</span>}",
 	pages         = "67--74",
 	title         = "{A Controlled Experiment for Measuring the Usability of Webapps Using Patterns}",
 	year          = 2005,

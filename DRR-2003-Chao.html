@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/DRR-2003/DRR-2003-Chao.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\DRR-2003\DRR-2003-Chao.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Hui Chao<br/><em><a href="word/graphic.html">Graphics</a> <a href="word/extract.html">extraction</a> in a <a href="word/pdf.html">PDF</a> <a href="word/document.html">document</a></em><br/>DRR, 2003.</h2>
 <div class="rbox">
-<strong><a href="DRR-2003.html">DRR 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/Chao03">DBLP</a><br/>
+<strong><a href="DRR-2003.html">DRR 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/Chao03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Graphics+extraction+in+a+PDF+document%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=22586">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2003-Chao,
 	author        = "<a href="person/Hui_Chao.html">Hui Chao</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=22586">http://www.imaging.org/store/epub.cfm?abstrid=22586</a>",
 </span>	pages         = "317--325",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Graphics extraction in a PDF document}",
-	volume        = 5010,
+	volume        = "5010",
 	year          = 2003,
 }</pre>
 </div>

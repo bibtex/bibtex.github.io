@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/VLDB-2007/VLDB-2007-AltinelBCKLMMNSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\VLDB-2007\VLDB-2007-AltinelBCKLMMNSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Mehmet Altinel, Paul Brown, Susan Cline, Rajesh Kartha, Eric Louie, Volker Markl, Louis Mau, Yip-Hing Ng, David E. Simmen, Ashutosh Singh<br/><em><a href="word/damia.html">DAMIA</a> — A <a href="word/data.html">Data</a> <a href="word/mashup.html">Mashup</a> <a href="word/fabric.html">Fabric</a> for <a href="word/intranet.html">Intranet</a> <a href="word/applic.html">Applications</a></em><br/>VLDB, 2007.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/AltinelBCKLMMNSS07">DBLP</a><br/>
+<strong><a href="VLDB-2007.html">VLDB 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/AltinelBCKLMMNSS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22DAMIA+—+A+Data+Mashup+Fabric+for+Intranet+Applications%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2007/papers/demo/p1370-altinel.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2007-AltinelBCKLMMNSS,
 	author        = "<a href="person/Mehmet_Altinel.html">Mehmet Altinel</a> and <a href="person/Paul_Brown.html">Paul Brown</a> and <a href="person/Susan_Cline.html">Susan Cline</a> and <a href="person/Rajesh_Kartha.html">Rajesh Kartha</a> and <a href="person/Eric_Louie.html">Eric Louie</a> and <a href="person/Volker_Markl.html">Volker Markl</a> and <a href="person/Louis_Mau.html">Louis Mau</a> and <a href="person/Yip-Hing_Ng.html">Yip-Hing Ng</a> and <a href="person/David_E_Simmen.html">David E. Simmen</a> and <a href="person/Ashutosh_Singh.html">Ashutosh Singh</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2007/papers/demo/p1370-altinel.pdf">http://www.vldb.org/conf/2007/papers/demo/p1370-altinel.pdf</a>",
 </span>	pages         = "1370--1373",
 	publisher     = "{ACM}",

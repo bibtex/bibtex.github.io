@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/2002/ISSTA-2002.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\2002\ISSTA-2002.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,14 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+International+Symposium+on+Software+Testing+and+Analysis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the International Symposium on Software Testing and Analysis':'ISSTA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ISSTA-2002,
 	address       = "Rome, Italy",
-	booktitle     = "{ISSTA}",
 	publisher     = "{ACM}",
-	title         = "{Proceedings of the International Symposium on Software Testing and Analysis}",
+	title         = "{<span id="title">Proceedings of the International Symposium on Software Testing and Analysis</span>}",
 	year          = 2002,
 }</pre>
 </div>
@@ -55,7 +54,7 @@
 <dt><a href="ISSTA-2002-Stoller.html">ISSTA-2002-Stoller</a> <span class="tag"><a href="tag/clustering.html" title="clustering">#clustering</a></span></dt><dd>Domain partitioning for open reactive systems (<abbr title="Scott D. Stoller">SDS</abbr>), pp. 44–54.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="ISSTA-2002-OstrandW.html">ISSTA-2002-OstrandW</a> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span> <span class="tag"><a href="tag/industrial.html" title="industrial">#industrial</a></span> <span class="tag"><a href="tag/scalability.html" title="scalability">#scalability</a></span></dt><dd>The distirubtion of faults in a large industrial software system (<abbr title="Thomas J. Ostrand">TJO</abbr>, <abbr title="Elaine J. Weyuker">EJW</abbr>), pp. 55–64.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="ISSTA-2002-OrsoLHL.html">ISSTA-2002-OrsoLHL</a> <span class="tag"><a href="tag/deployment.html" title="deployment">#deployment</a></span> <span class="tag"><a href="tag/evolution.html" title="evolution">#evolution</a></span></dt><dd>Gamma system: continuous evolution of software after deployment (<abbr title="Alessandro Orso">AO</abbr>, <abbr title="Donglin Liang">DL</abbr>, <abbr title="Mary Jean Harrold">MJH</abbr>, <abbr title="Richard J. Lipton">RJL</abbr>), pp. 65–69.</dd> <div class="pagevis" style="width:4px"></div>
-<dt><a href="ISSTA-2002-BriandLS.html">ISSTA-2002-BriandLS</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/contract.html" title="contract">#contract</a></span> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span> <span class="tag"><a href="tag/object-oriented.html" title="object-oriented">#object-oriented</a></span></dt><dd>Investigating the use of analysis contracts to support fault isolation in object oriented code (<abbr title="Lionel C. Briand">LCB</abbr>, <abbr title="Yvan Labiche">YL</abbr>, <abbr title="Hong Sun">HS</abbr>), pp. 70–80.</dd> <div class="pagevis" style="width:10px"></div>
+<dt><a href="ISSTA-2002-BriandLS.html">ISSTA-2002-BriandLS</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/contract.html" title="contract">#contract</a></span> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span> <span class="tag"><a href="tag/object-oriented.html" title="object-oriented">#object-oriented</a></span> <span class="tag"><a href="tag/using.html" title="using">#using</a></span></dt><dd>Investigating the use of analysis contracts to support fault isolation in object oriented code (<abbr title="Lionel C. Briand">LCB</abbr>, <abbr title="Yvan Labiche">YL</abbr>, <abbr title="Hong Sun">HS</abbr>), pp. 70–80.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="ISSTA-2002-HillerJS.html">ISSTA-2002-HillerJS</a> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span></dt><dd>PROPANE: an environment for examining the propagation of errors in software (<abbr title="Martin Hiller">MH</abbr>, <abbr title="Arshad Jhumka">AJ</abbr>, <abbr title="Neeraj Suri">NS</abbr>), pp. 81–85.</dd> <div class="pagevis" style="width:4px"></div>
 <dt><a href="ISSTA-2002-TikirH.html">ISSTA-2002-TikirH</a> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span> <span class="tag"><a href="tag/test%20coverage.html" title="test coverage">#test coverage</a></span> <span class="tag"><a href="tag/testing.html" title="testing">#testing</a></span></dt><dd>Efficient instrumentation for code coverage testing (<abbr title="Mustafa M. Tikir">MMT</abbr>, <abbr title="Jeffrey K. Hollingsworth">JKH</abbr>), pp. 86–96.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="ISSTA-2002-SrivastavaT.html">ISSTA-2002-SrivastavaT</a> <span class="tag"><a href="tag/development.html" title="development">#development</a></span> <span class="tag"><a href="tag/effectiveness.html" title="effectiveness">#effectiveness</a></span> <span class="tag"><a href="tag/testing.html" title="testing">#testing</a></span></dt><dd>Effectively prioritizing tests in development environment (<abbr title="Amitabh Srivastava">AS</abbr>, <abbr title="Jay Thiagarajan">JT</abbr>), pp. 97–106.</dd> <div class="pagevis" style="width:9px"></div>

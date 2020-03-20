@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1998/ISMM-1998/ISMM-1998-RothW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1998\ISMM-1998\ISMM-1998-RothW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>David J. Roth, David S. Wise<br/><em><a href="word/one.html">One</a>-<a href="word/bit.html">Bit</a> <a href="word/count.html">Counts</a> <a href="word/between.html">between</a> <a href="word/uniqu.html">Unique</a> and <a href="word/sticki.html">Sticky</a></em><br/>ISMM, 1998.</h2>
 <div class="rbox">
-<strong><a href="ISMM-1998.html">ISMM 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iwmm/RothW98">DBLP</a><br/>
+<strong><a href="ISMM-1998.html">ISMM 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iwmm/RothW98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22One-Bit+Counts+between+Unique+and+Sticky%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/286860.286866">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/286860.286866">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Symposium on Memory Management':'ISMM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ISMM-1998-RothW,
 	author        = "<a href="person/David_J_Roth.html">David J. Roth</a> and <a href="person/David_S_Wise.html">David S. Wise</a>",
-	booktitle     = "{ISMM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Symposium on Memory Management</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/286860.286866">10.1145/286860.286866</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/286860.286866">http://doi.acm.org/10.1145/286860.286866</a>",
 </span>	pages         = "49--56",

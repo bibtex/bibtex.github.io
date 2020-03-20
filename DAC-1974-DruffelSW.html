@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1974/DAC-1974/DAC-1974-DruffelSW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1974\DAC-1974\DAC-1974-DruffelSW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Larry E. Druffel, Douglas C. Schmidt, Robert A. Wagner<br/><em>A <a href="word/simpl.html">simple</a>, <a href="word/effici.html">efficient</a> <a href="word/design.html">design</a> <a href="word/autom.html">automation</a> <a href="word/processor.html">processor</a></em><br/>DAC, 1974.</h2>
 <div class="rbox">
-<strong><a href="DAC-1974.html">DAC 1974</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/DruffelSW74">DBLP</a><br/>
+<strong><a href="DAC-1974.html">DAC 1974</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/DruffelSW74">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+simple,+efficient+design+automation+processor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Design Automation Workshop':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1974-DruffelSW,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=811384">811384</a>",
 </span>	author        = "<a href="person/Larry_E_Druffel.html">Larry E. Druffel</a> and <a href="person/Douglas_C_Schmidt.html">Douglas C. Schmidt</a> and <a href="person/Robert_A_Wagner.html">Robert A. Wagner</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Design Automation Workshop</span>}",
 	pages         = "127--136",
 	publisher     = "{ACM}",
 	title         = "{A simple, efficient design automation processor}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/1993/IWPTS-1993.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\1993\IWPTS-1993.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Omar Rafiq<br/><em>Proceedings of the Sixth International Workshop on Protocol Test Systems</em><br/>IWPTS, 1993.</h2>
 <div class="rbox">
-<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pts/1993">DBLP</a><br/>
+<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pts/1993">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Sixth+International+Workshop+on+Protocol+Test+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Sixth International Workshop on Protocol Test Systems':'IWPTS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{IWPTS-1993,
 	address       = "Pau, France",
-	booktitle     = "{IWPTS}",
 	editor        = "<a href="person/Omar_Rafiq.html">Omar Rafiq</a>",
 <span id="isbn">	isbn          = "0-444-81697-6",
 </span>	publisher     = "{North-Holland}",
 	series        = "{IFIP Transactions}",
-	title         = "{Proceedings of the Sixth International Workshop on Protocol Test Systems}",
+	title         = "{<span id="title">Proceedings of the Sixth International Workshop on Protocol Test Systems</span>}",
 	volume        = "C-19",
 	year          = 1993,
 }</pre>

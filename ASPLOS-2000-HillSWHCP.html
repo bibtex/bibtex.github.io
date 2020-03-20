@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2000/ASPLOS-2000/ASPLOS-2000-HillSWHCP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2000\ASPLOS-2000\ASPLOS-2000-HillSWHCP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jason L. Hill, Robert Szewczyk, Alec Woo, Seth Hollar, David E. Culler, Kristofer S. J. Pister<br/><em><a href="word/system.html">System</a> <a href="word/architectur.html">Architecture</a> <a href="word/direct.html">Directions</a> for <a href="word/network.html">Networked</a> <a href="word/sensor.html">Sensors</a></em><br/>ASPLOS, 2000.</h2>
 <div class="rbox">
-<strong><a href="ASPLOS-2000.html">ASPLOS 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/asplos/HillSWHCP00">DBLP</a><br/>
+<strong><a href="ASPLOS-2000.html">ASPLOS 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/asplos/HillSWHCP00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22System+Architecture+Directions+for+Networked+Sensors%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/356989.356998">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/356989.356998">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Architectural Support for Programming Languages and Operating Systems':'ASPLOS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASPLOS-2000-HillSWHCP,
 	author        = "<a href="person/Jason_L_Hill.html">Jason L. Hill</a> and <a href="person/Robert_Szewczyk.html">Robert Szewczyk</a> and <a href="person/Alec_Woo.html">Alec Woo</a> and <a href="person/Seth_Hollar.html">Seth Hollar</a> and <a href="person/David_E_Culler.html">David E. Culler</a> and <a href="person/Kristofer_S_J_Pister.html">Kristofer S. J. Pister</a>",
-	booktitle     = "{ASPLOS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Architectural Support for Programming Languages and Operating Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/356989.356998">10.1145/356989.356998</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/356989.356998">http://doi.acm.org/10.1145/356989.356998</a>",
 </span>	pages         = "93--104",

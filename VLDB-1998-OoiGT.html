@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1998/VLDB-1998/VLDB-1998-OoiGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1998\VLDB-1998\VLDB-1998-OoiGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Beng Chin Ooi, Cheng Hian Goh, Kian-Lee Tan<br/><em><a href="word/fast.html">Fast</a> <a href="word/high.html">High</a>-<a href="word/dimension.html">Dimensional</a> <a href="word/data.html">Data</a> <a href="word/search.html">Search</a> in <a href="word/incomplet.html">Incomplete</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 1998.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1998.html">VLDB 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/OoiGT98">DBLP</a><br/>
+<strong><a href="VLDB-1998.html">VLDB 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/OoiGT98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Fast+High-Dimensional+Data+Search+in+Incomplete+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1998/p357.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1998-OoiGT,
 	author        = "<a href="person/Beng_Chin_Ooi.html">Beng Chin Ooi</a> and <a href="person/Cheng_Hian_Goh.html">Cheng Hian Goh</a> and <a href="person/Kian-Lee_Tan.html">Kian-Lee Tan</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1998/p357.pdf">http://www.vldb.org/conf/1998/p357.pdf</a>",
 </span>	pages         = "357--367",
 	publisher     = "{Morgan Kaufmann}",

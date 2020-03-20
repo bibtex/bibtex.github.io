@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-DISI-2007/ICEIS-DISI-2007-OHaganSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-DISI-2007\ICEIS-DISI-2007-OHaganSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Tony O'Hagan, Shazia W. Sadiq, Wasim Sadiq<br/><em><a href="word/evi.html">EVIE</a> — An <a href="word/event.html">event</a> <a href="word/broker.html">brokering</a> <a href="word/languag.html">language</a> for the <a href="word/composit.html">composition</a> of <a href="word/collabor.html">collaborative</a> <a href="word/busi.html">business</a> <a href="word/process.html">processes</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/OHaganSS07">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2007.html">ICEIS DISI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/OHaganSS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22EVIE+—+An+event+brokering+language+for+the+composition+of+collaborative+business+processes%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2007-OHaganSS,
 	author        = "<a href="person/Tony_OHagan.html">Tony O'Hagan</a> and <a href="person/Shazia_W_Sadiq.html">Shazia W. Sadiq</a> and <a href="person/Wasim_Sadiq.html">Wasim Sadiq</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "372--377",
 	title         = "{EVIE — An event brokering language for the composition of collaborative business processes}",
 	year          = 2007,

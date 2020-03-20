@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1997/EDTC-1997/EDTC-1997-VerhaeghLAM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1997\EDTC-1997\EDTC-1997-VerhaeghLAM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Wim F. J. Verhaegh, Paul E. R. Lippens, Emile H. L. Aarts, Jef L. van Meerbergen<br/><em><a href="word/multidimension.html">Multidimensional</a> <a href="word/period.html">periodic</a> <a href="word/schedul.html">scheduling</a>: a <a href="word/solut.html">solution</a> <a href="word/approach.html">approach</a></em><br/>DATE, 1997.</h2>
 <div class="rbox">
-<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/VerhaeghLAM97">DBLP</a><br/>
+<strong><a href="EDTC-1997.html">EDTC 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/VerhaeghLAM97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Multidimensional+periodic+scheduling:+a+solution+approach%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/EDTC.1997.582402">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Design and Test Conference':'ED&TC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDTC-1997-VerhaeghLAM,
 	author        = "<a href="person/Wim_F_J_Verhaegh.html">Wim F. J. Verhaegh</a> and <a href="person/Paul_E_R_Lippens.html">Paul E. R. Lippens</a> and <a href="person/Emile_H_L_Aarts.html">Emile H. L. Aarts</a> and <a href="person/Jef_L_van_Meerbergen.html">Jef L. van Meerbergen</a>",
-	booktitle     = "{ED&TC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second European Design and Test Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDTC.1997.582402">10.1109/EDTC.1997.582402</a>",
 </span>	pages         = "468--474",
 	publisher     = "{IEEE}",

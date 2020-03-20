@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1982/SIGMOD-1982/SIGMOD-1982-Berg.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1982\SIGMOD-1982\SIGMOD-1982-Berg.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>John L. Berg<br/><em><a href="word/databas.html">Database</a> <a href="word/manag.html">Management</a> <a href="word/system.html">Systems</a> in the 1990</em><br/>SIGMOD, 1982.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1982.html">SIGMOD 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/Berg82">DBLP</a><br/>
+<strong><a href="SIGMOD-1982.html">SIGMOD 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/Berg82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Database+Management+Systems+in+the+1990%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/582353.582393">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/582353.582393">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1982-Berg,
 	author        = "<a href="person/John_L_Berg.html">John L. Berg</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD82/P214.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/582353.582393">10.1145/582353.582393</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/582353.582393">http://doi.acm.org/10.1145/582353.582393</a>",

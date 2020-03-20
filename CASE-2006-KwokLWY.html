@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2006/CASE-2006/CASE-2006-KwokLWY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\CASE-2006\CASE-2006-KwokLWY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ka-Wai Kwok, Ka Wah Lo, Sheung Man Wong, Yeung Yam<br/><em><a href="word/evolutionari.html">Evolutionary</a> <a href="word/replic.html">Replication</a> of <a href="word/calligraph.html">Calligraphic</a> <a href="word/charact.html">Characters</a> By A <a href="word/robot.html">Robot</a> <a href="word/draw.html">Drawing</a> <a href="word/platform.html">Platform</a> <a href="word/use.html">Using</a> <a href="word/experiment.html">Experimentally</a> <a href="word/acquir.html">Acquired</a> <a href="word/brush.html">Brush</a> <a href="word/footprint.html">Footprint</a></em><br/>CASE, 2006.</h2>
 <div class="rbox">
-<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/KwokLWY06">DBLP</a><br/>
+<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/KwokLWY06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Evolutionary+Replication+of+Calligraphic+Characters+By+A+Robot+Drawing+Platform+Using+Experimentally+Acquired+Brush+Footprint%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2006.326926">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2006-KwokLWY,
 	author        = "<a href="person/Ka-Wai_Kwok.html">Ka-Wai Kwok</a> and <a href="person/Ka_Wah_Lo.html">Ka Wah Lo</a> and <a href="person/Sheung_Man_Wong.html">Sheung Man Wong</a> and <a href="person/Yeung_Yam.html">Yeung Yam</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2006.326926">10.1109/COASE.2006.326926</a>",
 </span>	pages         = "466--471",
 	publisher     = "{IEEE}",

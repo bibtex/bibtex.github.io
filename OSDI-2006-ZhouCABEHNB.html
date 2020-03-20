@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/OSDI-2006/OSDI-2006-ZhouCABEHNB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\OSDI-2006\OSDI-2006-ZhouCABEHNB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Feng Zhou, Jeremy Condit, Zachary R. Anderson, Ilya Bagrak, Robert Ennals, Matthew Harren, George C. Necula, Eric A. Brewer<br/><em><a href="word/safe.html">Safe</a><a href="word/drive.html">Drive</a>: <a href="word/safe.html">Safe</a> and <a href="word/recover.html">Recoverable</a> <a href="word/extens.html">Extensions</a> <a href="word/use.html">Using</a> <a href="word/languag.html">Language</a>-<a href="word/base.html">Based</a> <a href="word/techniqu.html">Techniques</a></em><br/>OSDI, 2006.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/ZhouCABEHNB06">DBLP</a><br/>
+<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/ZhouCABEHNB06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SafeDrive:+Safe+and+Recoverable+Extensions+Using+Language-Based+Techniques%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi06/tech/zhou.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2006-ZhouCABEHNB,
 	author        = "<a href="person/Feng_Zhou.html">Feng Zhou</a> and <a href="person/Jeremy_Condit.html">Jeremy Condit</a> and <a href="person/Zachary_R_Anderson.html">Zachary R. Anderson</a> and <a href="person/Ilya_Bagrak.html">Ilya Bagrak</a> and <a href="person/Robert_Ennals.html">Robert Ennals</a> and <a href="person/Matthew_Harren.html">Matthew Harren</a> and <a href="person/George_C_Necula.html">George C. Necula</a> and <a href="person/Eric_A_Brewer.html">Eric A. Brewer</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi06/tech/zhou.html">http://www.usenix.org/events/osdi06/tech/zhou.html</a>",
 </span>	pages         = "45--60",
 	publisher     = "{USENIX Association}",

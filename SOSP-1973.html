@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1973/SOSP-1973.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1973\SOSP-1973.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,23 +32,22 @@
 <div class="main">
 <h2>Herbert Schorr, Alan J. Perlis, Peter Weiner, W. Donald Frazer<br/><em>Proceedings of the Fourth Symposium on Operating System Principles</em><br/>SOSP, 1973.</h2>
 <div class="rbox">
-<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sosp/1973">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sosp/1973">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+Symposium+on+Operating+System+Principles%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/800009">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/800009">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth Symposium on Operating System Principles':'SOSP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{SOSP-1973,
 	address       = "Yorktown Heights, New York, USA",
-	booktitle     = "{SOSP}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800009">10.1145/800009</a>",
 </span>	editor        = "Herbert Schorr and <a href="person/Alan_J_Perlis.html">Alan J. Perlis</a> and <a href="person/Peter_Weiner.html">Peter Weiner</a> and W. Donald Frazer",
 <span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800009">http://doi.acm.org/10.1145/800009</a>",
-</span>	note          = "Operating System Review 7(4)",
-	publisher     = "{ACM}",
-	title         = "{Proceedings of the Fourth Symposium on Operating System Principles}",
+</span>	publisher     = "{ACM}",
+	title         = "{<span id="title">Proceedings of the Fourth Symposium on Operating System Principles</span>}",
+	volume        = "Operating System Review 7(4)",
 	year          = 1973,
 }</pre>
 </div>
@@ -56,7 +55,7 @@
 <h3>Contents (21 items)</h3><dl class="toc"><div class="rbox"><span class="tag">5 ×<a href="tag/scheduling.html">#scheduling</a></span><br/><span class="tag">4 ×<a href="tag/multi.html">#multi</a></span><br/><span class="tag">3 ×<a href="tag/on the.html">#on the</a></span><br/><span class="tag">2 ×<a href="tag/architecture.html">#architecture</a></span><br/><span class="tag">2 ×<a href="tag/generative.html">#generative</a></span><br/><span class="tag">2 ×<a href="tag/memory management.html">#memory management</a></span><br/></div><dt><a href="SOSP-1973-Sorenson.html">SOSP-1973-Sorenson</a> <span class="tag"><a href="tag/communication.html" title="communication">#communication</a></span> <span class="tag"><a href="tag/realtime.html" title="realtime">#realtime</a></span></dt><dd>Interprocess Communication in Real-Time Systems (<abbr title="Paul G. Sorenson">PGS</abbr>), pp. 1–7.</dd> <div class="pagevis" style="width:6px"></div>
 <dt><a href="SOSP-1973-SpierHC.html">SOSP-1973-SpierHC</a> <span class="tag"><a href="tag/architecture.html" title="architecture">#architecture</a></span> <span class="tag"><a href="tag/implementation.html" title="implementation">#implementation</a></span> <span class="tag"><a href="tag/kernel.html" title="kernel">#kernel</a></span></dt><dd>An Experimental Implementation on the Kernel/Domain Architecture (<abbr title="Michael J. Spier">MJS</abbr>, <abbr title="Thomas N. Hastings">TNH</abbr>, <abbr title="David N. Cutler">DNC</abbr>), pp. 8–21.</dd> <div class="pagevis" style="width:13px"></div>
 <dt><a href="SOSP-1973-Stephenson.html">SOSP-1973-Stephenson</a> <span class="tag"><a href="tag/on%20the.html" title="on the">#on the</a></span></dt><dd>On the Structure and Control of Commands (<abbr title="C. J. Stephenson">CJS</abbr>), pp. 22–26.</dd> <div class="pagevis" style="width:4px"></div>
-<dt><a href="SOSP-1973-RitchieT.html">SOSP-1973-RitchieT</a></dt><dd>The UNIX Time-Sharing System (Abstract) (<abbr title="Dennis Ritchie">DR</abbr>, <abbr title="Ken Thompson">KT</abbr>), p. 27.</dd> <div class="pagevis" style="width:0px"></div>
+<dt><a href="SOSP-1973-RitchieT.html">SOSP-1973-RitchieT</a></dt><dd>The UNIX Time-Sharing System (<abbr title="Dennis Ritchie">DR</abbr>, <abbr title="Ken Thompson">KT</abbr>), p. 27.</dd> <div class="pagevis" style="width:0px"></div>
 <dt><a href="SOSP-1973-DayH.html">SOSP-1973-DayH</a> <span class="tag"><a href="tag/interactive.html" title="interactive">#interactive</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span> <span class="tag"><a href="tag/operating%20system.html" title="operating system">#operating system</a></span></dt><dd>ARGOS: An Operating System for a Computer Utility Supporting Interactive Instrument Control (<abbr title="Paul Day">PD</abbr>, <abbr title="John Hines">JH</abbr>), pp. 28–37.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="SOSP-1973-Walther.html">SOSP-1973-Walther</a> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span></dt><dd>Multiprocessor Self Diagnosis, Surgery, and Recovery in Air Traffic Control (<abbr title="W. Walther">WW</abbr>), pp. 38–44.</dd> <div class="pagevis" style="width:6px"></div>
 <dt><a href="SOSP-1973-Svobodova.html">SOSP-1973-Svobodova</a> <span class="tag"><a href="tag/hybrid.html" title="hybrid">#hybrid</a></span> <span class="tag"><a href="tag/metric.html" title="metric">#metric</a></span> <span class="tag"><a href="tag/monitoring.html" title="monitoring">#monitoring</a></span> <span class="tag"><a href="tag/online.html" title="online">#online</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span></dt><dd>Online System Performance Measurements with Software and Hybrid Monitors (<abbr title="Liba Svobodova">LS</abbr>), pp. 45–53.</dd> <div class="pagevis" style="width:8px"></div>
@@ -67,7 +66,7 @@
 <dt><a href="SOSP-1973-ArvindKS.html">SOSP-1973-ArvindKS</a> <span class="tag"><a href="tag/generative.html" title="generative">#generative</a></span> <span class="tag"><a href="tag/on%20the.html" title="on the">#on the</a></span> <span class="tag"><a href="tag/process.html" title="process">#process</a></span> <span class="tag"><a href="tag/string.html" title="string">#string</a></span></dt><dd>On Reference String Generation Processes (<abbr title="Arvind">A</abbr>, <abbr title="Richard Y. Kain">RYK</abbr>, <abbr title="E. Sadeh">ES</abbr>), pp. 80–87.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SOSP-1973-Ellis.html">SOSP-1973-Ellis</a> <span class="tag"><a href="tag/on%20the.html" title="on the">#on the</a></span></dt><dd>On the Propability of Deadline in Computer Systems (<abbr title="Clarence A. Ellis">CAE</abbr>), pp. 88–95.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SOSP-1973-Ullman.html">SOSP-1973-Ullman</a> <span class="tag"><a href="tag/polynomial.html" title="polynomial">#polynomial</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>Polynomial Complete Scheduling Problems (<abbr title="Jeffrey D. Ullman">JDU</abbr>), pp. 96–101.</dd> <div class="pagevis" style="width:5px"></div>
-<dt><a href="SOSP-1973-BrunoCS.html">SOSP-1973-BrunoCS</a> <span class="tag"><a href="tag/independence.html" title="independence">#independence</a></span> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>Scheduling Independent Tasks to Reduce Mean Finishing Time (Extended Abstract) (<abbr title="John L. Bruno">JLB</abbr>, <abbr title="Edward G. Coffman Jr.">EGCJ</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 102–103.</dd> <div class="pagevis" style="width:1px"></div>
+<dt><a href="SOSP-1973-BrunoCS.html">SOSP-1973-BrunoCS</a> <span class="tag"><a href="tag/independence.html" title="independence">#independence</a></span> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>Scheduling Independent Tasks to Reduce Mean Finishing Time (<abbr title="John L. Bruno">JLB</abbr>, <abbr title="Edward G. Coffman Jr.">EGCJ</abbr>, <abbr title="Ravi Sethi">RS</abbr>), pp. 102–103.</dd> <div class="pagevis" style="width:1px"></div>
 <dt><a href="SOSP-1973-GareyG.html">SOSP-1973-GareyG</a> <span class="tag"><a href="tag/bound.html" title="bound">#bound</a></span> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>Bounds on Scheduling with Limited Resources (<abbr title="M. R. Garey">MRG</abbr>, <abbr title="Ronald L. Graham">RLG</abbr>), pp. 104–111.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="SOSP-1973-KrauseSS.html">SOSP-1973-KrauseSS</a> <span class="tag"><a href="tag/algorithm.html" title="algorithm">#algorithm</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>A Task Scheduling Algorithm for a Multiprogramming Computer System (<abbr title="K. L. Krause">KLK</abbr>, <abbr title="V. Y. Shen">VYS</abbr>, <abbr title="Herbert D. Schwetman">HDS</abbr>), pp. 112–118.</dd> <div class="pagevis" style="width:6px"></div>
 <dt><a href="SOSP-1973-Saltzer.html">SOSP-1973-Saltzer</a> <span class="tag"><a href="tag/information%20management.html" title="information management">#information management</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span></dt><dd>Protection and the Control of Information Sharing in MULTICS (<abbr title="Jerome H. Saltzer">JHS</abbr>), p. 119.</dd> <div class="pagevis" style="width:0px"></div>

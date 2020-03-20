@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-ISAS-2009/ICEIS-ISAS-2009-OussenaB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-ISAS-2009\ICEIS-ISAS-2009-OussenaB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Samia Oussena, Balbir S. Barn<br/><em><a href="word/layer.html">Layered</a> <a href="word/process.html">Process</a> <a href="word/model.html">Models</a> — <a href="word/analysi.html">Analysis</a> and <a href="word/implement.html">Implementation</a> (<a href="word/use.html">using</a> <a href="word/mda.html">MDA</a> <a href="word/principl.html">Principles</a>)</em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/OussenaB09">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2009.html">ICEIS ISAS 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/OussenaB09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Layered+Process+Models+—+Analysis+and+Implementation+(using+MDA+Principles)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2009-OussenaB,
 	author        = "<a href="person/Samia_Oussena.html">Samia Oussena</a> and <a href="person/Balbir_S_Barn.html">Balbir S. Barn</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 3: ISAS</span>}",
 	pages         = "168--175",
 	title         = "{Layered Process Models — Analysis and Implementation (using MDA Principles)}",
 	year          = 2009,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2013/DATE-2013/DATE-2013-JaninBCDEGLT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2013\DATE-2013\DATE-2013-JaninBCDEGLT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Yves Janin, Valérie Bertin, Hervé Chauvet, Thomas Deruyter, Christophe Eichwald, Olivier-André Giraud, Vincent Lorquet, Thomas Thery<br/><em><a href="word/design.html">Designing</a> <a href="word/tight.html">tightly</a>-<a href="word/coupl.html">coupled</a> <a href="word/extens.html">extension</a> <a href="word/unit.html">units</a> for the <a href="word/stxp.html">STxP</a>70 <a href="word/processor.html">processor</a></em><br/>DATE, 2013.</h2>
 <div class="rbox">
-<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/JaninBCDEGLT13">DBLP</a><br/>
+<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/JaninBCDEGLT13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Designing+tightly-coupled+extension+units+for+the+STxP70+processor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2013-JaninBCDEGLT,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2485541">2485541</a>",
 </span>	author        = "<a href="person/Yves_Janin.html">Yves Janin</a> and <a href="person/Valerie_Bertin.html">Valérie Bertin</a> and <a href="person/Herve_Chauvet.html">Hervé Chauvet</a> and <a href="person/Thomas_Deruyter.html">Thomas Deruyter</a> and <a href="person/Christophe_Eichwald.html">Christophe Eichwald</a> and <a href="person/Olivier-Andre_Giraud.html">Olivier-André Giraud</a> and <a href="person/Vincent_Lorquet.html">Vincent Lorquet</a> and <a href="person/Thomas_Thery.html">Thomas Thery</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1052--1053",
 	publisher     = "{EDA Consortium San Jose, CA, USA / ACM DL}",
 	title         = "{Designing tightly-coupled extension units for the STxP70 processor}",

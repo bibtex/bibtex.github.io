@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2014/OSDI-2014/OSDI-2014-YuanLZRZZJS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\OSDI-2014\OSDI-2014-YuanLZRZZJS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ding Yuan, Yu Luo, Xin Zhuang, Guilherme Renna Rodrigues, Xu Zhao, Yongle Zhang, Pranay Jain, Michael Stumm<br/><em><a href="word/simpl.html">Simple</a> <a href="word/test.html">Testing</a> <a href="word/can.html">Can</a> <a href="word/prevent.html">Prevent</a> <a href="word/most.html">Most</a> <a href="word/critic.html">Critical</a> <a href="word/failur.html">Failures</a>: An <a href="word/analysi.html">Analysis</a> of <a href="word/product.html">Production</a> <a href="word/failur.html">Failures</a> in <a href="word/distribut.html">Distributed</a> <a href="word/data.html">Data</a>-<a href="word/intens.html">Intensive</a> <a href="word/system.html">Systems</a></em><br/>OSDI, 2014.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/YuanLZRZZJS14">DBLP</a><br/>
+<strong><a href="OSDI-2014.html">OSDI 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/YuanLZRZZJS14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Simple+Testing+Can+Prevent+Most+Critical+Failures:+An+Analysis+of+Production+Failures+in+Distributed+Data-Intensive+Systems%22">Scholar</a><hr/><a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2014-YuanLZRZZJS,
 	author        = "<a href="person/Ding_Yuan.html">Ding Yuan</a> and <a href="person/Yu_Luo.html">Yu Luo</a> and <a href="person/Xin_Zhuang.html">Xin Zhuang</a> and <a href="person/Guilherme_Renna_Rodrigues.html">Guilherme Renna Rodrigues</a> and <a href="person/Xu_Zhao.html">Xu Zhao</a> and <a href="person/Yongle_Zhang.html">Yongle Zhang</a> and <a href="person/Pranay_Jain.html">Pranay Jain</a> and <a href="person/Michael_Stumm.html">Michael Stumm</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan">https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan</a>",
 </span>	pages         = "249--265",
 	publisher     = "{USENIX Association}",

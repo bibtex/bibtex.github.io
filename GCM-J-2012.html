@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH/2012/GCM-J-2012.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/GRAPH\2012\GCM-J-2012.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,14 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+International+Workshop+on+Graph+Computation+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth International Workshop on Graph Computation Models':'GCM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GCM-J-2012,
-	booktitle     = "{GCM}",
 	editor        = "<a href="person/Rachid_Echahed.html">Rachid Echahed</a> and <a href="person/Annegret_Habel.html">Annegret Habel</a> and <a href="person/Mohamed_Mosbah.html">Mohamed Mosbah</a>",
 	journal       = "{ECEASST}",
-	title         = "{Proceedings of the Fourth International Workshop on Graph Computation Models}",
+	title         = "{<span id="title">Proceedings of the Fourth International Workshop on Graph Computation Models</span>}",
 	volume        = 61,
 	year          = 2013,
 }</pre>
@@ -53,7 +52,7 @@
 <dt><a href="GCM-J-2012-FaithfullPH.html">GCM-J-2012-FaithfullPH</a> <span class="tag"><a href="tag/development.html" title="development">#development</a></span> <span class="tag"><a href="tag/graph.html" title="graph">#graph</a></span></dt><dd>Big Red: A Development Environment for Bigraphs (<abbr title="Alexander John Faithfull">AJF</abbr>, <abbr title="Gian Perrone">GP</abbr>, <abbr title="Thomas T. Hildebrandt">TTH</abbr>).</dd> 
 <dt><a href="GCM-J-2012-Flick.html">GCM-J-2012-Flick</a> <span class="tag"><a href="tag/graph%20grammar.html" title="graph grammar">#graph grammar</a></span></dt><dd>Derivation Languages of Graph Grammars (<abbr title="Nils Erik Flick">NEF</abbr>).</dd> 
 <dt><a href="GCM-J-2012-Hoffmann.html">GCM-J-2012-Hoffmann</a> <span class="tag"><a href="tag/graph%20grammar.html" title="graph grammar">#graph grammar</a></span> <span class="tag"><a href="tag/refinement.html" title="refinement">#refinement</a></span></dt><dd>Graph Rewriting with Contextual Refinement (<abbr title="Berthold Hoffmann">BH</abbr>).</dd> 
-<dt><a href="GCM-J-2012-KniemeyerK.html">GCM-J-2012-KniemeyerK</a> <span class="tag"><a href="tag/graph%20transformation.html" title="graph transformation">#graph transformation</a></span> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span></dt><dd>XL4C4D — Adding the Graph Transformation Language XL to CINEMA 4D (<abbr title="Ole Kniemeyer">OK</abbr>, <abbr title="Winfried Kurth">WK</abbr>).</dd> 
+<dt><a href="GCM-J-2012-KniemeyerK.html">GCM-J-2012-KniemeyerK</a> <span class="tag"><a href="tag/graph%20transformation.html" title="graph transformation">#graph transformation</a></span> <span class="tag"><a href="tag/model%20transformation.html" title="model transformation">#model transformation</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span> <span class="tag"><a href="tag/transformation%20language.html" title="transformation language">#transformation language</a></span></dt><dd>XL4C4D — Adding the Graph Transformation Language XL to CINEMA 4D (<abbr title="Ole Kniemeyer">OK</abbr>, <abbr title="Winfried Kurth">WK</abbr>).</dd> 
 <dt><a href="GCM-J-2012-MantzTL.html">GCM-J-2012-MantzTL</a> <span class="tag"><a href="tag/co-evolution.html" title="co-evolution">#co-evolution</a></span> <span class="tag"><a href="tag/graph.html" title="graph">#graph</a></span></dt><dd>Co-Transformation of Type and Instance Graphs Supporting Merging of Types and Retyping (<abbr title="Florian Mantz">FM</abbr>, <abbr title="Gabriele Täntzer">GT</abbr>, <abbr title="Yngve Lamo">YL</abbr>).</dd> 
 <dt><a href="GCM-J-2012-PoskittP.html">GCM-J-2012-PoskittP</a> <span class="tag"><a href="tag/correctness.html" title="correctness">#correctness</a></span> <span class="tag"><a href="tag/graph.html" title="graph">#graph</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span> <span class="tag"><a href="tag/verification.html" title="verification">#verification</a></span></dt><dd>Verifying Total Correctness of Graph Programs (<abbr title="Christopher M. Poskitt">CMP</abbr>, <abbr title="Detlef Plump">DP</abbr>).</dd> 
 <dt><a href="GCM-J-2012-Radke.html">GCM-J-2012-Radke</a> <span class="tag"><a href="tag/graph.html" title="graph">#graph</a></span> <span class="tag"><a href="tag/higher-order.html" title="higher-order">#higher-order</a></span> <span class="tag"><a href="tag/monad.html" title="monad">#monad</a></span></dt><dd>HR* Graph Conditions Between Counting Monadic Second-Order and Second-Order Graph Formulas (<abbr title="Hendrik Radke">HR</abbr>).</dd> 

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1997/VLDB-1997/VLDB-1997-WhiteheadSM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1997\VLDB-1997\VLDB-1997-WhiteheadSM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Steven D. Whitehead, Himanshu Sinha, Michael Murphy<br/><em><a href="word/gte.html">GTE</a> <a href="word/super.html">Super</a><a href="word/page.html">Pages</a>: <a href="word/use.html">Using</a> IR <a href="word/techniqu.html">Techniques</a> for <a href="word/search.html">Searching</a> <a href="word/complex.html">Complex</a> <a href="word/object.html">Objects</a></em><br/>VLDB, 1997.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/WhiteheadSM97">DBLP</a><br/>
+<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/WhiteheadSM97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22GTE+SuperPages:+Using+IR+Techniques+for+Searching+Complex+Objects%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1997/P553.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1997-WhiteheadSM,
 	author        = "<a href="person/Steven_D_Whitehead.html">Steven D. Whitehead</a> and <a href="person/Himanshu_Sinha.html">Himanshu Sinha</a> and <a href="person/Michael_Murphy.html">Michael Murphy</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1997/P553.PDF">http://www.vldb.org/conf/1997/P553.PDF</a>",
 </span>	pages         = "553--557",
 	publisher     = "{Morgan Kaufmann}",

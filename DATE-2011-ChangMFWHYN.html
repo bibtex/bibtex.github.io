@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-ChangMFWHYN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-ChangMFWHYN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Xiaotao Chang, Yike Ma, Hubertus Franke, Kun Wang, Rui Hou, Hao Yu, Terry Nelms<br/><em><a href="word/optim.html">Optimization</a> of <a href="word/state.html">stateful</a> <a href="word/hardwar.html">hardware</a> <a href="word/acceler.html">acceleration</a> in <a href="word/hybrid.html">hybrid</a> <a href="word/architectur.html">architectures</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ChangMFWHYN11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ChangMFWHYN11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Optimization+of+stateful+hardware+acceleration+in+hybrid+architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-ChangMFWHYN,
 	author        = "<a href="person/Xiaotao_Chang.html">Xiaotao Chang</a> and <a href="person/Yike_Ma.html">Yike Ma</a> and <a href="person/Hubertus_Franke.html">Hubertus Franke</a> and <a href="person/Kun_Wang.html">Kun Wang</a> and <a href="person/Rui_Hou.html">Rui Hou</a> and <a href="person/Hao_Yu.html">Hao Yu</a> and <a href="person/Terry_Nelms.html">Terry Nelms</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "567--570",
 	publisher     = "{IEEE}",
 	title         = "{Optimization of stateful hardware acceleration in hybrid architectures}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2002/ICML-2002/ICML-2002-Ryan.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2002\ICML-2002\ICML-2002-Ryan.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Malcolm R. K. Ryan<br/><em><a href="word/use.html">Using</a> <a href="word/abstract.html">Abstract</a> <a href="word/model.html">Models</a> of <a href="word/behaviour.html">Behaviours</a> to <a href="word/automat.html">Automatically</a> <a href="word/generat.html">Generate</a> <a href="word/reinforc.html">Reinforcement</a> <a href="word/learn.html">Learning</a> <a href="word/hierarchi.html">Hierarchies</a></em><br/>ICML, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICML-2002.html">ICML 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icml/Ryan02">DBLP</a><br/>
+<strong><a href="ICML-2002.html">ICML 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icml/Ryan02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+Abstract+Models+of+Behaviours+to+Automatically+Generate+Reinforcement+Learning+Hierarchies%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2002-Ryan,
 	author        = "<a href="person/Malcolm_R_K_Ryan.html">Malcolm R. K. Ryan</a>",
-	booktitle     = "{Proceedings of the 19th International Conference on Machine Learning}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Machine Learning</span>}",
 	pages         = "522--529",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Using Abstract Models of Behaviours to Automatically Generate Reinforcement Learning Hierarchies}",

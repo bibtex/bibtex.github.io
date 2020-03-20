@@ -3,21 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="keywords" content="software linguistics, software language engineering, book of knowledge, glossary, academic publications, scientific research, open knowledge, open science"/>
-	<title>BibSLEIGH — A Language Facility for Designing Interactive Database-Intensive Applications (Abstract)</title>
+	<title>BibSLEIGH — A Language Facility for Designing Interactive Database-Intensive Applications</title>
 	<link href="stuff/bib.css" rel="stylesheet" type="text/css"/>
 	<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<script src="stuff/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/sigmod.png" alt="A Language Facility for Designing Interactive Database-Intensive Applications (Abstract)" title="A Language Facility for Designing Interactive Database-Intensive Applications (Abstract)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/sigmod.png" alt="A Language Facility for Designing Interactive Database-Intensive Applications" title="A Language Facility for Designing Interactive Database-Intensive Applications" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1978/SIGMOD-1978/SIGMOD-1978-MylopoulosBW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1978\SIGMOD-1978\SIGMOD-1978-MylopoulosBW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -30,25 +30,25 @@
 
 </div>
 <div class="main">
-<h2>John Mylopoulos, Philip A. Bernstein, Harry K. T. Wong<br/><em>A <a href="word/languag.html">Language</a> <a href="word/facil.html">Facility</a> for <a href="word/design.html">Designing</a> <a href="word/interact.html">Interactive</a> <a href="word/databas.html">Database</a>-<a href="word/intens.html">Intensive</a> <a href="word/applic.html">Applications</a> (<a href="word/abstract.html">Abstract</a>)</em><br/>SIGMOD, 1978.</h2>
+<h2>John Mylopoulos, Philip A. Bernstein, Harry K. T. Wong<br/><em>A <a href="word/languag.html">Language</a> <a href="word/facil.html">Facility</a> for <a href="word/design.html">Designing</a> <a href="word/interact.html">Interactive</a> <a href="word/databas.html">Database</a>-<a href="word/intens.html">Intensive</a> <a href="word/applic.html">Applications</a></em><br/>SIGMOD, 1978.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1978.html">SIGMOD 1978</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/MylopoulosBW78">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Language+Facility+for+Designing+Interactive+Database-Intensive+Applications+(Abstract)%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/509252.509262">ACM DL</a><br/>
+<strong><a href="SIGMOD-1978.html">SIGMOD 1978</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/MylopoulosBW78">DBLP</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22A+Language+Facility+for+Designing+Interactive+Database-Intensive+Applications%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/509252.509262">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/509252.509262">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1978-MylopoulosBW,
 	author        = "<a href="person/John_Mylopoulos.html">John Mylopoulos</a> and <a href="person/Philip_A_Bernstein.html">Philip A. Bernstein</a> and <a href="person/Harry_K_T_Wong.html">Harry K. T. Wong</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD78/P017.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/509252.509262">10.1145/509252.509262</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/509252.509262">http://doi.acm.org/10.1145/509252.509262</a>",
 </span>	pages         = "17",
 	publisher     = "{ACM}",
-	title         = "{A Language Facility for Designing Interactive Database-Intensive Applications (Abstract)}",
+	title         = "{A Language Facility for Designing Interactive Database-Intensive Applications}",
 	year          = 1978,
 }</pre>
 </div>

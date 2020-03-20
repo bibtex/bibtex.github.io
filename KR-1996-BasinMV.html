@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1996/KR-1996/KR-1996-BasinMV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1996\KR-1996\KR-1996-BasinMV.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>David A. Basin, Seán Matthews, Luca Viganò<br/><em><a href="word/implement.html">Implementing</a> <a href="word/modal.html">Modal</a> and <a href="word/relev.html">Relevance</a> <a href="word/logic.html">Logics</a> in a <a href="word/logic.html">Logical</a> <a href="word/framework.html">Framework</a></em><br/>KR, 1996.</h2>
 <div class="rbox">
-<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/BasinMV96">DBLP</a><br/>
+<strong><a href="KR-1996.html">KR 1996</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/BasinMV96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Implementing+Modal+and+Relevance+Logics+in+a+Logical+Framework%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1996-BasinMV,
 	author        = "<a href="person/David_A_Basin.html">David A. Basin</a> and <a href="person/Sean_Matthews.html">Seán Matthews</a> and <a href="person/Luca_Vigano.html">Luca Viganò</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "386--397",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Implementing Modal and Relevance Logics in a Logical Framework}",

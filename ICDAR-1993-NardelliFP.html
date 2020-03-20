@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/ICDAR-1993/ICDAR-1993-NardelliFP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\ICDAR-1993\ICDAR-1993-NardelliFP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Enrico Nardelli, Michelangelo Fossa, Guido Proietti<br/><em><a href="word/raster.html">Raster</a> to <a href="word/object.html">object</a> <a href="word/convers.html">conversion</a> <a href="word/aid.html">aided</a> by <a href="word/knowledg.html">knowledge</a> <a href="word/base.html">based</a> <a href="word/imag.html">image</a> <a href="word/process.html">processing</a></em><br/>ICDAR, 1993.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/NardelliFP93">DBLP</a><br/>
+<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/NardelliFP93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Raster+to+object+conversion+aided+by+knowledge+based+image+processing%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICDAR.1993.395579">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Document Analysis and Recognition':'ICDAR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-1993-NardelliFP,
 	author        = "<a href="person/Enrico_Nardelli.html">Enrico Nardelli</a> and <a href="person/Michelangelo_Fossa.html">Michelangelo Fossa</a> and <a href="person/Guido_Proietti.html">Guido Proietti</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.1993.395579">10.1109/ICDAR.1993.395579</a>",
 </span>	pages         = "951--954",
 	publisher     = "{IEEE}",

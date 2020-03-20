@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2001/EDOC-2001/EDOC-2001-SteelR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2001\EDOC-2001\EDOC-2001-SteelR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jim Steel, Kerry Raymond<br/><em><a href="word/generat.html">Generating</a> <a href="word/human.html">Human</a>-<a href="word/usabl.html">Usable</a> <a href="word/textual.html">Textual</a> <a href="word/notat.html">Notations</a> for <a href="word/inform.html">Information</a> <a href="word/model.html">Models</a></em><br/>EDOC, 2001.</h2>
 <div class="rbox">
-<strong><a href="EDOC-2001.html">EDOC 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/edoc/SteelR01">DBLP</a><br/>
+<strong><a href="EDOC-2001.html">EDOC 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/edoc/SteelR01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Generating+Human-Usable+Textual+Notations+for+Information+Models%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/EDOC.2001.950444">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/EDOC.2001.950444">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth International Enterprise Distributed Object Computing Conference':'EDOC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDOC-2001-SteelR,
 	author        = "<a href="person/Jim_Steel.html">Jim Steel</a> and <a href="person/Kerry_Raymond.html">Kerry Raymond</a>",
-	booktitle     = "{EDOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth International Enterprise Distributed Object Computing Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDOC.2001.950444">10.1109/EDOC.2001.950444</a>",
 </span>	pages         = "250--261",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

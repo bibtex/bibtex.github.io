@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2008/ICEIS-DISI-2008/ICEIS-DISI-2008-ItaborahyOS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2008\ICEIS-DISI-2008\ICEIS-DISI-2008-ItaborahyOS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Anderson Itaborahy, Káthia Marçal de Oliveira, Rildo Ribeiro dos Santos<br/><em><a href="word/valu.html">Value</a>-<a href="word/base.html">Based</a> <a href="word/softwar.html">Software</a> <a href="word/project.html">Project</a> <a href="word/manag.html">Management</a> — A <a href="word/busi.html">Business</a> <a href="word/perspect.html">Perspective</a> on <a href="word/softwar.html">Software</a> <a href="word/project.html">Projects</a></em><br/>ICEIS, 2008.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2008.html">ICEIS DISI 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/ItaborahyOS08">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2008.html">ICEIS DISI 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/ItaborahyOS08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Value-Based+Software+Project+Management+—+A+Business+Perspective+on+Software+Projects%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2008-ItaborahyOS,
 	author        = "<a href="person/Anderson_Itaborahy.html">Anderson Itaborahy</a> and <a href="person/Kathia_Marcal_de_Oliveira.html">Káthia Marçal de Oliveira</a> and <a href="person/Rildo_Ribeiro_dos_Santos.html">Rildo Ribeiro dos Santos</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "218--225",
 	title         = "{Value-Based Software Project Management — A Business Perspective on Software Projects}",
 	year          = 2008,

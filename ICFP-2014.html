@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP/2014/ICFP-2014.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP\2014\ICFP-2014.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Johan Jeuring, Manuel M. T. Chakravarty<br/><em>Proceedings of the 19th International Conference on Functional Programming</em><br/>ICFP, 2014.</h2>
 <div class="rbox">
-<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icfp/2014">DBLP</a><br/>
+<strong><a href="FP.html">FP</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icfp/2014">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+19th+International+Conference+on+Functional+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 19th International Conference on Functional Programming':'ICFP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICFP-2014,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2628136">2628136</a>",
 </span>	address       = "Gothenburg, Sweden",
-	booktitle     = "{ICFP}",
 	editor        = "<a href="person/Johan_Jeuring.html">Johan Jeuring</a> and <a href="person/Manuel_M_T_Chakravarty.html">Manuel M. T. Chakravarty</a>",
 <span id="isbn">	isbn          = "978-1-4503-2873-9",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 19th International Conference on Functional Programming}",
+	title         = "{<span id="title">Proceedings of the 19th International Conference on Functional Programming</span>}",
 	year          = 2014,
 }</pre>
 </div>
@@ -79,7 +78,7 @@
 <dt><a href="ICFP-2014-McBride.html">ICFP-2014-McBride</a> <span class="tag"><a href="tag/how.html" title="how">#how</a></span> <span class="tag"><a href="tag/order.html" title="order">#order</a></span></dt><dd>How to keep your neighbours in order (<abbr title="Conor Thomas McBride">CTM</abbr>), pp. 297–309.</dd> <div class="pagevis" style="width:12px"></div>
 <dt><a href="ICFP-2014-KakiJ.html">ICFP-2014-KakiJ</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/framework.html" title="framework">#framework</a></span> <span class="tag"><a href="tag/higher-order.html" title="higher-order">#higher-order</a></span> <span class="tag"><a href="tag/relational.html" title="relational">#relational</a></span></dt><dd>A relational framework for higher-order shape analysis (<abbr title="Gowtham Kaki">GK</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>), pp. 311–324.</dd> <div class="pagevis" style="width:13px"></div>
 <dt><a href="ICFP-2014-MarlowBCP.html">ICFP-2014-MarlowBCP</a> <span class="tag"><a href="tag/abstraction.html" title="abstraction">#abstraction</a></span> <span class="tag"><a href="tag/concurrent.html" title="concurrent">#concurrent</a></span> <span class="tag"><a href="tag/data%20access.html" title="data access">#data access</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span></dt><dd>There is no fork: an abstraction for efficient, concurrent, and concise data access (<abbr title="Simon Marlow">SM</abbr>, <abbr title="Louis Brandy">LB</abbr>, <abbr title="Jonathan Coens">JC</abbr>, <abbr title="Jon Purdy">JP</abbr>), pp. 325–337.</dd> <div class="pagevis" style="width:12px"></div>
-<dt><a href="ICFP-2014-GibbonsW.html">ICFP-2014-GibbonsW</a> <span class="tag"><a href="tag/domain-specific%20language.html" title="domain-specific language">#domain-specific language</a></span> <span class="tag"><a href="tag/functional.html" title="functional">#functional</a></span></dt><dd>Folding domain-specific languages: deep and shallow embeddings (functional Pearl) (<abbr title="Jeremy Gibbons">JG</abbr>, <abbr title="Nicolas Wu">NW</abbr>), pp. 339–347.</dd> <div class="pagevis" style="width:8px"></div>
+<dt><a href="ICFP-2014-GibbonsW.html">ICFP-2014-GibbonsW</a> <span class="tag"><a href="tag/domain-specific%20language.html" title="domain-specific language">#domain-specific language</a></span></dt><dd>Folding domain-specific languages: deep and shallow embeddings (<abbr title="Jeremy Gibbons">JG</abbr>, <abbr title="Nicolas Wu">NW</abbr>), pp. 339–347.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="ICFP-2014-FredrikssonG.html">ICFP-2014-FredrikssonG</a> <span class="tag"><a href="tag/distributed.html" title="distributed">#distributed</a></span> <span class="tag"><a href="tag/execution.html" title="execution">#execution</a></span> <span class="tag"><a href="tag/semantics.html" title="semantics">#semantics</a></span></dt><dd>Krivine nets: a semantic foundation for distributed execution (<abbr title="Olle Fredriksson">OF</abbr>, <abbr title="Dan R. Ghica">DRG</abbr>), pp. 349–361.</dd> <div class="pagevis" style="width:12px"></div>
 <dt><a href="ICFP-2014-AccattoliBM.html">ICFP-2014-AccattoliBM</a> <span class="tag"><a href="tag/automaton.html" title="automaton">#automaton</a></span></dt><dd>Distilling abstract machines (<abbr title="Beniamino Accattoli">BA</abbr>, <abbr title="Pablo Barenbaum">PB</abbr>, <abbr title="Damiano Mazza">DM</abbr>), pp. 363–376.</dd> <div class="pagevis" style="width:13px"></div></dl>
 </div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-CoskunARBM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-CoskunARBM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ayse Kivilcim Coskun, David Atienza, Tajana Simunic Rosing, Thomas Brunschwiler, Bruno Michel<br/><em><a href="word/energi.html">Energy</a>-<a href="word/effici.html">efficient</a> <a href="word/variabl.html">variable</a>-<a href="word/flow.html">flow</a> <a href="word/liquid.html">liquid</a> <a href="word/cool.html">cooling</a> in 3D <a href="word/stack.html">stacked</a> <a href="word/architectur.html">architectures</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/CoskunARBM10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/CoskunARBM10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Energy-efficient+variable-flow+liquid+cooling+in+3D+stacked+architectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-CoskunARBM,
 	author        = "<a href="person/Ayse_Kivilcim_Coskun.html">Ayse Kivilcim Coskun</a> and <a href="person/David_Atienza.html">David Atienza</a> and <a href="person/Tajana_Simunic_Rosing.html">Tajana Simunic Rosing</a> and <a href="person/Thomas_Brunschwiler.html">Thomas Brunschwiler</a> and <a href="person/Bruno_Michel.html">Bruno Michel</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "111--116",
 	publisher     = "{IEEE}",
 	title         = "{Energy-efficient variable-flow liquid cooling in 3D stacked architectures}",

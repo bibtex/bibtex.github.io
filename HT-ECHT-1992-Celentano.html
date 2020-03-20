@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1992/HT-ECHT-1992/HT-ECHT-1992-Celentano.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1992\HT-ECHT-1992\HT-ECHT-1992-Celentano.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Augusto Celentano<br/><em><a href="word/hypermovi.html">Hypermovie</a>: An <a href="word/author.html">Authoring</a> <a href="word/tool.html">Tool</a> for <a href="word/video.html">Video</a>-<a href="word/disk.html">Disk</a> <a href="word/base.html">Based</a> <a href="word/teach.html">Teaching</a> (<a href="word/demonstr.html">Demonstration</a>)</em><br/>HT, 1992.</h2>
 <div class="rbox">
-<strong><a href="HT-ECHT-1992.html">HT ECHT 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/echt/Celentano92">DBLP</a><br/>
+<strong><a href="HT-ECHT-1992.html">HT ECHT 1992</a></strong><hr/><a href="http://dblp.org/rec/html/conf/echt/Celentano92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Hypermovie:+An+Authoring+Tool+for+Video-Disk+Based+Teaching+(Demonstration)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the European Conference on Hypertext Technology':'HT/ECHT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-ECHT-1992-Celentano,
 	author        = "<a href="person/Augusto_Celentano.html">Augusto Celentano</a>",
-	booktitle     = "{ECHT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the European Conference on Hypertext Technology</span>}",
 	pages         = "291",
 	publisher     = "{ACM}",
 	title         = "{Hypermovie: An Authoring Tool for Video-Disk Based Teaching (Demonstration)}",

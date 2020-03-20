@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-ISAS-2010/ICEIS-ISAS-2010-ScannielloGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-ISAS-2010\ICEIS-ISAS-2010-ScannielloGT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Giuseppe Scanniello, Carmine Gravino, Genny Tortora<br/><em><a href="word/investig.html">Investigating</a> the <a href="word/role.html">Role</a> of <a href="word/uml.html">UML</a> in the <a href="word/softwar.html">Software</a> <a href="word/model.html">Modeling</a> and <a href="word/mainten.html">Maintenance</a> — A <a href="word/preliminari.html">Preliminary</a> <a href="word/industri.html">Industrial</a> <a href="word/survey.html">Survey</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2010.html">ICEIS ISAS 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/ScannielloGT10">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2010.html">ICEIS ISAS 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/ScannielloGT10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Investigating+the+Role+of+UML+in+the+Software+Modeling+and+Maintenance+—+A+Preliminary+Industrial+Survey%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 3: ISAS':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2010-ScannielloGT,
 	author        = "<a href="person/Giuseppe_Scanniello.html">Giuseppe Scanniello</a> and <a href="person/Carmine_Gravino.html">Carmine Gravino</a> and <a href="person/Genny_Tortora.html">Genny Tortora</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Enterprise Information Systems, Volume 3: ISAS</span>}",
 	pages         = "141--148",
 	publisher     = "{SciTePress}",
 	title         = "{Investigating the Role of UML in the Software Modeling and Maintenance — A Preliminary Industrial Survey}",

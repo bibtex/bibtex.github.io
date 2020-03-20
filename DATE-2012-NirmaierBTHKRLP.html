@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/DATE-2012/DATE-2012-NirmaierBTHKRLP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\DATE-2012\DATE-2012-NirmaierBTHKRLP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Thomas Nirmaier, Volker Meyer zu Bexten, Markus Tristl, Manuel Harrant, Matthias Kunze, Monica Rafaila, Julia Lau, Georg Pelz<br/><em><a href="word/measur.html">Measuring</a> and <a href="word/improv.html">improving</a> the <a href="word/robust.html">robustness</a> of <a href="word/automot.html">automotive</a> <a href="word/smart.html">smart</a> <a href="word/power.html">power</a> <a href="word/microelectron.html">microelectronics</a></em><br/>DATE, 2012.</h2>
 <div class="rbox">
-<strong><a href="DATE-2012.html">DATE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/NirmaierBTHKRLP12">DBLP</a><br/>
+<strong><a href="DATE-2012.html">DATE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/NirmaierBTHKRLP12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Measuring+and+improving+the+robustness+of+automotive+smart+power+microelectronics%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2012-NirmaierBTHKRLP,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2492926">2492926</a>",
 </span>	author        = "<a href="person/Thomas_Nirmaier.html">Thomas Nirmaier</a> and <a href="person/Volker_Meyer_zu_Bexten.html">Volker Meyer zu Bexten</a> and <a href="person/Markus_Tristl.html">Markus Tristl</a> and <a href="person/Manuel_Harrant.html">Manuel Harrant</a> and <a href="person/Matthias_Kunze.html">Matthias Kunze</a> and <a href="person/Monica_Rafaila.html">Monica Rafaila</a> and <a href="person/Julia_Lau.html">Julia Lau</a> and <a href="person/Georg_Pelz.html">Georg Pelz</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "872--873",
 	publisher     = "{IEEE}",
 	title         = "{Measuring and improving the robustness of automotive smart power microelectronics}",

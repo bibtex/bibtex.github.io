@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-LadharMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-LadharMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Aymen Ladhar, Mohamed Masmoudi, Laroussi Bouzaida<br/><em><a href="word/effici.html">Efficient</a> and <a href="word/accur.html">accurate</a> <a href="word/method.html">method</a> for <a href="word/intra.html">intra</a>-<a href="word/gate.html">gate</a> <a href="word/defect.html">defect</a> <a href="word/diagnos.html">diagnoses</a> in <a href="word/nanomet.html">nanometer</a> <a href="word/technolog.html">technology</a> and <a href="word/volum.html">volume</a> <a href="word/data.html">data</a></em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/LadharMB09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/LadharMB09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Efficient+and+accurate+method+for+intra-gate+defect+diagnoses+in+nanometer+technology+and+volume+data%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-LadharMB,
 	author        = "<a href="person/Aymen_Ladhar.html">Aymen Ladhar</a> and <a href="person/Mohamed_Masmoudi.html">Mohamed Masmoudi</a> and <a href="person/Laroussi_Bouzaida.html">Laroussi Bouzaida</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "988--993",
 	publisher     = "{IEEE}",
 	title         = "{Efficient and accurate method for intra-gate defect diagnoses in nanometer technology and volume data}",

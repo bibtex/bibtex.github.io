@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP/2015/Onward-2015/Onward-2015-SamimiWEB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP\2015\Onward-2015\Onward-2015-SamimiWEB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Hesam Samimi, Alessandro Warth, Mahdi Eslamimehr, Alan Borning<br/><em><a href="word/constraint.html">Constraints</a> as a <a href="word/design.html">design</a> <a href="word/pattern.html">pattern</a></em><br/>Onward, 2015.</h2>
 <div class="rbox">
-<strong><a href="Onward-2015.html">Onward 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/oopsla/SamimiWEB15">DBLP</a><br/>
+<strong><a href="Onward-2015.html">Onward 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/oopsla/SamimiWEB15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Constraints+as+a+design+pattern%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2814228.2814244">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software':'Onward!');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{Onward-2015-SamimiWEB,
 	author        = "<a href="person/Hesam_Samimi.html">Hesam Samimi</a> and <a href="person/Alessandro_Warth.html">Alessandro Warth</a> and <a href="person/Mahdi_Eslamimehr.html">Mahdi Eslamimehr</a> and <a href="person/Alan_Borning.html">Alan Borning</a>",
-	booktitle     = "{Onward!}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2814228.2814244">10.1145/2814228.2814244</a>",
 </span>	pages         = "28--43",
 	publisher     = "{ACM}",

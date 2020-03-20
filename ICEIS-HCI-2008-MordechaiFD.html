@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2008/ICEIS-HCI-2008/ICEIS-HCI-2008-MordechaiFD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2008\ICEIS-HCI-2008\ICEIS-HCI-2008-MordechaiFD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Vicki Mordechai, Ariel J. Frank, Offer Drori<br/><em><a href="word/ttls.html">TTLS</a>: A <a href="word/group.html">Grouped</a> <a href="word/display.html">Display</a> of <a href="word/search.html">Search</a> <a href="word/result.html">Results</a> <a href="word/base.html">Based</a> on <a href="word/organiz.html">Organizational</a> <a href="word/taxonomi.html">Taxonomy</a> <a href="word/use.html">Using</a> the <a href="word/lcc.html">LCC</a>&K <a href="word/interfac.html">Interface</a></em><br/>ICEIS, 2008.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2008.html">ICEIS HCI 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MordechaiFD08">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2008.html">ICEIS HCI 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MordechaiFD08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22TTLS:+A+Grouped+Display+of+Search+Results+Based+on+Organizational+Taxonomy+Using+the+LCC&K+Interface%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 5: HCI':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2008-MordechaiFD,
 	author        = "<a href="person/Vicki_Mordechai.html">Vicki Mordechai</a> and <a href="person/Ariel_J_Frank.html">Ariel J. Frank</a> and <a href="person/Offer_Drori.html">Offer Drori</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 5: HCI</span>}",
 	pages         = "47--53",
 	title         = "{TTLS: A Grouped Display of Search Results Based on Organizational Taxonomy Using the LCC&K Interface}",
 	year          = 2008,

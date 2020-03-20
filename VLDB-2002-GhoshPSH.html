@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-GhoshPSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-GhoshPSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Antara Ghosh, Jignashu Parikh, Vibhuti S. Sengar, Jayant R. Haritsa<br/><em><a href="word/plan.html">Plan</a> <a href="word/select.html">Selection</a> <a href="word/base.html">Based</a> on <a href="word/queri.html">Query</a> <a href="word/cluster.html">Clustering</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/GhoshPSH02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/GhoshPSH02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Plan+Selection+Based+on+Query+Clustering%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S06P02.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-GhoshPSH,
 	author        = "<a href="person/Antara_Ghosh.html">Antara Ghosh</a> and <a href="person/Jignashu_Parikh.html">Jignashu Parikh</a> and <a href="person/Vibhuti_S_Sengar.html">Vibhuti S. Sengar</a> and <a href="person/Jayant_R_Haritsa.html">Jayant R. Haritsa</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S06P02.pdf">http://www.vldb.org/conf/2002/S06P02.pdf</a>",
 </span>	pages         = "179--190",
 	publisher     = "{Morgan Kaufmann}",

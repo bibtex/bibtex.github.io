@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2005/DAC-2005/DAC-2005-NedevschiPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2005\DAC-2005\DAC-2005-NedevschiPB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Sergiu Nedevschi, Rabin K. Patra, Eric A. Brewer<br/><em><a href="word/hardwar.html">Hardware</a> <a href="word/speech.html">speech</a> <a href="word/recognit.html">recognition</a> for <a href="word/user.html">user</a> <a href="word/interfac.html">interfaces</a> in <a href="word/low.html">low</a> <a href="word/cost.html">cost</a>, <a href="word/low.html">low</a> <a href="word/power.html">power</a> <a href="word/devic.html">devices</a></em><br/>DAC, 2005.</h2>
 <div class="rbox">
-<strong><a href="DAC-2005.html">DAC 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/NedevschiPB05">DBLP</a><br/>
+<strong><a href="DAC-2005.html">DAC 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/NedevschiPB05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Hardware+speech+recognition+for+user+interfaces+in+low+cost,+low+power+devices%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1065579.1065760">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1065579.1065760">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 42nd Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2005-NedevschiPB,
 	author        = "<a href="person/Sergiu_Nedevschi.html">Sergiu Nedevschi</a> and <a href="person/Rabin_K_Patra.html">Rabin K. Patra</a> and <a href="person/Eric_A_Brewer.html">Eric A. Brewer</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 42nd Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1065579.1065760">10.1145/1065579.1065760</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1065579.1065760">http://doi.acm.org/10.1145/1065579.1065760</a>",
 </span>	pages         = "684--689",

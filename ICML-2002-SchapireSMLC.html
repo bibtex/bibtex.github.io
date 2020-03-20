@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2002/ICML-2002/ICML-2002-SchapireSMLC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2002\ICML-2002\ICML-2002-SchapireSMLC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Robert E. Schapire, Peter Stone, David A. McAllester, Michael L. Littman, János A. Csirik<br/><em><a href="word/model.html">Modeling</a> <a href="word/auction.html">Auction</a> <a href="word/price.html">Price</a> <a href="word/uncertainti.html">Uncertainty</a> <a href="word/use.html">Using</a> <a href="word/boost.html">Boosting</a>-<a href="word/base.html">based</a> <a href="word/condit.html">Conditional</a> <a href="word/densiti.html">Density</a> <a href="word/estim.html">Estimation</a></em><br/>ICML, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICML-2002.html">ICML 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icml/SchapireSMLC02">DBLP</a><br/>
+<strong><a href="ICML-2002.html">ICML 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icml/SchapireSMLC02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Modeling+Auction+Price+Uncertainty+Using+Boosting-based+Conditional+Density+Estimation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2002-SchapireSMLC,
 	author        = "<a href="person/Robert_E_Schapire.html">Robert E. Schapire</a> and <a href="person/Peter_Stone.html">Peter Stone</a> and <a href="person/David_A_McAllester.html">David A. McAllester</a> and <a href="person/Michael_L_Littman.html">Michael L. Littman</a> and <a href="person/Janos_A_Csirik.html">János A. Csirik</a>",
-	booktitle     = "{Proceedings of the 19th International Conference on Machine Learning}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th International Conference on Machine Learning</span>}",
 	pages         = "546--553",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Modeling Auction Price Uncertainty Using Boosting-based Conditional Density Estimation}",

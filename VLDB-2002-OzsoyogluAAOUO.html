@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-OzsoyogluAAOUO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-OzsoyogluAAOUO.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Gultekin Özsoyoglu, Abdullah Al-Hamdani, Ismail Sengör Altingövde, Selma Ayse Özel, Özgür Ulusoy, Z. Meral Özsoyoglu<br/><em><a href="word/sideway.html">Sideway</a> <a href="word/valu.html">Value</a> <a href="word/algebra.html">Algebra</a> for <a href="word/object.html">Object</a>-<a href="word/relat.html">Relational</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/OzsoyogluAAOUO02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/OzsoyogluAAOUO02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Sideway+Value+Algebra+for+Object-Relational+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S03P03.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-OzsoyogluAAOUO,
 	author        = "<a href="person/Gultekin_Oezsoyoglu.html">Gultekin Özsoyoglu</a> and <a href="person/Abdullah_Al-Hamdani.html">Abdullah Al-Hamdani</a> and <a href="person/Ismail_Sengoer_Altingoevde.html">Ismail Sengör Altingövde</a> and <a href="person/Selma_Ayse_Oezel.html">Selma Ayse Özel</a> and <a href="person/Oezguer_Ulusoy.html">Özgür Ulusoy</a> and <a href="person/Z_Meral_Oezsoyoglu.html">Z. Meral Özsoyoglu</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S03P03.pdf">http://www.vldb.org/conf/2002/S03P03.pdf</a>",
 </span>	pages         = "59--70",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2000/SIGIR-2000/SIGIR-2000-Robertson.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2000\SIGIR-2000\SIGIR-2000-Robertson.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Stephen E. Robertson<br/><em><a href="word/salton.html">Salton</a> <a href="word/award.html">Award</a> <a href="word/lectur.html">Lecture</a>: On <a href="word/theoret.html">theoretical</a> <a href="word/argument.html">argument</a> in <a href="word/inform.html">information</a> <a href="word/retriev.html">retrieval</a></em><br/>SIGIR, 2000.</h2>
 <div class="rbox">
-<strong><a href="SIGIR-2000.html">SIGIR 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigir/Robertson00">DBLP</a><br/>
+<strong><a href="SIGIR-2000.html">SIGIR 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigir/Robertson00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Salton+Award+Lecture:+On+theoretical+argument+in+information+retrieval%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International ACM SIGIR Conference on Research and Development in Information Retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-2000-Robertson,
 	author        = "<a href="person/Stephen_E_Robertson.html">Stephen E. Robertson</a>",
-	booktitle     = "{Proceedings of the 23rd International ACM SIGIR Conference on Research and Development in Information Retrieval}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International ACM SIGIR Conference on Research and Development in Information Retrieval</span>}",
 	pages         = "1",
 	publisher     = "{ACM}",
 	title         = "{Salton Award Lecture: On theoretical argument in information retrieval}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1993/ICDAR-1993/ICDAR-1993-CaseyBHMOZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1993\ICDAR-1993\ICDAR-1993-CaseyBHMOZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Richard G. Casey, Stephen Boyer, Paul Healey, Alex Miller, Bernadette Oudot, Karl Zilles<br/><em><a href="word/optic.html">Optical</a> <a href="word/recognit.html">recognition</a> of <a href="word/chemic.html">chemical</a> <a href="word/graphic.html">graphics</a></em><br/>ICDAR, 1993.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/CaseyBHMOZ93">DBLP</a><br/>
+<strong><a href="ICDAR-1993.html">ICDAR 1993</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/CaseyBHMOZ93">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Optical+recognition+of+chemical+graphics%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/ICDAR.1993.395658">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Document Analysis and Recognition':'ICDAR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-1993-CaseyBHMOZ,
 	author        = "<a href="person/Richard_G_Casey.html">Richard G. Casey</a> and <a href="person/Stephen_Boyer.html">Stephen Boyer</a> and <a href="person/Paul_Healey.html">Paul Healey</a> and <a href="person/Alex_Miller.html">Alex Miller</a> and <a href="person/Bernadette_Oudot.html">Bernadette Oudot</a> and <a href="person/Karl_Zilles.html">Karl Zilles</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.1993.395658">10.1109/ICDAR.1993.395658</a>",
 </span>	pages         = "627--631",
 	publisher     = "{IEEE}",

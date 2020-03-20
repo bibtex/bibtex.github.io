@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP/1994/OOPSLA-1994.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP\1994\OOPSLA-1994.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,21 @@
 <div class="main">
 <h2>Jeff McKenna, J. Eliot B. Moss, Richard L. Wexelblat<br/><em>Proceedings of the Ninth Annual Conference on Object-Oriented Programming, Systems, Languages and Applications</em><br/>OOPSLA, 1994.</h2>
 <div class="rbox">
-<strong><a href="OOP.html">OOP</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/oopsla/1994">DBLP</a><br/>
+<strong><a href="OOP.html">OOP</a></strong><hr/><a href="http://dblp.org/rec/html/conf/oopsla/1994">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Ninth+Annual+Conference+on+Object-Oriented+Programming,+Systems,+Languages+and+Applications%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Ninth Annual Conference on Object-Oriented Programming, Systems, Languages and Applications':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{OOPSLA-1994,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=191080">191080</a>",
 </span>	address       = "Portland, Oregon, USA",
-	booktitle     = "{OOPSLA}",
 	editor        = "<a href="person/Jeff_McKenna.html">Jeff McKenna</a> and <a href="person/J_Eliot_B_Moss.html">J. Eliot B. Moss</a> and <a href="person/Richard_L_Wexelblat.html">Richard L. Wexelblat</a>",
 <span id="isbn">	isbn          = "0-89791-688-3",
-</span>	note          = "SIGPLAN Notices 29(10) / Addendum to the Proceedings: OOPS Messenger 5(4) October 1994",
-	publisher     = "{ACM}",
-	title         = "{Proceedings of the Ninth Annual Conference on Object-Oriented Programming, Systems, Languages and Applications}",
+</span>	publisher     = "{ACM}",
+	title         = "{<span id="title">Proceedings of the Ninth Annual Conference on Object-Oriented Programming, Systems, Languages and Applications</span>}",
+	volume        = "SIGPLAN Notices 29(10) / Addendum to the Proceedings: OOPS Messenger 5(4) October 1994",
 	year          = 1994,
 }</pre>
 </div>

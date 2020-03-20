@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2001/VLDB-2001/VLDB-2001-KoschBBHHLRT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2001\VLDB-2001\VLDB-2001-KoschBBHHLRT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Harald Kosch, László Böszörményi, Alexander Bachlechner, Christian Hanin, Christian Hofbauer, Margit Lang, Carmen Riedler, Roland Tusch<br/><em><a href="word/smooth.html">SMOOTH</a> — A <a href="word/distribut.html">Distributed</a> <a href="word/multimedia.html">Multimedia</a> <a href="word/databas.html">Database</a> <a href="word/system.html">System</a></em><br/>VLDB, 2001.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2001.html">VLDB 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/KoschBBHHLRT01">DBLP</a><br/>
+<strong><a href="VLDB-2001.html">VLDB 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/KoschBBHHLRT01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22SMOOTH+—+A+Distributed+Multimedia+Database+System%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2001/P713.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2001-KoschBBHHLRT,
 	author        = "<a href="person/Harald_Kosch.html">Harald Kosch</a> and <a href="person/Laszlo_Boeszoermenyi.html">László Böszörményi</a> and <a href="person/Alexander_Bachlechner.html">Alexander Bachlechner</a> and <a href="person/Christian_Hanin.html">Christian Hanin</a> and <a href="person/Christian_Hofbauer.html">Christian Hofbauer</a> and <a href="person/Margit_Lang.html">Margit Lang</a> and <a href="person/Carmen_Riedler.html">Carmen Riedler</a> and <a href="person/Roland_Tusch.html">Roland Tusch</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 27th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2001/P713.pdf">http://www.vldb.org/conf/2001/P713.pdf</a>",
 </span>	pages         = "713--714",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/1999/EDOC-1999/EDOC-1999-MoserMNTK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\1999\EDOC-1999\EDOC-1999-MoserMNTK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Louise E. Moser, P. M. Melliar-Smith, Priya Narasimhan, L. A. Tewksbury, Vana Kalogeraki<br/><em>The <a href="word/etern.html">Eternal</a> <a href="word/system.html">system</a>: an <a href="word/architectur.html">architecture</a> for <a href="word/enterpris.html">enterprise</a> <a href="word/applic.html">applications</a></em><br/>EDOC, 1999.</h2>
 <div class="rbox">
-<strong><a href="EDOC-1999.html">EDOC 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/edoc/MoserMNTK99">DBLP</a><br/>
+<strong><a href="EDOC-1999.html">EDOC 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/edoc/MoserMNTK99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Eternal+system:+an+architecture+for+enterprise+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/EDOC.1999.792065">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Enterprise Distributed Object Computing Conference':'EDOC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDOC-1999-MoserMNTK,
 	author        = "<a href="person/Louise_E_Moser.html">Louise E. Moser</a> and <a href="person/P_M_Melliar-Smith.html">P. M. Melliar-Smith</a> and <a href="person/Priya_Narasimhan.html">Priya Narasimhan</a> and <a href="person/L_A_Tewksbury.html">L. A. Tewksbury</a> and <a href="person/Vana_Kalogeraki.html">Vana Kalogeraki</a>",
-	booktitle     = "{EDOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Enterprise Distributed Object Computing Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDOC.1999.792065">10.1109/EDOC.1999.792065</a>",
 </span>	pages         = "214--222",
 	publisher     = "{IEEE}",

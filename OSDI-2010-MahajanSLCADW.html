@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2010/OSDI-2010/OSDI-2010-MahajanSLCADW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\OSDI-2010\OSDI-2010-MahajanSLCADW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Prince Mahajan, Srinath T. V. Setty, Sangmin Lee, Allen Clement, Lorenzo Alvisi, Michael Dahlin, Michael Walfish<br/><em><a href="word/depot.html">Depot</a>: <a href="word/cloud.html">Cloud</a> <a href="word/storag.html">Storage</a> with <a href="word/minim.html">Minimal</a> <a href="word/trust.html">Trust</a></em><br/>OSDI, 2010.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/MahajanSLCADW10">DBLP</a><br/>
+<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/MahajanSLCADW10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Depot:+Cloud+Storage+with+Minimal+Trust%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi10/tech/full_papers/Mahajan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2010-MahajanSLCADW,
 	author        = "<a href="person/Prince_Mahajan.html">Prince Mahajan</a> and <a href="person/Srinath_T_V_Setty.html">Srinath T. V. Setty</a> and <a href="person/Sangmin_Lee.html">Sangmin Lee</a> and <a href="person/Allen_Clement.html">Allen Clement</a> and <a href="person/Lorenzo_Alvisi.html">Lorenzo Alvisi</a> and <a href="person/Michael_Dahlin.html">Michael Dahlin</a> and <a href="person/Michael_Walfish.html">Michael Walfish</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi10/tech/full_papers/Mahajan.pdf">http://www.usenix.org/events/osdi10/tech/full_papers/Mahajan.pdf</a>",
 </span>	pages         = "307--322",
 	publisher     = "{USENIX Association}",

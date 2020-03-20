@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2001/KDD-2001/KDD-2001-YamanishiT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2001\KDD-2001\KDD-2001-YamanishiT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Kenji Yamanishi, Jun-ichi Takeuchi<br/><em><a href="word/discov.html">Discovering</a> <a href="word/outlier.html">outlier</a> <a href="word/filter.html">filtering</a> <a href="word/rule.html">rules</a> from <a href="word/unlabel.html">unlabeled</a> <a href="word/data.html">data</a>: <a href="word/combin.html">combining</a> a <a href="word/supervis.html">supervised</a> <a href="word/learner.html">learner</a> with an <a href="word/unsupervis.html">unsupervised</a> <a href="word/learner.html">learner</a></em><br/>KDD, 2001.</h2>
 <div class="rbox">
-<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/YamanishiT01">DBLP</a><br/>
+<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/YamanishiT01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Discovering+outlier+filtering+rules+from+unlabeled+data:+combining+a+supervised+learner+with+an+unsupervised+learner%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2001-YamanishiT,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=502512.502570">502512.502570</a>",
 </span>	author        = "<a href="person/Kenji_Yamanishi.html">Kenji Yamanishi</a> and <a href="person/Jun-ichi_Takeuchi.html">Jun-ichi Takeuchi</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining</span>}",
 	pages         = "389--394",
 	publisher     = "{ACM}",
 	title         = "{Discovering outlier filtering rules from unlabeled data: combining a supervised learner with an unsupervised learner}",

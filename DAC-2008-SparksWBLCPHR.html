@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/DAC-2008/DAC-2008-SparksWBLCPHR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\DAC-2008\DAC-2008-SparksWBLCPHR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Tiffany Sparks, Pete Weitzner, Luc Burgun, Russell Lefevre, Todd Cutler, Clayton Parker, Vicki Hadfield, Chris Rowen<br/><em><a href="word/elect.html">Election</a> <a href="word/year.html">year</a>: <a href="word/what.html">what</a> the <a href="word/electron.html">electronics</a> <a href="word/industri.html">industry</a> <a href="word/need.html">needs</a>---and <a href="word/can.html">can</a> <a href="word/expect.html">expect</a>---from the <a href="word/incom.html">incoming</a> <a href="word/administr.html">administration</a></em><br/>DAC, 2008.</h2>
 <div class="rbox">
-<strong><a href="DAC-2008.html">DAC 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/SparksWBLCPHR08">DBLP</a><br/>
+<strong><a href="DAC-2008.html">DAC 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/SparksWBLCPHR08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Election+year:+what+the+electronics+industry+needs---and+can+expect---from+the+incoming+administration%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1391469.1391491">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1391469.1391491">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 45th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2008-SparksWBLCPHR,
 	author        = "<a href="person/Tiffany_Sparks.html">Tiffany Sparks</a> and <a href="person/Pete_Weitzner.html">Pete Weitzner</a> and <a href="person/Luc_Burgun.html">Luc Burgun</a> and <a href="person/Russell_Lefevre.html">Russell Lefevre</a> and <a href="person/Todd_Cutler.html">Todd Cutler</a> and <a href="person/Clayton_Parker.html">Clayton Parker</a> and <a href="person/Vicki_Hadfield.html">Vicki Hadfield</a> and <a href="person/Chris_Rowen.html">Chris Rowen</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 45th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1391469.1391491">10.1145/1391469.1391491</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1391469.1391491">http://doi.acm.org/10.1145/1391469.1391491</a>",
 </span>	pages         = "76--77",

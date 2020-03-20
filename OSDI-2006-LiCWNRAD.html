@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/OSDI-2006/OSDI-2006-LiCWNRAD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\OSDI-2006\OSDI-2006-LiCWNRAD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Harry C. Li, Allen Clement, Edmund L. Wong, Jeff Napper, Indrajit Roy, Lorenzo Alvisi, Michael Dahlin<br/><em><a href="word/bar.html">BAR</a> <a href="word/gossip.html">Gossip</a></em><br/>OSDI, 2006.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/LiCWNRAD06">DBLP</a><br/>
+<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/LiCWNRAD06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22BAR+Gossip%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi06/tech/li.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2006-LiCWNRAD,
 	author        = "<a href="person/Harry_C_Li.html">Harry C. Li</a> and <a href="person/Allen_Clement.html">Allen Clement</a> and <a href="person/Edmund_L_Wong.html">Edmund L. Wong</a> and <a href="person/Jeff_Napper.html">Jeff Napper</a> and <a href="person/Indrajit_Roy.html">Indrajit Roy</a> and <a href="person/Lorenzo_Alvisi.html">Lorenzo Alvisi</a> and <a href="person/Michael_Dahlin.html">Michael Dahlin</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi06/tech/li.html">http://www.usenix.org/events/osdi06/tech/li.html</a>",
 </span>	pages         = "191--204",
 	publisher     = "{USENIX Association}",

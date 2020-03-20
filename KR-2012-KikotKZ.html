@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2012/KR-2012/KR-2012-KikotKZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2012\KR-2012\KR-2012-KikotKZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Stanislav Kikot, Roman Kontchakov, Michael Zakharyaschev<br/><em><a href="word/conjunct.html">Conjunctive</a> <a href="word/queri.html">Query</a> <a href="word/answer.html">Answering</a> with <a href="word/owl.html">OWL</a> 2 QL</em><br/>KR, 2012.</h2>
 <div class="rbox">
-<strong><a href="KR-2012.html">KR 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/KikotKZ12">DBLP</a><br/>
+<strong><a href="KR-2012.html">KR 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/KikotKZ12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Conjunctive+Query+Answering+with+OWL+2+QL%22">Scholar</a><hr/><a href="http://www.aaai.org/ocs/index.php/KR/KR12/paper/view/4538">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2012-KikotKZ,
 	author        = "<a href="person/Stanislav_Kikot.html">Stanislav Kikot</a> and <a href="person/Roman_Kontchakov.html">Roman Kontchakov</a> and <a href="person/Michael_Zakharyaschev.html">Michael Zakharyaschev</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/ocs/index.php/KR/KR12/paper/view/4538">http://www.aaai.org/ocs/index.php/KR/KR12/paper/view/4538</a>",
 </span>	publisher     = "{AAAI Press}",
 	title         = "{Conjunctive Query Answering with OWL 2 QL}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-HCI-2007/ICEIS-HCI-2007-SallaberryBLG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-HCI-2007\ICEIS-HCI-2007-SallaberryBLG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christian Sallaberry, Mustapha Baziz, Julien Lesbegueries, Mauro Gaio<br/><em><a href="word/toward.html">Towards</a> an IE and IR <a href="word/system.html">System</a> <a href="word/deal.html">Dealing</a> with <a href="word/spatial.html">Spatial</a> <a href="word/inform.html">Information</a> in <a href="word/digit.html">Digital</a> <a href="word/librari.html">Libraries</a> — <a href="word/evalu.html">Evaluation</a> <a href="word/case.html">Case</a> <a href="word/studi.html">Study</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/SallaberryBLG07">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2007.html">ICEIS HCI 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/SallaberryBLG07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Towards+an+IE+and+IR+System+Dealing+with+Spatial+Information+in+Digital+Libraries+—+Evaluation+Case+Study%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2007-SallaberryBLG,
 	author        = "<a href="person/Christian_Sallaberry.html">Christian Sallaberry</a> and <a href="person/Mustapha_Baziz.html">Mustapha Baziz</a> and <a href="person/Julien_Lesbegueries.html">Julien Lesbegueries</a> and <a href="person/Mauro_Gaio.html">Mauro Gaio</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 5: HCI</span>}",
 	pages         = "190--197",
 	title         = "{Towards an IE and IR System Dealing with Spatial Information in Digital Libraries — Evaluation Case Study}",
 	year          = 2007,

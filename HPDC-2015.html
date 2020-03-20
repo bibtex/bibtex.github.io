@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2015/HPDC-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\HPDC-2015.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Thilo Kielmann, Dean Hildebrand, Michela Taufer<br/><em>Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing</em><br/>HPDC, 2015.</h2>
 <div class="rbox">
-<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpdc/2015">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpdc/2015">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+24th+International+Symposium+on+High-Performance+Parallel+and+Distributed+Computing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{HPDC-2015,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2749246">2749246</a>",
 </span>	address       = "Portland, Oregon, USA",
-	booktitle     = "{HPDC}",
 	editor        = "<a href="person/Thilo_Kielmann.html">Thilo Kielmann</a> and <a href="person/Dean_Hildebrand.html">Dean Hildebrand</a> and Michela Taufer",
 <span id="isbn">	isbn          = "978-1-4503-3550-8",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing}",
+	title         = "{<span id="title">Proceedings of the 24th International Symposium on High-Performance Parallel and Distributed Computing</span>}",
 	year          = 2015,
 }</pre>
 </div>
@@ -55,7 +54,7 @@
 <dt><a href="HPDC-2015-KaxirasKNRS.html">HPDC-2015-KaxirasKNRS</a> <span class="tag"><a href="tag/approach.html" title="approach">#approach</a></span> <span class="tag"><a href="tag/distributed.html" title="distributed">#distributed</a></span> <span class="tag"><a href="tag/execution.html" title="execution">#execution</a></span> <span class="tag"><a href="tag/memory%20management.html" title="memory management">#memory management</a></span> <span class="tag"><a href="tag/scalability.html" title="scalability">#scalability</a></span></dt><dd>Turning Centralized Coherence and Distributed Critical-Section Execution on their Head: A New Approach for Scalable Distributed Shared Memory (<abbr title="Stefanos Kaxiras">SK</abbr>, <abbr title="David Klaftenegger">DK</abbr>, <abbr title="Magnus Norgren">MN</abbr>, <abbr title="Alberto Ros">AR</abbr>, <abbr title="Konstantinos F. Sagonas">KFS</abbr>), pp. 3–14.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="HPDC-2015-AkiyamaT.html">HPDC-2015-AkiyamaT</a> <span class="tag"><a href="tag/concurrent.html" title="concurrent">#concurrent</a></span> <span class="tag"><a href="tag/scalability.html" title="scalability">#scalability</a></span> <span class="tag"><a href="tag/thread.html" title="thread">#thread</a></span></dt><dd>Uni-Address Threads: Scalable Thread Management for RDMA-Based Work Stealing (<abbr title="Shigeki Akiyama">SA</abbr>, <abbr title="Kenjiro Taura">KT</abbr>), pp. 15–26.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="HPDC-2015-HaleD.html">HPDC-2015-HaleD</a> <span class="tag"><a href="tag/kernel.html" title="kernel">#kernel</a></span> <span class="tag"><a href="tag/operating%20system.html" title="operating system">#operating system</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span></dt><dd>A Case for Transforming Parallel Runtimes Into Operating System Kernels (<abbr title="Kyle C. Hale">KCH</abbr>, <abbr title="Peter A. Dinda">PAD</abbr>), pp. 27–32.</dd> <div class="pagevis" style="width:5px"></div>
-<dt><a href="HPDC-2015-LuuWGRCHPBY.html">HPDC-2015-LuuWGRCHPBY</a> <span class="tag"><a href="tag/behaviour.html" title="behaviour">#behaviour</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span></dt><dd>A Multiplatform Study of I/O Behavior on Petascale Supercomputers (<abbr title="Huong Luu">HL</abbr>, <abbr title="Marianne Winslett">MW</abbr>, <abbr title="William Gropp">WG</abbr>, <abbr title="Robert B. Ross">RBR</abbr>, <abbr title="Philip H. Carns">PHC</abbr>, <abbr title="Kevin Harms">KH</abbr>, <abbr title="Prabhat">P</abbr>, <abbr title="Surendra Byna">SB</abbr>, <abbr title="Yushu Yao">YY</abbr>), pp. 33–44.</dd> <div class="pagevis" style="width:11px"></div>
+<dt><a href="HPDC-2015-LuuWGRCHPBY.html">HPDC-2015-LuuWGRCHPBY</a> <span class="tag"><a href="tag/behaviour.html" title="behaviour">#behaviour</a></span> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span> <span class="tag"><a href="tag/platform.html" title="platform">#platform</a></span></dt><dd>A Multiplatform Study of I/O Behavior on Petascale Supercomputers (<abbr title="Huong Luu">HL</abbr>, <abbr title="Marianne Winslett">MW</abbr>, <abbr title="William Gropp">WG</abbr>, <abbr title="Robert B. Ross">RBR</abbr>, <abbr title="Philip H. Carns">PHC</abbr>, <abbr title="Kevin Harms">KH</abbr>, <abbr title="Prabhat">P</abbr>, <abbr title="Surendra Byna">SB</abbr>, <abbr title="Yushu Yao">YY</abbr>), pp. 33–44.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="HPDC-2015-ChengIGB.html">HPDC-2015-ChengIGB</a> <span class="tag"><a href="tag/data%20analysis.html" title="data analysis">#data analysis</a></span> <span class="tag"><a href="tag/in%20the%20cloud.html" title="in the cloud">#in the cloud</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span></dt><dd>CAST: Tiering Storage for Data Analytics in the Cloud (<abbr title="Yue Cheng">YC</abbr>, <abbr title="M. Safdar Iqbal">MSI</abbr>, <abbr title="Aayush Gupta">AG</abbr>, <abbr title="Ali Raza Butt">ARB</abbr>), pp. 45–56.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="HPDC-2015-AlvarezOEAGR.html">HPDC-2015-AlvarezOEAGR</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span></dt><dd>HPC System Lifetime Story: Workload Characterization and Evolutionary Analyses on NERSC Systems (<abbr title="Gonzalo Pedro Rodrigo Álvarez">GPRÁ</abbr>, <abbr title="Per-Olov Östberg">POÖ</abbr>, <abbr title="Erik Elmroth">EE</abbr>, <abbr title="Katie Antypas">KA</abbr>, <abbr title="Richard Gerber">RG</abbr>, <abbr title="Lavanya Ramakrishnan">LR</abbr>), pp. 57–60.</dd> <div class="pagevis" style="width:3px"></div>
 <dt><a href="HPDC-2015-SuWA.html">HPDC-2015-SuWA</a> <span class="tag"><a href="tag/data%20analysis.html" title="data analysis">#data analysis</a></span> <span class="tag"><a href="tag/generative.html" title="generative">#generative</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span></dt><dd>In-Situ Bitmaps Generation and Efficient Data Analysis based on Bitmaps (<abbr title="Yu Su">YS</abbr>, <abbr title="Yi Wang">YW</abbr>, <abbr title="Gagan Agrawal">GA</abbr>), pp. 61–72.</dd> <div class="pagevis" style="width:11px"></div>

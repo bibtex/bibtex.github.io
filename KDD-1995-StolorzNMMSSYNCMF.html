@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1995/KDD-1995/KDD-1995-StolorzNMMSSYNCMF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1995\KDD-1995\KDD-1995-StolorzNMMSSYNCMF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Paul E. Stolorz, Hisashi Nakamura, Edmond Mesrobian, Richard R. Muntz, Eddie C. Shek, Jose Renato Santos, J. Yi, Kenneth W. Ng, S.-Y. Chien, Carlos R. Mechoso, John D. Farrara<br/><em><a href="word/fast.html">Fast</a> <a href="word/spatio.html">Spatio</a>-<a href="word/tempor.html">Temporal</a> <a href="word/data.html">Data</a> <a href="word/mine.html">Mining</a> of <a href="word/larg.html">Large</a> <a href="word/geophys.html">Geophysical</a> <a href="word/dataset.html">Datasets</a></em><br/>KDD, 1995.</h2>
 <div class="rbox">
-<strong><a href="KDD-1995.html">KDD 1995</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/StolorzNMMSSYNCMF95">DBLP</a><br/>
+<strong><a href="KDD-1995.html">KDD 1995</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/StolorzNMMSSYNCMF95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Fast+Spatio-Temporal+Data+Mining+of+Large+Geophysical+Datasets%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KDD/1995/kdd95-035.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-1995-StolorzNMMSSYNCMF,
 	author        = "<a href="person/Paul_E_Stolorz.html">Paul E. Stolorz</a> and <a href="person/Hisashi_Nakamura.html">Hisashi Nakamura</a> and <a href="person/Edmond_Mesrobian.html">Edmond Mesrobian</a> and <a href="person/Richard_R_Muntz.html">Richard R. Muntz</a> and <a href="person/Eddie_C_Shek.html">Eddie C. Shek</a> and <a href="person/Jose_Renato_Santos.html">Jose Renato Santos</a> and <a href="person/J_Yi.html">J. Yi</a> and <a href="person/Kenneth_W_Ng.html">Kenneth W. Ng</a> and <a href="person/S-Y_Chien.html">S.-Y. Chien</a> and <a href="person/Carlos_R_Mechoso.html">Carlos R. Mechoso</a> and <a href="person/John_D_Farrara.html">John D. Farrara</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KDD/1995/kdd95-035.php">http://www.aaai.org/Library/KDD/1995/kdd95-035.php</a>",
 </span>	pages         = "300--305",
 	publisher     = "{AAAI Press}",

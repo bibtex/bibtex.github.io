@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/VLDB-2004/VLDB-2004-MokbelXAHPH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\VLDB-2004\VLDB-2004-MokbelXAHPH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Mohamed F. Mokbel, Xiaopeng Xiong, Walid G. Aref, Susanne E. Hambrusch, Sunil Prabhakar, Moustafa A. Hammad<br/><em><a href="word/place.html">PLACE</a>: A <a href="word/queri.html">Query</a> <a href="word/processor.html">Processor</a> for <a href="word/handl.html">Handling</a> <a href="word/real.html">Real</a>-<a href="word/time.html">time</a> <a href="word/spatio.html">Spatio</a>-<a href="word/tempor.html">temporal</a> <a href="word/data.html">Data</a> <a href="word/stream.html">Streams</a></em><br/>VLDB, 2004.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/MokbelXAHPH04">DBLP</a><br/>
+<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/MokbelXAHPH04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22PLACE:+A+Query+Processor+for+Handling+Real-time+Spatio-temporal+Data+Streams%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2004/DEMP32.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2004-MokbelXAHPH,
 	author        = "<a href="person/Mohamed_F_Mokbel.html">Mohamed F. Mokbel</a> and <a href="person/Xiaopeng_Xiong.html">Xiaopeng Xiong</a> and <a href="person/Walid_G_Aref.html">Walid G. Aref</a> and <a href="person/Susanne_E_Hambrusch.html">Susanne E. Hambrusch</a> and <a href="person/Sunil_Prabhakar.html">Sunil Prabhakar</a> and <a href="person/Moustafa_A_Hammad.html">Moustafa A. Hammad</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2004/DEMP32.PDF">http://www.vldb.org/conf/2004/DEMP32.PDF</a>",
 </span>	pages         = "1377--1380",
 	publisher     = "{Morgan Kaufmann}",

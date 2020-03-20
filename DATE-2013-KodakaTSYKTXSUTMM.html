@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2013/DATE-2013/DATE-2013-KodakaTSYKTXSUTMM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2013\DATE-2013\DATE-2013-KodakaTSYKTXSUTMM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Takeshi Kodaka, Akira Takeda, Shunsuke Sasaki, Akira Yokosawa, Toshiki Kizu, Takahiro Tokuyoshi, Hui Xu, Toru Sano, Hiroyuki Usui, Jun Tanabe, Takashi Miyamori, Nobu Matsumoto<br/><em>A <a href="word/near.html">near</a>-<a href="word/futur.html">future</a> <a href="word/predict.html">prediction</a> <a href="word/method.html">method</a> for <a href="word/low.html">low</a> <a href="word/power.html">power</a> <a href="word/consumpt.html">consumption</a> on a <a href="word/mani.html">many</a>-<a href="word/core.html">core</a> <a href="word/processor.html">processor</a></em><br/>DATE, 2013.</h2>
 <div class="rbox">
-<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/KodakaTSYKTXSUTMM13">DBLP</a><br/>
+<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/KodakaTSYKTXSUTMM13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+near-future+prediction+method+for+low+power+consumption+on+a+many-core+processor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2013-KodakaTSYKTXSUTMM,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2485544">2485544</a>",
 </span>	author        = "<a href="person/Takeshi_Kodaka.html">Takeshi Kodaka</a> and <a href="person/Akira_Takeda.html">Akira Takeda</a> and <a href="person/Shunsuke_Sasaki.html">Shunsuke Sasaki</a> and <a href="person/Akira_Yokosawa.html">Akira Yokosawa</a> and <a href="person/Toshiki_Kizu.html">Toshiki Kizu</a> and <a href="person/Takahiro_Tokuyoshi.html">Takahiro Tokuyoshi</a> and <a href="person/Hui_Xu.html">Hui Xu</a> and <a href="person/Toru_Sano.html">Toru Sano</a> and <a href="person/Hiroyuki_Usui.html">Hiroyuki Usui</a> and <a href="person/Jun_Tanabe.html">Jun Tanabe</a> and <a href="person/Takashi_Miyamori.html">Takashi Miyamori</a> and <a href="person/Nobu_Matsumoto.html">Nobu Matsumoto</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1058--1059",
 	publisher     = "{EDA Consortium San Jose, CA, USA / ACM DL}",
 	title         = "{A near-future prediction method for low power consumption on a many-core processor}",

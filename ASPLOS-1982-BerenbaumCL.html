@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/1982/ASPLOS-1982/ASPLOS-1982-BerenbaumCL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1982\ASPLOS-1982\ASPLOS-1982-BerenbaumCL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Alan D. Berenbaum, Michael W. Condry, Priscilla M. Lu<br/><em>The <a href="word/oper.html">Operating</a> <a href="word/system.html">System</a> and <a href="word/languag.html">Language</a> <a href="word/support.html">Support</a> <a href="word/featur.html">Features</a> of the <a href="word/bellmac.html">BELLMAC</a>-32 <a href="word/microprocessor.html">Microprocessor</a></em><br/>ASPLOS, 1982.</h2>
 <div class="rbox">
-<strong><a href="ASPLOS-1982.html">ASPLOS 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/asplos/BerenbaumCL82">DBLP</a><br/>
+<strong><a href="ASPLOS-1982.html">ASPLOS 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/asplos/BerenbaumCL82">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Operating+System+and+Language+Support+Features+of+the+BELLMAC-32+Microprocessor%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/800050.801823">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/800050.801823">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Symposium on Architectural Support for Programming Languages and Operating Systems':'ASPLOS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ASPLOS-1982-BerenbaumCL,
 	author        = "<a href="person/Alan_D_Berenbaum.html">Alan D. Berenbaum</a> and <a href="person/Michael_W_Condry.html">Michael W. Condry</a> and <a href="person/Priscilla_M_Lu.html">Priscilla M. Lu</a>",
-	booktitle     = "{ASPLOS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Symposium on Architectural Support for Programming Languages and Operating Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/800050.801823">10.1145/800050.801823</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/800050.801823">http://doi.acm.org/10.1145/800050.801823</a>",
 </span>	pages         = "30--38",

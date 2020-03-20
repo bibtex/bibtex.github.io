@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1998/VLDB-1998/VLDB-1998-BelloDDFNSWZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1998\VLDB-1998\VLDB-1998-BelloDDFNSWZ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Randall G. Bello, Karl Dias, Alan Downing, James J. Feenan Jr., James L. Finnerty, William D. Norcott, Harry Sun, Andrew Witkowski, Mohamed Ziauddin<br/><em><a href="word/materi.html">Materialized</a> <a href="word/view.html">Views</a> in <a href="word/oracl.html">Oracle</a></em><br/>VLDB, 1998.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1998.html">VLDB 1998</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BelloDDFNSWZ98">DBLP</a><br/>
+<strong><a href="VLDB-1998.html">VLDB 1998</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BelloDDFNSWZ98">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Materialized+Views+in+Oracle%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1998/p659.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1998-BelloDDFNSWZ,
 	author        = "<a href="person/Randall_G_Bello.html">Randall G. Bello</a> and <a href="person/Karl_Dias.html">Karl Dias</a> and <a href="person/Alan_Downing.html">Alan Downing</a> and <a href="person/James_J_Feenan_Jr.html">James J. Feenan Jr.</a> and <a href="person/James_L_Finnerty.html">James L. Finnerty</a> and <a href="person/William_D_Norcott.html">William D. Norcott</a> and <a href="person/Harry_Sun.html">Harry Sun</a> and <a href="person/Andrew_Witkowski.html">Andrew Witkowski</a> and <a href="person/Mohamed_Ziauddin.html">Mohamed Ziauddin</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1998/p659.pdf">http://www.vldb.org/conf/1998/p659.pdf</a>",
 </span>	pages         = "659--664",
 	publisher     = "{Morgan Kaufmann}",

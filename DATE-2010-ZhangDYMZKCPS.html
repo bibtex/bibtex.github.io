@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-ZhangDYMZKCPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-ZhangDYMZKCPS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Yuanrui Zhang, Lanping Deng, Praveen Yedlapalli, Sai Prashanth Muralidhara, Hui Zhao, Mahmut T. Kandemir, Chaitali Chakrabarti, Nikos Pitsianis, Xiaobai Sun<br/><em>A <a href="word/special.html">special</a>-<a href="word/purpos.html">purpose</a> <a href="word/compil.html">compiler</a> for <a href="word/look.html">look</a>-<a href="word/up.html">up</a> <a href="word/tabl.html">table</a> and <a href="word/code.html">code</a> <a href="word/generat.html">generation</a> for <a href="word/function.html">function</a> <a href="word/evalu.html">evaluation</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ZhangDYMZKCPS10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ZhangDYMZKCPS10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+special-purpose+compiler+for+look-up+table+and+code+generation+for+function+evaluation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-ZhangDYMZKCPS,
 	author        = "<a href="person/Yuanrui_Zhang.html">Yuanrui Zhang</a> and <a href="person/Lanping_Deng.html">Lanping Deng</a> and <a href="person/Praveen_Yedlapalli.html">Praveen Yedlapalli</a> and <a href="person/Sai_Prashanth_Muralidhara.html">Sai Prashanth Muralidhara</a> and <a href="person/Hui_Zhao.html">Hui Zhao</a> and <a href="person/Mahmut_T_Kandemir.html">Mahmut T. Kandemir</a> and <a href="person/Chaitali_Chakrabarti.html">Chaitali Chakrabarti</a> and <a href="person/Nikos_Pitsianis.html">Nikos Pitsianis</a> and <a href="person/Xiaobai_Sun.html">Xiaobai Sun</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1130--1135",
 	publisher     = "{IEEE}",
 	title         = "{A special-purpose compiler for look-up table and code generation for function evaluation}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1977/DAC-1977/DAC-1977-PedroG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1977\DAC-1977\DAC-1977-PedroG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Teresa de Pedro, Ricardo García<br/><em><a href="word/docil.html">DOCIL</a>: An <a href="word/automat.html">automatic</a> <a href="word/system.html">system</a> for <a href="word/print.html">printed</a> <a href="word/circuit.html">circuit</a> <a href="word/board.html">board</a> (<a href="word/pcb.html">PCB</a>) <a href="word/design.html">designing</a>. A <a href="word/board.html">board</a> <a href="word/descript.html">description</a> <a href="word/languag.html">language</a> and an <a href="word/algorithm.html">algorithm</a> to <a href="word/connect.html">connect</a> a <a href="word/set.html">set</a> of <a href="word/point.html">points</a></em><br/>DAC, 1977.</h2>
 <div class="rbox">
-<strong><a href="DAC-1977.html">DAC 1977</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/PedroG77">DBLP</a><br/>
+<strong><a href="DAC-1977.html">DAC 1977</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/PedroG77">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22DOCIL:+An+automatic+system+for+printed+circuit+board+(PCB)+designing.+A+board+description+language+and+an+algorithm+to+connect+a+set+of+points%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1977-PedroG,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=809123">809123</a>",
 </span>	author        = "<a href="person/Teresa_de_Pedro.html">Teresa de Pedro</a> and <a href="person/Ricardo_Garcia.html">Ricardo García</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Design Automation Conference</span>}",
 	pages         = "174--181",
 	publisher     = "{ACM}",
 	title         = "{DOCIL: An automatic system for printed circuit board (PCB) designing. A board description language and an algorithm to connect a set of points}",

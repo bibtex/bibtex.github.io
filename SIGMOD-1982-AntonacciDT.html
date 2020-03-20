@@ -3,21 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="keywords" content="software linguistics, software language engineering, book of knowledge, glossary, academic publications, scientific research, open knowledge, open science"/>
-	<title>BibSLEIGH — A Territorial Database Management System (Abstract)</title>
+	<title>BibSLEIGH — A Territorial Database Management System</title>
 	<link href="stuff/bib.css" rel="stylesheet" type="text/css"/>
 	<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<script src="stuff/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/sigmod.png" alt="A Territorial Database Management System (Abstract)" title="A Territorial Database Management System (Abstract)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/sigmod.png" alt="A Territorial Database Management System" title="A Territorial Database Management System" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1982/SIGMOD-1982/SIGMOD-1982-AntonacciDT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1982\SIGMOD-1982\SIGMOD-1982-AntonacciDT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -30,25 +30,25 @@
 
 </div>
 <div class="main">
-<h2>Francesco Antonacci, P. Dell'Orco, Antonio Turtur<br/><em>A <a href="word/territori.html">Territorial</a> <a href="word/databas.html">Database</a> <a href="word/manag.html">Management</a> <a href="word/system.html">System</a> (<a href="word/abstract.html">Abstract</a>)</em><br/>SIGMOD, 1982.</h2>
+<h2>Francesco Antonacci, P. Dell'Orco, Antonio Turtur<br/><em>A <a href="word/territori.html">Territorial</a> <a href="word/databas.html">Database</a> <a href="word/manag.html">Management</a> <a href="word/system.html">System</a></em><br/>SIGMOD, 1982.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1982.html">SIGMOD 1982</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/AntonacciDT82">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22A+Territorial+Database+Management+System+(Abstract)%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/582353.582391">ACM DL</a><br/>
+<strong><a href="SIGMOD-1982.html">SIGMOD 1982</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/AntonacciDT82">DBLP</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22A+Territorial+Database+Management+System%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/582353.582391">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/582353.582391">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1982-AntonacciDT,
 	author        = "<a href="person/Francesco_Antonacci.html">Francesco Antonacci</a> and <a href="person/P_DellOrco.html">P. Dell'Orco</a> and <a href="person/Antonio_Turtur.html">Antonio Turtur</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD82/P213.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/582353.582391">10.1145/582353.582391</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/582353.582391">http://doi.acm.org/10.1145/582353.582391</a>",
 </span>	pages         = "213",
 	publisher     = "{ACM Press}",
-	title         = "{A Territorial Database Management System (Abstract)}",
+	title         = "{A Territorial Database Management System}",
 	year          = 1982,
 }</pre>
 </div>

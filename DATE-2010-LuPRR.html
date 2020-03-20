@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-LuPRR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-LuPRR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Chao Lu, Sang Phill Park, Vijay Raghunathan, Kaushik Roy<br/><em><a href="word/effici.html">Efficient</a> <a href="word/power.html">power</a> <a href="word/convers.html">conversion</a> for <a href="word/ultra.html">ultra</a> <a href="word/low.html">low</a> <a href="word/voltag.html">voltage</a> <a href="word/micro.html">micro</a> <a href="word/scale.html">scale</a> <a href="word/energi.html">energy</a> <a href="word/transduc.html">transducers</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/LuPRR10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/LuPRR10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Efficient+power+conversion+for+ultra+low+voltage+micro+scale+energy+transducers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-LuPRR,
 	author        = "<a href="person/Chao_Lu.html">Chao Lu</a> and <a href="person/Sang_Phill_Park.html">Sang Phill Park</a> and <a href="person/Vijay_Raghunathan.html">Vijay Raghunathan</a> and <a href="person/Kaushik_Roy.html">Kaushik Roy</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1602--1607",
 	publisher     = "{IEEE}",
 	title         = "{Efficient power conversion for ultra low voltage micro scale energy transducers}",

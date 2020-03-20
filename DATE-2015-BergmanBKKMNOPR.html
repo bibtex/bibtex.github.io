@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/DATE-2015/DATE-2015-BergmanBKKMNOPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\DATE-2015\DATE-2015-BergmanBKKMNOPR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Stephen Bergman, Gabor Bobok, Walter Kowalski, Shlomit Koyfman, Shiri Moran, Ziv Nevo, Avigail Orni, Viresh Paruthi, Wolfgang Roesner, Gil Shurek, Vasantha Vuyyuru<br/><em><a href="word/design.html">Designer</a>-<a href="word/level.html">level</a> <a href="word/verif.html">verification</a>: an <a href="word/industri.html">industrial</a> <a href="word/experi.html">experience</a> <a href="word/stori.html">story</a></em><br/>DATE, 2015.</h2>
 <div class="rbox">
-<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/BergmanBKKMNOPR15">DBLP</a><br/>
+<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/BergmanBKKMNOPR15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Designer-level+verification:+an+industrial+experience+story%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2015-BergmanBKKMNOPR,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2755846">2755846</a>",
 </span>	author        = "<a href="person/Stephen_Bergman.html">Stephen Bergman</a> and <a href="person/Gabor_Bobok.html">Gabor Bobok</a> and <a href="person/Walter_Kowalski.html">Walter Kowalski</a> and <a href="person/Shlomit_Koyfman.html">Shlomit Koyfman</a> and <a href="person/Shiri_Moran.html">Shiri Moran</a> and <a href="person/Ziv_Nevo.html">Ziv Nevo</a> and <a href="person/Avigail_Orni.html">Avigail Orni</a> and <a href="person/Viresh_Paruthi.html">Viresh Paruthi</a> and <a href="person/Wolfgang_Roesner.html">Wolfgang Roesner</a> and <a href="person/Gil_Shurek.html">Gil Shurek</a> and <a href="person/Vasantha_Vuyyuru.html">Vasantha Vuyyuru</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "410--411",
 	publisher     = "{ACM}",
 	title         = "{Designer-level verification: an industrial experience story}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1984/DAC-1984/DAC-1984-GuillaumeK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1984\DAC-1984\DAC-1984-GuillaumeK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>W. J. Guillaume, A. Kurylo<br/><em><a href="word/minuprox.html">MINUPROX</a> — an <a href="word/advanc.html">advanced</a> <a href="word/proxim.html">proximity</a> <a href="word/correct.html">correction</a> <a href="word/techniqu.html">technique</a> for the <a href="word/ibm.html">IBM</a> EL-2 <a href="word/electron.html">electron</a> <a href="word/beam.html">beam</a> <a href="word/tool.html">tool</a></em><br/>DAC, 1984.</h2>
 <div class="rbox">
-<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/GuillaumeK84">DBLP</a><br/>
+<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/GuillaumeK84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22MINUPROX+—+an+advanced+proximity+correction+technique+for+the+IBM+EL-2+electron+beam+tool%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1984-GuillaumeK,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=800837">800837</a>",
 </span>	author        = "<a href="person/W_J_Guillaume.html">W. J. Guillaume</a> and <a href="person/A_Kurylo.html">A. Kurylo</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st Design Automation Conference</span>}",
 	pages         = "452--453",
 	publisher     = "{ACM/IEEE}",
 	title         = "{MINUPROX — an advanced proximity correction technique for the IBM EL-2 electron beam tool}",

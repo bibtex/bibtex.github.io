@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE/2011/BX-2011/BX-2011-Wang.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE\2011\BX-2011\BX-2011-Wang.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,21 +36,21 @@
 <a href="https://scholar.google.com/scholar?q=%22Change-based+incremental+updates%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'Schloss Dagstuhl — Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Dagstuhl Seminar 11031 on Bidirectional Transformations':'BX');$('#publisher').text(this.checked?'Schloss Dagstuhl — Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2011-Wang,
 	address       = "Dagstuhl, Germany",
 	author        = "<a href="person/Meng_Wang.html">Meng Wang</a>",
-	booktitle     = "{Proceedings of the Dagstuhl Seminar 11031 on Bidirectional Transformations}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Dagstuhl Seminar 11031 on Bidirectional Transformations</span>}",
 	editor        = "<a href="person/Zhenjiang_Hu.html">Zhenjiang Hu</a> and <a href="person/Andy_Schuerr.html">Andy Schürr</a> and <a href="person/Perdita_Stevens.html">Perdita Stevens</a> and <a href="person/James_Terwilliger.html">James Terwilliger</a>",
 	month         = "jan",
-	number        = 1,
+	number        = "1",
 	pages         = "64",
 	publisher     = "{<span id="publisher">Schloss Dagstuhl — Leibniz-Zentrum für Informatik</span>}",
 	series        = "{Dagstuhl Reports}",
 	title         = "{Change-based incremental updates}",
-	volume        = 1,
+	volume        = "1",
 	year          = 2011,
 }</pre>
 </div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2002/VLDB-2002/VLDB-2002-KarayannidisTSPMRFEB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2002\VLDB-2002\VLDB-2002-KarayannidisTSPMRFEB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nikos Karayannidis, Aris Tsois, Timos K. Sellis, Roland Pieringer, Volker Markl, Frank Ramsak, Robert Fenk, Klaus Elhardt, Rudolf Bayer<br/><em><a href="word/process.html">Processing</a> <a href="word/star.html">Star</a> <a href="word/queri.html">Queries</a> on <a href="word/hierarch.html">Hierarchically</a>-<a href="word/cluster.html">Clustered</a> <a href="word/fact.html">Fact</a> <a href="word/tabl.html">Tables</a></em><br/>VLDB, 2002.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/KarayannidisTSPMRFEB02">DBLP</a><br/>
+<strong><a href="VLDB-2002.html">VLDB 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/KarayannidisTSPMRFEB02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Processing+Star+Queries+on+Hierarchically-Clustered+Fact+Tables%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2002/S21P01.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 28th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2002-KarayannidisTSPMRFEB,
 	author        = "<a href="person/Nikos_Karayannidis.html">Nikos Karayannidis</a> and <a href="person/Aris_Tsois.html">Aris Tsois</a> and <a href="person/Timos_K_Sellis.html">Timos K. Sellis</a> and <a href="person/Roland_Pieringer.html">Roland Pieringer</a> and <a href="person/Volker_Markl.html">Volker Markl</a> and <a href="person/Frank_Ramsak.html">Frank Ramsak</a> and <a href="person/Robert_Fenk.html">Robert Fenk</a> and <a href="person/Klaus_Elhardt.html">Klaus Elhardt</a> and <a href="person/Rudolf_Bayer.html">Rudolf Bayer</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 28th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2002/S21P01.pdf">http://www.vldb.org/conf/2002/S21P01.pdf</a>",
 </span>	pages         = "730--741",
 	publisher     = "{Morgan Kaufmann}",

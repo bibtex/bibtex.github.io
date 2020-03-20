@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2002/OSDI-2002/OSDI-2002-SaroiuGDGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2002\OSDI-2002\OSDI-2002-SaroiuGDGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Stefan Saroiu, P. Krishna Gummadi, Richard J. Dunn, Steven D. Gribble, Henry M. Levy<br/><em>An <a href="word/analysi.html">Analysis</a> of <a href="word/internet.html">Internet</a> <a href="word/content.html">Content</a> <a href="word/deliveri.html">Delivery</a> <a href="word/system.html">Systems</a></em><br/>OSDI, 2002.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2002.html">OSDI 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/SaroiuGDGL02">DBLP</a><br/>
+<strong><a href="OSDI-2002.html">OSDI 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/SaroiuGDGL02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+Analysis+of+Internet+Content+Delivery+Systems%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi02/tech/saroiu.html">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1145/1060289.1060319">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2002-SaroiuGDGL,
 	author        = "<a href="person/Stefan_Saroiu.html">Stefan Saroiu</a> and <a href="person/P_Krishna_Gummadi.html">P. Krishna Gummadi</a> and <a href="person/Richard_J_Dunn.html">Richard J. Dunn</a> and <a href="person/Steven_D_Gribble.html">Steven D. Gribble</a> and <a href="person/Henry_M_Levy.html">Henry M. Levy</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fifth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1060289.1060319">10.1145/1060289.1060319</a>",
 </span><span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi02/tech/saroiu.html">http://www.usenix.org/events/osdi02/tech/saroiu.html</a>",
 </span>	pages         = "315--327",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2012/OSDI-2012/OSDI-2012-NightingaleEFHHS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\OSDI-2012\OSDI-2012-NightingaleEFHHS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Edmund B. Nightingale, Jeremy Elson, Jinliang Fan, Owen S. Hofmann, Jon Howell, Yutaka Suzue<br/><em><a href="word/flat.html">Flat</a> <a href="word/datacent.html">Datacenter</a> <a href="word/storag.html">Storage</a></em><br/>OSDI, 2012.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2012.html">OSDI 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/NightingaleEFHHS12">DBLP</a><br/>
+<strong><a href="OSDI-2012.html">OSDI 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/NightingaleEFHHS12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Flat+Datacenter+Storage%22">Scholar</a><hr/><a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/nightingale">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2012-NightingaleEFHHS,
 	author        = "<a href="person/Edmund_B_Nightingale.html">Edmund B. Nightingale</a> and <a href="person/Jeremy_Elson.html">Jeremy Elson</a> and <a href="person/Jinliang_Fan.html">Jinliang Fan</a> and <a href="person/Owen_S_Hofmann.html">Owen S. Hofmann</a> and <a href="person/Jon_Howell.html">Jon Howell</a> and <a href="person/Yutaka_Suzue.html">Yutaka Suzue</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi12/technical-sessions/presentation/nightingale">https://www.usenix.org/conference/osdi12/technical-sessions/presentation/nightingale</a>",
 </span>	pages         = "1--15",
 	publisher     = "{USENIX Association}",

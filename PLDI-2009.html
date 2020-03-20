@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FCRC/2009/PLDI-2009.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLT\2009\PLDI-2009.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Michael Hind, Amer Diwan<br/><em>Proceedings of the 30th Conference on Programming Language Design and Implementation</em><br/>PLDI, 2009.</h2>
 <div class="rbox">
-<strong><a href="FCRC.html">FCRC</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pldi/2009">DBLP</a><br/>
+<strong><a href="PLT.html">PLT</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pldi/2009">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+30th+Conference+on+Programming+Language+Design+and+Implementation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 30th Conference on Programming Language Design and Implementation':'PLDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PLDI-2009,
 	address       = "Dublin, Ireland",
-	booktitle     = "{PLDI}",
 	editor        = "<a href="person/Michael_Hind.html">Michael Hind</a> and <a href="person/Amer_Diwan.html">Amer Diwan</a>",
 <span id="isbn">	isbn          = "978-1-60558-392-1",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 30th Conference on Programming Language Design and Implementation}",
+	title         = "{<span id="title">Proceedings of the 30th Conference on Programming Language Design and Implementation</span>}",
 	year          = 2009,
 }</pre>
 </div>
@@ -87,7 +86,7 @@
 <dt><a href="PLDI-2009-NovarkBZ.html">PLDI-2009-NovarkBZ</a> <span class="tag"><a href="tag/memory%20management.html" title="memory management">#memory management</a></span></dt><dd>Efficiently and precisely locating memory leaks and bloat (<abbr title="Gene Novark">GN</abbr>, <abbr title="Emery D. Berger">EDB</abbr>, <abbr title="Benjamin G. Zorn">BGZ</abbr>), pp. 397–407.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="PLDI-2009-ShachamVY.html">PLDI-2009-ShachamVY</a> <span class="tag"><a href="tag/adaptation.html" title="adaptation">#adaptation</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span></dt><dd>Chameleon: adaptive selection of collections (<abbr title="Ohad Shacham">OS</abbr>, <abbr title="Martin T. Vechev">MTV</abbr>, <abbr title="Eran Yahav">EY</abbr>), pp. 408–418.</dd> <div class="pagevis" style="width:10px"></div>
 <dt><a href="PLDI-2009-XuAMRS.html">PLDI-2009-XuAMRS</a> <span class="tag"><a href="tag/profiling.html" title="profiling">#profiling</a></span> <span class="tag"><a href="tag/runtime.html" title="runtime">#runtime</a></span></dt><dd>Go with the flow: profiling copies to find runtime bloat (<abbr title="Guoqing (Harry) Xu">G(X</abbr>, <abbr title="Matthew Arnold">MA</abbr>, <abbr title="Nick Mitchell">NM</abbr>, <abbr title="Atanas Rountev">AR</abbr>, <abbr title="Gary Sevitsky">GS</abbr>), pp. 419–430.</dd> <div class="pagevis" style="width:11px"></div>
-<dt><a href="PLDI-2009-SahaZCGYRFZRM.html">PLDI-2009-SahaZCGYRFZRM</a> <span class="tag"><a href="tag/framework.html" title="framework">#framework</a></span> <span class="tag"><a href="tag/programming.html" title="programming">#programming</a></span></dt><dd>Programming model for a heterogeneous x86 platform (<abbr title="Bratin Saha">BS</abbr>, <abbr title="Xiaocheng Zhou">XZ</abbr>, <abbr title="Hu Chen">HC</abbr>, <abbr title="Ying Gao">YG</abbr>, <abbr title="Shoumeng Yan">SY</abbr>, <abbr title="Mohan Rajagopalan">MR</abbr>, <abbr title="Jesse Fang">JF</abbr>, <abbr title="Peinan Zhang">PZ</abbr>, <abbr title="Ronny Ronen">RR</abbr>, <abbr title="Avi Mendelson">AM</abbr>), pp. 431–440.</dd> <div class="pagevis" style="width:9px"></div>
+<dt><a href="PLDI-2009-SahaZCGYRFZRM.html">PLDI-2009-SahaZCGYRFZRM</a> <span class="tag"><a href="tag/framework.html" title="framework">#framework</a></span> <span class="tag"><a href="tag/platform.html" title="platform">#platform</a></span> <span class="tag"><a href="tag/programming.html" title="programming">#programming</a></span></dt><dd>Programming model for a heterogeneous x86 platform (<abbr title="Bratin Saha">BS</abbr>, <abbr title="Xiaocheng Zhou">XZ</abbr>, <abbr title="Hu Chen">HC</abbr>, <abbr title="Ying Gao">YG</abbr>, <abbr title="Shoumeng Yan">SY</abbr>, <abbr title="Mohan Rajagopalan">MR</abbr>, <abbr title="Jesse Fang">JF</abbr>, <abbr title="Peinan Zhang">PZ</abbr>, <abbr title="Ronny Ronen">RR</abbr>, <abbr title="Avi Mendelson">AM</abbr>), pp. 431–440.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="PLDI-2009-TallentMF.html">PLDI-2009-TallentMF</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/metric.html" title="metric">#metric</a></span> <span class="tag"><a href="tag/performance.html" title="performance">#performance</a></span></dt><dd>Binary analysis for measurement and attribution of program performance (<abbr title="Nathan R. Tallent">NRT</abbr>, <abbr title="John M. Mellor-Crummey">JMMC</abbr>, <abbr title="Michael W. Fagan">MWF</abbr>), pp. 441–452.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="PLDI-2009-HoffmanEJ.html">PLDI-2009-HoffmanEJ</a> <span class="tag"><a href="tag/analysis.html" title="analysis">#analysis</a></span> <span class="tag"><a href="tag/semantics.html" title="semantics">#semantics</a></span></dt><dd>Semantics-aware trace analysis (<abbr title="Kevin J. Hoffman">KJH</abbr>, <abbr title="Patrick Eugster">PE</abbr>, <abbr title="Suresh Jagannathan">SJ</abbr>), pp. 453–464.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="PLDI-2009-GalESAMHKHZORSRBCF.html">PLDI-2009-GalESAMHKHZORSRBCF</a></dt><dd>Trace-based just-in-time type specialization for dynamic languages (<abbr title="Andreas Gal">AG</abbr>, <abbr title="Brendan Eich">BE</abbr>, <abbr title="Mike Shaver">MS</abbr>, <abbr title="David Anderson">DA</abbr>, <abbr title="David Mandelin">DM</abbr>, <abbr title="Mohammad R. Haghighat">MRH</abbr>, <abbr title="Blake Kaplan">BK</abbr>, <abbr title="Graydon Hoare">GH</abbr>, <abbr title="Boris Zbarsky">BZ</abbr>, <abbr title="Jason Orendorff">JO</abbr>, <abbr title="Jesse Ruderman">JR</abbr>, <abbr title="Edwin W. Smith">EWS</abbr>, <abbr title="Rick Reitmaier">RR</abbr>, <abbr title="Michael Bebenita">MB</abbr>, <abbr title="Mason Chang">MC</abbr>, <abbr title="Michael Franz">MF</abbr>), pp. 465–478.</dd> <div class="pagevis" style="width:13px"></div></dl>

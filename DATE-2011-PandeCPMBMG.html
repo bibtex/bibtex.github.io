@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-PandeCPMBMG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-PandeCPMBMG.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Partha Pratim Pande, Fabien Clermidy, Diego Puschini, Imen Mansouri, Paul Bogdan, Radu Marculescu, Amlan Ganguly<br/><em><a href="word/sustain.html">Sustainability</a> through <a href="word/massiv.html">massively</a> <a href="word/integr.html">integrated</a> <a href="word/comput.html">computing</a>: Are we <a href="word/readi.html">ready</a> to <a href="word/break.html">break</a> the <a href="word/energi.html">energy</a> <a href="word/effici.html">efficiency</a> <a href="word/wall.html">wall</a> for <a href="word/singl.html">single</a>-<a href="word/chip.html">chip</a> <a href="word/platform.html">platforms</a>?</em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/PandeCPMBMG11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/PandeCPMBMG11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Sustainability+through+massively+integrated+computing:+Are+we+ready+to+break+the+energy+efficiency+wall+for+single-chip+platforms?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-PandeCPMBMG,
 	author        = "<a href="person/Partha_Pratim_Pande.html">Partha Pratim Pande</a> and <a href="person/Fabien_Clermidy.html">Fabien Clermidy</a> and <a href="person/Diego_Puschini.html">Diego Puschini</a> and <a href="person/Imen_Mansouri.html">Imen Mansouri</a> and <a href="person/Paul_Bogdan.html">Paul Bogdan</a> and <a href="person/Radu_Marculescu.html">Radu Marculescu</a> and <a href="person/Amlan_Ganguly.html">Amlan Ganguly</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1656--1661",
 	publisher     = "{IEEE}",
 	title         = "{Sustainability through massively integrated computing: Are we ready to break the energy efficiency wall for single-chip platforms?}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1974/DAC-1974/DAC-1974-KozawaHISS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1974\DAC-1974\DAC-1974-KozawaHISS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Tokinori Kozawa, Hiroshi Horino, Tadakatu Ishiga, Jun'ya Sakemi, Shoji Sato<br/><em><a href="word/advanc.html">Advanced</a> <a href="word/lilac.html">LILAC</a> — an <a href="word/autom.html">Automated</a> <a href="word/layout.html">Layout</a> <a href="word/generat.html">Generation</a> <a href="word/system.html">system</a> for <a href="word/mos.html">MOS</a>/<a href="word/lsis.html">LSIs</a></em><br/>DAC, 1974.</h2>
 <div class="rbox">
-<strong><a href="DAC-1974.html">DAC 1974</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/KozawaHISS74">DBLP</a><br/>
+<strong><a href="DAC-1974.html">DAC 1974</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/KozawaHISS74">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Advanced+LILAC+—+an+Automated+Layout+Generation+system+for+MOS/LSIs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Design Automation Workshop':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1974-KozawaHISS,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=811373">811373</a>",
 </span>	author        = "<a href="person/Tokinori_Kozawa.html">Tokinori Kozawa</a> and <a href="person/Hiroshi_Horino.html">Hiroshi Horino</a> and <a href="person/Tadakatu_Ishiga.html">Tadakatu Ishiga</a> and <a href="person/Junya_Sakemi.html">Jun'ya Sakemi</a> and <a href="person/Shoji_Sato.html">Shoji Sato</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Design Automation Workshop</span>}",
 	pages         = "26--46",
 	publisher     = "{ACM}",
 	title         = "{Advanced LILAC — an Automated Layout Generation system for MOS/LSIs}",

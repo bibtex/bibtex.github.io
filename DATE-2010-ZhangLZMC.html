@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-ZhangLZMC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-ZhangLZMC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Botao Zhang, Hengzhu Liu, Heng Zhao, Fangzheng Mo, Ting Chen<br/><em><a href="word/domain.html">Domain</a> <a href="word/specif.html">specific</a> <a href="word/architectur.html">architecture</a> for <a href="word/next.html">next</a> <a href="word/generat.html">generation</a> <a href="word/wireless.html">wireless</a> <a href="word/communic.html">communication</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/ZhangLZMC10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/ZhangLZMC10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Domain+specific+architecture+for+next+generation+wireless+communication%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-ZhangLZMC,
 	author        = "<a href="person/Botao_Zhang.html">Botao Zhang</a> and <a href="person/Hengzhu_Liu.html">Hengzhu Liu</a> and <a href="person/Heng_Zhao.html">Heng Zhao</a> and <a href="person/Fangzheng_Mo.html">Fangzheng Mo</a> and <a href="person/Ting_Chen.html">Ting Chen</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1414--1419",
 	publisher     = "{IEEE}",
 	title         = "{Domain specific architecture for next generation wireless communication}",

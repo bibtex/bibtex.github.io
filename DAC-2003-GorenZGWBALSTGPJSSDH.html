@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2003/DAC-2003/DAC-2003-GorenZGWBALSTGPJSSDH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2003\DAC-2003\DAC-2003-GorenZGWBALSTGPJSSDH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>David Goren, Michael Zelikson, Rachel Gordin, Israel A. Wagner, Anastasia Barger, Alon Amir, Betty Livshitz, Anatoly Sherman, Youri Tretiakov, Robert A. Groves, J. Park, Donald L. Jordan, Sue E. Strang, Raminderpal Singh, Carl E. Dickey, David L. Harame<br/><em>On-<a href="word/chip.html">chip</a> <a href="word/interconnect.html">interconnect</a>-<a href="word/awar.html">aware</a> <a href="word/design.html">design</a> and <a href="word/model.html">modeling</a> <a href="word/methodolog.html">methodology</a>, <a href="word/base.html">based</a> on <a href="word/high.html">high</a> <a href="word/bandwidth.html">bandwidth</a> <a href="word/transmiss.html">transmission</a> <a href="word/line.html">line</a> <a href="word/devic.html">devices</a></em><br/>DAC, 2003.</h2>
 <div class="rbox">
-<strong><a href="DAC-2003.html">DAC 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/GorenZGWBALSTGPJSSDH03">DBLP</a><br/>
+<strong><a href="DAC-2003.html">DAC 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/GorenZGWBALSTGPJSSDH03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22On-chip+interconnect-aware+design+and+modeling+methodology,+based+on+high+bandwidth+transmission+line+devices%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/775832.776017">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/775832.776017">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 40th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2003-GorenZGWBALSTGPJSSDH,
 	author        = "<a href="person/David_Goren.html">David Goren</a> and <a href="person/Michael_Zelikson.html">Michael Zelikson</a> and <a href="person/Rachel_Gordin.html">Rachel Gordin</a> and <a href="person/Israel_A_Wagner.html">Israel A. Wagner</a> and <a href="person/Anastasia_Barger.html">Anastasia Barger</a> and <a href="person/Alon_Amir.html">Alon Amir</a> and <a href="person/Betty_Livshitz.html">Betty Livshitz</a> and <a href="person/Anatoly_Sherman.html">Anatoly Sherman</a> and <a href="person/Youri_Tretiakov.html">Youri Tretiakov</a> and <a href="person/Robert_A_Groves.html">Robert A. Groves</a> and <a href="person/J_Park.html">J. Park</a> and <a href="person/Donald_L_Jordan.html">Donald L. Jordan</a> and <a href="person/Sue_E_Strang.html">Sue E. Strang</a> and <a href="person/Raminderpal_Singh.html">Raminderpal Singh</a> and <a href="person/Carl_E_Dickey.html">Carl E. Dickey</a> and <a href="person/David_L_Harame.html">David L. Harame</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 40th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/775832.776017">10.1145/775832.776017</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/775832.776017">http://doi.acm.org/10.1145/775832.776017</a>",
 </span>	pages         = "724--727",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2009/KDD-2009/KDD-2009-HanhijarviOVPTM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2009\KDD-2009\KDD-2009-HanhijarviOVPTM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Sami Hanhijärvi, Markus Ojala, Niko Vuokko, Kai Puolamäki, Nikolaj Tatti, Heikki Mannila<br/><em><a href="word/tell.html">Tell</a> me <a href="word/someth.html">something</a> I <a href="word/don.html">don</a>’t <a href="word/know.html">know</a>: <a href="word/random.html">randomization</a> <a href="word/strategi.html">strategies</a> for <a href="word/iter.html">iterative</a> <a href="word/data.html">data</a> <a href="word/mine.html">mining</a></em><br/>KDD, 2009.</h2>
 <div class="rbox">
-<strong><a href="KDD-2009.html">KDD 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/HanhijarviOVPTM09">DBLP</a><br/>
+<strong><a href="KDD-2009.html">KDD 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/HanhijarviOVPTM09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Tell+me+something+I+don’t+know:+randomization+strategies+for+iterative+data+mining%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1557019.1557065">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1557019.1557065">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2009-HanhijarviOVPTM,
 	author        = "<a href="person/Sami_Hanhijaervi.html">Sami Hanhijärvi</a> and <a href="person/Markus_Ojala.html">Markus Ojala</a> and <a href="person/Niko_Vuokko.html">Niko Vuokko</a> and <a href="person/Kai_Puolamaeki.html">Kai Puolamäki</a> and <a href="person/Nikolaj_Tatti.html">Nikolaj Tatti</a> and <a href="person/Heikki_Mannila.html">Heikki Mannila</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1557019.1557065">10.1145/1557019.1557065</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1557019.1557065">http://doi.acm.org/10.1145/1557019.1557065</a>",
 </span>	pages         = "379--388",

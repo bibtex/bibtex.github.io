@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2001/ICDAR-2001/ICDAR-2001-TanabeYKMOI.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2001\ICDAR-2001\ICDAR-2001-TanabeYKMOI.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>K. Tanabe, M. Yoshihara, Hiroshi Kameya, Shunji Mori, S. Omata, T. Ito<br/><em><a href="word/automat.html">Automatic</a> <a href="word/signatur.html">Signature</a> <a href="word/verif.html">Verification</a> <a href="word/base.html">Based</a> on the <a href="word/dynam.html">Dynamic</a> <a href="word/featur.html">Feature</a> of <a href="word/pressur.html">Pressure</a></em><br/>ICDAR, 2001.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-2001.html">ICDAR 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/TanabeYKMOI01">DBLP</a><br/>
+<strong><a href="ICDAR-2001.html">ICDAR 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/TanabeYKMOI01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Signature+Verification+Based+on+the+Dynamic+Feature+of+Pressure%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/ICDAR.2001.953945">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/ICDAR.2001.953945">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Document Analysis and Recognition':'ICDAR');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-2001-TanabeYKMOI,
 	author        = "<a href="person/K_Tanabe.html">K. Tanabe</a> and <a href="person/M_Yoshihara.html">M. Yoshihara</a> and <a href="person/Hiroshi_Kameya.html">Hiroshi Kameya</a> and <a href="person/Shunji_Mori.html">Shunji Mori</a> and <a href="person/S_Omata.html">S. Omata</a> and <a href="person/T_Ito.html">T. Ito</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.2001.953945">10.1109/ICDAR.2001.953945</a>",
 </span>	pages         = "1045--1049",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

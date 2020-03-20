@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1996/DAC-1996/DAC-1996-CongH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1996\DAC-1996\DAC-1996-CongH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jason Cong, Yean-Yow Hwang<br/><em><a href="word/structur.html">Structural</a> <a href="word/gate.html">Gate</a> <a href="word/decomposit.html">Decomposition</a> for <a href="word/depth.html">Depth</a>-<a href="word/optim.html">Optimal</a> <a href="word/technolog.html">Technology</a> <a href="word/map.html">Mapping</a> in <a href="word/lut.html">LUT</a>-<a href="word/base.html">based</a> <a href="word/fpga.html">FPGA</a> <a href="word/design.html">Design</a></em><br/>DAC, 1996.</h2>
 <div class="rbox">
-<strong><a href="DAC-1996.html">DAC 1996</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/CongH96">DBLP</a><br/>
+<strong><a href="DAC-1996.html">DAC 1996</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/CongH96">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Structural+Gate+Decomposition+for+Depth-Optimal+Technology+Mapping+in+LUT-based+FPGA+Design%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/240518.240656">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/240518.240656">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 33rd Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1996-CongH,
 	author        = "<a href="person/Jason_Cong.html">Jason Cong</a> and <a href="person/Yean-Yow_Hwang.html">Yean-Yow Hwang</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 33rd Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/240518.240656">10.1145/240518.240656</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/240518.240656">http://doi.acm.org/10.1145/240518.240656</a>",
 </span>	pages         = "726--729",

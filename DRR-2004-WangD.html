@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/DRR-2004/DRR-2004-WangD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\DRR-2004\DRR-2004-WangD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Hua Wang, Xiaoqing Ding<br/><em><a href="word/comprehens.html">Comprehensive</a> <a href="word/print.html">printed</a> <a href="word/tibetan.html">Tibetan</a>/<a href="word/english.html">English</a> <a href="word/mix.html">mixed</a> <a href="word/text.html">text</a> <a href="word/segment.html">segmentation</a> <a href="word/method.html">method</a></em><br/>DRR, 2004.</h2>
 <div class="rbox">
-<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/WangD04">DBLP</a><br/>
+<strong><a href="DRR-2004.html">DRR 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/WangD04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Comprehensive+printed+Tibetan/English+mixed+text+segmentation+method%22">Scholar</a><hr/><a href="http://www.imaging.org/store/epub.cfm?abstrid=30461">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2004-WangD,
 	author        = "<a href="person/Hua_Wang.html">Hua Wang</a> and <a href="person/Xiaoqing_Ding.html">Xiaoqing Ding</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	ee            = "<a href="http://www.imaging.org/store/epub.cfm?abstrid=30461">http://www.imaging.org/store/epub.cfm?abstrid=30461</a>",
 </span>	pages         = "136--146",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{Comprehensive printed Tibetan/English mixed text segmentation method}",
-	volume        = 5296,
+	volume        = "5296",
 	year          = 2004,
 }</pre>
 </div>

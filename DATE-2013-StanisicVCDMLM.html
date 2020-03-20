@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2013/DATE-2013/DATE-2013-StanisicVCDMLM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2013\DATE-2013\DATE-2013-StanisicVCDMLM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Luka Stanisic, Brice Videau, Johan Cronsioe, Augustin Degomme, Vania Marangozova-Martin, Arnaud Legrand, Jean-François Méhaut<br/><em><a href="word/perform.html">Performance</a> <a href="word/analysi.html">analysis</a> of <a href="word/hpc.html">HPC</a> <a href="word/applic.html">applications</a> on <a href="word/low.html">low</a>-<a href="word/power.html">power</a> <a href="word/embed.html">embedded</a> <a href="word/platform.html">platforms</a></em><br/>DATE, 2013.</h2>
 <div class="rbox">
-<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/StanisicVCDMLM13">DBLP</a><br/>
+<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/StanisicVCDMLM13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Performance+analysis+of+HPC+applications+on+low-power+embedded+platforms%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2013-StanisicVCDMLM,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2485403">2485403</a>",
 </span>	author        = "<a href="person/Luka_Stanisic.html">Luka Stanisic</a> and <a href="person/Brice_Videau.html">Brice Videau</a> and <a href="person/Johan_Cronsioe.html">Johan Cronsioe</a> and <a href="person/Augustin_Degomme.html">Augustin Degomme</a> and <a href="person/Vania_Marangozova-Martin.html">Vania Marangozova-Martin</a> and <a href="person/Arnaud_Legrand.html">Arnaud Legrand</a> and <a href="person/Jean-Francois_Mehaut.html">Jean-François Méhaut</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "475--480",
 	publisher     = "{EDA Consortium San Jose, CA, USA / ACM DL}",
 	title         = "{Performance analysis of HPC applications on low-power embedded platforms}",

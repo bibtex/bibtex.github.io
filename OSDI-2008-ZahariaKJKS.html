@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2008/OSDI-2008/OSDI-2008-ZahariaKJKS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\OSDI-2008\OSDI-2008-ZahariaKJKS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Matei Zaharia, Andy Konwinski, Anthony D. Joseph, Randy H. Katz, Ion Stoica<br/><em><a href="word/improv.html">Improving</a> <a href="word/map.html">Map</a><a href="word/reduc.html">Reduce</a> <a href="word/perform.html">Performance</a> in <a href="word/heterogen.html">Heterogeneous</a> <a href="word/environ.html">Environments</a></em><br/>OSDI, 2008.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/ZahariaKJKS08">DBLP</a><br/>
+<strong><a href="OSDI-2008.html">OSDI 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/ZahariaKJKS08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Improving+MapReduce+Performance+in+Heterogeneous+Environments%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi08/tech/full_papers/zaharia/zaharia.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2008-ZahariaKJKS,
 	author        = "<a href="person/Matei_Zaharia.html">Matei Zaharia</a> and <a href="person/Andy_Konwinski.html">Andy Konwinski</a> and <a href="person/Anthony_D_Joseph.html">Anthony D. Joseph</a> and <a href="person/Randy_H_Katz.html">Randy H. Katz</a> and <a href="person/Ion_Stoica.html">Ion Stoica</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi08/tech/full_papers/zaharia/zaharia.pdf">http://www.usenix.org/events/osdi08/tech/full_papers/zaharia/zaharia.pdf</a>",
 </span>	pages         = "29--42",
 	publisher     = "{USENIX Association}",

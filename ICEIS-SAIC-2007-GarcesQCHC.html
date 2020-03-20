@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-SAIC-2007/ICEIS-SAIC-2007-GarcesQCHC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-SAIC-2007\ICEIS-SAIC-2007-GarcesQCHC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Alejandro Garcés, Ricardo Quirós, Miguel Chover, Joaquín Huerta, Emilio Camahort<br/><em>E-<a href="word/commerc.html">Commerce</a> <a href="word/transact.html">Transaction</a> <a href="word/model.html">Modeling</a> <a href="word/use.html">Using</a> <a href="word/moder.html">Moderately</a> <a href="word/open.html">Open</a> <a href="word/multi.html">Multi</a>-<a href="word/agent.html">Agent</a> <a href="word/system.html">Systems</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/GarcesQCHC07">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/GarcesQCHC07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22E-Commerce+Transaction+Modeling+Using+Moderately+Open+Multi-Agent+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2007-GarcesQCHC,
 	author        = "<a href="person/Alejandro_Garces.html">Alejandro Garcés</a> and <a href="person/Ricardo_Quiros.html">Ricardo Quirós</a> and <a href="person/Miguel_Chover.html">Miguel Chover</a> and <a href="person/Joaquin_Huerta.html">Joaquín Huerta</a> and <a href="person/Emilio_Camahort.html">Emilio Camahort</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "167--172",
 	title         = "{E-Commerce Transaction Modeling Using Moderately Open Multi-Agent Systems}",
 	year          = 2007,

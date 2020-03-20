@@ -6,7 +6,7 @@ h2>em>a:hover {color:#4CAF50;}
 .minibar div abbr {position:absolute; top:50px; left:0; color:#E53935; font-weight:bold;}
 .minibar div span {position:absolute; top:50px; left:0; font-weight:bold; font-size:smaller;}
 .minibar>img, .minibar>a>img {margin:2px;}
-.wider>a>img {margin-right:20px;}
+.wider>a>img {margin-right:25px;}
 .txt {float:left; background-color:#90A4AE; width:310px; margin:10px; height:140px; position:relative; border:solid #90A4AE 5px; overflow:hidden;}
 .txt * {margin:0;}
 .lespic {float:left; background:#212121; width:65px; margin:10px; height:65px; position:relative;}

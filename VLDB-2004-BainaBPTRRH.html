@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/VLDB-2004/VLDB-2004-BainaBPTRRH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\VLDB-2004\VLDB-2004-BainaBPTRRH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Karim Baïna, Boualem Benatallah, Hye-Young Paik, Farouk Toumani, Christophe Rey, Agnieszka Rutkowska, Bryan Harianto<br/><em>WS-<a href="word/catalog.html">Catalog</a><a href="word/net.html">Net</a>: An <a href="word/infrastructur.html">Infrastructure</a> for <a href="word/creat.html">Creating</a>, <a href="word/peer.html">Peering</a>, and <a href="word/queri.html">Querying</a> e-<a href="word/catalog.html">Catalog</a> <a href="word/communiti.html">Communities</a></em><br/>VLDB, 2004.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BainaBPTRRH04">DBLP</a><br/>
+<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BainaBPTRRH04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22WS-CatalogNet:+An+Infrastructure+for+Creating,+Peering,+and+Querying+e-Catalog+Communities%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2004/DEMP19.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2004-BainaBPTRRH,
 	author        = "<a href="person/Karim_Baina.html">Karim Baïna</a> and <a href="person/Boualem_Benatallah.html">Boualem Benatallah</a> and <a href="person/Hye-Young_Paik.html">Hye-Young Paik</a> and <a href="person/Farouk_Toumani.html">Farouk Toumani</a> and <a href="person/Christophe_Rey.html">Christophe Rey</a> and <a href="person/Agnieszka_Rutkowska.html">Agnieszka Rutkowska</a> and <a href="person/Bryan_Harianto.html">Bryan Harianto</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2004/DEMP19.PDF">http://www.vldb.org/conf/2004/DEMP19.PDF</a>",
 </span>	pages         = "1325--1328",
 	publisher     = "{Morgan Kaufmann}",

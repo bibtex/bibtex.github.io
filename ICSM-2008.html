@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL/2008/ICSM-2008.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL\2008\ICSM-2008.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,18 +32,17 @@
 <div class="main">
 <h2><br/><em>Proceedings of the 24th International Conference on Software Maintenance</em><br/>ICSM, 2008.</h2>
 <div class="rbox">
-<strong><a href="EVOL.html">EVOL</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icsm/2008">DBLP</a><br/>
+<strong><a href="EVOL.html">EVOL</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icsm/2008">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+24th+International+Conference+on+Software+Maintenance%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 24th International Conference on Software Maintenance':'ICSM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICSM-2008,
 	address       = "Beijing, China",
-	booktitle     = "{ICSM}",
 	publisher     = "{IEEE}",
-	title         = "{Proceedings of the 24th International Conference on Software Maintenance}",
+	title         = "{<span id="title">Proceedings of the 24th International Conference on Software Maintenance</span>}",
 	year          = 2008,
 }</pre>
 </div>
@@ -81,7 +80,7 @@
 <dt><a href="ICSM-2008-KnodelMR.html">ICSM-2008-KnodelMR</a> <span class="tag"><a href="tag/architecture.html" title="architecture">#architecture</a></span> <span class="tag"><a href="tag/empirical.html" title="empirical">#empirical</a></span> <span class="tag"><a href="tag/feedback.html" title="feedback">#feedback</a></span></dt><dd>Constructive architecture compliance checking — an experiment on support by live feedback (<abbr title="Jens Knodel">JK</abbr>, <abbr title="Dirk Muthig">DM</abbr>, <abbr title="Dominik Rost">DR</abbr>), pp. 287–296.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="ICSM-2008-YuJM.html">ICSM-2008-YuJM</a> <span class="tag"><a href="tag/maintenance.html" title="maintenance">#maintenance</a></span> <span class="tag"><a href="tag/traceability.html" title="traceability">#traceability</a></span></dt><dd>Traceability for the maintenance of secure software (<abbr title="Yijun Yu">YY</abbr>, <abbr title="Jan Jürjens">JJ</abbr>, <abbr title="John Mylopoulos">JM</abbr>), pp. 297–306.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="ICSM-2008-JiangHHF.html">ICSM-2008-JiangHHF</a> <span class="tag"><a href="tag/automation.html" title="automation">#automation</a></span> <span class="tag"><a href="tag/identification.html" title="identification">#identification</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span> <span class="tag"><a href="tag/testing.html" title="testing">#testing</a></span></dt><dd>Automatic identification of load testing problems (<abbr title="Zhen Ming Jiang">ZMJ</abbr>, <abbr title="Ahmed E. Hassan">AEH</abbr>, <abbr title="Gilbert Hamann">GH</abbr>, <abbr title="Parminder Flora">PF</abbr>), pp. 307–316.</dd> <div class="pagevis" style="width:9px"></div>
-<dt><a href="ICSM-2008-RiccaPT.html">ICSM-2008-RiccaPT</a> <span class="tag"><a href="tag/guidelines.html" title="guidelines">#guidelines</a></span> <span class="tag"><a href="tag/lessons%20learnt.html" title="lessons learnt">#lessons learnt</a></span> <span class="tag"><a href="tag/maintenance.html" title="maintenance">#maintenance</a></span></dt><dd>Guidelines on the use of Fit tables in software maintenance tasks: Lessons learned from 8 experiments (<abbr title="Filippo Ricca">FR</abbr>, <abbr title="Massimiliano Di Penta">MDP</abbr>, <abbr title="Marco Torchiano">MT</abbr>), pp. 317–326.</dd> <div class="pagevis" style="width:9px"></div>
+<dt><a href="ICSM-2008-RiccaPT.html">ICSM-2008-RiccaPT</a> <span class="tag"><a href="tag/guidelines.html" title="guidelines">#guidelines</a></span> <span class="tag"><a href="tag/lessons%20learnt.html" title="lessons learnt">#lessons learnt</a></span> <span class="tag"><a href="tag/maintenance.html" title="maintenance">#maintenance</a></span> <span class="tag"><a href="tag/using.html" title="using">#using</a></span></dt><dd>Guidelines on the use of Fit tables in software maintenance tasks: Lessons learned from 8 experiments (<abbr title="Filippo Ricca">FR</abbr>, <abbr title="Massimiliano Di Penta">MDP</abbr>, <abbr title="Marco Torchiano">MT</abbr>), pp. 317–326.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="ICSM-2008-FloresU.html">ICSM-2008-FloresU</a> <span class="tag"><a href="tag/assessment.html" title="assessment">#assessment</a></span> <span class="tag"><a href="tag/component.html" title="component">#component</a></span> <span class="tag"><a href="tag/process.html" title="process">#process</a></span> <span class="tag"><a href="tag/testing.html" title="testing">#testing</a></span></dt><dd>Testing-based assessment process for upgrading component systems (<abbr title="Andres Flores">AF</abbr>, <abbr title="Macario Polo Usaola">MPU</abbr>), pp. 327–336.</dd> <div class="pagevis" style="width:9px"></div>
 <dt><a href="ICSM-2008-BettenburgPZK.html">ICSM-2008-BettenburgPZK</a> <span class="tag"><a href="tag/debugging.html" title="debugging">#debugging</a></span> <span class="tag"><a href="tag/harmful.html" title="harmful">#harmful</a></span> <span class="tag"><a href="tag/question.html" title="question">#question</a></span></dt><dd>Duplicate bug reports considered harmful ... really? (<abbr title="Nicolas Bettenburg">NB</abbr>, <abbr title="Rahul Premraj">RP</abbr>, <abbr title="Thomas Zimmermann">TZ</abbr>, <abbr title="Sunghun Kim">SK</abbr>), pp. 337–345.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="ICSM-2008-MenziesM.html">ICSM-2008-MenziesM</a> <span class="tag"><a href="tag/assessment.html" title="assessment">#assessment</a></span> <span class="tag"><a href="tag/automation.html" title="automation">#automation</a></span> <span class="tag"><a href="tag/fault.html" title="fault">#fault</a></span></dt><dd>Automated severity assessment of software defect reports (<abbr title="Tim Menzies">TM</abbr>, <abbr title="Andrian Marcus">AM</abbr>), pp. 346–355.</dd> <div class="pagevis" style="width:9px"></div>

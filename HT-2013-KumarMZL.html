@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2013/HT-2013/HT-2013-KumarMZL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2013\HT-2013\HT-2013-KumarMZL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Shamanth Kumar, Fred Morstatter, Reza Zafarani, Huan Liu<br/><em><a href="word/whom.html">Whom</a> <a href="word/should.html">should</a> I <a href="word/follow.html">follow</a>?: <a href="word/identifi.html">identifying</a> <a href="word/relev.html">relevant</a> <a href="word/user.html">users</a> <a href="word/dure.html">during</a> <a href="word/crise.html">crises</a></em><br/>HT, 2013.</h2>
 <div class="rbox">
-<strong><a href="HT-2013.html">HT 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/KumarMZL13">DBLP</a><br/>
+<strong><a href="HT-2013.html">HT 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/KumarMZL13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Whom+should+I+follow?:+identifying+relevant+users+during+crises%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/2481492.2481507">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/2481492.2481507">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th Conference on Hypertext and Social Media':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-2013-KumarMZL,
 	author        = "<a href="person/Shamanth_Kumar.html">Shamanth Kumar</a> and <a href="person/Fred_Morstatter.html">Fred Morstatter</a> and <a href="person/Reza_Zafarani.html">Reza Zafarani</a> and <a href="person/Huan_Liu.html">Huan Liu</a>",
-	booktitle     = "{HT}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th Conference on Hypertext and Social Media</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2481492.2481507">10.1145/2481492.2481507</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/2481492.2481507">http://doi.acm.org/10.1145/2481492.2481507</a>",
 </span>	pages         = "139--147",

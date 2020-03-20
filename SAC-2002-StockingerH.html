@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SAC/2002/SAC-2002/SAC-2002-StockingerH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SAC\2002\SAC-2002\SAC-2002-StockingerH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Heinz Stockinger, Andrew Hanushevsky<br/><em><a href="word/http.html">HTTP</a> <a href="word/redirect.html">redirection</a> for <a href="word/replica.html">replica</a> <a href="word/catalogu.html">catalogue</a> <a href="word/lookup.html">lookups</a> in <a href="word/data.html">data</a> <a href="word/grid.html">grids</a></em><br/>SAC, 2002.</h2>
 <div class="rbox">
-<strong><a href="SAC-2002.html">SAC 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sac/StockingerH02">DBLP</a><br/>
+<strong><a href="SAC-2002.html">SAC 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sac/StockingerH02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22HTTP+redirection+for+replica+catalogue+lookups+in+data+grids%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/508791.508962">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/508791.508962">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Symposium on Applied Computing':'SAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SAC-2002-StockingerH,
 	author        = "<a href="person/Heinz_Stockinger.html">Heinz Stockinger</a> and <a href="person/Andrew_Hanushevsky.html">Andrew Hanushevsky</a>",
-	booktitle     = "{Proceedings of the 17th Symposium on Applied Computing}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Symposium on Applied Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/508791.508962">10.1145/508791.508962</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/508791.508962">http://doi.acm.org/10.1145/508791.508962</a>",
 </span>	pages         = "882--889",

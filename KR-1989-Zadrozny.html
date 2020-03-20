@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1989/KR-1989/KR-1989-Zadrozny.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1989\KR-1989\KR-1989-Zadrozny.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Wlodek Zadrozny<br/><em><a href="word/cardin.html">Cardinalities</a> and <a href="word/well.html">Well</a> <a href="word/order.html">Orderings</a> in a <a href="word/common.html">Common</a>-<a href="word/sens.html">Sense</a> <a href="word/set.html">Set</a> <a href="word/theori.html">Theory</a></em><br/>KR, 1989.</h2>
 <div class="rbox">
-<strong><a href="KR-1989.html">KR 1989</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/Zadrozny89">DBLP</a><br/>
+<strong><a href="KR-1989.html">KR 1989</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/Zadrozny89">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Cardinalities+and+Well+Orderings+in+a+Common-Sense+Set+Theory%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1989-Zadrozny,
 	author        = "<a href="person/Wlodek_Zadrozny.html">Wlodek Zadrozny</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "486--497",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Cardinalities and Well Orderings in a Common-Sense Set Theory}",

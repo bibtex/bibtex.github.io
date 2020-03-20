@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2012/OSDI-2012.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\OSDI-2012.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,23 +32,22 @@
 <div class="main">
 <h2>Chandu Thekkath, Amin Vahdat<br/><em>Proceedings of the 10th Symposium on Operating Systems Design and Implementation</em><br/>OSDI, 2012.</h2>
 <div class="rbox">
-<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/2012">DBLP</a><br/>
+<strong><a href="SYS.html">SYS</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/2012">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+10th+Symposium+on+Operating+Systems+Design+and+Implementation%22">Scholar</a><hr/><a href="https://www.usenix.org/publications/proceedings/?f[0]=im_group_audience%3A330">?EE?</a><br/>
 <a href="https://www.usenix.org/conference/osdi12">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 10th Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{OSDI-2012,
 	address       = "Hollywood, California, USA",
-	booktitle     = "{OSDI}",
 	editor        = "Chandu Thekkath and <a href="person/Amin_Vahdat.html">Amin Vahdat</a>",
 <span class="uri">	ee            = "<a href="https://www.usenix.org/publications/proceedings/?f[0]=im_group_audience%3A330">https://www.usenix.org/publications/proceedings/?f[0]=im_group_audience%3A330</a>",
 </span><span class="uri">	ee            = "<a href="https://www.usenix.org/conference/osdi12">https://www.usenix.org/conference/osdi12</a>",
 </span><span id="isbn">	isbn          = "978-1-931971-96-6",
 </span>	publisher     = "{USENIX Association}",
-	title         = "{Proceedings of the 10th Symposium on Operating Systems Design and Implementation}",
+	title         = "{<span id="title">Proceedings of the 10th Symposium on Operating Systems Design and Implementation</span>}",
 	year          = 2012,
 }</pre>
 </div>

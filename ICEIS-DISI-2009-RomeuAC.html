@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-DISI-2009/ICEIS-DISI-2009-RomeuAC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-DISI-2009\ICEIS-DISI-2009-RomeuAC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Leonardo Romeu, Jorge Audy, Andressa Covatti<br/><em><a href="word/integr.html">Integration</a> <a href="word/method.html">Method</a> <a href="word/among.html">Among</a> <a href="word/bsc.html">BSC</a>, <a href="word/cmmi.html">CMMI</a> and <a href="word/six.html">Six</a> <a href="word/sigma.html">Sigma</a> <a href="word/use.html">using</a> <a href="word/gqm.html">GQM</a> to <a href="word/support.html">Support</a> <a href="word/measur.html">Measurement</a> <a href="word/definit.html">Definition</a> (<a href="word/mibci.html">MIBCIS</a>)</em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-DISI-2009.html">ICEIS DISI 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/RomeuAC09">DBLP</a><br/>
+<strong><a href="ICEIS-DISI-2009.html">ICEIS DISI 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/RomeuAC09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Integration+Method+Among+BSC,+CMMI+and+Six+Sigma+using+GQM+to+Support+Measurement+Definition+(MIBCIS)%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI':'ICEIS DISI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-DISI-2009-RomeuAC,
 	author        = "<a href="person/Leonardo_Romeu.html">Leonardo Romeu</a> and <a href="person/Jorge_Audy.html">Jorge Audy</a> and <a href="person/Andressa_Covatti.html">Andressa Covatti</a>",
-	booktitle     = "{ICEIS (1)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 1: DISI</span>}",
 	pages         = "171--176",
 	title         = "{Integration Method Among BSC, CMMI and Six Sigma using GQM to Support Measurement Definition (MIBCIS)}",
 	year          = 2009,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL/2015/SCAM-2015/SCAM-2015-BlazyRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/EVOL\2015\SCAM-2015\SCAM-2015-BlazyRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sandrine Blazy, Stéphanie Riaud, Thomas Sirvent<br/><em><a href="word/data.html">Data</a> <a href="word/taint.html">tainting</a> and <a href="word/obfusc.html">obfuscation</a>: <a href="word/improv.html">Improving</a> <a href="word/plausibl.html">plausibility</a> of <a href="word/incorrect.html">incorrect</a> <a href="word/taint.html">taint</a></em><br/>SCAM, 2015.</h2>
 <div class="rbox">
-<strong><a href="SCAM-2015.html">SCAM 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/scam/BlazyRS15">DBLP</a><br/>
+<strong><a href="SCAM-2015.html">SCAM 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/scam/BlazyRS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Data+tainting+and+obfuscation:+Improving+plausibility+of+incorrect+taint%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/SCAM.2015.7335407">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Working Conference on Source Code Analysis and Manipulation':'SCAM');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SCAM-2015-BlazyRS,
 	author        = "<a href="person/Sandrine_Blazy.html">Sandrine Blazy</a> and <a href="person/Stephanie_Riaud.html">Stéphanie Riaud</a> and <a href="person/Thomas_Sirvent.html">Thomas Sirvent</a>",
-	booktitle     = "{SCAM}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Working Conference on Source Code Analysis and Manipulation</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/SCAM.2015.7335407">10.1109/SCAM.2015.7335407</a>",
 </span>	pages         = "111--120",
 	publisher     = "{IEEE}",

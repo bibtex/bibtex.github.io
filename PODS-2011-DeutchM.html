@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2011/PODS-2011/PODS-2011-DeutchM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2011\PODS-2011\PODS-2011-DeutchM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Daniel Deutch, Tova Milo<br/><em>A <a href="word/quest.html">quest</a> for <a href="word/beauti.html">beauty</a> and <a href="word/wealth.html">wealth</a> (or, <a href="word/busi.html">business</a> <a href="word/process.html">processes</a> for <a href="word/databas.html">database</a> <a href="word/research.html">researchers</a>)</em><br/>PODS, 2011.</h2>
 <div class="rbox">
-<strong><a href="PODS-2011.html">PODS 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/pods/DeutchM11">DBLP</a><br/>
+<strong><a href="PODS-2011.html">PODS 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/pods/DeutchM11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+quest+for+beauty+and+wealth+(or,+business+processes+for+database+researchers)%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/1989284.1989286">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/1989284.1989286">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th Symposium on Principles of Database Systems':'PODS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{PODS-2011-DeutchM,
 	author        = "<a href="person/Daniel_Deutch.html">Daniel Deutch</a> and <a href="person/Tova_Milo.html">Tova Milo</a>",
-	booktitle     = "{PODS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th Symposium on Principles of Database Systems</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1989284.1989286">10.1145/1989284.1989286</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/1989284.1989286">http://doi.acm.org/10.1145/1989284.1989286</a>",
 </span>	pages         = "1--12",

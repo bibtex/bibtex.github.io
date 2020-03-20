@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1983/DAC-1983/DAC-1983-StebniskyMWPF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1983\DAC-1983\DAC-1983-StebniskyMWPF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>M. W. Stebnisky, M. J. McGinnis, Joseph C. Werbickas, Rathin Putatunda, A. Feller<br/><em><a href="word/apss.html">APSS</a>: An <a href="word/automat.html">automatic</a> <a href="word/pla.html">PLA</a> <a href="word/synthesi.html">synthesis</a> <a href="word/system.html">system</a></em><br/>DAC, 1983.</h2>
 <div class="rbox">
-<strong><a href="DAC-1983.html">DAC 1983</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/StebniskyMWPF83">DBLP</a><br/>
+<strong><a href="DAC-1983.html">DAC 1983</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/StebniskyMWPF83">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22APSS:+An+automatic+PLA+synthesis+system%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1983-StebniskyMWPF,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=800703">800703</a>",
 </span>	author        = "<a href="person/M_W_Stebnisky.html">M. W. Stebnisky</a> and <a href="person/M_J_McGinnis.html">M. J. McGinnis</a> and <a href="person/Joseph_C_Werbickas.html">Joseph C. Werbickas</a> and <a href="person/Rathin_Putatunda.html">Rathin Putatunda</a> and <a href="person/A_Feller.html">A. Feller</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th Design Automation Conference</span>}",
 	pages         = "430--435",
 	publisher     = "{ACM/IEEE}",
 	title         = "{APSS: An automatic PLA synthesis system}",

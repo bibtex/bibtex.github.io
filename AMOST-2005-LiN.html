@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/2005/AMOST-2005/AMOST-2005-LiN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\2005\AMOST-2005\AMOST-2005-LiN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Xing Li, Ramesh Nagarajan<br/><em><a href="word/model.html">Modeling</a> for <a href="word/imag.html">image</a> <a href="word/process.html">processing</a> <a href="word/system.html">system</a> <a href="word/valid.html">validation</a>, <a href="word/verif.html">verification</a> and <a href="word/test.html">testing</a></em><br/>AMOST, 2005.</h2>
 <div class="rbox">
-<strong><a href="AMOST-2005.html">AMOST 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/amost/LiN05">DBLP</a><br/>
+<strong><a href="AMOST-2005.html">AMOST 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/amost/LiN05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Modeling+for+image+processing+system+validation,+verification+and+testing%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/1083274.1083290">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First Workshop on Advances in Model-Based Software Testing':'A-MOST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AMOST-2005-LiN,
 	author        = "<a href="person/Xing_Li.html">Xing Li</a> and <a href="person/Ramesh_Nagarajan.html">Ramesh Nagarajan</a>",
-	booktitle     = "{A-MOST}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First Workshop on Advances in Model-Based Software Testing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/1083274.1083290">10.1145/1083274.1083290</a>",
 </span>	publisher     = "{ACM}",
 	title         = "{Modeling for image processing system validation, verification and testing}",

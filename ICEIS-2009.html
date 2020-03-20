@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-2009.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-2009.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,20 +36,19 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+International+Conference+on+Enterprise+Information+Systems,+Keynote+Lectures%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Keynote Lectures':'ICEIS Keynotes');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICEIS-2009,
 	address       = "Milan, Italy",
-	booktitle     = "{ICEIS Keynotes}",
 	editor        = "José Cordeiro and <a href="person/Joaquim_Filipe.html">Joaquim Filipe</a>",
 <span id="isbn">	isbn          = "978-989-8111-85-2",
-</span>	title         = "{Proceedings of the 11th International Conference on Enterprise Information Systems, Keynote Lectures}",
+</span>	title         = "{<span id="title">Proceedings of the 11th International Conference on Enterprise Information Systems, Keynote Lectures</span>}",
 	year          = 2009,
 }</pre>
 </div>
 <hr/>
-<h3>Contents (7 items)</h3><dl class="toc"><dt><a href="ICEIS-DISI-2009-Geczy.html">ICEIS-DISI-2009-Geczy</a> <span class="tag"><a href="tag/behaviour.html" title="behaviour">#behaviour</a></span> <span class="tag"><a href="tag/interactive.html" title="interactive">#interactive</a></span> <span class="tag"><a href="tag/web.html" title="web">#web</a></span></dt><dd>Human Behavior and Interactions in Web Environments (<abbr title="Peter Géczy">PG</abbr>), pp. 5–6.</dd> <div class="pagevis" style="width:1px"></div>
+<h3>Contents (7 items)</h3><dl class="toc"><div class="rbox"><span class="tag">2 ×<a href="tag/web.html">#web</a></span><br/></div><dt><a href="ICEIS-DISI-2009-Geczy.html">ICEIS-DISI-2009-Geczy</a> <span class="tag"><a href="tag/behaviour.html" title="behaviour">#behaviour</a></span> <span class="tag"><a href="tag/interactive.html" title="interactive">#interactive</a></span> <span class="tag"><a href="tag/web.html" title="web">#web</a></span></dt><dd>Human Behavior and Interactions in Web Environments (<abbr title="Peter Géczy">PG</abbr>), pp. 5–6.</dd> <div class="pagevis" style="width:1px"></div>
 <dt><a href="ICEIS-DISI-2009-Matsumoto.html">ICEIS-DISI-2009-Matsumoto</a></dt><dd>Service Computing EIS, World Panic and our Role Change (<abbr title="Masao J. Matsumoto">MJM</abbr>), pp. 7–15.</dd> <div class="pagevis" style="width:8px"></div>
 <dt><a href="ICEIS-DISI-2009-Missikoff.html">ICEIS-DISI-2009-Missikoff</a> <span class="tag"><a href="tag/exclamation.html" title="exclamation">#exclamation</a></span> <span class="tag"><a href="tag/question.html" title="question">#question</a></span> <span class="tag"><a href="tag/semantics.html" title="semantics">#semantics</a></span></dt><dd>Let’s Semanticise the World!!...or not?? (<abbr title="Michele Missikoff">MM</abbr>), pp. 17–24.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="ICEIS-DISI-2009-Pernici.html">ICEIS-DISI-2009-Pernici</a> <span class="tag"><a href="tag/adaptation.html" title="adaptation">#adaptation</a></span> <span class="tag"><a href="tag/design.html" title="design">#design</a></span> <span class="tag"><a href="tag/web.html" title="web">#web</a></span> <span class="tag"><a href="tag/web%20service.html" title="web service">#web service</a></span></dt><dd>Design of Adaptive Web Services (<abbr title="Barbara Pernici">BP</abbr>), p. 25.</dd> <div class="pagevis" style="width:0px"></div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/CASE-2015/CASE-2015-SuWCRT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\CASE-2015\CASE-2015-SuWCRT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Shun-Feng Su, Ko-Jie Wang, Ming-Chang Chen, Imre J. Rudas, Ching-Chih Tsai<br/><em><a href="word/adapt.html">Adaptive</a> PD <a href="word/fuzzi.html">fuzzy</a> <a href="word/control.html">control</a> with <a href="word/dynam.html">dynamic</a> <a href="word/learn.html">learning</a> <a href="word/rate.html">rate</a> for <a href="word/two.html">two</a>-<a href="word/wheel.html">wheeled</a> <a href="word/balanc.html">balancing</a> <a href="word/six.html">six</a> <a href="word/degre.html">degrees</a> of <a href="word/freedom.html">freedom</a> <a href="word/robot.html">robotic</a> <a href="word/arm.html">arm</a></em><br/>CASE, 2015.</h2>
 <div class="rbox">
-<strong><a href="CASE-2015.html">CASE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/SuWCRT15">DBLP</a><br/>
+<strong><a href="CASE-2015.html">CASE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/SuWCRT15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Adaptive+PD+fuzzy+control+with+dynamic+learning+rate+for+two-wheeled+balancing+six+degrees+of+freedom+robotic+arm%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2015.7294271">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2015-SuWCRT,
 	author        = "<a href="person/Shun-Feng_Su.html">Shun-Feng Su</a> and <a href="person/Ko-Jie_Wang.html">Ko-Jie Wang</a> and <a href="person/Ming-Chang_Chen.html">Ming-Chang Chen</a> and <a href="person/Imre_J_Rudas.html">Imre J. Rudas</a> and <a href="person/Ching-Chih_Tsai.html">Ching-Chih Tsai</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2015.7294271">10.1109/CoASE.2015.7294271</a>",
 </span>	pages         = "1258--1261",
 	publisher     = "{IEEE}",

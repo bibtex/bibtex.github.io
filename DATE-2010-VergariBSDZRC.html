@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-VergariBSDZRC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-VergariBSDZRC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Fabio Vergari, Sara Bartolini, Federico Spadini, Alfredo D'Elia, Guido Zamagni, Luca Roffia, Tullio Salmon Cinotti<br/><em>A <a href="word/smart.html">Smart</a> <a href="word/space.html">Space</a> <a href="word/applic.html">application</a> to <a href="word/dynam.html">dynamically</a> <a href="word/relat.html">relate</a> <a href="word/medic.html">medical</a> and <a href="word/environment.html">environmental</a> <a href="word/inform.html">information</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/VergariBSDZRC10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/VergariBSDZRC10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Smart+Space+application+to+dynamically+relate+medical+and+environmental+information%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-VergariBSDZRC,
 	author        = "<a href="person/Fabio_Vergari.html">Fabio Vergari</a> and <a href="person/Sara_Bartolini.html">Sara Bartolini</a> and <a href="person/Federico_Spadini.html">Federico Spadini</a> and <a href="person/Alfredo_DElia.html">Alfredo D'Elia</a> and <a href="person/Guido_Zamagni.html">Guido Zamagni</a> and <a href="person/Luca_Roffia.html">Luca Roffia</a> and <a href="person/Tullio_Salmon_Cinotti.html">Tullio Salmon Cinotti</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1542--1547",
 	publisher     = "{IEEE}",
 	title         = "{A Smart Space application to dynamically relate medical and environmental information}",

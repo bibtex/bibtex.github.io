@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP/1980/LISP-1980.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/FP\1980\LISP-1980.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,13 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+1980+LISP+Conference%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 1980 LISP Conference':'LISP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{LISP-1980,
-	booktitle     = "{LISP}",
 	editor        = "Ruth E. Davis and <a href="person/John_R_Allen.html">John R. Allen</a>",
-	title         = "{Proceedings of the 1980 LISP Conference}",
+	title         = "{<span id="title">Proceedings of the 1980 LISP Conference</span>}",
 	year          = 1980,
 }</pre>
 </div>
@@ -76,7 +75,7 @@
 <dt><a href="LISP-1980-Rowan.html">LISP-1980-Rowan</a> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span> <span class="tag"><a href="tag/lisp.html" title="lisp">#lisp</a></span></dt><dd>A LISP Compiler Producing Compact Code (<abbr title="W. Rowan">WR</abbr>), pp. 216–222.</dd> <div class="pagevis" style="width:6px"></div>
 <dt><a href="LISP-1980-MasinterD.html">LISP-1980-MasinterD</a> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span> <span class="tag"><a href="tag/lisp.html" title="lisp">#lisp</a></span> <span class="tag"><a href="tag/optimisation.html" title="optimisation">#optimisation</a></span></dt><dd>Local Optimization in a Compiler for Stack-based LISP Machines (<abbr title="Larry Masinter">LM</abbr>, <abbr title="L. Peter Deutsch">LPD</abbr>), pp. 223–230.</dd> <div class="pagevis" style="width:7px"></div>
 <dt><a href="LISP-1980-Deutsch.html">LISP-1980-Deutsch</a> <span class="tag"><a href="tag/implementation.html" title="implementation">#implementation</a></span></dt><dd>ByteLisp and its Alto Implementation (<abbr title="L. Peter Deutsch">LPD</abbr>), pp. 231–242.</dd> <div class="pagevis" style="width:11px"></div>
-<dt><a href="LISP-1980-BurtonMBHKS.html">LISP-1980-BurtonMBHKS</a> <span class="tag"><a href="tag/bibliography.html" title="bibliography">#bibliography</a></span> <span class="tag"><a href="tag/lisp.html" title="lisp">#lisp</a></span></dt><dd>Overview and Status of DoradoLISP (<abbr title="Richard R. Burton">RRB</abbr>, <abbr title="Larry Masinter">LM</abbr>, <abbr title="Daniel G. Bobrow">DGB</abbr>, <abbr title="W. Haugeland">WH</abbr>, <abbr title="Ronald M. Kaplan">RMK</abbr>, <abbr title="B. A. Sheil">BAS</abbr>), p. 243–?.</dd> </dl>
+<dt><a href="LISP-1980-BurtonMBHKS.html">LISP-1980-BurtonMBHKS</a> <span class="tag"><a href="tag/lisp.html" title="lisp">#lisp</a></span> <span class="tag"><a href="tag/overview.html" title="overview">#overview</a></span></dt><dd>Overview and Status of DoradoLISP (<abbr title="Richard R. Burton">RRB</abbr>, <abbr title="Larry Masinter">LM</abbr>, <abbr title="Daniel G. Bobrow">DGB</abbr>, <abbr title="W. Haugeland">WH</abbr>, <abbr title="Ronald M. Kaplan">RMK</abbr>, <abbr title="B. A. Sheil">BAS</abbr>), p. 243–?.</dd> </dl>
 </div>
 <hr style="clear:both"/>
 <div class="last">

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/VLDB-2000/VLDB-2000-PfoserJT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\VLDB-2000\VLDB-2000-PfoserJT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Dieter Pfoser, Christian S. Jensen, Yannis Theodoridis<br/><em><a href="word/novel.html">Novel</a> <a href="word/approach.html">Approaches</a> in <a href="word/queri.html">Query</a> <a href="word/process.html">Processing</a> for <a href="word/move.html">Moving</a> <a href="word/object.html">Object</a> <a href="word/trajectori.html">Trajectories</a></em><br/>VLDB, 2000.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/PfoserJT00">DBLP</a><br/>
+<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/PfoserJT00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Novel+Approaches+in+Query+Processing+for+Moving+Object+Trajectories%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2000/P395.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2000-PfoserJT,
 	author        = "<a href="person/Dieter_Pfoser.html">Dieter Pfoser</a> and <a href="person/Christian_S_Jensen.html">Christian S. Jensen</a> and <a href="person/Yannis_Theodoridis.html">Yannis Theodoridis</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2000/P395.pdf">http://www.vldb.org/conf/2000/P395.pdf</a>",
 </span>	pages         = "395--406",
 	publisher     = "{Morgan Kaufmann}",

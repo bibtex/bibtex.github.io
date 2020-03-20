@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2007/DAC-2007/DAC-2007-SarnoHLLLRCLY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2007\DAC-2007\DAC-2007-SarnoHLLLRCLY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Lauren Sarno, Wen-mei W. Hwu, Craig Lund, Markus Levy, James R. Larus, James Reinders, Gordon Cameron, Chris Lennard, Takashi Yoshimori<br/><em><a href="word/corezilla.html">Corezilla</a>: <a href="word/build.html">Build</a> and <a href="word/tame.html">Tame</a> the <a href="word/multicor.html">Multicore</a> <a href="word/beast.html">Beast</a>?</em><br/>DAC, 2007.</h2>
 <div class="rbox">
-<strong><a href="DAC-2007.html">DAC 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/SarnoHLLLRCLY07">DBLP</a><br/>
+<strong><a href="DAC-2007.html">DAC 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/SarnoHLLLRCLY07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Corezilla:+Build+and+Tame+the+Multicore+Beast?%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 44th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2007-SarnoHLLLRCLY,
 	author        = "<a href="person/Lauren_Sarno.html">Lauren Sarno</a> and <a href="person/Wen-mei_W_Hwu.html">Wen-mei W. Hwu</a> and <a href="person/Craig_Lund.html">Craig Lund</a> and <a href="person/Markus_Levy.html">Markus Levy</a> and <a href="person/James_R_Larus.html">James R. Larus</a> and <a href="person/James_Reinders.html">James Reinders</a> and <a href="person/Gordon_Cameron.html">Gordon Cameron</a> and <a href="person/Chris_Lennard.html">Chris Lennard</a> and <a href="person/Takashi_Yoshimori.html">Takashi Yoshimori</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 44th Design Automation Conference</span>}",
 	pages         = "632--633",
 	publisher     = "{IEEE}",
 	title         = "{Corezilla: Build and Tame the Multicore Beast?}",

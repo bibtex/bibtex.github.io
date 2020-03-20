@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/DATE-2014/DATE-2014-SchlichtmannKAEGGHNW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\DATE-2014\DATE-2014-SchlichtmannKAEGGHNW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ulf Schlichtmann, Veit Kleeberger, Jacob A. Abraham, Adrian Evans, Christina Gimmler-Dumont, Michael Glaß, Andreas Herkersdorf, Sani R. Nassif, Norbert Wehn<br/><em><a href="word/connect.html">Connecting</a> <a href="word/differ.html">different</a> <a href="word/world.html">worlds</a> — <a href="word/technolog.html">Technology</a> <a href="word/abstract.html">abstraction</a> for <a href="word/reliabl.html">reliability</a>-<a href="word/awar.html">aware</a> <a href="word/design.html">design</a> and <a href="word/test.html">Test</a></em><br/>DATE, 2014.</h2>
 <div class="rbox">
-<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/SchlichtmannKAEGGHNW14">DBLP</a><br/>
+<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/SchlichtmannKAEGGHNW14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Connecting+different+worlds+—+Technology+abstraction+for+reliability-aware+design+and+Test%22">Scholar</a><hr/><a href="http://dx.doi.org/10.7873/DATE.2014.265">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2014-SchlichtmannKAEGGHNW,
 	author        = "<a href="person/Ulf_Schlichtmann.html">Ulf Schlichtmann</a> and <a href="person/Veit_Kleeberger.html">Veit Kleeberger</a> and <a href="person/Jacob_A_Abraham.html">Jacob A. Abraham</a> and <a href="person/Adrian_Evans.html">Adrian Evans</a> and <a href="person/Christina_Gimmler-Dumont.html">Christina Gimmler-Dumont</a> and <a href="person/Michael_Glass.html">Michael Glaß</a> and <a href="person/Andreas_Herkersdorf.html">Andreas Herkersdorf</a> and <a href="person/Sani_R_Nassif.html">Sani R. Nassif</a> and <a href="person/Norbert_Wehn.html">Norbert Wehn</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.7873/DATE.2014.265">10.7873/DATE.2014.265</a>",
 </span>	pages         = "1--8",
 	publisher     = "{IEEE}",

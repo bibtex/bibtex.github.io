@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE/2008/BX-2008/BX-2008-Wasowski.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/MDE\2008\BX-2008\BX-2008-Wasowski.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Models+and+Transformations+Short+Talk+4%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the GRACE International Meeting on Bidirectional Transformations':'BX');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{BX-2008-Wasowski,
 	address       = "Shonan, Japan",
 	author        = "<a href="person/Andrzej_Wasowski.html">Andrzej Wasowski</a>",
-	booktitle     = "{Proceedings of the GRACE International Meeting on Bidirectional Transformations}",
+	booktitle     = "{<span id="booktitle">Proceedings of the GRACE International Meeting on Bidirectional Transformations</span>}",
 	editor        = "<a href="person/Krzysztof_Czarnecki.html">Krzysztof Czarnecki</a> and <a href="person/J_Nathan_Foster.html">J. Nathan Foster</a> and <a href="person/Zhenjiang_Hu.html">Zhenjiang Hu</a> and <a href="person/Ralf_Laemmel.html">Ralf Lämmel</a> and <a href="person/Andy_Schuerr.html">Andy Schürr</a> and <a href="person/James_F_Terwilliger.html">James F. Terwilliger</a>",
 	month         = "dec",
 	pages         = "25",

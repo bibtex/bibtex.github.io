@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2002/ICEIS-2002/ICEIS-2002-ViaeneBDVP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2002\ICEIS-2002\ICEIS-2002-ViaeneBDVP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Stijn Viaene, Bart Baesens, Guido Dedene, Jan Vanthienen, Dirk Van den Poel<br/><em><a href="word/proof.html">Proof</a> <a href="word/run.html">Running</a> <a href="word/two.html">Two</a> <a href="word/state.html">State</a>-Of-The-<a href="word/art.html">Art</a> <a href="word/pattern.html">Pattern</a> <a href="word/recognit.html">Recognition</a> <a href="word/techniqu.html">Techniques</a> in the <a href="word/field.html">Field</a> of <a href="word/direct.html">Direct</a> <a href="word/market.html">Marketing</a></em><br/>ICEIS, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/ViaeneBDVP02">DBLP</a><br/>
+<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/ViaeneBDVP02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proof+Running+Two+State-Of-The-Art+Pattern+Recognition+Techniques+in+the+Field+of+Direct+Marketing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2002-ViaeneBDVP,
 	author        = "<a href="person/Stijn_Viaene.html">Stijn Viaene</a> and <a href="person/Bart_Baesens.html">Bart Baesens</a> and <a href="person/Guido_Dedene.html">Guido Dedene</a> and <a href="person/Jan_Vanthienen.html">Jan Vanthienen</a> and <a href="person/Dirk_Van_den_Poel.html">Dirk Van den Poel</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Enterprise Information Systems</span>}",
 	pages         = "446--454",
 	title         = "{Proof Running Two State-Of-The-Art Pattern Recognition Techniques in the Field of Direct Marketing}",
 	year          = 2002,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1991/KR-1991/KR-1991-Gruber.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1991\KR-1991\KR-1991-Gruber.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Thomas R. Gruber<br/><em>The <a href="word/role.html">Role</a> of <a href="word/common.html">Common</a> <a href="word/ontolog.html">Ontology</a> in <a href="word/achiev.html">Achieving</a> <a href="word/sharabl.html">Sharable</a>, <a href="word/reusabl.html">Reusable</a> <a href="word/knowledg.html">Knowledge</a> <a href="word/base.html">Bases</a></em><br/>KR, 1991.</h2>
 <div class="rbox">
-<strong><a href="KR-1991.html">KR 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/Gruber91">DBLP</a><br/>
+<strong><a href="KR-1991.html">KR 1991</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/Gruber91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Role+of+Common+Ontology+in+Achieving+Sharable,+Reusable+Knowledge+Bases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1991-Gruber,
 	author        = "<a href="person/Thomas_R_Gruber.html">Thomas R. Gruber</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "601--602",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{The Role of Common Ontology in Achieving Sharable, Reusable Knowledge Bases}",

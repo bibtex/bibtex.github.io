@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1983/VLDB-1983/VLDB-1983-BertinoHL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1983\VLDB-1983\VLDB-1983-BertinoHL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Elisa Bertino, Laura M. Haas, Bruce G. Lindsay<br/><em><a href="word/view.html">View</a> <a href="word/manag.html">Management</a> in <a href="word/distribut.html">Distributed</a> <a href="word/data.html">Data</a> <a href="word/base.html">Base</a> <a href="word/system.html">Systems</a></em><br/>VLDB, 1983.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/BertinoHL83">DBLP</a><br/>
+<strong><a href="VLDB-1983.html">VLDB 1983</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/BertinoHL83">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22View+Management+in+Distributed+Data+Base+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1983/P376.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1983-BertinoHL,
 	author        = "<a href="person/Elisa_Bertino.html">Elisa Bertino</a> and <a href="person/Laura_M_Haas.html">Laura M. Haas</a> and <a href="person/Bruce_G_Lindsay.html">Bruce G. Lindsay</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1983/P376.PDF">http://www.vldb.org/conf/1983/P376.PDF</a>",
 </span>	pages         = "376--378",
 	publisher     = "{Morgan Kaufmann}",

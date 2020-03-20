@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2004/VLDB-2004/VLDB-2004-LinKLLN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2004\VLDB-2004\VLDB-2004-LinKLLN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Jessica Lin, Eamonn J. Keogh, Stefano Lonardi, Jeffrey P. Lankford, Donna M. Nystrom<br/><em><a href="word/viz.html">Viz</a><a href="word/tree.html">Tree</a>: a <a href="word/tool.html">Tool</a> for <a href="word/visual.html">Visually</a> <a href="word/mine.html">Mining</a> and <a href="word/monitor.html">Monitoring</a> <a href="word/massiv.html">Massive</a> <a href="word/time.html">Time</a> <a href="word/seri.html">Series</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 2004.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/LinKLLN04">DBLP</a><br/>
+<strong><a href="VLDB-2004.html">VLDB 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/LinKLLN04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22VizTree:+a+Tool+for+Visually+Mining+and+Monitoring+Massive+Time+Series+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2004/DEMP6.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2004-LinKLLN,
 	author        = "<a href="person/Jessica_Lin.html">Jessica Lin</a> and <a href="person/Eamonn_J_Keogh.html">Eamonn J. Keogh</a> and <a href="person/Stefano_Lonardi.html">Stefano Lonardi</a> and <a href="person/Jeffrey_P_Lankford.html">Jeffrey P. Lankford</a> and <a href="person/Donna_M_Nystrom.html">Donna M. Nystrom</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2004/DEMP6.PDF">http://www.vldb.org/conf/2004/DEMP6.PDF</a>",
 </span>	pages         = "1269--1272",
 	publisher     = "{Morgan Kaufmann}",

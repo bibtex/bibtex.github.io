@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP/1990/OOPSLA-ECOOP-1990.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP\1990\OOPSLA-ECOOP-1990.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,21 @@
 <div class="main">
 <h2>Akinori Yonezawa<br/><em>Proceedings of the Fifth Conference on Object-Oriented Programming, Systems, Languages and Applications / Fourth European Conference on Object-Oriented Programming</em><br/>OOPSLA, 1990.</h2>
 <div class="rbox">
-<strong><a href="OOP.html">OOP</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/oopsla/1990">DBLP</a><br/>
+<strong><a href="OOP.html">OOP</a></strong><hr/><a href="http://dblp.org/rec/html/conf/oopsla/1990">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fifth+Conference+on+Object-Oriented+Programming,+Systems,+Languages+and+Applications+/+Fourth+European+Conference+on+Object-Oriented+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fifth Conference on Object-Oriented Programming, Systems, Languages and Applications / Fourth European Conference on Object-Oriented Programming':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{OOPSLA-ECOOP-1990,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=97945">97945</a>",
 </span>	address       = "Ottawa, Canada",
-	booktitle     = "{OOPSLA}",
 	editor        = "<a href="person/Akinori_Yonezawa.html">Akinori Yonezawa</a>",
 <span id="isbn">	isbn          = "0-89791-411-2",
-</span>	note          = "SIGPLAN Notices 25(10)",
-	publisher     = "{ACM}",
-	title         = "{Proceedings of the Fifth Conference on Object-Oriented Programming, Systems, Languages and Applications / Fourth European Conference on Object-Oriented Programming}",
+</span>	publisher     = "{ACM}",
+	title         = "{<span id="title">Proceedings of the Fifth Conference on Object-Oriented Programming, Systems, Languages and Applications / Fourth European Conference on Object-Oriented Programming</span>}",
+	volume        = "SIGPLAN Notices 25(10)",
 	year          = 1990,
 }</pre>
 </div>

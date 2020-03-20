@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1997/VLDB-1997/VLDB-1997-WangYM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1997\VLDB-1997\VLDB-1997-WangYM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Wei Wang, Jiong Yang, Richard R. Muntz<br/><em><a href="word/sting.html">STING</a>: A <a href="word/statist.html">Statistical</a> <a href="word/inform.html">Information</a> <a href="word/grid.html">Grid</a> <a href="word/approach.html">Approach</a> to <a href="word/spatial.html">Spatial</a> <a href="word/data.html">Data</a> <a href="word/mine.html">Mining</a></em><br/>VLDB, 1997.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/WangYM97">DBLP</a><br/>
+<strong><a href="VLDB-1997.html">VLDB 1997</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/WangYM97">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22STING:+A+Statistical+Information+Grid+Approach+to+Spatial+Data+Mining%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1997/P186.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 23rd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1997-WangYM,
 	author        = "<a href="person/Wei_Wang.html">Wei Wang</a> and <a href="person/Jiong_Yang.html">Jiong Yang</a> and <a href="person/Richard_R_Muntz.html">Richard R. Muntz</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 23rd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1997/P186.PDF">http://www.vldb.org/conf/1997/P186.PDF</a>",
 </span>	pages         = "186--195",
 	publisher     = "{Morgan Kaufmann}",

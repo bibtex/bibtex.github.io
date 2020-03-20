@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2015/DATE-2015/DATE-2015-FuggerNNS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\DATE-2015\DATE-2015-FuggerNNS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Matthias Függer, Robert Najvirt, Thomas Nowak, Ulrich Schmid<br/><em><a href="word/toward.html">Towards</a> <a href="word/binari.html">binary</a> <a href="word/circuit.html">circuit</a> <a href="word/model.html">models</a> <a href="word/that.html">that</a> <a href="word/faith.html">faithfully</a> <a href="word/captur.html">capture</a> <a href="word/physic.html">physical</a> <a href="word/solvabl.html">solvability</a></em><br/>DATE, 2015.</h2>
 <div class="rbox">
-<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/FuggerNNS15">DBLP</a><br/>
+<strong><a href="DATE-2015.html">DATE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/FuggerNNS15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Towards+binary+circuit+models+that+faithfully+capture+physical+solvability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2015-FuggerNNS,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2757149">2757149</a>",
 </span>	author        = "<a href="person/Matthias_Fuegger.html">Matthias Függer</a> and <a href="person/Robert_Najvirt.html">Robert Najvirt</a> and <a href="person/Thomas_Nowak.html">Thomas Nowak</a> and <a href="person/Ulrich_Schmid.html">Ulrich Schmid</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 19th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 	pages         = "1455--1460",
 	publisher     = "{ACM}",
 	title         = "{Towards binary circuit models that faithfully capture physical solvability}",

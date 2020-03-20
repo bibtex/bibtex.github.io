@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2003/ICML-2003/ICML-2003-BerardiCEM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2003\ICML-2003\ICML-2003-BerardiCEM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Margherita Berardi, Michelangelo Ceci, Floriana Esposito, Donato Malerba<br/><em><a href="word/learn.html">Learning</a> <a href="word/logic.html">Logic</a> <a href="word/program.html">Programs</a> for <a href="word/layout.html">Layout</a> <a href="word/analysi.html">Analysis</a> <a href="word/correct.html">Correction</a></em><br/>ICML, 2003.</h2>
 <div class="rbox">
-<strong><a href="ICML-2003.html">ICML 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icml/BerardiCEM03">DBLP</a><br/>
+<strong><a href="ICML-2003.html">ICML 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icml/BerardiCEM03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Learning+Logic+Programs+for+Layout+Analysis+Correction%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/ICML/2003/icml03-007.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 20th International Conference on Machine Learning':'ICML');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICML-2003-BerardiCEM,
 	author        = "<a href="person/Margherita_Berardi.html">Margherita Berardi</a> and <a href="person/Michelangelo_Ceci.html">Michelangelo Ceci</a> and <a href="person/Floriana_Esposito.html">Floriana Esposito</a> and <a href="person/Donato_Malerba.html">Donato Malerba</a>",
-	booktitle     = "{Proceedings of the 20th International Conference on Machine Learning}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 20th International Conference on Machine Learning</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/ICML/2003/icml03-007.php">http://www.aaai.org/Library/ICML/2003/icml03-007.php</a>",
 </span>	pages         = "27--34",
 	publisher     = "{AAAI Press}",

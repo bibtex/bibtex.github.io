@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2008/ICEIS-ISAS2-2008/ICEIS-ISAS2-2008-EngelsHHJLRVW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2008\ICEIS-ISAS2-2008\ICEIS-ISAS2-2008-EngelsHHJLRVW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Gregor Engels, Andreas Heß, Bernhard Humm, Oliver Juwig, Marc Lohmann, Jan-Peter Richter, Markus Voß, Johannes Willkomm<br/><em>A <a href="word/method.html">Method</a> for <a href="word/engin.html">Engineering</a> a <a href="word/true.html">True</a> <a href="word/servic.html">Service</a>-<a href="word/orient.html">Oriented</a> <a href="word/architectur.html">Architecture</a></em><br/>ICEIS, 2008.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS2-2008.html">ICEIS ISAS2 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/EngelsHHJLRVW08">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS2-2008.html">ICEIS ISAS2 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/EngelsHHJLRVW08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Method+for+Engineering+a+True+Service-Oriented+Architecture%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 3.2: ISAS':'ICEIS ISAS v2');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS2-2008-EngelsHHJLRVW,
 	author        = "<a href="person/Gregor_Engels.html">Gregor Engels</a> and <a href="person/Andreas_Hess.html">Andreas Heß</a> and <a href="person/Bernhard_Humm.html">Bernhard Humm</a> and <a href="person/Oliver_Juwig.html">Oliver Juwig</a> and <a href="person/Marc_Lohmann.html">Marc Lohmann</a> and <a href="person/Jan-Peter_Richter.html">Jan-Peter Richter</a> and <a href="person/Markus_Voss.html">Markus Voß</a> and <a href="person/Johannes_Willkomm.html">Johannes Willkomm</a>",
-	booktitle     = "{ICEIS (3-2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Enterprise Information Systems, Volume 3.2: ISAS</span>}",
 	pages         = "272--281",
 	title         = "{A Method for Engineering a True Service-Oriented Architecture}",
 	year          = 2008,

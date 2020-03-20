@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2008/CASE-2008/CASE-2008-LjungkrantzAF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2008\CASE-2008\CASE-2008-LjungkrantzAF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Oscar Ljungkrantz, Knut Åkesson, Martin Fabian<br/><em><a href="word/formal.html">Formal</a> <a href="word/specif.html">specification</a> and <a href="word/verif.html">verification</a> of <a href="word/compon.html">components</a> for <a href="word/industri.html">industrial</a> <a href="word/logic.html">logic</a> <a href="word/control.html">control</a> <a href="word/program.html">programming</a></em><br/>CASE, 2008.</h2>
 <div class="rbox">
-<strong><a href="CASE-2008.html">CASE 2008</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/LjungkrantzAF08">DBLP</a><br/>
+<strong><a href="CASE-2008.html">CASE 2008</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/LjungkrantzAF08">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Formal+specification+and+verification+of+components+for+industrial+logic+control+programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2008.4626518">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2008-LjungkrantzAF,
 	author        = "<a href="person/Oscar_Ljungkrantz.html">Oscar Ljungkrantz</a> and <a href="person/Knut_Akesson.html">Knut Åkesson</a> and <a href="person/Martin_Fabian.html">Martin Fabian</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2008.4626518">10.1109/COASE.2008.4626518</a>",
 </span>	pages         = "935--940",
 	publisher     = "{IEEE}",

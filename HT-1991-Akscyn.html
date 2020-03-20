@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1991/HT-1991/HT-1991-Akscyn.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1991\HT-1991\HT-1991-Akscyn.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Robert M. Akscyn<br/><em>The <a href="word/acm.html">ACM</a> <a href="word/hypertext.html">Hypertext</a> <a href="word/compendium.html">Compendium</a>: <a href="word/lesson.html">Lessons</a> in <a href="word/hypertext.html">Hypertext</a> <a href="word/publish.html">Publishing</a></em><br/>HT, 1991.</h2>
 <div class="rbox">
-<strong><a href="HT-1991.html">HT 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/ht/Akscyn91">DBLP</a><br/>
+<strong><a href="HT-1991.html">HT 1991</a></strong><hr/><a href="http://dblp.org/rec/html/conf/ht/Akscyn91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+ACM+Hypertext+Compendium:+Lessons+in+Hypertext+Publishing%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Conference on Hypertext':'HT');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HT-1991-Akscyn,
 	author        = "<a href="person/Robert_M_Akscyn.html">Robert M. Akscyn</a>",
-	booktitle     = "{Hypertext}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third Conference on Hypertext</span>}",
 	cdrom         = "HT1991/P403.pdf",
 	pages         = "403",
 	publisher     = "{ACM}",

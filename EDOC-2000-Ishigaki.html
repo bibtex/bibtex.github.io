@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2000/EDOC-2000/EDOC-2000-Ishigaki.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2000\EDOC-2000\EDOC-2000-Ishigaki.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Shoichiro Ishigaki<br/><em><a href="word/mobil.html">Mobile</a> <a href="word/data.html">Data</a> <a href="word/communic.html">Communications</a> and <a href="word/enterpris.html">Enterprise</a> <a href="word/inform.html">Information</a> <a href="word/system.html">Systems</a></em><br/>EDOC, 2000.</h2>
 <div class="rbox">
-<strong><a href="EDOC-2000.html">EDOC 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/edoc/Ishigaki00">DBLP</a><br/>
+<strong><a href="EDOC-2000.html">EDOC 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/edoc/Ishigaki00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Mobile+Data+Communications+and+Enterprise+Information+Systems%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/EDOC.2000.10001">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/EDOC.2000.10001">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Enterprise Distributed Object Computing Conference':'EDOC');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{EDOC-2000-Ishigaki,
 	author        = "<a href="person/Shoichiro_Ishigaki.html">Shoichiro Ishigaki</a>",
-	booktitle     = "{EDOC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Enterprise Distributed Object Computing Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/EDOC.2000.10001">10.1109/EDOC.2000.10001</a>",
 </span>	pages         = "182",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-HCI-2006/ICEIS-HCI-2006-LiSB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-HCI-2006\ICEIS-HCI-2006-LiSB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Yung-hui Li, Marios Savvides, Vijayakumar Bhagavatula<br/><em><a href="word/face.html">Face</a> <a href="word/recognit.html">Recognition</a> from <a href="word/sketch.html">Sketches</a> <a href="word/use.html">Using</a> <a href="word/advanc.html">Advanced</a> <a href="word/correl.html">Correlation</a> <a href="word/filter.html">Filters</a> <a href="word/use.html">Using</a> <a href="word/hybrid.html">Hybrid</a> <a href="word/eigenanalysi.html">Eigenanalysis</a> for <a href="word/face.html">Face</a> <a href="word/synthesi.html">Synthesis</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2006.html">ICEIS HCI 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/LiSB06">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2006.html">ICEIS HCI 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/LiSB06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Face+Recognition+from+Sketches+Using+Advanced+Correlation+Filters+Using+Hybrid+Eigenanalysis+for+Face+Synthesis%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Human-Computer Interaction':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2006-LiSB,
 	author        = "<a href="person/Yung-hui_Li.html">Yung-hui Li</a> and <a href="person/Marios_Savvides.html">Marios Savvides</a> and <a href="person/Vijayakumar_Bhagavatula.html">Vijayakumar Bhagavatula</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Human-Computer Interaction</span>}",
 	pages         = "11--18",
 	title         = "{Face Recognition from Sketches Using Advanced Correlation Filters Using Hybrid Eigenanalysis for Face Synthesis}",
 	year          = 2006,

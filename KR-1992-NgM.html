@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1992/KR-1992/KR-1992-NgM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1992\KR-1992\KR-1992-NgM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Hwee Tou Ng, Raymond J. Mooney<br/><em><a href="word/abduct.html">Abductive</a> <a href="word/plan.html">Plan</a> <a href="word/recognit.html">Recognition</a> and <a href="word/diagnosi.html">Diagnosis</a>: A <a href="word/comprehens.html">Comprehensive</a> <a href="word/empir.html">Empirical</a> <a href="word/evalu.html">Evaluation</a></em><br/>KR, 1992.</h2>
 <div class="rbox">
-<strong><a href="KR-1992.html">KR 1992</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/NgM92">DBLP</a><br/>
+<strong><a href="KR-1992.html">KR 1992</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/NgM92">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Abductive+Plan+Recognition+and+Diagnosis:+A+Comprehensive+Empirical+Evaluation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-1992-NgM,
 	author        = "<a href="person/Hwee_Tou_Ng.html">Hwee Tou Ng</a> and <a href="person/Raymond_J_Mooney.html">Raymond J. Mooney</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 	pages         = "499--508",
 	publisher     = "{Morgan Kaufmann}",
 	title         = "{Abductive Plan Recognition and Diagnosis: A Comprehensive Empirical Evaluation}",

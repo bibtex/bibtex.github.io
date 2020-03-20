@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2013/DATE-2013/DATE-2013-GhiribaldiBN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2013\DATE-2013\DATE-2013-GhiribaldiBN.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Alberto Ghiribaldi, Davide Bertozzi, Steven M. Nowick<br/><em>A <a href="word/transit.html">transition</a>-<a href="word/signal.html">signaling</a> <a href="word/bundl.html">bundled</a> <a href="word/data.html">data</a> <a href="word/no.html">No</a>C <a href="word/switch.html">switch</a> <a href="word/architectur.html">architecture</a> for <a href="word/cost.html">cost</a>-<a href="word/effect.html">effective</a> <a href="word/gal.html">GALS</a> <a href="word/multicor.html">multicore</a> <a href="word/system.html">systems</a></em><br/>DATE, 2013.</h2>
 <div class="rbox">
-<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/GhiribaldiBN13">DBLP</a><br/>
+<strong><a href="DATE-2013.html">DATE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/GhiribaldiBN13">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+transition-signaling+bundled+data+NoC+switch+architecture+for+cost-effective+GALS+multicore+systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2013-GhiribaldiBN,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2485370">2485370</a>",
 </span>	author        = "<a href="person/Alberto_Ghiribaldi.html">Alberto Ghiribaldi</a> and <a href="person/Davide_Bertozzi.html">Davide Bertozzi</a> and <a href="person/Steven_M_Nowick.html">Steven M. Nowick</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "332--337",
 	publisher     = "{EDA Consortium San Jose, CA, USA / ACM DL}",
 	title         = "{A transition-signaling bundled data NoC switch architecture for cost-effective GALS multicore systems}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1985/SIGIR-1985/SIGIR-1985-Fox.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1985\SIGIR-1985\SIGIR-1985-Fox.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Edward A. Fox<br/><em><a href="word/composit.html">Composite</a> <a href="word/document.html">Document</a> <a href="word/extend.html">Extended</a> <a href="word/retriev.html">Retrieval</a> — An <a href="word/overview.html">Overview</a></em><br/>SIGIR, 1985.</h2>
 <div class="rbox">
-<strong><a href="SIGIR-1985.html">SIGIR 1985</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigir/Fox85">DBLP</a><br/>
+<strong><a href="SIGIR-1985.html">SIGIR 1985</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigir/Fox85">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Composite+Document+Extended+Retrieval+—+An+Overview%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/253495.253509">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/253495.253509">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth annual international ACM SIGIR conference on Research and development in information retrieval':'SIGIR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGIR-1985-Fox,
 	author        = "<a href="person/Edward_A_Fox.html">Edward A. Fox</a>",
-	booktitle     = "{Proceedings of the Eighth annual international ACM SIGIR conference on Research and development in information retrieval}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth annual international ACM SIGIR conference on Research and development in information retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/253495.253509">10.1145/253495.253509</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/253495.253509">http://doi.acm.org/10.1145/253495.253509</a>",
 </span>	pages         = "42--53",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST/1991/ICLP-1991.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/TEST\1991\ICLP-1991.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,20 +32,19 @@
 <div class="main">
 <h2>Koichi Furukawa<br/><em>Proceedings of the Eighth International Conference on Logic Programming</em><br/>ICLP, 1991.</h2>
 <div class="rbox">
-<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iclp/1991">DBLP</a><br/>
+<strong><a href="TEST.html">TEST</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iclp/1991">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Eighth+International+Conference+on+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Eighth International Conference on Logic Programming':'ICLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICLP-1991,
 	address       = "Paris, France",
-	booktitle     = "{ICLP}",
 	editor        = "<a href="person/Koichi_Furukawa.html">Koichi Furukawa</a>",
 <span id="isbn">	isbn          = "0-262-56058-5",
 </span>	publisher     = "{MIT Press}",
-	title         = "{Proceedings of the Eighth International Conference on Logic Programming}",
+	title         = "{<span id="title">Proceedings of the Eighth International Conference on Logic Programming</span>}",
 	year          = 1991,
 }</pre>
 </div>
@@ -99,7 +98,7 @@
 <dt><a href="ICLP-1991-Przymusinski.html">ICLP-1991-Przymusinski</a> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Well-Founded Completions of Logic Programs (<abbr title="Teodor C. Przymusinski">TCP</abbr>), pp. 726–741.</dd> <div class="pagevis" style="width:15px"></div>
 <dt><a href="ICLP-1991-HentenryckD.html">ICLP-1991-HentenryckD</a> <span class="tag"><a href="tag/constraints.html" title="constraints">#constraints</a></span> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span></dt><dd>The Cardinality Operator: A New Logical Connective for Constraint Logic Programming (<abbr title="Pascal Van Hentenryck">PVH</abbr>, <abbr title="Yves Deville">YD</abbr>), pp. 745–759.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="ICLP-1991-Smith.html">ICLP-1991-Smith</a> <span class="tag"><a href="tag/constraints.html" title="constraints">#constraints</a></span></dt><dd>Constraint Operations for CLP(FT) (<abbr title="Donald A. Smith">DAS</abbr>), pp. 760–774.</dd> <div class="pagevis" style="width:14px"></div>
-<dt><a href="ICLP-1991-AggounB.html">ICLP-1991-AggounB</a> <span class="tag"><a href="tag/bibliography.html" title="bibliography">#bibliography</a></span> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span></dt><dd>Overview of the CHIP Compiler System (<abbr title="Abderrahmane Aggoun">AA</abbr>, <abbr title="Nicolas Beldiceanu">NB</abbr>), pp. 775–789.</dd> <div class="pagevis" style="width:14px"></div>
+<dt><a href="ICLP-1991-AggounB.html">ICLP-1991-AggounB</a> <span class="tag"><a href="tag/compilation.html" title="compilation">#compilation</a></span> <span class="tag"><a href="tag/overview.html" title="overview">#overview</a></span></dt><dd>Overview of the CHIP Compiler System (<abbr title="Abderrahmane Aggoun">AA</abbr>, <abbr title="Nicolas Beldiceanu">NB</abbr>), pp. 775–789.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="ICLP-1991-Mudambi.html">ICLP-1991-Mudambi</a></dt><dd>Performances of Aurora on NUMA Machines (<abbr title="Shyam Mudambi">SM</abbr>), pp. 793–806.</dd> <div class="pagevis" style="width:13px"></div>
 <dt><a href="ICLP-1991-AliK.html">ICLP-1991-AliK</a> <span class="tag"><a href="tag/scheduling.html" title="scheduling">#scheduling</a></span></dt><dd>Scheduling Or-Parallelism in Muse (<abbr title="Khayri A. M. Ali">KAMA</abbr>, <abbr title="Roland Karlsson">RK</abbr>), pp. 807–821.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="ICLP-1991-CostaWY91a.html">ICLP-1991-CostaWY91a</a> <span class="tag"><a href="tag/implementation.html" title="implementation">#implementation</a></span> <span class="tag"><a href="tag/parallel.html" title="parallel">#parallel</a></span></dt><dd>The Andorra-I Engine: A Parallel Implementation of the Basic Andorra Model (<abbr title="Vítor Santos Costa">VSC</abbr>, <abbr title="David H. D. Warren">DHDW</abbr>, <abbr title="Rong Yang">RY</abbr>), pp. 825–839.</dd> <div class="pagevis" style="width:14px"></div>
@@ -114,7 +113,7 @@
 <dt><a href="ICLP-1991-Kowalski.html">ICLP-1991-Kowalski</a> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Legislation as Logic Programs (<abbr title="Robert A. Kowalski">RAK</abbr>), p. 910.</dd> <div class="pagevis" style="width:0px"></div>
 <dt><a href="ICLP-1991-Miller91a.html">ICLP-1991-Miller91a</a> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/tutorial.html" title="tutorial">#tutorial</a></span></dt><dd>Logics for Logic Programming: A Tutorial (<abbr title="Dale Miller">DM</abbr>), p. 911.</dd> <div class="pagevis" style="width:0px"></div>
 <dt><a href="ICLP-1991-Robinet.html">ICLP-1991-Robinet</a> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span></dt><dd>Logic Programming at IBM: From the Lab to the Customer (<abbr title="Bernard Robinet">BR</abbr>), pp. 912–921.</dd> <div class="pagevis" style="width:9px"></div>
-<dt><a href="ICLP-1991-Scowen.html">ICLP-1991-Scowen</a> <span class="tag"><a href="tag/bibliography.html" title="bibliography">#bibliography</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span> <span class="tag"><a href="tag/prolog.html" title="prolog">#prolog</a></span> <span class="tag"><a href="tag/standard.html" title="standard">#standard</a></span></dt><dd>An Overview of Prolog Standardization — Progress, Problems and Solutions (<abbr title="R. S. Scowen">RSS</abbr>), pp. 922–936.</dd> <div class="pagevis" style="width:14px"></div>
+<dt><a href="ICLP-1991-Scowen.html">ICLP-1991-Scowen</a> <span class="tag"><a href="tag/overview.html" title="overview">#overview</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span> <span class="tag"><a href="tag/prolog.html" title="prolog">#prolog</a></span> <span class="tag"><a href="tag/standard.html" title="standard">#standard</a></span></dt><dd>An Overview of Prolog Standardization — Progress, Problems and Solutions (<abbr title="R. S. Scowen">RSS</abbr>), pp. 922–936.</dd> <div class="pagevis" style="width:14px"></div>
 <dt><a href="ICLP-1991-Ait-Kaci.html">ICLP-1991-Ait-Kaci</a> <span class="tag"><a href="tag/automaton.html" title="automaton">#automaton</a></span></dt><dd>Warren’s Abstract Machine (<abbr title="Hassan Aït-Kaci">HAK</abbr>), p. 939.</dd> <div class="pagevis" style="width:0px"></div>
 <dt><a href="ICLP-1991-Cousot.html">ICLP-1991-Cousot</a> <span class="tag"><a href="tag/abstract%20interpretation.html" title="abstract interpretation">#abstract interpretation</a></span> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>Abstract Interpretation of Logic Programs (<abbr title="Patrick Cousot">PC</abbr>), p. 940.</dd> <div class="pagevis" style="width:0px"></div>
 <dt><a href="ICLP-1991-DevilleSD.html">ICLP-1991-DevilleSD</a> <span class="tag"><a href="tag/development.html" title="development">#development</a></span> <span class="tag"><a href="tag/logic%20programming.html" title="logic programming">#logic programming</a></span></dt><dd>Software Development and Logic Programming (<abbr title="Yves Deville">YD</abbr>, <abbr title="Leon Sterling">LS</abbr>, <abbr title="Pierre Deransart">PD</abbr>), p. 941.</dd> <div class="pagevis" style="width:0px"></div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/VLDB-2003/VLDB-2003-LubbersGJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\VLDB-2003\VLDB-2003-LubbersGJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Dominik Lübbers, Udo Grimmer, Matthias Jarke<br/><em><a href="word/systemat.html">Systematic</a> <a href="word/develop.html">Development</a> of <a href="word/data.html">Data</a> <a href="word/mine.html">Mining</a>-<a href="word/base.html">Based</a> <a href="word/data.html">Data</a> <a href="word/qualiti.html">Quality</a> <a href="word/tool.html">Tools</a></em><br/>VLDB, 2003.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/LubbersGJ03">DBLP</a><br/>
+<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/LubbersGJ03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Systematic+Development+of+Data+Mining-Based+Data+Quality+Tools%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2003/papers/S17P02.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2003-LubbersGJ,
 	author        = "<a href="person/Dominik_Luebbers.html">Dominik Lübbers</a> and <a href="person/Udo_Grimmer.html">Udo Grimmer</a> and <a href="person/Matthias_Jarke.html">Matthias Jarke</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2003/papers/S17P02.pdf">http://www.vldb.org/conf/2003/papers/S17P02.pdf</a>",
 </span>	pages         = "548--559",
 	publisher     = "{Morgan Kaufmann}",

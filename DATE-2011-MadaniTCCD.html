@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-MadaniTCCD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-MadaniTCCD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Nariman Moezzi Madani, Thorlindur Thorolfsson, Joseph Crop, Patrick Chiang, W. Rhett Davis<br/><em>An <a href="word/energi.html">energy</a>-<a href="word/effici.html">efficient</a> 64-<a href="word/qam.html">QAM</a> <a href="word/mimo.html">MIMO</a> <a href="word/detector.html">detector</a> for <a href="word/emerg.html">emerging</a> <a href="word/wireless.html">wireless</a> <a href="word/standard.html">standards</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/MadaniTCCD11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/MadaniTCCD11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+energy-efficient+64-QAM+MIMO+detector+for+emerging+wireless+standards%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-MadaniTCCD,
 	author        = "<a href="person/Nariman_Moezzi_Madani.html">Nariman Moezzi Madani</a> and <a href="person/Thorlindur_Thorolfsson.html">Thorlindur Thorolfsson</a> and <a href="person/Joseph_Crop.html">Joseph Crop</a> and <a href="person/Patrick_Chiang.html">Patrick Chiang</a> and <a href="person/W_Rhett_Davis.html">W. Rhett Davis</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "246--251",
 	publisher     = "{IEEE}",
 	title         = "{An energy-efficient 64-QAM MIMO detector for emerging wireless standards}",

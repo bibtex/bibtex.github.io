@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1999/DAC-1999/DAC-1999-NachtergaeleVPLBB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1999\DAC-1999\DAC-1999-NachtergaeleVPLBB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Lode Nachtergaele, Bart Vanhoof, Mercedes Peón, Gauthier Lafruit, Jan Bormans, Ivo Bolsens<br/><em><a href="word/implement.html">Implementation</a> of a <a href="word/scalabl.html">Scalable</a> <a href="word/mpeg.html">MPEG</a>-4 <a href="word/wavelet.html">Wavelet</a>-<a href="word/base.html">Based</a> <a href="word/visual.html">Visual</a> <a href="word/textur.html">Texture</a> <a href="word/compress.html">Compression</a> <a href="word/system.html">System</a></em><br/>DAC, 1999.</h2>
 <div class="rbox">
-<strong><a href="DAC-1999.html">DAC 1999</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/NachtergaeleVPLBB99">DBLP</a><br/>
+<strong><a href="DAC-1999.html">DAC 1999</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/NachtergaeleVPLBB99">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Implementation+of+a+Scalable+MPEG-4+Wavelet-Based+Visual+Texture+Compression+System%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/309847.309948">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/309847.309948">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 36th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1999-NachtergaeleVPLBB,
 	author        = "<a href="person/Lode_Nachtergaele.html">Lode Nachtergaele</a> and <a href="person/Bart_Vanhoof.html">Bart Vanhoof</a> and <a href="person/Mercedes_Peon.html">Mercedes Peón</a> and <a href="person/Gauthier_Lafruit.html">Gauthier Lafruit</a> and <a href="person/Jan_Bormans.html">Jan Bormans</a> and <a href="person/Ivo_Bolsens.html">Ivo Bolsens</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 36th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/309847.309948">10.1145/309847.309948</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/309847.309948">http://doi.acm.org/10.1145/309847.309948</a>",
 </span>	pages         = "333--336",

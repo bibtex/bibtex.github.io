@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2014/DATE-2014/DATE-2014-KarlssonF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2014\DATE-2014\DATE-2014-KarlssonF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christer Karlsson, Peter Fischer<br/><em><a href="word/thinfilm.html">Thinfilm</a> <a href="word/print.html">printed</a> <a href="word/ferro.html">ferro</a>-<a href="word/electr.html">electric</a> <a href="word/memori.html">memories</a> and <a href="word/integr.html">integrated</a> <a href="word/product.html">products</a></em><br/>DATE, 2014.</h2>
 <div class="rbox">
-<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/KarlssonF14">DBLP</a><br/>
+<strong><a href="DATE-2014.html">DATE 2014</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/KarlssonF14">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Thinfilm+printed+ferro-electric+memories+and+integrated+products%22">Scholar</a><hr/><a href="http://dx.doi.org/10.7873/DATE.2014.283">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2014-KarlssonF,
 	author        = "<a href="person/Christer_Karlsson.html">Christer Karlsson</a> and <a href="person/Peter_Fischer.html">Peter Fischer</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference and Exhibition on Design, Automation and Test in Europe</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.7873/DATE.2014.283">10.7873/DATE.2014.283</a>",
 </span>	pages         = "1",
 	publisher     = "{IEEE}",

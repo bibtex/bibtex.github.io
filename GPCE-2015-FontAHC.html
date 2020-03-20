@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLI/2015/GPCE-2015/GPCE-2015-FontAHC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SLE\2015\GPCE-2015\GPCE-2015-FontAHC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Jaime Font, Lorena Arcega, Øystein Haugen, Carlos Cetina<br/><em><a href="word/address.html">Addressing</a> <a href="word/metamodel.html">metamodel</a> <a href="word/revis.html">revisions</a> in <a href="word/model.html">model</a>-<a href="word/base.html">based</a> <a href="word/softwar.html">software</a> <a href="word/product.html">product</a> <a href="word/line.html">lines</a></em><br/>GPCE, 2015.</h2>
 <div class="rbox">
-<strong><a href="GPCE-2015.html">GPCE 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/gpce/FontAHC15">DBLP</a><br/>
+<strong><a href="GPCE-2015.html">GPCE 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/gpce/FontAHC15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Addressing+metamodel+revisions+in+model-based+software+product+lines%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2814204.2814214">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on Generative Programming: Concepts and Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2015-FontAHC,
 	author        = "<a href="person/Jaime_Font.html">Jaime Font</a> and <a href="person/Lorena_Arcega.html">Lorena Arcega</a> and <a href="person/Oeystein_Haugen.html">Øystein Haugen</a> and <a href="person/Carlos_Cetina.html">Carlos Cetina</a>",
-	booktitle     = "{GPCE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on Generative Programming: Concepts and Experiences</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2814204.2814214">10.1145/2814204.2814214</a>",
 </span>	pages         = "161--170",
 	publisher     = "{ACM}",

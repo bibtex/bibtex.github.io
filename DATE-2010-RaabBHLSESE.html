@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/DATE-2010/DATE-2010-RaabBHLSESE.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\DATE-2010\DATE-2010-RaabBHLSESE.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Wolfgang Raab, Jörg Berthold, J. A. Ulrich Hachmann, Dominik Langen, Michael Schreiner, Holger Eisenreich, Jens-Uwe Schluessler, Georg Ellguth<br/><em><a href="word/low.html">Low</a> <a href="word/power.html">power</a> <a href="word/design.html">design</a> of the X-<a href="word/gold.html">GOLD</a>® <a href="word/sdr.html">SDR</a> 20 <a href="word/baseband.html">baseband</a> <a href="word/processor.html">processor</a></em><br/>DATE, 2010.</h2>
 <div class="rbox">
-<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/RaabBHLSESE10">DBLP</a><br/>
+<strong><a href="DATE-2010.html">DATE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/RaabBHLSESE10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Low+power+design+of+the+X-GOLD®+SDR+20+baseband+processor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2010-RaabBHLSESE,
 	author        = "<a href="person/Wolfgang_Raab.html">Wolfgang Raab</a> and <a href="person/Joerg_Berthold.html">Jörg Berthold</a> and <a href="person/J_A_Ulrich_Hachmann.html">J. A. Ulrich Hachmann</a> and <a href="person/Dominik_Langen.html">Dominik Langen</a> and <a href="person/Michael_Schreiner.html">Michael Schreiner</a> and <a href="person/Holger_Eisenreich.html">Holger Eisenreich</a> and <a href="person/Jens-Uwe_Schluessler.html">Jens-Uwe Schluessler</a> and <a href="person/Georg_Ellguth.html">Georg Ellguth</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "792--793",
 	publisher     = "{IEEE}",
 	title         = "{Low power design of the X-GOLD® SDR 20 baseband processor}",

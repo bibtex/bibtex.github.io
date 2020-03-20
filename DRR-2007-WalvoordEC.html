@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2007/DRR-2007/DRR-2007-WalvoordEC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2007\DRR-2007\DRR-2007-WalvoordEC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Derek J. Walvoord, Roger L. Easton Jr., Roxanne L. Canosa<br/><em><a href="word/ad.html">Adding</a> <a href="word/contextu.html">contextual</a> <a href="word/inform.html">information</a> to <a href="word/improv.html">improve</a> <a href="word/charact.html">character</a> <a href="word/recognit.html">recognition</a> on the <a href="word/archimed.html">Archimedes</a> <a href="word/palimpsest.html">Palimpsest</a></em><br/>DRR, 2007.</h2>
 <div class="rbox">
-<strong><a href="DRR-2007.html">DRR 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/WalvoordEC07">DBLP</a><br/>
+<strong><a href="DRR-2007.html">DRR 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/WalvoordEC07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Adding+contextual+information+to+improve+character+recognition+on+the+Archimedes+Palimpsest%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.704471">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2007-WalvoordEC,
 	author        = "<a href="person/Derek_J_Walvoord.html">Derek J. Walvoord</a> and <a href="person/Roger_L_Easton_Jr.html">Roger L. Easton Jr.</a> and <a href="person/Roxanne_L_Canosa.html">Roxanne L. Canosa</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.704471">10.1117/12.704471</a>",
 </span>	publisher     = "{SPIE}",
 	title         = "{Adding contextual information to improve character recognition on the Archimedes Palimpsest}",

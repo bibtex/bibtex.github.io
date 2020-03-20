@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2004/KR-2004/KR-2004-FriedlandAWMSMASICPBC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2004\KR-2004\KR-2004-FriedlandAWMSMASICPBC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Noah S. Friedland, Paul G. Allen, Michael J. Witbrock, Gavin Matthews, Nancy Salay, Pierluigi Miraglia, Jürgen Angele, Steffen Staab, David J. Israel, Vinay K. Chaudhri, Bruce W. Porter, Ken Barker, Peter Clark<br/><em><a href="word/toward.html">Towards</a> a <a href="word/quantit.html">Quantitative</a>, <a href="word/platform.html">Platform</a>-<a href="word/independ.html">Independent</a> <a href="word/analysi.html">Analysis</a> of <a href="word/knowledg.html">Knowledge</a> <a href="word/system.html">Systems</a></em><br/>KR, 2004.</h2>
 <div class="rbox">
-<strong><a href="KR-2004.html">KR 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kr/FriedlandAWMSMASICPBC04">DBLP</a><br/>
+<strong><a href="KR-2004.html">KR 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kr/FriedlandAWMSMASICPBC04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+Quantitative,+Platform-Independent+Analysis+of+Knowledge+Systems%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KR/2004/kr04-053.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Principles of Knowledge Representation and Reasoning':'KR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KR-2004-FriedlandAWMSMASICPBC,
 	author        = "<a href="person/Noah_S_Friedland.html">Noah S. Friedland</a> and <a href="person/Paul_G_Allen.html">Paul G. Allen</a> and <a href="person/Michael_J_Witbrock.html">Michael J. Witbrock</a> and <a href="person/Gavin_Matthews.html">Gavin Matthews</a> and <a href="person/Nancy_Salay.html">Nancy Salay</a> and <a href="person/Pierluigi_Miraglia.html">Pierluigi Miraglia</a> and <a href="person/Juergen_Angele.html">Jürgen Angele</a> and <a href="person/Steffen_Staab.html">Steffen Staab</a> and <a href="person/David_J_Israel.html">David J. Israel</a> and <a href="person/Vinay_K_Chaudhri.html">Vinay K. Chaudhri</a> and <a href="person/Bruce_W_Porter.html">Bruce W. Porter</a> and <a href="person/Ken_Barker.html">Ken Barker</a> and <a href="person/Peter_Clark.html">Peter Clark</a>",
-	booktitle     = "{KR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Principles of Knowledge Representation and Reasoning</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KR/2004/kr04-053.php">http://www.aaai.org/Library/KR/2004/kr04-053.php</a>",
 </span>	pages         = "507--515",
 	publisher     = "{AAAI Press}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1981/DAC-1981/DAC-1981-Heinisch.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1981\DAC-1981\DAC-1981-Heinisch.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>J. Heinisch<br/><em><a href="word/aim.html">Aiming</a> at a <a href="word/general.html">general</a> <a href="word/rout.html">routing</a> <a href="word/strategi.html">strategy</a></em><br/>DAC, 1981.</h2>
 <div class="rbox">
-<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/Heinisch81">DBLP</a><br/>
+<strong><a href="DAC-1981.html">DAC 1981</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/Heinisch81">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Aiming+at+a+general+routing+strategy%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1981-Heinisch,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=802373">802373</a>",
 </span>	author        = "<a href="person/J_Heinisch.html">J. Heinisch</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Design Automation Conference</span>}",
 	pages         = "668--675",
 	publisher     = "{ACM/IEEE}",
 	title         = "{Aiming at a general routing strategy}",

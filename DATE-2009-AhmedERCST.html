@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-AhmedERCST.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-AhmedERCST.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Syed Zahid Ahmed, Julien Eydoux, Laurent Rouge, Jean-Baptiste Cuelle, Gilles Sassatelli, Lionel Torres<br/><em><a href="word/explor.html">Exploration</a> of <a href="word/power.html">power</a> <a href="word/reduct.html">reduction</a> and <a href="word/perform.html">performance</a> <a href="word/enhanc.html">enhancement</a> in <a href="word/leon.html">LEON</a>3 <a href="word/processor.html">processor</a> with <a href="word/esl.html">ESL</a> <a href="word/reprogramm.html">reprogrammable</a> <a href="word/efpga.html">eFPGA</a> in <a href="word/processor.html">processor</a> <a href="word/pipelin.html">pipeline</a> and as a co-<a href="word/processor.html">processor</a></em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/AhmedERCST09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/AhmedERCST09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Exploration+of+power+reduction+and+performance+enhancement+in+LEON3+processor+with+ESL+reprogrammable+eFPGA+in+processor+pipeline+and+as+a+co-processor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-AhmedERCST,
 	author        = "<a href="person/Syed_Zahid_Ahmed.html">Syed Zahid Ahmed</a> and <a href="person/Julien_Eydoux.html">Julien Eydoux</a> and <a href="person/Laurent_Rouge.html">Laurent Rouge</a> and <a href="person/Jean-Baptiste_Cuelle.html">Jean-Baptiste Cuelle</a> and <a href="person/Gilles_Sassatelli.html">Gilles Sassatelli</a> and <a href="person/Lionel_Torres.html">Lionel Torres</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "184--189",
 	publisher     = "{IEEE}",
 	title         = "{Exploration of power reduction and performance enhancement in LEON3 processor with ESL reprogrammable eFPGA in processor pipeline and as a co-processor}",

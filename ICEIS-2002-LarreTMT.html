@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2002/ICEIS-2002/ICEIS-2002-LarreTMT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2002\ICEIS-2002\ICEIS-2002-LarreTMT.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Mónica Larre, José Torres-Jiménez, Eduardo F. Morales, Sócrates Torres<br/><em><a href="word/data.html">Data</a> <a href="word/integr.html">Integration</a> <a href="word/use.html">Using</a> the <a href="word/monil.html">MONIL</a> <a href="word/languag.html">Language</a></em><br/>ICEIS, 2002.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/LarreTMT02">DBLP</a><br/>
+<strong><a href="ICEIS-2002.html">ICEIS 2002</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/LarreTMT02">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Data+Integration+Using+the+MONIL+Language%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth International Conference on Enterprise Information Systems':'ICEIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-2002-LarreTMT,
 	author        = "<a href="person/Monica_Larre.html">Mónica Larre</a> and <a href="person/Jose_Torres-Jimenez.html">José Torres-Jiménez</a> and <a href="person/Eduardo_F_Morales.html">Eduardo F. Morales</a> and <a href="person/Socrates_Torres.html">Sócrates Torres</a>",
-	booktitle     = "{ICEIS}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Fourth International Conference on Enterprise Information Systems</span>}",
 	pages         = "115--120",
 	title         = "{Data Integration Using the MONIL Language}",
 	year          = 2002,

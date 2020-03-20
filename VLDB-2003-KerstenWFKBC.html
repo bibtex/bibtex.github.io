@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/VLDB-2003/VLDB-2003-KerstenWFKBC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\VLDB-2003\VLDB-2003-KerstenWFKBC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Martin L. Kersten, Gerhard Weikum, Michael J. Franklin, Daniel A. Keim, Alejandro P. Buchmann, Surajit Chaudhuri<br/><em>A <a href="word/databas.html">Database</a> <a href="word/stripteas.html">Striptease</a> or How to <a href="word/manag.html">Manage</a> Your <a href="word/person.html">Personal</a> <a href="word/databas.html">Databases</a></em><br/>VLDB, 2003.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/KerstenWFKBC03">DBLP</a><br/>
+<strong><a href="VLDB-2003.html">VLDB 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/KerstenWFKBC03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Database+Striptease+or+How+to+Manage+Your+Personal+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2003/papers/S34P01.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 29th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2003-KerstenWFKBC,
 	author        = "<a href="person/Martin_L_Kersten.html">Martin L. Kersten</a> and <a href="person/Gerhard_Weikum.html">Gerhard Weikum</a> and <a href="person/Michael_J_Franklin.html">Michael J. Franklin</a> and <a href="person/Daniel_A_Keim.html">Daniel A. Keim</a> and <a href="person/Alejandro_P_Buchmann.html">Alejandro P. Buchmann</a> and <a href="person/Surajit_Chaudhuri.html">Surajit Chaudhuri</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 29th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2003/papers/S34P01.pdf">http://www.vldb.org/conf/2003/papers/S34P01.pdf</a>",
 </span>	pages         = "1043--1044",
 	publisher     = "{Morgan Kaufmann}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2005/VLDB-2005/VLDB-2005-MarkowitzKPSIK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2005\VLDB-2005\VLDB-2005-MarkowitzKPSIK.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Victor M. Markowitz, Frank Korzeniewski, Krishna Palaniappan, Ernest Szeto, Natalia Ivanova, Nikos Kyrpides<br/><em>The <a href="word/integr.html">Integrated</a> <a href="word/microbi.html">Microbial</a> <a href="word/genom.html">Genomes</a> (<a href="word/img.html">IMG</a>) <a href="word/system.html">System</a>: A <a href="word/case.html">Case</a> <a href="word/studi.html">Study</a> in <a href="word/biolog.html">Biological</a> <a href="word/data.html">Data</a> <a href="word/manag.html">Management</a></em><br/>VLDB, 2005.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2005.html">VLDB 2005</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/MarkowitzKPSIK05">DBLP</a><br/>
+<strong><a href="VLDB-2005.html">VLDB 2005</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/MarkowitzKPSIK05">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Integrated+Microbial+Genomes+(IMG)+System:+A+Case+Study+in+Biological+Data+Management%22">Scholar</a><hr/><a href="http://www.vldb2005.org/program/paper/tue/p1067-markowitz.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 31st International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2005-MarkowitzKPSIK,
 	author        = "<a href="person/Victor_M_Markowitz.html">Victor M. Markowitz</a> and <a href="person/Frank_Korzeniewski.html">Frank Korzeniewski</a> and <a href="person/Krishna_Palaniappan.html">Krishna Palaniappan</a> and <a href="person/Ernest_Szeto.html">Ernest Szeto</a> and <a href="person/Natalia_Ivanova.html">Natalia Ivanova</a> and <a href="person/Nikos_Kyrpides.html">Nikos Kyrpides</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 31st International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb2005.org/program/paper/tue/p1067-markowitz.pdf">http://www.vldb2005.org/program/paper/tue/p1067-markowitz.pdf</a>",
 </span>	pages         = "1067--1078",
 	publisher     = "{ACM}",

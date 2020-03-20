@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-EIS-2007/ICEIS-EIS-2007-KukhunS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-EIS-2007\ICEIS-EIS-2007-KukhunS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Dana Al Kukhun, Florence Sèdes<br/><em><a href="word/interoper.html">Interoperability</a> in <a href="word/pervas.html">Pervasive</a> <a href="word/enterpris.html">Enterprise</a> <a href="word/inform.html">Information</a> <a href="word/system.html">Systems</a> — A <a href="word/doubl.html">Double</a>-<a href="word/face.html">Faced</a> <a href="word/coin.html">Coin</a> <a href="word/between.html">Between</a> <a href="word/secur.html">Security</a> And <a href="word/access.html">Accessability</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/KukhunS07">DBLP</a><br/>
+<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/KukhunS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Interoperability+in+Pervasive+Enterprise+Information+Systems+—+A+Double-Faced+Coin+Between+Security+And+Accessability%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS':'ICEIS EIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-EIS-2007-KukhunS,
 	author        = "<a href="person/Dana_Al_Kukhun.html">Dana Al Kukhun</a> and <a href="person/Florence_Sedes.html">Florence Sèdes</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS</span>}",
 	pages         = "237--242",
 	title         = "{Interoperability in Pervasive Enterprise Information Systems — A Double-Faced Coin Between Security And Accessability}",
 	year          = 2007,

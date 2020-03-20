@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-WangNKWRLMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-WangNKWRLMB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Xinmu Wang, Seetharam Narasimhan, Aswin Raghav Krishna, Francis G. Wolff, Srihari Rajgopal, Te-Hao Lee, Mehran Mehregany, Swarup Bhunia<br/><em><a href="word/high.html">High</a>-<a href="word/temperatur.html">temperature</a> (>500°C) <a href="word/reconfigur.html">reconfigurable</a> <a href="word/comput.html">computing</a> <a href="word/use.html">using</a> <a href="word/silicon.html">silicon</a> <a href="word/carbid.html">carbide</a> <a href="word/nem.html">NEMS</a> <a href="word/switch.html">switches</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/WangNKWRLMB11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/WangNKWRLMB11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22High-temperature+(>500°C)+reconfigurable+computing+using+silicon+carbide+NEMS+switches%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-WangNKWRLMB,
 	author        = "<a href="person/Xinmu_Wang.html">Xinmu Wang</a> and <a href="person/Seetharam_Narasimhan.html">Seetharam Narasimhan</a> and <a href="person/Aswin_Raghav_Krishna.html">Aswin Raghav Krishna</a> and <a href="person/Francis_G_Wolff.html">Francis G. Wolff</a> and <a href="person/Srihari_Rajgopal.html">Srihari Rajgopal</a> and <a href="person/Te-Hao_Lee.html">Te-Hao Lee</a> and <a href="person/Mehran_Mehregany.html">Mehran Mehregany</a> and <a href="person/Swarup_Bhunia.html">Swarup Bhunia</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1065--1070",
 	publisher     = "{IEEE}",
 	title         = "{High-temperature (>500°C) reconfigurable computing using silicon carbide NEMS switches}",

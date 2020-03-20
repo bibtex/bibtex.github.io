@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2010/ICEIS-HCI-2010/ICEIS-HCI-2010-AstolfiMSA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2010\ICEIS-HCI-2010\ICEIS-HCI-2010-AstolfiMSA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Gilberto Astolfi, Vanessa Maia Aguiar de Magalhães, Marcos Alexandre Rose Silva, Júnia Coutinho Anacleto<br/><em><a href="word/use.html">Using</a> <a href="word/cultur.html">Cultural</a> <a href="word/differ.html">Differences</a> to <a href="word/join.html">Join</a> <a href="word/peopl.html">People</a> with <a href="word/common.html">Common</a> <a href="word/interest.html">Interests</a> or <a href="word/problem.html">Problems</a> in <a href="word/enterpris.html">Enterprise</a> <a href="word/environ.html">Environment</a></em><br/>ICEIS, 2010.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-HCI-2010.html">ICEIS HCI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/AstolfiMSA10">DBLP</a><br/>
+<strong><a href="ICEIS-HCI-2010.html">ICEIS HCI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/AstolfiMSA10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+Cultural+Differences+to+Join+People+with+Common+Interests+or+Problems+in+Enterprise+Environment%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 5: HCI':'ICEIS HCI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-HCI-2010-AstolfiMSA,
 	author        = "<a href="person/Gilberto_Astolfi.html">Gilberto Astolfi</a> and <a href="person/Vanessa_Maia_Aguiar_de_Magalhaes.html">Vanessa Maia Aguiar de Magalhães</a> and <a href="person/Marcos_Alexandre_Rose_Silva.html">Marcos Alexandre Rose Silva</a> and <a href="person/Junia_Coutinho_Anacleto.html">Júnia Coutinho Anacleto</a>",
-	booktitle     = "{ICEIS (5)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 5: HCI</span>}",
 	pages         = "192--197",
 	publisher     = "{SciTePress}",
 	title         = "{Using Cultural Differences to Join People with Common Interests or Problems in Enterprise Environment}",

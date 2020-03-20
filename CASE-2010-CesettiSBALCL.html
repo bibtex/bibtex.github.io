@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2010/CASE-2010/CASE-2010-CesettiSBALCL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\CASE-2010\CASE-2010-CesettiSBALCL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Andrea Cesetti, Clovis Peruchi Scotti, Gianluca Di Buo, Giacomo Angione, Luca Lattanzi, Cristina Cristalli, Sauro Longhi<br/><em><a href="word/develop.html">Development</a> of a <a href="word/flexibl.html">flexible</a> <a href="word/test.html">test</a> <a href="word/platform.html">platform</a> for <a href="word/household.html">household</a> <a href="word/applianc.html">appliance</a> <a href="word/test.html">testing</a> <a href="word/base.html">based</a> on <a href="word/mobil.html">mobile</a> <a href="word/agent.html">agents</a></em><br/>CASE, 2010.</h2>
 <div class="rbox">
-<strong><a href="CASE-2010.html">CASE 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/CesettiSBALCL10">DBLP</a><br/>
+<strong><a href="CASE-2010.html">CASE 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/CesettiSBALCL10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Development+of+a+flexible+test+platform+for+household+appliance+testing+based+on+mobile+agents%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2010.5584512">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2010-CesettiSBALCL,
 	author        = "<a href="person/Andrea_Cesetti.html">Andrea Cesetti</a> and <a href="person/Clovis_Peruchi_Scotti.html">Clovis Peruchi Scotti</a> and <a href="person/Gianluca_Di_Buo.html">Gianluca Di Buo</a> and <a href="person/Giacomo_Angione.html">Giacomo Angione</a> and <a href="person/Luca_Lattanzi.html">Luca Lattanzi</a> and <a href="person/Cristina_Cristalli.html">Cristina Cristalli</a> and <a href="person/Sauro_Longhi.html">Sauro Longhi</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2010.5584512">10.1109/COASE.2010.5584512</a>",
 </span>	pages         = "855--860",
 	publisher     = "{IEEE}",

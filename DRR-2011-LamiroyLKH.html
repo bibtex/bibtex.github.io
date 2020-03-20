@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2011/DRR-2011/DRR-2011-LamiroyLKH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2011\DRR-2011\DRR-2011-LamiroyLKH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,22 +32,22 @@
 <div class="main">
 <h2>Bart Lamiroy, Daniel P. Lopresti, Henry F. Korth, Jeff Heflin<br/><em>How <a href="word/care.html">carefully</a> <a href="word/design.html">designed</a> <a href="word/open.html">open</a> <a href="word/resourc.html">resource</a> <a href="word/share.html">sharing</a> <a href="word/can.html">can</a> <a href="word/help.html">help</a> and <a href="word/expand.html">expand</a> <a href="word/document.html">document</a> <a href="word/analysi.html">analysis</a> <a href="word/research.html">research</a></em><br/>DRR, 2011.</h2>
 <div class="rbox">
-<strong><a href="DRR-2011.html">DRR 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/LamiroyLKH11">DBLP</a><br/>
+<strong><a href="DRR-2011.html">DRR 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/LamiroyLKH11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22How+carefully+designed+open+resource+sharing+can+help+and+expand+document+analysis+research%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.876483">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2011-LamiroyLKH,
 	author        = "<a href="person/Bart_Lamiroy.html">Bart Lamiroy</a> and <a href="person/Daniel_P_Lopresti.html">Daniel P. Lopresti</a> and <a href="person/Henry_F_Korth.html">Henry F. Korth</a> and <a href="person/Jeff_Heflin.html">Jeff Heflin</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.876483">10.1117/12.876483</a>",
 </span>	pages         = "1--10",
 	publisher     = "{SPIE}",
 	series        = "{SPIE Proceedings}",
 	title         = "{How carefully designed open resource sharing can help and expand document analysis research}",
-	volume        = 7874,
+	volume        = "7874",
 	year          = 2011,
 }</pre>
 </div>

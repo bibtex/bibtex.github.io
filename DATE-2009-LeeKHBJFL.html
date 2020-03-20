@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2009/DATE-2009/DATE-2009-LeeKHBJFL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2009\DATE-2009\DATE-2009-LeeKHBJFL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Young-Joon Lee, Yoon Jo Kim, Gang Huang, Muhannad S. Bakir, Yogendra K. Joshi, Andrei G. Fedorov, Sung Kyu Lim<br/><em>Co-<a href="word/design.html">design</a> of <a href="word/signal.html">signal</a>, <a href="word/power.html">power</a>, and <a href="word/thermal.html">thermal</a> <a href="word/distribut.html">distribution</a> <a href="word/network.html">networks</a> for 3D ICs</em><br/>DATE, 2009.</h2>
 <div class="rbox">
-<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/LeeKHBJFL09">DBLP</a><br/>
+<strong><a href="DATE-2009.html">DATE 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/LeeKHBJFL09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Co-design+of+signal,+power,+and+thermal+distribution+networks+for+3D+ICs%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2009-LeeKHBJFL,
 	author        = "<a href="person/Young-Joon_Lee.html">Young-Joon Lee</a> and <a href="person/Yoon_Jo_Kim.html">Yoon Jo Kim</a> and <a href="person/Gang_Huang.html">Gang Huang</a> and <a href="person/Muhannad_S_Bakir.html">Muhannad S. Bakir</a> and <a href="person/Yogendra_K_Joshi.html">Yogendra K. Joshi</a> and <a href="person/Andrei_G_Fedorov.html">Andrei G. Fedorov</a> and <a href="person/Sung_Kyu_Lim.html">Sung Kyu Lim</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "610--615",
 	publisher     = "{IEEE}",
 	title         = "{Co-design of signal, power, and thermal distribution networks for 3D ICs}",

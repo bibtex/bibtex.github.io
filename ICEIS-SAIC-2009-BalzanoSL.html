@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2009/ICEIS-SAIC-2009/ICEIS-SAIC-2009-BalzanoSL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2009\ICEIS-SAIC-2009\ICEIS-SAIC-2009-BalzanoSL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Walter Balzano, Maria Rosaria Del Sorbo, Luca Di Liberto<br/><em>A <a href="word/scheme.html">Scheme</a> of <a href="word/strategi.html">Strategies</a> for <a href="word/real.html">Real</a>-<a href="word/time.html">time</a> <a href="word/web.html">Web</a> <a href="word/collabor.html">Collaboration</a> <a href="word/base.html">based</a> on <a href="word/ajax.html">AJAX</a>/<a href="word/comet.html">Comet</a> <a href="word/techniqu.html">Techniques</a> for <a href="word/live.html">Live</a> <a href="word/ria.html">RIA</a></em><br/>ICEIS, 2009.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2009.html">ICEIS SAIC 2009</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/BalzanoSL09">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2009.html">ICEIS SAIC 2009</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/BalzanoSL09">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Scheme+of+Strategies+for+Real-time+Web+Collaboration+based+on+AJAX/Comet+Techniques+for+Live+RIA%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2009-BalzanoSL,
 	author        = "<a href="person/Walter_Balzano.html">Walter Balzano</a> and <a href="person/Maria_Rosaria_Del_Sorbo.html">Maria Rosaria Del Sorbo</a> and <a href="person/Luca_Di_Liberto.html">Luca Di Liberto</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "35--40",
 	title         = "{A Scheme of Strategies for Real-time Web Collaboration based on AJAX/Comet Techniques for Live RIA}",
 	year          = 2009,

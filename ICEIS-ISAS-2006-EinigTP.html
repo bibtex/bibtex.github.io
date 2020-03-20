@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-ISAS-2006/ICEIS-ISAS-2006-EinigTP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-ISAS-2006\ICEIS-ISAS-2006-EinigTP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Matthias Einig, Roger Tagg, Georg Peters<br/><em><a href="word/manag.html">Managing</a> the <a href="word/knowledg.html">Knowledge</a> <a href="word/need.html">Needed</a> to <a href="word/support.html">Support</a> an <a href="word/electron.html">Electronic</a> <a href="word/person.html">Personal</a> <a href="word/assist.html">Assistant</a> — An <a href="word/end.html">End</a>-<a href="word/user.html">User</a> <a href="word/friend.html">Friendly</a> <a href="word/graphic.html">Graphical</a> <a href="word/ontolog.html">Ontology</a> <a href="word/edit.html">Editing</a> <a href="word/tool.html">Tool</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/EinigTP06">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/EinigTP06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Managing+the+Knowledge+Needed+to+Support+an+Electronic+Personal+Assistant+—+An+End-User+Friendly+Graphical+Ontology+Editing+Tool%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2006-EinigTP,
 	author        = "<a href="person/Matthias_Einig.html">Matthias Einig</a> and <a href="person/Roger_Tagg.html">Roger Tagg</a> and <a href="person/Georg_Peters.html">Georg Peters</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification</span>}",
 	pages         = "304--309",
 	title         = "{Managing the Knowledge Needed to Support an Electronic Personal Assistant — An End-User Friendly Graphical Ontology Editing Tool}",
 	year          = 2006,

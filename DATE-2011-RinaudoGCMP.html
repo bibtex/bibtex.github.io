@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2011/DATE-2011/DATE-2011-RinaudoGCMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2011\DATE-2011\DATE-2011-RinaudoGCMP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Salvatore Rinaudo, Giuliana Gangemi, Andrea Calimera, Alberto Macii, Massimo Poncino<br/><em><a href="word/move.html">Moving</a> to <a href="word/green.html">Green</a> <a href="word/ict.html">ICT</a>: From <a href="word/stand.html">stand</a>-<a href="word/alon.html">alone</a> <a href="word/power.html">power</a>-<a href="word/awar.html">aware</a> IC <a href="word/design.html">design</a> to an <a href="word/integr.html">integrated</a> <a href="word/approach.html">approach</a> to <a href="word/energi.html">energy</a> <a href="word/effici.html">efficient</a> <a href="word/design.html">design</a> for <a href="word/heterogen.html">heterogeneous</a> <a href="word/electron.html">electronic</a> <a href="word/system.html">systems</a></em><br/>DATE, 2011.</h2>
 <div class="rbox">
-<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/date/RinaudoGCMP11">DBLP</a><br/>
+<strong><a href="DATE-2011.html">DATE 2011</a></strong><hr/><a href="http://dblp.org/rec/html/conf/date/RinaudoGCMP11">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Moving+to+Green+ICT:+From+stand-alone+power-aware+IC+design+to+an+integrated+approach+to+energy+efficient+design+for+heterogeneous+electronic+systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th Conference on Design, Automation and Test in Europe':'DATE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DATE-2011-RinaudoGCMP,
 	author        = "<a href="person/Salvatore_Rinaudo.html">Salvatore Rinaudo</a> and <a href="person/Giuliana_Gangemi.html">Giuliana Gangemi</a> and <a href="person/Andrea_Calimera.html">Andrea Calimera</a> and <a href="person/Alberto_Macii.html">Alberto Macii</a> and <a href="person/Massimo_Poncino.html">Massimo Poncino</a>",
-	booktitle     = "{DATE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th Conference on Design, Automation and Test in Europe</span>}",
 	pages         = "1127--1128",
 	publisher     = "{IEEE}",
 	title         = "{Moving to Green ICT: From stand-alone power-aware IC design to an integrated approach to energy efficient design for heterogeneous electronic systems}",

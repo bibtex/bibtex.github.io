@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/HPDC-2006/HPDC-2006-BellenotBGIKPRBLRCF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\HPDC-2006\HPDC-2006-BellenotBGIKPRBLRCF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Bertrand Bellenot, Rene Brun, Gerardo Ganis, Jan Iwaszkiewicz, Guenter Kickinger, Andreas J. Peters, Fons Rademakers, Maarten Ballintijn, C. Loizides, C. Reed, Philippe Canal, Derek Feichtinger<br/><em><a href="word/proof.html">PROOF</a> — The <a href="word/parallel.html">Parallel</a> <a href="word/root.html">ROOT</a> <a href="word/facil.html">Facility</a></em><br/>HPDC, 2006.</h2>
 <div class="rbox">
-<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpdc/BellenotBGIKPRBLRCF06">DBLP</a><br/>
+<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpdc/BellenotBGIKPRBLRCF06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22PROOF+—+The+Parallel+ROOT+Facility%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/HPDC.2006.1652193">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/HPDC.2006.1652193">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2006-BellenotBGIKPRBLRCF,
 	author        = "<a href="person/Bertrand_Bellenot.html">Bertrand Bellenot</a> and <a href="person/Rene_Brun.html">Rene Brun</a> and <a href="person/Gerardo_Ganis.html">Gerardo Ganis</a> and <a href="person/Jan_Iwaszkiewicz.html">Jan Iwaszkiewicz</a> and <a href="person/Guenter_Kickinger.html">Guenter Kickinger</a> and <a href="person/Andreas_J_Peters.html">Andreas J. Peters</a> and <a href="person/Fons_Rademakers.html">Fons Rademakers</a> and <a href="person/Maarten_Ballintijn.html">Maarten Ballintijn</a> and <a href="person/C_Loizides.html">C. Loizides</a> and <a href="person/C_Reed.html">C. Reed</a> and <a href="person/Philippe_Canal.html">Philippe Canal</a> and <a href="person/Derek_Feichtinger.html">Derek Feichtinger</a>",
-	booktitle     = "{Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPDC.2006.1652193">10.1109/HPDC.2006.1652193</a>",
 </span>	pages         = "379--380",
 	publisher     = "{IEEE}",

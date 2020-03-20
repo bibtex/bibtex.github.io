@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-AIDSS-2006.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-AIDSS-2006.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,19 +32,18 @@
 <div class="main">
 <h2>Yannis Manolopoulos, Joaquim Filipe, Panos Constantopoulos, José Cordeiro<br/><em>Proceedings of the Eighth International Conference on Enterprise Information Systems: Artificial Intelligence and Decision Support Systems</em><br/>ICEIS AIDSS, 2006.</h2>
 <div class="rbox">
-<strong><a href="INFO.html">INFO</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/2006">DBLP</a><br/>
+<strong><a href="INFO.html">INFO</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/2006">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Eighth+International+Conference+on+Enterprise+Information+Systems:+Artificial+Intelligence+and+Decision+Support+Systems%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Artificial Intelligence and Decision Support Systems':'ICEIS AIDSS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICEIS-AIDSS-2006,
 	address       = "Paphos, Cyprus",
-	booktitle     = "{ICEIS AIDSS}",
 	editor        = "<a href="person/Yannis_Manolopoulos.html">Yannis Manolopoulos</a> and <a href="person/Joaquim_Filipe.html">Joaquim Filipe</a> and <a href="person/Panos_Constantopoulos.html">Panos Constantopoulos</a> and José Cordeiro",
 <span id="isbn">	isbn          = "972-8865-41-4",
-</span>	title         = "{Proceedings of the Eighth International Conference on Enterprise Information Systems: Artificial Intelligence and Decision Support Systems}",
+</span>	title         = "{<span id="title">Proceedings of the Eighth International Conference on Enterprise Information Systems: Artificial Intelligence and Decision Support Systems</span>}",
 	year          = 2006,
 }</pre>
 </div>

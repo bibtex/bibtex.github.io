@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2000/VLDB-2000/VLDB-2000-ChakrabartiGRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2000\VLDB-2000\VLDB-2000-ChakrabartiGRS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Kaushik Chakrabarti, Minos N. Garofalakis, Rajeev Rastogi, Kyuseok Shim<br/><em><a href="word/approxim.html">Approximate</a> <a href="word/queri.html">Query</a> <a href="word/process.html">Processing</a> <a href="word/use.html">Using</a> <a href="word/wavelet.html">Wavelets</a></em><br/>VLDB, 2000.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ChakrabartiGRS00">DBLP</a><br/>
+<strong><a href="VLDB-2000.html">VLDB 2000</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ChakrabartiGRS00">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Approximate+Query+Processing+Using+Wavelets%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2000/P111.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 26th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2000-ChakrabartiGRS,
 	author        = "<a href="person/Kaushik_Chakrabarti.html">Kaushik Chakrabarti</a> and <a href="person/Minos_N_Garofalakis.html">Minos N. Garofalakis</a> and <a href="person/Rajeev_Rastogi.html">Rajeev Rastogi</a> and <a href="person/Kyuseok_Shim.html">Kyuseok Shim</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 26th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2000/P111.pdf">http://www.vldb.org/conf/2000/P111.pdf</a>",
 </span>	pages         = "111--122",
 	publisher     = "{Morgan Kaufmann}",

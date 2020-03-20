@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-ISAS-2006/ICEIS-ISAS-2006-RoubtsovaR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-ISAS-2006\ICEIS-ISAS-2006-RoubtsovaR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ella E. Roubtsova, Serguei A. Roubtsov<br/><em>A <a href="word/featur.html">Feature</a> <a href="word/comput.html">Computation</a> <a href="word/tree.html">Tree</a> <a href="word/model.html">Model</a> to <a href="word/specifi.html">Specify</a> <a href="word/requir.html">Requirements</a> and <a href="word/reus.html">Reuse</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/RoubtsovaR06">DBLP</a><br/>
+<strong><a href="ICEIS-ISAS-2006.html">ICEIS ISAS 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/RoubtsovaR06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Feature+Computation+Tree+Model+to+Specify+Requirements+and+Reuse%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification':'ICEIS ISAS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-ISAS-2006-RoubtsovaR,
 	author        = "<a href="person/Ella_E_Roubtsova.html">Ella E. Roubtsova</a> and <a href="person/Serguei_A_Roubtsov.html">Serguei A. Roubtsov</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Information Systems Analysis and Specification</span>}",
 	pages         = "118--125",
 	title         = "{A Feature Computation Tree Model to Specify Requirements and Reuse}",
 	year          = 2006,

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2001/KDD-2001/KDD-2001-AdderleyM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2001\KDD-2001\KDD-2001-AdderleyM.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Richard Adderley, Peter B. Musgrove<br/><em><a href="word/data.html">Data</a> <a href="word/mine.html">mining</a> <a href="word/case.html">case</a> <a href="word/studi.html">study</a>: <a href="word/model.html">modeling</a> the <a href="word/behavior.html">behavior</a> of <a href="word/offend.html">offenders</a> <a href="word/who.html">who</a> <a href="word/commit.html">commit</a> <a href="word/serious.html">serious</a> <a href="word/sexual.html">sexual</a> <a href="word/assault.html">assaults</a></em><br/>KDD, 2001.</h2>
 <div class="rbox">
-<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/AdderleyM01">DBLP</a><br/>
+<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/AdderleyM01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Data+mining+case+study:+modeling+the+behavior+of+offenders+who+commit+serious+sexual+assaults%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2001-AdderleyM,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=502512.502541">502512.502541</a>",
 </span>	author        = "<a href="person/Richard_Adderley.html">Richard Adderley</a> and <a href="person/Peter_B_Musgrove.html">Peter B. Musgrove</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining</span>}",
 	pages         = "215--220",
 	publisher     = "{ACM}",
 	title         = "{Data mining case study: modeling the behavior of offenders who commit serious sexual assaults}",

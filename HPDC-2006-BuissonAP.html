@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/HPDC-2006/HPDC-2006-BuissonAP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\HPDC-2006\HPDC-2006-BuissonAP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jérémy Buisson, Françoise André, Jean-Louis Pazat<br/><em><a href="word/perform.html">Performance</a> and <a href="word/practic.html">Practicability</a> of <a href="word/dynam.html">Dynamic</a> <a href="word/adapt.html">Adaptation</a> for <a href="word/parallel.html">Parallel</a> <a href="word/comput.html">Computing</a></em><br/>HPDC, 2006.</h2>
 <div class="rbox">
-<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpdc/BuissonAP06">DBLP</a><br/>
+<strong><a href="HPDC-2006.html">HPDC 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpdc/BuissonAP06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Performance+and+Practicability+of+Dynamic+Adaptation+for+Parallel+Computing%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/HPDC.2006.1652169">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/HPDC.2006.1652169">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing':'HPDC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPDC-2006-BuissonAP,
 	author        = "<a href="person/Jeremy_Buisson.html">Jérémy Buisson</a> and <a href="person/Francoise_Andre.html">Françoise André</a> and <a href="person/Jean-Louis_Pazat.html">Jean-Louis Pazat</a>",
-	booktitle     = "{Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 15th International Symposium on High Performance Parallel and Distributed Computing</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPDC.2006.1652169">10.1109/HPDC.2006.1652169</a>",
 </span>	pages         = "331--332",
 	publisher     = "{IEEE}",

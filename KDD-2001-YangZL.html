@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/2001/KDD-2001/KDD-2001-YangZL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\2001\KDD-2001\KDD-2001-YangZL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Qiang Yang, Henry Haining Zhang, Ian Tian Yi Li<br/><em><a href="word/mine.html">Mining</a> <a href="word/web.html">web</a> <a href="word/log.html">logs</a> for <a href="word/predict.html">prediction</a> <a href="word/model.html">models</a> in <a href="word/www.html">WWW</a> <a href="word/cach.html">caching</a> and <a href="word/prefetch.html">prefetching</a></em><br/>KDD, 2001.</h2>
 <div class="rbox">
-<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/YangZL01">DBLP</a><br/>
+<strong><a href="KDD-2001.html">KDD 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/YangZL01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Mining+web+logs+for+prediction+models+in+WWW+caching+and+prefetching%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-2001-YangZL,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=502512.502584">502512.502584</a>",
 </span>	author        = "<a href="person/Qiang_Yang.html">Qiang Yang</a> and <a href="person/Henry_Haining_Zhang.html">Henry Haining Zhang</a> and <a href="person/Ian_Tian_Yi_Li.html">Ian Tian Yi Li</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Knowledge Discovery and Data Mining</span>}",
 	pages         = "473--478",
 	publisher     = "{ACM}",
 	title         = "{Mining web logs for prediction models in WWW caching and prefetching}",

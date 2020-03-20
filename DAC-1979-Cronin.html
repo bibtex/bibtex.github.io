@@ -3,21 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="keywords" content="software linguistics, software language engineering, book of knowledge, glossary, academic publications, scientific research, open knowledge, open science"/>
-	<title>BibSLEIGH — Views of a vendor (Position Paper)</title>
+	<title>BibSLEIGH — Views of a vendor</title>
 	<link href="stuff/bib.css" rel="stylesheet" type="text/css"/>
 	<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<script src="stuff/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/dac.png" alt="Views of a vendor (Position Paper)" title="Views of a vendor (Position Paper)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/dac.png" alt="Views of a vendor" title="Views of a vendor" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1979/DAC-1979/DAC-1979-Cronin.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1979\DAC-1979\DAC-1979-Cronin.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -30,22 +30,22 @@
 
 </div>
 <div class="main">
-<h2>Michael J. Cronin<br/><em><a href="word/view.html">Views</a> of a <a href="word/vendor.html">vendor</a> (<a href="word/posit.html">Position</a> <a href="word/paper.html">Paper</a>)</em><br/>DAC, 1979.</h2>
+<h2>Michael J. Cronin<br/><em><a href="word/view.html">Views</a> of a <a href="word/vendor.html">vendor</a></em><br/>DAC, 1979.</h2>
 <div class="rbox">
-<strong><a href="DAC-1979.html">DAC 1979</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/Cronin79">DBLP</a><br/>
-<a href="https://scholar.google.com/scholar?q=%22Views+of+a+vendor+(Position+Paper)%22">Scholar</a>
+<strong><a href="DAC-1979.html">DAC 1979</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/Cronin79">DBLP</a><br/>
+<a href="https://scholar.google.com/scholar?q=%22Views+of+a+vendor%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1979-Cronin,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=811734">811734</a>",
 </span>	author        = "<a href="person/Michael_J_Cronin.html">Michael J. Cronin</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 16th Design Automation Conference</span>}",
 	pages         = "346",
 	publisher     = "{ACM}",
-	title         = "{Views of a vendor (Position Paper)}",
+	title         = "{Views of a vendor}",
 	year          = 1979,
 }</pre>
 </div>

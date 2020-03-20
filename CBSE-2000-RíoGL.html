@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/ARCH/2000/CBSE-2000/CBSE-2000-RíoGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/ARCH\2000\CBSE-2000\CBSE-2000-RíoGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Itacio:+A+Component+Model+for+Verifying+Software+at+Construction+Time%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third International Workshop on Component-Based Software Engineering: Reflection in Practice':'CBSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
-	</form><pre>@inproceedings{CBSE-2000-RíoGL,
+	</form><pre>@inproceedings{CBSE-2000-RíoGL,
 	address       = "Limerick, Ireland",
 	author        = "<a href="person/Agustin_Cernuda_del_Rio.html">Agustín Cernuda del Río</a> and <a href="person/Jose_Emilio_Labra_Gayo.html">José Emilio Labra Gayo</a> and <a href="person/Juan_Manuel_Cueva_Lovelle.html">Juan Manuel Cueva Lovelle</a>",
-	booktitle     = "{Proceedings of the Third International Workshop on Component-Based Software Engineering: Reflection in Practice}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third International Workshop on Component-Based Software Engineering: Reflection in Practice</span>}",
 	pages         = "12",
 	title         = "{Itacio: A Component Model for Verifying Software at Construction Time}",
 	year          = 2000,

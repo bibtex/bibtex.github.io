@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2015/HPCA-2015/HPCA-2015-HsuZLMWMTD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2015\HPCA-2015\HPCA-2015-HsuZLMWMTD.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Chang-Hong Hsu, Yunqi Zhang, Michael A. Laurenzano, David Meisner, Thomas F. Wenisch, Jason Mars, Lingjia Tang, Ronald G. Dreslinski<br/><em><a href="word/adrenalin.html">Adrenaline</a>: <a href="word/pinpoint.html">Pinpointing</a> and <a href="word/rein.html">reining</a> in <a href="word/tail.html">tail</a> <a href="word/queri.html">queries</a> with <a href="word/quick.html">quick</a> <a href="word/voltag.html">voltage</a> <a href="word/boost.html">boosting</a></em><br/>HPCA, 2015.</h2>
 <div class="rbox">
-<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/hpca/HsuZLMWMTD15">DBLP</a><br/>
+<strong><a href="HPCA-2015.html">HPCA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/hpca/HsuZLMWMTD15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Adrenaline:+Pinpointing+and+reining+in+tail+queries+with+quick+voltage+boosting%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/HPCA.2015.7056039">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st International Symposium on High-Performance Computer Architecture':'HPCA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{HPCA-2015-HsuZLMWMTD,
 	author        = "<a href="person/Chang-Hong_Hsu.html">Chang-Hong Hsu</a> and <a href="person/Yunqi_Zhang.html">Yunqi Zhang</a> and <a href="person/Michael_A_Laurenzano.html">Michael A. Laurenzano</a> and <a href="person/David_Meisner.html">David Meisner</a> and <a href="person/Thomas_F_Wenisch.html">Thomas F. Wenisch</a> and <a href="person/Jason_Mars.html">Jason Mars</a> and <a href="person/Lingjia_Tang.html">Lingjia Tang</a> and <a href="person/Ronald_G_Dreslinski.html">Ronald G. Dreslinski</a>",
-	booktitle     = "{HPCA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st International Symposium on High-Performance Computer Architecture</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/HPCA.2015.7056039">10.1109/HPCA.2015.7056039</a>",
 </span>	pages         = "271--282",
 	publisher     = "{IEEE}",

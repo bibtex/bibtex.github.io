@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2006/DRR-2006/DRR-2006-AgamAFGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2006\DRR-2006\DRR-2006-AgamAFGL.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Gady Agam, Shlomo Argamon, Ophir Frieder, David A. Grossman, D. Lewis<br/><em><a href="word/complex.html">Complex</a> <a href="word/document.html">document</a> <a href="word/inform.html">information</a> <a href="word/process.html">processing</a>: <a href="word/prototyp.html">prototype</a>, <a href="word/test.html">test</a> <a href="word/collect.html">collection</a>, and <a href="word/evalu.html">evaluation</a></em><br/>DRR, 2006.</h2>
 <div class="rbox">
-<strong><a href="DRR-2006.html">DRR 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/drr/AgamAFGL06">DBLP</a><br/>
+<strong><a href="DRR-2006.html">DRR 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/drr/AgamAFGL06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Complex+document+information+processing:+prototype,+test+collection,+and+evaluation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1117/12.662918">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Document Recognition and Retrieval':'DRR');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DRR-2006-AgamAFGL,
 	author        = "<a href="person/Gady_Agam.html">Gady Agam</a> and <a href="person/Shlomo_Argamon.html">Shlomo Argamon</a> and <a href="person/Ophir_Frieder.html">Ophir Frieder</a> and <a href="person/David_A_Grossman.html">David A. Grossman</a> and <a href="person/D_Lewis.html">D. Lewis</a>",
-	booktitle     = "{DRR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Document Recognition and Retrieval</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1117/12.662918">10.1117/12.662918</a>",
 </span>	publisher     = "{SPIE}",
 	title         = "{Complex document information processing: prototype, test collection, and evaluation}",

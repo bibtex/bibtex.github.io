@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-SAIC-2007/ICEIS-SAIC-2007-HoubenLCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-SAIC-2007\ICEIS-SAIC-2007-HoubenLCS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Geert Houben, Kris Luyten, Karin Coninx, Frank Schönherr<br/><em>A <a href="word/web.html">Web</a>-<a href="word/base.html">Based</a> <a href="word/central.html">Central</a> <a href="word/gateway.html">Gateway</a> <a href="word/infrastructur.html">Infrastructure</a> in the <a href="word/automot.html">Automotive</a> <a href="word/after.html">After</a>-<a href="word/sale.html">Sales</a> <a href="word/market.html">Market</a> — <a href="word/busi.html">Business</a> <a href="word/interoper.html">Interoperability</a> through the <a href="word/web.html">Web</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/HoubenLCS07">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2007.html">ICEIS SAIC 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/HoubenLCS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22A+Web-Based+Central+Gateway+Infrastructure+in+the+Automotive+After-Sales+Market+—+Business+Interoperability+through+the+Web%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2007-HoubenLCS,
 	author        = "<a href="person/Geert_Houben.html">Geert Houben</a> and <a href="person/Kris_Luyten.html">Kris Luyten</a> and <a href="person/Karin_Coninx.html">Karin Coninx</a> and <a href="person/Frank_Schoenherr.html">Frank Schönherr</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 4: SAIC</span>}",
 	pages         = "45--50",
 	title         = "{A Web-Based Central Gateway Infrastructure in the Automotive After-Sales Market — Business Interoperability through the Web}",
 	year          = 2007,

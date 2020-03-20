@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2001/DAC-2001/DAC-2001-SchenkelPZSGA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2001\DAC-2001\DAC-2001-SchenkelPZSGA.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Frank Schenkel, Michael Pronath, Stephan Zizala, Robert Schwencker, Helmut E. Graeb, Kurt Antreich<br/><em><a href="word/mismatch.html">Mismatch</a> <a href="word/analysi.html">Analysis</a> and <a href="word/direct.html">Direct</a> <a href="word/yield.html">Yield</a> <a href="word/optim.html">Optimization</a> by <a href="word/spec.html">Spec</a>-<a href="word/wise.html">Wise</a> <a href="word/linear.html">Linearization</a> and <a href="word/feasibl.html">Feasibility</a>-<a href="word/guid.html">Guided</a> <a href="word/search.html">Search</a></em><br/>DAC, 2001.</h2>
 <div class="rbox">
-<strong><a href="DAC-2001.html">DAC 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/SchenkelPZSGA01">DBLP</a><br/>
+<strong><a href="DAC-2001.html">DAC 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/SchenkelPZSGA01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Mismatch+Analysis+and+Direct+Yield+Optimization+by+Spec-Wise+Linearization+and+Feasibility-Guided+Search%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/378239.379079">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/378239.379079">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 38th Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-2001-SchenkelPZSGA,
 	author        = "<a href="person/Frank_Schenkel.html">Frank Schenkel</a> and <a href="person/Michael_Pronath.html">Michael Pronath</a> and <a href="person/Stephan_Zizala.html">Stephan Zizala</a> and <a href="person/Robert_Schwencker.html">Robert Schwencker</a> and <a href="person/Helmut_E_Graeb.html">Helmut E. Graeb</a> and <a href="person/Kurt_Antreich.html">Kurt Antreich</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 38th Design Automation Conference</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/378239.379079">10.1145/378239.379079</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/378239.379079">http://doi.acm.org/10.1145/378239.379079</a>",
 </span>	pages         = "858--863",

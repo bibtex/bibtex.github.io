@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1995/KDD-1995/KDD-1995-MurthyS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1995\KDD-1995\KDD-1995-MurthyS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Sreerama K. Murthy, Steven Salzberg<br/><em><a href="word/decis.html">Decision</a> <a href="word/tree.html">Tree</a> <a href="word/induct.html">Induction</a>: How <a href="word/effect.html">Effective</a> is the <a href="word/greedi.html">Greedy</a> <a href="word/heurist.html">Heuristic</a>?</em><br/>KDD, 1995.</h2>
 <div class="rbox">
-<strong><a href="KDD-1995.html">KDD 1995</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/kdd/MurthyS95">DBLP</a><br/>
+<strong><a href="KDD-1995.html">KDD 1995</a></strong><hr/><a href="http://dblp.org/rec/html/conf/kdd/MurthyS95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Decision+Tree+Induction:+How+Effective+is+the+Greedy+Heuristic?%22">Scholar</a><hr/><a href="http://www.aaai.org/Library/KDD/1995/kdd95-054.php">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the First International Conference on Knowledge Discovery and Data Mining':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{KDD-1995-MurthyS,
 	author        = "<a href="person/Sreerama_K_Murthy.html">Sreerama K. Murthy</a> and <a href="person/Steven_Salzberg.html">Steven Salzberg</a>",
-	booktitle     = "{KDD}",
+	booktitle     = "{<span id="booktitle">Proceedings of the First International Conference on Knowledge Discovery and Data Mining</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/Library/KDD/1995/kdd95-054.php">http://www.aaai.org/Library/KDD/1995/kdd95-054.php</a>",
 </span>	pages         = "222--227",
 	publisher     = "{AAAI Press}",

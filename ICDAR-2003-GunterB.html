@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2003/ICDAR-2003/ICDAR-2003-GunterB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2003\ICDAR-2003\ICDAR-2003-GunterB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Simon Günter, Horst Bunke<br/><em><a href="word/optim.html">Optimizing</a> the <a href="word/number.html">Number</a> of <a href="word/state.html">States</a>, <a href="word/train.html">Training</a> <a href="word/iter.html">Iterations</a> and <a href="word/gaussian.html">Gaussians</a> in an <a href="word/hmm.html">HMM</a>-<a href="word/base.html">based</a> <a href="word/handwritten.html">Handwritten</a> <a href="word/word.html">Word</a> <a href="word/recogn.html">Recognizer</a></em><br/>ICDAR, 2003.</h2>
 <div class="rbox">
-<strong><a href="ICDAR-2003.html">ICDAR 2003</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/icdar/GunterB03">DBLP</a><br/>
+<strong><a href="ICDAR-2003.html">ICDAR 2003</a></strong><hr/><a href="http://dblp.org/rec/html/conf/icdar/GunterB03">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Optimizing+the+Number+of+States,+Training+Iterations+and+Gaussians+in+an+HMM-based+Handwritten+Word+Recognizer%22">Scholar</a><hr/><a href="http://doi.ieeecomputersociety.org/10.1109/ICDAR.2003.1227710">?EE?</a><br/>
 <a href="http://dx.doi.org/10.1109/ICDAR.2003.1227710">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh International Conference on Document Analysis and Recognition':'ICDAR');$('#publisher').text(this.checked?'IEEE Computer Society':'IEEE CS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICDAR-2003-GunterB,
 	author        = "<a href="person/Simon_Guenter.html">Simon Günter</a> and <a href="person/Horst_Bunke.html">Horst Bunke</a>",
-	booktitle     = "{ICDAR}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh International Conference on Document Analysis and Recognition</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/ICDAR.2003.1227710">10.1109/ICDAR.2003.1227710</a>",
 </span>	pages         = "472--476",
 	publisher     = "{<span id="publisher">IEEE Computer Society</span>}",

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2004/OSDI-2004/OSDI-2004-ParkPPW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2004\OSDI-2004\OSDI-2004-ParkPPW.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>KyoungSoo Park, Vivek S. Pai, Larry L. Peterson, Zhe Wang<br/><em>Co<a href="word/dns.html">DNS</a>: <a href="word/improv.html">Improving</a> <a href="word/dns.html">DNS</a> <a href="word/perform.html">Performance</a> and <a href="word/reliabl.html">Reliability</a> via <a href="word/cooper.html">Cooperative</a> <a href="word/lookup.html">Lookups</a></em><br/>OSDI, 2004.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/ParkPPW04">DBLP</a><br/>
+<strong><a href="OSDI-2004.html">OSDI 2004</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/ParkPPW04">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22CoDNS:+Improving+DNS+Performance+and+Reliability+via+Cooperative+Lookups%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi04/tech/park.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2004-ParkPPW,
 	author        = "<a href="person/KyoungSoo_Park.html">KyoungSoo Park</a> and <a href="person/Vivek_S_Pai.html">Vivek S. Pai</a> and <a href="person/Larry_L_Peterson.html">Larry L. Peterson</a> and <a href="person/Zhe_Wang.html">Zhe Wang</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Sixth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi04/tech/park.html">http://www.usenix.org/events/osdi04/tech/park.html</a>",
 </span>	pages         = "199--214",
 	publisher     = "{USENIX Association}",

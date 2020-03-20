@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2006/CASE-2006/CASE-2006-PotsaidWF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\CASE-2006\CASE-2006-PotsaidWF.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Benjamin Potsaid, John T. Wen, Fern P. Finger<br/><em><a href="word/autom.html">Automation</a> of <a href="word/challeng.html">Challenging</a> <a href="word/spatial.html">Spatial</a>-<a href="word/tempor.html">Temporal</a> <a href="word/biomed.html">Biomedical</a> <a href="word/observ.html">Observations</a> with the <a href="word/adapt.html">Adaptive</a> <a href="word/scan.html">Scanning</a> <a href="word/optic.html">Optical</a> <a href="word/microscop.html">Microscope</a> (<a href="word/asom.html">ASOM</a>)</em><br/>CASE, 2006.</h2>
 <div class="rbox">
-<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/PotsaidWF06">DBLP</a><br/>
+<strong><a href="CASE-2006.html">CASE 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/PotsaidWF06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automation+of+Challenging+Spatial-Temporal+Biomedical+Observations+with+the+Adaptive+Scanning+Optical+Microscope+(ASOM)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/COASE.2006.326852">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2006-PotsaidWF,
 	author        = "<a href="person/Benjamin_Potsaid.html">Benjamin Potsaid</a> and <a href="person/John_T_Wen.html">John T. Wen</a> and <a href="person/Fern_P_Finger.html">Fern P. Finger</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Second International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/COASE.2006.326852">10.1109/COASE.2006.326852</a>",
 </span>	pages         = "39--44",
 	publisher     = "{IEEE}",

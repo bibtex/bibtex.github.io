@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2006/ICEIS-SAIC-2006/ICEIS-SAIC-2006-MartinelliSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2006\ICEIS-SAIC-2006\ICEIS-SAIC-2006-MartinelliSS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Maurizio Martinelli, Irma Serrecchia, Michela Serrecchia<br/><em>E-<a href="word/procur.html">Procurement</a> <a href="word/adopt.html">Adoption</a> <a href="word/among.html">among</a> <a href="word/italian.html">Italian</a> <a href="word/firm.html">Firms</a> by <a href="word/use.html">Using</a> <a href="word/domain.html">Domain</a> <a href="word/name.html">Names</a></em><br/>ICEIS, 2006.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-SAIC-2006.html">ICEIS SAIC 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/MartinelliSS06">DBLP</a><br/>
+<strong><a href="ICEIS-SAIC-2006.html">ICEIS SAIC 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/MartinelliSS06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22E-Procurement+Adoption+among+Italian+Firms+by+Using+Domain+Names%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Enterprise Information Systems: Software Agents and Internet Computing':'ICEIS SAIC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-SAIC-2006-MartinelliSS,
 	author        = "<a href="person/Maurizio_Martinelli.html">Maurizio Martinelli</a> and <a href="person/Irma_Serrecchia.html">Irma Serrecchia</a> and <a href="person/Michela_Serrecchia.html">Michela Serrecchia</a>",
-	booktitle     = "{ICEIS (4)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Enterprise Information Systems: Software Agents and Internet Computing</span>}",
 	pages         = "124--131",
 	title         = "{E-Procurement Adoption among Italian Firms by Using Domain Names}",
 	year          = 2006,

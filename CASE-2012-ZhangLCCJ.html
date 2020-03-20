@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/2012/CASE-2012/CASE-2012-ZhangLCCJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2012\CASE-2012\CASE-2012-ZhangLCCJ.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Si Zhang, Loo Hay Lee, Ek Peng Chew, Chun-Hung Chen, Hen-Yi Jen<br/><em>An <a href="word/improv.html">improved</a> <a href="word/simul.html">simulation</a> <a href="word/budget.html">budget</a> <a href="word/alloc.html">allocation</a> <a href="word/procedur.html">procedure</a> to <a href="word/effici.html">efficiently</a> <a href="word/select.html">select</a> the <a href="word/optim.html">optimal</a> <a href="word/subset.html">subset</a> of <a href="word/mani.html">many</a> <a href="word/altern.html">alternatives</a></em><br/>CASE, 2012.</h2>
 <div class="rbox">
-<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/case/ZhangLCCJ12">DBLP</a><br/>
+<strong><a href="CASE-2012.html">CASE 2012</a></strong><hr/><a href="http://dblp.org/rec/html/conf/case/ZhangLCCJ12">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+improved+simulation+budget+allocation+procedure+to+efficiently+select+the+optimal+subset+of+many+alternatives%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CoASE.2012.6386330">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Eighth International Conference on Automation Science and Engineering':'CASE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CASE-2012-ZhangLCCJ,
 	author        = "<a href="person/Si_Zhang.html">Si Zhang</a> and <a href="person/Loo_Hay_Lee.html">Loo Hay Lee</a> and <a href="person/Ek_Peng_Chew.html">Ek Peng Chew</a> and <a href="person/Chun-Hung_Chen.html">Chun-Hung Chen</a> and <a href="person/Hen-Yi_Jen.html">Hen-Yi Jen</a>",
-	booktitle     = "{CASE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Eighth International Conference on Automation Science and Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CoASE.2012.6386330">10.1109/CoASE.2012.6386330</a>",
 </span>	pages         = "230--236",
 	publisher     = "{IEEE}",

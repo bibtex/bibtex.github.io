@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-EIS-2007/ICEIS-EIS-2007-ErfurthRSHS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-EIS-2007\ICEIS-EIS-2007-ErfurthRSHS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christian Erfurth, Wilhelm Rossak, Christian Schachtzabel, Detlef Hornbostel, Steffen Skatulla<br/><em><a href="word/concept.html">Concepts</a> of <a href="word/model.html">Model</a> <a href="word/driven.html">Driven</a> <a href="word/softwar.html">Software</a> <a href="word/develop.html">Development</a> in <a href="word/practic.html">Practice</a> — <a href="word/generic.html">Generic</a> <a href="word/model.html">Model</a> <a href="word/represent.html">Representation</a> and <a href="word/dsl.html">DSL</a> <a href="word/interpret.html">Interpretation</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/ErfurthRSHS07">DBLP</a><br/>
+<strong><a href="ICEIS-EIS-2007.html">ICEIS EIS 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/ErfurthRSHS07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Concepts+of+Model+Driven+Software+Development+in+Practice+—+Generic+Model+Representation+and+DSL+Interpretation%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS':'ICEIS EIS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-EIS-2007-ErfurthRSHS,
 	author        = "<a href="person/Christian_Erfurth.html">Christian Erfurth</a> and <a href="person/Wilhelm_Rossak.html">Wilhelm Rossak</a> and <a href="person/Christian_Schachtzabel.html">Christian Schachtzabel</a> and <a href="person/Detlef_Hornbostel.html">Detlef Hornbostel</a> and <a href="person/Steffen_Skatulla.html">Steffen Skatulla</a>",
-	booktitle     = "{ICEIS (3)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 3: EIS</span>}",
 	pages         = "278--286",
 	title         = "{Concepts of Model Driven Software Development in Practice — Generic Model Representation and DSL Interpretation}",
 	year          = 2007,

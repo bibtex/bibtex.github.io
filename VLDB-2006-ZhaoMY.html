@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2006/VLDB-2006/VLDB-2006-ZhaoMY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2006\VLDB-2006\VLDB-2006-ZhaoMY.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Hongkun Zhao, Weiyi Meng, Clement T. Yu<br/><em><a href="word/automat.html">Automatic</a> <a href="word/extract.html">Extraction</a> of <a href="word/dynam.html">Dynamic</a> <a href="word/record.html">Record</a> <a href="word/section.html">Sections</a> From <a href="word/search.html">Search</a> <a href="word/engin.html">Engine</a> <a href="word/result.html">Result</a> <a href="word/page.html">Pages</a></em><br/>VLDB, 2006.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2006.html">VLDB 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/ZhaoMY06">DBLP</a><br/>
+<strong><a href="VLDB-2006.html">VLDB 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/ZhaoMY06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Extraction+of+Dynamic+Record+Sections+From+Search+Engine+Result+Pages%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2006/p989-zhao.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 32nd International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2006-ZhaoMY,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=1164212">1164212</a>",
 </span>	author        = "<a href="person/Hongkun_Zhao.html">Hongkun Zhao</a> and <a href="person/Weiyi_Meng.html">Weiyi Meng</a> and <a href="person/Clement_T_Yu.html">Clement T. Yu</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 32nd International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2006/p989-zhao.pdf">http://www.vldb.org/conf/2006/p989-zhao.pdf</a>",
 </span>	pages         = "989--1000",
 	publisher     = "{ACM}",

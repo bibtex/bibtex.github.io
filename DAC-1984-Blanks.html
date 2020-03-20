@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/AUTO/1984/DAC-1984/DAC-1984-Blanks.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\1984\DAC-1984\DAC-1984-Blanks.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>John P. Blanks<br/><em><a href="word/initi.html">Initial</a> <a href="word/placement.html">placement</a> of <a href="word/gate.html">gate</a> <a href="word/array.html">arrays</a> <a href="word/use.html">using</a> <a href="word/least.html">least</a>-<a href="word/squar.html">squares</a> <a href="word/method.html">methods</a></em><br/>DAC, 1984.</h2>
 <div class="rbox">
-<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/dac/Blanks84">DBLP</a><br/>
+<strong><a href="DAC-1984.html">DAC 1984</a></strong><hr/><a href="http://dblp.org/rec/html/conf/dac/Blanks84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Initial+placement+of+gate+arrays+using+least-squares+methods%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 21st Design Automation Conference':'DAC');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DAC-1984-Blanks,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=800877">800877</a>",
 </span>	author        = "<a href="person/John_P_Blanks.html">John P. Blanks</a>",
-	booktitle     = "{DAC}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 21st Design Automation Conference</span>}",
 	pages         = "670--671",
 	publisher     = "{ACM/IEEE}",
 	title         = "{Initial placement of gate arrays using least-squares methods}",

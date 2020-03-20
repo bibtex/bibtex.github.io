@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1984/VLDB-1984/VLDB-1984-RosenthalR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1984\VLDB-1984\VLDB-1984-RosenthalR.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Arnon Rosenthal, David S. Reiner<br/><em><a href="word/extend.html">Extending</a> the <a href="word/algebra.html">Algebraic</a> <a href="word/framework.html">Framework</a> of <a href="word/queri.html">Query</a> <a href="word/process.html">Processing</a> to <a href="word/handl.html">Handle</a> <a href="word/outerjoin.html">Outerjoins</a></em><br/>VLDB, 1984.</h2>
 <div class="rbox">
-<strong><a href="VLDB-1984.html">VLDB 1984</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/RosenthalR84">DBLP</a><br/>
+<strong><a href="VLDB-1984.html">VLDB 1984</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/RosenthalR84">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Extending+the+Algebraic+Framework+of+Query+Processing+to+Handle+Outerjoins%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/1984/P334.PDF">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 10th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-1984-RosenthalR,
 	author        = "<a href="person/Arnon_Rosenthal.html">Arnon Rosenthal</a> and <a href="person/David_S_Reiner.html">David S. Reiner</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 10th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/1984/P334.PDF">http://www.vldb.org/conf/1984/P334.PDF</a>",
 </span>	pages         = "334--343",
 	publisher     = "{Morgan Kaufmann}",

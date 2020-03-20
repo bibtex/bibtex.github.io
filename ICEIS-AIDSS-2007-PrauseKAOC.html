@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO/2007/ICEIS-AIDSS-2007/ICEIS-AIDSS-2007-PrauseKAOC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/INFO\2007\ICEIS-AIDSS-2007\ICEIS-AIDSS-2007-PrauseKAOC.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Christian Prause, Julia Kuck, Stefan Apelt, Reinhard Oppermann, Armin B. Cremers<br/><em><a href="word/interconnect.html">Interconnecting</a> <a href="word/document.html">Documentation</a> — <a href="word/har.html">Harnessing</a> the <a href="word/differ.html">Different</a> <a href="word/power.html">Powers</a> of <a href="word/current.html">Current</a> <a href="word/document.html">Documentation</a> <a href="word/tool.html">Tools</a> in <a href="word/softwar.html">Software</a> <a href="word/develop.html">Development</a></em><br/>ICEIS, 2007.</h2>
 <div class="rbox">
-<strong><a href="ICEIS-AIDSS-2007.html">ICEIS AIDSS 2007</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/iceis/PrauseKAOC07">DBLP</a><br/>
+<strong><a href="ICEIS-AIDSS-2007.html">ICEIS AIDSS 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/iceis/PrauseKAOC07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Interconnecting+Documentation+—+Harnessing+the+Different+Powers+of+Current+Documentation+Tools+in+Software+Development%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 2: AIDSS':'ICEIS AIDSS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICEIS-AIDSS-2007-PrauseKAOC,
 	author        = "<a href="person/Christian_Prause.html">Christian Prause</a> and <a href="person/Julia_Kuck.html">Julia Kuck</a> and <a href="person/Stefan_Apelt.html">Stefan Apelt</a> and <a href="person/Reinhard_Oppermann.html">Reinhard Oppermann</a> and <a href="person/Armin_B_Cremers.html">Armin B. Cremers</a>",
-	booktitle     = "{ICEIS (2)}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth International Conference on Enterprise Information Systems, Volume 2: AIDSS</span>}",
 	pages         = "63--68",
 	title         = "{Interconnecting Documentation — Harnessing the Different Powers of Current Documentation Tools in Software Development}",
 	year          = 2007,

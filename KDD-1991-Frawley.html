@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER/1991/KDD-1991/KDD-1991-Frawley.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/KER\1991\KDD-1991\KDD-1991-Frawley.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>William J. Frawley<br/><em><a href="word/use.html">Using</a> <a href="word/function.html">Functions</a> to <a href="word/encod.html">Encode</a> <a href="word/domain.html">Domain</a> and <a href="word/contextu.html">Contextual</a> <a href="word/knowledg.html">Knowledge</a> in <a href="word/statist.html">Statistical</a> <a href="word/induct.html">Induction</a></em><br/>KDD, 1991.</h2>
 <div class="rbox">
-<strong><a href="KDD-1991.html">KDD 1991</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/books/mit/PF91/Frawley91">DBLP</a><br/>
+<strong><a href="KDD-1991.html">KDD 1991</a></strong><hr/><a href="http://dblp.org/rec/html/books/mit/PF91/Frawley91">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Using+Functions+to+Encode+Domain+and+Contextual+Knowledge+in+Statistical+Induction%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Knowledge Discovery in Databases':'KDD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@incollection{KDD-1991-Frawley,
 	author        = "<a href="person/William_J_Frawley.html">William J. Frawley</a>",
-	booktitle     = "{Knowledge Discovery in Databases}",
+	booktitle     = "{<span id="booktitle">Knowledge Discovery in Databases</span>}",
 	pages         = "261--276",
 	publisher     = "{AAAI/MIT Press}",
 	title         = "{Using Functions to Encode Domain and Contextual Knowledge in Statistical Induction}",

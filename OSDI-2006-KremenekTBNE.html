@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2006/OSDI-2006/OSDI-2006-KremenekTBNE.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2006\OSDI-2006\OSDI-2006-KremenekTBNE.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ted Kremenek, Paul Twohey, Godmar Back, Andrew Y. Ng, Dawson R. Engler<br/><em>From <a href="word/uncertainti.html">Uncertainty</a> to <a href="word/belief.html">Belief</a>: <a href="word/infer.html">Inferring</a> the <a href="word/specif.html">Specification</a> <a href="word/within.html">Within</a></em><br/>OSDI, 2006.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/KremenekTBNE06">DBLP</a><br/>
+<strong><a href="OSDI-2006.html">OSDI 2006</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/KremenekTBNE06">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22From+Uncertainty+to+Belief:+Inferring+the+Specification+Within%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi06/tech/kremenek.html">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Seventh Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2006-KremenekTBNE,
 	author        = "<a href="person/Ted_Kremenek.html">Ted Kremenek</a> and <a href="person/Paul_Twohey.html">Paul Twohey</a> and <a href="person/Godmar_Back.html">Godmar Back</a> and <a href="person/Andrew_Y_Ng.html">Andrew Y. Ng</a> and <a href="person/Dawson_R_Engler.html">Dawson R. Engler</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Seventh Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi06/tech/kremenek.html">http://www.usenix.org/events/osdi06/tech/kremenek.html</a>",
 </span>	pages         = "161--176",
 	publisher     = "{USENIX Association}",

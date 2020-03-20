@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS/2010/OSDI-2010/OSDI-2010-AnanthanarayananKGSLSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/SYS\2010\OSDI-2010\OSDI-2010-AnanthanarayananKGSLSH.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Ganesh Ananthanarayanan, Srikanth Kandula, Albert G. Greenberg, Ion Stoica, Yi Lu, Bikas Saha, Edward Harris<br/><em><a href="word/rein.html">Reining</a> in the <a href="word/outlier.html">Outliers</a> in <a href="word/map.html">Map</a>-<a href="word/reduc.html">Reduce</a> <a href="word/cluster.html">Clusters</a> <a href="word/use.html">using</a> <a href="word/mantri.html">Mantri</a></em><br/>OSDI, 2010.</h2>
 <div class="rbox">
-<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/osdi/AnanthanarayananKGSLSH10">DBLP</a><br/>
+<strong><a href="OSDI-2010.html">OSDI 2010</a></strong><hr/><a href="http://dblp.org/rec/html/conf/osdi/AnanthanarayananKGSLSH10">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Reining+in+the+Outliers+in+Map-Reduce+Clusters+using+Mantri%22">Scholar</a><hr/><a href="http://www.usenix.org/events/osdi10/tech/full_papers/Ananthanarayanan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Symposium on Operating Systems Design and Implementation':'OSDI');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OSDI-2010-AnanthanarayananKGSLSH,
 	author        = "<a href="person/Ganesh_Ananthanarayanan.html">Ganesh Ananthanarayanan</a> and <a href="person/Srikanth_Kandula.html">Srikanth Kandula</a> and <a href="person/Albert_G_Greenberg.html">Albert G. Greenberg</a> and <a href="person/Ion_Stoica.html">Ion Stoica</a> and <a href="person/Yi_Lu.html">Yi Lu</a> and <a href="person/Bikas_Saha.html">Bikas Saha</a> and <a href="person/Edward_Harris.html">Edward Harris</a>",
-	booktitle     = "{OSDI}",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Symposium on Operating Systems Design and Implementation</span>}",
 <span class="uri">	ee            = "<a href="http://www.usenix.org/events/osdi10/tech/full_papers/Ananthanarayanan.pdf">http://www.usenix.org/events/osdi10/tech/full_papers/Ananthanarayanan.pdf</a>",
 </span>	pages         = "265--278",
 	publisher     = "{USENIX Association}",

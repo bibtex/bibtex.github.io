@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/1987/SIGMOD-1987/SIGMOD-1987-GrayP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\1987\SIGMOD-1987\SIGMOD-1987-GrayP.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,17 +32,17 @@
 <div class="main">
 <h2>Jim Gray, Gianfranco R. Putzolu<br/><em>The 5 <a href="word/minut.html">Minute</a> <a href="word/rule.html">Rule</a> for <a href="word/trade.html">Trading</a> <a href="word/memori.html">Memory</a> for <a href="word/disk.html">Disk</a> <a href="word/access.html">Accesses</a> and The 10 <a href="word/byte.html">Byte</a> <a href="word/rule.html">Rule</a> for <a href="word/trade.html">Trading</a> <a href="word/memori.html">Memory</a> for <a href="word/cpu.html">CPU</a> <a href="word/time.html">Time</a></em><br/>SIGMOD, 1987.</h2>
 <div class="rbox">
-<strong><a href="SIGMOD-1987.html">SIGMOD 1987</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/sigmod/GrayP87">DBLP</a><br/>
+<strong><a href="SIGMOD-1987.html">SIGMOD 1987</a></strong><hr/><a href="http://dblp.org/rec/html/conf/sigmod/GrayP87">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+5+Minute+Rule+for+Trading+Memory+for+Disk+Accesses+and+The+10+Byte+Rule+for+Trading+Memory+for+CPU+Time%22">Scholar</a><hr/><a href="http://doi.acm.org/10.1145/38713.38755">ACM DL</a><br/>
 <a href="http://dx.doi.org/10.1145/38713.38755">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th ACM SIGMOD International Conference on Management of Data':'SIGMOD');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SIGMOD-1987-GrayP,
 	author        = "<a href="person/Jim_Gray.html">Jim Gray</a> and <a href="person/Gianfranco_R_Putzolu.html">Gianfranco R. Putzolu</a>",
-	booktitle     = "{SIGMOD Conference}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th ACM SIGMOD International Conference on Management of Data</span>}",
 	cdrom         = "SIGMOD87/P395.PDF",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/38713.38755">10.1145/38713.38755</a>",
 </span><span class="uri">	ee            = "<a href="http://doi.acm.org/10.1145/38713.38755">http://doi.acm.org/10.1145/38713.38755</a>",

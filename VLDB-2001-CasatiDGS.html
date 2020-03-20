@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA/2001/VLDB-2001/VLDB-2001-CasatiDGS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/DATA\2001\VLDB-2001\VLDB-2001-CasatiDGS.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Daniela Grigori, Fabio Casati, Umeshwar Dayal, Ming-Chien Shan<br/><em><a href="word/improv.html">Improving</a> <a href="word/busi.html">Business</a> <a href="word/process.html">Process</a> <a href="word/qualiti.html">Quality</a> through <a href="word/except.html">Exception</a> <a href="word/understand.html">Understanding</a>, <a href="word/predict.html">Prediction</a>, and <a href="word/prevent.html">Prevention</a></em><br/>VLDB, 2001.</h2>
 <div class="rbox">
-<strong><a href="VLDB-2001.html">VLDB 2001</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/vldb/CasatiDGS01">DBLP</a><br/>
+<strong><a href="VLDB-2001.html">VLDB 2001</a></strong><hr/><a href="http://dblp.org/rec/html/conf/vldb/CasatiDGS01">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Improving+Business+Process+Quality+through+Exception+Understanding,+Prediction,+and+Prevention%22">Scholar</a><hr/><a href="http://www.vldb.org/conf/2001/P159.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 27th International Conference on Very Large Data Bases':'VLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{VLDB-2001-CasatiDGS,
 	author        = "<a href="person/Daniela_Grigori.html">Daniela Grigori</a> and <a href="person/Fabio_Casati.html">Fabio Casati</a> and <a href="person/Umeshwar_Dayal.html">Umeshwar Dayal</a> and <a href="person/Ming-Chien_Shan.html">Ming-Chien Shan</a>",
-	booktitle     = "{VLDB}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 27th International Conference on Very Large Data Bases</span>}",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/conf/2001/P159.pdf">http://www.vldb.org/conf/2001/P159.pdf</a>",
 </span>	pages         = "159--168",
 	publisher     = "{Morgan Kaufmann}",

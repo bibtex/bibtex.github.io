@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/POPL/2005/POPL-2005.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/PLT\2005\POPL-2005.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,21 +32,20 @@
 <div class="main">
 <h2>Jens Palsberg, Martín Abadi<br/><em>Proceedings of the 32nd Symposium on Principles of Programming Languages</em><br/>POPL, 2005.</h2>
 <div class="rbox">
-<strong><a href="POPL.html">POPL</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/popl/2005">DBLP</a><br/>
+<strong><a href="PLT.html">PLT</a></strong><hr/><a href="http://dblp.org/rec/html/conf/popl/2005">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+32nd+Symposium+on+Principles+of+Programming+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 32nd Symposium on Principles of Programming Languages':'POPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{POPL-2005,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=1040305">1040305</a>",
 </span>	address       = "Long Beach, California, USA",
-	booktitle     = "{POPL}",
 	editor        = "<a href="person/Jens_Palsberg.html">Jens Palsberg</a> and <a href="person/Martin_Abadi.html">Martín Abadi</a>",
 <span id="isbn">	isbn          = "1-58113-830-X",
 </span>	publisher     = "{ACM}",
-	title         = "{Proceedings of the 32nd Symposium on Principles of Programming Languages}",
+	title         = "{<span id="title">Proceedings of the 32nd Symposium on Principles of Programming Languages</span>}",
 	year          = 2005,
 }</pre>
 </div>
@@ -70,7 +69,7 @@
 <dt><a href="POPL-2005-FieldV.html">POPL-2005-FieldV</a> <span class="tag"><a href="tag/consistency.html" title="consistency">#consistency</a></span> <span class="tag"><a href="tag/distributed.html" title="distributed">#distributed</a></span> <span class="tag"><a href="tag/maintenance.html" title="maintenance">#maintenance</a></span> <span class="tag"><a href="tag/named.html" title="named">#named</a></span> <span class="tag"><a href="tag/programming.html" title="programming">#programming</a></span></dt><dd>Transactors: a programming model for maintaining globally consistent distributed state in unreliable environments (<abbr title="John Field">JF</abbr>, <abbr title="Carlos A. Varela">CAV</abbr>), pp. 195–208.</dd> <div class="pagevis" style="width:13px"></div>
 <dt><a href="POPL-2005-BruniMM.html">POPL-2005-BruniMM</a> <span class="tag"><a href="tag/composition.html" title="composition">#composition</a></span></dt><dd>Theoretical foundations for compensations in flow composition languages (<abbr title="Roberto Bruni">RB</abbr>, <abbr title="Hernán C. Melgratti">HCM</abbr>, <abbr title="Ugo Montanari">UM</abbr>), pp. 209–220.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="POPL-2005-NeubauerT.html">POPL-2005-NeubauerT</a> <span class="tag"><a href="tag/multi.html" title="multi">#multi</a></span> <span class="tag"><a href="tag/program%20transformation.html" title="program transformation">#program transformation</a></span> <span class="tag"><a href="tag/source%20code.html" title="source code">#source code</a></span></dt><dd>From sequential programs to multi-tier applications by program transformation (<abbr title="Matthias Neubauer">MN</abbr>, <abbr title="Peter Thiemann">PT</abbr>), pp. 221–232.</dd> <div class="pagevis" style="width:11px"></div>
-<dt><a href="POPL-2005-FosterGMPS.html">POPL-2005-FosterGMPS</a> <span class="tag"><a href="tag/approach.html" title="approach">#approach</a></span> <span class="tag"><a href="tag/combinator.html" title="combinator">#combinator</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span></dt><dd>Combinators for bi-directional tree transformations: a linguistic approach to the view update problem (<abbr title="J. Nathan Foster">JNF</abbr>, <abbr title="Michael B. Greenwald">MBG</abbr>, <abbr title="Jonathan T. Moore">JTM</abbr>, <abbr title="Benjamin C. Pierce">BCP</abbr>, <abbr title="Alan Schmitt">AS</abbr>), pp. 233–246.</dd> <div class="pagevis" style="width:13px"></div>
+<dt><a href="POPL-2005-FosterGMPS.html">POPL-2005-FosterGMPS</a> <span class="tag"><a href="tag/approach.html" title="approach">#approach</a></span> <span class="tag"><a href="tag/combinator.html" title="combinator">#combinator</a></span> <span class="tag"><a href="tag/problem.html" title="problem">#problem</a></span> <span class="tag"><a href="tag/program%20transformation.html" title="program transformation">#program transformation</a></span></dt><dd>Combinators for bi-directional tree transformations: a linguistic approach to the view update problem (<abbr title="J. Nathan Foster">JNF</abbr>, <abbr title="Michael B. Greenwald">MBG</abbr>, <abbr title="Jonathan T. Moore">JTM</abbr>, <abbr title="Benjamin C. Pierce">BCP</abbr>, <abbr title="Alan Schmitt">AS</abbr>), pp. 233–246.</dd> <div class="pagevis" style="width:13px"></div>
 <dt><a href="POPL-2005-ParkinsonB.html">POPL-2005-ParkinsonB</a> <span class="tag"><a href="tag/abstraction.html" title="abstraction">#abstraction</a></span> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span></dt><dd>Separation logic and abstraction (<abbr title="Matthew J. Parkinson">MJP</abbr>, <abbr title="Gavin M. Bierman">GMB</abbr>), pp. 247–258.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="POPL-2005-BornatCOP.html">POPL-2005-BornatCOP</a> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span></dt><dd>Permission accounting in separation logic (<abbr title="Richard Bornat">RB</abbr>, <abbr title="Cristiano Calcagno">CC</abbr>, <abbr title="Peter W. O'Hearn">PWO</abbr>, <abbr title="Matthew J. Parkinson">MJP</abbr>), pp. 259–270.</dd> <div class="pagevis" style="width:11px"></div>
 <dt><a href="POPL-2005-CalcagnoGZ.html">POPL-2005-CalcagnoGZ</a> <span class="tag"><a href="tag/logic.html" title="logic">#logic</a></span></dt><dd>Context logic and tree update (<abbr title="Cristiano Calcagno">CC</abbr>, <abbr title="Philippa Gardner">PG</abbr>, <abbr title="Uri Zarfaty">UZ</abbr>), pp. 271–282.</dd> <div class="pagevis" style="width:11px"></div>

@@ -17,7 +17,7 @@
 		<a href="tag/index.html"><img src="stuff/p-tags.png" alt="BibSLEIGH tags" title="All known tags"/></a><br/>
 		<a href="bundle/index.html"><img src="stuff/p-bundles.png" alt="BibSLEIGH bundles" title="All selected bundles"/></a><br/>
 		<a href="person/index.html"><img src="stuff/p-people.png" alt="BibSLEIGH people" title="All contributors"/></a><br/>
-<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP/2015/OOPSLA-2015/OOPSLA-2015-HottelierB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
+<a href="https://github.com/slebok/bibsleigh/edit/master/corpus/OOP\2015\OOPSLA-2015\OOPSLA-2015-HottelierB.json"><img src="stuff/edit.png" alt="EDIT!" title="EDIT!"/></a>
 	</div>
 	<a href="http://creativecommons.org/licenses/by/4.0/" title="CC-BY"><img src="stuff/cc-by.png" alt="CC-BY"/></a><br/>
 	<a href="http://opendatacommons.org/licenses/by/summary/" title="Open Knowledge"><img src="stuff/open-knowledge.png" alt="Open Knowledge" /></a><br/>
@@ -32,16 +32,16 @@
 <div class="main">
 <h2>Thibaud Hottelier, Rastislav Bodík<br/><em><a href="word/synthesi.html">Synthesis</a> of <a href="word/layout.html">layout</a> <a href="word/engin.html">engines</a> from <a href="word/relat.html">relational</a> <a href="word/constraint.html">constraints</a></em><br/>OOPSLA, 2015.</h2>
 <div class="rbox">
-<strong><a href="OOPSLA-2015.html">OOPSLA 2015</a></strong><hr/><a href="http://dblp.uni-trier.de/rec/html/conf/oopsla/HottelierB15">DBLP</a><br/>
+<strong><a href="OOPSLA-2015.html">OOPSLA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/oopsla/HottelierB15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Synthesis+of+layout+engines+from+relational+constraints%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2814270.2814291">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 30th Conference on Object-Oriented Programming, Systems, Languages and Applications':'OOPSLA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{OOPSLA-2015-HottelierB,
 	author        = "<a href="person/Thibaud_Hottelier.html">Thibaud Hottelier</a> and <a href="person/Rastislav_Bodik.html">Rastislav Bodík</a>",
-	booktitle     = "{OOPSLA}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 30th Conference on Object-Oriented Programming, Systems, Languages and Applications</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2814270.2814291">10.1145/2814270.2814291</a>",
 </span>	pages         = "74--88",
 	publisher     = "{ACM}",
