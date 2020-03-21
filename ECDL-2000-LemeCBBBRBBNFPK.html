@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Publishing+30+Years+of+the+Legislation+of+Brazil’s+São+Paulo+State+in+CD-ROM+and+Internet%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45268-0_60">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2000-LemeCBBBRBBNFPK,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/3-540-45268-0_60">10.1007/3-540-45268-0_60</a>",
 </span>	pages         = "449--451",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Publishing 30 Years of the Legislation of Brazil’s São Paulo State in CD-ROM and Internet}",
 	volume        = "1923",
 	year          = 2000,

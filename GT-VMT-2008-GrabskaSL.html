@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Visual+Design+and+Reasoning+with+the+Use+of+Hypergraph+Transformations%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/146">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2008-GrabskaSL,
 	author        = "<a href="person/Ewa_Grabska.html">Ewa Grabska</a> and <a href="person/Grazyna_Maria_Slusarczyk.html">Grazyna Maria Slusarczyk</a> and <a href="person/Truong_Lan_Le.html">Truong Lan Le</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/146">http://journal.ub.tu-berlin.de/eceasst/article/view/146</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Visual Design and Reasoning with the Use of Hypergraph Transformations}",
 	volume        = 10,
 	year          = 2008,

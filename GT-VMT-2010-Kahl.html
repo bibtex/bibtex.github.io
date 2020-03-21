@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Co-tabulations,+Bicolimits+and+Van-Kampen+Squares+in+Collagories%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/421">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2010-Kahl,
 	author        = "<a href="person/Wolfram_Kahl.html">Wolfram Kahl</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/421">http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/421</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Co-tabulations, Bicolimits and Van-Kampen Squares in Collagories}",
 	volume        = 29,
 	year          = 2010,

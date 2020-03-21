@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Inter-Modelling+with+Graphical+Constraints:+Foundations+and+Applications%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/721">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2012-LaraG,
 	author        = "<a href="person/Juan_de_Lara.html">Juan de Lara</a> and <a href="person/Esther_Guerra.html">Esther Guerra</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/721">http://journal.ub.tu-berlin.de/eceasst/article/view/721</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Inter-Modelling with Graphical Constraints: Foundations and Applications}",
 	volume        = 47,
 	year          = 2012,

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Inference+in+probabilistic+logic+programs+with+continuous+random+variables%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068412000154">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2012-IslamRR,
 	author        = "<a href="person/Muhammad_Asiful_Islam.html">Muhammad Asiful Islam</a> and <a href="person/C_R_Ramakrishnan.html">C. R. Ramakrishnan</a> and <a href="person/I_V_Ramakrishnan.html">I. V. Ramakrishnan</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068412000154">10.1017/S1471068412000154</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "505--523",
 	title         = "{Inference in probabilistic logic programs with continuous random variables}",

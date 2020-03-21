@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Finding+near-optimal+configurations+in+product+lines+by+random+sampling%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106273">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-OhBMS,
 	author        = "<a href="person/Jeho_Oh.html">Jeho Oh</a> and <a href="person/Don_S_Batory.html">Don S. Batory</a> and <a href="person/Margaret_Myers.html">Margaret Myers</a> and <a href="person/Norbert_Siegmund.html">Norbert Siegmund</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106273">10.1145/3106237.3106273</a>",
 </span>	pages         = "61--71",
 	title         = "{Finding near-optimal configurations in product lines by random sampling}",

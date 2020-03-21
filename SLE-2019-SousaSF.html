@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Operationalizing+the+integration+of+user+interaction+specifications+in+the+synthesis+of+modeling+editors%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357766.3359539">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Software Language Engineering':'SLE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLE-2019-SousaSF,
 	author        = "<a href="person/Vasco_Sousa.html">Vasco Sousa</a> and <a href="person/Eugene_Syriani.html">Eugene Syriani</a> and Khady Fall",
-	booktitle     = "{SLE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Software Language Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357766.3359539">10.1145/3357766.3359539</a>",
 </span>	pages         = "42--54",
 	title         = "{Operationalizing the integration of user interaction specifications in the synthesis of modeling editors}",

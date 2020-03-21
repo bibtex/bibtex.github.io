@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22VulSeeker-pro:+enhanced+semantic+learning+based+binary+vulnerability+seeker+with+emulation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3275524">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-GaoYFJSS,
 	author        = "<a href="person/Jian_Gao.html">Jian Gao</a> and <a href="person/Xin_Yang.html">Xin Yang</a> and Ying Fu and Yu Jiang 0001 and Heyuan Shi and <a href="person/Jiaguang_Sun.html">Jiaguang Sun</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3275524">10.1145/3236024.3275524</a>",
 </span>	pages         = "803--808",
 	title         = "{VulSeeker-pro: enhanced semantic learning based binary vulnerability seeker with emulation}",

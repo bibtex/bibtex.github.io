@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploring+Query+Formulation+and+Reformulation:+A+Preliminary+Study+to+Map+Users’+Search+Behaviour%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-87599-4_54">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2008-MastoraMK,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-540-87599-4_54">10.1007/978-3-540-87599-4_54</a>",
 </span>	pages         = "427--430",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Exploring Query Formulation and Reformulation: A Preliminary Study to Map Users’ Search Behaviour}",
 	volume        = "5173",
 	year          = 2008,

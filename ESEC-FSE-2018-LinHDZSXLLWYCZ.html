@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Predicting+Node+failure+in+cloud+service+systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3236060">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-LinHDZSXLLWYCZ,
 	author        = "<a href="person/Qingwei_Lin.html">Qingwei Lin</a> and Ken Hsieh and <a href="person/Yingnong_Dang.html">Yingnong Dang</a> and Hongyu Zhang 0002 and Kaixin Sui and <a href="person/Yong_Xu.html">Yong Xu</a> and <a href="person/Jian-Guang_Lou.html">Jian-Guang Lou</a> and Chenggang Li and Youjiang Wu and Randolph Yao and Murali Chintalapati and <a href="person/Dongmei_Zhang.html">Dongmei Zhang</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3236060">10.1145/3236024.3236060</a>",
 </span>	pages         = "480--490",
 	title         = "{Predicting Node failure in cloud service systems}",

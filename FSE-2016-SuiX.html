@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22On-demand+strong+update+analysis+via+value-flow+refinement%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950296">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-SuiX,
 	author        = "<a href="person/Yulei_Sui.html">Yulei Sui</a> and <a href="person/Jingling_Xue.html">Jingling Xue</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950296">10.1145/2950290.2950296</a>",
 </span>	pages         = "460--473",
 	title         = "{On-demand strong update analysis via value-flow refinement}",

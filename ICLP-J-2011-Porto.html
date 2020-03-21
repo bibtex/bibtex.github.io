@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+structured+alternative+to+Prolog+with+simple+compositional+semantics%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068411000202">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2011-Porto,
 	author        = "<a href="person/Antonio_Porto.html">António Porto</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068411000202">10.1017/S1471068411000202</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "611--627",
 	title         = "{A structured alternative to Prolog with simple compositional semantics}",

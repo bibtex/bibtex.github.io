@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22EMF+Patterns+of+Usage+on+GitHub%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-92997-2_14">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th European Conference on Modelling Foundations and Applications':'ECMFA');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th European Conference on Modelling Foundations and Applications':'ECMFA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECMFA-2018-HartelHL,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-319-92997-2_14">10.1007/978-3-319-92997-2_14</a>",
 </span>	pages         = "216--234",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{EMF Patterns of Usage on GitHub}",
 	volume        = "10890",
 	year          = 2018,

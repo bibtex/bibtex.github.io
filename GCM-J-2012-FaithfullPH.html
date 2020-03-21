@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Big+Red:+A+Development+Environment+for+Bigraphs%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/835">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GCM-J-2012-FaithfullPH,
 	author        = "<a href="person/Alexander_John_Faithfull.html">Alexander John Faithfull</a> and <a href="person/Gian_Perrone.html">Gian Perrone</a> and <a href="person/Thomas_T_Hildebrandt.html">Thomas T. Hildebrandt</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/835">http://journal.ub.tu-berlin.de/eceasst/article/view/835</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Big Red: A Development Environment for Bigraphs}",
 	volume        = 61,
 	year          = 2013,

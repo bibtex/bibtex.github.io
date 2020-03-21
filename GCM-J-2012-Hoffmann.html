@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Graph+Rewriting+with+Contextual+Refinement%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/828">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GCM-J-2012-Hoffmann,
 	author        = "<a href="person/Berthold_Hoffmann.html">Berthold Hoffmann</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/828">http://journal.ub.tu-berlin.de/eceasst/article/view/828</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Graph Rewriting with Contextual Refinement}",
 	volume        = 61,
 	year          = 2013,

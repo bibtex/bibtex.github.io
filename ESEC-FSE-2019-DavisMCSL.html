@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Why+aren't+regular+expressions+a+lingua+franca?+an+empirical+study+on+the+re-use+and+portability+of+regular+expressions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3338909">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-DavisMCSL,
 	author        = "James C. Davis and Louis G. Michael IV and Christy A. Coghlan and <a href="person/Francisco_Servant.html">Francisco Servant</a> and <a href="person/Dongyoon_Lee.html">Dongyoon Lee</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3338909">10.1145/3338906.3338909</a>",
 </span>	pages         = "443--454",
 	title         = "{Why aren't regular expressions a lingua franca? an empirical study on the re-use and portability of regular expressions}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Developing+a+monadic+type+checker+for+an+object-oriented+language:+an+experience+report%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357766.3359545">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Software Language Engineering':'SLE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLE-2019-CastegrenF,
 	author        = "<a href="person/Elias_Castegren.html">Elias Castegren</a> and <a href="person/Kiko_Fernandez-Reyes.html">Kiko Fernandez-Reyes</a>",
-	booktitle     = "{SLE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Software Language Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357766.3359545">10.1145/3357766.3359545</a>",
 </span>	pages         = "184--196",
 	title         = "{Developing a monadic type checker for an object-oriented language: an experience report}",

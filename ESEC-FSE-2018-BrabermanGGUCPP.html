@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Testing+and+validating+end+user+programmed+calculated+fields%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3275531">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-BrabermanGGUCPP,
 	author        = "<a href="person/Victor_A_Braberman.html">Víctor A. Braberman</a> and <a href="person/Diego_Garbervetsky.html">Diego Garbervetsky</a> and Javier Godoy and <a href="person/Sebastian_Uchitel.html">Sebastián Uchitel</a> and <a href="person/Guido_de_Caso.html">Guido de Caso</a> and Ignacio Perez and Santiago Perez",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3275531">10.1145/3236024.3275531</a>",
 </span>	pages         = "827--832",
 	title         = "{Testing and validating end user programmed calculated fields}",

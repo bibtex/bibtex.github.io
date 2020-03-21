@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Enabling+mutation+testing+for+Android+apps%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106275">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-VasquezBTMPVBP,
 	author        = "<a href="person/Mario_Linares_Vasquez.html">Mario Linares Vásquez</a> and <a href="person/Gabriele_Bavota.html">Gabriele Bavota</a> and <a href="person/Michele_Tufano.html">Michele Tufano</a> and <a href="person/Kevin_Moran.html">Kevin Moran</a> and <a href="person/Massimiliano_Di_Penta.html">Massimiliano Di Penta</a> and <a href="person/Christopher_Vendome.html">Christopher Vendome</a> and <a href="person/Carlos_Bernal-Cardenas.html">Carlos Bernal-Cárdenas</a> and <a href="person/Denys_Poshyvanyk.html">Denys Poshyvanyk</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106275">10.1145/3106237.3106275</a>",
 </span>	pages         = "233--244",
 	title         = "{Enabling mutation testing for Android apps}",

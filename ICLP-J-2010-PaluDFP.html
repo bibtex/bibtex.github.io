@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22CLP-based+protein+fragment+assembly%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068410000372">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2010-PaluDFP,
 	author        = "<a href="person/Alessandro_Dal_Palu.html">Alessandro Dal Palù</a> and <a href="person/Agostino_Dovier.html">Agostino Dovier</a> and <a href="person/Federico_Fogolari.html">Federico Fogolari</a> and <a href="person/Enrico_Pontelli.html">Enrico Pontelli</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068410000372">10.1017/S1471068410000372</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-6",
 	pages         = "709--724",
 	title         = "{CLP-based protein fragment assembly}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Meta-Model-Based+Approach+for+Specification+of+Graphical+Representations%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/272">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2009-Tveit,
 	author        = "<a href="person/Merete_Skjelten_Tveit.html">Merete Skjelten Tveit</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/272">http://journal.ub.tu-berlin.de/eceasst/article/view/272</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "85--99",
 	title         = "{A Meta-Model-Based Approach for Specification of Graphical Representations}",
 	volume        = 18,

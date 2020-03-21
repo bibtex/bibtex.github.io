@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+speech+act+types+in+developer+question/answer+conversations+during+bug+repair%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3236031">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-WoodRAM,
 	author        = "<a href="person/Andrew_Wood.html">Andrew Wood</a> and <a href="person/Paige_Rodeghero.html">Paige Rodeghero</a> and Ameer Armaly and <a href="person/Collin_McMillan.html">Collin McMillan</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3236031">10.1145/3236024.3236031</a>",
 </span>	pages         = "491--502",
 	title         = "{Detecting speech act types in developer question/answer conversations during bug repair}",

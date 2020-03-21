@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22ScenarioTools+Real-Time+Play-Out+for+Test+Sequence+Validation+in+an+Automotive+Case+Study%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/948">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2014-BrennerGHLST,
 	author        = "<a href="person/Christian_Brenner.html">Christian Brenner</a> and <a href="person/Joel_Greenyer.html">Joel Greenyer</a> and <a href="person/Joerg_Holtmann.html">Jörg Holtmann</a> and <a href="person/Grischa_Liebel.html">Grischa Liebel</a> and <a href="person/Gerald_Stieglbauer.html">Gerald Stieglbauer</a> and <a href="person/Matthias_Tichy.html">Matthias Tichy</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/948">http://journal.ub.tu-berlin.de/eceasst/article/view/948</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{ScenarioTools Real-Time Play-Out for Test Sequence Validation in an Automotive Case Study}",
 	volume        = 67,
 	year          = 2014,

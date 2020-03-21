@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Understanding+the+impact+of+refactoring+on+smells:+a+longitudinal+study+of+23+software+projects%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106259">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-CedrimGMGSMFRC,
 	author        = "Diego Cedrim and <a href="person/Alessandro_Garcia.html">Alessandro Garcia</a> and <a href="person/Melina_Mongiovi.html">Melina Mongiovi</a> and <a href="person/Rohit_Gheyi.html">Rohit Gheyi</a> and Leonardo da Silva Sousa and Rafael Maiani de Mello and <a href="person/Baldoino_Fonseca.html">Baldoino Fonseca</a> and <a href="person/Marcio_Ribeiro.html">Márcio Ribeiro</a> and Alexander Chávez",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106259">10.1145/3106237.3106259</a>",
 </span>	pages         = "465--475",
 	title         = "{Understanding the impact of refactoring on smells: a longitudinal study of 23 software projects}",

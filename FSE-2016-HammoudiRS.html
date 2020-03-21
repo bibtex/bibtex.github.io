@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22WATERFALL:+an+incremental+approach+for+repairing+record-replay+tests+of+web+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950294">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-HammoudiRS,
 	author        = "<a href="person/Mouna_Hammoudi.html">Mouna Hammoudi</a> and <a href="person/Gregg_Rothermel.html">Gregg Rothermel</a> and Andrea Stocco 0001",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950294">10.1145/2950290.2950294</a>",
 </span>	pages         = "751--762",
 	title         = "{WATERFALL: an incremental approach for repairing record-replay tests of web applications}",

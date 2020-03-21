@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Contraction+of+Unconnected+Diagrams+using+Least+Cost+Parsing%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/263">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2009-MazanekM09a,
 	author        = "<a href="person/Steffen_Mazanek.html">Steffen Mazanek</a> and <a href="person/Mark_Minas.html">Mark Minas</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/263">http://journal.ub.tu-berlin.de/eceasst/article/view/263</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "189--201",
 	title         = "{Contraction of Unconnected Diagrams using Least Cost Parsing}",
 	volume        = 18,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Bing+developer+assistant:+improving+developer+productivity+by+recommending+sample+code%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2983955">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-ZhangJKKGH,
 	author        = "Hongyu Zhang 0002 and Anuj Jain and Gaurav Khandelwal and Chandrashekhar Kaushik and Scott Ge and Wenxiang Hu",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2983955">10.1145/2950290.2983955</a>",
 </span>	pages         = "956--961",
 	title         = "{Bing developer assistant: improving developer productivity by recommending sample code}",

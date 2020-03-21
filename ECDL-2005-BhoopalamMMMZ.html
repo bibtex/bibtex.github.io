@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Flexible+Framework+for+Content-Based+Access+Management+for+Federated+Digital+Libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/11551362_49">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2005-BhoopalamMMMZ,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/11551362_49">10.1007/11551362_49</a>",
 </span>	pages         = "489--490",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{A Flexible Framework for Content-Based Access Management for Federated Digital Libraries}",
 	volume        = "3652",
 	year          = 2005,

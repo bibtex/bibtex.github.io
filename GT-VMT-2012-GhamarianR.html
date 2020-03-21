@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Graph+Passing+in+Graph+Transformation%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/723">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2012-GhamarianR,
 	author        = "<a href="person/Amir_Hossein_Ghamarian.html">Amir Hossein Ghamarian</a> and <a href="person/Arend_Rensink.html">Arend Rensink</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/723">http://journal.ub.tu-berlin.de/eceasst/article/view/723</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Graph Passing in Graph Transformation}",
 	volume        = 47,
 	year          = 2012,

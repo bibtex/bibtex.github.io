@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Visual+Programming+with+Recursion+Patterns+in+Interaction+Nets%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/66">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2007-MackiePV,
 	author        = "<a href="person/Ian_Mackie.html">Ian Mackie</a> and <a href="person/Jorge_Sousa_Pinto.html">Jorge Sousa Pinto</a> and <a href="person/Miguel_Vilaca.html">Miguel Vilaça</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/66">http://journal.ub.tu-berlin.de/eceasst/article/view/66</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Visual Programming with Recursion Patterns in Interaction Nets}",
 	volume        = 6,
 	year          = 2007,

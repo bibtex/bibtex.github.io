@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Empirical+Evaluation+of+Semi-automated+XML+Annotation+of+Text+Documents+with+the+GoldenGATE+Editor%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-540-74851-9_30">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2007-SautterBPT,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-540-74851-9_30">10.1007/978-3-540-74851-9_30</a>",
 </span>	pages         = "357--367",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Empirical Evaluation of Semi-automated XML Annotation of Text Documents with the GoldenGATE Editor}",
 	volume        = "4675",
 	year          = 2007,

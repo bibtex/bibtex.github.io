@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Repotting+the+Geraniums:+On+Nested+Graph+Transformation+Rules%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/260">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2009-RensinkK,
 	author        = "<a href="person/Arend_Rensink.html">Arend Rensink</a> and <a href="person/Jan-Hendrik_Kuperus.html">Jan-Hendrik Kuperus</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/260">http://journal.ub.tu-berlin.de/eceasst/article/view/260</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "23--37",
 	title         = "{Repotting the Geraniums: On Nested Graph Transformation Rules}",
 	volume        = 18,

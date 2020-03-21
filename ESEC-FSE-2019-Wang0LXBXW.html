@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+learning-based+approach+for+automatic+construction+of+domain+glossary+from+source+code+and+documentation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3338963">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-Wang0LXBXW,
 	author        = "<a href="person/Chong_Wang.html">Chong Wang</a> and Xin Peng 0001 and Mingwei Liu and <a href="person/Zhenchang_Xing.html">Zhenchang Xing</a> and Xuefang Bai and <a href="person/Bing_Xie.html">Bing Xie</a> and Tuo Wang",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3338963">10.1145/3338906.3338963</a>",
 </span>	pages         = "97--108",
 	title         = "{A learning-based approach for automatic construction of domain glossary from source code and documentation}",

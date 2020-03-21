@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/gpce-2019-kramerkw.png" alt="Reflection in attribute grammars" title="Reflection in attribute grammars" class="pad"/></a>
+	<a href="index.html"><img src="stuff/gpce.png" alt="Reflection in attribute grammars" title="Reflection in attribute grammars" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,18 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Lucas Kramer, Ted Kaminski, Eric Van Wyk<br/><em>Reflection in attribute grammars</em><br/>GPCE-2019-KramerKW, 2019.</h2>
+<h2>Lucas Kramer, Ted Kaminski, Eric Van Wyk<br/><em>Reflection in attribute grammars</em><br/>GPCE, 2019.</h2>
 <div class="rbox">
 <strong><a href="GPCE-2019.html">GPCE 2019</a></strong><hr/><a href="http://dblp.org/rec/html/conf/gpce/KramerKW19">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Reflection+in+attribute+grammars%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357765.3359517">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2019-KramerKW,
 	author        = "Lucas Kramer and <a href="person/Ted_Kaminski.html">Ted Kaminski</a> and <a href="person/Eric_Van_Wyk.html">Eric Van Wyk</a>",
-	booktitle     = "{GPCE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357765.3359517">10.1145/3357765.3359517</a>",
 </span>	pages         = "48--60",
 	title         = "{Reflection in attribute grammars}",

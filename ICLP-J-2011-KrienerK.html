@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22RedAlert:+Determinacy+inference+for+Prolog%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068411000160">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2011-KrienerK,
 	author        = "<a href="person/Jael_Kriener.html">Jael Kriener</a> and <a href="person/Andy_King.html">Andy King</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068411000160">10.1017/S1471068411000160</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "537--553",
 	title         = "{RedAlert: Determinacy inference for Prolog}",

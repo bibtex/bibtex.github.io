@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Splitting+and+updating+hybrid+knowledge+bases%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068411000317">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2011-SlotaLS,
 	author        = "<a href="person/Martin_Slota.html">Martin Slota</a> and <a href="person/Joao_Leite.html">João Leite</a> and <a href="person/Terrance_Swift.html">Terrance Swift</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068411000317">10.1017/S1471068411000317</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "801--819",
 	title         = "{Splitting and updating hybrid knowledge bases}",

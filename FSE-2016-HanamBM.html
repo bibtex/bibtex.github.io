@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Discovering+bug+patterns+in+JavaScript%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950308">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-HanamBM,
 	author        = "<a href="person/Quinn_Hanam.html">Quinn Hanam</a> and Fernando Santos De Mattos Brito and Ali Mesbah 0001",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950308">10.1145/2950290.2950308</a>",
 </span>	pages         = "144--156",
 	title         = "{Discovering bug patterns in JavaScript}",

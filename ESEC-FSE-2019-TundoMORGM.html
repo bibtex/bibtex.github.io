@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22VARYS:+an+agnostic+model-driven+monitoring-as-a-service+framework+for+the+cloud%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3341185">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-TundoMORGM,
 	author        = "Alessandro Tundo and Marco Mobilio and Matteo Orrù and <a href="person/Oliviero_Riganelli.html">Oliviero Riganelli</a> and Michell Guzmán and <a href="person/Leonardo_Mariani.html">Leonardo Mariani</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3341185">10.1145/3338906.3341185</a>",
 </span>	pages         = "1085--1089",
 	title         = "{VARYS: an agnostic model-driven monitoring-as-a-service framework for the cloud}",

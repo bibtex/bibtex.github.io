@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Content+Based+Indexing+and+Retrieval+in+a+Digital+Library+of+Arabic+Scripts+and+Calligraphy%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-45268-0_2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fourth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2000-Al-HawamdehK,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/3-540-45268-0_2">10.1007/3-540-45268-0_2</a>",
 </span>	pages         = "14--23",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Content Based Indexing and Retrieval in a Digital Library of Arabic Scripts and Calligraphy}",
 	volume        = "1923",
 	year          = 2000,

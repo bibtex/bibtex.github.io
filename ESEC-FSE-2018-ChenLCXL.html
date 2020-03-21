@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22FOT:+a+versatile,+configurable,+extensible+fuzzing+framework%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3264593">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-ChenLCXL,
 	author        = "<a href="person/Hongxu_Chen.html">Hongxu Chen</a> and Yuekang Li and Bihuan Chen 0001 and <a href="person/Yinxing_Xue.html">Yinxing Xue</a> and Yang Liu 0003",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3264593">10.1145/3236024.3264593</a>",
 </span>	pages         = "867--870",
 	title         = "{FOT: a versatile, configurable, extensible fuzzing framework}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Defining+Models+—+Meta+Models+versus+Graph+Grammars%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/411">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2010-HoffmannM,
 	author        = "<a href="person/Berthold_Hoffmann.html">Berthold Hoffmann</a> and <a href="person/Mark_Minas.html">Mark Minas</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/411">http://journal.ub.tu-berlin.de/index.php/eceasst/article/view/411</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Defining Models — Meta Models versus Graph Grammars}",
 	volume        = 29,
 	year          = 2010,

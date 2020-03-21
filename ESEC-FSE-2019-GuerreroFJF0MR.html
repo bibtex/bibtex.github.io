@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Eagle:+a+team+practices+audit+framework+for+agile+software+development%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3341181">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-GuerreroFJF0MR,
 	author        = "Alejandro Guerrero and Rafael Fresno and An Ju and <a href="person/Armando_Fox.html">Armando Fox</a> and Pablo Fernandez 0001 and Carlos Müller and Antonio Ruiz-Cortés",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3341181">10.1145/3338906.3341181</a>",
 </span>	pages         = "1139--1143",
 	title         = "{Eagle: a team practices audit framework for agile software development}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimizing+Model-Based+Software+Product+Line+Testing+with+Graph+Transformations%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/724">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2012-AnjorinOZS,
 	author        = "<a href="person/Anthony_Anjorin.html">Anthony Anjorin</a> and <a href="person/Sebastian_Oster.html">Sebastian Oster</a> and <a href="person/Ivan_Zorcic.html">Ivan Zorcic</a> and <a href="person/Andy_Schuerr.html">Andy Schürr</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/724">http://journal.ub.tu-berlin.de/eceasst/article/view/724</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Optimizing Model-Based Software Product Line Testing with Graph Transformations}",
 	volume        = 47,
 	year          = 2012,

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Greenstone:+A+Platform+for+Distributed+Digital+Library+Applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-44796-2_13">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Fifth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2001-BainbridgeBMJMW,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/3-540-44796-2_13">10.1007/3-540-44796-2_13</a>",
 </span>	pages         = "137--148",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Greenstone: A Platform for Distributed Digital Library Applications}",
 	volume        = "2163",
 	year          = 2001,

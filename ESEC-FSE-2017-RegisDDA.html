@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22CLTSA:+labelled+transition+system+analyser+with+counting+fluent+support%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3122828">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-RegisDDA,
 	author        = "<a href="person/German_Regis.html">Germán Regis</a> and <a href="person/Renzo_Degiovanni.html">Renzo Degiovanni</a> and <a href="person/Nicolas_DIppolito.html">Nicolás D'Ippolito</a> and <a href="person/Nazareno_Aguirre.html">Nazareno Aguirre</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3122828">10.1145/3106237.3122828</a>",
 </span>	pages         = "979--983",
 	title         = "{CLTSA: labelled transition system analyser with counting fluent support}",

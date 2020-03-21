@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Reflections+on+the+REST+architectural+style+and+“principled+design+of+the+modern+web+architecture”+(impact+paper+award)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3121282">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-FieldingTEGWKO,
 	author        = "<a href="person/Roy_T_Fielding.html">Roy T. Fielding</a> and <a href="person/Richard_N_Taylor.html">Richard N. Taylor</a> and <a href="person/Justin_R_Erenkrantz.html">Justin R. Erenkrantz</a> and <a href="person/Michael_M_Gorlick.html">Michael M. Gorlick</a> and <a href="person/Jim_Whitehead.html">Jim Whitehead</a> and <a href="person/Rohit_Khare.html">Rohit Khare</a> and <a href="person/Peyman_Oreizy.html">Peyman Oreizy</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3121282">10.1145/3106237.3121282</a>",
 </span>	pages         = "4--14",
 	title         = "{Reflections on the REST architectural style and “principled design of the modern web architecture” (impact paper award)}",

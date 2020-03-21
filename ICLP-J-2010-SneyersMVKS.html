@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22CHR(PRISM)-based+probabilistic+logic+learning%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068410000207">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2010-SneyersMVKS,
 	author        = "<a href="person/Jon_Sneyers.html">Jon Sneyers</a> and <a href="person/Wannes_Meert.html">Wannes Meert</a> and <a href="person/Joost_Vennekens.html">Joost Vennekens</a> and <a href="person/Yoshitaka_Kameya.html">Yoshitaka Kameya</a> and <a href="person/Taisuke_Sato.html">Taisuke Sato</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068410000207">10.1017/S1471068410000207</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-6",
 	pages         = "433--447",
 	title         = "{CHR(PRISM)-based probabilistic logic learning}",

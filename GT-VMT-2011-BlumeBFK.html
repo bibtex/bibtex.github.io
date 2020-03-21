@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Treewidth,+Pathwidth+and+Cospan+Decompositions%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/643">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2011-BlumeBFK,
 	author        = "<a href="person/Christoph_Blume.html">Christoph Blume</a> and <a href="person/H_J_Sander_Bruggink.html">H. J. Sander Bruggink</a> and <a href="person/Martin_Friedrich.html">Martin Friedrich</a> and <a href="person/Barbara_Koenig.html">Barbara König</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/643">http://journal.ub.tu-berlin.de/eceasst/article/view/643</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Treewidth, Pathwidth and Cospan Decompositions}",
 	volume        = 41,
 	year          = 2011,

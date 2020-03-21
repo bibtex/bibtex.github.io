@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22AnswerBot:+an+answer+summary+generation+tool+based+on+stack+overflow%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3341186">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-CaiWXH00X,
 	author        = "Liang Cai and Haoye Wang and Bowen Xu and Qiao Huang and Xin Xia 0001 and David Lo 0001 and <a href="person/Zhenchang_Xing.html">Zhenchang Xing</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3341186">10.1145/3338906.3341186</a>",
 </span>	pages         = "1134--1138",
 	title         = "{AnswerBot: an answer summary generation tool based on stack overflow}",

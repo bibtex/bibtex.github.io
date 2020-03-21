@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22TIPMerge:+recommending+experts+for+integrating+changes+across+branches%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950339">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-CostaFMS,
 	author        = "<a href="person/Catarina_Costa.html">Catarina Costa</a> and Jair Figueiredo and <a href="person/Leonardo_Murta.html">Leonardo Murta</a> and <a href="person/Anita_Sarma.html">Anita Sarma</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950339">10.1145/2950290.2950339</a>",
 </span>	pages         = "523--534",
 	title         = "{TIPMerge: recommending experts for integrating changes across branches}",

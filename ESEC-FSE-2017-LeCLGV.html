@@ -37,12 +37,12 @@
 <a href="https://www.wikidata.org/entity/Q59567489">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-LeCLGV,
 	author        = "<a href="person/Xuan-Bach_D_Le.html">Xuan-Bach D. Le</a> and <a href="person/Duc-Hiep_Chu.html">Duc-Hiep Chu</a> and David Lo 0001 and <a href="person/Claire_Le_Goues.html">Claire Le Goues</a> and <a href="person/Willem_Visser.html">Willem Visser</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	ee            = "<a href="https://doi.org/10.1145/3106237.3106309">https://doi.org/10.1145/3106237.3106309</a>",
 </span><span class="uri">	ee            = "<a href="https://www.wikidata.org/entity/Q59567489">https://www.wikidata.org/entity/Q59567489</a>",
 </span>	pages         = "593--604",

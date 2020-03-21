@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Document+Management+System+Saros+Mezzanine+and+the+New+Product+AGORA+as+Key+Component+in+a+Digital+Library+Architecture+at+Göttingen+University+Library%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-49653-X_62">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Second European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-1998-KlaprothL,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/3-540-49653-X_62">10.1007/3-540-49653-X_62</a>",
 </span>	pages         = "685--687",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{The Document Management System Saros Mezzanine and the New Product AGORA as Key Component in a Digital Library Architecture at Göttingen University Library}",
 	volume        = "1513",
 	year          = 1998,

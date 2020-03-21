@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+International+Workshop+on+Graph+Transformation+and+Visual+Modeling+Techniques%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Workshop on Graph Transformation and Visual Modeling Techniques':'GT-VMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Workshop on Graph Transformation and Visual Modeling Techniques':'GT-VMT');$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GT-VMT-2012,
 	editor        = "<a href="person/Andrew_Fish.html">Andrew Fish</a> and <a href="person/Leen_Lambers.html">Leen Lambers</a>",
-	journal       = "{ECEASST}",
+	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{<span id="title">Proceedings of the 11th International Workshop on Graph Transformation and Visual Modeling Techniques</span>}",
 	volume        = 47,
 	year          = 2012,

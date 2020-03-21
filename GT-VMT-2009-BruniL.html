@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Ten+virtues+of+structured+graphs%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/261">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2009-BruniL,
 	author        = "<a href="person/Roberto_Bruni.html">Roberto Bruni</a> and <a href="person/Alberto_Lluch-Lafuente.html">Alberto Lluch-Lafuente</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/261">http://journal.ub.tu-berlin.de/eceasst/article/view/261</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "3--22",
 	title         = "{Ten virtues of structured graphs}",
 	volume        = 18,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22CodeMatch:+obfuscation+won't+conceal+your+repackaged+app%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106305">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-GlanzAERHLM,
 	author        = "<a href="person/Leonid_Glanz.html">Leonid Glanz</a> and <a href="person/Sven_Amann.html">Sven Amann</a> and <a href="person/Michael_Eichberg.html">Michael Eichberg</a> and <a href="person/Michael_Reif.html">Michael Reif</a> and <a href="person/Ben_Hermann.html">Ben Hermann</a> and <a href="person/Johannes_Lerch.html">Johannes Lerch</a> and <a href="person/Mira_Mezini.html">Mira Mezini</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106305">10.1145/3106237.3106305</a>",
 </span>	pages         = "638--648",
 	title         = "{CodeMatch: obfuscation won't conceal your repackaged app}",

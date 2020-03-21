@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Verification+of+Graph-based+Model+Transformations+Using+Alloy%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/943">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2014-WangBL,
 	author        = "<a href="person/Xiaoliang_Wang.html">Xiaoliang Wang</a> and <a href="person/Fabian_Buettner.html">Fabian Büttner</a> and <a href="person/Yngve_Lamo.html">Yngve Lamo</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/943">http://journal.ub.tu-berlin.de/eceasst/article/view/943</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Verification of Graph-based Model Transformations Using Alloy}",
 	volume        = 67,
 	year          = 2014,

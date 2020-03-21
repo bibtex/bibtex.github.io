@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/gpce-2019-andrzejakkcw.png" alt="Agile construction of data science DSLs (tool demo)" title="Agile construction of data science DSLs (tool demo)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/gpce.png" alt="Agile construction of data science DSLs (tool demo)" title="Agile construction of data science DSLs (tool demo)" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,18 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Artur Andrzejak 0001, Kevin Kiefer, Diego Elias Costa, Oliver Wenz<br/><em>Agile construction of data science DSLs (tool demo)</em><br/>GPCE-2019-AndrzejakKCW, 2019.</h2>
+<h2>Artur Andrzejak 0001, Kevin Kiefer, Diego Elias Costa, Oliver Wenz<br/><em>Agile construction of data science DSLs (tool demo)</em><br/>GPCE, 2019.</h2>
 <div class="rbox">
 <strong><a href="GPCE-2019.html">GPCE 2019</a></strong><hr/><a href="http://dblp.org/rec/html/conf/gpce/AndrzejakKCW19">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Agile+construction+of+data+science+DSLs+(tool+demo)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357765.3359516">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2019-AndrzejakKCW,
 	author        = "Artur Andrzejak 0001 and Kevin Kiefer and Diego Elias Costa and Oliver Wenz",
-	booktitle     = "{GPCE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357765.3359516">10.1145/3357765.3359516</a>",
 </span>	pages         = "27--33",
 	title         = "{Agile construction of data science DSLs (tool demo)}",

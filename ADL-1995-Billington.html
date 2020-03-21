@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/adl-1995-billington.png" alt="The Library of Congrss’s National Digital Library" title="The Library of Congrss’s National Digital Library" class="pad"/></a>
+	<a href="index.html"><img src="stuff/adl.png" alt="The Library of Congrss’s National Digital Library" title="The Library of Congrss’s National Digital Library" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,13 +30,13 @@
 
 </div>
 <div class="main">
-<h2>James H. Billington<br/><em>The <a href="word/librari.html">Library</a> of <a href="word/congrss.html">Congrss</a>’s <a href="word/nation.html">National</a> <a href="word/digit.html">Digital</a> <a href="word/librari.html">Library</a></em><br/>ADL-1995-Billington, 1995.</h2>
+<h2>James H. Billington<br/><em>The <a href="word/librari.html">Library</a> of <a href="word/congrss.html">Congrss</a>’s <a href="word/nation.html">National</a> <a href="word/digit.html">Digital</a> <a href="word/librari.html">Library</a></em><br/>ADL, 1995.</h2>
 <div class="rbox">
 <strong><a href="ADL-1995.html">ADL 1995</a></strong><hr/><a href="http://dblp.org/rec/html/conf/adl/Billington95">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+Library+of+Congrss’s+National+Digital+Library%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0024599">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers':'ADL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers':'ADL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ADL-1995-Billington,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/BFb0024599">10.1007/BFb0024599</a>",
 </span>	pages         = "17--25",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{The Library of Congrss’s National Digital Library}",
 	volume        = "1082",
 	year          = 1995,

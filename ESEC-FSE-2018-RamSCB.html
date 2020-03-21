@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22What+makes+a+code+change+easier+to+review:+an+empirical+investigation+on+code+change+reviewability%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3236080">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-RamSCB,
 	author        = "Achyudh Ram and <a href="person/Anand_Ashok_Sawant.html">Anand Ashok Sawant</a> and Marco Castelluccio and <a href="person/Alberto_Bacchelli.html">Alberto Bacchelli</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3236080">10.1145/3236024.3236080</a>",
 </span>	pages         = "201--212",
 	title         = "{What makes a code change easier to review: an empirical investigation on code change reviewability}",

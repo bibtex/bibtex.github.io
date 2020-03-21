@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Reconfiguration+of+Reo+Connectors+Triggered+by+Dataflow%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/138">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2008-KoehlerCPA,
 	author        = "<a href="person/Christian_Koehler.html">Christian Köhler</a> and <a href="person/David_Costa.html">David Costa</a> and <a href="person/Jose_Proenca.html">José Proença</a> and <a href="person/Farhad_Arbab.html">Farhad Arbab</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/138">http://journal.ub.tu-berlin.de/eceasst/article/view/138</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Reconfiguration of Reo Connectors Triggered by Dataflow}",
 	volume        = 10,
 	year          = 2008,

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Reliable+Preservation+of+Interactive+Environments+and+Workflows%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-15464-5_65">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2010-RechertSWRV,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-642-15464-5_65">10.1007/978-3-642-15464-5_65</a>",
 </span>	pages         = "494--497",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Reliable Preservation of Interactive Environments and Workflows}",
 	volume        = "6273",
 	year          = 2010,

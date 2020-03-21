@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/gpce-2018-cunhadefg.png" alt="Explaining spreadsheets with spreadsheets (short paper)" title="Explaining spreadsheets with spreadsheets (short paper)" class="pad"/></a>
+	<a href="index.html"><img src="stuff/gpce.png" alt="Explaining spreadsheets with spreadsheets (short paper)" title="Explaining spreadsheets with spreadsheets (short paper)" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,18 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Jácome Cunha, Mihai Dan, Martin Erwig, Danila Fedorin, Alex Grejuc<br/><em>Explaining spreadsheets with spreadsheets (short paper)</em><br/>GPCE-2018-CunhaDEFG, 2018.</h2>
+<h2>Jácome Cunha, Mihai Dan, Martin Erwig, Danila Fedorin, Alex Grejuc<br/><em>Explaining spreadsheets with spreadsheets (short paper)</em><br/>GPCE, 2018.</h2>
 <div class="rbox">
 <strong><a href="GPCE-2018.html">GPCE 2018</a></strong><hr/><a href="http://dblp.org/rec/html/conf/gpce/CunhaDEFG18">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Explaining+spreadsheets+with+spreadsheets+(short+paper)%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3278122.3278136">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2018-CunhaDEFG,
 	author        = "<a href="person/Jacome_Cunha.html">Jácome Cunha</a> and Mihai Dan and <a href="person/Martin_Erwig.html">Martin Erwig</a> and Danila Fedorin and Alex Grejuc",
-	booktitle     = "{GPCE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3278122.3278136">10.1145/3278122.3278136</a>",
 </span>	pages         = "161--167",
 	title         = "{Explaining spreadsheets with spreadsheets (short paper)}",

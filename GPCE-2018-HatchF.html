@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="left">
-	<a href="index.html"><img src="stuff/gpce-2018-hatchf.png" alt="Rash: from reckless interactions to reliable programs" title="Rash: from reckless interactions to reliable programs" class="pad"/></a>
+	<a href="index.html"><img src="stuff/gpce.png" alt="Rash: from reckless interactions to reliable programs" title="Rash: from reckless interactions to reliable programs" class="pad"/></a>
 
 	<div class="pad">
 		<a href="index.html"><img src="stuff/a-corpus.png" alt="BibSLEIGH corpus" title="All papers in the corpus"/></a><br/>
@@ -30,18 +30,18 @@
 
 </div>
 <div class="main">
-<h2>William Gallard Hatch, Matthew Flatt<br/><em>Rash: from reckless interactions to reliable programs</em><br/>GPCE-2018-HatchF, 2018.</h2>
+<h2>William Gallard Hatch, Matthew Flatt<br/><em>Rash: from reckless interactions to reliable programs</em><br/>GPCE, 2018.</h2>
 <div class="rbox">
 <strong><a href="GPCE-2018.html">GPCE 2018</a></strong><hr/><a href="http://dblp.org/rec/html/conf/gpce/HatchF18">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Rash:+from+reckless+interactions+to+reliable+programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3278122.3278129">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences':'GPCE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{GPCE-2018-HatchF,
 	author        = "William Gallard Hatch and <a href="person/Matthew_Flatt.html">Matthew Flatt</a>",
-	booktitle     = "{GPCE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3278122.3278129">10.1145/3278122.3278129</a>",
 </span>	pages         = "28--39",
 	title         = "{Rash: from reckless interactions to reliable programs}",

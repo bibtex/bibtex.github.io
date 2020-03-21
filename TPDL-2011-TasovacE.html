@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Encoding+Diachrony:+Digital+Editions+of+Serbian+18th-Century+Texts%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-24469-8_58">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 15th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TPDL-2011-TasovacE,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-642-24469-8_58">10.1007/978-3-642-24469-8_58</a>",
 </span>	pages         = "497--500",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Encoding Diachrony: Digital Editions of Serbian 18th-Century Texts}",
 	volume        = "6966",
 	year          = 2011,

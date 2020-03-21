@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Module+theorem+for+the+general+theory+of+stable+models%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068412000269">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2012-BabbL,
 	author        = "<a href="person/Joseph_Babb.html">Joseph Babb</a> and <a href="person/Joohyung_Lee.html">Joohyung Lee</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068412000269">10.1017/S1471068412000269</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "719--735",
 	title         = "{Module theorem for the general theory of stable models}",

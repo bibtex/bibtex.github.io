@@ -37,12 +37,12 @@
 <a href="https://www.wikidata.org/entity/Q57433940">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-Barik,
 	author        = "<a href="person/Titus_Barik.html">Titus Barik</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	ee            = "<a href="https://doi.org/10.1145/2950290.2983968">https://doi.org/10.1145/2950290.2983968</a>",
 </span><span class="uri">	ee            = "<a href="https://www.wikidata.org/entity/Q57433940">https://www.wikidata.org/entity/Q57433940</a>",
 </span>	pages         = "1118--1120",

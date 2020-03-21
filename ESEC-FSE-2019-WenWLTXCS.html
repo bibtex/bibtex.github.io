@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploring+and+exploiting+the+correlations+between+bug-inducing+and+bug-fixing+commits%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3338962">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-WenWLTXCS,
 	author        = "<a href="person/Ming_Wen.html">Ming Wen</a> and <a href="person/Rongxin_Wu.html">Rongxin Wu</a> and <a href="person/Yepang_Liu.html">Yepang Liu</a> and Yongqiang Tian and Xuan Xie and <a href="person/Shing-Chi_Cheung.html">Shing-Chi Cheung</a> and <a href="person/Zhendong_Su.html">Zhendong Su</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3338962">10.1145/3338906.3338962</a>",
 </span>	pages         = "326--337",
 	title         = "{Exploring and exploiting the correlations between bug-inducing and bug-fixing commits}",

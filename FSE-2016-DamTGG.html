@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DeepSoft:+a+vision+for+a+deep+model+of+software%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2983985">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-DamTGG,
 	author        = "<a href="person/Hoa_Khanh_Dam.html">Hoa Khanh Dam</a> and Truyen Tran 0001 and <a href="person/John_C_Grundy.html">John C. Grundy</a> and <a href="person/Aditya_K_Ghose.html">Aditya K. Ghose</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2983985">10.1145/2950290.2983985</a>",
 </span>	pages         = "944--947",
 	title         = "{DeepSoft: a vision for a deep model of software}",

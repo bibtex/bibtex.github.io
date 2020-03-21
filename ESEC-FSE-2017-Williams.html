@@ -37,12 +37,12 @@
 <a href="https://www.wikidata.org/entity/Q57427913">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-Williams,
 	author        = "<a href="person/Laurie_Williams.html">Laurie Williams</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	ee            = "<a href="https://doi.org/10.1145/3106237.3121272">https://doi.org/10.1145/3106237.3121272</a>",
 </span><span class="uri">	ee            = "<a href="https://www.wikidata.org/entity/Q57427913">https://www.wikidata.org/entity/Q57427913</a>",
 </span>	pages         = "1",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Analysis+and+modeling+of+the+governance+in+general+programming+languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357766.3359533">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Software Language Engineering':'SLE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLE-2019-IzquierdoC,
 	author        = "<a href="person/Javier_Luis_Canovas_Izquierdo.html">Javier Luis Cánovas Izquierdo</a> and <a href="person/Jordi_Cabot.html">Jordi Cabot</a>",
-	booktitle     = "{SLE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Software Language Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357766.3359533">10.1145/3357766.3359533</a>",
 </span>	pages         = "179--183",
 	title         = "{Analysis and modeling of the governance in general programming languages}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Derivation+Languages+of+Graph+Grammars%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/829">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GCM-J-2012-Flick,
 	author        = "<a href="person/Nils_Erik_Flick.html">Nils Erik Flick</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/829">http://journal.ub.tu-berlin.de/eceasst/article/view/829</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Derivation Languages of Graph Grammars}",
 	volume        = 61,
 	year          = 2013,

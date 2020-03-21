@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Recovering+clear,+natural+identifiers+from+obfuscated+JS+names%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106289">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-VasilescuCD,
 	author        = "<a href="person/Bogdan_Vasilescu.html">Bogdan Vasilescu</a> and <a href="person/Casey_Casalnuovo.html">Casey Casalnuovo</a> and <a href="person/Premkumar_T_Devanbu.html">Premkumar T. Devanbu</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106289">10.1145/3106237.3106289</a>",
 </span>	pages         = "683--693",
 	title         = "{Recovering clear, natural identifiers from obfuscated JS names}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+tool+for+automated+reasoning+about+traces+based+on+configurable+formal+semantics%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3122825">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-ErataGTK,
 	author        = "Ferhat Erata and <a href="person/Arda_Goknil.html">Arda Goknil</a> and <a href="person/Bedir_Tekinerdogan.html">Bedir Tekinerdogan</a> and Geylani Kardas",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3122825">10.1145/3106237.3122825</a>",
 </span>	pages         = "959--963",
 	title         = "{A tool for automated reasoning about traces based on configurable formal semantics}",

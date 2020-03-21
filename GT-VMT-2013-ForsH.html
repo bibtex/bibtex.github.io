@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Reusing+Semantics+in+Visual+Editors:+A+Case+for+Reference+Attribute+Grammars%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/845">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2013-ForsH,
 	author        = "<a href="person/Niklas_Fors.html">Niklas Fors</a> and <a href="person/Goerel_Hedin.html">Görel Hedin</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/845">http://journal.ub.tu-berlin.de/eceasst/article/view/845</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Reusing Semantics in Visual Editors: A Case for Reference Attribute Grammars}",
 	volume        = 58,
 	year          = 2013,

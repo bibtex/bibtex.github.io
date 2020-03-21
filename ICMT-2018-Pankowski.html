@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Schema+Transformations+and+Query+Rewriting+in+Ontological+Databases+with+a+Faceted+Interface%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-93317-7_3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Theory and Practice of Model Transformations':'ICMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th International Conference on Theory and Practice of Model Transformations':'ICMT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ICMT-2018-Pankowski,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-319-93317-7_3">10.1007/978-3-319-93317-7_3</a>",
 </span>	pages         = "76--91",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Schema Transformations and Query Rewriting in Ontological Databases with a Faceted Interface}",
 	volume        = "10888",
 	year          = 2018,

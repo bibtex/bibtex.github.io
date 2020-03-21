@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22More+accurate+recommendations+for+method-level+changes%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106276">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-DotzlerKKP,
 	author        = "Georg Dotzler and Marius Kamp and Patrick Kreutzer and <a href="person/Michael_Philippsen.html">Michael Philippsen</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106276">10.1145/3106237.3106276</a>",
 </span>	pages         = "798--808",
 	title         = "{More accurate recommendations for method-level changes}",

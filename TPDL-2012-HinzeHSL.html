@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22User-Defined+Semantic+Enrichment+of+Full-Text+Documents:+Experiences+and+Lessons+Learned%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-33290-6_23">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 16th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TPDL-2012-HinzeHSL,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-642-33290-6_23">10.1007/978-3-642-33290-6_23</a>",
 </span>	pages         = "209--214",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{User-Defined Semantic Enrichment of Full-Text Documents: Experiences and Lessons Learned}",
 	volume        = "7489",
 	year          = 2012,

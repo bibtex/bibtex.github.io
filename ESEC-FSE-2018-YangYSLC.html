@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22PowerStation:+automatically+detecting+and+fixing+inefficiencies+of+database-backed+web+applications+in+IDE%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3236024.3264589">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2018-YangYSLC,
 	author        = "Junwen Yang and Cong Yan and Pranav Subramaniam and <a href="person/Shan_Lu.html">Shan Lu</a> and <a href="person/Alvin_Cheung.html">Alvin Cheung</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th Joint Meeting of the 17th European Software Engineering Conference and the 26th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3236024.3264589">10.1145/3236024.3264589</a>",
 </span>	pages         = "884--887",
 	title         = "{PowerStation: automatically detecting and fixing inefficiencies of database-backed web applications in IDE}",

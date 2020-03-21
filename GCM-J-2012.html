@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+International+Workshop+on+Graph+Computation+Models%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth International Workshop on Graph Computation Models':'GCM');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth International Workshop on Graph Computation Models':'GCM');$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{GCM-J-2012,
 	editor        = "<a href="person/Rachid_Echahed.html">Rachid Echahed</a> and <a href="person/Annegret_Habel.html">Annegret Habel</a> and <a href="person/Mohamed_Mosbah.html">Mohamed Mosbah</a>",
-	journal       = "{ECEASST}",
+	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{<span id="title">Proceedings of the Fourth International Workshop on Graph Computation Models</span>}",
 	volume        = 61,
 	year          = 2013,

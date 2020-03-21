@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Inference+with+constrained+hidden+Markov+models+in+PRISM%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068410000219">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2010-ChristiansenHLP,
 	author        = "<a href="person/Henning_Christiansen.html">Henning Christiansen</a> and <a href="person/Christian_Theil_Have.html">Christian Theil Have</a> and <a href="person/Ole_Torp_Lassen.html">Ole Torp Lassen</a> and <a href="person/Matthieu_Petit.html">Matthieu Petit</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068410000219">10.1017/S1471068410000219</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-6",
 	pages         = "449--464",
 	title         = "{Inference with constrained hidden Markov models in PRISM}",

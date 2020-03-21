@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Mellon+Fedora+Project%22">Scholar</a><hr/><a href="http://link.springer.de/link/service/series/0558/bibs/2458/24580406.htm">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Sixth European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ECDL-2002-PayetteS,
@@ -45,7 +45,7 @@
 <span class="uri">	ee            = "<a href="http://link.springer.de/link/service/series/0558/bibs/2458/24580406.htm">http://link.springer.de/link/service/series/0558/bibs/2458/24580406.htm</a>",
 </span>	pages         = "406--421",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{The Mellon Fedora Project}",
 	volume        = "2458",
 	year          = 2002,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Cimplifier:+automatically+debloating+containers%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106271">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-RastogiDCJM,
 	author        = "Vaibhav Rastogi and Drew Davidson and <a href="person/Lorenzo_De_Carli.html">Lorenzo De Carli</a> and <a href="person/Somesh_Jha.html">Somesh Jha</a> and Patrick D. McDaniel",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106271">10.1145/3106237.3106271</a>",
 </span>	pages         = "476--486",
 	title         = "{Cimplifier: automatically debloating containers}",

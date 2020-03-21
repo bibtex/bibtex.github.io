@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Conflict-driven+ASP+solving+with+external+sources%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068412000233">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2012-EiterFKR,
 	author        = "<a href="person/Thomas_Eiter.html">Thomas Eiter</a> and <a href="person/Michael_Fink.html">Michael Fink</a> and <a href="person/Thomas_Krennwallner.html">Thomas Krennwallner</a> and <a href="person/Christoph_Redl.html">Christoph Redl</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068412000233">10.1017/S1471068412000233</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "659--679",
 	title         = "{Conflict-driven ASP solving with external sources}",

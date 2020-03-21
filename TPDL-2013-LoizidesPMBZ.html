@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22AugDesk.+Fusing+Reality+with+the+Virtual+in+Document+Triage.+Part1:+Gesture+Interactions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-40501-3_22">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 17th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TPDL-2013-LoizidesPMBZ,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-642-40501-3_22">10.1007/978-3-642-40501-3_22</a>",
 </span>	pages         = "228--234",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{AugDesk. Fusing Reality with the Virtual in Document Triage. Part1: Gesture Interactions}",
 	volume        = "8092",
 	year          = 2013,

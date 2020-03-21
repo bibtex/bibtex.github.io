@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+missing+information+in+bug+descriptions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3106237.3106285">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2017-ChaparroLZMPMBN,
 	author        = "<a href="person/Oscar_Chaparro.html">Oscar Chaparro</a> and <a href="person/Jing_Lu.html">Jing Lu</a> and Fiorella Zampetti and <a href="person/Laura_Moreno.html">Laura Moreno</a> and <a href="person/Massimiliano_Di_Penta.html">Massimiliano Di Penta</a> and <a href="person/Andrian_Marcus.html">Andrian Marcus</a> and <a href="person/Gabriele_Bavota.html">Gabriele Bavota</a> and <a href="person/Vincent_Ng.html">Vincent Ng</a>",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 11th Joint Meeting of the 16th European Software Engineering Conference and the 25th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3106237.3106285">10.1145/3106237.3106285</a>",
 </span>	pages         = "396--407",
 	title         = "{Detecting missing information in bug descriptions}",

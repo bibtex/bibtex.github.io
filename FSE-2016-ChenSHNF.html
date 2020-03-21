@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22CacheOptimizer:+helping+developers+configure+caching+frameworks+for+hibernate-based+database-centric+web+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950303">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-ChenSHNF,
 	author        = "<a href="person/Tse-Hsun_Chen.html">Tse-Hsun Chen</a> and <a href="person/Weiyi_Shang.html">Weiyi Shang</a> and <a href="person/Ahmed_E_Hassan.html">Ahmed E. Hassan</a> and <a href="person/Mohamed_N_Nasser.html">Mohamed N. Nasser</a> and <a href="person/Parminder_Flora.html">Parminder Flora</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950303">10.1145/2950290.2950303</a>",
 </span>	pages         = "666--677",
 	title         = "{CacheOptimizer: helping developers configure caching frameworks for hibernate-based database-centric web applications}",

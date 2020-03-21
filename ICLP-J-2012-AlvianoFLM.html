@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Disjunctive+datalog+with+existential+quantifiers:+Semantics,+decidability,+and+complexity+issues%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068412000257">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2012-AlvianoFLM,
 	author        = "<a href="person/Mario_Alviano.html">Mario Alviano</a> and <a href="person/Wolfgang_Faber.html">Wolfgang Faber</a> and <a href="person/Nicola_Leone.html">Nicola Leone</a> and <a href="person/Marco_Manna.html">Marco Manna</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068412000257">10.1017/S1471068412000257</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "701--718",
 	title         = "{Disjunctive datalog with existential quantifiers: Semantics, decidability, and complexity issues}",

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22MOTSD:+a+multi-objective+test+selection+tool+using+test+suite+diagnosability%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3338906.3341187">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering':'ESEC/FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{ESEC-FSE-2019-CorreiaASN,
 	author        = "Daniel Correia and <a href="person/Rui_Abreu.html">Rui Abreu</a> and <a href="person/Pedro_Santos.html">Pedro Santos</a> and João Nadkarni",
-	booktitle     = "{ESEC/SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Joint Meeting of the 18th European Software Engineering Conference and the 27th Symposium on the Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3338906.3341187">10.1145/3338906.3341187</a>",
 </span>	pages         = "1070--1074",
 	title         = "{MOTSD: a multi-objective test selection tool using test suite diagnosability}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Rule-Level+Verification+of+Business+Process+Transformations+using+CSP%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/71">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2007-BisztrayH,
 	author        = "<a href="person/Denes_Bisztray.html">Dénes Bisztray</a> and <a href="person/Reiko_Heckel.html">Reiko Heckel</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/71">http://journal.ub.tu-berlin.de/eceasst/article/view/71</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Rule-Level Verification of Business Process Transformations using CSP}",
 	volume        = 6,
 	year          = 2007,

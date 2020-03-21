@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22DiagDroid:+Android+performance+diagnosis+via+anatomizing+asynchronous+executions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950316">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-KangZXL,
 	author        = "Yu Kang and Yangfan Zhou and <a href="person/Hui_Xu.html">Hui Xu</a> and <a href="person/Michael_R_Lyu.html">Michael R. Lyu</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950316">10.1145/2950290.2950316</a>",
 </span>	pages         = "410--421",
 	title         = "{DiagDroid: Android performance diagnosis via anatomizing asynchronous executions}",

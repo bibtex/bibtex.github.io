@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Call+graph+construction+for+Java+libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950312">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-ReifEHLM,
 	author        = "<a href="person/Michael_Reif.html">Michael Reif</a> and <a href="person/Michael_Eichberg.html">Michael Eichberg</a> and <a href="person/Ben_Hermann.html">Ben Hermann</a> and <a href="person/Johannes_Lerch.html">Johannes Lerch</a> and <a href="person/Mira_Mezini.html">Mira Mezini</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950312">10.1145/2950290.2950312</a>",
 </span>	pages         = "474--486",
 	title         = "{Call graph construction for Java libraries}",

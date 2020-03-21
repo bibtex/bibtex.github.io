@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Graph+Transformation+Model+of+a+Triangulated+Network+of+Mobile+Units%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/144">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2008-Gruner,
 	author        = "<a href="person/Stefan_Gruner.html">Stefan Gruner</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/144">http://journal.ub.tu-berlin.de/eceasst/article/view/144</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Graph Transformation Model of a Triangulated Network of Mobile Units}",
 	volume        = 10,
 	year          = 2008,

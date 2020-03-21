@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Author+Profile+Enrichment+for+Cross-Linking+Digital+Libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-24592-8_10">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 19th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{TPDL-2015-HajraRT,
@@ -45,7 +45,7 @@
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1007/978-3-319-24592-8_10">10.1007/978-3-319-24592-8_10</a>",
 </span>	pages         = "124--136",
 	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{Author Profile Enrichment for Cross-Linking Digital Libraries}",
 	volume        = "9316",
 	year          = 2015,

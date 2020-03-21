@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Automated+test+input+generation+for+Android:+are+we+really+there+yet+in+an+industrial+case?%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2983958">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-ZengLZXDLYX,
 	author        = "Xia Zeng and Dengfeng Li 0003 and <a href="person/Wujie_Zheng.html">Wujie Zheng</a> and <a href="person/Fan_Xia.html">Fan Xia</a> and <a href="person/Yuetang_Deng.html">Yuetang Deng</a> and <a href="person/Wing_Lam.html">Wing Lam</a> and Wei Yang 0013 and Tao Xie 0001",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2983958">10.1145/2950290.2983958</a>",
 </span>	pages         = "987--992",
 	title         = "{Automated test input generation for Android: are we really there yet in an industrial case?}",

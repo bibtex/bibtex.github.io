@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Generic+Search+Plans+for+Matching+Advanced+Graph+Patterns%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/49">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2007-HorvathVV,
 	author        = "<a href="person/Akos_Horvath.html">Ákos Horváth</a> and <a href="person/Gergely_Varro.html">Gergely Varró</a> and <a href="person/Daniel_Varro.html">Dániel Varró</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/49">http://journal.ub.tu-berlin.de/eceasst/article/view/49</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Generic Search Plans for Matching Advanced Graph Patterns}",
 	volume        = 6,
 	year          = 2007,

@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22A+feature-based+classification+of+triple+graph+grammar+variants%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3357766.3359529">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 12th International Conference on Software Language Engineering':'SLE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{SLE-2019-WeidmannOR,
 	author        = "Nils Weidmann and Robin Oppermann and Patrick Robrecht",
-	booktitle     = "{SLE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 12th International Conference on Software Language Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3357766.3359529">10.1145/3357766.3359529</a>",
 </span>	pages         = "1--14",
 	title         = "{A feature-based classification of triple graph grammar variants}",

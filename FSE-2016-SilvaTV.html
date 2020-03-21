@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Why+we+refactor?+confessions+of+GitHub+contributors%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/2950290.2950305">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 24th International Symposium on Foundations of Software Engineering':'FSE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FSE-2016-SilvaTV,
 	author        = "<a href="person/Danilo_Silva.html">Danilo Silva</a> and <a href="person/Nikolaos_Tsantalis.html">Nikolaos Tsantalis</a> and <a href="person/Marco_Tulio_Valente.html">Marco Tulio Valente</a>",
-	booktitle     = "{SIGSOFT FSE}",
+	booktitle     = "{<span id="booktitle">Proceedings of the 24th International Symposium on Foundations of Software Engineering</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/2950290.2950305">10.1145/2950290.2950305</a>",
 </span>	pages         = "858--870",
 	title         = "{Why we refactor? confessions of GitHub contributors}",

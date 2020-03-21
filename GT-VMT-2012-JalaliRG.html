@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Incremental+Pattern+Matching+for+Regular+Expressions%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/736">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{GT-VMT-2012-JalaliRG,
 	author        = "<a href="person/Arash_Jalali.html">Arash Jalali</a> and <a href="person/Arend_Rensink.html">Arend Rensink</a> and <a href="person/Amir_Hossein_Ghamarian.html">Amir Hossein Ghamarian</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/736">http://journal.ub.tu-berlin.de/eceasst/article/view/736</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	title         = "{Incremental Pattern Matching for Regular Expressions}",
 	volume        = 47,
 	year          = 2012,
