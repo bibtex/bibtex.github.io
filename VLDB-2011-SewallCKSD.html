@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PALM:+Parallel+Architecture-Friendly+Latch-Free+Modifications+to+B++Trees+on+Many-Core+Processors%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p795-sewall.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-SewallCKSD,
 	author        = "<a href="person/Jason_Sewall.html">Jason Sewall</a> and <a href="person/Jatin_Chhugani.html">Jatin Chhugani</a> and <a href="person/Changkyu_Kim.html">Changkyu Kim</a> and <a href="person/Nadathur_Satish.html">Nadathur Satish</a> and <a href="person/Pradeep_Dubey.html">Pradeep Dubey</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p795-sewall.pdf">http://www.vldb.org/pvldb/vol4/p795-sewall.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "795--806",
 	title         = "{PALM: Parallel Architecture-Friendly Latch-Free Modifications to B+ Trees on Many-Core Processors}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Keyword+query+cleaning%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453955.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-PuY,
 	author        = "<a href="person/Ken_Q_Pu.html">Ken Q. Pu</a> and <a href="person/Xiaohui_Yu.html">Xiaohui Yu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453955.pdf">http://www.vldb.org/pvldb/1/1453955.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "909--920",
 	title         = "{Keyword query cleaning}",

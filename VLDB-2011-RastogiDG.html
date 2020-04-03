@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Large-Scale+Collective+Entity+Matching%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p208-rastogi.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-RastogiDG,
 	author        = "<a href="person/Vibhor_Rastogi.html">Vibhor Rastogi</a> and <a href="person/Nilesh_N_Dalvi.html">Nilesh N. Dalvi</a> and <a href="person/Minos_N_Garofalakis.html">Minos N. Garofalakis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p208-rastogi.pdf">http://www.vldb.org/pvldb/vol4/p208-rastogi.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "208--218",
 	title         = "{Large-Scale Collective Entity Matching}",

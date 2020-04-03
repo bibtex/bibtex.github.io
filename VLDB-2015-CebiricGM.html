@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Query-Oriented+Summarization+of+RDF+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2012-cebiric.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-CebiricGM,
 	author        = "<a href="person/Sejla_Cebiric.html">Sejla Cebiric</a> and <a href="person/Francois_Goasdoue.html">François Goasdoué</a> and <a href="person/Ioana_Manolescu.html">Ioana Manolescu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2012-cebiric.pdf">http://www.vldb.org/pvldb/vol8/p2012-cebiric.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2012--2023",
 	title         = "{Query-Oriented Summarization of RDF Graphs}",

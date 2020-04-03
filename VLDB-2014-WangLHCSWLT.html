@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22R3:+A+Real-Time+Route+Recommendation+System%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1549-wang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-WangLHCSWLT,
 	author        = "<a href="person/Henan_Wang.html">Henan Wang</a> and <a href="person/Guoliang_Li.html">Guoliang Li</a> and <a href="person/Huiqi_Hu.html">Huiqi Hu</a> and <a href="person/Shuo_Chen.html">Shuo Chen</a> and <a href="person/Bingwen_Shen.html">Bingwen Shen</a> and <a href="person/Hao_Wu.html">Hao Wu</a> and <a href="person/Wen-Syan_Li.html">Wen-Syan Li</a> and <a href="person/Kian-Lee_Tan.html">Kian-Lee Tan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1549-wang.pdf">http://www.vldb.org/pvldb/vol7/p1549-wang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1549--1552",
 	title         = "{R3: A Real-Time Route Recommendation System}",

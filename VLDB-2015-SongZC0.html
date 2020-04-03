@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Enriching+Data+Imputation+with+Extensive+Similarity+Neighbors%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1286-song.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SongZC0,
 	author        = "<a href="person/Shaoxu_Song.html">Shaoxu Song</a> and <a href="person/Aoqian_Zhang.html">Aoqian Zhang</a> and <a href="person/Lei_Chen.html">Lei Chen</a> and <a href="person/Jianmin_Wang.html">Jianmin Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1286-song.pdf">http://www.vldb.org/pvldb/vol8/p1286-song.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1286--1297",
 	title         = "{Enriching Data Imputation with Extensive Similarity Neighbors}",

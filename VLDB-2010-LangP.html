@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Energy+Management+for+MapReduce+Clusters%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R11.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-LangP,
 	author        = "<a href="person/Willis_Lang.html">Willis Lang</a> and <a href="person/Jignesh_M_Patel.html">Jignesh M. Patel</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R11.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R11.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "129--139",
 	title         = "{Energy Management for MapReduce Clusters}",

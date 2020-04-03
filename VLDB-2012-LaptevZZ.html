@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Early+Accurate+Results+for+Advanced+Analytics+on+MapReduce%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1028_nikolaylaptev_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-LaptevZZ,
 	author        = "<a href="person/Nikolay_Laptev.html">Nikolay Laptev</a> and <a href="person/Kai_Zeng.html">Kai Zeng</a> and <a href="person/Carlo_Zaniolo.html">Carlo Zaniolo</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1028_nikolaylaptev_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1028_nikolaylaptev_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "1028--1039",
 	title         = "{Early Accurate Results for Advanced Analytics on MapReduce}",

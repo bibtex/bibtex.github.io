@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Dual-normal+logic+programs+—+the+forgotten+class%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000186">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-FichteTW,
 	author        = "<a href="person/Johannes_Klaus_Fichte.html">Johannes Klaus Fichte</a> and <a href="person/Miroslaw_Truszczynski.html">Miroslaw Truszczynski</a> and <a href="person/Stefan_Woltran.html">Stefan Woltran</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000186">10.1017/S1471068415000186</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "495--510",
 	title         = "{Dual-normal logic programs — the forgotten class}",

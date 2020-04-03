@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22TIAMAT:+a+Tool+for+Interactive+Analysis+of+Microdata+Anonymization+Techniques%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-114.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-DaiGBBL,
 	author        = "<a href="person/Chenyun_Dai.html">Chenyun Dai</a> and <a href="person/Gabriel_Ghinita.html">Gabriel Ghinita</a> and <a href="person/Elisa_Bertino.html">Elisa Bertino</a> and <a href="person/Ji-Won_Byun.html">Ji-Won Byun</a> and <a href="person/Ninghui_Li.html">Ninghui Li</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-114.pdf">http://www.vldb.org/pvldb/2/vldb09-114.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1618--1621",
 	title         = "{TIAMAT: a Tool for Interactive Analysis of Microdata Anonymization Techniques}",

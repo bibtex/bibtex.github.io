@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22I2RS:+A+Distributed+Geo-Textual+Image+Retrieval+and+Recommendation+System%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1884-chen.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ChenGXJC,
 	author        = "<a href="person/Lu_Chen.html">Lu Chen</a> and <a href="person/Yunjun_Gao.html">Yunjun Gao</a> and <a href="person/Zhihao_Xing.html">Zhihao Xing</a> and <a href="person/Christian_S_Jensen.html">Christian S. Jensen</a> and <a href="person/Gang_Chen.html">Gang Chen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1884-chen.pdf">http://www.vldb.org/pvldb/vol8/p1884-chen.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1884--1895",
 	title         = "{I2RS: A Distributed Geo-Textual Image Retrieval and Recommendation System}",

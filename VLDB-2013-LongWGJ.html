@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Direction-Preserving+Trajectory+Simplification%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p949-long.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-LongWGJ,
 	author        = "<a href="person/Cheng_Long.html">Cheng Long</a> and <a href="person/Raymond_Chi-Wing_Wong.html">Raymond Chi-Wing Wong</a> and <a href="person/H_V_Jagadish.html">H. V. Jagadish</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p949-long.pdf">http://www.vldb.org/pvldb/vol6/p949-long.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "949--960",
 	title         = "{Direction-Preserving Trajectory Simplification}",

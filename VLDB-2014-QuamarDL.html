@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22NScale:+Neighborhood-centric+Analytics+on+Large+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1673-quamar.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-QuamarDL,
 	author        = "<a href="person/Abdul_Quamar.html">Abdul Quamar</a> and <a href="person/Amol_Deshpande.html">Amol Deshpande</a> and <a href="person/Jimmy_Lin.html">Jimmy Lin</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1673-quamar.pdf">http://www.vldb.org/pvldb/vol7/p1673-quamar.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1673--1676",
 	title         = "{NScale: Neighborhood-centric Analytics on Large Graphs}",

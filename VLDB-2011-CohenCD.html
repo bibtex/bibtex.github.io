@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Structure-Aware+Sampling:+Flexible+and+Accurate+Summarization%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p819-cohen.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-CohenCD,
 	author        = "<a href="person/Edith_Cohen.html">Edith Cohen</a> and <a href="person/Graham_Cormode.html">Graham Cormode</a> and <a href="person/Nick_G_Duffield.html">Nick G. Duffield</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p819-cohen.pdf">http://www.vldb.org/pvldb/vol4/p819-cohen.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "819--830",
 	title         = "{Structure-Aware Sampling: Flexible and Accurate Summarization}",

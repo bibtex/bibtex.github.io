@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22HDBTracker:+Monitoring+the+Aggregates+On+Dynamic+Hidden+Web+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1569-liu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LiuST0DJ,
 	author        = "<a href="person/Weimo_Liu.html">Weimo Liu</a> and <a href="person/Saad_Bin_Suhaim.html">Saad Bin Suhaim</a> and <a href="person/Saravanan_Thirumuruganathan.html">Saravanan Thirumuruganathan</a> and <a href="person/Nan_Zhang.html">Nan Zhang</a> and <a href="person/Gautam_Das.html">Gautam Das</a> and <a href="person/Ali_Jaoua.html">Ali Jaoua</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1569-liu.pdf">http://www.vldb.org/pvldb/vol7/p1569-liu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1569--1572",
 	title         = "{HDBTracker: Monitoring the Aggregates On Dynamic Hidden Web Databases}",

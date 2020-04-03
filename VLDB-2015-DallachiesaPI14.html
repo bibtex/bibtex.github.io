@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Top-k+Nearest+Neighbor+Search+In+Uncertain+Data+Series%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p13-dallachiesa.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-DallachiesaPI14,
 	author        = "<a href="person/Michele_Dallachiesa.html">Michele Dallachiesa</a> and <a href="person/Themis_Palpanas.html">Themis Palpanas</a> and <a href="person/Ihab_F_Ilyas.html">Ihab F. Ilyas</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p13-dallachiesa.pdf">http://www.vldb.org/pvldb/vol8/p13-dallachiesa.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "13--24",
 	title         = "{Top-k Nearest Neighbor Search In Uncertain Data Series}",

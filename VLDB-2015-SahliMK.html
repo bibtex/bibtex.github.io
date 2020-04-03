@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22StarDB:+A+Large-Scale+DBMS+for+Strings%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1844-sahli.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SahliMK,
 	author        = "<a href="person/Majed_Sahli.html">Majed Sahli</a> and <a href="person/Essam_Mansour.html">Essam Mansour</a> and <a href="person/Panos_Kalnis.html">Panos Kalnis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1844-sahli.pdf">http://www.vldb.org/pvldb/vol8/p1844-sahli.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1844--1855",
 	title         = "{StarDB: A Large-Scale DBMS for Strings}",

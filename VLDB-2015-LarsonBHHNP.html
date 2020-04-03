@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Real-Time+Analytical+Processing+with+SQL+Server%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1740-Larson.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LarsonBHHNP,
 	author        = "<a href="person/Per-Ake_Larson.html">Per-Åke Larson</a> and <a href="person/Adrian_Birka.html">Adrian Birka</a> and <a href="person/Eric_N_Hanson.html">Eric N. Hanson</a> and <a href="person/Weiyun_Huang.html">Weiyun Huang</a> and <a href="person/Michal_Nowakiewicz.html">Michal Nowakiewicz</a> and <a href="person/Vassilis_Papadimos.html">Vassilis Papadimos</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1740-Larson.pdf">http://www.vldb.org/pvldb/vol8/p1740-Larson.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1740--1751",
 	title         = "{Real-Time Analytical Processing with SQL Server}",

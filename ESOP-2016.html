@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+25th+European+Symposium+on+Programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-662-49498-1">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 25th European Symposium on Programming':'ESOP');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 25th European Symposium on Programming':'ESOP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ESOP-2016,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Peter_Thiemann.html">Peter Thiemann</a>",
 <span id="isbn">	isbn          = "978-3-662-49497-4",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 25th European Symposium on Programming</span>}",
 	volume        = "9632",
 	year          = "2016",

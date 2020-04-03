@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Exploring+the+Coming+Repositories+of+Reproducible+Experiments:+Challenges+and+Opportunities%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1494-freire.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-FreireBS,
 	author        = "<a href="person/Juliana_Freire.html">Juliana Freire</a> and <a href="person/Philippe_Bonnet.html">Philippe Bonnet</a> and <a href="person/Dennis_Shasha.html">Dennis Shasha</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1494-freire.pdf">http://www.vldb.org/pvldb/vol4/p1494-freire.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1494--1497",
 	title         = "{Exploring the Coming Repositories of Reproducible Experiments: Challenges and Opportunities}",

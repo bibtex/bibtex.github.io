@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22The+V*-Diagram:+a+query-dependent+approach+to+moving+KNN+queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453973.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-NutanongZTK,
 	author        = "<a href="person/Sarana_Nutanong.html">Sarana Nutanong</a> and <a href="person/Rui_Zhang.html">Rui Zhang</a> and <a href="person/Egemen_Tanin.html">Egemen Tanin</a> and <a href="person/Lars_Kulik.html">Lars Kulik</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453973.pdf">http://www.vldb.org/pvldb/1/1453973.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1095--1106",
 	title         = "{The V*-Diagram: a query-dependent approach to moving KNN queries}",

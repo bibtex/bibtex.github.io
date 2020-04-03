@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22End-to-end+support+for+joins+in+large-scale+publish/subscribe+systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453905.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-ChandramouliY,
 	author        = "<a href="person/Badrish_Chandramouli.html">Badrish Chandramouli</a> and <a href="person/Jun_Yang.html">Jun Yang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453905.pdf">http://www.vldb.org/pvldb/1/1453905.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "434--450",
 	title         = "{End-to-end support for joins in large-scale publish/subscribe systems}",

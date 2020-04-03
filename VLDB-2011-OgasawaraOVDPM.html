@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Algebraic+Approach+for+Data-Centric+Scientific+Workflows%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1328-ogasawara.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-OgasawaraOVDPM,
 	author        = "<a href="person/Eduardo_S_Ogasawara.html">Eduardo S. Ogasawara</a> and <a href="person/Daniel_de_Oliveira.html">Daniel de Oliveira</a> and <a href="person/Patrick_Valduriez.html">Patrick Valduriez</a> and <a href="person/Jonas_Dias.html">Jonas Dias</a> and <a href="person/Fabio_Porto.html">Fabio Porto</a> and <a href="person/Marta_Mattoso.html">Marta Mattoso</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1328-ogasawara.pdf">http://www.vldb.org/pvldb/vol4/p1328-ogasawara.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1328--1339",
 	title         = "{An Algebraic Approach for Data-Centric Scientific Workflows}",

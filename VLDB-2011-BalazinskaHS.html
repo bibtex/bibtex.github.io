@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Data+Markets+in+the+Cloud:+An+Opportunity+for+the+Database+Community%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1482-balazinska.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-BalazinskaHS,
 	author        = "<a href="person/Magdalena_Balazinska.html">Magdalena Balazinska</a> and <a href="person/Bill_Howe.html">Bill Howe</a> and <a href="person/Dan_Suciu.html">Dan Suciu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1482-balazinska.pdf">http://www.vldb.org/pvldb/vol4/p1482-balazinska.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1482--1485",
 	title         = "{Data Markets in the Cloud: An Opportunity for the Database Community}",

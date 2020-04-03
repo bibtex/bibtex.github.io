@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+weak+constraints+in+answer+set+programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000198">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-LawRB,
 	author        = "<a href="person/Mark_Law.html">Mark Law</a> and <a href="person/Alessandra_Russo.html">Alessandra Russo</a> and <a href="person/Krysia_Broda.html">Krysia Broda</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000198">10.1017/S1471068415000198</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "511--525",
 	title         = "{Learning weak constraints in answer set programming}",

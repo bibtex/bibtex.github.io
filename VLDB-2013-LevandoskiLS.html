@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22LLAMA:+A+Cache/Storage+Subsystem+for+Modern+Hardware%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p877-levandoski.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-LevandoskiLS,
 	author        = "<a href="person/Justin_J_Levandoski.html">Justin J. Levandoski</a> and <a href="person/David_B_Lomet.html">David B. Lomet</a> and <a href="person/Sudipta_Sengupta.html">Sudipta Sengupta</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p877-levandoski.pdf">http://www.vldb.org/pvldb/vol6/p877-levandoski.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "877--888",
 	title         = "{LLAMA: A Cache/Storage Subsystem for Modern Hardware}",

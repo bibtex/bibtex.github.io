@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22NADEEF:+A+Generalized+Data+Cleaning+System%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1218-tang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-EbaidEIOQ0Y,
 	author        = "<a href="person/Amr_Ebaid.html">Amr Ebaid</a> and <a href="person/Ahmed_K_Elmagarmid.html">Ahmed K. Elmagarmid</a> and <a href="person/Ihab_F_Ilyas.html">Ihab F. Ilyas</a> and <a href="person/Mourad_Ouzzani.html">Mourad Ouzzani</a> and <a href="person/Jorge-Arnulfo_Quiane-Ruiz.html">Jorge-Arnulfo Quiané-Ruiz</a> and <a href="person/Nan_Tang.html">Nan Tang</a> and <a href="person/Si_Yin.html">Si Yin</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1218-tang.pdf">http://www.vldb.org/pvldb/vol6/p1218-tang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1218--1221",
 	title         = "{NADEEF: A Generalized Data Cleaning System}",

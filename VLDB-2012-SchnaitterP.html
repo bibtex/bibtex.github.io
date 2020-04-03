@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Semi-Automatic+Index+Tuning:+Keeping+DBAs+in+the+Loop%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p478_karlschnaitter_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-SchnaitterP,
 	author        = "<a href="person/Karl_Schnaitter.html">Karl Schnaitter</a> and <a href="person/Neoklis_Polyzotis.html">Neoklis Polyzotis</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p478_karlschnaitter_vldb2012.pdf">http://vldb.org/pvldb/vol5/p478_karlschnaitter_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "478--489",
 	title         = "{Semi-Automatic Index Tuning: Keeping DBAs in the Loop}",

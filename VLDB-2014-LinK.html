@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Arbitrage-free+Pricing+for+General+Data+Queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p757-lin.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LinK,
 	author        = "<a href="person/Bing-Rong_Lin.html">Bing-Rong Lin</a> and <a href="person/Daniel_Kifer.html">Daniel Kifer</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p757-lin.pdf">http://www.vldb.org/pvldb/vol7/p757-lin.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "757--768",
 	title         = "{On Arbitrage-free Pricing for General Data Queries}",

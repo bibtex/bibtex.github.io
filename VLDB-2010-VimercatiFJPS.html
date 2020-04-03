@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Fragments+and+Loose+Associations:+Respecting+Privacy+in+Data+Publishing%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R121.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-VimercatiFJPS,
 	author        = "<a href="person/Sabrina_De_Capitani_di_Vimercati.html">Sabrina De Capitani di Vimercati</a> and <a href="person/Sara_Foresti.html">Sara Foresti</a> and <a href="person/Sushil_Jajodia.html">Sushil Jajodia</a> and <a href="person/Stefano_Paraboschi.html">Stefano Paraboschi</a> and <a href="person/Pierangela_Samarati.html">Pierangela Samarati</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R121.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R121.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1370--1381",
 	title         = "{Fragments and Loose Associations: Respecting Privacy in Data Publishing}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Auto-Approximation+of+Graph+Computing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1833-shang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ShangY,
 	author        = "<a href="person/Zechao_Shang.html">Zechao Shang</a> and <a href="person/Jeffrey_Xu_Yu.html">Jeffrey Xu Yu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1833-shang.pdf">http://www.vldb.org/pvldb/vol7/p1833-shang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1833--1844",
 	title         = "{Auto-Approximation of Graph Computing}",

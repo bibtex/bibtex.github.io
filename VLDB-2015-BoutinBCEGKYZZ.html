@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22JetScope:+Reliable+and+Interactive+Analytics+at+Cloud+Scale%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1680-boutin.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-BoutinBCEGKYZZ,
 	author        = "<a href="person/Eric_Boutin.html">Eric Boutin</a> and <a href="person/Paul_Brett.html">Paul Brett</a> and <a href="person/Xiaoyu_Chen.html">Xiaoyu Chen</a> and <a href="person/Jaliya_Ekanayake.html">Jaliya Ekanayake</a> and <a href="person/Tao_Guan.html">Tao Guan</a> and <a href="person/Anna_Korsun.html">Anna Korsun</a> and <a href="person/Zhicheng_Yin.html">Zhicheng Yin</a> and <a href="person/Nan_Zhang.html">Nan Zhang</a> and <a href="person/Jingren_Zhou.html">Jingren Zhou</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1680-boutin.pdf">http://www.vldb.org/pvldb/vol8/p1680-boutin.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1680--1691",
 	title         = "{JetScope: Reliable and Interactive Analytics at Cloud Scale}",

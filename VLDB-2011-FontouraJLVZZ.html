@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Evaluation+Strategies+for+Top-k+Queries+over+Memory-Resident+Inverted+Indexes%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1213-fontoura.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-FontouraJLVZZ,
 	author        = "<a href="person/Marcus_Fontoura.html">Marcus Fontoura</a> and <a href="person/Vanja_Josifovski.html">Vanja Josifovski</a> and <a href="person/Jinhui_Liu.html">Jinhui Liu</a> and <a href="person/Srihari_Venkatesan.html">Srihari Venkatesan</a> and <a href="person/Xiangfei_Zhu.html">Xiangfei Zhu</a> and <a href="person/Jason_Y_Zien.html">Jason Y. Zien</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1213-fontoura.pdf">http://www.vldb.org/pvldb/vol4/p1213-fontoura.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1213--1224",
 	title         = "{Evaluation Strategies for Top-k Queries over Memory-Resident Inverted Indexes}",

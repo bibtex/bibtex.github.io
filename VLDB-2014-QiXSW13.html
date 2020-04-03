@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Toward+a+Distance+Oracle+for+Billion-Node+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p61-xiao.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-QiXSW13,
 	author        = "<a href="person/Zichao_Qi.html">Zichao Qi</a> and <a href="person/Yanghua_Xiao.html">Yanghua Xiao</a> and <a href="person/Bin_Shao.html">Bin Shao</a> and <a href="person/Haixun_Wang.html">Haixun Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p61-xiao.pdf">http://www.vldb.org/pvldb/vol7/p61-xiao.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "61--72",
 	title         = "{Toward a Distance Oracle for Billion-Node Graphs}",

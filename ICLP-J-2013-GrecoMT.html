@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Logic+programming+with+function+symbols:+Checking+termination+of+bottom-up+evaluation+through+program+adornments%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S147106841300046X">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2013-GrecoMT,
 	author        = "<a href="person/Sergio_Greco.html">Sergio Greco</a> and <a href="person/Cristian_Molinaro.html">Cristian Molinaro</a> and <a href="person/Irina_Trubitsyna.html">Irina Trubitsyna</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S147106841300046X">10.1017/S147106841300046X</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "737--752",
 	title         = "{Logic programming with function symbols: Checking termination of bottom-up evaluation through program adornments}",

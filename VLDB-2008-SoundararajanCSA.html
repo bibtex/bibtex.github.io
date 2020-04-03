@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Dynamic+partitioning+of+the+cache+hierarchy+in+shared+data+centers%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453926.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-SoundararajanCSA,
 	author        = "<a href="person/Gokul_Soundararajan.html">Gokul Soundararajan</a> and <a href="person/Jin_Chen.html">Jin Chen</a> and <a href="person/Mohamed_A_Sharaf.html">Mohamed A. Sharaf</a> and <a href="person/Cristiana_Amza.html">Cristiana Amza</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453926.pdf">http://www.vldb.org/pvldb/1/1453926.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "635--646",
 	title         = "{Dynamic partitioning of the cache hierarchy in shared data centers}",

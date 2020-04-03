@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+top-k+processing+over+query-dependent+functions%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453968.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-GuoARSSV,
 	author        = "<a href="person/Lin_Guo.html">Lin Guo</a> and <a href="person/Sihem_Amer-Yahia.html">Sihem Amer-Yahia</a> and <a href="person/Raghu_Ramakrishnan.html">Raghu Ramakrishnan</a> and <a href="person/Jayavel_Shanmugasundaram.html">Jayavel Shanmugasundaram</a> and <a href="person/Utkarsh_Srivastava.html">Utkarsh Srivastava</a> and <a href="person/Erik_Vee.html">Erik Vee</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453968.pdf">http://www.vldb.org/pvldb/1/1453968.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1044--1055",
 	title         = "{Efficient top-k processing over query-dependent functions}",

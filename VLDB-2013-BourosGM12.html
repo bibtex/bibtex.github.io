@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Spatio-textual+similarity+joins%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1-bouros.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-BourosGM12,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2428537">2428537</a>",
 </span>	author        = "<a href="person/Panagiotis_Bouros.html">Panagiotis Bouros</a> and <a href="person/Shen_Ge.html">Shen Ge</a> and <a href="person/Nikos_Mamoulis.html">Nikos Mamoulis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1-bouros.pdf">http://www.vldb.org/pvldb/vol6/p1-bouros.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1--12",
 	title         = "{Spatio-textual similarity joins}",

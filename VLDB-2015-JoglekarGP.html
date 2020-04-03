@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Smart+Drill-Down:+A+New+Data+Exploration+Operator%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1928-joglekar.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-JoglekarGP,
 	author        = "<a href="person/Manas_Joglekar.html">Manas Joglekar</a> and <a href="person/Hector_Garcia-Molina.html">Hector Garcia-Molina</a> and <a href="person/Aditya_G_Parameswaran.html">Aditya G. Parameswaran</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1928-joglekar.pdf">http://www.vldb.org/pvldb/vol8/p1928-joglekar.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1928--1939",
 	title         = "{Smart Drill-Down: A New Data Exploration Operator}",

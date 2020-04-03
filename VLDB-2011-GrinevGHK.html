@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Analytics+for+the+RealTime+Web%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1391-grinev.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-GrinevGHK,
 	author        = "<a href="person/Maxim_Grinev.html">Maxim Grinev</a> and <a href="person/Maria_P_Grineva.html">Maria P. Grineva</a> and <a href="person/Martin_Hentschel.html">Martin Hentschel</a> and <a href="person/Donald_Kossmann.html">Donald Kossmann</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1391-grinev.pdf">http://www.vldb.org/pvldb/vol4/p1391-grinev.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1391--1394",
 	title         = "{Analytics for the RealTime Web}",

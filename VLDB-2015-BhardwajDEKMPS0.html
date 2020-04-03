@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Collaborative+Data+Analytics+with+DataHub%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1916-bhardwaj.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-BhardwajDEKMPS0,
 	author        = "<a href="person/Anant_P_Bhardwaj.html">Anant P. Bhardwaj</a> and <a href="person/Amol_Deshpande.html">Amol Deshpande</a> and <a href="person/Aaron_J_Elmore.html">Aaron J. Elmore</a> and <a href="person/David_R_Karger.html">David R. Karger</a> and <a href="person/Sam_Madden.html">Sam Madden</a> and <a href="person/Aditya_G_Parameswaran.html">Aditya G. Parameswaran</a> and <a href="person/Harihar_Subramanyam.html">Harihar Subramanyam</a> and <a href="person/Eugene_Wu.html">Eugene Wu</a> and <a href="person/Rebecca_Zhang.html">Rebecca Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1916-bhardwaj.pdf">http://www.vldb.org/pvldb/vol8/p1916-bhardwaj.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1916--1927",
 	title         = "{Collaborative Data Analytics with DataHub}",

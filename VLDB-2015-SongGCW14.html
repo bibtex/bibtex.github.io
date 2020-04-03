@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Event+Pattern+Matching+over+Graph+Streams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p413-ge.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SongGCW14,
 	author        = "<a href="person/Chunyao_Song.html">Chunyao Song</a> and <a href="person/Tingjian_Ge.html">Tingjian Ge</a> and <a href="person/Cindy_X_Chen.html">Cindy X. Chen</a> and <a href="person/Jie_Wang.html">Jie Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p413-ge.pdf">http://www.vldb.org/pvldb/vol8/p413-ge.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "413--424",
 	title         = "{Event Pattern Matching over Graph Streams}",

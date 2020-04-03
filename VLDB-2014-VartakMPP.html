@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SEEDB:+Automatically+Generating+Query+Visualizations%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1581-vartak.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-VartakMPP,
 	author        = "<a href="person/Manasi_Vartak.html">Manasi Vartak</a> and <a href="person/Samuel_Madden.html">Samuel Madden</a> and <a href="person/Aditya_G_Parameswaran.html">Aditya G. Parameswaran</a> and <a href="person/Neoklis_Polyzotis.html">Neoklis Polyzotis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1581-vartak.pdf">http://www.vldb.org/pvldb/vol7/p1581-vartak.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1581--1584",
 	title         = "{SEEDB: Automatically Generating Query Visualizations}",

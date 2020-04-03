@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22QueryScope:+visualizing+queries+for+repeatable+database+tuning%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454209.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-HuRCLZ,
 	author        = "<a href="person/Ling_Hu.html">Ling Hu</a> and <a href="person/Kenneth_A_Ross.html">Kenneth A. Ross</a> and <a href="person/Yuan-Chi_Chang.html">Yuan-Chi Chang</a> and <a href="person/Christian_A_Lang.html">Christian A. Lang</a> and <a href="person/Donghui_Zhang.html">Donghui Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454209.pdf">http://www.vldb.org/pvldb/1/1454209.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1488--1491",
 	title         = "{QueryScope: visualizing queries for repeatable database tuning}",

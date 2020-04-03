@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22MillWheel:+Fault-Tolerant+Stream+Processing+at+Internet+Scale%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1033-akidau.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-AkidauBBCHLMMNW,
 	author        = "<a href="person/Tyler_Akidau.html">Tyler Akidau</a> and <a href="person/Alex_Balikov.html">Alex Balikov</a> and <a href="person/Kaya_Bekiroglu.html">Kaya Bekiroglu</a> and <a href="person/Slava_Chernyak.html">Slava Chernyak</a> and <a href="person/Josh_Haberman.html">Josh Haberman</a> and <a href="person/Reuven_Lax.html">Reuven Lax</a> and <a href="person/Sam_McVeety.html">Sam McVeety</a> and <a href="person/Daniel_Mills.html">Daniel Mills</a> and <a href="person/Paul_Nordstrom.html">Paul Nordstrom</a> and <a href="person/Sam_Whittle.html">Sam Whittle</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1033-akidau.pdf">http://www.vldb.org/pvldb/vol6/p1033-akidau.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1033--1044",
 	title         = "{MillWheel: Fault-Tolerant Stream Processing at Internet Scale}",

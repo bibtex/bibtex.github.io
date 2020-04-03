@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+14th+European+Conference+on+Research+and+Advanced+Technology+for+Digital+Libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-15464-5">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 14th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 14th European Conference on Research and Advanced Technology for Digital Libraries':'ECDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ECDL-2010,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Mounia_Lalmas.html">Mounia Lalmas</a> and <a href="person/Joemon_M_Jose.html">Joemon M. Jose</a> and <a href="person/Andreas_Rauber.html">Andreas Rauber</a> and <a href="person/Fabrizio_Sebastiani.html">Fabrizio Sebastiani</a> and <a href="person/Ingo_Frommholz.html">Ingo Frommholz</a>",
 <span id="isbn">	isbn          = "978-3-642-15463-8",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 14th European Conference on Research and Advanced Technology for Digital Libraries</span>}",
 	volume        = 6273,
 	year          = 2010,

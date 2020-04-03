@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Index+Compression+in+DB2+LUW%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-798.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-BhattacharjeeLMMRLMTS,
 	author        = "<a href="person/Bishwaranjan_Bhattacharjee.html">Bishwaranjan Bhattacharjee</a> and <a href="person/Lipyeow_Lim.html">Lipyeow Lim</a> and <a href="person/Timothy_Malkemus.html">Timothy Malkemus</a> and <a href="person/George_A_Mihaila.html">George A. Mihaila</a> and <a href="person/Kenneth_A_Ross.html">Kenneth A. Ross</a> and <a href="person/Sherman_Lau.html">Sherman Lau</a> and <a href="person/Cathy_McCarthur.html">Cathy McCarthur</a> and <a href="person/Zoltan_Toth.html">Zoltán Tóth</a> and <a href="person/Reza_Sherkat.html">Reza Sherkat</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-798.pdf">http://www.vldb.org/pvldb/2/vldb09-798.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1462--1473",
 	title         = "{Efficient Index Compression in DB2 LUW}",

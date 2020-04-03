@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+Discovery+of+Unique+Column+Combinations%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p301-heise.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-HeiseQAJN13,
 	author        = "<a href="person/Arvid_Heise.html">Arvid Heise</a> and <a href="person/Jorge-Arnulfo_Quiane-Ruiz.html">Jorge-Arnulfo Quiané-Ruiz</a> and <a href="person/Ziawasch_Abedjan.html">Ziawasch Abedjan</a> and <a href="person/Anja_Jentzsch.html">Anja Jentzsch</a> and <a href="person/Felix_Naumann.html">Felix Naumann</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p301-heise.pdf">http://www.vldb.org/pvldb/vol7/p301-heise.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "301--312",
 	title         = "{Scalable Discovery of Unique Column Combinations}",

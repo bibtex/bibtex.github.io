@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22On+differentially+private+frequent+itemset+mining%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p25-zeng.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-ZengNC12,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=2428539">2428539</a>",
 </span>	author        = "<a href="person/Chen_Zeng.html">Chen Zeng</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a> and <a href="person/Jin-Yi_Cai.html">Jin-Yi Cai</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p25-zeng.pdf">http://www.vldb.org/pvldb/vol6/p25-zeng.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "25--36",
 	title         = "{On differentially private frequent itemset mining}",

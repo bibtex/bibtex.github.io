@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Class-based+graph+anonymization+for+social+network+data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-pvldb26.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-CormodeSBK,
 	author        = "<a href="person/Graham_Cormode.html">Graham Cormode</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a> and <a href="person/Smriti_Bhagat.html">Smriti Bhagat</a> and <a href="person/Balachander_Krishnamurthy.html">Balachander Krishnamurthy</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-pvldb26.pdf">http://www.vldb.org/pvldb/2/vldb09-pvldb26.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "766--777",
 	title         = "{Class-based graph anonymization for social network data}",

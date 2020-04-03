@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Hadoop++:+Making+a+Yellow+Elephant+Run+Like+a+Cheetah+(Without+It+Even+Noticing)%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R46.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-DittrichQJKSS,
 	author        = "<a href="person/Jens_Dittrich.html">Jens Dittrich</a> and <a href="person/Jorge-Arnulfo_Quiane-Ruiz.html">Jorge-Arnulfo Quiané-Ruiz</a> and <a href="person/Alekh_Jindal.html">Alekh Jindal</a> and <a href="person/Yagiz_Kargin.html">Yagiz Kargin</a> and <a href="person/Vinay_Setty.html">Vinay Setty</a> and <a href="person/Joerg_Schad.html">Jörg Schad</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R46.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R46.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "518--529",
 	title         = "{Hadoop++: Making a Yellow Elephant Run Like a Cheetah (Without It Even Noticing)}",

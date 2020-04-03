@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DB2+with+BLU+Acceleration:+So+Much+More+than+Just+a+Column+Store%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1080-barber.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-RamanABCKKLLLLMMPSSSSZ,
 	author        = "<a href="person/Vijayshankar_Raman.html">Vijayshankar Raman</a> and <a href="person/Gopi_K_Attaluri.html">Gopi K. Attaluri</a> and <a href="person/Ronald_Barber.html">Ronald Barber</a> and <a href="person/Naresh_Chainani.html">Naresh Chainani</a> and <a href="person/David_Kalmuk.html">David Kalmuk</a> and <a href="person/Vincent_KulandaiSamy.html">Vincent KulandaiSamy</a> and <a href="person/Jens_Leenstra.html">Jens Leenstra</a> and <a href="person/Sam_Lightstone.html">Sam Lightstone</a> and <a href="person/Shaorong_Liu.html">Shaorong Liu</a> and <a href="person/Guy_M_Lohman.html">Guy M. Lohman</a> and <a href="person/Tim_Malkemus.html">Tim Malkemus</a> and <a href="person/Rene_Mueller.html">René Müller</a> and <a href="person/Ippokratis_Pandis.html">Ippokratis Pandis</a> and <a href="person/Berni_Schiefer.html">Berni Schiefer</a> and <a href="person/David_Sharpe.html">David Sharpe</a> and <a href="person/Richard_Sidle.html">Richard Sidle</a> and <a href="person/Adam_J_Storm.html">Adam J. Storm</a> and <a href="person/Liping_Zhang.html">Liping Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1080-barber.pdf">http://www.vldb.org/pvldb/vol6/p1080-barber.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1080--1091",
 	title         = "{DB2 with BLU Acceleration: So Much More than Just a Column Store}",

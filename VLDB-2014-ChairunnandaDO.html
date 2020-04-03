@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22ConfluxDB:+Multi-Master+Replication+for+Partitioned+Snapshot+Isolation+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p947-chairunnanda.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ChairunnandaDO,
 	author        = "<a href="person/Prima_Chairunnanda.html">Prima Chairunnanda</a> and <a href="person/Khuzaima_Daudjee.html">Khuzaima Daudjee</a> and <a href="person/M_Tamer_Oezsu.html">M. Tamer Özsu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p947-chairunnanda.pdf">http://www.vldb.org/pvldb/vol7/p947-chairunnanda.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "947--958",
 	title         = "{ConfluxDB: Multi-Master Replication for Partitioned Snapshot Isolation Databases}",

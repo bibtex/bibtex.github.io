@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+Maximum+Independent+Sets+on+Massive+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2122-lu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LiuLYXW,
 	author        = "<a href="person/Yu_Liu.html">Yu Liu</a> and <a href="person/Jiaheng_Lu.html">Jiaheng Lu</a> and <a href="person/Hua_Yang.html">Hua Yang</a> and <a href="person/Xiaokui_Xiao.html">Xiaokui Xiao</a> and <a href="person/Zhewei_Wei.html">Zhewei Wei</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2122-lu.pdf">http://www.vldb.org/pvldb/vol8/p2122-lu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2122--2133",
 	title         = "{Towards Maximum Independent Sets on Massive Graphs}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Inspector+Gadget:+A+Framework+for+Custom+Monitoring+and+Debugging+of+Distributed+Dataflows%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1237-olston.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-OlstonR,
 	author        = "<a href="person/Christopher_Olston.html">Christopher Olston</a> and <a href="person/Benjamin_Reed.html">Benjamin Reed</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1237-olston.pdf">http://www.vldb.org/pvldb/vol4/p1237-olston.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1237--1248",
 	title         = "{Inspector Gadget: A Framework for Custom Monitoring and Debugging of Distributed Dataflows}",

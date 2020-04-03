@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22FORWARD:+Data-Centric+UIs+using+Declarative+Templates+that+Efficiently+Wrap+Third-Party+JavaScript+Components%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1649-fu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-FuOPZ,
 	author        = "<a href="person/Yupeng_Fu.html">Yupeng Fu</a> and <a href="person/Kian_Win_Ong.html">Kian Win Ong</a> and <a href="person/Yannis_Papakonstantinou.html">Yannis Papakonstantinou</a> and <a href="person/Erick_Zamora.html">Erick Zamora</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1649-fu.pdf">http://www.vldb.org/pvldb/vol7/p1649-fu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1649--1652",
 	title         = "{FORWARD: Data-Centric UIs using Declarative Templates that Efficiently Wrap Third-Party JavaScript Components}",

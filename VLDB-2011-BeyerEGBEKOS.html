@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Jaql:+A+Scripting+Language+for+Large+Scale+Semistructured+Data+Analysis%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1272-beyer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-BeyerEGBEKOS,
 	author        = "<a href="person/Kevin_S_Beyer.html">Kevin S. Beyer</a> and <a href="person/Vuk_Ercegovac.html">Vuk Ercegovac</a> and <a href="person/Rainer_Gemulla.html">Rainer Gemulla</a> and <a href="person/Andrey_Balmin.html">Andrey Balmin</a> and <a href="person/Mohamed_Y_Eltabakh.html">Mohamed Y. Eltabakh</a> and <a href="person/Carl-Christian_Kanne.html">Carl-Christian Kanne</a> and <a href="person/Fatma_Oezcan.html">Fatma Özcan</a> and <a href="person/Eugene_J_Shekita.html">Eugene J. Shekita</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1272-beyer.pdf">http://www.vldb.org/pvldb/vol4/p1272-beyer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1272--1283",
 	title         = "{Jaql: A Scripting Language for Large Scale Semistructured Data Analysis}",

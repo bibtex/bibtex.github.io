@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Profiling+R+on+a+Contemporary+Processor%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p173-patel.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SridharanP14,
 	author        = "<a href="person/Shriram_Sridharan.html">Shriram Sridharan</a> and <a href="person/Jignesh_M_Patel.html">Jignesh M. Patel</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p173-patel.pdf">http://www.vldb.org/pvldb/vol8/p173-patel.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "173--184",
 	title         = "{Profiling R on a Contemporary Processor}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22QSkycube:+Efficient+Skycube+Computation+using+Point-Based+Space+Partitioning%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p185-lee.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-LeeH10,
 	author        = "<a href="person/Jongwuk_Lee.html">Jongwuk Lee</a> and <a href="person/Seung-won_Hwang.html">Seung-won Hwang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p185-lee.pdf">http://www.vldb.org/pvldb/vol4/p185-lee.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "185--196",
 	title         = "{QSkycube: Efficient Skycube Computation using Point-Based Space Partitioning}",

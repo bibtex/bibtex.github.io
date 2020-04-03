@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Storage+Advisor+for+Hybrid-Store+Databases%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1748_philipprosch_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-RoschDHF,
 	author        = "<a href="person/Philipp_Roesch.html">Philipp Rösch</a> and <a href="person/Lars_Dannecker.html">Lars Dannecker</a> and <a href="person/Gregor_Hackenbroich.html">Gregor Hackenbroich</a> and <a href="person/Franz_Faerber.html">Franz Färber</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1748_philipprosch_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1748_philipprosch_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1748--1758",
 	title         = "{A Storage Advisor for Hybrid-Store Databases}",

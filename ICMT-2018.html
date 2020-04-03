@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+11th+International+Conference+on+Theory+and+Practice+of+Model+Transformations%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-93317-7">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Conference on Theory and Practice of Model Transformations':'ICMT');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 11th International Conference on Theory and Practice of Model Transformations':'ICMT');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICMT-2018,
@@ -45,7 +45,7 @@
 </span>	editor        = "<a href="person/Arend_Rensink.html">Arend Rensink</a> and <a href="person/Jesus_Sanchez_Cuadrado.html">Jesús Sánchez Cuadrado</a>",
 <span id="isbn">	isbn          = "['978-3-319-93316-0', '978-3-319-93317-7']",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 11th International Conference on Theory and Practice of Model Transformations</span>}",
 	volume        = 10888,
 	year          = 2018,

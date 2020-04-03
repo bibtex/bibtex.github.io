@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Schema-Agnostic+Indexing+with+Azure+DocumentDB%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1668-shukla.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ShuklaTRGSZSGWB,
 	author        = "<a href="person/Dharma_Shukla.html">Dharma Shukla</a> and <a href="person/Shireesh_Thota.html">Shireesh Thota</a> and <a href="person/Karthik_Raman.html">Karthik Raman</a> and <a href="person/Madhan_Gajendran.html">Madhan Gajendran</a> and <a href="person/Ankur_Shah.html">Ankur Shah</a> and <a href="person/Sergii_Ziuzin.html">Sergii Ziuzin</a> and <a href="person/Krishnan_Sundaram.html">Krishnan Sundaram</a> and <a href="person/Miguel_Gonzalez_Guajardo.html">Miguel Gonzalez Guajardo</a> and <a href="person/Anna_Wawrzyniak.html">Anna Wawrzyniak</a> and <a href="person/Samer_Boshra.html">Samer Boshra</a> and <a href="person/Renato_Ferreira.html">Renato Ferreira</a> and <a href="person/Mohamed_Nassar.html">Mohamed Nassar</a> and <a href="person/Michael_Koltachev.html">Michael Koltachev</a> and <a href="person/Ji_Huang.html">Ji Huang</a> and <a href="person/Sudipta_Sengupta.html">Sudipta Sengupta</a> and <a href="person/Justin_J_Levandoski.html">Justin J. Levandoski</a> and <a href="person/David_B_Lomet.html">David B. Lomet</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1668-shukla.pdf">http://www.vldb.org/pvldb/vol8/p1668-shukla.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1668--1679",
 	title         = "{Schema-Agnostic Indexing with Azure DocumentDB}",

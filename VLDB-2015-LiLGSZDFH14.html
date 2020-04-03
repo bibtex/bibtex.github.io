@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Confidence-Aware+Approach+for+Truth+Discovery+on+Long-Tail+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p425-li.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LiLGSZDFH14,
 	author        = "<a href="person/Qi_Li.html">Qi Li</a> and <a href="person/Yaliang_Li.html">Yaliang Li</a> and <a href="person/Jing_Gao.html">Jing Gao</a> and <a href="person/Lu_Su.html">Lu Su</a> and <a href="person/Bo_Zhao.html">Bo Zhao</a> and <a href="person/Murat_Demirbas.html">Murat Demirbas</a> and <a href="person/Wei_Fan.html">Wei Fan</a> and <a href="person/Jiawei_Han.html">Jiawei Han</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p425-li.pdf">http://www.vldb.org/pvldb/vol8/p425-li.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "425--436",
 	title         = "{A Confidence-Aware Approach for Truth Discovery on Long-Tail Data}",

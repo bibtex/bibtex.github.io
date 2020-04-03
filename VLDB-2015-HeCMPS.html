@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DPT:+Differentially+Private+Trajectory+Synthesis+Using+Hierarchical+Reference+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1154-he.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-HeCMPS,
 	author        = "<a href="person/Xi_He.html">Xi He</a> and <a href="person/Graham_Cormode.html">Graham Cormode</a> and <a href="person/Ashwin_Machanavajjhala.html">Ashwin Machanavajjhala</a> and <a href="person/Cecilia_M_Procopiuc.html">Cecilia M. Procopiuc</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1154-he.pdf">http://www.vldb.org/pvldb/vol8/p1154-he.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1154--1165",
 	title         = "{DPT: Differentially Private Trajectory Synthesis Using Hierarchical Reference Systems}",

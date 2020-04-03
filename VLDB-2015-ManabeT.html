@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Extracting+Logical+Hierarchical+Structure+of+HTML+Documents+Based+on+Headings%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1606-manabe.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ManabeT,
 	author        = "<a href="person/Tomohiro_Manabe.html">Tomohiro Manabe</a> and <a href="person/Keishi_Tajima.html">Keishi Tajima</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1606-manabe.pdf">http://www.vldb.org/pvldb/vol8/p1606-manabe.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1606--1617",
 	title         = "{Extracting Logical Hierarchical Structure of HTML Documents Based on Headings}",

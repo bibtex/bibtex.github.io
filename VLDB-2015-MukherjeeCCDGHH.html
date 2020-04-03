@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Distributed+Architecture+of+Oracle+Database+In-memory%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1630-mukherjee.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-MukherjeeCCDGHH,
 	author        = "<a href="person/Niloy_Mukherjee.html">Niloy Mukherjee</a> and <a href="person/Shasank_Chavan.html">Shasank Chavan</a> and <a href="person/Maria_Colgan.html">Maria Colgan</a> and <a href="person/Dinesh_Das.html">Dinesh Das</a> and <a href="person/Mike_Gleeson.html">Mike Gleeson</a> and <a href="person/Sanket_Hase.html">Sanket Hase</a> and <a href="person/Allison_Holloway.html">Allison Holloway</a> and <a href="person/Hui_Jin.html">Hui Jin</a> and <a href="person/Jesse_Kamp.html">Jesse Kamp</a> and <a href="person/Kartik_Kulkarni.html">Kartik Kulkarni</a> and <a href="person/Tirthankar_Lahiri.html">Tirthankar Lahiri</a> and <a href="person/Juan_Loaiza.html">Juan Loaiza</a> and <a href="person/Neil_MacNaughton.html">Neil MacNaughton</a> and <a href="person/Vineet_Marwah.html">Vineet Marwah</a> and <a href="person/Atrayee_Mullick.html">Atrayee Mullick</a> and <a href="person/Andy_Witkowski.html">Andy Witkowski</a> and <a href="person/Jiaqi_Yan.html">Jiaqi Yan</a> and <a href="person/Mohamed_Zait.html">Mohamed Zaït</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1630-mukherjee.pdf">http://www.vldb.org/pvldb/vol8/p1630-mukherjee.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1630--1641",
 	title         = "{Distributed Architecture of Oracle Database In-memory}",

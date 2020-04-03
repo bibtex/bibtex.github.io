@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Mining+Attribute-structure+Correlated+Patterns+in+Large+Attributed+Graphs%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p466_arleisilva_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-SilvaMZ,
 	author        = "<a href="person/Arlei_Silva.html">Arlei Silva</a> and <a href="person/Wagner_Meira_Jr.html">Wagner Meira Jr.</a> and <a href="person/Mohammed_J_Zaki.html">Mohammed J. Zaki</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p466_arleisilva_vldb2012.pdf">http://vldb.org/pvldb/vol5/p466_arleisilva_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "466--477",
 	title         = "{Mining Attribute-structure Correlated Patterns in Large Attributed Graphs}",

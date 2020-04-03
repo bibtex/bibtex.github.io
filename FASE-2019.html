@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+22nd+International+Conference+on+Fundamental+Approaches+to+Software+Engineering%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-030-16722-6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 22nd International Conference on Fundamental Approaches to Software Engineering':'FASE');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 22nd International Conference on Fundamental Approaches to Software Engineering':'FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{FASE-2019,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Reiner_Haehnle.html">Reiner Hähnle</a> and <a href="person/Wil_M_P_van_der_Aalst.html">Wil M. P. van der Aalst</a>",
 <span id="isbn">	isbn          = "['978-3-030-16721-9', '978-3-030-16722-6']",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 22nd International Conference on Fundamental Approaches to Software Engineering</span>}",
 	volume        = "11424",
 	year          = "2019",

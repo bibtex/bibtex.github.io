@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Framework+for+Clustering+Uncertain+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1976-schubert.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SchubertKEZSZ,
 	author        = "<a href="person/Erich_Schubert.html">Erich Schubert</a> and <a href="person/Alexander_Koos.html">Alexander Koos</a> and <a href="person/Tobias_Emrich.html">Tobias Emrich</a> and <a href="person/Andreas_Zuefle.html">Andreas Züfle</a> and <a href="person/Klaus_Arthur_Schmid.html">Klaus Arthur Schmid</a> and <a href="person/Arthur_Zimek.html">Arthur Zimek</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1976-schubert.pdf">http://www.vldb.org/pvldb/vol8/p1976-schubert.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1976--1987",
 	title         = "{A Framework for Clustering Uncertain Data}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Tracking+Entities+in+the+Dynamic+World:+A+Fast+Algorithm+for+Matching+Temporal+Records%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p469-chiang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ChiangDN,
 	author        = "<a href="person/Yueh-Hsuan_Chiang.html">Yueh-Hsuan Chiang</a> and <a href="person/AnHai_Doan.html">AnHai Doan</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p469-chiang.pdf">http://www.vldb.org/pvldb/vol7/p469-chiang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "469--480",
 	title         = "{Tracking Entities in the Dynamic World: A Fast Algorithm for Matching Temporal Records}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Probabilistic+Optimization+Framework+for+the+Empty-Answer+Problem%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-MottinMRDPV,
 	author        = "<a href="person/Davide_Mottin.html">Davide Mottin</a> and <a href="person/Alice_Marascu.html">Alice Marascu</a> and <a href="person/Senjuti_Basu_Roy.html">Senjuti Basu Roy</a> and <a href="person/Gautam_Das.html">Gautam Das</a> and <a href="person/Themis_Palpanas.html">Themis Palpanas</a> and <a href="person/Yannis_Velegrakis.html">Yannis Velegrakis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf">http://www.vldb.org/pvldb/vol6/p1762-mottin.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1762--1773",
 	title         = "{A Probabilistic Optimization Framework for the Empty-Answer Problem}",

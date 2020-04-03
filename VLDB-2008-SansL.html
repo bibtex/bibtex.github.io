@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Prefix+based+numbering+schemes+for+XML:+techniques,+applications+and+performances%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454228.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-SansL,
 	author        = "<a href="person/Virginie_Sans.html">Virginie Sans</a> and <a href="person/Dominique_Laurent.html">Dominique Laurent</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454228.pdf">http://www.vldb.org/pvldb/1/1454228.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1564--1573",
 	title         = "{Prefix based numbering schemes for XML: techniques, applications and performances}",

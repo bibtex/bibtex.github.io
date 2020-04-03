@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Query-Driven+Approach+to+Entity+Resolution%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-AltwaijryKM,
 	author        = "<a href="person/Hotham_Altwaijry.html">Hotham Altwaijry</a> and <a href="person/Dmitri_V_Kalashnikov.html">Dmitri V. Kalashnikov</a> and <a href="person/Sharad_Mehrotra.html">Sharad Mehrotra</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf">http://www.vldb.org/pvldb/vol6/p1846-altwaijry.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1846--1857",
 	title         = "{Query-Driven Approach to Entity Resolution}",

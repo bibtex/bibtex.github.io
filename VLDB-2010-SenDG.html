@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Read-Once+Functions+and+Query+Evaluation+in+Probabilistic+Databases%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R95.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-SenDG,
 	author        = "<a href="person/Prithviraj_Sen.html">Prithviraj Sen</a> and <a href="person/Amol_Deshpande.html">Amol Deshpande</a> and <a href="person/Lise_Getoor.html">Lise Getoor</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R95.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R95.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1068--1079",
 	title         = "{Read-Once Functions and Query Evaluation in Probabilistic Databases}",

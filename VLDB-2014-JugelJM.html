@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22M4:+A+Visualization-Oriented+Time+Series+Data+Aggregation%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p797-jugel.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-JugelJM,
 	author        = "<a href="person/Uwe_Jugel.html">Uwe Jugel</a> and <a href="person/Zbigniew_Jerzak.html">Zbigniew Jerzak</a> and <a href="person/Gregor_Hackenbroich.html">Gregor Hackenbroich</a> and <a href="person/Volker_Markl.html">Volker Markl</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p797-jugel.pdf">http://www.vldb.org/pvldb/vol7/p797-jugel.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "797--808",
 	title         = "{M4: A Visualization-Oriented Time Series Data Aggregation}",

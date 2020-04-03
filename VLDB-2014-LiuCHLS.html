@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SK-LSH:+An+Efficient+Index+Structure+for+Approximate+Nearest+Neighbor+Search%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p745-liu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LiuCHLS,
 	author        = "<a href="person/Yingfan_Liu.html">Yingfan Liu</a> and <a href="person/Jiangtao_Cui.html">Jiangtao Cui</a> and <a href="person/Zi_Huang.html">Zi Huang</a> and <a href="person/Hui_Li.html">Hui Li</a> and <a href="person/Heng_Tao_Shen.html">Heng Tao Shen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p745-liu.pdf">http://www.vldb.org/pvldb/vol7/p745-liu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "745--756",
 	title         = "{SK-LSH: An Efficient Index Structure for Approximate Nearest Neighbor Search}",

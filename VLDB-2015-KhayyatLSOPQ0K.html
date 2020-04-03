@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lightning+Fast+and+Space+Efficient+Inequality+Joins%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2074-khayyat.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-KhayyatLSOPQ0K,
 	author        = "<a href="person/Zuhair_Khayyat.html">Zuhair Khayyat</a> and <a href="person/William_Lucia.html">William Lucia</a> and <a href="person/Meghna_Singh.html">Meghna Singh</a> and <a href="person/Mourad_Ouzzani.html">Mourad Ouzzani</a> and <a href="person/Paolo_Papotti.html">Paolo Papotti</a> and <a href="person/Jorge-Arnulfo_Quiane-Ruiz.html">Jorge-Arnulfo Quiané-Ruiz</a> and <a href="person/Nan_Tang.html">Nan Tang</a> and <a href="person/Panos_Kalnis.html">Panos Kalnis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2074-khayyat.pdf">http://www.vldb.org/pvldb/vol8/p2074-khayyat.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2074--2085",
 	title         = "{Lightning Fast and Space Efficient Inequality Joins}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22CrowdDB:+Query+Processing+with+the+VLDB+Crowd%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1387-feng.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-FengFKKMRWX,
 	author        = "<a href="person/Amber_Feng.html">Amber Feng</a> and <a href="person/Michael_J_Franklin.html">Michael J. Franklin</a> and <a href="person/Donald_Kossmann.html">Donald Kossmann</a> and <a href="person/Tim_Kraska.html">Tim Kraska</a> and <a href="person/Samuel_Madden.html">Samuel Madden</a> and <a href="person/Sukriti_Ramesh.html">Sukriti Ramesh</a> and <a href="person/Andrew_Wang.html">Andrew Wang</a> and <a href="person/Reynold_Xin.html">Reynold Xin</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1387-feng.pdf">http://www.vldb.org/pvldb/vol4/p1387-feng.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1387--1390",
 	title         = "{CrowdDB: Query Processing with the VLDB Crowd}",

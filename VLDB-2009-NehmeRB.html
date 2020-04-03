@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Tagging+Stream+Data+for+Rich+Real-Time+Services%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-24.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-NehmeRB,
 	author        = "<a href="person/Rimma_V_Nehme.html">Rimma V. Nehme</a> and <a href="person/Elke_A_Rundensteiner.html">Elke A. Rundensteiner</a> and <a href="person/Elisa_Bertino.html">Elisa Bertino</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-24.pdf">http://www.vldb.org/pvldb/2/vldb09-24.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "73--84",
 	title         = "{Tagging Stream Data for Rich Real-Time Services}",

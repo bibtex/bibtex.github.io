@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22UDA-GIST:+An+In-database+Framework+to+Unify+Data-Parallel+and+State-Parallel+Analytics%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p557-li.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LiWDD,
 	author        = "<a href="person/Kun_Li.html">Kun Li</a> and <a href="person/Daisy_Zhe_Wang.html">Daisy Zhe Wang</a> and <a href="person/Alin_Dobra.html">Alin Dobra</a> and <a href="person/Christopher_Dudley.html">Christopher Dudley</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p557-li.pdf">http://www.vldb.org/pvldb/vol8/p557-li.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "557--568",
 	title         = "{UDA-GIST: An In-database Framework to Unify Data-Parallel and State-Parallel Analytics}",

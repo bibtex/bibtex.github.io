@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Understanding+the+Causes+of+Consistency+Anomalies+in+Apache+Cassandra%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p810-fan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-FanRMGW,
 	author        = "<a href="person/Hua_Fan.html">Hua Fan</a> and <a href="person/Aditya_Ramaraju.html">Aditya Ramaraju</a> and <a href="person/Marlon_McKenzie.html">Marlon McKenzie</a> and <a href="person/Wojciech_M_Golab.html">Wojciech M. Golab</a> and <a href="person/Bernard_Wong.html">Bernard Wong</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p810-fan.pdf">http://www.vldb.org/pvldb/vol8/p810-fan.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 7,
 	pages         = "810--821",
 	title         = "{Understanding the Causes of Consistency Anomalies in Apache Cassandra}",

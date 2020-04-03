@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Aggregation+and+Ordering+in+Factorised+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-BakibayevKOZ,
 	author        = "<a href="person/Nurzhan_Bakibayev.html">Nurzhan Bakibayev</a> and <a href="person/Tomas_Kocisky.html">Tomás Kociský</a> and <a href="person/Dan_Olteanu.html">Dan Olteanu</a> and <a href="person/Jakub_Zavodny.html">Jakub Zavodny</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf">http://www.vldb.org/pvldb/vol6/p1990-zavodny.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1990--2001",
 	title         = "{Aggregation and Ordering in Factorised Databases}",

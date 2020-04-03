@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+declarative+approach+to+distributed+computing:+Specification,+execution+and+analysis%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068413000513">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2013-MaLWRL,
 	author        = "<a href="person/Jiefei_Ma.html">Jiefei Ma</a> and <a href="person/Franck_Le.html">Franck Le</a> and <a href="person/David_Wood.html">David Wood</a> and <a href="person/Alessandra_Russo.html">Alessandra Russo</a> and <a href="person/Jorge_Lobo.html">Jorge Lobo</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068413000513">10.1017/S1471068413000513</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "815--830",
 	title         = "{A declarative approach to distributed computing: Specification, execution and analysis}",

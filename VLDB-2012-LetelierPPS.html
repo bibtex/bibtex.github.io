@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SPAM:+A+SPARQL+Analysis+and+Manipulation+Tool%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1958_andresletelier_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-LetelierPPS,
 	author        = "<a href="person/Andres_Letelier.html">Andrés Letelier</a> and <a href="person/Jorge_Perez.html">Jorge Pérez</a> and <a href="person/Reinhard_Pichler.html">Reinhard Pichler</a> and <a href="person/Sebastian_Skritek.html">Sebastian Skritek</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1958_andresletelier_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1958_andresletelier_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1958--1961",
 	title         = "{SPAM: A SPARQL Analysis and Manipulation Tool}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Mining+and+Linking+Patterns+across+Live+Data+Streams+and+Stream+Archives%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1346-hasan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-YangZHLRW,
 	author        = "<a href="person/Di_Yang.html">Di Yang</a> and <a href="person/Kaiyu_Zhao.html">Kaiyu Zhao</a> and <a href="person/Maryam_Hasan.html">Maryam Hasan</a> and <a href="person/Hanyuan_Lu.html">Hanyuan Lu</a> and <a href="person/Elke_A_Rundensteiner.html">Elke A. Rundensteiner</a> and <a href="person/Matthew_O_Ward.html">Matthew O. Ward</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1346-hasan.pdf">http://www.vldb.org/pvldb/vol6/p1346-hasan.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1346--1349",
 	title         = "{Mining and Linking Patterns across Live Data Streams and Stream Archives}",

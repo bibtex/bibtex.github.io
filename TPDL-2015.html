@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+19th+International+Conference+on+Theory+and+Practice+of+Digital+Libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-24592-8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 19th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 19th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{TPDL-2015,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Sarantos_Kapidakis.html">Sarantos Kapidakis</a> and <a href="person/Cezary_Mazurek.html">Cezary Mazurek</a> and <a href="person/Marcin_Werla.html">Marcin Werla</a>",
 <span id="isbn">	isbn          = "978-3-319-24591-1",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 19th International Conference on Theory and Practice of Digital Libraries</span>}",
 	volume        = 9316,
 	year          = 2015,

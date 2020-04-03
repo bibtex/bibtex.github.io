@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22gSketch:+On+Query+Estimation+in+Graph+Streams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol5/p193_peixiangzhao_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-ZhaoAW11,
 	author        = "<a href="person/Peixiang_Zhao.html">Peixiang Zhao</a> and <a href="person/Charu_C_Aggarwal.html">Charu C. Aggarwal</a> and <a href="person/Min_Wang.html">Min Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol5/p193_peixiangzhao_vldb2012.pdf">http://www.vldb.org/pvldb/vol5/p193_peixiangzhao_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "193--204",
 	title         = "{gSketch: On Query Estimation in Graph Streams}",

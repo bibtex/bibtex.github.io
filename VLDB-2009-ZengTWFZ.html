@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparing+Stars:+On+Approximating+Graph+Edit+Distance%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-568.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-ZengTWFZ,
 	author        = "<a href="person/Zhiping_Zeng.html">Zhiping Zeng</a> and <a href="person/Anthony_K_H_Tung.html">Anthony K. H. Tung</a> and <a href="person/Jianyong_Wang.html">Jianyong Wang</a> and <a href="person/Jianhua_Feng.html">Jianhua Feng</a> and <a href="person/Lizhu_Zhou.html">Lizhu Zhou</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-568.pdf">http://www.vldb.org/pvldb/2/vldb09-568.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "25--36",
 	title         = "{Comparing Stars: On Approximating Graph Edit Distance}",

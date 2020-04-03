@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Rule+Refinement+for+Information+Extraction%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R52.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-LiuCCJR,
 	author        = "<a href="person/Bin_Liu.html">Bin Liu</a> and <a href="person/Laura_Chiticariu.html">Laura Chiticariu</a> and <a href="person/Vivian_Chu.html">Vivian Chu</a> and <a href="person/H_V_Jagadish.html">H. V. Jagadish</a> and <a href="person/Frederick_Reiss.html">Frederick Reiss</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R52.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R52.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "588--597",
 	title         = "{Automatic Rule Refinement for Information Extraction}",

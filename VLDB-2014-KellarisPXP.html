@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Differentially+Private+Event+Sequences+over+Infinite+Streams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1155-kellaris.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-KellarisPXP,
 	author        = "<a href="person/Georgios_Kellaris.html">Georgios Kellaris</a> and <a href="person/Stavros_Papadopoulos.html">Stavros Papadopoulos</a> and <a href="person/Xiaokui_Xiao.html">Xiaokui Xiao</a> and <a href="person/Dimitris_Papadias.html">Dimitris Papadias</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1155-kellaris.pdf">http://www.vldb.org/pvldb/vol7/p1155-kellaris.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1155--1166",
 	title         = "{Differentially Private Event Sequences over Infinite Streams}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PLP:+Page+Latch-free+Shared-everything+OLTP%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p610-pandis.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-PandisTJA,
 	author        = "<a href="person/Ippokratis_Pandis.html">Ippokratis Pandis</a> and <a href="person/Pinar_Toezuen.html">Pinar Tözün</a> and <a href="person/Ryan_Johnson.html">Ryan Johnson</a> and <a href="person/Anastasia_Ailamaki.html">Anastasia Ailamaki</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p610-pandis.pdf">http://www.vldb.org/pvldb/vol4/p610-pandis.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "610--621",
 	title         = "{PLP: Page Latch-free Shared-everything OLTP}",

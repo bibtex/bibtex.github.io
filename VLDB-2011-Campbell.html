@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Is+It+Still+“Big+Data”+If+It+Fits+In+My+Pocket?%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p694-campbell.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-Campbell,
 	author        = "<a href="person/David_Campbell.html">David Campbell</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p694-campbell.pdf">http://www.vldb.org/pvldb/vol4/p694-campbell.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "694",
 	title         = "{Is It Still “Big Data” If It Fits In My Pocket?}",

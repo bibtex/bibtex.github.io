@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22EIRENE:+Interactive+Design+and+Refinement+of+Schema+Mappings+via+Data+Examples%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1414-alexe.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-AlexeCKT,
 	author        = "<a href="person/Bogdan_Alexe.html">Bogdan Alexe</a> and <a href="person/Balder_ten_Cate.html">Balder ten Cate</a> and <a href="person/Phokion_G_Kolaitis.html">Phokion G. Kolaitis</a> and <a href="person/Wang_Chiew_Tan.html">Wang Chiew Tan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1414-alexe.pdf">http://www.vldb.org/pvldb/vol4/p1414-alexe.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1414--1417",
 	title         = "{EIRENE: Interactive Design and Refinement of Schema Mappings via Data Examples}",

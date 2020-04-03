@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22S-Store:+Streaming+Meets+Transaction+Processing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2134-meehan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-MeehanTZACDKMMP,
 	author        = "<a href="person/John_Meehan.html">John Meehan</a> and <a href="person/Nesime_Tatbul.html">Nesime Tatbul</a> and <a href="person/Stan_Zdonik.html">Stan Zdonik</a> and <a href="person/Cansu_Aslantas.html">Cansu Aslantas</a> and <a href="person/Ugur_Cetintemel.html">Ugur Çetintemel</a> and <a href="person/Jiang_Du.html">Jiang Du</a> and <a href="person/Tim_Kraska.html">Tim Kraska</a> and <a href="person/Samuel_Madden.html">Samuel Madden</a> and <a href="person/David_Maier.html">David Maier</a> and <a href="person/Andrew_Pavlo.html">Andrew Pavlo</a> and <a href="person/Michael_Stonebraker.html">Michael Stonebraker</a> and <a href="person/Kristin_Tufte.html">Kristin Tufte</a> and <a href="person/Hao_Wang.html">Hao Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2134-meehan.pdf">http://www.vldb.org/pvldb/vol8/p2134-meehan.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2134--2145",
 	title         = "{S-Store: Streaming Meets Transaction Processing}",

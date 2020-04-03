@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Observations+relating+to+the+equivalences+induced+on+model+sets+by+bidirectional+transformations%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/714">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{BX-2012-Stevens,
 	author        = "<a href="person/Perdita_Stevens.html">Perdita Stevens</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/714">http://journal.ub.tu-berlin.de/eceasst/article/view/714</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "100--115",
 	title         = "{Observations relating to the equivalences induced on model sets by bidirectional transformations}",
 	volume        = 49,

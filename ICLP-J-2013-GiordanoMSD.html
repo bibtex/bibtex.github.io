@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Business+process+verification+with+constraint+temporal+answer+set+programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068413000409">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2013-GiordanoMSD,
 	author        = "<a href="person/Laura_Giordano.html">Laura Giordano</a> and <a href="person/Alberto_Martelli.html">Alberto Martelli</a> and <a href="person/Matteo_Spiotta.html">Matteo Spiotta</a> and <a href="person/Daniele_Theseider_Dupre.html">Daniele Theseider Dupré</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068413000409">10.1017/S1471068413000409</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "641--655",
 	title         = "{Business process verification with constraint temporal answer set programming}",

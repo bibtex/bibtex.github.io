@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+to+extract+form+labels%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453931.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-NguyenNF,
 	author        = "<a href="person/Hoa_Nguyen.html">Hoa Nguyen</a> and <a href="person/Thanh_Hoang_Nguyen.html">Thanh Hoang Nguyen</a> and <a href="person/Juliana_Freire.html">Juliana Freire</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453931.pdf">http://www.vldb.org/pvldb/1/1453931.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "684--694",
 	title         = "{Learning to extract form labels}",

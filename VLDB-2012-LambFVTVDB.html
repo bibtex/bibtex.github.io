@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Vertica+Analytic+Database:+C-Store+7+Years+Later+%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-LambFVTVDB,
 	author        = "<a href="person/Andrew_Lamb.html">Andrew Lamb</a> and <a href="person/Matt_Fuller.html">Matt Fuller</a> and <a href="person/Ramakrishna_Varadarajan.html">Ramakrishna Varadarajan</a> and <a href="person/Nga_Tran.html">Nga Tran</a> and <a href="person/Ben_Vandier.html">Ben Vandier</a> and <a href="person/Lyric_Doshi.html">Lyric Doshi</a> and <a href="person/Chuck_Bear.html">Chuck Bear</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1790_andrewlamb_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1790--1801",
 	title         = "{The Vertica Analytic Database: C-Store 7 Years Later }",

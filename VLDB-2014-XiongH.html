@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Pronto:+A+Software-Defined+Networking+based+System+for+Performance+Management+of+Analytical+Queries+on+Distributed+Data+Stores%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1661-xiong.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-XiongH,
 	author        = "<a href="person/PengCheng_Xiong.html">PengCheng Xiong</a> and <a href="person/Hakan_Haciguemues.html">Hakan Hacigümüs</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1661-xiong.pdf">http://www.vldb.org/pvldb/vol7/p1661-xiong.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1661--1664",
 	title         = "{Pronto: A Software-Defined Networking based System for Performance Management of Analytical Queries on Distributed Data Stores}",

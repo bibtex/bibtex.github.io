@@ -30,17 +30,18 @@
 
 </div>
 <div class="main">
-<h2>James R. Glenn<br/><em>Computer Strategies for Solitaire Yahtzee</em><br/>CoG, 2007.</h2>
+<h2>James R. Glenn<br/><em><a href="word/comput.html">Computer</a> <a href="word/strategi.html">Strategies</a> for <a href="word/solitair.html">Solitaire</a> <a href="word/yahtze.html">Yahtzee</a></em><br/>CoG, 2007.</h2>
 <div class="rbox">
 <strong><a href="CIG-2007.html">CIG 2007</a></strong><hr/><a href="http://dblp.org/rec/html/conf/cig/Glenn07">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Computer+Strategies+for+Solitaire+Yahtzee%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CIG.2007.368089">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Third Symposium on Computational Intelligence and Games':'CIG');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIG-2007-Glenn,
 	author        = "James R. Glenn",
+	booktitle     = "{<span id="booktitle">Proceedings of the Third Symposium on Computational Intelligence and Games</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CIG.2007.368089">10.1109/CIG.2007.368089</a>",
 </span>	pages         = "132--139",
 	title         = "{Computer Strategies for Solitaire Yahtzee}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Data+Coordination:+Supporting+Contingent+Updates%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p831-lawrence.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-LawrencePS,
 	author        = "<a href="person/Michael_K_Lawrence.html">Michael K. Lawrence</a> and <a href="person/Rachel_Pottinger.html">Rachel Pottinger</a> and <a href="person/Sheryl_Staub-French.html">Sheryl Staub-French</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p831-lawrence.pdf">http://www.vldb.org/pvldb/vol4/p831-lawrence.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "831--842",
 	title         = "{Data Coordination: Supporting Contingent Updates}",

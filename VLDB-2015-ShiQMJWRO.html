@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Clash+of+the+Titans:+MapReduce+vs.+Spark+for+Large+Scale+Data+Analytics%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2110-shi.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ShiQMJWRO,
 	author        = "<a href="person/Juwei_Shi.html">Juwei Shi</a> and <a href="person/Yunjie_Qiu.html">Yunjie Qiu</a> and <a href="person/Umar_Farooq_Minhas.html">Umar Farooq Minhas</a> and <a href="person/Limei_Jiao.html">Limei Jiao</a> and <a href="person/Chen_Wang.html">Chen Wang</a> and <a href="person/Berthold_Reinwald.html">Berthold Reinwald</a> and <a href="person/Fatma_Oezcan.html">Fatma Özcan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2110-shi.pdf">http://www.vldb.org/pvldb/vol8/p2110-shi.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2110--2121",
 	title         = "{Clash of the Titans: MapReduce vs. Spark for Large Scale Data Analytics}",

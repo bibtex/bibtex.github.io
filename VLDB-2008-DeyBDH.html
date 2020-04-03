@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficiently+approximating+query+optimizer+plan+diagrams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454173.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-DeyBDH,
 	author        = "<a href="person/Atreyee_Dey.html">Atreyee Dey</a> and <a href="person/Sourjya_Bhaumik.html">Sourjya Bhaumik</a> and <a href="person/Harish_Doraiswamy.html">Harish Doraiswamy</a> and <a href="person/Jayant_R_Haritsa.html">Jayant R. Haritsa</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454173.pdf">http://www.vldb.org/pvldb/1/1454173.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1325--1336",
 	title         = "{Efficiently approximating query optimizer plan diagrams}",

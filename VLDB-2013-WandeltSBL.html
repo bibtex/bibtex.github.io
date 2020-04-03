@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22RCSI:+Scalable+similarity+search+in+thousand(s)+of+genomes%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1534-wandelt.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-WandeltSBL,
 	author        = "<a href="person/Sebastian_Wandelt.html">Sebastian Wandelt</a> and <a href="person/Johannes_Starlinger.html">Johannes Starlinger</a> and <a href="person/Marc_Bux.html">Marc Bux</a> and <a href="person/Ulf_Leser.html">Ulf Leser</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1534-wandelt.pdf">http://www.vldb.org/pvldb/vol6/p1534-wandelt.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1534--1545",
 	title         = "{RCSI: Scalable similarity search in thousand(s) of genomes}",

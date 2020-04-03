@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Seventh+International+Joint+Conference+on+Theory+and+Practice+of+Software+Development%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/BFb0030581">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Seventh International Joint Conference on Theory and Practice of Software Development':'TAPSOFT CAAP/FASE');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Seventh International Joint Conference on Theory and Practice of Software Development':'TAPSOFT CAAP/FASE');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{TAPSOFT-1997,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Michel_Bidoit.html">Michel Bidoit</a> and <a href="person/Max_Dauchet.html">Max Dauchet</a>",
 <span id="isbn">	isbn          = "3-540-62781-2",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the Seventh International Joint Conference on Theory and Practice of Software Development</span>}",
 	volume        = "1214",
 	year          = "1997",

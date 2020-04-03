@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Capri/MR:+exploring+protein+databases+from+a+structural+and+physicochemical+point+of+view%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454213.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-PaquetV,
 	author        = "<a href="person/Eric_Paquet.html">Eric Paquet</a> and <a href="person/Herna_L_Viktor.html">Herna L. Viktor</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454213.pdf">http://www.vldb.org/pvldb/1/1454213.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1504--1507",
 	title         = "{Capri/MR: exploring protein databases from a structural and physicochemical point of view}",

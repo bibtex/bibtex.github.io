@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SMDM:+Enhancing+Enterprise-Wide+Master+Data+Management+Using+Semantic+Web+Technologies%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-1011.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-WangSCMKZPY,
 	author        = "<a href="person/Xiaoyuan_Wang.html">Xiaoyuan Wang</a> and <a href="person/Xingzhi_Sun.html">Xingzhi Sun</a> and <a href="person/Feng_Cao.html">Feng Cao</a> and <a href="person/Li_Ma.html">Li Ma</a> and <a href="person/Nick_Kanellos.html">Nick Kanellos</a> and <a href="person/Kang_Zhang.html">Kang Zhang</a> and <a href="person/Yue_Pan.html">Yue Pan</a> and <a href="person/Yong_Yu.html">Yong Yu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-1011.pdf">http://www.vldb.org/pvldb/2/vldb09-1011.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1594--1597",
 	title         = "{SMDM: Enhancing Enterprise-Wide Master Data Management Using Semantic Web Technologies}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Online+Aggregation+for+Large+MapReduce+Jobs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1135-pansare.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-PansareBJC,
 	author        = "<a href="person/Niketan_Pansare.html">Niketan Pansare</a> and <a href="person/Vinayak_R_Borkar.html">Vinayak R. Borkar</a> and <a href="person/Chris_Jermaine.html">Chris Jermaine</a> and <a href="person/Tyson_Condie.html">Tyson Condie</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1135-pansare.pdf">http://www.vldb.org/pvldb/vol4/p1135-pansare.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1135--1145",
 	title         = "{Online Aggregation for Large MapReduce Jobs}",

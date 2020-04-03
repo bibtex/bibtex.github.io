@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+XML+Query+Processing+using+Parallel+Pushdown+Transducers%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1738-ogden.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-OgdenTP,
 	author        = "<a href="person/Peter_Ogden.html">Peter Ogden</a> and <a href="person/David_B_Thomas.html">David B. Thomas</a> and <a href="person/Peter_Pietzuch.html">Peter Pietzuch</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1738-ogden.pdf">http://www.vldb.org/pvldb/vol6/p1738-ogden.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1738--1749",
 	title         = "{Scalable XML Query Processing using Parallel Pushdown Transducers}",

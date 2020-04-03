@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Link-based+Similarity+Join%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p714-sun.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-SunCLCH,
 	author        = "<a href="person/Liwen_Sun.html">Liwen Sun</a> and <a href="person/Reynold_Cheng.html">Reynold Cheng</a> and <a href="person/Xiang_Li.html">Xiang Li</a> and <a href="person/David_W_Cheung.html">David W. Cheung</a> and <a href="person/Jiawei_Han.html">Jiawei Han</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p714-sun.pdf">http://www.vldb.org/pvldb/vol4/p714-sun.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "714--725",
 	title         = "{On Link-based Similarity Join}",

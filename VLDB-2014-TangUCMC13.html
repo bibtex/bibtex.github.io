@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Earth+Mover’s+Distance+based+Similarity+Search+at+Scale%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p313-tang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-TangUCMC13,
 	author        = "<a href="person/Yu_Tang.html">Yu Tang</a> and <a href="person/Leong_Hou_U.html">Leong Hou U</a> and <a href="person/Yilun_Cai.html">Yilun Cai</a> and <a href="person/Nikos_Mamoulis.html">Nikos Mamoulis</a> and <a href="person/Reynold_Cheng.html">Reynold Cheng</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p313-tang.pdf">http://www.vldb.org/pvldb/vol7/p313-tang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "313--324",
 	title         = "{Earth Mover’s Distance based Similarity Search at Scale}",

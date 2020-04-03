@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Instant+Loading+for+Main+Memory+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1702-muehlbauer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-MuhlbauerRSRK0,
 	author        = "<a href="person/Tobias_Muehlbauer.html">Tobias Mühlbauer</a> and <a href="person/Wolf_Roediger.html">Wolf Rödiger</a> and <a href="person/Robert_Seilbeck.html">Robert Seilbeck</a> and <a href="person/Angelika_Reiser.html">Angelika Reiser</a> and <a href="person/Alfons_Kemper.html">Alfons Kemper</a> and <a href="person/Thomas_Neumann.html">Thomas Neumann</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1702-muehlbauer.pdf">http://www.vldb.org/pvldb/vol6/p1702-muehlbauer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1702--1713",
 	title         = "{Instant Loading for Main Memory Databases}",

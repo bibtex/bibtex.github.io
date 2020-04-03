@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Giraph+Unchained:+Barrierless+Asynchronous+Parallel+Execution+in+Pregel-like+Graph+Processing+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p950-han.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-HanD,
 	author        = "<a href="person/Minyang_Han.html">Minyang Han</a> and <a href="person/Khuzaima_Daudjee.html">Khuzaima Daudjee</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p950-han.pdf">http://www.vldb.org/pvldb/vol8/p950-han.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "950--961",
 	title         = "{Giraph Unchained: Barrierless Asynchronous Parallel Execution in Pregel-like Graph Processing Systems}",

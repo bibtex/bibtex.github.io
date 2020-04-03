@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Analysis+of+Structured+Data+on+the+Web%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p680_nileshdalvi_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-DalviMP,
 	author        = "<a href="person/Nilesh_N_Dalvi.html">Nilesh N. Dalvi</a> and <a href="person/Ashwin_Machanavajjhala.html">Ashwin Machanavajjhala</a> and <a href="person/Bo_Pang.html">Bo Pang</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p680_nileshdalvi_vldb2012.pdf">http://vldb.org/pvldb/vol5/p680_nileshdalvi_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 7,
 	pages         = "680--691",
 	title         = "{An Analysis of Structured Data on the Web}",

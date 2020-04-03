@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22The+MADlib+Analytics+Library+or+MAD+Skills,+the+SQL%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1700_joehellerstein_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-HellersteinRSWFGNWFLK,
 	author        = "<a href="person/Joseph_M_Hellerstein.html">Joseph M. Hellerstein</a> and <a href="person/Christopher_Re.html">Christopher Ré</a> and <a href="person/Florian_Schoppmann.html">Florian Schoppmann</a> and <a href="person/Daisy_Zhe_Wang.html">Daisy Zhe Wang</a> and <a href="person/Eugene_Fratkin.html">Eugene Fratkin</a> and <a href="person/Aleksander_Gorajek.html">Aleksander Gorajek</a> and <a href="person/Kee_Siong_Ng.html">Kee Siong Ng</a> and <a href="person/Caleb_Welton.html">Caleb Welton</a> and <a href="person/Xixuan_Feng.html">Xixuan Feng</a> and <a href="person/Kun_Li.html">Kun Li</a> and <a href="person/Arun_Kumar.html">Arun Kumar</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1700_joehellerstein_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1700_joehellerstein_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1700--1711",
 	title         = "{The MADlib Analytics Library or MAD Skills, the SQL}",

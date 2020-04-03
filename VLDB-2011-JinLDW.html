@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Distance-Constraint+Reachability+Computation+in+Uncertain+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p551-jin.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-JinLDW,
 	author        = "<a href="person/Ruoming_Jin.html">Ruoming Jin</a> and <a href="person/Lin_Liu.html">Lin Liu</a> and <a href="person/Bolin_Ding.html">Bolin Ding</a> and <a href="person/Haixun_Wang.html">Haixun Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p551-jin.pdf">http://www.vldb.org/pvldb/vol4/p551-jin.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "551--562",
 	title         = "{Distance-Constraint Reachability Computation in Uncertain Graphs}",

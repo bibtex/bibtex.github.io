@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Discovering+Longest-lasting+Correlation+in+Sequence+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1666-u.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-LiUYG,
 	author        = "<a href="person/Yuhong_Li.html">Yuhong Li</a> and <a href="person/Leong_Hou_U.html">Leong Hou U</a> and <a href="person/Man_Lung_Yiu.html">Man Lung Yiu</a> and <a href="person/Zhiguo_Gong.html">Zhiguo Gong</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1666-u.pdf">http://www.vldb.org/pvldb/vol6/p1666-u.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1666--1677",
 	title         = "{Discovering Longest-lasting Correlation in Sequence Databases}",

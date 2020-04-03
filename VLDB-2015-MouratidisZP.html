@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Maximum+Rank+Query%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1554-Mouratidis.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-MouratidisZP,
 	author        = "<a href="person/Kyriakos_Mouratidis.html">Kyriakos Mouratidis</a> and <a href="person/Jilian_Zhang.html">Jilian Zhang</a> and <a href="person/HweeHwa_Pang.html">HweeHwa Pang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1554-Mouratidis.pdf">http://www.vldb.org/pvldb/vol8/p1554-Mouratidis.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1554--1565",
 	title         = "{Maximum Rank Query}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantic+Culturomics%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1215-suchanek.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-SuchanekP,
 	author        = "<a href="person/Fabian_M_Suchanek.html">Fabian M. Suchanek</a> and <a href="person/Nicoleta_Preda.html">Nicoleta Preda</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1215-suchanek.pdf">http://www.vldb.org/pvldb/vol7/p1215-suchanek.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1215--1218",
 	title         = "{Semantic Culturomics}",

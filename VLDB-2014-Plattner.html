@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Impact+of+Columnar+In-Memory+Databases+on+Enterprise+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1722-plattner.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-Plattner,
 	author        = "<a href="person/Hasso_Plattner.html">Hasso Plattner</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1722-plattner.pdf">http://www.vldb.org/pvldb/vol7/p1722-plattner.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1722--1729",
 	title         = "{The Impact of Columnar In-Memory Databases on Enterprise Systems}",

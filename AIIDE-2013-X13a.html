@@ -30,16 +30,17 @@
 
 </div>
 <div class="main">
-<h2><br/><em>Sponsors</em><br/>AIIDE, 2013.</h2>
+<h2><br/><em><a href="word/sponsor.html">Sponsors</a></em><br/>AIIDE, 2013.</h2>
 <div class="rbox">
 <strong><a href="AIIDE-2013.html">AIIDE 2013</a></strong><hr/><a href="http://dblp.org/rec/html/conf/aiide/X13a">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Sponsors%22">Scholar</a><hr/><a href="http://www.aaai.org/ocs/index.php/AIIDE/AIIDE13/paper/view/7656">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth Conference on Artificial Intelligence and Interactive Digital Entertainment':'AIIDE');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{AIIDE-2013-X13a,
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth Conference on Artificial Intelligence and Interactive Digital Entertainment</span>}",
 <span class="uri">	ee            = "<a href="http://www.aaai.org/ocs/index.php/AIIDE/AIIDE13/paper/view/7656">http://www.aaai.org/ocs/index.php/AIIDE/AIIDE13/paper/view/7656</a>",
 </span>	title         = "{Sponsors}",
 	year          = 2013,

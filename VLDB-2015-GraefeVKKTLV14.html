@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22In-Memory+Performance+for+Big+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p37-graefe.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-GraefeVKKTLV14,
 	author        = "<a href="person/Goetz_Graefe.html">Goetz Graefe</a> and <a href="person/Haris_Volos.html">Haris Volos</a> and <a href="person/Hideaki_Kimura.html">Hideaki Kimura</a> and <a href="person/Harumi_A_Kuno.html">Harumi A. Kuno</a> and <a href="person/Joseph_Tucek.html">Joseph Tucek</a> and <a href="person/Mark_Lillibridge.html">Mark Lillibridge</a> and <a href="person/Alistair_C_Veitch.html">Alistair C. Veitch</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p37-graefe.pdf">http://www.vldb.org/pvldb/vol8/p37-graefe.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "37--48",
 	title         = "{In-Memory Performance for Big Data}",

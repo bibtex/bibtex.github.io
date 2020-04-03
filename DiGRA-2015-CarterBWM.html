@@ -30,17 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Marcus Carter, Kelly Bergstrom, Nick Webber, Oskar Milik<br/><em>EVE is Real</em><br/>DiGRA, 2015.</h2>
+<h2>Marcus Carter, Kelly Bergstrom, Nick Webber, Oskar Milik<br/><em><a href="word/eve.html">EVE</a> is <a href="word/real.html">Real</a></em><br/>DiGRA, 2015.</h2>
 <div class="rbox">
 <strong><a href="DiGRA-2015.html">DiGRA 2015</a></strong><hr/><a href="http://dblp.org/rec/html/conf/digra/CarterBWM15">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22EVE+is+Real%22">Scholar</a><hr/><a href="http://www.digra.org/digital-library/publications/eve-is-real/">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the Ninth DiGRA International Conference: Diversity of Play':'DiGRA');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{DiGRA-2015-CarterBWM,
 	author        = "Marcus Carter and Kelly Bergstrom and Nick Webber and Oskar Milik",
+	booktitle     = "{<span id="booktitle">Proceedings of the Ninth DiGRA International Conference: Diversity of Play</span>}",
 <span class="uri">	ee            = "<a href="http://www.digra.org/digital-library/publications/eve-is-real/">http://www.digra.org/digital-library/publications/eve-is-real/</a>",
 </span>	title         = "{EVE is Real}",
 	year          = 2015,

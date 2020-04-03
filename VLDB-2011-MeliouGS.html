@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Reverse+Data+Management%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1490-meliou.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-MeliouGS,
 	author        = "<a href="person/Alexandra_Meliou.html">Alexandra Meliou</a> and <a href="person/Wolfgang_Gatterbauer.html">Wolfgang Gatterbauer</a> and <a href="person/Dan_Suciu.html">Dan Suciu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1490-meliou.pdf">http://www.vldb.org/pvldb/vol4/p1490-meliou.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1490--1493",
 	title         = "{Reverse Data Management}",

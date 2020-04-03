@@ -30,17 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Markus Eger, Chris Martens, Marcela Alfaro Cordoba<br/><em>An intentional AI for hanabi</em><br/>CoG, 2017.</h2>
+<h2>Markus Eger, Chris Martens, Marcela Alfaro Cordoba<br/><em>An <a href="word/intent.html">intentional</a> AI for <a href="word/hanabi.html">hanabi</a></em><br/>CoG, 2017.</h2>
 <div class="rbox">
 <strong><a href="CIG-2017.html">CIG 2017</a></strong><hr/><a href="http://dblp.org/rec/html/conf/cig/EgerMC17">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22An+intentional+AI+for+hanabi%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1109/CIG.2017.8080417">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 13th Conference on Computational Intelligence and Games':'CIG');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{CIG-2017-EgerMC,
 	author        = "Markus Eger and Chris Martens and Marcela Alfaro Cordoba",
+	booktitle     = "{<span id="booktitle">Proceedings of the 13th Conference on Computational Intelligence and Games</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1109/CIG.2017.8080417">10.1109/CIG.2017.8080417</a>",
 </span>	pages         = "68--75",
 	title         = "{An intentional AI for hanabi}",

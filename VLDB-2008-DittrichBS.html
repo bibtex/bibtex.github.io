@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Dwarfs+in+the+rearview+mirror:+how+big+are+they+really?%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454230.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-DittrichBS,
 	author        = "<a href="person/Jens_Dittrich.html">Jens Dittrich</a> and <a href="person/Lukas_Blunschi.html">Lukas Blunschi</a> and <a href="person/Marcos_Antonio_Vaz_Salles.html">Marcos Antonio Vaz Salles</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454230.pdf">http://www.vldb.org/pvldb/1/1454230.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1586--1597",
 	title         = "{Dwarfs in the rearview mirror: how big are they really?}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Ontology+Assisted+Crowd+Mining%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1597-amsterdamer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-AmsterdamerDMNS,
 	author        = "<a href="person/Yael_Amsterdamer.html">Yael Amsterdamer</a> and <a href="person/Susan_B_Davidson.html">Susan B. Davidson</a> and <a href="person/Tova_Milo.html">Tova Milo</a> and <a href="person/Slava_Novgorodov.html">Slava Novgorodov</a> and <a href="person/Amit_Somech.html">Amit Somech</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1597-amsterdamer.pdf">http://www.vldb.org/pvldb/vol7/p1597-amsterdamer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1597--1600",
 	title         = "{Ontology Assisted Crowd Mining}",

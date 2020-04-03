@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Fourth+International+Joint+Conference+on+Theory+and+Practice+of+Software+Development,+Volume+2:+Colloquium+on+Combining+Paradigms+for+Software+Development%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-53981-6">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth International Joint Conference on Theory and Practice of Software Development, Volume 2: Colloquium on Combining Paradigms for Software Development':'TAPSOFT, Vol.2: CCPSD');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Fourth International Joint Conference on Theory and Practice of Software Development, Volume 2: Colloquium on Combining Paradigms for Software Development':'TAPSOFT, Vol.2: CCPSD');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{CCPSD-1991,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Samson_Abramsky.html">Samson Abramsky</a> and <a href="person/T_S_E_Maibaum.html">T. S. E. Maibaum</a>",
 <span id="isbn">	isbn          = "3-540-53981-6",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the Fourth International Joint Conference on Theory and Practice of Software Development, Volume 2: Colloquium on Combining Paradigms for Software Development</span>}",
 	volume        = "494",
 	year          = "1991",

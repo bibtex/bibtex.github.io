@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Social-Temporal+Group+Query+with+Acquaintance+Constraint%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p397-yang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-YangCLC,
 	author        = "<a href="person/De-Nian_Yang.html">De-Nian Yang</a> and <a href="person/Yi-Ling_Chen.html">Yi-Ling Chen</a> and <a href="person/Wang-Chien_Lee.html">Wang-Chien Lee</a> and <a href="person/Ming-Syan_Chen.html">Ming-Syan Chen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p397-yang.pdf">http://www.vldb.org/pvldb/vol4/p397-yang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "397--408",
 	title         = "{On Social-Temporal Group Query with Acquaintance Constraint}",

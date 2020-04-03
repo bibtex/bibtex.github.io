@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22iGraph:+A+Framework+for+Comparisons+of+Disk-Based+Graph+Indexing+Techniques%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/E01.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-HanLPY,
 	author        = "<a href="person/Wook-Shin_Han.html">Wook-Shin Han</a> and <a href="person/Jinsoo_Lee.html">Jinsoo Lee</a> and <a href="person/Minh-Duc_Pham.html">Minh-Duc Pham</a> and <a href="person/Jeffrey_Xu_Yu.html">Jeffrey Xu Yu</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/E01.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/E01.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "449--459",
 	title         = "{iGraph: A Framework for Comparisons of Disk-Based Graph Indexing Techniques}",

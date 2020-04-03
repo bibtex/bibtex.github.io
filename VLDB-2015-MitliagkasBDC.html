@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22FrogWild!+—+Fast+PageRank+Approximations+on+Graph+Engines%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p874-mitliagkas.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-MitliagkasBDC,
 	author        = "<a href="person/Ioannis_Mitliagkas.html">Ioannis Mitliagkas</a> and <a href="person/Michael_Borokhovich.html">Michael Borokhovich</a> and <a href="person/Alexandros_G_Dimakis.html">Alexandros G. Dimakis</a> and <a href="person/Constantine_Caramanis.html">Constantine Caramanis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p874-mitliagkas.pdf">http://www.vldb.org/pvldb/vol8/p874-mitliagkas.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 8,
 	pages         = "874--885",
 	title         = "{FrogWild! — Fast PageRank Approximations on Graph Engines}",

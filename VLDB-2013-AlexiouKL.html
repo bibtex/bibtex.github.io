@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Adaptive+Range+Filters+for+Cold+Data:+Avoiding+Trips+to+Siberia%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-AlexiouKL,
 	author        = "<a href="person/Karolina_Alexiou.html">Karolina Alexiou</a> and <a href="person/Donald_Kossmann.html">Donald Kossmann</a> and <a href="person/Per-Ake_Larson.html">Per-Åke Larson</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf">http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1714--1725",
 	title         = "{Adaptive Range Filters for Cold Data: Avoiding Trips to Siberia}",

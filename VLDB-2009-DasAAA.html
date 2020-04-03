@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Thread+Cooperation+in+Multicore+Architectures+for+Frequency+Counting+over+Multiple+Data+Streams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-401.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-DasAAA,
 	author        = "<a href="person/Sudipto_Das.html">Sudipto Das</a> and <a href="person/Shyam_Antony.html">Shyam Antony</a> and <a href="person/Divyakant_Agrawal.html">Divyakant Agrawal</a> and <a href="person/Amr_El_Abbadi.html">Amr El Abbadi</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-401.pdf">http://www.vldb.org/pvldb/2/vldb09-401.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "217--228",
 	title         = "{Thread Cooperation in Multicore Architectures for Frequency Counting over Multiple Data Streams}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Testbed+for+Managing+Dynamic+Mixed+Workloads%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-1022.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-KrompassKWWDK,
 	author        = "<a href="person/Stefan_Krompass.html">Stefan Krompass</a> and <a href="person/Harumi_A_Kuno.html">Harumi A. Kuno</a> and <a href="person/Janet_L_Wiener.html">Janet L. Wiener</a> and <a href="person/Kevin_Wilkinson.html">Kevin Wilkinson</a> and <a href="person/Umeshwar_Dayal.html">Umeshwar Dayal</a> and <a href="person/Alfons_Kemper.html">Alfons Kemper</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-1022.pdf">http://www.vldb.org/pvldb/2/vldb09-1022.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1562--1565",
 	title         = "{A Testbed for Managing Dynamic Mixed Workloads}",

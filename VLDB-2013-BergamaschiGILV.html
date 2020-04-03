@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22QUEST:+A+Keyword+Search+System+for+Relational+Data+based+on+Semantic+and+Machine+Learning+Techniques%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1222-guerra.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-BergamaschiGILV,
 	author        = "<a href="person/Sonia_Bergamaschi.html">Sonia Bergamaschi</a> and <a href="person/Francesco_Guerra.html">Francesco Guerra</a> and <a href="person/Matteo_Interlandi.html">Matteo Interlandi</a> and <a href="person/Raquel_Trillo_Lado.html">Raquel Trillo Lado</a> and <a href="person/Yannis_Velegrakis.html">Yannis Velegrakis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1222-guerra.pdf">http://www.vldb.org/pvldb/vol6/p1222-guerra.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1222--1225",
 	title         = "{QUEST: A Keyword Search System for Relational Data based on Semantic and Machine Learning Techniques}",

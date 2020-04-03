@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22EFQ:+Why-Not+Answer+Polynomials+in+Action%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1980-tzompanaki.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-BidoitHT,
 	author        = "<a href="person/Nicole_Bidoit.html">Nicole Bidoit</a> and <a href="person/Melanie_Herschel.html">Melanie Herschel</a> and <a href="person/Katerina_Tzompanaki.html">Katerina Tzompanaki</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1980-tzompanaki.pdf">http://www.vldb.org/pvldb/vol8/p1980-tzompanaki.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1980--1991",
 	title         = "{EFQ: Why-Not Answer Polynomials in Action}",

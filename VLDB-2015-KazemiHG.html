@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Growing+a+Graph+Matching+from+a+Handful+of+Seeds%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1010-kazemi.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-KazemiHG,
 	author        = "<a href="person/Ehsan_Kazemi.html">Ehsan Kazemi</a> and <a href="person/Seyed_Hamed_Hassani.html">Seyed Hamed Hassani</a> and <a href="person/Matthias_Grossglauser.html">Matthias Grossglauser</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1010-kazemi.pdf">http://www.vldb.org/pvldb/vol8/p1010-kazemi.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "1010--1021",
 	title         = "{Growing a Graph Matching from a Handful of Seeds}",

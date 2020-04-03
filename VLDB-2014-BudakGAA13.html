@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22GeoScope:+Online+Detection+of+Geo-Correlated+Information+Trends+in+Social+Networks%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p229-budak.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-BudakGAA13,
 	author        = "<a href="person/Ceren_Budak.html">Ceren Budak</a> and <a href="person/Theodore_Georgiou.html">Theodore Georgiou</a> and <a href="person/Divyakant_Agrawal.html">Divyakant Agrawal</a> and <a href="person/Amr_El_Abbadi.html">Amr El Abbadi</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p229-budak.pdf">http://www.vldb.org/pvldb/vol7/p229-budak.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "229--240",
 	title         = "{GeoScope: Online Detection of Geo-Correlated Information Trends in Social Networks}",

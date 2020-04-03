@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PhotoStand:+A+Map+Query+Interface+for+a+Database+of+News+Photos%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1350-samet.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-SametAFLS,
 	author        = "<a href="person/Hanan_Samet.html">Hanan Samet</a> and <a href="person/Marco_D_Adelfio.html">Marco D. Adelfio</a> and <a href="person/Brendan_C_Fruin.html">Brendan C. Fruin</a> and <a href="person/Michael_D_Lieberman.html">Michael D. Lieberman</a> and <a href="person/Jagan_Sankaranarayanan.html">Jagan Sankaranarayanan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1350-samet.pdf">http://www.vldb.org/pvldb/vol6/p1350-samet.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1350--1353",
 	title         = "{PhotoStand: A Map Query Interface for a Database of News Photos}",

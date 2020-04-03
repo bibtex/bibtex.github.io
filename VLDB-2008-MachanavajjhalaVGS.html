@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+ranked+publish/subscribe%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453906.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-MachanavajjhalaVGS,
 	author        = "<a href="person/Ashwin_Machanavajjhala.html">Ashwin Machanavajjhala</a> and <a href="person/Erik_Vee.html">Erik Vee</a> and <a href="person/Minos_N_Garofalakis.html">Minos N. Garofalakis</a> and <a href="person/Jayavel_Shanmugasundaram.html">Jayavel Shanmugasundaram</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453906.pdf">http://www.vldb.org/pvldb/1/1453906.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "451--462",
 	title         = "{Scalable ranked publish/subscribe}",

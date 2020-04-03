@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Towards+a+streaming+SQL+standard%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454179.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-JainMSGWBCCTZ,
 	author        = "<a href="person/Namit_Jain.html">Namit Jain</a> and <a href="person/Shailendra_Mishra.html">Shailendra Mishra</a> and <a href="person/Anand_Srinivasan.html">Anand Srinivasan</a> and <a href="person/Johannes_Gehrke.html">Johannes Gehrke</a> and <a href="person/Jennifer_Widom.html">Jennifer Widom</a> and <a href="person/Hari_Balakrishnan.html">Hari Balakrishnan</a> and <a href="person/Ugur_Cetintemel.html">Ugur Çetintemel</a> and <a href="person/Mitch_Cherniack.html">Mitch Cherniack</a> and <a href="person/Richard_Tibbetts.html">Richard Tibbetts</a> and <a href="person/Stanley_B_Zdonik.html">Stanley B. Zdonik</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454179.pdf">http://www.vldb.org/pvldb/1/1454179.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1379--1390",
 	title         = "{Towards a streaming SQL standard}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Simulating+Dynamic+Systems+Using+Linear+Time+Calculus+Theories%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068414000155">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2014-BogaertsJBCVD,
 	author        = "<a href="person/Bart_Bogaerts.html">Bart Bogaerts</a> and <a href="person/Joachim_Jansen.html">Joachim Jansen</a> and <a href="person/Maurice_Bruynooghe.html">Maurice Bruynooghe</a> and <a href="person/Broes_de_Cat.html">Broes de Cat</a> and <a href="person/Joost_Vennekens.html">Joost Vennekens</a> and <a href="person/Marc_Denecker.html">Marc Denecker</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068414000155">10.1017/S1471068414000155</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "477--492",
 	title         = "{Simulating Dynamic Systems Using Linear Time Calculus Theories}",

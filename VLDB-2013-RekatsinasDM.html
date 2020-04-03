@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+SPARSI:+Partitioning+Sensitive+Data+amongst+Multiple+Adversaries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1594-rekatsinas.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-RekatsinasDM,
 	author        = "<a href="person/Theodoros_Rekatsinas.html">Theodoros Rekatsinas</a> and <a href="person/Amol_Deshpande.html">Amol Deshpande</a> and <a href="person/Ashwin_Machanavajjhala.html">Ashwin Machanavajjhala</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1594-rekatsinas.pdf">http://www.vldb.org/pvldb/vol6/p1594-rekatsinas.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1594--1605",
 	title         = "{A SPARSI: Partitioning Sensitive Data amongst Multiple Adversaries}",

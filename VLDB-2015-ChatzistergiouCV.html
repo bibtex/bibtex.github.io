@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22REWIND:+Recovery+Write-Ahead+System+for+In-Memory+Non-Volatile+Data-Structures%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p497-chatzistergiou.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ChatzistergiouCV,
 	author        = "<a href="person/Andreas_Chatzistergiou.html">Andreas Chatzistergiou</a> and <a href="person/Marcelo_Cintra.html">Marcelo Cintra</a> and <a href="person/Stratis_D_Viglas.html">Stratis D. Viglas</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p497-chatzistergiou.pdf">http://www.vldb.org/pvldb/vol8/p497-chatzistergiou.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "497--508",
 	title         = "{REWIND: Recovery Write-Ahead System for In-Memory Non-Volatile Data-Structures}",

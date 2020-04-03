@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Serializable+Snapshot+Isolation+for+Replicated+Databases+in+High-Update+Scenarios%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p783-jung.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-JungHFR,
 	author        = "<a href="person/Hyungsoo_Jung.html">Hyungsoo Jung</a> and <a href="person/Hyuck_Han.html">Hyuck Han</a> and <a href="person/Alan_Fekete.html">Alan Fekete</a> and <a href="person/Uwe_Roehm.html">Uwe Röhm</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p783-jung.pdf">http://www.vldb.org/pvldb/vol4/p783-jung.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "783--794",
 	title         = "{Serializable Snapshot Isolation for Replicated Databases in High-Update Scenarios}",

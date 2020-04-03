@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Distributed+Graph+Simulation:+Impossibility+and+Possibility%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1083-fan.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-FanWWD,
 	author        = "<a href="person/Wenfei_Fan.html">Wenfei Fan</a> and <a href="person/Xin_Wang.html">Xin Wang</a> and <a href="person/Yinghui_Wu.html">Yinghui Wu</a> and <a href="person/Dong_Deng.html">Dong Deng</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1083-fan.pdf">http://www.vldb.org/pvldb/vol7/p1083-fan.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1083--1094",
 	title         = "{Distributed Graph Simulation: Impossibility and Possibility}",

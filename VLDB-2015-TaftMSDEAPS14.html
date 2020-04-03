@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22E-Store:+Fine-Grained+Elastic+Partitioning+for+Distributed+Transaction+Processing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p245-taft.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-TaftMSDEAPS14,
 	author        = "<a href="person/Rebecca_Taft.html">Rebecca Taft</a> and <a href="person/Essam_Mansour.html">Essam Mansour</a> and <a href="person/Marco_Serafini.html">Marco Serafini</a> and <a href="person/Jennie_Duggan.html">Jennie Duggan</a> and <a href="person/Aaron_J_Elmore.html">Aaron J. Elmore</a> and <a href="person/Ashraf_Aboulnaga.html">Ashraf Aboulnaga</a> and <a href="person/Andrew_Pavlo.html">Andrew Pavlo</a> and <a href="person/Michael_Stonebraker.html">Michael Stonebraker</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p245-taft.pdf">http://www.vldb.org/pvldb/vol8/p245-taft.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "245--256",
 	title         = "{E-Store: Fine-Grained Elastic Partitioning for Distributed Transaction Processing}",

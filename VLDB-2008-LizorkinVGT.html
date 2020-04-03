@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Accuracy+estimate+and+optimization+techniques+for+SimRank+computation%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453904.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-LizorkinVGT,
 	author        = "<a href="person/Dmitry_Lizorkin.html">Dmitry Lizorkin</a> and <a href="person/Pavel_Velikhov.html">Pavel Velikhov</a> and <a href="person/Maxim_N_Grinev.html">Maxim N. Grinev</a> and <a href="person/Denis_Turdakov.html">Denis Turdakov</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453904.pdf">http://www.vldb.org/pvldb/1/1453904.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "422--433",
 	title         = "{Accuracy estimate and optimization techniques for SimRank computation}",

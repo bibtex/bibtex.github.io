@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Join+Size+Estimation+Subject+to+Filter+Conditions%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1530-vengerov.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-VengerovMZC,
 	author        = "<a href="person/David_Vengerov.html">David Vengerov</a> and <a href="person/Andre_Cavalheiro_Menck.html">Andre Cavalheiro Menck</a> and <a href="person/Mohamed_Zait.html">Mohamed Zaït</a> and <a href="person/Sunil_Chakkappen.html">Sunil Chakkappen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1530-vengerov.pdf">http://www.vldb.org/pvldb/vol8/p1530-vengerov.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1530--1541",
 	title         = "{Join Size Estimation Subject to Filter Conditions}",

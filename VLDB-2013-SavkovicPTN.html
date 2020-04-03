@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Complete+Approximations+of+Incomplete+Queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1378-savkovic.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-SavkovicPTN,
 	author        = "<a href="person/Ognjen_Savkovic.html">Ognjen Savkovic</a> and <a href="person/Paramita_Mirza.html">Paramita Mirza</a> and <a href="person/Alex_Tomasi.html">Alex Tomasi</a> and <a href="person/Werner_Nutt.html">Werner Nutt</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1378-savkovic.pdf">http://www.vldb.org/pvldb/vol6/p1378-savkovic.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1378--1381",
 	title         = "{Complete Approximations of Incomplete Queries}",

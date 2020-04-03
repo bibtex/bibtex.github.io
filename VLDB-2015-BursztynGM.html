@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Reformulation-based+query+answering+in+RDF:+alternatives+and+performance%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1888-bursztyn.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-BursztynGM,
 	author        = "<a href="person/Damian_Bursztyn.html">Damian Bursztyn</a> and <a href="person/Francois_Goasdoue.html">François Goasdoué</a> and <a href="person/Ioana_Manolescu.html">Ioana Manolescu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1888-bursztyn.pdf">http://www.vldb.org/pvldb/vol8/p1888-bursztyn.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1888--1899",
 	title         = "{Reformulation-based query answering in RDF: alternatives and performance}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Playful+Query+Specification+with+DataPlay%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1938_azzaabouzied_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-AbouziedHS,
 	author        = "<a href="person/Azza_Abouzied.html">Azza Abouzied</a> and <a href="person/Joseph_M_Hellerstein.html">Joseph M. Hellerstein</a> and <a href="person/Avi_Silberschatz.html">Avi Silberschatz</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1938_azzaabouzied_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1938_azzaabouzied_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1938--1941",
 	title         = "{Playful Query Specification with DataPlay}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Hexastore:+sextuple+indexing+for+semantic+web+data+management%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453965.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-WeissKB,
 	author        = "<a href="person/Cathrin_Weiss.html">Cathrin Weiß</a> and <a href="person/Panagiotis_Karras.html">Panagiotis Karras</a> and <a href="person/Abraham_Bernstein.html">Abraham Bernstein</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453965.pdf">http://www.vldb.org/pvldb/1/1453965.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1008--1019",
 	title         = "{Hexastore: sextuple indexing for semantic web data management}",

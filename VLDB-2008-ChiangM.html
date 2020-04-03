@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Discovering+data+quality+rules%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453980.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-ChiangM,
 	author        = "<a href="person/Fei_Chiang.html">Fei Chiang</a> and <a href="person/Renee_J_Miller.html">Renée J. Miller</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453980.pdf">http://www.vldb.org/pvldb/1/1453980.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1166--1177",
 	title         = "{Discovering data quality rules}",

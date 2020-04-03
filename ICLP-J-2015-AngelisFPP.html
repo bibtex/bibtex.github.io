@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Proving+correctness+of+imperative+programs+by+linearizing+constrained+Horn+clauses%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000289">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-AngelisFPP,
 	author        = "<a href="person/Emanuele_De_Angelis.html">Emanuele De Angelis</a> and <a href="person/Fabio_Fioravanti.html">Fabio Fioravanti</a> and <a href="person/Alberto_Pettorossi.html">Alberto Pettorossi</a> and <a href="person/Maurizio_Proietti.html">Maurizio Proietti</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000289">10.1017/S1471068415000289</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "635--650",
 	title         = "{Proving correctness of imperative programs by linearizing constrained Horn clauses}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Database-support+for+Continuous+Prediction+Queries+over+Streaming+Data%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R114.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-AkdereCU,
 	author        = "<a href="person/Mert_Akdere.html">Mert Akdere</a> and <a href="person/Ugur_Cetintemel.html">Ugur Çetintemel</a> and <a href="person/Eli_Upfal.html">Eli Upfal</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R114.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R114.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1291--1301",
 	title         = "{Database-support for Continuous Prediction Queries over Streaming Data}",

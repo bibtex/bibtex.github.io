@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Argonaut:+Macrotask+Crowdsourcing+for+Complex+Data+Processing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1642-haas.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-HaasAGM,
 	author        = "<a href="person/Daniel_Haas.html">Daniel Haas</a> and <a href="person/Jason_Ansel.html">Jason Ansel</a> and <a href="person/Lydia_Gu.html">Lydia Gu</a> and <a href="person/Adam_Marcus.html">Adam Marcus</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1642-haas.pdf">http://www.vldb.org/pvldb/vol8/p1642-haas.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1642--1653",
 	title         = "{Argonaut: Macrotask Crowdsourcing for Complex Data Processing}",

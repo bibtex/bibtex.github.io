@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Simrank++:+query+rewriting+through+link+analysis+of+the+click+graph%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453903.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-AntonellisGC,
 	author        = "<a href="person/Ioannis_Antonellis.html">Ioannis Antonellis</a> and <a href="person/Hector_Garcia-Molina.html">Hector Garcia-Molina</a> and <a href="person/Chi-Chao_Chang.html">Chi-Chao Chang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453903.pdf">http://www.vldb.org/pvldb/1/1453903.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "408--421",
 	title         = "{Simrank++: query rewriting through link analysis of the click graph}",

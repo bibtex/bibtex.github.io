@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Workload+Driven+Index+Defragmentation%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1407-narasayya.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-NarasayyaPS,
 	author        = "<a href="person/Vivek_R_Narasayya.html">Vivek R. Narasayya</a> and <a href="person/Hyunjung_Park.html">Hyunjung Park</a> and <a href="person/Manoj_Syamala.html">Manoj Syamala</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1407-narasayya.pdf">http://www.vldb.org/pvldb/vol4/p1407-narasayya.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1407--1409",
 	title         = "{Automatic Workload Driven Index Defragmentation}",

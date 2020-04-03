@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+Topical+Phrase+Mining+from+Text+Corpora%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p305-ElKishky.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-El-KishkySWVH14,
 	author        = "<a href="person/Ahmed_El-Kishky.html">Ahmed El-Kishky</a> and <a href="person/Yanglei_Song.html">Yanglei Song</a> and <a href="person/Chi_Wang.html">Chi Wang</a> and <a href="person/Clare_R_Voss.html">Clare R. Voss</a> and <a href="person/Jiawei_Han.html">Jiawei Han</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p305-ElKishky.pdf">http://www.vldb.org/pvldb/vol8/p305-ElKishky.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "305--316",
 	title         = "{Scalable Topical Phrase Mining from Text Corpora}",

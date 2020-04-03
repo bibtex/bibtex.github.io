@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Language+Evolution,+Metasyntactically%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/708">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{BX-2012-Zaytsev,
 	author        = "<a href="person/Vadim_Zaytsev.html">Vadim Zaytsev</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/708">http://journal.ub.tu-berlin.de/eceasst/article/view/708</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "38--54",
 	title         = "{Language Evolution, Metasyntactically}",
 	volume        = 49,

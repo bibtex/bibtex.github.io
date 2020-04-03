@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Explore+or+Exploit?+Effective+Strategies+for+Disambiguating+Large+Databases%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R73.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-ChengLYLLX,
 	author        = "<a href="person/Reynold_Cheng.html">Reynold Cheng</a> and <a href="person/Eric_Lo.html">Eric Lo</a> and <a href="person/Xuan_S_Yang.html">Xuan S. Yang</a> and <a href="person/Ming-Hay_Luk.html">Ming-Hay Luk</a> and <a href="person/Xiang_Li.html">Xiang Li</a> and <a href="person/Xike_Xie.html">Xike Xie</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R73.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R73.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "815--825",
 	title         = "{Explore or Exploit? Effective Strategies for Disambiguating Large Databases}",

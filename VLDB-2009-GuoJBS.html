@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Declarative+Database+Management+in+SQLServer%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-435.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-GuoJBS,
 	author        = "<a href="person/Hongfei_Guo.html">Hongfei Guo</a> and <a href="person/Dan_Jones.html">Dan Jones</a> and <a href="person/Jennifer_L_Beckmann.html">Jennifer L. Beckmann</a> and <a href="person/Praveen_Seshadri.html">Praveen Seshadri</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-435.pdf">http://www.vldb.org/pvldb/2/vldb09-435.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1294--1305",
 	title         = "{Declarative Database Management in SQLServer}",

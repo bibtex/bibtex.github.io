@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Fast+Updates+on+Read-Optimized+Databases+Using+Multi-Core+CPUs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol5/p061_jenskrueger_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-KruegerKGSSCPDZ11,
 	author        = "<a href="person/Jens_Krueger.html">Jens Krüger</a> and <a href="person/Changkyu_Kim.html">Changkyu Kim</a> and <a href="person/Martin_Grund.html">Martin Grund</a> and <a href="person/Nadathur_Satish.html">Nadathur Satish</a> and <a href="person/David_Schwalb.html">David Schwalb</a> and <a href="person/Jatin_Chhugani.html">Jatin Chhugani</a> and <a href="person/Hasso_Plattner.html">Hasso Plattner</a> and <a href="person/Pradeep_Dubey.html">Pradeep Dubey</a> and <a href="person/Alexander_Zeier.html">Alexander Zeier</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol5/p061_jenskrueger_vldb2012.pdf">http://www.vldb.org/pvldb/vol5/p061_jenskrueger_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "61--72",
 	title         = "{Fast Updates on Read-Optimized Databases Using Multi-Core CPUs}",

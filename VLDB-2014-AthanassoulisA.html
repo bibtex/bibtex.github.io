@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22BF-Tree:+Approximate+Tree+Indexing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1881-athanassoulis.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-AthanassoulisA,
 	author        = "<a href="person/Manos_Athanassoulis.html">Manos Athanassoulis</a> and <a href="person/Anastasia_Ailamaki.html">Anastasia Ailamaki</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1881-athanassoulis.pdf">http://www.vldb.org/pvldb/vol7/p1881-athanassoulis.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1881--1892",
 	title         = "{BF-Tree: Approximate Tree Indexing}",

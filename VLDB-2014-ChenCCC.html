@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SOPS:+A+System+for+Efficient+Processing+of+Spatial-Keyword+Publish/Subscribe%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1601-chen.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ChenCCC,
 	author        = "<a href="person/Lisi_Chen.html">Lisi Chen</a> and <a href="person/Yan_Cui.html">Yan Cui</a> and <a href="person/Gao_Cong.html">Gao Cong</a> and <a href="person/Xin_Cao.html">Xin Cao</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1601-chen.pdf">http://www.vldb.org/pvldb/vol7/p1601-chen.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1601--1604",
 	title         = "{SOPS: A System for Efficient Processing of Spatial-Keyword Publish/Subscribe}",

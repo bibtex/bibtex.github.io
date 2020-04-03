@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Low-Latency+Multi-Datacenter+Databases+using+Replicated+Commit%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-MahmoudNPAA,
 	author        = "<a href="person/Hatem_A_Mahmoud.html">Hatem A. Mahmoud</a> and <a href="person/Faisal_Nawab.html">Faisal Nawab</a> and <a href="person/Alexander_Pucher.html">Alexander Pucher</a> and <a href="person/Divyakant_Agrawal.html">Divyakant Agrawal</a> and <a href="person/Amr_El_Abbadi.html">Amr El Abbadi</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf">http://www.vldb.org/pvldb/vol6/p661-mahmoud.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "661--672",
 	title         = "{Low-Latency Multi-Datacenter Databases using Replicated Commit}",

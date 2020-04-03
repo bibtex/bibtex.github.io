@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Tutorial:+SQL-on-Hadoop+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2050-fatma.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-AbadiBOP,
 	author        = "<a href="person/Daniel_Abadi.html">Daniel Abadi</a> and <a href="person/Shivnath_Babu.html">Shivnath Babu</a> and <a href="person/Fatma_Oezcan.html">Fatma Özcan</a> and <a href="person/Ippokratis_Pandis.html">Ippokratis Pandis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2050-fatma.pdf">http://www.vldb.org/pvldb/vol8/p2050-fatma.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2050--2061",
 	title         = "{Tutorial: SQL-on-Hadoop Systems}",

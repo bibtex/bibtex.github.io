@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+User+Preferences+By+Adaptive+Pairwise+Comparison%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1322-qian.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-QianGJ,
 	author        = "<a href="person/Li_Qian.html">Li Qian</a> and <a href="person/Jinyang_Gao.html">Jinyang Gao</a> and <a href="person/H_V_Jagadish.html">H. V. Jagadish</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1322-qian.pdf">http://www.vldb.org/pvldb/vol8/p1322-qian.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1322--1333",
 	title         = "{Learning User Preferences By Adaptive Pairwise Comparison}",

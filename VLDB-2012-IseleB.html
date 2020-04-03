@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+Expressive+Linkage+Rules+using+Genetic+Programming%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1638_robertisele_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-IseleB,
 	author        = "<a href="person/Robert_Isele.html">Robert Isele</a> and <a href="person/Christian_Bizer.html">Christian Bizer</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1638_robertisele_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1638_robertisele_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1638--1649",
 	title         = "{Learning Expressive Linkage Rules using Genetic Programming}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Streaming+Algorithms+for+k-core+Decomposition%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p433-sariyuce.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-SariyuceGJWC,
 	author        = "<a href="person/Ahmet_Erdem_Sariyuece.html">Ahmet Erdem Sariyüce</a> and <a href="person/Bugra_Gedik.html">Bugra Gedik</a> and <a href="person/Gabriela_Jacques-Silva.html">Gabriela Jacques-Silva</a> and <a href="person/Kun-Lung_Wu.html">Kun-Lung Wu</a> and <a href="person/Uemit_V_Catalyuerek.html">Ümit V. Çatalyürek</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p433-sariyuce.pdf">http://www.vldb.org/pvldb/vol6/p433-sariyuce.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "433--444",
 	title         = "{Streaming Algorithms for k-core Decomposition}",

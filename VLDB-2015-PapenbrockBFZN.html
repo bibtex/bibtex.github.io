@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Data+Profiling+with+Metanome%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1860-papenbrock.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-PapenbrockBFZN,
 	author        = "<a href="person/Thorsten_Papenbrock.html">Thorsten Papenbrock</a> and <a href="person/Tanja_Bergmann.html">Tanja Bergmann</a> and <a href="person/Moritz_Finke.html">Moritz Finke</a> and <a href="person/Jakob_Zwiener.html">Jakob Zwiener</a> and <a href="person/Felix_Naumann.html">Felix Naumann</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1860-papenbrock.pdf">http://www.vldb.org/pvldb/vol8/p1860-papenbrock.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1860--1871",
 	title         = "{Data Profiling with Metanome}",

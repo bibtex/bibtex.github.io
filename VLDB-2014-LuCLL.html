@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Show+Me+the+Money:+Dynamic+Recommendations+for+Revenue+Maximization%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1785-lu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LuCLL,
 	author        = "<a href="person/Wei_Lu.html">Wei Lu</a> and <a href="person/Shanshan_Chen.html">Shanshan Chen</a> and <a href="person/Keqian_Li.html">Keqian Li</a> and <a href="person/Laks_V_S_Lakshmanan.html">Laks V. S. Lakshmanan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1785-lu.pdf">http://www.vldb.org/pvldb/vol7/p1785-lu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1785--1796",
 	title         = "{Show Me the Money: Dynamic Recommendations for Revenue Maximization}",

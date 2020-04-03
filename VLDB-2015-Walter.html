@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Big+Plateaus+of+Big+Data+on+the+Big+Island%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2057-todd.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-Walter,
 	author        = "<a href="person/Todd_Walter.html">Todd Walter</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2057-todd.pdf">http://www.vldb.org/pvldb/vol8/p2057-todd.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2057--2068",
 	title         = "{Big Plateaus of Big Data on the Big Island}",

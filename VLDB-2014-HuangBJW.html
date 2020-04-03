@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Large+Scale+Real-time+Ridesharing+with+Service+Guarantee+on+Road+Networks%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p2017-huang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-HuangBJW,
 	author        = "<a href="person/Yan_Huang.html">Yan Huang</a> and <a href="person/Favyen_Bastani.html">Favyen Bastani</a> and <a href="person/Ruoming_Jin.html">Ruoming Jin</a> and <a href="person/Xiaoyang_Sean_Wang.html">Xiaoyang Sean Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p2017-huang.pdf">http://www.vldb.org/pvldb/vol7/p2017-huang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "2017--2028",
 	title         = "{Large Scale Real-time Ridesharing with Service Guarantee on Road Networks}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22An+infinitary+encoding+of+temporal+equilibrium+logic%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000307">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-CabalarDV,
 	author        = "<a href="person/Pedro_Cabalar.html">Pedro Cabalar</a> and <a href="person/Martin_Dieguez.html">Martín Diéguez</a> and <a href="person/Concepcion_Vidal.html">Concepción Vidal</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000307">10.1017/S1471068415000307</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "666--680",
 	title         = "{An infinitary encoding of temporal equilibrium logic}",

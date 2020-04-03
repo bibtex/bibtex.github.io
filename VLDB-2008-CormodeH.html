@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Finding+frequent+items+in+data+streams%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454225.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-CormodeH,
 	author        = "<a href="person/Graham_Cormode.html">Graham Cormode</a> and <a href="person/Marios_Hadjieleftheriou.html">Marios Hadjieleftheriou</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454225.pdf">http://www.vldb.org/pvldb/1/1454225.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1530--1541",
 	title         = "{Finding frequent items in data streams}",

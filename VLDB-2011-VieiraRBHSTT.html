@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DivDB:+A+System+for+Diversifying+Query+Results%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1395-vieira.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-VieiraRBHSTT,
 	author        = "<a href="person/Marcos_R_Vieira.html">Marcos R. Vieira</a> and <a href="person/Humberto_Luiz_Razente.html">Humberto Luiz Razente</a> and <a href="person/Maria_Camila_Nardini_Barioni.html">Maria Camila Nardini Barioni</a> and <a href="person/Marios_Hadjieleftheriou.html">Marios Hadjieleftheriou</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a> and <a href="person/Caetano_Traina_Jr.html">Caetano Traina Jr.</a> and <a href="person/Vassilis_J_Tsotras.html">Vassilis J. Tsotras</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1395-vieira.pdf">http://www.vldb.org/pvldb/vol4/p1395-vieira.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1395--1398",
 	title         = "{DivDB: A System for Diversifying Query Results}",

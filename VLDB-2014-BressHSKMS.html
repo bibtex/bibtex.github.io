@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Ocelot/HyPE:+Optimized+Data+Processing+on+Heterogeneous+Hardware%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1609-bress.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-BressHSKMS,
 	author        = "<a href="person/Sebastian_Bress.html">Sebastian Breß</a> and <a href="person/Max_Heimel.html">Max Heimel</a> and <a href="person/Michael_Saecker.html">Michael Saecker</a> and <a href="person/Bastian_Kocher.html">Bastian Kocher</a> and <a href="person/Volker_Markl.html">Volker Markl</a> and <a href="person/Gunter_Saake.html">Gunter Saake</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1609-bress.pdf">http://www.vldb.org/pvldb/vol7/p1609-bress.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1609--1612",
 	title         = "{Ocelot/HyPE: Optimized Data Processing on Heterogeneous Hardware}",

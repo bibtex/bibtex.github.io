@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22MRTuner:+A+Toolkit+to+Enable+Holistic+Optimization+for+MapReduce+Jobs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1319-shi.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ShiZLCLW,
 	author        = "<a href="person/Juwei_Shi.html">Juwei Shi</a> and <a href="person/Jia_Zou.html">Jia Zou</a> and <a href="person/Jiaheng_Lu.html">Jiaheng Lu</a> and <a href="person/Zhao_Cao.html">Zhao Cao</a> and <a href="person/Shiqiang_Li.html">Shiqiang Li</a> and <a href="person/Chen_Wang.html">Chen Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1319-shi.pdf">http://www.vldb.org/pvldb/vol7/p1319-shi.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1319--1330",
 	title         = "{MRTuner: A Toolkit to Enable Holistic Optimization for MapReduce Jobs}",

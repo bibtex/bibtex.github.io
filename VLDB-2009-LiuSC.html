@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Structured+Search+Result+Differentiation%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-500.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-LiuSC,
 	author        = "<a href="person/Ziyang_Liu.html">Ziyang Liu</a> and <a href="person/Peng_Sun.html">Peng Sun</a> and <a href="person/Yi_Chen.html">Yi Chen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-500.pdf">http://www.vldb.org/pvldb/2/vldb09-500.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "313--324",
 	title         = "{Structured Search Result Differentiation}",

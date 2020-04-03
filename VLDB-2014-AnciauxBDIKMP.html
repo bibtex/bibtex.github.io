@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Folk-IS:+Opportunistic+Data+Services+in+Least+Developed+Countries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-AnciauxBDIKMP,
 	author        = "<a href="person/Nicolas_Anciaux.html">Nicolas Anciaux</a> and <a href="person/Luc_Bouganim.html">Luc Bouganim</a> and <a href="person/Thierry_Delot.html">Thierry Delot</a> and <a href="person/Sergio_Ilarri.html">Sergio Ilarri</a> and <a href="person/Leila_Kloul.html">Leïla Kloul</a> and <a href="person/Nathalie_Mitton.html">Nathalie Mitton</a> and <a href="person/Philippe_Pucheral.html">Philippe Pucheral</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf">http://www.vldb.org/pvldb/vol7/p425-anciaux.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "425--428",
 	title         = "{Folk-IS: Opportunistic Data Services in Least Developed Countries}",

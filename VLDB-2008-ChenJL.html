@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+benchmark+for+evaluating+moving+object+indexes%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454229.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-ChenJL,
 	author        = "<a href="person/Su_Chen.html">Su Chen</a> and <a href="person/Christian_S_Jensen.html">Christian S. Jensen</a> and <a href="person/Dan_Lin.html">Dan Lin</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454229.pdf">http://www.vldb.org/pvldb/1/1454229.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1574--1585",
 	title         = "{A benchmark for evaluating moving object indexes}",

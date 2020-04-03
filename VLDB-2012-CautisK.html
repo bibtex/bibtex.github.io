@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Answering+Queries+using+Views+over+Probabilistic+XML:+Complexity+and+Tractability%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1148_bogdancautis_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-CautisK,
 	author        = "<a href="person/Bogdan_Cautis.html">Bogdan Cautis</a> and <a href="person/Evgeny_Kharlamov.html">Evgeny Kharlamov</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1148_bogdancautis_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1148_bogdancautis_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1148--1159",
 	title         = "{Answering Queries using Views over Probabilistic XML: Complexity and Tractability}",

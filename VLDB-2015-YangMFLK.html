@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lenses:+An+On-Demand+Approach+to+ETL%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1578-yang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-YangMFLK,
 	author        = "<a href="person/Ying_Yang.html">Ying Yang</a> and <a href="person/Niccolo_Meneghetti.html">Niccolo' Meneghetti</a> and <a href="person/Ronny_Fehling.html">Ronny Fehling</a> and <a href="person/Zhen_Hua_Liu.html">Zhen Hua Liu</a> and <a href="person/Oliver_Kennedy.html">Oliver Kennedy</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1578-yang.pdf">http://www.vldb.org/pvldb/vol8/p1578-yang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1578--1589",
 	title         = "{Lenses: An On-Demand Approach to ETL}",

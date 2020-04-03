@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+multi-query+optimization+for+exploratory+queries+over+federated+scientific+databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453864.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-KementsietsidisNCV,
 	author        = "<a href="person/Anastasios_Kementsietsidis.html">Anastasios Kementsietsidis</a> and <a href="person/Frank_Neven.html">Frank Neven</a> and <a href="person/Dieter_Van_de_Craen.html">Dieter Van de Craen</a> and <a href="person/Stijn_Vansummeren.html">Stijn Vansummeren</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453864.pdf">http://www.vldb.org/pvldb/1/1453864.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "16--27",
 	title         = "{Scalable multi-query optimization for exploratory queries over federated scientific databases}",

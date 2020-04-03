@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Realtime+Analysis+of+Information+Diffusion+in+Social+Media%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1416-taxidou.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-Taxidou,
 	author        = "<a href="person/Io_Taxidou.html">Io Taxidou</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1416-taxidou.pdf">http://www.vldb.org/pvldb/vol6/p1416-taxidou.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1416--1421",
 	title         = "{Realtime Analysis of Information Diffusion in Social Media}",

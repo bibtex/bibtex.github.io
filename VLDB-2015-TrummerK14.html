@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Multi-Objective+Parametric+Query+Optimization%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p221-trummer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-TrummerK14,
 	author        = "<a href="person/Immanuel_Trummer.html">Immanuel Trummer</a> and <a href="person/Christoph_Koch.html">Christoph Koch</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p221-trummer.pdf">http://www.vldb.org/pvldb/vol8/p221-trummer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "221--232",
 	title         = "{Multi-Objective Parametric Query Optimization}",

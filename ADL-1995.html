@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Digital+Libraries,+Research+and+Technology+Advances,+ADL+'95+Forum,+McLean,+Virginia,+USA,+May+15-17,+1995,+Selected+Papers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers':'ADL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers':'ADL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ADL-1995,
 	editor        = "<a href="person/Nabil_R_Adam.html">Nabil R. Adam</a> and <a href="person/Bharat_K_Bhargava.html">Bharat K. Bhargava</a> and <a href="person/Milton_Halem.html">Milton Halem</a> and <a href="person/Yelena_Yesha.html">Yelena Yesha</a>",
 <span id="isbn">	isbn          = "3-540-61410-9",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers</span>}",
 	volume        = 1082,
 	year          = 1996,

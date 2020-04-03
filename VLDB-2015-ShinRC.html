@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Mindtagger:+A+Demonstration+of+Data+Labeling+in+Knowledge+Base+Construction%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1920-shin.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ShinRC,
 	author        = "<a href="person/Jaeho_Shin.html">Jaeho Shin</a> and <a href="person/Christopher_Re.html">Christopher Ré</a> and <a href="person/Michael_J_Cafarella.html">Michael J. Cafarella</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1920-shin.pdf">http://www.vldb.org/pvldb/vol8/p1920-shin.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1920--1931",
 	title         = "{Mindtagger: A Demonstration of Data Labeling in Knowledge Base Construction}",

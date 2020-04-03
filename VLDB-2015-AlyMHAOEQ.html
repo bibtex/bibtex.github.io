@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22AQWA:+Adaptive+Query-Workload-Aware+Partitioning+of+Big+Spatial+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2062-Aly.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-AlyMHAOEQ,
 	author        = "<a href="person/Ahmed_M_Aly.html">Ahmed M. Aly</a> and <a href="person/Ahmed_R_Mahmood.html">Ahmed R. Mahmood</a> and <a href="person/Mohamed_S_Hassan.html">Mohamed S. Hassan</a> and <a href="person/Walid_G_Aref.html">Walid G. Aref</a> and <a href="person/Mourad_Ouzzani.html">Mourad Ouzzani</a> and <a href="person/Hazem_Elmeleegy.html">Hazem Elmeleegy</a> and <a href="person/Thamir_Qadah.html">Thamir Qadah</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2062-Aly.pdf">http://www.vldb.org/pvldb/vol8/p2062-Aly.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2062--2073",
 	title         = "{AQWA: Adaptive Query-Workload-Aware Partitioning of Big Spatial Data}",

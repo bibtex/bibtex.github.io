@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DiAl:+Distributed+Streaming+Analytics+Anywhere,+Anytime%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1386-santos.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-SantosTCG,
 	author        = "<a href="person/Ivo_Santos.html">Ivo Santos</a> and <a href="person/Marcel_Tilly.html">Marcel Tilly</a> and <a href="person/Badrish_Chandramouli.html">Badrish Chandramouli</a> and <a href="person/Jonathan_Goldstein.html">Jonathan Goldstein</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1386-santos.pdf">http://www.vldb.org/pvldb/vol6/p1386-santos.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1386--1389",
 	title         = "{DiAl: Distributed Streaming Analytics Anywhere, Anytime}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+provenance+of+non-answers+to+queries+over+extracted+data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453936.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-HuangCDN,
 	author        = "<a href="person/Jiansheng_Huang.html">Jiansheng Huang</a> and <a href="person/Ting_Chen.html">Ting Chen</a> and <a href="person/AnHai_Doan.html">AnHai Doan</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453936.pdf">http://www.vldb.org/pvldb/1/1453936.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "736--747",
 	title         = "{On the provenance of non-answers to queries over extracted data}",

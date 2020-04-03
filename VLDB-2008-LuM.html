@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22AuditGuard:+a+system+for+database+auditing+under+retention+restrictions%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454207.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-LuM,
 	author        = "<a href="person/Wentian_Lu.html">Wentian Lu</a> and <a href="person/Gerome_Miklau.html">Gerome Miklau</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454207.pdf">http://www.vldb.org/pvldb/1/1454207.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1484--1487",
 	title         = "{AuditGuard: a system for database auditing under retention restrictions}",

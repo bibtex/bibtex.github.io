@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22ALAE:+Accelerating+Local+Alignment+with+Affine+Gap+Exactly+in+Biosequence+Databases%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1507_xiaochunyang_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-YangLW,
 	author        = "<a href="person/Xiaochun_Yang.html">Xiaochun Yang</a> and <a href="person/Honglei_Liu.html">Honglei Liu</a> and <a href="person/Bin_Wang.html">Bin Wang</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1507_xiaochunyang_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1507_xiaochunyang_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1507--1518",
 	title         = "{ALAE: Accelerating Local Alignment with Affine Gap Exactly in Biosequence Databases}",

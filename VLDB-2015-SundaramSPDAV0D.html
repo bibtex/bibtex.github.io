@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22GraphMat:+High+performance+graph+analytics+made+productive%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1214-sundaram.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SundaramSPDAV0D,
 	author        = "<a href="person/Narayanan_Sundaram.html">Narayanan Sundaram</a> and <a href="person/Nadathur_Satish.html">Nadathur Satish</a> and <a href="person/Md_Mostofa_Ali_Patwary.html">Md. Mostofa Ali Patwary</a> and <a href="person/Subramanya_Dulloor.html">Subramanya Dulloor</a> and <a href="person/Michael_J_Anderson.html">Michael J. Anderson</a> and <a href="person/Satya_Gautam_Vadlamudi.html">Satya Gautam Vadlamudi</a> and <a href="person/Dipankar_Das.html">Dipankar Das</a> and <a href="person/Pradeep_Dubey.html">Pradeep Dubey</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1214-sundaram.pdf">http://www.vldb.org/pvldb/vol8/p1214-sundaram.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1214--1225",
 	title         = "{GraphMat: High performance graph analytics made productive}",

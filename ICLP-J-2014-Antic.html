@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Cascade+Products+of+Answer+Set+Programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068414000301">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2014-Antic,
 	author        = "<a href="person/Christian_Antic.html">Christian Antic</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068414000301">10.1017/S1471068414000301</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "711--723",
 	title         = "{On Cascade Products of Answer Set Programs}",

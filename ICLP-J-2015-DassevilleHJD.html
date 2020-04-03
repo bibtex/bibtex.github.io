@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Semantics+of+templates+in+a+compositional+framework+for+building+logics%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000319">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-DassevilleHJD,
 	author        = "<a href="person/Ingmar_Dasseville.html">Ingmar Dasseville</a> and <a href="person/Matthias_van_der_Hallen.html">Matthias van der Hallen</a> and <a href="person/Gerda_Janssens.html">Gerda Janssens</a> and <a href="person/Marc_Denecker.html">Marc Denecker</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000319">10.1017/S1471068415000319</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "681--695",
 	title         = "{Semantics of templates in a compositional framework for building logics}",

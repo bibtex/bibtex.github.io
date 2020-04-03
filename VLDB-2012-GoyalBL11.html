@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Data-Based+Approach+to+Social+Influence+Maximization%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol5/p073_amitgoyal_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-GoyalBL11,
 	author        = "<a href="person/Amit_Goyal.html">Amit Goyal</a> and <a href="person/Francesco_Bonchi.html">Francesco Bonchi</a> and <a href="person/Laks_V_S_Lakshmanan.html">Laks V. S. Lakshmanan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol5/p073_amitgoyal_vldb2012.pdf">http://www.vldb.org/pvldb/vol5/p073_amitgoyal_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "73--84",
 	title         = "{A Data-Based Approach to Social Influence Maximization}",

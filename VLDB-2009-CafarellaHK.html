@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Data+Integration+for+the+Relational+Web%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-576.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-CafarellaHK,
 	author        = "<a href="person/Michael_J_Cafarella.html">Michael J. Cafarella</a> and <a href="person/Alon_Y_Halevy.html">Alon Y. Halevy</a> and <a href="person/Nodira_Khoussainova.html">Nodira Khoussainova</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-576.pdf">http://www.vldb.org/pvldb/2/vldb09-576.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1090--1101",
 	title         = "{Data Integration for the Relational Web}",

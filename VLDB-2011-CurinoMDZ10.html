@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Update+Rewriting+and+Integrity+Constraint+Maintenance+in+a+Schema+Evolution+Support+System:+PRISM++%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p117-curino.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-CurinoMDZ10,
 	author        = "<a href="person/Carlo_Curino.html">Carlo Curino</a> and <a href="person/Hyun_Jin_Moon.html">Hyun Jin Moon</a> and <a href="person/Alin_Deutsch.html">Alin Deutsch</a> and <a href="person/Carlo_Zaniolo.html">Carlo Zaniolo</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p117-curino.pdf">http://www.vldb.org/pvldb/vol4/p117-curino.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "117--128",
 	title         = "{Update Rewriting and Integrity Constraint Maintenance in a Schema Evolution Support System: PRISM++}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Incrementally+maintaining+classification+using+an+RDBMS%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-KocR,
 <span class="uri">	acmid         = "<a href="http://dl.acm.org/citation.cfm?id=1952380&CFID=12591584&CFTOKEN=15173685">1952380&CFID=12591584&CFTOKEN=15173685</a>",
 </span>	author        = "<a href="person/Mehmet_Levent_Koc.html">Mehmet Levent Koc</a> and <a href="person/Christopher_Re.html">Christopher Ré</a>",
-	journal       = "{PVLDB}",
+	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "302--313",
 	title         = "{Incrementally maintaining classification using an RDBMS}",

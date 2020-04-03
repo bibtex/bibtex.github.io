@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22RemusDB:+Transparent+High+Availability+for+Database+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p738-minhas.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-MinhasRCASW,
 	author        = "<a href="person/Umar_Farooq_Minhas.html">Umar Farooq Minhas</a> and <a href="person/Shriram_Rajagopalan.html">Shriram Rajagopalan</a> and <a href="person/Brendan_Cully.html">Brendan Cully</a> and <a href="person/Ashraf_Aboulnaga.html">Ashraf Aboulnaga</a> and <a href="person/Kenneth_Salem.html">Kenneth Salem</a> and <a href="person/Andrew_Warfield.html">Andrew Warfield</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p738-minhas.pdf">http://www.vldb.org/pvldb/vol4/p738-minhas.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "738--748",
 	title         = "{RemusDB: Transparent High Availability for Database Systems}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22rho-uncertainty:+Inference-Proof+Transaction+Anonymization%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R92.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-CaoKRT,
 	author        = "<a href="person/Jianneng_Cao.html">Jianneng Cao</a> and <a href="person/Panagiotis_Karras.html">Panagiotis Karras</a> and <a href="person/Chedy_Raissi.html">Chedy Raïssi</a> and <a href="person/Kian-Lee_Tan.html">Kian-Lee Tan</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R92.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R92.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1033--1044",
 	title         = "{rho-uncertainty: Inference-Proof Transaction Anonymization}",

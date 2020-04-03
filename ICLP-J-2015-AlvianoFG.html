@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Rewriting+recursive+aggregates+in+answer+set+programming:+back+to+monotonicity%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000228">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-AlvianoFG,
 	author        = "<a href="person/Mario_Alviano.html">Mario Alviano</a> and <a href="person/Wolfgang_Faber.html">Wolfgang Faber</a> and <a href="person/Martin_Gebser.html">Martin Gebser</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000228">10.1017/S1471068415000228</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "559--573",
 	title         = "{Rewriting recursive aggregates in answer set programming: back to monotonicity}",

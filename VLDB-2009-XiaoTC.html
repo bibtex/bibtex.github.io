@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimal+Random+Perturbation+at+Multiple+Privacy+Levels%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-732.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-XiaoTC,
 	author        = "<a href="person/Xiaokui_Xiao.html">Xiaokui Xiao</a> and <a href="person/Yufei_Tao.html">Yufei Tao</a> and <a href="person/Minghua_Chen.html">Minghua Chen</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-732.pdf">http://www.vldb.org/pvldb/2/vldb09-732.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "814--825",
 	title         = "{Optimal Random Perturbation at Multiple Privacy Levels}",

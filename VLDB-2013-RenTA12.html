@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lightweight+Locking+for+Main+Memory+Database+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p145-ren.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-RenTA12,
 	author        = "<a href="person/Kun_Ren.html">Kun Ren</a> and <a href="person/Alexander_Thomson.html">Alexander Thomson</a> and <a href="person/Daniel_J_Abadi.html">Daniel J. Abadi</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p145-ren.pdf">http://www.vldb.org/pvldb/vol6/p145-ren.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "145--156",
 	title         = "{Lightweight Locking for Main Memory Database Systems}",

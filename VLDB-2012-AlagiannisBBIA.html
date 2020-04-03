@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22NoDB+in+Action:+Adaptive+Query+Processing+on+Raw+Data%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-AlagiannisBBIA,
 	author        = "<a href="person/Ioannis_Alagiannis.html">Ioannis Alagiannis</a> and <a href="person/Renata_Borovica.html">Renata Borovica</a> and <a href="person/Miguel_Branco.html">Miguel Branco</a> and <a href="person/Stratos_Idreos.html">Stratos Idreos</a> and <a href="person/Anastasia_Ailamaki.html">Anastasia Ailamaki</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1942_ioannisalagiannis_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1942--1945",
 	title         = "{NoDB in Action: Adaptive Query Processing on Raw Data}",

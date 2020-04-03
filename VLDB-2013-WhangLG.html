@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Question+Selection+for+Crowd+Entity+Resolution%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p349-whang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-WhangLG,
 	author        = "<a href="person/Steven_Euijong_Whang.html">Steven Euijong Whang</a> and <a href="person/Peter_Lofgren.html">Peter Lofgren</a> and <a href="person/Hector_Garcia-Molina.html">Hector Garcia-Molina</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p349-whang.pdf">http://www.vldb.org/pvldb/vol6/p349-whang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "349--360",
 	title         = "{Question Selection for Crowd Entity Resolution}",

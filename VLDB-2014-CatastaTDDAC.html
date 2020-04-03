@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22TransactiveDB:+Tapping+into+Collective+Human+Memories%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1977-catasta.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-CatastaTDDAC,
 	author        = "<a href="person/Michele_Catasta.html">Michele Catasta</a> and <a href="person/Alberto_Tonon.html">Alberto Tonon</a> and <a href="person/Djellel_Eddine_Difallah.html">Djellel Eddine Difallah</a> and <a href="person/Gianluca_Demartini.html">Gianluca Demartini</a> and <a href="person/Karl_Aberer.html">Karl Aberer</a> and <a href="person/Philippe_Cudre-Mauroux.html">Philippe Cudré-Mauroux</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1977-catasta.pdf">http://www.vldb.org/pvldb/vol7/p1977-catasta.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1977--1980",
 	title         = "{TransactiveDB: Tapping into Collective Human Memories}",

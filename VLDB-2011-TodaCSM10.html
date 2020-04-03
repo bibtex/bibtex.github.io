@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Probabilistic+Approach+for+Automatically+Filling+Form-Based+Web+Interfaces%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p151-toda.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-TodaCSM10,
 	author        = "<a href="person/Guilherme_A_Toda.html">Guilherme A. Toda</a> and <a href="person/Eli_Cortez.html">Eli Cortez</a> and <a href="person/Altigran_Soares_da_Silva.html">Altigran Soares da Silva</a> and <a href="person/Edleno_Silva_de_Moura.html">Edleno Silva de Moura</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p151-toda.pdf">http://www.vldb.org/pvldb/vol4/p151-toda.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "151--160",
 	title         = "{A Probabilistic Approach for Automatically Filling Form-Based Web Interfaces}",

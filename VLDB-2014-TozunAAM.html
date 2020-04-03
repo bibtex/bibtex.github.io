@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22ADDICT:+Advanced+Instruction+Chasing+for+Transactions%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1893-tozun.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-TozunAAM,
 	author        = "<a href="person/Pinar_Toezuen.html">Pinar Tözün</a> and <a href="person/Islam_Atta.html">Islam Atta</a> and <a href="person/Anastasia_Ailamaki.html">Anastasia Ailamaki</a> and <a href="person/Andreas_Moshovos.html">Andreas Moshovos</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1893-tozun.pdf">http://www.vldb.org/pvldb/vol7/p1893-tozun.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1893--1904",
 	title         = "{ADDICT: Advanced Instruction Chasing for Transactions}",

@@ -36,14 +36,14 @@
 <a href="https://scholar.google.com/scholar?q=%22Digital+Libraries:+Current+Issues,+Digital+Libraries+Workshop,+Newark,+NJ,+USA,+May+19-20,+1994,+Selected+Papers%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Digital Libraries: Current Issues, Digital Libraries Workshop, Newark, NJ, USA, May 19-20, 1994, Selected Papers':'DL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Digital Libraries: Current Issues, Digital Libraries Workshop, Newark, NJ, USA, May 19-20, 1994, Selected Papers':'DL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{DL-1994,
 	editor        = "<a href="person/Nabil_R_Adam.html">Nabil R. Adam</a> and <a href="person/Bharat_K_Bhargava.html">Bharat K. Bhargava</a> and <a href="person/Yelena_Yesha.html">Yelena Yesha</a>",
 <span id="isbn">	isbn          = "3-540-59282-2",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Digital Libraries: Current Issues, Digital Libraries Workshop, Newark, NJ, USA, May 19-20, 1994, Selected Papers</span>}",
 	volume        = 916,
 	year          = 1995,

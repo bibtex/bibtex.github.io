@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lightweight+Privacy-Preserving+Peer-to-Peer+Data+Integration%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p157-zhang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-ZhangWYMC,
 	author        = "<a href="person/Ye_Zhang.html">Ye Zhang</a> and <a href="person/Wai_Kit_Wong.html">Wai Kit Wong</a> and <a href="person/Siu-Ming_Yiu.html">Siu-Ming Yiu</a> and <a href="person/Nikos_Mamoulis.html">Nikos Mamoulis</a> and <a href="person/David_W_Cheung.html">David W. Cheung</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p157-zhang.pdf">http://www.vldb.org/pvldb/vol6/p157-zhang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "157--168",
 	title         = "{Lightweight Privacy-Preserving Peer-to-Peer Data Integration}",

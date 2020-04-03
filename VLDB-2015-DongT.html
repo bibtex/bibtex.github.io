@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Time+Machine+for+Information:+Looking+Back+to+Look+Forward%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2044-dong.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-DongT,
 	author        = "<a href="person/Xin_Luna_Dong.html">Xin Luna Dong</a> and <a href="person/Wang-Chiew_Tan.html">Wang-Chiew Tan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2044-dong.pdf">http://www.vldb.org/pvldb/vol8/p2044-dong.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2044--2055",
 	title         = "{A Time Machine for Information: Looking Back to Look Forward}",

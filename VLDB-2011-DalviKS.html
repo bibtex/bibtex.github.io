@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatic+Wrappers+for+Large+Scale+Web+Extraction%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p219-dalvi.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-DalviKS,
 	author        = "<a href="person/Nilesh_N_Dalvi.html">Nilesh N. Dalvi</a> and <a href="person/Ravi_Kumar.html">Ravi Kumar</a> and <a href="person/Mohamed_A_Soliman.html">Mohamed A. Soliman</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p219-dalvi.pdf">http://www.vldb.org/pvldb/vol4/p219-dalvi.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "219--230",
 	title         = "{Automatic Wrappers for Large Scale Web Extraction}",

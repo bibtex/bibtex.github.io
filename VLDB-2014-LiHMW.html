@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Data-+and+Workload-Aware+Query+Answering+Algorithm+for+Range+Queries+Under+Differential+Privacy%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p341-li.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LiHMW,
 	author        = "<a href="person/Chao_Li.html">Chao Li</a> and <a href="person/Michael_Hay.html">Michael Hay</a> and <a href="person/Gerome_Miklau.html">Gerome Miklau</a> and <a href="person/Yue_Wang.html">Yue Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p341-li.pdf">http://www.vldb.org/pvldb/vol7/p341-li.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "341--352",
 	title         = "{A Data- and Workload-Aware Query Answering Algorithm for Range Queries Under Differential Privacy}",

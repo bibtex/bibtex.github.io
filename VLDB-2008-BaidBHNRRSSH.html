@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DBPubs:+multidimensional+exploration+of+database+publications%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454199.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-BaidBHNRRSSH,
 	author        = "<a href="person/Akanksha_Baid.html">Akanksha Baid</a> and <a href="person/Andrey_Balmin.html">Andrey Balmin</a> and <a href="person/Heasoo_Hwang.html">Heasoo Hwang</a> and <a href="person/Erik_Nijkamp.html">Erik Nijkamp</a> and <a href="person/Jun_Rao.html">Jun Rao</a> and <a href="person/Berthold_Reinwald.html">Berthold Reinwald</a> and <a href="person/Alkis_Simitsis.html">Alkis Simitsis</a> and <a href="person/Yannis_Sismanis.html">Yannis Sismanis</a> and <a href="person/Frank_van_Ham.html">Frank van Ham</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454199.pdf">http://www.vldb.org/pvldb/1/1454199.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1456--1459",
 	title         = "{DBPubs: multidimensional exploration of database publications}",

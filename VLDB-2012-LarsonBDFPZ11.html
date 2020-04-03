@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22High-Performance+Concurrency+Control+Mechanisms+for+Main-Memory+Databases%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p298_per-akelarson_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-LarsonBDFPZ11,
 	author        = "<a href="person/Per-Ake_Larson.html">Per-Åke Larson</a> and <a href="person/Spyros_Blanas.html">Spyros Blanas</a> and <a href="person/Cristian_Diaconu.html">Cristian Diaconu</a> and <a href="person/Craig_Freedman.html">Craig Freedman</a> and <a href="person/Jignesh_M_Patel.html">Jignesh M. Patel</a> and <a href="person/Mike_Zwilling.html">Mike Zwilling</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p298_per-akelarson_vldb2012.pdf">http://vldb.org/pvldb/vol5/p298_per-akelarson_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "298--309",
 	title         = "{High-Performance Concurrency Control Mechanisms for Main-Memory Databases}",

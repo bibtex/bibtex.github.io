@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+to+create+data-integrating+queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453941.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-TalukdarJMCIPG,
 	author        = "<a href="person/Partha_Pratim_Talukdar.html">Partha Pratim Talukdar</a> and <a href="person/Marie_Jacob.html">Marie Jacob</a> and <a href="person/Muhammad_Salman_Mehmood.html">Muhammad Salman Mehmood</a> and <a href="person/Koby_Crammer.html">Koby Crammer</a> and <a href="person/Zachary_G_Ives.html">Zachary G. Ives</a> and <a href="person/Fernando_C_N_Pereira.html">Fernando C. N. Pereira</a> and <a href="person/Sudipto_Guha.html">Sudipto Guha</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453941.pdf">http://www.vldb.org/pvldb/1/1453941.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "785--796",
 	title         = "{Learning to create data-integrating queries}",

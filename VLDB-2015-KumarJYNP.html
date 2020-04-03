@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Demonstration+of+Santoku:+Optimizing+Machine+Learning+over+Normalized+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1864-kumar.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-KumarJYNP,
 	author        = "<a href="person/Arun_Kumar.html">Arun Kumar</a> and <a href="person/Mona_Jalal.html">Mona Jalal</a> and <a href="person/Boqun_Yan.html">Boqun Yan</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a> and <a href="person/Jignesh_M_Patel.html">Jignesh M. Patel</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1864-kumar.pdf">http://www.vldb.org/pvldb/vol8/p1864-kumar.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1864--1875",
 	title         = "{Demonstration of Santoku: Optimizing Machine Learning over Normalized Data}",

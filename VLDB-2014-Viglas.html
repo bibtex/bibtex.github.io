@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Write-limited+sorts+and+joins+for+persistent+memory%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p413-viglas.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-Viglas,
 	author        = "<a href="person/Stratis_Viglas.html">Stratis Viglas</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p413-viglas.pdf">http://www.vldb.org/pvldb/vol7/p413-viglas.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "413--424",
 	title         = "{Write-limited sorts and joins for persistent memory}",

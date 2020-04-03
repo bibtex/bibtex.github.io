@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Massively+Parallel+Data+Analysis+with+PACTs+on+Nephele%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D28.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-AlexandrovBEHHKMNW,
 	author        = "<a href="person/Alexander_Alexandrov.html">Alexander Alexandrov</a> and <a href="person/Dominic_Battre.html">Dominic Battré</a> and <a href="person/Stephan_Ewen.html">Stephan Ewen</a> and <a href="person/Max_Heimel.html">Max Heimel</a> and <a href="person/Fabian_Hueske.html">Fabian Hueske</a> and <a href="person/Odej_Kao.html">Odej Kao</a> and <a href="person/Volker_Markl.html">Volker Markl</a> and <a href="person/Erik_Nijkamp.html">Erik Nijkamp</a> and <a href="person/Daniel_Warneke.html">Daniel Warneke</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D28.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D28.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1625--1628",
 	title         = "{Massively Parallel Data Analysis with PACTs on Nephele}",

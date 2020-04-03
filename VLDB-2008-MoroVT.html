@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22XML+Structural+Summaries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454221.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-MoroVT,
 	author        = "<a href="person/Mirella_Moura_Moro.html">Mirella Moura Moro</a> and <a href="person/Zografoula_Vagena.html">Zografoula Vagena</a> and <a href="person/Vassilis_J_Tsotras.html">Vassilis J. Tsotras</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454221.pdf">http://www.vldb.org/pvldb/1/1454221.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1524--1525",
 	title         = "{XML Structural Summaries}",

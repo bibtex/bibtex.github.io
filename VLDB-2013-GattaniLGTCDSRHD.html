@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Entity+Extraction,+Linking,+Classification,+and+Tagging+for+Social+Media:+A+Wikipedia-Based+Approach%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1126-gattani.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-GattaniLGTCDSRHD,
 	author        = "<a href="person/Abhishek_Gattani.html">Abhishek Gattani</a> and <a href="person/Digvijay_S_Lamba.html">Digvijay S. Lamba</a> and <a href="person/Nikesh_Garera.html">Nikesh Garera</a> and <a href="person/Mitul_Tiwari.html">Mitul Tiwari</a> and <a href="person/Xiaoyong_Chai.html">Xiaoyong Chai</a> and <a href="person/Sanjib_Das.html">Sanjib Das</a> and <a href="person/Sri_Subramaniam.html">Sri Subramaniam</a> and <a href="person/Anand_Rajaraman.html">Anand Rajaraman</a> and <a href="person/Venky_Harinarayan.html">Venky Harinarayan</a> and <a href="person/AnHai_Doan.html">AnHai Doan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1126-gattani.pdf">http://www.vldb.org/pvldb/vol6/p1126-gattani.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1126--1137",
 	title         = "{Entity Extraction, Linking, Classification, and Tagging for Social Media: A Wikipedia-Based Approach}",

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+17th+International+Conference+on+Theory+and+Practice+of+Digital+Libraries%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-642-40501-3">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 17th International Conference on Theory and Practice of Digital Libraries':'TPDL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 17th International Conference on Theory and Practice of Digital Libraries':'TPDL');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{TPDL-2013,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Trond_Aalberg.html">Trond Aalberg</a> and <a href="person/Christos_Papatheodorou.html">Christos Papatheodorou</a> and <a href="person/Milena_Dobreva.html">Milena Dobreva</a> and <a href="person/Giannis_Tsakonas.html">Giannis Tsakonas</a> and Charles J. Farrugia",
 <span id="isbn">	isbn          = "978-3-642-40500-6",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 17th International Conference on Theory and Practice of Digital Libraries</span>}",
 	volume        = 8092,
 	year          = 2013,

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PDiffView:+Viewing+the+Difference+in+Provenance+of+Workflow+Results%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-850.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-BaoBDG,
 	author        = "<a href="person/Zhuowei_Bao.html">Zhuowei Bao</a> and <a href="person/Sarah_Cohen_Boulakia.html">Sarah Cohen Boulakia</a> and <a href="person/Susan_B_Davidson.html">Susan B. Davidson</a> and <a href="person/Pierrick_Girard.html">Pierrick Girard</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-850.pdf">http://www.vldb.org/pvldb/2/vldb09-850.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1638--1641",
 	title         = "{PDiffView: Viewing the Difference in Provenance of Workflow Results}",

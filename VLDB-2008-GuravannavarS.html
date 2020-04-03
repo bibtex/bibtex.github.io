@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Rewriting+procedures+for+batched+bindings%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453975.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-GuravannavarS,
 	author        = "<a href="person/Ravindra_Guravannavar.html">Ravindra Guravannavar</a> and <a href="person/S_Sudarshan.html">S. Sudarshan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453975.pdf">http://www.vldb.org/pvldb/1/1453975.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1107--1123",
 	title         = "{Rewriting procedures for batched bindings}",

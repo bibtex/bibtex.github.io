@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Graph-based+Data+Integration+and+Business+Intelligence+with+BIIIG%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1577-petermann.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-PetermannJMR,
 	author        = "<a href="person/Andre_Petermann.html">Andre Petermann</a> and <a href="person/Martin_Junghanns.html">Martin Junghanns</a> and <a href="person/Robert_Mueller.html">Robert Müller</a> and <a href="person/Erhard_Rahm.html">Erhard Rahm</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1577-petermann.pdf">http://www.vldb.org/pvldb/vol7/p1577-petermann.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1577--1580",
 	title         = "{Graph-based Data Integration and Business Intelligence with BIIIG}",

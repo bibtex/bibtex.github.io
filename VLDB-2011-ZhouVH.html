@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Dissemination+of+Models+over+Time-Varying+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p864-zhou.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-ZhouVH,
 	author        = "<a href="person/Yongluan_Zhou.html">Yongluan Zhou</a> and <a href="person/Zografoula_Vagena.html">Zografoula Vagena</a> and <a href="person/Jonas_Haustad.html">Jonas Haustad</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p864-zhou.pdf">http://www.vldb.org/pvldb/vol4/p864-zhou.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "864--875",
 	title         = "{Dissemination of Models over Time-Varying Data}",

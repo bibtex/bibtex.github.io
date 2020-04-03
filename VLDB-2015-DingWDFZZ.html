@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22YADING:+Fast+Clustering+of+Large-Scale+Time+Series+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p473-ding.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-DingWDFZZ,
 	author        = "<a href="person/Rui_Ding.html">Rui Ding</a> and <a href="person/Qiang_Wang.html">Qiang Wang</a> and <a href="person/Yingnong_Dang.html">Yingnong Dang</a> and <a href="person/Qiang_Fu.html">Qiang Fu</a> and <a href="person/Haidong_Zhang.html">Haidong Zhang</a> and <a href="person/Dongmei_Zhang.html">Dongmei Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p473-ding.pdf">http://www.vldb.org/pvldb/vol8/p473-ding.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "473--484",
 	title         = "{YADING: Fast Clustering of Large-Scale Time Series Data}",

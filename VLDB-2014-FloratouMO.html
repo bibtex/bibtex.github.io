@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SQL-on-Hadoop:+Full+Circle+Back+to+Shared-Nothing+Database+Architectures%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-FloratouMO,
 	author        = "<a href="person/Avrilia_Floratou.html">Avrilia Floratou</a> and <a href="person/Umar_Farooq_Minhas.html">Umar Farooq Minhas</a> and <a href="person/Fatma_Oezcan.html">Fatma Özcan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf">http://www.vldb.org/pvldb/vol7/p1295-floratou.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1295--1306",
 	title         = "{SQL-on-Hadoop: Full Circle Back to Shared-Nothing Database Architectures}",

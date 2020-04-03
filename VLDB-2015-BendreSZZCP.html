@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DATASPREAD:+Unifying+Databases+and+Spreadsheets%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2000-bendre.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-BendreSZZCP,
 	author        = "<a href="person/Mangesh_Bendre.html">Mangesh Bendre</a> and <a href="person/Bofan_Sun.html">Bofan Sun</a> and <a href="person/Ding_Zhang.html">Ding Zhang</a> and <a href="person/Xinyan_Zhou.html">Xinyan Zhou</a> and <a href="person/Kevin_Chen-Chuan_Chang.html">Kevin Chen-Chuan Chang</a> and <a href="person/Aditya_Parameswaran.html">Aditya Parameswaran</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2000-bendre.pdf">http://www.vldb.org/pvldb/vol8/p2000-bendre.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2000--2011",
 	title         = "{DATASPREAD: Unifying Databases and Spreadsheets}",

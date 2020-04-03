@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+ad-hoc+entity+extraction+from+text+collections%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453958.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-AgrawalCCG,
 	author        = "<a href="person/Sanjay_Agrawal.html">Sanjay Agrawal</a> and <a href="person/Kaushik_Chakrabarti.html">Kaushik Chakrabarti</a> and <a href="person/Surajit_Chaudhuri.html">Surajit Chaudhuri</a> and <a href="person/Venkatesh_Ganti.html">Venkatesh Ganti</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453958.pdf">http://www.vldb.org/pvldb/1/1453958.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "945--957",
 	title         = "{Scalable ad-hoc entity extraction from text collections}",

@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Revised+Selected+Papers+of+the+Sixth+Central+European+Functional+Programming+School%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-030-28346-9">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Revised Selected Papers of the Sixth Central European Functional Programming School':'CEFP');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Revised Selected Papers of the Sixth Central European Functional Programming School':'CEFP');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{CEFP-2015,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Viktoria_Zsok.html">Viktória Zsók</a> and <a href="person/Zoltan_Porkolab.html">Zoltán Porkoláb</a> and <a href="person/Zoltan_Horvath.html">Zoltán Horváth</a>",
 <span id="isbn">	isbn          = "['978-3-030-28345-2', '978-3-030-28346-9']",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Revised Selected Papers of the Sixth Central European Functional Programming School</span>}",
 	volume        = "10094",
 	year          = "2019",

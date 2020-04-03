@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Reachability+Query+Evaluation+in+Large+Spatiotemporal+Contact+Datasets%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p848_houtanshirani-mehr_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-Shirani-MehrKS,
 	author        = "<a href="person/Houtan_Shirani-Mehr.html">Houtan Shirani-Mehr</a> and <a href="person/Farnoush_Banaei_Kashani.html">Farnoush Banaei Kashani</a> and <a href="person/Cyrus_Shahabi.html">Cyrus Shahabi</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p848_houtanshirani-mehr_vldb2012.pdf">http://vldb.org/pvldb/vol5/p848_houtanshirani-mehr_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "848--859",
 	title         = "{Efficient Reachability Query Evaluation in Large Spatiotemporal Contact Datasets}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Detecting+clusters+in+moderate-to-high+dimensional+data:+subspace+clustering,+pattern-based+clustering,+and+correlation+clustering%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454223.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-KriegelKZ,
 	author        = "<a href="person/Hans-Peter_Kriegel.html">Hans-Peter Kriegel</a> and <a href="person/Peer_Kroeger.html">Peer Kröger</a> and <a href="person/Arthur_Zimek.html">Arthur Zimek</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454223.pdf">http://www.vldb.org/pvldb/1/1454223.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1528--1529",
 	title         = "{Detecting clusters in moderate-to-high dimensional data: subspace clustering, pattern-based clustering, and correlation clustering}",

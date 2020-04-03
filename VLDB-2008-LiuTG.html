@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22ManyAspects:+a+system+for+highlighting+diverse+concepts+in+documents%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454196.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-LiuTG,
 	author        = "<a href="person/Kun_Liu.html">Kun Liu</a> and <a href="person/Evimaria_Terzi.html">Evimaria Terzi</a> and <a href="person/Tyrone_Grandison.html">Tyrone Grandison</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454196.pdf">http://www.vldb.org/pvldb/1/1454196.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1444--1447",
 	title         = "{ManyAspects: a system for highlighting diverse concepts in documents}",

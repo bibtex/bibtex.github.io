@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lens+put-put+laws:+monotonic+and+mixed%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/729">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{BX-2012-JohnsonR,
 	author        = "<a href="person/Michael_Johnson.html">Michael Johnson</a> and <a href="person/Robert_D_Rosebrugh.html">Robert D. Rosebrugh</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/729">http://journal.ub.tu-berlin.de/eceasst/article/view/729</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "55--67",
 	title         = "{Lens put-put laws: monotonic and mixed}",
 	volume        = 49,

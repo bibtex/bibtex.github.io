@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Finding+Pareto+Optimal+Groups:+Group-based+Skyline%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2086-liu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LiuXPLZ,
 	author        = "<a href="person/Jinfei_Liu.html">Jinfei Liu</a> and <a href="person/Li_Xiong.html">Li Xiong</a> and <a href="person/Jian_Pei.html">Jian Pei</a> and <a href="person/Jun_Luo.html">Jun Luo</a> and <a href="person/Haoyu_Zhang.html">Haoyu Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2086-liu.pdf">http://www.vldb.org/pvldb/vol8/p2086-liu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "2086--2097",
 	title         = "{Finding Pareto Optimal Groups: Group-based Skyline}",

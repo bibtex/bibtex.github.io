@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PARADIS:+An+Efficient+Parallel+Algorithm+for+In-place+Radix+Sort%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1518-cho.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ChoBBFKP,
 	author        = "<a href="person/Minsik_Cho.html">Minsik Cho</a> and <a href="person/Daniel_Brand.html">Daniel Brand</a> and <a href="person/Rajesh_Bordawekar.html">Rajesh Bordawekar</a> and <a href="person/Ulrich_Finkler.html">Ulrich Finkler</a> and <a href="person/Vincent_KulandaiSamy.html">Vincent KulandaiSamy</a> and <a href="person/Ruchir_Puri.html">Ruchir Puri</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1518-cho.pdf">http://www.vldb.org/pvldb/vol8/p1518-cho.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1518--1529",
 	title         = "{PARADIS: An Efficient Parallel Algorithm for In-place Radix Sort}",

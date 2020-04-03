@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Engineering+Database+Hardware+and+Software+Together%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2052-oracle.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-Loaiza,
 	author        = "<a href="person/Juan_Loaiza.html">Juan Loaiza</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2052-oracle.pdf">http://www.vldb.org/pvldb/vol8/p2052-oracle.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2052--2063",
 	title         = "{Engineering Database Hardware and Software Together}",

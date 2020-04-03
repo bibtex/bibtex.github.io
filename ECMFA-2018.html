@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+14th+European+Conference+on+Modelling+Foundations+and+Applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-319-92997-2">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 14th European Conference on Modelling Foundations and Applications':'ECMFA');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 14th European Conference on Modelling Foundations and Applications':'ECMFA');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ECMFA-2018,
@@ -45,7 +45,7 @@
 </span>	editor        = "<a href="person/Alfonso_Pierantonio.html">Alfonso Pierantonio</a> and <a href="person/Salvador_Trujillo.html">Salvador Trujillo</a>",
 <span id="isbn">	isbn          = "['978-3-319-92996-5', '978-3-319-92997-2']",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 14th European Conference on Modelling Foundations and Applications</span>}",
 	volume        = 10890,
 	year          = 2018,

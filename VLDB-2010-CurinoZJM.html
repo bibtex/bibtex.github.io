@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Schism:+a+Workload-Driven+Approach+to+Database+Replication+and+Partitioning%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R04.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-CurinoZJM,
 	author        = "<a href="person/Carlo_Curino.html">Carlo Curino</a> and <a href="person/Yang_Zhang.html">Yang Zhang</a> and <a href="person/Evan_P_C_Jones.html">Evan P. C. Jones</a> and <a href="person/Samuel_Madden.html">Samuel Madden</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R04.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R04.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "48--57",
 	title         = "{Schism: a Workload-Driven Approach to Database Replication and Partitioning}",

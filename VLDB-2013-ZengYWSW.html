@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+Distributed+Graph+Engine+for+Web+Scale+RDF+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p265-zeng.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-ZengYWSW,
 	author        = "<a href="person/Kai_Zeng.html">Kai Zeng</a> and <a href="person/Jiacheng_Yang.html">Jiacheng Yang</a> and <a href="person/Haixun_Wang.html">Haixun Wang</a> and <a href="person/Bin_Shao.html">Bin Shao</a> and <a href="person/Zhongyuan_Wang.html">Zhongyuan Wang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p265-zeng.pdf">http://www.vldb.org/pvldb/vol6/p265-zeng.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "265--276",
 	title         = "{A Distributed Graph Engine for Web Scale RDF Data}",

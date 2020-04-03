@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+declarative+extension+of+horn+clauses,+and+its+significance+for+datalog+and+its+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068413000380">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2013-MazuranSZ,
 	author        = "<a href="person/Mirjana_Mazuran.html">Mirjana Mazuran</a> and <a href="person/Edoardo_Serra.html">Edoardo Serra</a> and <a href="person/Carlo_Zaniolo.html">Carlo Zaniolo</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068413000380">10.1017/S1471068413000380</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "609--623",
 	title         = "{A declarative extension of horn clauses, and its significance for datalog and its applications}",

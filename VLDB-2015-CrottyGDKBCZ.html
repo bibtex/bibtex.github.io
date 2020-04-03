@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22An+Architecture+for+Compiling+UDF-centric+Workflows%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1466-crotty.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-CrottyGDKBCZ,
 	author        = "<a href="person/Andrew_Crotty.html">Andrew Crotty</a> and <a href="person/Alex_Galakatos.html">Alex Galakatos</a> and <a href="person/Kayhan_Dursun.html">Kayhan Dursun</a> and <a href="person/Tim_Kraska.html">Tim Kraska</a> and <a href="person/Carsten_Binnig.html">Carsten Binnig</a> and <a href="person/Ugur_Cetintemel.html">Ugur Çetintemel</a> and <a href="person/Stan_Zdonik.html">Stan Zdonik</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1466-crotty.pdf">http://www.vldb.org/pvldb/vol8/p1466-crotty.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1466--1477",
 	title         = "{An Architecture for Compiling UDF-centric Workflows}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DBLP+—+Some+Lessons+Learned%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-98.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-Ley,
 	author        = "<a href="person/Michael_Ley.html">Michael Ley</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-98.pdf">http://www.vldb.org/pvldb/2/vldb09-98.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1493--1500",
 	title         = "{DBLP — Some Lessons Learned}",

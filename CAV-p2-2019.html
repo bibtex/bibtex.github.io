@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+30st+International+Conference+on+Computer+Aided+Verification,+Part+II%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/978-3-030-25543-5">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 30st International Conference on Computer Aided Verification, Part II':'CAV (2)');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 30st International Conference on Computer Aided Verification, Part II':'CAV (2)');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{CAV-p2-2019,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Isil_Dillig.html">Isil Dillig</a> and <a href="person/Serdar_Tasiran.html">Serdar Tasiran</a>",
 <span id="isbn">	isbn          = "['978-3-030-25542-8', '978-3-030-25543-5']",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the 30st International Conference on Computer Aided Verification, Part II</span>}",
 	volume        = "11562",
 	year          = "2019",

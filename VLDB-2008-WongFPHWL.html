@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+skyline+querying+with+variable+user+preferences+on+nominal+attributes%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453967.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-WongFPHWL,
 	author        = "<a href="person/Raymond_Chi-Wing_Wong.html">Raymond Chi-Wing Wong</a> and <a href="person/Ada_Wai-Chee_Fu.html">Ada Wai-Chee Fu</a> and <a href="person/Jian_Pei.html">Jian Pei</a> and <a href="person/Yip_Sing_Ho.html">Yip Sing Ho</a> and <a href="person/Tai_Wong.html">Tai Wong</a> and <a href="person/Yubao_Liu.html">Yubao Liu</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453967.pdf">http://www.vldb.org/pvldb/1/1453967.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1032--1043",
 	title         = "{Efficient skyline querying with variable user preferences on nominal attributes}",

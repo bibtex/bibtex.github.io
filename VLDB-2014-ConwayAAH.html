@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Edelweiss:+Automatic+Storage+Reclamation+for+Distributed+Programming%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p481-conway.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ConwayAAH,
 	author        = "<a href="person/Neil_Conway.html">Neil Conway</a> and <a href="person/Peter_Alvaro.html">Peter Alvaro</a> and <a href="person/Emily_Andrews.html">Emily Andrews</a> and <a href="person/Joseph_M_Hellerstein.html">Joseph M. Hellerstein</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p481-conway.pdf">http://www.vldb.org/pvldb/vol7/p481-conway.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "481--492",
 	title         = "{Edelweiss: Automatic Storage Reclamation for Distributed Programming}",

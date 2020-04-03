@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+Delivery+of+Stream+Query+Results%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-742.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-ZhouSA,
 	author        = "<a href="person/Yongluan_Zhou.html">Yongluan Zhou</a> and <a href="person/Ali_Salehi.html">Ali Salehi</a> and <a href="person/Karl_Aberer.html">Karl Aberer</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-742.pdf">http://www.vldb.org/pvldb/2/vldb09-742.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "49--60",
 	title         = "{Scalable Delivery of Stream Query Results}",

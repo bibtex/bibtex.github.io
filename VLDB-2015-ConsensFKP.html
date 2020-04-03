@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22S+EPPs:+Construct+and+Explore+Bisimulation+Summaries,+plus+Optimize+Navigational+Queries;+all+on+Existing+SPARQL+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2028-consens.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ConsensFKP,
 	author        = "<a href="person/Mariano_P_Consens.html">Mariano P. Consens</a> and <a href="person/Valeria_Fionda.html">Valeria Fionda</a> and <a href="person/Shahan_Khatchadourian.html">Shahan Khatchadourian</a> and <a href="person/Giuseppe_Pirro.html">Giuseppe Pirrò</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2028-consens.pdf">http://www.vldb.org/pvldb/vol8/p2028-consens.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2028--2039",
 	title         = "{S+EPPs: Construct and Explore Bisimulation Summaries, plus Optimize Navigational Queries; all on Existing SPARQL Systems}",

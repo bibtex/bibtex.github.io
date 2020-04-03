@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SAPPER:+Subgraph+Indexing+and+Approximate+Matching+in+Large+Graphs%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R105.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-ZhangYJ,
 	author        = "<a href="person/Shijie_Zhang.html">Shijie Zhang</a> and <a href="person/Jiong_Yang.html">Jiong Yang</a> and <a href="person/Wei_Jin.html">Wei Jin</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R105.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R105.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1185--1194",
 	title         = "{SAPPER: Subgraph Indexing and Approximate Matching in Large Graphs}",

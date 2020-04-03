@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Lazy+Updates:+An+Efficient+Technique+to+Continuously+Monitoring+Reverse+kNN%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-720.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-CheemaLZWZ,
 	author        = "<a href="person/Muhammad_Aamir_Cheema.html">Muhammad Aamir Cheema</a> and <a href="person/Xuemin_Lin.html">Xuemin Lin</a> and <a href="person/Ying_Zhang.html">Ying Zhang</a> and <a href="person/Wei_Wang.html">Wei Wang</a> and <a href="person/Wenjie_Zhang.html">Wenjie Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-720.pdf">http://www.vldb.org/pvldb/2/vldb09-720.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1138--1149",
 	title         = "{Lazy Updates: An Efficient Technique to Continuously Monitoring Reverse kNN}",

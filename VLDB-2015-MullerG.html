@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Provenance+for+SQL+through+Abstract+Interpretation:+Value-less,+but+Worthwhile%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1872-mnller.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-MullerG,
 	author        = "<a href="person/Tobias_Mueller.html">Tobias Müller</a> and <a href="person/Torsten_Grust.html">Torsten Grust</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1872-mnller.pdf">http://www.vldb.org/pvldb/vol8/p1872-mnller.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1872--1883",
 	title         = "{Provenance for SQL through Abstract Interpretation: Value-less, but Worthwhile}",

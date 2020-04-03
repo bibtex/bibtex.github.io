@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Trill:+A+High-Performance+Incremental+Query+Processor+for+Diverse+Analytics%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ChandramouliGBDPTW14,
 	author        = "<a href="person/Badrish_Chandramouli.html">Badrish Chandramouli</a> and <a href="person/Jonathan_Goldstein.html">Jonathan Goldstein</a> and <a href="person/Mike_Barnett.html">Mike Barnett</a> and <a href="person/Robert_DeLine.html">Robert DeLine</a> and <a href="person/John_C_Platt.html">John C. Platt</a> and <a href="person/James_F_Terwilliger.html">James F. Terwilliger</a> and <a href="person/John_Wernsing.html">John Wernsing</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf">http://www.vldb.org/pvldb/vol8/p401-chandramouli.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "401--412",
 	title         = "{Trill: A High-Performance Incremental Query Processor for Diverse Analytics}",

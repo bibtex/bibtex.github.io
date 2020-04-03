@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22gMission:+A+General+Spatial+Crowdsourcing+Platform%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1629-chen.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ChenFZLXCCCTZ,
 	author        = "<a href="person/Zhao_Chen.html">Zhao Chen</a> and <a href="person/Rui_Fu.html">Rui Fu</a> and <a href="person/Ziyuan_Zhao.html">Ziyuan Zhao</a> and <a href="person/Zheng_Liu.html">Zheng Liu</a> and <a href="person/Leihao_Xia.html">Leihao Xia</a> and <a href="person/Lei_Chen.html">Lei Chen</a> and <a href="person/Peng_Cheng.html">Peng Cheng</a> and <a href="person/Caleb_Chen_Cao.html">Caleb Chen Cao</a> and <a href="person/Yongxin_Tong.html">Yongxin Tong</a> and <a href="person/Chen_Jason_Zhang.html">Chen Jason Zhang</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1629-chen.pdf">http://www.vldb.org/pvldb/vol7/p1629-chen.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1629--1632",
 	title         = "{gMission: A General Spatial Crowdsourcing Platform}",

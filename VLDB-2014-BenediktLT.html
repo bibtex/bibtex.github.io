@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22PDQ:+Proof-driven+Query+Answering+over+Web-based+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1553-benedikt.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-BenediktLT,
 	author        = "<a href="person/Michael_Benedikt.html">Michael Benedikt</a> and <a href="person/Julien_Leblay.html">Julien Leblay</a> and <a href="person/Efthymia_Tsamoura.html">Efthymia Tsamoura</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1553-benedikt.pdf">http://www.vldb.org/pvldb/vol7/p1553-benedikt.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1553--1556",
 	title         = "{PDQ: Proof-driven Query Answering over Web-based Data}",

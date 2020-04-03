@@ -36,7 +36,7 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+Second+International+Joint+Conference+on+Theory+and+Practice+of+Software+Development,+Volume+1:+Advanced+Seminar+on+Foundations+of+Innovative+Software+Development%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1007/3-540-17660-8">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Second International Joint Conference on Theory and Practice of Software Development, Volume 1: Advanced Seminar on Foundations of Innovative Software Development':'TAPSOFT, Vol.1: AS');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the Second International Joint Conference on Theory and Practice of Software Development, Volume 1: Advanced Seminar on Foundations of Innovative Software Development':'TAPSOFT, Vol.1: AS');$('#series').text(this.checked?'Lecture Notes in Computer Science':'LNCS');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{AS-v1-1987,
@@ -44,7 +44,7 @@
 </span>	editor        = "<a href="person/Hartmut_Ehrig.html">Hartmut Ehrig</a> and <a href="person/Robert_A_Kowalski.html">Robert A. Kowalski</a> and <a href="person/Giorgio_Levi.html">Giorgio Levi</a> and <a href="person/Ugo_Montanari.html">Ugo Montanari</a>",
 <span id="isbn">	isbn          = "3-540-17660-8",
 </span>	publisher     = "{Springer}",
-	series        = "{Lecture Notes in Computer Science}",
+	series        = "{<span id="series">Lecture Notes in Computer Science</span>}",
 	title         = "{<span id="title">Proceedings of the Second International Joint Conference on Theory and Practice of Software Development, Volume 1: Advanced Seminar on Foundations of Innovative Software Development</span>}",
 	volume        = "249",
 	year          = "1987",

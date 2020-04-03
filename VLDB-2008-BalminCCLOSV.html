@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SEDA:+a+system+for+search,+exploration,+discovery,+and+analysis+of+XML+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1454185.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-BalminCCLOSV,
 	author        = "<a href="person/Andrey_Balmin.html">Andrey Balmin</a> and <a href="person/Latha_S_Colby.html">Latha S. Colby</a> and <a href="person/Emiran_Curtmola.html">Emiran Curtmola</a> and <a href="person/Quanzhong_Li.html">Quanzhong Li</a> and <a href="person/Fatma_Oezcan.html">Fatma Özcan</a> and <a href="person/Sharath_Srinivas.html">Sharath Srinivas</a> and <a href="person/Zografoula_Vagena.html">Zografoula Vagena</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1454185.pdf">http://www.vldb.org/pvldb/1/1454185.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1408--1411",
 	title         = "{SEDA: a system for search, exploration, discovery, and analysis of XML Data}",

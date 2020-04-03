@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Complex+Attribute+Manipulation+in+TGGs+with+Constraint-Based+Programming+Techniques%22">Scholar</a><hr/><a href="http://journal.ub.tu-berlin.de/eceasst/article/view/707">EC-EASST</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Electronic Communications of the EASST':'ECEASST');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{BX-2012-AnjorinVS,
 	author        = "<a href="person/Anthony_Anjorin.html">Anthony Anjorin</a> and <a href="person/Gergely_Varro.html">Gergely Varró</a> and <a href="person/Andy_Schuerr.html">Andy Schürr</a>",
 <span class="uri">	ee            = "<a href="http://journal.ub.tu-berlin.de/eceasst/article/view/707">http://journal.ub.tu-berlin.de/eceasst/article/view/707</a>",
-</span>	journal       = "{ECEASST}",
+</span>	journal       = "{<span id="journal">Electronic Communications of the EASST</span>}",
 	pages         = "68--83",
 	title         = "{Complex Attribute Manipulation in TGGs with Constraint-Based Programming Techniques}",
 	volume        = 49,

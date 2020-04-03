@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SQL/MapReduce:+A+practical+approach+to+self-describing,+polymorphic,+and+parallelizable+user-defined+functions%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-464.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-FriedmanPC,
 	author        = "<a href="person/Eric_Friedman.html">Eric Friedman</a> and <a href="person/Peter_M_Pawlowski.html">Peter M. Pawlowski</a> and <a href="person/John_Cieslewicz.html">John Cieslewicz</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-464.pdf">http://www.vldb.org/pvldb/2/vldb09-464.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1402--1413",
 	title         = "{SQL/MapReduce: A practical approach to self-describing, polymorphic, and parallelizable user-defined functions}",

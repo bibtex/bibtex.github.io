@@ -30,17 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Sarah Zaidan<br/><em>The adventures of Ms. Meta: chapter one demo</em><br/>FDG, 2019.</h2>
+<h2>Sarah Zaidan<br/><em>The <a href="word/adventur.html">adventures</a> of Ms. <a href="word/meta.html">Meta</a>: <a href="word/chapter.html">chapter</a> <a href="word/one.html">one</a> <a href="word/demo.html">demo</a></em><br/>FDG, 2019.</h2>
 <div class="rbox">
 <strong><a href="FDG-2019.html">FDG 2019</a></strong><hr/><a href="http://dblp.org/rec/html/conf/fdg/Zaidan19">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22The+adventures+of+Ms.+Meta:+chapter+one+demo%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3337722.3341832">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on the Foundations of Digital Games':'FDG');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FDG-2019-Zaidan,
 	author        = "Sarah Zaidan",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on the Foundations of Digital Games</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3337722.3341832">10.1145/3337722.3341832</a>",
 </span>	pages         = "3",
 	title         = "{The adventures of Ms. Meta: chapter one demo}",

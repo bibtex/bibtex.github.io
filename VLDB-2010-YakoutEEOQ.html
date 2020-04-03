@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Behavior+Based+Record+Linkage%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R39.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-YakoutEEOQ,
 	author        = "<a href="person/Mohamed_Yakout.html">Mohamed Yakout</a> and <a href="person/Ahmed_K_Elmagarmid.html">Ahmed K. Elmagarmid</a> and <a href="person/Hazem_Elmeleegy.html">Hazem Elmeleegy</a> and <a href="person/Mourad_Ouzzani.html">Mourad Ouzzani</a> and <a href="person/Alan_Qi.html">Alan Qi</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R39.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R39.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "439--448",
 	title         = "{Behavior Based Record Linkage}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22LogBase:+A+Scalable+Log-structured+Database+System+in+the+Cloud%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1004_hoangtamvo_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-VoWACO,
 	author        = "<a href="person/Hoang_Tam_Vo.html">Hoang Tam Vo</a> and <a href="person/Sheng_Wang.html">Sheng Wang</a> and <a href="person/Divyakant_Agrawal.html">Divyakant Agrawal</a> and <a href="person/Gang_Chen.html">Gang Chen</a> and <a href="person/Beng_Chin_Ooi.html">Beng Chin Ooi</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1004_hoangtamvo_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1004_hoangtamvo_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 10,
 	pages         = "1004--1015",
 	title         = "{LogBase: A Scalable Log-structured Database System in the Cloud}",

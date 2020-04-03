@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Understanding+Hierarchical+Methods+for+Differentially+Private+Histograms%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1954-qardaji.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-QardajiYL,
 	author        = "<a href="person/Wahbeh_H_Qardaji.html">Wahbeh H. Qardaji</a> and <a href="person/Weining_Yang.html">Weining Yang</a> and <a href="person/Ninghui_Li.html">Ninghui Li</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1954-qardaji.pdf">http://www.vldb.org/pvldb/vol6/p1954-qardaji.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1954--1965",
 	title         = "{Understanding Hierarchical Methods for Differentially Private Histograms}",

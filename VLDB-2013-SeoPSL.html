@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Distributed+SociaLite:+A+Datalog-Based+Language+for+Large-Scale+Graph+Analysis%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol6/p1906-seo.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2013-SeoPSL,
 	author        = "<a href="person/Jiwon_Seo.html">Jiwon Seo</a> and <a href="person/Jongsoo_Park.html">Jongsoo Park</a> and <a href="person/Jaeho_Shin.html">Jaeho Shin</a> and <a href="person/Monica_S_Lam.html">Monica S. Lam</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol6/p1906-seo.pdf">http://www.vldb.org/pvldb/vol6/p1906-seo.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1906--1917",
 	title         = "{Distributed SociaLite: A Datalog-Based Language for Large-Scale Graph Analysis}",

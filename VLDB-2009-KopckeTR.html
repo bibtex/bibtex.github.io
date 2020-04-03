@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Comparative+evaluation+of+entity+resolution+approaches+with+FEVER%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-998.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-KopckeTR,
 	author        = "<a href="person/Hanna_Koepcke.html">Hanna Köpcke</a> and <a href="person/Andreas_Thor.html">Andreas Thor</a> and <a href="person/Erhard_Rahm.html">Erhard Rahm</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-998.pdf">http://www.vldb.org/pvldb/2/vldb09-998.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1574--1577",
 	title         = "{Comparative evaluation of entity resolution approaches with FEVER}",

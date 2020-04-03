@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Identification+of+Implicit+Facts+in+Incomplete+OWL2-EL+Knowledge+Bases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1993-liagouris.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LiagourisT,
 	author        = "<a href="person/John_Liagouris.html">John Liagouris</a> and <a href="person/Manolis_Terrovitis.html">Manolis Terrovitis</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1993-liagouris.pdf">http://www.vldb.org/pvldb/vol7/p1993-liagouris.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1993--2004",
 	title         = "{Efficient Identification of Implicit Facts in Incomplete OWL2-EL Knowledge Bases}",

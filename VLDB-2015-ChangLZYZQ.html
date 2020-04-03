@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimal+Enumeration:+Efficient+Top-k+Tree+Matching%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p533-chang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-ChangLZYZQ,
 	author        = "<a href="person/Lijun_Chang.html">Lijun Chang</a> and <a href="person/Xuemin_Lin.html">Xuemin Lin</a> and <a href="person/Wenjie_Zhang.html">Wenjie Zhang</a> and <a href="person/Jeffrey_Xu_Yu.html">Jeffrey Xu Yu</a> and <a href="person/Ying_Zhang.html">Ying Zhang</a> and <a href="person/Lu_Qin.html">Lu Qin</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p533-chang.pdf">http://www.vldb.org/pvldb/vol8/p533-chang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "533--544",
 	title         = "{Optimal Enumeration: Efficient Top-k Tree Matching}",

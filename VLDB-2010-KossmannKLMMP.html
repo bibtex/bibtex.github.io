@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Cloudy:+A+Modular+Cloud+Storage+System%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D05.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-KossmannKLMMP,
 	author        = "<a href="person/Donald_Kossmann.html">Donald Kossmann</a> and <a href="person/Tim_Kraska.html">Tim Kraska</a> and <a href="person/Simon_Loesing.html">Simon Loesing</a> and <a href="person/Stephan_Merkli.html">Stephan Merkli</a> and <a href="person/Raman_Mittal.html">Raman Mittal</a> and <a href="person/Flavio_Pfaffhauser.html">Flavio Pfaffhauser</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D05.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/D05.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1533--1536",
 	title         = "{Cloudy: A Modular Cloud Storage System}",

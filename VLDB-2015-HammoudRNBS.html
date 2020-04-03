@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DREAM:+Distributed+RDF+Engine+with+Adaptive+Query+Planner+and+Minimal+Communication%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p654-Hammoud.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-HammoudRNBS,
 	author        = "<a href="person/Mohammad_Hammoud.html">Mohammad Hammoud</a> and <a href="person/Dania_Abed_Rabbou.html">Dania Abed Rabbou</a> and <a href="person/Reza_Nouri.html">Reza Nouri</a> and <a href="person/Seyed-Mehdi-Reza_Beheshti.html">Seyed-Mehdi-Reza Beheshti</a> and <a href="person/Sherif_Sakr.html">Sherif Sakr</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p654-Hammoud.pdf">http://www.vldb.org/pvldb/vol8/p654-Hammoud.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 6,
 	pages         = "654--665",
 	title         = "{DREAM: Distributed RDF Engine with Adaptive Query Planner and Minimal Communication}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Linearized+and+Single-Pass+Belief+Propagation%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p581-gatterbauer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-GatterbauerGKF,
 	author        = "<a href="person/Wolfgang_Gatterbauer.html">Wolfgang Gatterbauer</a> and <a href="person/Stephan_Guennemann.html">Stephan Günnemann</a> and <a href="person/Danai_Koutra.html">Danai Koutra</a> and <a href="person/Christos_Faloutsos.html">Christos Faloutsos</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p581-gatterbauer.pdf">http://www.vldb.org/pvldb/vol8/p581-gatterbauer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 5,
 	pages         = "581--592",
 	title         = "{Linearized and Single-Pass Belief Propagation}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Hashed+samples:+selectivity+estimators+for+set+similarity+selection+queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453883.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-HadjieleftheriouYKS,
 	author        = "<a href="person/Marios_Hadjieleftheriou.html">Marios Hadjieleftheriou</a> and <a href="person/Xiaohui_Yu.html">Xiaohui Yu</a> and <a href="person/Nick_Koudas.html">Nick Koudas</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453883.pdf">http://www.vldb.org/pvldb/1/1453883.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "201--212",
 	title         = "{Hashed samples: selectivity estimators for set similarity selection queries}",

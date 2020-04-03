@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22The+Uncracked+Pieces+in+Database+Cracking%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-SchuhknechtJD13,
 	author        = "<a href="person/Felix_Martin_Schuhknecht.html">Felix Martin Schuhknecht</a> and <a href="person/Alekh_Jindal.html">Alekh Jindal</a> and <a href="person/Jens_Dittrich.html">Jens Dittrich</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf">http://www.vldb.org/pvldb/vol7/p97-schuhknecht.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "97--108",
 	title         = "{The Uncracked Pieces in Database Cracking}",

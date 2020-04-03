@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Probabilistic+Nearest+Neighbor+Queries+on+Uncertain+Moving+Object+Trajectories%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p205-niedermayer.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-NiedermayerZERM0K13,
 	author        = "<a href="person/Johannes_Niedermayer.html">Johannes Niedermayer</a> and <a href="person/Andreas_Zuefle.html">Andreas Züfle</a> and <a href="person/Tobias_Emrich.html">Tobias Emrich</a> and <a href="person/Matthias_Renz.html">Matthias Renz</a> and <a href="person/Nikos_Mamoulis.html">Nikos Mamoulis</a> and <a href="person/Lei_Chen.html">Lei Chen</a> and <a href="person/Hans-Peter_Kriegel.html">Hans-Peter Kriegel</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p205-niedermayer.pdf">http://www.vldb.org/pvldb/vol7/p205-niedermayer.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 3,
 	pages         = "205--216",
 	title         = "{Probabilistic Nearest Neighbor Queries on Uncertain Moving Object Trajectories}",

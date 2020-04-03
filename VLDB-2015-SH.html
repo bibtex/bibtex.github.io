@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22CODD:+A+Dataless+Approach+to+Big+Data+Testing%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p2008-s.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SH,
 	author        = "<a href="person/Ashoke_S.html">Ashoke S.</a> and <a href="person/Jayant_R_Haritsa.html">Jayant R. Haritsa</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p2008-s.pdf">http://www.vldb.org/pvldb/vol8/p2008-s.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2008--2019",
 	title         = "{CODD: A Dataless Approach to Big Data Testing}",

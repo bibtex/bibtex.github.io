@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22SigMatch:+Fast+and+Scalable+Multi-Pattern+Matching%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R104.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-KandhanTP,
 	author        = "<a href="person/Ramakrishnan_Kandhan.html">Ramakrishnan Kandhan</a> and <a href="person/Nikhil_Teletia.html">Nikhil Teletia</a> and <a href="person/Jignesh_M_Patel.html">Jignesh M. Patel</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R104.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R104.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1173--1184",
 	title         = "{SigMatch: Fast and Scalable Multi-Pattern Matching}",

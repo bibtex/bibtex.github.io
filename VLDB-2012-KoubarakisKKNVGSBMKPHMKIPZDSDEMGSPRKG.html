@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22TELEIOS:+A+Database-Powered+Virtual+Earth+Observatory%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p2010_manoliskoubarakis_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-KoubarakisKKNVGSBMKPHMKIPZDSDEMGSPRKG,
 	author        = "<a href="person/Manolis_Koubarakis.html">Manolis Koubarakis</a> and <a href="person/Kostis_Kyzirakos.html">Kostis Kyzirakos</a> and <a href="person/Manos_Karpathiotakis.html">Manos Karpathiotakis</a> and <a href="person/Charalampos_Nikolaou.html">Charalampos Nikolaou</a> and <a href="person/Stavros_Vassos.html">Stavros Vassos</a> and <a href="person/George_Garbis.html">George Garbis</a> and <a href="person/Michael_Sioutis.html">Michael Sioutis</a> and <a href="person/Konstantina_Bereta.html">Konstantina Bereta</a> and <a href="person/Dimitrios_Michail.html">Dimitrios Michail</a> and <a href="person/Charalambos_Kontoes.html">Charalambos Kontoes</a> and <a href="person/Ioannis_Papoutsis.html">Ioannis Papoutsis</a> and <a href="person/Themos_Herekakis.html">Themos Herekakis</a> and <a href="person/Stefan_Manegold.html">Stefan Manegold</a> and <a href="person/Martin_L_Kersten.html">Martin L. Kersten</a> and <a href="person/Milena_Ivanova.html">Milena Ivanova</a> and <a href="person/Holger_Pirk.html">Holger Pirk</a> and <a href="person/Ying_Zhang.html">Ying Zhang</a> and <a href="person/Mihai_Datcu.html">Mihai Datcu</a> and <a href="person/Gottfried_Schwarz.html">Gottfried Schwarz</a> and <a href="person/Corneliu_Octavian_Dumitru.html">Corneliu Octavian Dumitru</a> and <a href="person/Daniela_Espinoza-Molina.html">Daniela Espinoza-Molina</a> and <a href="person/Katrin_Molch.html">Katrin Molch</a> and <a href="person/Ugo_Di_Giammatteo.html">Ugo Di Giammatteo</a> and <a href="person/Manuela_Sagona.html">Manuela Sagona</a> and <a href="person/Sergio_Perelli.html">Sergio Perelli</a> and <a href="person/Thorsten_Reitz.html">Thorsten Reitz</a> and <a href="person/Eva_Klien.html">Eva Klien</a> and <a href="person/Robert_Gregor.html">Robert Gregor</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p2010_manoliskoubarakis_vldb2012.pdf">http://vldb.org/pvldb/vol5/p2010_manoliskoubarakis_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "2010--2013",
 	title         = "{TELEIOS: A Database-Powered Virtual Earth Observatory}",

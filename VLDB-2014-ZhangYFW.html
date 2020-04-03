@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Design+and+Implementation+of+a+Real-Time+Interactive+Analytics+System+for+Large+Spatio-Temporal+Data%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1754-huawei.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-ZhangYFW,
 	author        = "<a href="person/Shiming_Zhang.html">Shiming Zhang</a> and <a href="person/Yin_Yang.html">Yin Yang</a> and <a href="person/Wei_Fan.html">Wei Fan</a> and <a href="person/Marianne_Winslett.html">Marianne Winslett</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1754-huawei.pdf">http://www.vldb.org/pvldb/vol7/p1754-huawei.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1754--1759",
 	title         = "{Design and Implementation of a Real-Time Interactive Analytics System for Large Spatio-Temporal Data}",

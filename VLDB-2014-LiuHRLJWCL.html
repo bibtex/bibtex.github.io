@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22DGFIndex+for+Smart+Grid:+Enhancing+Hive+with+a+Cost-Effective+Multidimensional+Range+Index%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1496-liu.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-LiuHRLJWCL,
 	author        = "<a href="person/Yue_Liu.html">Yue Liu</a> and <a href="person/Songlin_Hu.html">Songlin Hu</a> and <a href="person/Tilmann_Rabl.html">Tilmann Rabl</a> and <a href="person/Wantao_Liu.html">Wantao Liu</a> and <a href="person/Hans-Arno_Jacobsen.html">Hans-Arno Jacobsen</a> and <a href="person/Kaifeng_Wu.html">Kaifeng Wu</a> and <a href="person/Jian_Chen.html">Jian Chen</a> and <a href="person/Jintao_Li.html">Jintao Li</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1496-liu.pdf">http://www.vldb.org/pvldb/vol7/p1496-liu.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 13,
 	pages         = "1496--1507",
 	title         = "{DGFIndex for Smart Grid: Enhancing Hive with a Cost-Effective Multidimensional Range Index}",

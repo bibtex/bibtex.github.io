@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Goal-Oriented+Web-site+Navigation+for+On-line+Shoppers%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-988.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-DeutchMY,
 	author        = "<a href="person/Daniel_Deutch.html">Daniel Deutch</a> and <a href="person/Tova_Milo.html">Tova Milo</a> and <a href="person/Tom_Yam.html">Tom Yam</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-988.pdf">http://www.vldb.org/pvldb/2/vldb09-988.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "1642--1645",
 	title         = "{Goal-Oriented Web-site Navigation for On-line Shoppers}",

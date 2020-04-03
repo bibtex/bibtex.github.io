@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22A+practical+scalable+distributed+B-tree%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453922.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-AguileraGS,
 	author        = "<a href="person/Marcos_Kawazoe_Aguilera.html">Marcos Kawazoe Aguilera</a> and <a href="person/Wojciech_M_Golab.html">Wojciech M. Golab</a> and <a href="person/Mehul_A_Shah.html">Mehul A. Shah</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453922.pdf">http://www.vldb.org/pvldb/1/1453922.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "598--609",
 	title         = "{A practical scalable distributed B-tree}",

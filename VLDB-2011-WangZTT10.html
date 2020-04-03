@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+Triangulation-based+Dense+Neighborhood+Graphs+Discovery%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p58-wang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-WangZTT10,
 	author        = "<a href="person/Nan_Wang.html">Nan Wang</a> and <a href="person/Jingbo_Zhang.html">Jingbo Zhang</a> and <a href="person/Kian-Lee_Tan.html">Kian-Lee Tan</a> and <a href="person/Anthony_K_H_Tung.html">Anthony K. H. Tung</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p58-wang.pdf">http://www.vldb.org/pvldb/vol4/p58-wang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 2,
 	pages         = "58--68",
 	title         = "{On Triangulation-based Dense Neighborhood Graphs Discovery}",

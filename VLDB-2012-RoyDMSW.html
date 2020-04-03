@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Massive+Genomic+Data+Processing+and+Deep+Analysis%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p1906_abhishekroy_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-RoyDMSW,
 	author        = "<a href="person/Abhishek_Roy.html">Abhishek Roy</a> and <a href="person/Yanlei_Diao.html">Yanlei Diao</a> and <a href="person/Evan_Mauceli.html">Evan Mauceli</a> and <a href="person/Yiping_Shen.html">Yiping Shen</a> and <a href="person/Bai-Lin_Wu.html">Bai-Lin Wu</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p1906_abhishekroy_vldb2012.pdf">http://vldb.org/pvldb/vol5/p1906_abhishekroy_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1906--1909",
 	title         = "{Massive Genomic Data Processing and Deep Analysis}",

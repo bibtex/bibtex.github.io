@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Resource+Bricolage+for+Parallel+Database+Systems%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p25-Li.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-LiNN14,
 	author        = "<a href="person/Jiexing_Li.html">Jiexing Li</a> and <a href="person/Jeffrey_F_Naughton.html">Jeffrey F. Naughton</a> and <a href="person/Rimma_V_Nehme.html">Rimma V. Nehme</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p25-Li.pdf">http://www.vldb.org/pvldb/vol8/p25-Li.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "25--36",
 	title         = "{Resource Bricolage for Parallel Database Systems}",

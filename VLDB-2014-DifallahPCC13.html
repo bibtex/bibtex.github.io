@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22OLTP-Bench:+An+Extensible+Testbed+for+Benchmarking+Relational+Databases%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p277-difallah.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-DifallahPCC13,
 	author        = "<a href="person/Djellel_Eddine_Difallah.html">Djellel Eddine Difallah</a> and <a href="person/Andrew_Pavlo.html">Andrew Pavlo</a> and <a href="person/Carlo_Curino.html">Carlo Curino</a> and <a href="person/Philippe_Cudre-Mauroux.html">Philippe Cudré-Mauroux</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p277-difallah.pdf">http://www.vldb.org/pvldb/vol7/p277-difallah.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 4,
 	pages         = "277--288",
 	title         = "{OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases}",

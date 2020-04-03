@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Scalable+SPARQL+Querying+of+Large+RDF+Graphs%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1123-huang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-HuangAR,
 	author        = "<a href="person/Jiewen_Huang.html">Jiewen Huang</a> and <a href="person/Daniel_J_Abadi.html">Daniel J. Abadi</a> and <a href="person/Kun_Ren.html">Kun Ren</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1123-huang.pdf">http://www.vldb.org/pvldb/vol4/p1123-huang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "1123--1134",
 	title         = "{Scalable SPARQL Querying of Large RDF Graphs}",

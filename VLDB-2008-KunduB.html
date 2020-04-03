@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Structural+signatures+for+tree+data+structures%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/1/1453876.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2008-KunduB,
 	author        = "<a href="person/Ashish_Kundu.html">Ashish Kundu</a> and <a href="person/Elisa_Bertino.html">Elisa Bertino</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/1/1453876.pdf">http://www.vldb.org/pvldb/1/1453876.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "138--150",
 	title         = "{Structural signatures for tree data structures}",

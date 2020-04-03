@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Microsoft+Codename+“Montego”+—+Data+Import,+Transformation,+and+Publication+for+Information+Workers%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol4/p1454-maine.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2011-MainePST,
 	author        = "<a href="person/Stephen_J_Maine.html">Stephen J. Maine</a> and <a href="person/Lorenz_Prem.html">Lorenz Prem</a> and <a href="person/Clemens_A_Szyperski.html">Clemens A. Szyperski</a> and <a href="person/James_F_Terwilliger.html">James F. Terwilliger</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol4/p1454-maine.pdf">http://www.vldb.org/pvldb/vol4/p1454-maine.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1454--1457",
 	title         = "{Microsoft Codename “Montego” — Data Import, Transformation, and Publication for Information Workers}",

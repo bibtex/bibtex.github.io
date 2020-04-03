@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Laconic+Schema+Mappings:+Computing+the+Core+with+SQL+Queries%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/2/vldb09-595.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2009-CateCKT,
 	author        = "<a href="person/Balder_ten_Cate.html">Balder ten Cate</a> and <a href="person/Laura_Chiticariu.html">Laura Chiticariu</a> and <a href="person/Phokion_G_Kolaitis.html">Phokion G. Kolaitis</a> and <a href="person/Wang_Chiew_Tan.html">Wang Chiew Tan</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/2/vldb09-595.pdf">http://www.vldb.org/pvldb/2/vldb09-595.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1006--1017",
 	title         = "{Laconic Schema Mappings: Computing the Core with SQL Queries}",

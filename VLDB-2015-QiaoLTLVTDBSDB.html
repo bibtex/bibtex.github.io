@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Gobblin:+Unifying+Data+Ingestion+for+Hadoop%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1764-qiao.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-QiaoLTLVTDBSDB,
 	author        = "<a href="person/Lin_Qiao.html">Lin Qiao</a> and <a href="person/Yinan_Li.html">Yinan Li</a> and <a href="person/Sahil_Takiar.html">Sahil Takiar</a> and <a href="person/Ziyang_Liu.html">Ziyang Liu</a> and <a href="person/Narasimha_Veeramreddy.html">Narasimha Veeramreddy</a> and <a href="person/Min_Tu.html">Min Tu</a> and <a href="person/Ying_Dai.html">Ying Dai</a> and <a href="person/Issac_Buenrostro.html">Issac Buenrostro</a> and <a href="person/Kapil_Surlaker.html">Kapil Surlaker</a> and <a href="person/Shirshanka_Das.html">Shirshanka Das</a> and <a href="person/Chavdar_Botev.html">Chavdar Botev</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1764-qiao.pdf">http://www.vldb.org/pvldb/vol8/p1764-qiao.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1764--1775",
 	title         = "{Gobblin: Unifying Data Ingestion for Hadoop}",

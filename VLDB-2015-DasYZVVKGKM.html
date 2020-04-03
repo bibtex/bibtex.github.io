@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Query+Optimization+in+Oracle+12c+Database+In-Memory%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p1770-das.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-DasYZVVKGKM,
 	author        = "<a href="person/Dinesh_Das.html">Dinesh Das</a> and <a href="person/Jiaqi_Yan.html">Jiaqi Yan</a> and <a href="person/Mohamed_Zait.html">Mohamed Zaït</a> and <a href="person/Satyanarayana_R_Valluri.html">Satyanarayana R. Valluri</a> and <a href="person/Nirav_Vyas.html">Nirav Vyas</a> and <a href="person/Ramarajan_Krishnamachari.html">Ramarajan Krishnamachari</a> and <a href="person/Prashant_Gaharwar.html">Prashant Gaharwar</a> and <a href="person/Jesse_Kamp.html">Jesse Kamp</a> and <a href="person/Niloy_Mukherjee.html">Niloy Mukherjee</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p1770-das.pdf">http://www.vldb.org/pvldb/vol8/p1770-das.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 12,
 	pages         = "1770--1781",
 	title         = "{Query Optimization in Oracle 12c Database In-Memory}",

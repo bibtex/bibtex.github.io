@@ -30,17 +30,18 @@
 
 </div>
 <div class="main">
-<h2>Daniel Sjölie, Sebastian Badylak<br/><em>Mind tricks for presence</em><br/>FDG, 2019.</h2>
+<h2>Daniel Sjölie, Sebastian Badylak<br/><em><a href="word/mind.html">Mind</a> <a href="word/trick.html">tricks</a> for <a href="word/presenc.html">presence</a></em><br/>FDG, 2019.</h2>
 <div class="rbox">
 <strong><a href="FDG-2019.html">FDG 2019</a></strong><hr/><a href="http://dblp.org/rec/html/conf/fdg/SjolieB19">DBLP</a><br/>
 <a href="https://scholar.google.com/scholar?q=%22Mind+tricks+for+presence%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3337722.3337763">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#booktitle').text(this.checked?'Proceedings of the 14th International Conference on the Foundations of Digital Games':'FDG');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@inproceedings{FDG-2019-SjolieB,
 	author        = "<a href="person/Daniel_Sjoelie.html">Daniel Sjölie</a> and Sebastian Badylak",
+	booktitle     = "{<span id="booktitle">Proceedings of the 14th International Conference on the Foundations of Digital Games</span>}",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3337722.3337763">10.1145/3337722.3337763</a>",
 </span>	pages         = "7",
 	title         = "{Mind tricks for presence}",

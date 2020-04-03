@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimizing+phylogenetic+supertrees+using+answer+set+programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1017/S1471068415000265">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{ICLP-J-2015-KoponenOJS,
 	author        = "<a href="person/Laura_Koponen.html">Laura Koponen</a> and <a href="person/Emilia_Oikarinen.html">Emilia Oikarinen</a> and <a href="person/Tomi_Janhunen.html">Tomi Janhunen</a> and <a href="person/Laura_Saeilae.html">Laura Säilä</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1017/S1471068415000265">10.1017/S1471068415000265</a>",
-</span>	journal       = "{TPLP}",
+</span>	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	pages         = "604--619",
 	title         = "{Optimizing phylogenetic supertrees using answer set programming}",

@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Ibex+—+An+Intelligent+Storage+Engine+with+Support+for+Advanced+SQL+Off-loading%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p963-woods.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-WoodsIA,
 	author        = "<a href="person/Louis_Woods.html">Louis Woods</a> and <a href="person/Zsolt_Istvan.html">Zsolt István</a> and <a href="person/Gustavo_Alonso.html">Gustavo Alonso</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p963-woods.pdf">http://www.vldb.org/pvldb/vol7/p963-woods.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 11,
 	pages         = "963--974",
 	title         = "{Ibex — An Intelligent Storage Engine with Support for Advanced SQL Off-loading}",

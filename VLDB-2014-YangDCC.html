@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Finding+Patterns+in+a+Knowledge+Base+using+Keywords+to+Compose+Table+Answers%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol7/p1809-yang.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2014-YangDCC,
 	author        = "<a href="person/Mohan_Yang.html">Mohan Yang</a> and <a href="person/Bolin_Ding.html">Bolin Ding</a> and <a href="person/Surajit_Chaudhuri.html">Surajit Chaudhuri</a> and <a href="person/Kaushik_Chakrabarti.html">Kaushik Chakrabarti</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol7/p1809-yang.pdf">http://www.vldb.org/pvldb/vol7/p1809-yang.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 14,
 	pages         = "1809--1820",
 	title         = "{Finding Patterns in a Knowledge Base using Keywords to Compose Table Answers}",

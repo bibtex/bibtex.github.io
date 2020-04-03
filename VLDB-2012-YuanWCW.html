@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+Subgraph+Similarity+Search+on+Large+Probabilistic+Graph+Databases%22">Scholar</a><hr/><a href="http://vldb.org/pvldb/vol5/p800_yeyuan_vldb2012.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2012-YuanWCW,
 	author        = "<a href="person/Ye_Yuan.html">Ye Yuan</a> and <a href="person/Guoren_Wang.html">Guoren Wang</a> and <a href="person/Lei_Chen.html">Lei Chen</a> and <a href="person/Haixun_Wang.html">Haixun Wang</a>",
 <span class="uri">	ee            = "<a href="http://vldb.org/pvldb/vol5/p800_yeyuan_vldb2012.pdf">http://vldb.org/pvldb/vol5/p800_yeyuan_vldb2012.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "800--811",
 	title         = "{Efficient Subgraph Similarity Search on Large Probabilistic Graph Databases}",

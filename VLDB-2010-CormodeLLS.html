@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22Minimizing+Minimality+and+Maximizing+Utility:+Analyzing+Method-based+attacks+on+Anonymized+Data%22">Scholar</a><hr/><a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R93.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2010-CormodeLLS,
 	author        = "<a href="person/Graham_Cormode.html">Graham Cormode</a> and <a href="person/Ninghui_Li.html">Ninghui Li</a> and <a href="person/Tiancheng_Li.html">Tiancheng Li</a> and <a href="person/Divesh_Srivastava.html">Divesh Srivastava</a>",
 <span class="uri">	ee            = "<a href="http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R93.pdf">http://www.comp.nus.edu.sg/~vldb2010/proceedings/files/papers/R93.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 1,
 	pages         = "1045--1056",
 	title         = "{Minimizing Minimality and Maximizing Utility: Analyzing Method-based attacks on Anonymized Data}",

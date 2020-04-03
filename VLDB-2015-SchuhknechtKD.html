@@ -36,13 +36,13 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+Surprising+Difficulty+of+Simple+Things:+the+Case+of+Radix+Partitioning%22">Scholar</a><hr/><a href="http://www.vldb.org/pvldb/vol8/p934-schuhknecht.pdf">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{VLDB-2015-SchuhknechtKD,
 	author        = "<a href="person/Felix_Martin_Schuhknecht.html">Felix Martin Schuhknecht</a> and <a href="person/Pankaj_Khanchandani.html">Pankaj Khanchandani</a> and <a href="person/Jens_Dittrich.html">Jens Dittrich</a>",
 <span class="uri">	ee            = "<a href="http://www.vldb.org/pvldb/vol8/p934-schuhknecht.pdf">http://www.vldb.org/pvldb/vol8/p934-schuhknecht.pdf</a>",
-</span>	journal       = "{PVLDB}",
+</span>	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	number        = 9,
 	pages         = "934--937",
 	title         = "{On the Surprising Difficulty of Simple Things: the Case of Radix Partitioning}",
