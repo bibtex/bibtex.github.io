@@ -30,16 +30,18 @@
 
 </div>
 <div class="main">
-<h2><br/><em>Proceedings of the 46th Symposium on Principles of Programming Languages</em><br/>POPL, 2018.</h2>
+<h2>Fritz Henglein, Stephanie Weirich<br/><em>Proceedings of the 46th Symposium on Principles of Programming Languages</em><br/>POPL, 2018.</h2>
 <div class="rbox">
 <strong><a href="PLT.html">PLT</a></strong><hr/>no DBLP info<br/>
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+46th+Symposium+on+Principles+of+Programming+Languages%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 46th Symposium on Principles of Programming Languages':'POPL');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 46th Symposium on Principles of Programming Languages':'POPL');$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{POPL-2019,
+	editor        = "<a href="person/Fritz_Henglein.html">Fritz Henglein</a> and <a href="person/Stephanie_Weirich.html">Stephanie Weirich</a>",
+	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	publisher     = "{ACM}",
 	title         = "{<span id="title">Proceedings of the 46th Symposium on Principles of Programming Languages</span>}",
 	year          = 2018,

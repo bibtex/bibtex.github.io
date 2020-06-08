@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22On+the+fly+synthesis+of+edit+suggestions%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360569">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-MiltnerGLLRSTU,
 	author        = "Anders Miltner and <a href="person/Sumit_Gulwani.html">Sumit Gulwani</a> and <a href="person/Vu_Le.html">Vu Le</a> and <a href="person/Alan_Leung.html">Alan Leung</a> and <a href="person/Arjun_Radhakrishna.html">Arjun Radhakrishna</a> and <a href="person/Gustavo_Soares.html">Gustavo Soares</a> and <a href="person/Ashish_Tiwari_0001.html">Ashish Tiwari 0001</a> and <a href="person/Abhishek_Udupa.html">Abhishek Udupa</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360569">10.1145/3360569</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "29",
+	publisher     = "{ACM}",
 	title         = "{On the fly synthesis of edit suggestions}",
 	volume        = 3,
 	year          = 2019,

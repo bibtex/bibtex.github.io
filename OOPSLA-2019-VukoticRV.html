@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Asphalion:+trustworthy+shielding+against+Byzantine+faults%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360564">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-VukoticRV,
 	author        = "<a href="person/Ivana_Vukotic.html">Ivana Vukotic</a> and <a href="person/Vincent_Rahli.html">Vincent Rahli</a> and <a href="person/Paulo_Jorge_Esteves_Verissimo.html">Paulo Jorge Esteves Veríssimo</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360564">10.1145/3360564</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "32",
+	publisher     = "{ACM}",
 	title         = "{Asphalion: trustworthy shielding against Byzantine faults}",
 	volume        = 3,
 	year          = 2019,

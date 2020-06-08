@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Synthesizing+configuration+file+specifications+with+association+rule+learning%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133888">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-SantolucitoZDSP,
 	author        = "<a href="person/Mark_Santolucito.html">Mark Santolucito</a> and <a href="person/Ennan_Zhai.html">Ennan Zhai</a> and Rahul Dhodapkar and Aaron Shim and <a href="person/Ruzica_Piskac.html">Ruzica Piskac</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133888">10.1145/3133888</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "20",
+	publisher     = "{ACM}",
 	title         = "{Synthesizing configuration file specifications with association rule learning}",
 	volume        = 1,
 	year          = 2017,

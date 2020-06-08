@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Thread-safe+reactive+programming%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276477">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-DrechslerMSM,
 	author        = "<a href="person/Joscha_Drechsler.html">Joscha Drechsler</a> and <a href="person/Ragnar_Mogk.html">Ragnar Mogk</a> and <a href="person/Guido_Salvaneschi.html">Guido Salvaneschi</a> and <a href="person/Mira_Mezini.html">Mira Mezini</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276477">10.1145/3276477</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Thread-safe reactive programming}",
 	volume        = 2,
 	year          = 2018,

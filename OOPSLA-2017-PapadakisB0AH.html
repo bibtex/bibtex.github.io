@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Seam:+provably+safe+local+edits+on+graphs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133902">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-PapadakisB0AH,
 	author        = "Manolis Papadakis and Gilbert Louis Bernstein and <a href="person/Rahul_Sharma_0001.html">Rahul Sharma 0001</a> and <a href="person/Alex_Aiken.html">Alex Aiken</a> and <a href="person/Pat_Hanrahan.html">Pat Hanrahan</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133902">10.1145/3133902</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "29",
+	publisher     = "{ACM}",
 	title         = "{Seam: provably safe local edits on graphs}",
 	volume        = 1,
 	year          = 2017,

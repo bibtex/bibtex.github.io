@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Modular+verification+of+heap+reachability+properties+in+separation+logic%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360547">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-Ter-GabrielyanS,
 	author        = "Arshavir Ter-Gabrielyan and <a href="person/Alexander_J_Summers.html">Alexander J. Summers</a> and <a href="person/Peter_Mueller_0001.html">Peter Müller 0001</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360547">10.1145/3360547</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "28",
+	publisher     = "{ACM}",
 	title         = "{Modular verification of heap reachability properties in separation logic}",
 	volume        = 3,
 	year          = 2019,

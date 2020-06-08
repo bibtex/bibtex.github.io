@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22TiML:+a+functional+language+for+practical+complexity+analysis+with+invariants%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133903">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-WangWC,
 	author        = "Peng Wang 0048 and <a href="person/Di_Wang.html">Di Wang</a> and <a href="person/Adam_Chlipala.html">Adam Chlipala</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133903">10.1145/3133903</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "26",
+	publisher     = "{ACM}",
 	title         = "{TiML: a functional language for practical complexity analysis with invariants}",
 	volume        = 1,
 	year          = 2017,

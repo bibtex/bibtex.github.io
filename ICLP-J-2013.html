@@ -36,12 +36,12 @@
 <a href="https://scholar.google.com/scholar?q=%22Special+Issue+of+the+29th+International+Conference+on+Logic+Programming%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Theory and Practice of Logic Programming':'TPLP');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ICLP-J-2013,
 	editor        = "<a href="person/Evelina_Lamma.html">Evelina Lamma</a> and <a href="person/Terrance_Swift.html">Terrance Swift</a>",
-	journal       = "{TPLP}",
+	journal       = "{<span id="journal">Theory and Practice of Logic Programming</span>}",
 	number        = "4-5",
 	title         = "{Special Issue of the 29th International Conference on Logic Programming}",
 	volume        = 13,

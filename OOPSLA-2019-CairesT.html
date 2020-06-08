@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Refinement+kinds:+type-safe+programming+with+practical+type-level+computation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360557">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-CairesT,
 	author        = "<a href="person/Luis_Caires.html">Luís Caires</a> and <a href="person/Bernardo_Toninho.html">Bernardo Toninho</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360557">10.1145/3360557</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Refinement kinds: type-safe programming with practical type-level computation}",
 	volume        = 3,
 	year          = 2019,

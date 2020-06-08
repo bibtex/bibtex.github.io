@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Deadlock+avoidance+in+parallel+programs+with+futures:+why+parallel+tasks+should+not+wait+for+strangers%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3143359">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-CogumbreiroSMSV,
 	author        = "<a href="person/Tiago_Cogumbreiro.html">Tiago Cogumbreiro</a> and <a href="person/Rishi_Surendran.html">Rishi Surendran</a> and <a href="person/Francisco_Martins.html">Francisco Martins</a> and <a href="person/Vivek_Sarkar.html">Vivek Sarkar</a> and Vasco T. Vasconcelos and Max Grossman",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3143359">10.1145/3143359</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "26",
+	publisher     = "{ACM}",
 	title         = "{Deadlock avoidance in parallel programs with futures: why parallel tasks should not wait for strangers}",
 	volume        = 1,
 	year          = 2017,

@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Generating+a+fluent+API+with+syntax+checking+from+an+LR+grammar%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360560">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-YamazakiNIC,
 	author        = "<a href="person/Tetsuro_Yamazaki.html">Tetsuro Yamazaki</a> and <a href="person/Tomoki_Nakamaru.html">Tomoki Nakamaru</a> and <a href="person/Kazuhiro_Ichikawa.html">Kazuhiro Ichikawa</a> and <a href="person/Shigeru_Chiba.html">Shigeru Chiba</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360560">10.1145/3360560</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "24",
+	publisher     = "{ACM}",
 	title         = "{Generating a fluent API with syntax checking from an LR grammar}",
 	volume        = 3,
 	year          = 2019,

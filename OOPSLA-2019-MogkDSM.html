@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22A+fault-tolerant+programming+model+for+distributed+interactive+applications%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360570">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-MogkDSM,
 	author        = "<a href="person/Ragnar_Mogk.html">Ragnar Mogk</a> and <a href="person/Joscha_Drechsler.html">Joscha Drechsler</a> and <a href="person/Guido_Salvaneschi.html">Guido Salvaneschi</a> and <a href="person/Mira_Mezini.html">Mira Mezini</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360570">10.1145/3360570</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "29",
+	publisher     = "{ACM}",
 	title         = "{A fault-tolerant programming model for distributed interactive applications}",
 	volume        = 3,
 	year          = 2019,

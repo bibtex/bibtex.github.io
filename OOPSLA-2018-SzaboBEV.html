@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Incrementalizing+lattice-based+program+analyses+in+Datalog%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276509">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-SzaboBEV,
 	author        = "<a href="person/Tamas_Szabo.html">Tamás Szabó</a> and <a href="person/Gabor_Bergmann.html">Gábor Bergmann</a> and <a href="person/Sebastian_Erdweg.html">Sebastian Erdweg</a> and <a href="person/Markus_Voelter.html">Markus Voelter</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276509">10.1145/3276509</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "29",
+	publisher     = "{ACM}",
 	title         = "{Incrementalizing lattice-based program analyses in Datalog}",
 	volume        = 2,
 	year          = 2018,

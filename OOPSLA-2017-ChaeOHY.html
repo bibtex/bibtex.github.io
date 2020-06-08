@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Automatically+generating+features+for+learning+program+analysis+heuristics+for+C-like+languages%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133925">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-ChaeOHY,
 	author        = "Kwonsoo Chae and <a href="person/Hakjoo_Oh.html">Hakjoo Oh</a> and <a href="person/Kihong_Heo.html">Kihong Heo</a> and <a href="person/Hongseok_Yang.html">Hongseok Yang</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133925">10.1145/3133925</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "25",
+	publisher     = "{ACM}",
 	title         = "{Automatically generating features for learning program analysis heuristics for C-like languages}",
 	volume        = 1,
 	year          = 2017,

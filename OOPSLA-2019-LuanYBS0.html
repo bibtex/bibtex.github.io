@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Aroma:+code+recommendation+via+structural+code+search%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360578">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-LuanYBS0,
 	author        = "Sifei Luan and <a href="person/Di_Yang.html">Di Yang</a> and Celeste Barnaby and <a href="person/Koushik_Sen.html">Koushik Sen</a> and <a href="person/Satish_Chandra_0001.html">Satish Chandra 0001</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360578">10.1145/3360578</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "28",
+	publisher     = "{ACM}",
 	title         = "{Aroma: code recommendation via structural code search}",
 	volume        = 3,
 	year          = 2019,

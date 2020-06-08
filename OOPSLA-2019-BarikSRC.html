@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Optimization+of+swift+protocols%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360590">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-BarikSRC,
 	author        = "<a href="person/Rajkishore_Barik.html">Rajkishore Barik</a> and <a href="person/Manu_Sridharan.html">Manu Sridharan</a> and <a href="person/Murali_Krishna_Ramanathan.html">Murali Krishna Ramanathan</a> and <a href="person/Milind_Chabbi.html">Milind Chabbi</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360590">10.1145/3360590</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "27",
+	publisher     = "{ACM}",
 	title         = "{Optimization of swift protocols}",
 	volume        = 3,
 	year          = 2019,

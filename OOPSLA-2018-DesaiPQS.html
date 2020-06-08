@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Compositional+programming+and+testing+of+dynamic+distributed+systems%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276529">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-DesaiPQS,
 	author        = "<a href="person/Ankush_Desai.html">Ankush Desai</a> and <a href="person/Amar_Phanishayee.html">Amar Phanishayee</a> and <a href="person/Shaz_Qadeer.html">Shaz Qadeer</a> and <a href="person/Sanjit_A_Seshia.html">Sanjit A. Seshia</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276529">10.1145/3276529</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Compositional programming and testing of dynamic distributed systems}",
 	volume        = 2,
 	year          = 2018,

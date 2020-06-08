@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Faster+variational+execution+with+transparent+bytecode+transformation%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276487">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-WongMLK,
 	author        = "<a href="person/Chu-Pan_Wong.html">Chu-Pan Wong</a> and <a href="person/Jens_Meinicke.html">Jens Meinicke</a> and Lukas Lazarek and <a href="person/Christian_Kaestner.html">Christian Kästner</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276487">10.1145/3276487</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Faster variational execution with transparent bytecode transformation}",
 	volume        = 2,
 	year          = 2018,

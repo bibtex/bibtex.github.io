@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22What+happens-after+the+first+race?+enhancing+the+predictive+power+of+happens-before+based+dynamic+race+detection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276515">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-MathurK0,
 	author        = "<a href="person/Umang_Mathur.html">Umang Mathur</a> and <a href="person/Dileep_Kini.html">Dileep Kini</a> and <a href="person/Mahesh_Viswanathan_0001.html">Mahesh Viswanathan 0001</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276515">10.1145/3276515</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "29",
+	publisher     = "{ACM}",
 	title         = "{What happens-after the first race? enhancing the predictive power of happens-before based dynamic race detection}",
 	volume        = 2,
 	year          = 2018,

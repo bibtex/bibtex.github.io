@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Instrumentation+bias+for+dynamic+data+race+detection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133893">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-WoodCBG,
 	author        = "<a href="person/Benjamin_P_Wood.html">Benjamin P. Wood</a> and <a href="person/Man_Cao.html">Man Cao</a> and <a href="person/Michael_D_Bond.html">Michael D. Bond</a> and <a href="person/Dan_Grossman.html">Dan Grossman</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133893">10.1145/3133893</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "31",
+	publisher     = "{ACM}",
 	title         = "{Instrumentation bias for dynamic data race detection}",
 	volume        = 1,
 	year          = 2017,

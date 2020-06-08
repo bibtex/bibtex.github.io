@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Static+placement+of+computation+on+heterogeneous+devices%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133874">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-PoesiaGFP,
 	author        = "Gabriel Poesia and Breno Campos Ferreira Guimarães and Fabricio Ferracioli and <a href="person/Fernando_Magno_Quintao_Pereira.html">Fernando Magno Quintão Pereira</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133874">10.1145/3133874</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "28",
+	publisher     = "{ACM}",
 	title         = "{Static placement of computation on heterogeneous devices}",
 	volume        = 1,
 	year          = 2017,

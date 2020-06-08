@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Casting+about+in+the+dark:+an+empirical+study+of+cast+operations+in+Java+programs%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360584">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-MastrangeloHN,
 	author        = "<a href="person/Luis_Mastrangelo.html">Luis Mastrangelo</a> and <a href="person/Matthias_Hauswirth.html">Matthias Hauswirth</a> and <a href="person/Nathaniel_Nystrom.html">Nathaniel Nystrom</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360584">10.1145/3360584</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "31",
+	publisher     = "{ACM}",
 	title         = "{Casting about in the dark: an empirical study of cast operations in Java programs}",
 	volume        = 3,
 	year          = 2019,

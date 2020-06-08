@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Duet:+an+expressive+higher-order+language+and+linear+type+system+for+statically+enforcing+differential+privacy%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360598">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-NearDASGWSZSSS,
 	author        = "<a href="person/Joseph_P_Near.html">Joseph P. Near</a> and <a href="person/David_Darais.html">David Darais</a> and Chike Abuah and Tim Stevens and Pranav Gaddamadugu and <a href="person/Lun_Wang.html">Lun Wang</a> and Neel Somani and Mu Zhang 0001 and <a href="person/Nikhil_Sharma.html">Nikhil Sharma</a> and Alex Shan and <a href="person/Dawn_Song.html">Dawn Song</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360598">10.1145/3360598</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Duet: an expressive higher-order language and linear type system for statically enforcing differential privacy}",
 	volume        = 3,
 	year          = 2019,

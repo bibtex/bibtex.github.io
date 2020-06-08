@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Cross-component+garbage+collection%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276521">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-DegenbaevEHHLP,
 	author        = "Ulan Degenbaev and <a href="person/Jochen_Eisinger.html">Jochen Eisinger</a> and <a href="person/Kentaro_Hara.html">Kentaro Hara</a> and Marcel Hlopko and <a href="person/Michael_Lippautz.html">Michael Lippautz</a> and <a href="person/Hannes_Payer.html">Hannes Payer</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276521">10.1145/3276521</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "24",
+	publisher     = "{ACM}",
 	title         = "{Cross-component garbage collection}",
 	volume        = 2,
 	year          = 2018,

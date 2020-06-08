@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22FairSquare:+probabilistic+verification+of+program+fairness%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133904">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-AlbarghouthiDDN,
 	author        = "<a href="person/Aws_Albarghouthi.html">Aws Albarghouthi</a> and <a href="person/Loris_DAntoni.html">Loris D'Antoni</a> and <a href="person/Samuel_Drews.html">Samuel Drews</a> and <a href="person/Aditya_V_Nori.html">Aditya V. Nori</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133904">10.1145/3133904</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{FairSquare: probabilistic verification of program fairness}",
 	volume        = 1,
 	year          = 2017,

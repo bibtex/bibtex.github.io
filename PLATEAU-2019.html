@@ -36,18 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+10th+Workshop+on+Evaluation+and+Usability+of+Programming+Languages+and+Tools%22">Scholar</a><hr/><a href="https://www.dagstuhl.de/dagpub/978-3-95977-135-1">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 10th Workshop on Evaluation and Usability of Programming Languages and Tools':'PLATEAU');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 10th Workshop on Evaluation and Usability of Programming Languages and Tools':'PLATEAU');$('#publisher').text(this.checked?'Schloss Dagstuhl - Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{PLATEAU-2019,
 	editor        = "<a href="person/Sarah_Chasins.html">Sarah Chasins</a> and <a href="person/Elena_L_Glassman.html">Elena L. Glassman</a> and <a href="person/Joshua_Sunshine.html">Joshua Sunshine</a>",
 <span class="uri">	ee            = "<a href="https://www.dagstuhl.de/dagpub/978-3-95977-135-1">https://www.dagstuhl.de/dagpub/978-3-95977-135-1</a>",
 </span><span id="isbn">	isbn          = "978-3-95977-135-1",
-</span>	publisher     = "{Schloss Dagstuhl - Leibniz-Zentrum für Informatik}",
+</span>	publisher     = "{<span id="publisher">Schloss Dagstuhl - Leibniz-Zentrum für Informatik</span>}",
 	series        = "{OASICS}",
 	title         = "{<span id="title">Proceedings of the 10th Workshop on Evaluation and Usability of Programming Languages and Tools</span>}",
-	volume        = "76",
-	year          = "2020",
+	volume        = 76,
+	year          = 2020,
 }</pre>
 </div>
 <hr/>

@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Specifying+concurrent+programs+in+separation+logic:+morphisms+and+simulations%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360587">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-Nanevski0DF,
 	author        = "<a href="person/Aleksandar_Nanevski.html">Aleksandar Nanevski</a> and Anindya Banerjee 0001 and <a href="person/German_Andres_Delbianco.html">Germán Andrés Delbianco</a> and Ignacio Fábregas",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360587">10.1145/3360587</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "30",
+	publisher     = "{ACM}",
 	title         = "{Specifying concurrent programs in separation logic: morphisms and simulations}",
 	volume        = 3,
 	year          = 2019,

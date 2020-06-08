@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Collapsible+contracts:+fixing+a+pathology+of+gradual+typing%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3276503">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2018-FelteyGSFS,
 	author        = "<a href="person/Daniel_Feltey.html">Daniel Feltey</a> and <a href="person/Ben_Greenman.html">Ben Greenman</a> and <a href="person/Christophe_Scholliers.html">Christophe Scholliers</a> and <a href="person/Robert_Bruce_Findler.html">Robert Bruce Findler</a> and <a href="person/Vincent_St-Amour.html">Vincent St-Amour</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3276503">10.1145/3276503</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "27",
+	publisher     = "{ACM}",
 	title         = "{Collapsible contracts: fixing a pathology of gradual typing}",
 	volume        = 2,
 	year          = 2018,

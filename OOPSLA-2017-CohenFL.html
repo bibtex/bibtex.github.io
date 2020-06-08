@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Efficient+logging+in+non-volatile+memory+by+exploiting+coherency+protocols%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3133891">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-CohenFL,
 	author        = "<a href="person/Nachshon_Cohen.html">Nachshon Cohen</a> and Michal Friedman and <a href="person/James_R_Larus.html">James R. Larus</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3133891">10.1145/3133891</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "24",
+	publisher     = "{ACM}",
 	title         = "{Efficient logging in non-volatile memory by exploiting coherency protocols}",
 	volume        = 1,
 	year          = 2017,

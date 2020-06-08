@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Design,+implementation,+and+application+of+GPU-based+Java+bytecode+interpreters%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3360603">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2019-CelikNRG,
 	author        = "<a href="person/Ahmet_Celik.html">Ahmet Çelik</a> and <a href="person/Pengyu_Nie.html">Pengyu Nie</a> and <a href="person/Christopher_J_Rossbach.html">Christopher J. Rossbach</a> and <a href="person/Milos_Gligoric.html">Milos Gligoric</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3360603">10.1145/3360603</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "28",
+	publisher     = "{ACM}",
 	title         = "{Design, implementation, and application of GPU-based Java bytecode interpreters}",
 	volume        = 3,
 	year          = 2019,

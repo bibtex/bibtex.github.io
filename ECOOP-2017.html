@@ -36,18 +36,18 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+31st+European+Conference+on+Object-Oriented+Programming%22">Scholar</a><hr/><a href="http://www.dagstuhl.de/dagpub/978-3-95977-035-4">?EE?</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 31st European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');"/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#title').text(this.checked?'Proceedings of the 31st European Conference on Object-Oriented Programming':'ECOOP');$('#series').text(this.checked?'Leibniz International Proceedings in Informatics':'LIPIcs');$('#publisher').text(this.checked?'Schloss Dagstuhl - Leibniz-Zentrum für Informatik':'Dagstuhl');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{ECOOP-2017,
 	editor        = "<a href="person/Peter_Mueller_0001.html">Peter Müller 0001</a>",
 <span class="uri">	ee            = "<a href="http://www.dagstuhl.de/dagpub/978-3-95977-035-4">http://www.dagstuhl.de/dagpub/978-3-95977-035-4</a>",
 </span><span id="isbn">	isbn          = "978-3-95977-035-4",
-</span>	publisher     = "{Schloss Dagstuhl - Leibniz-Zentrum für Informatik}",
+</span>	publisher     = "{<span id="publisher">Schloss Dagstuhl - Leibniz-Zentrum für Informatik</span>}",
 	series        = "{<span id="series">Leibniz International Proceedings in Informatics</span>}",
 	title         = "{<span id="title">Proceedings of the 31st European Conference on Object-Oriented Programming</span>}",
-	volume        = "74",
-	year          = "2017",
+	volume        = 74,
+	year          = 2017,
 }</pre>
 </div>
 <hr/>

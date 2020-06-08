@@ -36,11 +36,11 @@
 <a href="https://scholar.google.com/scholar?q=%22Proceedings+of+the+38th+International+Conference+on+Very+Large+Data+Bases%22">Scholar</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the VLDB Endowment':'PVLDB');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@proceedings{VLDB-2012,
-	journal       = "{PVLDB}",
+	journal       = "{<span id="journal">Proceedings of the VLDB Endowment</span>}",
 	title         = "{Proceedings of the 38th International Conference on Very Large Data Bases}",
 	volume        = 5,
 	year          = 2012,

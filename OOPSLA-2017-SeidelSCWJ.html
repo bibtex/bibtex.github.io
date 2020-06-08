@@ -36,15 +36,16 @@
 <a href="https://scholar.google.com/scholar?q=%22Learning+to+blame:+localizing+novice+type+errors+with+data-driven+diagnosis%22">Scholar</a><hr/><a href="http://dx.doi.org/10.1145/3138818">DOI</a>
 </div>
 <div class="pre"><form action="#">
-	<input type="checkbox" checked="checked" onClick=""/> Full names
+	<input type="checkbox" checked="checked" onClick="$('#journal').text(this.checked?'Proceedings of the ACM on Programming Languages':'PACMPL');"/> Full names
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('.uri').show():$('.uri').hide();"/> Links
 	<input type="checkbox" checked="checked" onClick="(this.checked)?$('#isbn').show():$('#isbn').hide();"/> ISxN
 	</form><pre>@article{OOPSLA-2017-SeidelSCWJ,
 	author        = "<a href="person/Eric_L_Seidel.html">Eric L. Seidel</a> and Huma Sibghat and <a href="person/Kamalika_Chaudhuri.html">Kamalika Chaudhuri</a> and <a href="person/Westley_Weimer.html">Westley Weimer</a> and <a href="person/Ranjit_Jhala.html">Ranjit Jhala</a>",
 <span class="uri">	doi           = "<a href="http://dx.doi.org/10.1145/3138818">10.1145/3138818</a>",
-</span>	journal       = "{['PACMPL', 'Proceedings of the ACM on Programming Languages']}",
+</span>	journal       = "{<span id="journal">Proceedings of the ACM on Programming Languages</span>}",
 	number        = "OOPSLA",
 	pages         = "27",
+	publisher     = "{ACM}",
 	title         = "{Learning to blame: localizing novice type errors with data-driven diagnosis}",
 	volume        = 1,
 	year          = 2017,
